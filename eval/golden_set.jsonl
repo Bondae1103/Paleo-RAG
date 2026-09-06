@@ -1,0 +1,3 @@
+{"question": "What genetic evidence exists for Smilodon fatalis population decline in the Late Pleistocene?", "expected_source_doc_ids": ["REPLACE_WITH_REAL_DOC_ID"], "expected_answer_contains": ["mitochondrial", "population", "decline"]}
+{"question": "What allele frequencies have been reported for coat color genes in woolly mammoths?", "expected_source_doc_ids": ["REPLACE_WITH_REAL_DOC_ID"], "expected_answer_contains": ["allele", "coat color"]}
+{"question": "What sequencing depth was achieved in ancient DNA extracted from Siberian permafrost samples?", "expected_source_doc_ids": ["REPLACE_WITH_REAL_DOC_ID"], "expected_answer_contains": ["coverage", "sequencing"]}

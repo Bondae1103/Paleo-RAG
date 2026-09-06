@@ -1,0 +1,26 @@
+# Verified installable in the build sandbox (pinned to tested versions there).
+# sentence-transformers / torch / anthropic SDK were NOT installed+verified in the
+# build sandbox (no network access to huggingface.co or api.anthropic.com from that
+# sandbox) — pip install and smoke-test these on the target machine. See HANDOFF.md.
+
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+pydantic==2.13.5
+pydantic-settings==2.15.0
+httpx==0.28.1
+pymupdf==1.28.2
+qdrant-client==1.19.0
+celery==5.6.3
+redis==8.1.0
+python-multipart==0.0.32
+
+# --- Install and verify on the target machine (needs model-hub / API network access) ---
+sentence-transformers==3.2.1
+torch>=2.2
+anthropic==0.39.0
+rank-bm25==0.2.2
+
+# --- Dev / test ---
+pytest==9.1.1
+pytest-asyncio==1.4.0
+respx==0.23.1
