@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+data/qdrant_storage/
+data/raw_pdfs/*.pdf
+data/raw_pdfs/*.xml
+data/raw_pdfs/*.json
+data/processed/*.jsonl
+data/processed/*.json
+*.log
