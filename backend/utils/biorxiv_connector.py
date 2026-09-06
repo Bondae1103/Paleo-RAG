@@ -32,33 +32,45 @@ class ManifestRow:
     retrieved_at: str
     raw_path: str
     status: str = "downloaded"
+    publication_year: Optional[int] = None
+    taxon_scientific_name: Optional[str] = None
+    geological_period: Optional[str] = None
 
 
-def fetch_recent_details(start_cursor: int, http_client: httpx.Client) -> dict:
-    """bioRxiv's details endpoint is paginated by date range and cursor.
-    A real caller would pick a date range and page through `cursor`; the
-    exact pagination contract should be re-verified against the live API
-    since it was not exercised in the build sandbox."""
-    resp = http_client.get(f"{BIORXIV_DETAILS_URL}/2024-01-01/2024-12-31/{start_cursor}")
+def fetch_recent_details(start_cursor: int, http_client: httpx.Client, start_date: str = "2024-01-01", end_date: str = "2024-12-31") -> dict:
+    resp = http_client.get(f"{BIORXIV_DETAILS_URL}/{start_date}/{end_date}/{start_cursor}")
     resp.raise_for_status()
     return resp.json()
+
+
+def download_biorxiv_pdf(doi: str, http_client: httpx.Client) -> Optional[bytes]:
+    pdf_url = f"https://www.biorxiv.org/content/{doi}.full.pdf"
+    try:
+        resp = http_client.get(pdf_url, follow_redirects=True, timeout=30.0)
+        if resp.status_code == 200 and resp.content.startswith(b"%PDF"):
+            return resp.content
+    except Exception as exc:
+        print(f"[biorxiv_connector] PDF download failed for {doi}: {exc}")
+    return None
 
 
 def ingest_biorxiv(
     limit: int,
     raw_pdf_dir: Path,
     manifest_path: Path,
+    start_date: str = "2024-01-01",
+    end_date: str = "2024-12-31",
 ) -> list[ManifestRow]:
     raw_pdf_dir.mkdir(parents=True, exist_ok=True)
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
 
     rows: list[ManifestRow] = []
     cursor = 0
-    with httpx.Client(timeout=20.0) as client:
+    with httpx.Client(timeout=30.0, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}) as client:
         while len(rows) < limit:
             time.sleep(RATE_LIMIT_SECONDS)
             try:
-                data = fetch_recent_details(cursor, client)
+                data = fetch_recent_details(cursor, client, start_date=start_date, end_date=end_date)
             except httpx.HTTPError as exc:
                 print(f"[biorxiv_connector] fetch failed at cursor {cursor}: {exc}")
                 break
@@ -78,17 +90,31 @@ def ingest_biorxiv(
                     print(f"[biorxiv_connector] skip {entry.get('doi')}: license '{license_tag}' not approved")
                     continue
 
-                doc_id = entry.get("doi", "").replace("/", "_")
+                doi = entry.get("doi", "")
+                pdf_bytes = download_biorxiv_pdf(doi, client)
+                if not pdf_bytes:
+                    print(f"[biorxiv_connector] skip {doi}: failed to download PDF")
+                    continue
+
+                doc_id = doi.replace("/", "_")
+                raw_file_path = raw_pdf_dir / f"{doc_id}.pdf"
+                raw_file_path.write_bytes(pdf_bytes)
+
+                import re
+                entry_date = entry.get("date") or entry.get("version_date") or start_date
+                year_match = re.search(r"\b(19\d\d|20\d\d)\b", entry_date)
+                pub_year = int(year_match.group(0)) if year_match else None
+
                 row = ManifestRow(
                     doc_id=doc_id,
                     source="biorxiv",
                     license=license_tag,
-                    doi=entry.get("doi", ""),
+                    doi=doi,
                     title=entry.get("title", ""),
                     retrieved_at=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                    raw_path=str(raw_pdf_dir / f"{doc_id}.json"),
+                    raw_path=str(raw_file_path),
+                    publication_year=pub_year,
                 )
-                (raw_pdf_dir / f"{doc_id}.json").write_text(json.dumps(entry), encoding="utf-8")
                 rows.append(row)
 
             cursor += len(collection)
@@ -105,11 +131,15 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=20)
+    parser.add_argument("--start-date", default="2024-01-01")
+    parser.add_argument("--end-date", default="2024-12-31")
     args = parser.parse_args()
 
     result_rows = ingest_biorxiv(
         limit=args.limit,
         raw_pdf_dir=Path("data/raw_pdfs"),
         manifest_path=Path("data/processed/manifest.jsonl"),
+        start_date=args.start_date,
+        end_date=args.end_date,
     )
     print(f"Ingested {len(result_rows)} documents.")

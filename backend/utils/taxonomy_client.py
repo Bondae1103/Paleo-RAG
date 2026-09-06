@@ -158,15 +158,39 @@ class TaxonomyClient:
         for candidate in candidates:
             if candidate.lower() in text_lower:
                 resolution = self.resolve(candidate)
-                if resolution.scientific_name:
+                if resolution.scientific_name and resolution.scientific_name not in expansions:
                     expansions.append(resolution.scientific_name)
 
         if not expansions:
-            # Fall back to attempting resolution of the whole query as a
-            # last resort (cheap since it's cached), useful when the known
-            # taxa list is empty/stale.
+            # Generate n-grams from query (1-3 words) to extract taxon mentions
+            stopwords = {
+                "what", "is", "are", "the", "for", "in", "of", "and", "a", "an", "on", "to",
+                "from", "how", "why", "does", "did", "do", "exist", "exists", "have", "has",
+                "been", "was", "were", "with", "by", "that", "this", "these", "those", "about",
+                "which", "can", "could", "would", "should", "evidence", "genetic", "genomic",
+                "study", "studies", "known", "reported", "found", "late", "early", "middle",
+            }
+            # Clean punctuation
+            clean_query = re.sub(r"[^\w\s-]", " ", text_lower)
+            tokens = clean_query.split()
+
+            # Check 3-grams, 2-grams, 1-grams
+            for n in (3, 2, 1):
+                for i in range(len(tokens) - n + 1):
+                    ngram_tokens = tokens[i : i + n]
+                    # Skip if all tokens are stopwords
+                    if all(t in stopwords for t in ngram_tokens):
+                        continue
+                    ngram = " ".join(ngram_tokens)
+                    resolution = self.resolve(ngram)
+                    if resolution.scientific_name and resolution.source in ("gbif", "pbdb"):
+                        if resolution.scientific_name not in expansions:
+                            expansions.append(resolution.scientific_name)
+
+        if not expansions:
+            # Fall back to attempting resolution of the whole query
             resolution = self.resolve(query)
-            if resolution.scientific_name:
+            if resolution.scientific_name and resolution.scientific_name not in expansions:
                 expansions.append(resolution.scientific_name)
 
         return expansions

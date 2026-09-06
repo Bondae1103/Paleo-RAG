@@ -82,9 +82,71 @@ def _looks_like_table_line(line: str) -> bool:
     return len(tokens) >= 3
 
 
+def parse_jats_xml(path: str) -> list[Block]:
+    """Parse JATS XML (from PMC OA) into Block objects."""
+    import xml.etree.ElementTree as ET
+
+    tree = ET.parse(path)
+    root = tree.getroot()
+    blocks: list[Block] = []
+
+    abstract = root.find(".//abstract")
+    if abstract is not None:
+        abs_text = " ".join("".join(p.itertext()).strip() for p in abstract.findall(".//p"))
+        if not abs_text:
+            abs_text = "".join(abstract.itertext()).strip()
+        if abs_text:
+            blocks.append(Block(text=abs_text, section="Abstract", block_type=ChunkType.TEXT, page_number=1))
+
+    for sec in root.findall(".//body//sec"):
+        sec_title_el = sec.find("title")
+        sec_title = "".join(sec_title_el.itertext()).strip() if sec_title_el is not None else "Main"
+
+        for child in sec:
+            tag = child.tag.lower()
+            if tag == "title":
+                continue
+            if tag in ("table-wrap", "table"):
+                tbl_text = "".join(child.itertext()).strip()
+                if tbl_text:
+                    blocks.append(Block(text=tbl_text, section=sec_title, block_type=ChunkType.TABLE, page_number=1))
+            elif tag in ("fig", "figure"):
+                caption_el = child.find(".//caption")
+                caption_text = "".join(caption_el.itertext()).strip() if caption_el is not None else "".join(child.itertext()).strip()
+                if caption_text:
+                    blocks.append(Block(text=caption_text, section=sec_title, block_type=ChunkType.CAPTION, page_number=1))
+            elif tag == "p":
+                p_text = "".join(child.itertext()).strip()
+                if p_text:
+                    blocks.append(Block(text=p_text, section=sec_title, block_type=ChunkType.TEXT, page_number=1))
+
+    if not blocks:
+        body = root.find(".//body")
+        if body is not None:
+            for child in body:
+                tag = child.tag.lower()
+                if tag in ("table-wrap", "table"):
+                    tbl_text = "".join(child.itertext()).strip()
+                    if tbl_text:
+                        blocks.append(Block(text=tbl_text, section="Body", block_type=ChunkType.TABLE, page_number=1))
+                elif tag in ("fig", "figure"):
+                    cap_text = "".join(child.itertext()).strip()
+                    if cap_text:
+                        blocks.append(Block(text=cap_text, section="Body", block_type=ChunkType.CAPTION, page_number=1))
+                elif tag == "p":
+                    p_text = "".join(child.itertext()).strip()
+                    if p_text:
+                        blocks.append(Block(text=p_text, section="Body", block_type=ChunkType.TEXT, page_number=1))
+
+    return blocks
+
+
 def parse_pdf(path: str) -> list[Block]:
-    """Parse a PDF at `path` into a flat list of Block objects, tagged by
-    section and block type, in document order."""
+    """Parse a PDF or JATS XML file at `path` into a flat list of Block objects,
+    tagged by section and block type, in document order."""
+    if str(path).lower().endswith(".xml"):
+        return parse_jats_xml(path)
+
     import fitz  # PyMuPDF; imported lazily so this module can be imported
     # in environments/tests that don't need real PDF I/O.
 
