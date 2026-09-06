@@ -45,11 +45,67 @@ def _update_manifest_status(doc_id: str, status: str, error: str | None = None) 
     MANIFEST_PATH.write_text("\n".join(json.dumps(r) for r in rows) + "\n")
 
 
+def _extract_document_metadata(doc_id: str, raw_path: str, blocks: list[Block] | None = None) -> dict:
+    meta: dict = {}
+    if MANIFEST_PATH.exists():
+        try:
+            rows = [json.loads(line) for line in MANIFEST_PATH.read_text(encoding="utf-8").splitlines() if line.strip()]
+            for row in rows:
+                if row.get("doc_id") == doc_id:
+                    for k in (
+                        "doi",
+                        "title",
+                        "publication_year",
+                        "taxon_scientific_name",
+                        "taxon_common_names",
+                        "geological_period",
+                    ):
+                        if row.get(k) is not None:
+                            meta[k] = row[k]
+                    break
+        except Exception:
+            pass
+
+    # Extract publication year if missing
+    if meta.get("publication_year") is None:
+        import re
+
+        if raw_path and str(raw_path).endswith(".xml") and Path(raw_path).exists():
+            try:
+                import xml.etree.ElementTree as ET
+
+                tree = ET.parse(raw_path)
+                root = tree.getroot()
+                for year_el in root.findall(".//pub-date/year"):
+                    if year_el.text and re.match(r"^\d{4}$", year_el.text.strip()):
+                        meta["publication_year"] = int(year_el.text.strip())
+                        break
+            except Exception:
+                pass
+
+        if meta.get("publication_year") is None and meta.get("title"):
+            match = re.search(r"\b(19\d\d|20\d\d)\b", meta["title"])
+            if match:
+                meta["publication_year"] = int(match.group(0))
+
+    taxon_index_path = Path("data/processed/taxon_period_index.json")
+    if meta.get("geological_period") is None and taxon_index_path.exists() and meta.get("taxon_scientific_name"):
+        try:
+            taxon_idx = json.loads(taxon_index_path.read_text(encoding="utf-8"))
+            if meta["taxon_scientific_name"] in taxon_idx:
+                meta["geological_period"] = taxon_idx[meta["taxon_scientific_name"]]
+        except Exception:
+            pass
+
+    return meta
+
+
 @celery_app.task(bind=True, max_retries=3)
 def parse_document_task(self, doc_id: str, raw_path: str):
     try:
         blocks = parse_pdf(raw_path)
-        return {"doc_id": doc_id, "blocks": [b.__dict__ for b in blocks]}
+        metadata = _extract_document_metadata(doc_id, raw_path, blocks)
+        return {"doc_id": doc_id, "blocks": [b.__dict__ for b in blocks], "metadata": metadata}
     except Exception as exc:  # noqa: BLE001 - deliberately broad; logged to manifest
         _update_manifest_status(doc_id, "failed", str(exc))
         raise self.retry(exc=exc, countdown=30)
@@ -66,7 +122,7 @@ def chunk_document_task(parsed: dict):
         overlap_tokens=settings.chunk_overlap_tokens,
         hard_cap_tokens=settings.chunk_hard_cap_tokens,
     )
-    return {"doc_id": parsed["doc_id"], "chunks": [c.__dict__ for c in chunks]}
+    return {"doc_id": parsed["doc_id"], "chunks": [c.__dict__ for c in chunks], "metadata": parsed.get("metadata", {})}
 
 
 @celery_app.task
@@ -100,6 +156,7 @@ def dedup_check_task(chunked: dict):
         "doc_id": chunked["doc_id"],
         "chunks_to_upsert": [c.__dict__ for c in result.chunks_to_upsert],
         "stale_chunk_indices_to_delete": result.stale_chunk_indices_to_delete,
+        "metadata": chunked.get("metadata", {}),
     }
 
 
@@ -109,7 +166,7 @@ def embed_chunks_task(dedup_result: dict):
     model = build_embedding_model(settings.embedding_model_name, settings.embedding_batch_size)
     texts = [c["text"] for c in dedup_result["chunks_to_upsert"]]
     vectors = model.embed(texts) if texts else []
-    return {**dedup_result, "vectors": vectors}
+    return {**dedup_result, "vectors": vectors, "metadata": dedup_result.get("metadata", {})}
 
 
 @celery_app.task
@@ -123,20 +180,34 @@ def upsert_to_qdrant_task(embedded: dict):
     )
     store.delete_chunks(embedded["doc_id"], embedded["stale_chunk_indices_to_delete"])
 
+    metadata = embedded.get("metadata", {})
     points = []
     for chunk, vector in zip(embedded["chunks_to_upsert"], embedded["vectors"]):
+        payload = {
+            "doc_id": chunk["doc_id"],
+            "chunk_index": chunk["chunk_index"],
+            "section": chunk["section"],
+            "chunk_type": chunk["chunk_type"],
+            "chunk_text": chunk["text"],
+            "content_hash": chunk["content_hash"],
+        }
+        for k in (
+            "doi",
+            "title",
+            "publication_year",
+            "taxon_scientific_name",
+            "taxon_common_names",
+            "geological_period",
+        ):
+            v = chunk.get(k) or metadata.get(k)
+            if v is not None:
+                payload[k] = v
+
         points.append(
             {
                 "id": f"{chunk['doc_id']}::{chunk['chunk_index']}",
                 "dense_vector": vector,
-                "payload": {
-                    "doc_id": chunk["doc_id"],
-                    "chunk_index": chunk["chunk_index"],
-                    "section": chunk["section"],
-                    "chunk_type": chunk["chunk_type"],
-                    "chunk_text": chunk["text"],
-                    "content_hash": chunk["content_hash"],
-                },
+                "payload": payload,
             }
         )
     if points:

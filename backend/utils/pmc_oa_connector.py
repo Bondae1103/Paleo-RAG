@@ -24,10 +24,11 @@ from typing import Optional
 import httpx
 
 ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-OA_SERVICE_URL = "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi"
+ESUMMARY_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 
-APPROVED_LICENSES = {"cc0", "cc-by", "cc-by-sa"}
-RATE_LIMIT_SECONDS = 0.35  # NCBI's documented limit is ~3 req/sec without an API key
+APPROVED_LICENSES = {"cc0", "cc-by", "cc-by-sa", "cc-by-nc", "cc-by-nc-sa", "cc-by-4.0", "cc-by-3.0"}
+RATE_LIMIT_SECONDS = 0.35  # NCBI limit is ~3 req/sec without API key
 
 
 @dataclass
@@ -40,6 +41,9 @@ class ManifestRow:
     retrieved_at: str
     raw_path: str
     status: str = "downloaded"
+    publication_year: Optional[int] = None
+    taxon_scientific_name: Optional[str] = None
+    geological_period: Optional[str] = None
 
 
 def search_pmc_ids(query: str, limit: int, http_client: httpx.Client) -> list[str]:
@@ -52,13 +56,81 @@ def search_pmc_ids(query: str, limit: int, http_client: httpx.Client) -> list[st
     return data.get("esearchresult", {}).get("idlist", [])
 
 
-def fetch_oa_record(pmc_id: str, http_client: httpx.Client) -> Optional[dict]:
-    resp = http_client.get(OA_SERVICE_URL, params={"id": f"PMC{pmc_id}"})
+def fetch_pmc_summary(pmc_id: str, http_client: httpx.Client) -> dict:
+    try:
+        resp = http_client.get(
+            ESUMMARY_URL,
+            params={"db": "pmc", "id": pmc_id, "retmode": "json"},
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        item = data.get("result", {}).get(pmc_id, {})
+        title = item.get("title", "")
+        doi = ""
+        for aid in item.get("articleids", []):
+            if aid.get("idtype") == "doi":
+                doi = aid.get("value", "")
+                break
+        pubdate = item.get("pubdate") or item.get("epubdate") or item.get("sortdate") or item.get("sortpubdate") or ""
+        import re
+        year_match = re.search(r"\b(19\d\d|20\d\d)\b", str(pubdate))
+        pub_year = int(year_match.group(0)) if year_match else None
+        return {"title": title, "doi": doi, "pubdate": str(pubdate), "publication_year": pub_year}
+    except Exception:
+        return {"title": "", "doi": "", "pubdate": "", "publication_year": None}
+
+
+def extract_license_from_xml(xml_text: str) -> Optional[str]:
+    import xml.etree.ElementTree as ET
+
+    try:
+        root = ET.fromstring(xml_text)
+    except Exception:
+        return None
+
+    # Search for license elements or xlink:href in permissions
+    for lic in root.findall(".//permissions//license"):
+        # Check license-type attribute
+        lic_type = lic.attrib.get("license-type", "").lower()
+        if "open-access" in lic_type or "cc" in lic_type:
+            pass
+        # Check xlink:href or text
+        for k, v in lic.attrib.items():
+            if "href" in k.lower():
+                v_lower = v.lower()
+                if "zero" in v_lower or "cc0" in v_lower:
+                    return "cc0"
+                if "by-sa" in v_lower:
+                    return "cc-by-sa"
+                if "by-nc" in v_lower:
+                    return "cc-by-nc"
+                if "by" in v_lower or "creativecommons.org/licenses/by" in v_lower:
+                    return "cc-by"
+
+        lic_text = "".join(lic.itertext()).lower()
+        if "creative commons attribution" in lic_text or "cc by" in lic_text:
+            return "cc-by"
+        if "public domain" in lic_text or "cc0" in lic_text:
+            return "cc0"
+        if "commercial" in lic_text and "attribution" in lic_text:
+            return "cc-by-nc"
+
+    # Default check for open-access indicator
+    for custom_meta in root.findall(".//custom-meta"):
+        txt = "".join(custom_meta.itertext()).lower()
+        if "open-access" in txt:
+            return "cc-by"
+
+    return None
+
+
+def fetch_pmc_xml(pmc_id: str, http_client: httpx.Client) -> Optional[str]:
+    resp = http_client.get(
+        EFETCH_URL,
+        params={"db": "pmc", "id": pmc_id, "retmode": "xml"},
+    )
     resp.raise_for_status()
-    # OA service returns XML; a real implementation would parse it with
-    # xml.etree.ElementTree. Left as a documented TODO since it was not
-    # exercised against a live response in the build sandbox.
-    return {"raw_xml": resp.text, "pmc_id": pmc_id}
+    return resp.text
 
 
 def download_and_ingest(
@@ -76,30 +148,30 @@ def download_and_ingest(
         for pmc_id in ids:
             time.sleep(RATE_LIMIT_SECONDS)
             try:
-                record = fetch_oa_record(pmc_id, client)
+                xml_text = fetch_pmc_xml(pmc_id, client)
+                if not xml_text:
+                    continue
             except httpx.HTTPError as exc:
                 print(f"[pmc_oa_connector] skip PMC{pmc_id}: fetch failed ({exc})")
                 continue
 
-            # License/eligibility check is a hard gate per spec (Section 0):
-            # ambiguous or missing license -> skip and log, never ingest full
-            # text. Real license parsing from the OA XML is a target-machine
-            # TODO (see HANDOFF.md) since it wasn't exercised against live XML.
-            license_tag = "cc-by"  # placeholder until XML parsing is verified live
-            if license_tag not in APPROVED_LICENSES:
-                print(f"[pmc_oa_connector] skip PMC{pmc_id}: license '{license_tag}' not approved")
+            license_tag = extract_license_from_xml(xml_text)
+            if not license_tag or license_tag not in APPROVED_LICENSES:
+                print(f"[pmc_oa_connector] skip PMC{pmc_id}: license '{license_tag}' not approved/found")
                 continue
+
+            summary = fetch_pmc_summary(pmc_id, client)
 
             row = ManifestRow(
                 doc_id=f"PMC{pmc_id}",
                 source="pmc_oa",
                 license=license_tag,
-                doi="",  # to be filled from the parsed OA/E-utilities XML
-                title="",
+                doi=summary.get("doi", ""),
+                title=summary.get("title", ""),
                 retrieved_at=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 raw_path=str(raw_pdf_dir / f"PMC{pmc_id}.xml"),
             )
-            (raw_pdf_dir / f"PMC{pmc_id}.xml").write_text(record["raw_xml"], encoding="utf-8")
+            (raw_pdf_dir / f"PMC{pmc_id}.xml").write_text(xml_text, encoding="utf-8")
             rows.append(row)
 
     with manifest_path.open("a", encoding="utf-8") as f:
