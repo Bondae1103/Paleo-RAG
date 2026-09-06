@@ -11,3 +11,5 @@ data/raw_pdfs/*.json
 data/processed/*.jsonl
 data/processed/*.json
 *.log
+.env
+.env.local

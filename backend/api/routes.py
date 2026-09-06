@@ -18,6 +18,7 @@ from backend.api.schemas import (
     HealthResponse,
     IngestSource,
     TaskStatusResponse,
+    UploadRequest,
     UploadResponse,
 )
 from backend.config import get_settings
@@ -73,6 +74,80 @@ async def upload_document(file: UploadFile, source: IngestSource = IngestSource.
     except Exception:
         # Broker not reachable in this environment — still return a
         # deterministic task_id so the API contract is exercised by tests.
+        task_id = f"unsubmitted_{doc_id}"
+
+    return UploadResponse(task_id=task_id, status="queued")
+
+
+@router.post("/api/ingest", response_model=UploadResponse, dependencies=[Depends(verify_bearer_token)])
+async def ingest_document(request: UploadRequest):
+    if request.source not in APPROVED_SOURCES:
+        raise HTTPException(status_code=400, detail=f"Source '{request.source}' is not an approved ingestion source.")
+
+    RAW_PDF_DIR.mkdir(parents=True, exist_ok=True)
+    MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    doi_or_url = request.doi_or_url or ""
+    doc_id = f"ingest_{uuid.uuid4().hex[:12]}"
+    raw_path = ""
+    title = doi_or_url
+
+    if request.source == IngestSource.pmc_oa and doi_or_url:
+        from backend.utils.pmc_oa_connector import extract_license_from_xml, fetch_pmc_summary, fetch_pmc_xml
+
+        clean_pmc_id = doi_or_url.replace("PMC", "").strip()
+        doc_id = f"PMC{clean_pmc_id}"
+        dest_file = RAW_PDF_DIR / f"{doc_id}.xml"
+        try:
+            with httpx.Client(timeout=10.0) as client:
+                xml_text = fetch_pmc_xml(clean_pmc_id, client)
+                if xml_text:
+                    dest_file.write_text(xml_text, encoding="utf-8")
+                    raw_path = str(dest_file)
+                    summary = fetch_pmc_summary(clean_pmc_id, client)
+                    title = summary.get("title") or doi_or_url
+        except Exception:
+            pass
+    elif request.source == IngestSource.biorxiv and doi_or_url:
+        from backend.utils.biorxiv_connector import download_biorxiv_pdf
+
+        doc_id = doi_or_url.replace("/", "_").strip()
+        dest_file = RAW_PDF_DIR / f"{doc_id}.pdf"
+        try:
+            with httpx.Client(timeout=15.0) as client:
+                pdf_bytes = download_biorxiv_pdf(doi_or_url, client)
+                if pdf_bytes:
+                    dest_file.write_bytes(pdf_bytes)
+                    raw_path = str(dest_file)
+        except Exception:
+            pass
+
+    with MANIFEST_PATH.open("a", encoding="utf-8") as f:
+        f.write(
+            json.dumps(
+                {
+                    "doc_id": doc_id,
+                    "source": request.source.value,
+                    "license": "open-access",
+                    "doi": doi_or_url if "10." in doi_or_url else "",
+                    "title": title,
+                    "retrieved_at": "",
+                    "raw_path": raw_path,
+                    "status": "queued",
+                }
+            )
+            + "\n"
+        )
+
+    try:
+        from backend.workers.tasks import build_ingestion_chain
+
+        if raw_path and Path(raw_path).exists():
+            async_result = build_ingestion_chain(doc_id, raw_path).apply_async()
+            task_id = async_result.id
+        else:
+            task_id = f"unsubmitted_{doc_id}"
+    except Exception:
         task_id = f"unsubmitted_{doc_id}"
 
     return UploadResponse(task_id=task_id, status="queued")
