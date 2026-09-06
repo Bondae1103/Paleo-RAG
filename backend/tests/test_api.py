@@ -66,3 +66,25 @@ def test_health_endpoint_is_reachable_without_auth(client):
     body = response.json()
     assert "status" in body
     assert "qdrant_ok" in body
+
+
+def test_ingest_endpoint_requires_auth(client):
+    response = client.post("/api/ingest", json={"source": "pmc_oa", "doi_or_url": "PMC12345678"})
+    assert response.status_code == 401
+
+
+def test_ingest_endpoint_enqueues_task(client, auth_headers):
+    response = client.post("/api/ingest", json={"source": "pmc_oa", "doi_or_url": "PMC99999999"}, headers=auth_headers)
+    assert response.status_code == 200
+    body = response.json()
+    assert "task_id" in body
+    assert body["status"] == "queued"
+
+
+def test_task_status_endpoint(client, auth_headers):
+    response = client.get("/api/task/unsubmitted_test123", headers=auth_headers)
+    assert response.status_code == 200
+    body = response.json()
+    assert body["task_id"] == "unsubmitted_test123"
+    assert body["state"] == "PENDING"
+
