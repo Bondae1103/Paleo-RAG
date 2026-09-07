@@ -13,3 +13,10 @@ data/processed/*.json
 *.log
 .env
 .env.local
+
+# AI agent context and prompt logs
+[hH][aA][nN][dD][oO][fF][fF].[mM][dD]
+[dD][eE][cC][iI][sS][iI][oO][nN][sS].[mM][dD]
+[iI][mM][pP][lL][eE][mM][eE][nN][tT][aA][tT][iI][oO][nN].[mM][dD]
+paleo_rag_agent_implementation_plan.md
+implementation_plan.md
