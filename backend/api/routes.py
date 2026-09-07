@@ -231,9 +231,26 @@ async def health():
     except Exception as exc:  # noqa: BLE001
         detail["redis_error"] = str(exc)
 
-    llm_ok = settings.llm_provider == "mock"  # only case verifiable without a live server
-    if not llm_ok:
-        detail["llm_note"] = f"LLM provider '{settings.llm_provider}' not live-checked by /api/health."
+    llm_ok = False
+    detail["llm_provider"] = settings.llm_provider
+    if settings.llm_provider == "mock":
+        llm_ok = True
+    elif settings.llm_provider == "ollama":
+        try:
+            resp = httpx.get(f"{settings.ollama_base_url}/api/tags", timeout=2.0)
+            if resp.status_code == 200:
+                llm_ok = True
+                detail["ollama_models"] = [m.get("name") for m in resp.json().get("models", [])]
+            else:
+                detail["ollama_error"] = f"Ollama returned HTTP {resp.status_code}"
+        except Exception as exc:  # noqa: BLE001
+            detail["ollama_error"] = str(exc)
+    elif settings.llm_provider == "anthropic":
+        if settings.anthropic_api_key:
+            llm_ok = True
+        else:
+            detail["anthropic_error"] = "ANTHROPIC_API_KEY is not set."
 
-    overall = "ok" if (qdrant_ok and redis_ok) else "degraded"
+    overall = "ok" if (qdrant_ok and redis_ok and llm_ok) else "degraded"
     return HealthResponse(status=overall, qdrant_ok=qdrant_ok, redis_ok=redis_ok, llm_ok=llm_ok, detail=detail)
+

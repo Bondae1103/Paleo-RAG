@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
-from typing import AsyncIterator, Optional
+from typing import Any, AsyncIterator, Optional
 
 from backend.core.embeddings import EmbeddingModel
 from backend.core.llm_client import LLMClient
@@ -111,6 +111,8 @@ class RagPipeline:
         taxonomy_client: TaxonomyClient,
         sparse_index: BM25SparseIndex,
         top_k: int = 8,
+        reranker: Optional[Any] = None,
+        reranker_enabled: bool = False,
     ) -> None:
         self.embedding_model = embedding_model
         self.vector_store = vector_store
@@ -118,6 +120,8 @@ class RagPipeline:
         self.taxonomy_client = taxonomy_client
         self.sparse_index = sparse_index
         self.top_k = top_k
+        self.reranker = reranker
+        self.reranker_enabled = reranker_enabled
 
     def retrieve(
         self,
@@ -127,6 +131,7 @@ class RagPipeline:
         top_k: Optional[int] = None,
     ) -> tuple[ExpandedQuery, list[SearchResult]]:
         k = top_k or self.top_k
+        fetch_k = max(k * 3, 20) if self.reranker_enabled and self.reranker is not None else k
         if self.sparse_index._bm25 is None:
             try:
                 self.sparse_index.sync_from_vector_store(self.vector_store)
@@ -134,13 +139,28 @@ class RagPipeline:
                 pass
         expanded = expand_query(query, self.taxonomy_client, known_taxa=known_taxa)
         dense_vector = self.embedding_model.embed([expanded.dense_query_text])[0]
-        sparse_ranked = self.sparse_index.rank(expanded.sparse_query_terms, top_k=max(k * 3, 20))
+        sparse_ranked = self.sparse_index.rank(expanded.sparse_query_terms, top_k=max(fetch_k * 3, 20))
         results = self.vector_store.hybrid_search(
             query_vector=dense_vector,
             sparse_ranked_doc_keys=sparse_ranked,
-            top_k=k,
+            top_k=fetch_k,
             filters=filters,
         )
+
+        if self.reranker_enabled and self.reranker is not None and results:
+            pairs = [[query, r.text] for r in results]
+            try:
+                scores = self.reranker.predict(pairs)
+                ranked_results = sorted(zip(results, scores), key=lambda x: x[1], reverse=True)
+                results = [
+                    SearchResult(r.doc_id, r.chunk_index, r.section, r.chunk_type, r.text, float(score))
+                    for r, score in ranked_results
+                ][:k]
+            except Exception:
+                results = results[:k]
+        else:
+            results = results[:k]
+
         return expanded, results
 
     async def answer_stream(

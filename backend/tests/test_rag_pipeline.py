@@ -124,3 +124,66 @@ def test_rag_pipeline_auto_syncs_uninitialized_bm25_index():
     assert len(results) > 0
     assert results[0].doc_id == "docP"
     assert empty_sparse_index._bm25 is not None
+
+
+def test_rag_pipeline_reranker_reorders_chunks():
+    from backend.core.embeddings import MockEmbeddingModel
+    from backend.core.llm_client import MockLLMClient
+    from backend.core.rag_pipeline import BM25SparseIndex, RagPipeline
+    from backend.core.vector_store import VectorStore
+    from backend.utils.taxonomy_client import InMemoryCache, TaxonomyClient
+
+    store = VectorStore(collection_name="pipeline_reranker_test", vector_size=768)
+    store.upsert_chunks(
+        [
+            {
+                "id": "doc1::0",
+                "dense_vector": [0.1] * 768,
+                "payload": {
+                    "doc_id": "doc1",
+                    "chunk_index": 0,
+                    "section": "Results",
+                    "chunk_type": "text",
+                    "chunk_text": "Chunk with moderate relevance.",
+                    "content_hash": "h1",
+                },
+            },
+            {
+                "id": "doc2::0",
+                "dense_vector": [0.2] * 768,
+                "payload": {
+                    "doc_id": "doc2",
+                    "chunk_index": 0,
+                    "section": "Results",
+                    "chunk_type": "text",
+                    "chunk_text": "Chunk with highest reranker score.",
+                    "content_hash": "h2",
+                },
+            },
+        ]
+    )
+
+    class MockReranker:
+        def predict(self, pairs):
+            # Give doc2 chunk higher score regardless of initial order
+            return [0.1 if "moderate" in pair[1] else 0.95 for pair in pairs]
+
+    taxonomy_client = TaxonomyClient(
+        gbif_api_base="https://api.gbif.org/v1", pbdb_api_base="https://paleobiodb.org/data1.2", cache=InMemoryCache()
+    )
+    pipeline = RagPipeline(
+        embedding_model=MockEmbeddingModel(dimension=768),
+        vector_store=store,
+        llm_client=MockLLMClient(),
+        taxonomy_client=taxonomy_client,
+        sparse_index=BM25SparseIndex(),
+        top_k=2,
+        reranker=MockReranker(),
+        reranker_enabled=True,
+    )
+
+    _, results = pipeline.retrieve("test query", top_k=2)
+    assert len(results) == 2
+    assert results[0].doc_id == "doc2"
+    assert results[0].score == 0.95
+

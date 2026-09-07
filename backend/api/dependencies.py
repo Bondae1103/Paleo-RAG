@@ -10,6 +10,7 @@ called, and /api/health reports per-dependency status explicitly.
 from __future__ import annotations
 
 from functools import lru_cache
+from typing import Any, Optional
 
 from fastapi import Header, HTTPException, status
 
@@ -82,6 +83,19 @@ def get_sparse_index() -> BM25SparseIndex:
     return index
 
 
+@lru_cache
+def get_reranker() -> Optional[Any]:
+    settings = get_settings()
+    if not settings.reranker_enabled:
+        return None
+    try:
+        from sentence_transformers import CrossEncoder
+
+        return CrossEncoder(settings.reranker_model_name)
+    except Exception:
+        return None
+
+
 def get_rag_pipeline() -> RagPipeline:
     settings = get_settings()
     return RagPipeline(
@@ -91,4 +105,6 @@ def get_rag_pipeline() -> RagPipeline:
         taxonomy_client=get_taxonomy_client(),
         sparse_index=get_sparse_index(),
         top_k=settings.retrieval_top_k,
+        reranker=get_reranker(),
+        reranker_enabled=settings.reranker_enabled,
     )
