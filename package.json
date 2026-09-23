@@ -1,8 +1,8 @@
 {
-  "name": "paleorag-monorepo",
+  "name": "paleorag",
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "npm --prefix frontend install && npm --prefix frontend run build"
+    "build": "npm --prefix frontend run build"
   }
 }
