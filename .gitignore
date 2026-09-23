@@ -26,4 +26,7 @@ ideas.md
 todo.md
 template.json
 frontend/pnpm-lock.yaml
+package-lock.json
+frontend/package-lock.json
+frontend/patches/
 
