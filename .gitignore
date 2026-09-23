@@ -1,5 +1,7 @@
 .venv/
 venv/
+node_modules/
+dist/
 __pycache__/
 *.pyc
 .pytest_cache/
@@ -20,3 +22,8 @@ data/processed/*.json
 [iI][mM][pP][lL][eE][mM][eE][nN][tT][aA][tT][iI][oO][nN].[mM][dD]
 paleo_rag_agent_implementation_plan.md
 implementation_plan.md
+ideas.md
+todo.md
+template.json
+frontend/pnpm-lock.yaml
+
