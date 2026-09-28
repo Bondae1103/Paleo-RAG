@@ -36,6 +36,7 @@ import {
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
 import {
+  BioLookupResponse,
   fetchDocuments,
   fetchEvalSummary,
   fetchHealth,
@@ -48,8 +49,11 @@ import {
   streamChatQuery,
   uploadPdfDocument,
 } from "../lib/api";
+import { SequenceWorkbenchView } from "../components/SequenceWorkbenchView";
+import { BioDatabaseView } from "../components/BioDatabaseView";
+import { BioEntityCard } from "../components/BioEntityCard";
 
-type ViewKey = "studio" | "corpus" | "evaluation" | "diagnostics";
+type ViewKey = "studio" | "workbench" | "biodb" | "corpus" | "evaluation" | "diagnostics";
 type ChunkType = "TEXT" | "TABLE" | "CAPTION" | string;
 
 interface EvidenceItem {
@@ -73,9 +77,11 @@ interface IngestTask {
 
 const navItems: { key: ViewKey; label: string; short: string; icon: typeof Archive }[] = [
   { key: "studio", label: "Research Studio", short: "01", icon: Microscope },
-  { key: "corpus", label: "Literature Corpus", short: "02", icon: Library },
-  { key: "evaluation", label: "Benchmark Eval", short: "03", icon: Gauge },
-  { key: "diagnostics", label: "Diagnostics", short: "04", icon: Activity },
+  { key: "workbench", label: "Sequence Workbench", short: "02", icon: Dna },
+  { key: "biodb", label: "BioDB Explorer", short: "03", icon: Database },
+  { key: "corpus", label: "Literature Corpus", short: "04", icon: Library },
+  { key: "evaluation", label: "Benchmark Eval", short: "05", icon: Gauge },
+  { key: "diagnostics", label: "Diagnostics", short: "06", icon: Activity },
 ];
 
 const DEFAULT_EVIDENCE: EvidenceItem[] = [
@@ -487,13 +493,23 @@ function EvidenceDrawer({
   setActiveEvidence,
   collapsed,
   setCollapsed,
+  bioCard,
 }: {
   evidence: EvidenceItem[];
   activeEvidence: string;
   setActiveEvidence: (id: string) => void;
   collapsed: boolean;
   setCollapsed: (value: boolean) => void;
+  bioCard?: BioLookupResponse | null;
 }) {
+  const [drawerTab, setDrawerTab] = useState<"passages" | "bio">("passages");
+
+  useEffect(() => {
+    if (bioCard && evidence.length === 0) {
+      setDrawerTab("bio");
+    }
+  }, [bioCard]);
+
   return (
     <aside
       className={`${
@@ -515,25 +531,66 @@ function EvidenceDrawer({
       </div>
       {!collapsed && (
         <div className="space-y-3 p-4">
-          <div className="mb-4 flex items-center justify-between">
-            <span className="font-mono text-[10px] text-slate-600">{evidence.length} retrieved chunks</span>
-            <Badge tone="teal">
-              <CircleCheck size={11} /> Grounded
-            </Badge>
+          <div className="flex border border-white/10 bg-black/40 p-0.5 font-mono text-[11px]">
+            <button
+              onClick={() => setDrawerTab("passages")}
+              className={`flex-1 py-1.5 transition ${
+                drawerTab === "passages"
+                  ? "bg-white/[0.08] text-[#eee9de] font-semibold"
+                  : "text-slate-500 hover:text-slate-300"
+              }`}
+            >
+              Passages ({evidence.length})
+            </button>
+            <button
+              onClick={() => setDrawerTab("bio")}
+              className={`flex-1 py-1.5 flex items-center justify-center gap-1 transition ${
+                drawerTab === "bio"
+                  ? "bg-[#d5a65b]/20 text-[#f0c778] font-semibold"
+                  : bioCard
+                  ? "text-[#d5a65b] hover:text-[#f0c778]"
+                  : "text-slate-500 hover:text-slate-300"
+              }`}
+            >
+              <Database size={11} />
+              Molecular DB {bioCard && <span className="h-1.5 w-1.5 rounded-full bg-[#d5a65b] animate-ping" />}
+            </button>
           </div>
-          {evidence.length === 0 ? (
-            <div className="border border-dashed border-white/10 p-6 text-center text-xs text-slate-600">
-              No evidence chunks retrieved yet. Submit a research query to populate live passage cards.
-            </div>
-          ) : (
-            evidence.map((chunk) => (
-              <EvidenceCard
-                key={chunk.id}
-                chunk={chunk}
-                active={activeEvidence === chunk.id}
-                onClick={() => setActiveEvidence(chunk.id)}
-              />
-            ))
+
+          {drawerTab === "passages" && (
+            <>
+              <div className="flex items-center justify-between">
+                <span className="font-mono text-[10px] text-slate-600">{evidence.length} retrieved chunks</span>
+                <Badge tone="teal">
+                  <CircleCheck size={11} /> Grounded
+                </Badge>
+              </div>
+              {evidence.length === 0 ? (
+                <div className="border border-dashed border-white/10 p-6 text-center text-xs text-slate-600">
+                  No evidence chunks retrieved yet. Submit a research query to populate live passage cards.
+                </div>
+              ) : (
+                evidence.map((chunk) => (
+                  <EvidenceCard
+                    key={chunk.id}
+                    chunk={chunk}
+                    active={activeEvidence === chunk.id}
+                    onClick={() => setActiveEvidence(chunk.id)}
+                  />
+                ))
+              )}
+            </>
+          )}
+
+          {drawerTab === "bio" && (
+            bioCard ? (
+              <BioEntityCard data={bioCard} />
+            ) : (
+              <div className="border border-dashed border-white/10 p-6 text-center text-xs text-slate-600">
+                No molecular biological database entities identified in the active query yet.
+                Try querying genes like <span className="text-[#d5a65b]">HBB</span>, <span className="text-[#d5a65b]">FOXP2</span>, or <span className="text-[#d5a65b]">Pla</span>.
+              </div>
+            )
           )}
         </div>
       )}
@@ -563,6 +620,7 @@ function StudioView({
   const [answer, setAnswer] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
+  const [bioCard, setBioCard] = useState<BioLookupResponse | null>(null);
   const [auditStatus, setAuditStatus] = useState<{
     verified: boolean;
     warnings: Array<{ cited_marker: string; reason: string }>;
@@ -587,6 +645,7 @@ function StudioView({
     setIsStreaming(true);
     setAnswer("");
     setAuditStatus(null);
+    setBioCard(null);
 
     const minYearNum = parseInt(minYear, 10);
     const maxYearNum = parseInt(maxYear, 10);
@@ -630,6 +689,10 @@ function StudioView({
           verified: (terminal.citation_warnings || []).length === 0,
           warnings: terminal.citation_warnings || [],
         });
+
+        if (terminal.bio_cards) {
+          setBioCard(terminal.bio_cards);
+        }
       },
       onError: (err) => {
         setIsStreaming(false);
@@ -720,8 +783,42 @@ function StudioView({
               <div className="mt-4 flex flex-wrap gap-2">
                 <button
                   onClick={() => {
+                    const q = "What mutations in woolly mammoth hemoglobin HBB conferred cold adaptation?";
+                    setQuery(q);
+                    setTaxon("Mammuthus primigenius");
+                    runQuery(q);
+                  }}
+                  className="border border-[#d5a65b]/40 bg-[#d5a65b]/10 px-2.5 py-1 text-left font-mono text-[10px] text-[#f0c778] transition hover:bg-[#d5a65b]/20"
+                >
+                  ★ Mammoth HBB cold adaptation
+                </button>
+                <button
+                  onClick={() => {
+                    const q = "How does the Neanderthal FOXP2 sequence compare to modern human speech genetics?";
+                    setQuery(q);
+                    setTaxon("Homo neanderthalensis");
+                    runQuery(q);
+                  }}
+                  className="border border-[#4f9f96]/40 bg-[#4f9f96]/10 px-2.5 py-1 text-left font-mono text-[10px] text-[#8cd1c7] transition hover:bg-[#4f9f96]/20"
+                >
+                  ★ Neanderthal FOXP2 speech gene
+                </button>
+                <button
+                  onClick={() => {
+                    const q = "What is the role of the Pla protease on pPCP1 in ancient Yersinia pestis virulence?";
+                    setQuery(q);
+                    setTaxon("Yersinia pestis");
+                    runQuery(q);
+                  }}
+                  className="border border-[#c86868]/40 bg-[#c86868]/10 px-2.5 py-1 text-left font-mono text-[10px] text-[#f0a2a2] transition hover:bg-[#c86868]/20"
+                >
+                  ★ Ancient Y. pestis Pla protease
+                </button>
+                <button
+                  onClick={() => {
                     const q = "What spinal pathology was identified in a Smilodon fatalis specimen?";
                     setQuery(q);
+                    setTaxon("Smilodon fatalis");
                     runQuery(q);
                   }}
                   className="border border-white/10 bg-white/[0.03] px-2.5 py-1 text-left font-mono text-[10px] text-slate-300 transition hover:border-[#d5a65b]/40 hover:text-[#f0c778]"
@@ -732,21 +829,12 @@ function StudioView({
                   onClick={() => {
                     const q = "What evolutionary lineage and divergence history is supported for the extinct dire wolf?";
                     setQuery(q);
+                    setTaxon("Aenocyon dirus");
                     runQuery(q);
                   }}
                   className="border border-white/10 bg-white/[0.03] px-2.5 py-1 text-left font-mono text-[10px] text-slate-300 transition hover:border-[#d5a65b]/40 hover:text-[#f0c778]"
                 >
-                  Dire wolf evolutionary divergence
-                </button>
-                <button
-                  onClick={() => {
-                    const q = "How do pelvic remains inform Neanderthal childbirth and infant development?";
-                    setQuery(q);
-                    runQuery(q);
-                  }}
-                  className="border border-white/10 bg-white/[0.03] px-2.5 py-1 text-left font-mono text-[10px] text-slate-300 transition hover:border-[#d5a65b]/40 hover:text-[#f0c778]"
-                >
-                  Neanderthal pelvic morphology
+                  Dire wolf divergence
                 </button>
               </div>
             </div>
@@ -880,6 +968,7 @@ function StudioView({
           setActiveEvidence={setActiveEvidence}
           collapsed={collapsed}
           setCollapsed={setCollapsed}
+          bioCard={bioCard}
         />
       </div>
     </div>
@@ -1713,6 +1802,8 @@ export default function Home() {
               setActiveEvidence={setActiveEvidence}
             />
           )}
+          {active === "workbench" && <SequenceWorkbenchView />}
+          {active === "biodb" && <BioDatabaseView />}
           {active === "corpus" && <CorpusView />}
           {active === "evaluation" && <EvaluationView />}
           {active === "diagnostics" && (

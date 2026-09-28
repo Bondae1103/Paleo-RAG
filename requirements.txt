@@ -20,6 +20,9 @@ torch>=2.2
 anthropic==0.39.0
 rank-bm25==0.2.2
 
+# --- Bioinformatics ---
+biopython==1.84
+
 # --- Dev / test ---
 pytest==9.1.1
 pytest-asyncio==1.4.0

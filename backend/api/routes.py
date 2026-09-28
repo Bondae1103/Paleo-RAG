@@ -188,6 +188,18 @@ async def chat_stream(request: ChatRequest, pipeline: RagPipeline = Depends(get_
             yield f"data: {json.dumps({'token': piece})}\n\n"
 
         warnings = check_citations(full_text, chunks)
+
+        # Entity-linked molecular database card for dual-pane grounding
+        bio_cards = None
+        try:
+            from backend.utils.bio_aggregator import BioAggregator
+            aggregator = BioAggregator()
+            lookup_res = aggregator.lookup(request.query)
+            if lookup_res.protein_record or lookup_res.nucleotide_record or lookup_res.structure_record or lookup_res.domains:
+                bio_cards = lookup_res.model_dump()
+        except Exception:
+            pass
+
         final_payload = {
             "done": True,
             "retrieved_chunks": [
@@ -202,6 +214,7 @@ async def chat_stream(request: ChatRequest, pipeline: RagPipeline = Depends(get_
                 for c in chunks
             ],
             "citation_warnings": [{"cited_marker": w.cited_marker, "reason": w.reason} for w in warnings],
+            "bio_cards": bio_cards,
         }
         yield f"data: {json.dumps(final_payload)}\n\n"
 

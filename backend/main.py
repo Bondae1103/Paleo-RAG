@@ -3,6 +3,7 @@ from __future__ import annotations
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from backend.api.bio_routes import bio_router
 from backend.api.routes import router
 from backend.config import get_settings
 from backend.utils.logging_config import configure_logging
@@ -21,6 +22,7 @@ app.add_middleware(
 )
 
 app.include_router(router)
+app.include_router(bio_router)
 
 
 if __name__ == "__main__":
