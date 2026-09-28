@@ -7,6 +7,7 @@ __pycache__/
 .pytest_cache/
 .coverage
 data/qdrant_storage/
+data/bio_cache/
 data/raw_pdfs/*.pdf
 data/raw_pdfs/*.xml
 data/raw_pdfs/*.json

@@ -49,6 +49,8 @@ class TaxonResolution:
     rank: Optional[str] = None
     source: Optional[str] = None  # "gbif" | "pbdb" | "unresolved"
     geological_period: Optional[str] = None
+    lineage: list[str] = field(default_factory=list)
+    confidence: float = 1.0
 
 
 def _normalize(name: str) -> str:
@@ -112,12 +114,19 @@ class TaxonomyClient:
         if not scientific_name or data.get("matchType") == "NONE":
             return None
 
+        lineage = [
+            data.get(k) for k in ("kingdom", "phylum", "class", "order", "family", "genus") if data.get(k)
+        ]
+        conf = float(data.get("confidence", 100)) / 100.0 if "confidence" in data else 1.0
+
         return TaxonResolution(
             input_name=name,
             scientific_name=scientific_name,
             common_names=[name] if name.lower() != scientific_name.lower() else [],
             rank=data.get("rank"),
             source="gbif",
+            lineage=lineage,
+            confidence=conf,
         )
 
     def _query_pbdb(self, name: str) -> Optional[TaxonResolution]:
@@ -137,12 +146,18 @@ class TaxonomyClient:
         if not scientific_name:
             return None
 
+        lineage = [
+            record.get(k) for k in ("kgl", "phl", "cll", "odl", "fml") if record.get(k)
+        ]
+
         return TaxonResolution(
             input_name=name,
             scientific_name=scientific_name,
             rank=record.get("rnk_name") or record.get("rank"),
             source="pbdb",
             geological_period=record.get("early_interval") or record.get("oei"),
+            lineage=lineage,
+            confidence=0.9,
         )
 
     def expand_query_terms(self, query: str, known_taxa: Optional[list[str]] = None) -> list[str]:

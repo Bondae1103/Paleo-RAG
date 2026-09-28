@@ -29,6 +29,7 @@ export interface ChatStreamTerminalPayload {
   done: boolean;
   retrieved_chunks: RetrievedChunk[];
   citation_warnings: CitationWarning[];
+  bio_cards?: BioLookupResponse | null;
 }
 
 export interface HealthResponse {
@@ -317,3 +318,398 @@ export async function fetchEvalSummary(): Promise<{
 
   return response.json();
 }
+
+// ---------------------------------------------------------------------------
+// Biological Databases & Sequence Tools Schemas & API Client (CO1 - CO6)
+// ---------------------------------------------------------------------------
+
+export type SequenceType = "dna" | "rna" | "protein" | "unknown";
+export type SequenceFormat = "fasta" | "genbank" | "embl";
+
+export interface SequenceFeature {
+  type: string;
+  location: string;
+  qualifiers: Record<string, unknown>;
+}
+
+export interface SequenceRecord {
+  id: string;
+  name: string;
+  description: string;
+  sequence: string;
+  length: number;
+  seq_type: SequenceType;
+  gc_content?: number | null;
+  molecular_weight_kda?: number | null;
+  ambiguity_index?: number | null;
+  features: SequenceFeature[];
+  annotations: Record<string, unknown>;
+}
+
+export interface ValidationResult {
+  is_valid: boolean;
+  seq_type: SequenceType;
+  length: number;
+  gc_percent: number;
+  molecular_weight_kda: number;
+  ambiguity_index: number;
+  invalid_characters: string[];
+  details: string;
+}
+
+export interface ConversionResponse {
+  output_text: string;
+  record_count: number;
+  records: SequenceRecord[];
+}
+
+export interface OpenReadingFrame {
+  frame: number;
+  start: number;
+  end: number;
+  length_nt: number;
+  length_aa: number;
+  strand: number;
+  protein_sequence: string;
+}
+
+export interface TranslationFrame {
+  frame: number;
+  strand: number;
+  translation: string;
+  orfs: OpenReadingFrame[];
+}
+
+export interface TranslationResponse {
+  dna_sequence: string;
+  rna_sequence: string;
+  reverse_complement: string;
+  frames: TranslationFrame[];
+  longest_orf?: OpenReadingFrame | null;
+}
+
+export interface SubmissionValidationRequest {
+  locus_name: string;
+  sequence: string;
+  molecule_type?: string;
+  topology?: string;
+  division?: string;
+  organism: string;
+  definition: string;
+  authors?: string[];
+  title?: string;
+}
+
+export interface SubmissionValidationResponse {
+  is_valid: boolean;
+  errors: string[];
+  warnings: string[];
+  preview_genbank_record?: string | null;
+}
+
+export interface ProteinRecord {
+  accession: string;
+  entry_name: string;
+  protein_name: string;
+  organism: string;
+  organism_id?: number | null;
+  sequence: string;
+  length: number;
+  active_sites: Array<Record<string, unknown>>;
+  disulfide_bonds: Array<Record<string, unknown>>;
+  ptms: Array<Record<string, unknown>>;
+  pir_ids: string[];
+  cross_references: Record<string, Array<Record<string, unknown>>>;
+}
+
+export interface StructureRecord {
+  pdb_id: string;
+  title: string;
+  resolution_angstrom?: number | null;
+  method: string;
+  deposit_date?: string | null;
+  cath_codes: string[];
+  cath_names: string[];
+  scop_folds: string[];
+  ligands: string[];
+  chains: string[];
+  coordinates_url: string;
+}
+
+export interface DomainHit {
+  id: string;
+  database: string;
+  name: string;
+  description: string;
+  start: number;
+  end: number;
+}
+
+export interface PathwayHit {
+  pathway_id: string;
+  name: string;
+  database: string;
+  url: string;
+  description?: string | null;
+}
+
+export interface InteractionEdge {
+  source: string;
+  target: string;
+  score: number;
+  evidence_channels: Record<string, number>;
+}
+
+export interface LocusLink {
+  gene_symbol: string;
+  species: string;
+  chromosome: string;
+  start: number;
+  end: number;
+  assembly: string;
+  ensembl_url: string;
+  ucsc_url: string;
+}
+
+export interface BioLookupResponse {
+  query: string;
+  organism?: string | null;
+  nucleotide_record?: SequenceRecord | null;
+  protein_record?: ProteinRecord | null;
+  structure_record?: StructureRecord | null;
+  domains: DomainHit[];
+  pathways: PathwayHit[];
+  interactions: InteractionEdge[];
+  locus?: LocusLink | null;
+}
+
+/**
+ * Validate sequence, classify type, calculate GC%, MW, ambiguity
+ */
+export async function validateSequence(sequence: string): Promise<ValidationResult> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/sequence/validate`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...authHeaders(),
+    },
+    body: JSON.stringify({ sequence }),
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Validation failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * Bidirectional conversion between FASTA, GenBank, and EMBL formats
+ */
+export async function convertSequence(
+  inputText: string,
+  inputFormat: SequenceFormat,
+  outputFormat: SequenceFormat
+): Promise<ConversionResponse> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/sequence/convert`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...authHeaders(),
+    },
+    body: JSON.stringify({
+      input_text: inputText,
+      input_format: inputFormat,
+      output_format: outputFormat,
+    }),
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Conversion failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * Central Dogma engine: DNA -> RNA -> 6-frame translation and ORF detection
+ */
+export async function translateDogma(
+  sequence: string,
+  minOrfLengthAa: number = 20
+): Promise<TranslationResponse> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/sequence/dogma`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...authHeaders(),
+    },
+    body: JSON.stringify({
+      sequence,
+      min_orf_length_aa: minOrfLengthAa,
+    }),
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Translation failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * INSDC Submission validator (GenBank / EMBL metadata check)
+ */
+export async function validateSubmission(
+  payload: SubmissionValidationRequest
+): Promise<SubmissionValidationResponse> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/sequence/submission-check`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...authHeaders(),
+    },
+    body: JSON.stringify(payload),
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Submission check failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * Multi-database unified lookup across NCBI, UniProt, RCSB PDB, PROSITE, Pfam, KEGG, STRING, Ensembl, UCSC
+ */
+export async function lookupBio(query: string, organism?: string): Promise<BioLookupResponse> {
+  const base = getApiBaseUrl();
+  const params = new URLSearchParams();
+  if (organism) params.append("organism", organism);
+  const qs = params.toString() ? `?${params.toString()}` : "";
+  const resp = await fetch(`${base}/api/bio/lookup/${encodeURIComponent(query)}${qs}`, {
+    headers: {
+      ...authHeaders(),
+    },
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Bio lookup failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * Fetch RCSB PDB structure metadata and CATH/SCOP folds
+ */
+export async function fetchStructure(pdbId: string): Promise<StructureRecord> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/structure/${encodeURIComponent(pdbId)}`, {
+    headers: {
+      ...authHeaders(),
+    },
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Structure fetch failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * Fetch paleogenomic mutation mappings on 3D PDB structure
+ */
+export async function fetchStructureMutations(pdbId: string): Promise<{
+  pdb_id: string;
+  mutations: Array<{
+    position: number;
+    ancestral: string;
+    derived: string;
+    chain: string;
+    functional_impact?: string;
+  }>;
+}> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/structure/${encodeURIComponent(pdbId)}/mutations`, {
+    headers: {
+      ...authHeaders(),
+    },
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Structure mutations failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * Fetch PDB format coordinates from backend proxy / cache
+ */
+export async function fetchStructureCoordinates(pdbId: string): Promise<string> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/structure/${encodeURIComponent(pdbId)}/coordinates`, {
+    headers: {
+      ...authHeaders(),
+    },
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Coordinates fetch failed (${resp.status}): ${err}`);
+  }
+  return resp.text();
+}
+
+/**
+ * Fetch STRING protein-protein interactions
+ */
+export async function fetchInteractions(
+  identifier: string,
+  species?: number,
+  requiredScore?: number
+): Promise<{ identifier: string; interactions: InteractionEdge[] }> {
+  const base = getApiBaseUrl();
+  const params = new URLSearchParams();
+  if (species) params.append("species", String(species));
+  if (requiredScore) params.append("required_score", String(requiredScore));
+  const qs = params.toString() ? `?${params.toString()}` : "";
+  const resp = await fetch(`${base}/api/bio/interactions/${encodeURIComponent(identifier)}${qs}`, {
+    headers: {
+      ...authHeaders(),
+    },
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Interactions fetch failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+
+/**
+ * Scan amino acid sequence for PROSITE signatures
+ */
+export async function scanMotifs(sequence: string): Promise<{
+  sequence_length: number;
+  matches: Array<{
+    motif_id: string;
+    motif_name: string;
+    start: number;
+    end: number;
+    matched_sequence: string;
+  }>;
+}> {
+  const base = getApiBaseUrl();
+  const resp = await fetch(`${base}/api/bio/motifs/scan`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...authHeaders(),
+    },
+    body: JSON.stringify({ sequence }),
+  });
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Motif scan failed (${resp.status}): ${err}`);
+  }
+  return resp.json();
+}
+

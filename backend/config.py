@@ -58,10 +58,28 @@ class Settings(BaseSettings):
     gbif_api_base: str = "https://api.gbif.org/v1"
     pbdb_api_base: str = "https://paleobiodb.org/data1.2"
     taxonomy_cache_ttl_seconds: int = 60 * 60 * 24 * 30  # 30 days
+    query_expansion_enabled: bool = True
 
     # --- Ingestion sources ---
     pmc_oa_service_base: str = "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi"
     biorxiv_api_base: str = "https://api.biorxiv.org"
+
+    # --- Biological Database APIs ---
+    ncbi_eutils_base: str = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+    ncbi_api_key: str = ""
+    ncbi_email: str = "paleorag@example.edu"
+    ena_api_base: str = "https://www.ebi.ac.uk/ena/portal/api"
+    uniprot_api_base: str = "https://rest.uniprot.org"
+    rcsb_api_base: str = "https://data.rcsb.org/rest/v1"
+    interpro_api_base: str = "https://www.ebi.ac.uk/interpro/api"
+    prosite_api_base: str = "https://prosite.expasy.org"
+    string_api_base: str = "https://string-db.org/api"
+    biogrid_api_base: str = "https://webservice.thebiogrid.org"
+    biogrid_api_key: str = ""
+    kegg_api_base: str = "https://rest.kegg.jp"
+    ensembl_api_base: str = "https://rest.ensembl.org"
+    bio_cache_dir: str = "./data/bio_cache"
+    bio_cache_ttl_seconds: int = 60 * 60 * 24 * 7  # 7 days
 
     # --- Chunking ---
     chunk_target_tokens: int = 512

@@ -229,3 +229,48 @@ def test_scroll_all_chunks():
     assert ("docF", 0) in doc_indices
     assert ("docF", 1) in doc_indices
     assert ("docF", 2) in doc_indices
+
+
+def test_rrf_scoring_formula_on_toy_ranking():
+    """Verify that RRF Score(d) = sum_m [1 / (k + rank_m(d))] with k=60 produces exact mathematical fusion."""
+    store = _fresh_store()
+    # Insert 3 toy chunks with known non-collinear vectors for cosine ranking
+    points = [
+        {
+            "id": "toy::0",
+            "dense_vector": [1.0, 0.0] + [0.0] * 14,  # Cosine 1.0 with query -> Dense Rank 1
+            "payload": {"doc_id": "toy", "chunk_index": 0, "chunk_text": "text 0"},
+        },
+        {
+            "id": "toy::1",
+            "dense_vector": [0.707, 0.707] + [0.0] * 14,  # Cosine 0.707 with query -> Dense Rank 2
+            "payload": {"doc_id": "toy", "chunk_index": 1, "chunk_text": "text 1"},
+        },
+        {
+            "id": "toy::2",
+            "dense_vector": [0.0, 1.0] + [0.0] * 14,  # Cosine 0.0 with query -> Dense Rank 3
+            "payload": {"doc_id": "toy", "chunk_index": 2, "chunk_text": "text 2"},
+        },
+    ]
+    store.upsert_chunks(points)
+
+    # Sparse ranking: rank 1 is toy::1, rank 2 is toy::0, rank 3 is not ranked
+    sparse_ranking = [("toy", 1), ("toy", 0)]
+
+    # Query vector matches toy::0 best (rank 1), toy::1 second (rank 2)
+    query_vec = [1.0] + [0.0] * 15
+    results = store.hybrid_search(query_vec, sparse_ranked_doc_keys=sparse_ranking, top_k=3)
+
+    # Expected calculations:
+    # toy::0: dense rank 1 (1/61) + sparse rank 2 (1/62) = 1/61 + 1/62 = 0.032522
+    # toy::1: dense rank 2 (1/62) + sparse rank 1 (1/61) = 1/62 + 1/61 = 0.032522
+    # toy::2: dense rank 3 (1/63) + sparse none = 1/63 = 0.015873
+    scores = {r.chunk_index: r.score for r in results}
+    expected_score_0_1 = (1.0 / 61) + (1.0 / 62)
+    expected_score_2 = 1.0 / 63
+
+    assert abs(scores[0] - expected_score_0_1) < 1e-5
+    assert abs(scores[1] - expected_score_0_1) < 1e-5
+    assert abs(scores[2] - expected_score_2) < 1e-5
+    assert scores[0] > scores[2]
+    assert scores[1] > scores[2]

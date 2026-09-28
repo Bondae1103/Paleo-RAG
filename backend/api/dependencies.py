@@ -107,4 +107,5 @@ def get_rag_pipeline() -> RagPipeline:
         top_k=settings.retrieval_top_k,
         reranker=get_reranker(),
         reranker_enabled=settings.reranker_enabled,
+        query_expansion_enabled=settings.query_expansion_enabled,
     )

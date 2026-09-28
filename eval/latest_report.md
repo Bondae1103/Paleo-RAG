@@ -1,6 +1,6 @@
 # PaleoRAG Evaluation Report
 
-**Generated:** 2026-09-07 06:03 UTC
+**Generated:** 2026-09-28 18:16 UTC
 **Embedding model:** NeuML/pubmedbert-base-embeddings
 
 ## Retrieval
@@ -10,8 +10,8 @@
 
 ## Citation faithfulness
 
-- Faithfulness rate (answers with zero hallucinated citations): **100.00%**
-- Total hallucinated citation markers detected: 0
+- Faithfulness rate (answers with zero hallucinated citations): **96.30%**
+- Total hallucinated citation markers detected: 1
 
 ## Notes
 

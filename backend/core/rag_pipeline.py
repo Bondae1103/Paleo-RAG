@@ -113,6 +113,7 @@ class RagPipeline:
         top_k: int = 8,
         reranker: Optional[Any] = None,
         reranker_enabled: bool = False,
+        query_expansion_enabled: bool = True,
     ) -> None:
         self.embedding_model = embedding_model
         self.vector_store = vector_store
@@ -122,6 +123,7 @@ class RagPipeline:
         self.top_k = top_k
         self.reranker = reranker
         self.reranker_enabled = reranker_enabled
+        self.query_expansion_enabled = query_expansion_enabled
 
     def retrieve(
         self,
@@ -129,6 +131,7 @@ class RagPipeline:
         filters: Optional[SearchFilters] = None,
         known_taxa: Optional[list[str]] = None,
         top_k: Optional[int] = None,
+        enable_query_expansion: Optional[bool] = None,
     ) -> tuple[ExpandedQuery, list[SearchResult]]:
         k = top_k or self.top_k
         fetch_k = max(k * 3, 20) if self.reranker_enabled and self.reranker is not None else k
@@ -137,7 +140,22 @@ class RagPipeline:
                 self.sparse_index.sync_from_vector_store(self.vector_store)
             except Exception:
                 pass
-        expanded = expand_query(query, self.taxonomy_client, known_taxa=known_taxa)
+
+        use_expansion = (
+            enable_query_expansion
+            if enable_query_expansion is not None
+            else self.query_expansion_enabled
+        )
+
+        if use_expansion:
+            expanded = expand_query(query, self.taxonomy_client, known_taxa=known_taxa)
+        else:
+            expanded = ExpandedQuery(
+                original_query=query,
+                dense_query_text=query,
+                sparse_query_terms=query.split(),
+            )
+
         dense_vector = self.embedding_model.embed([expanded.dense_query_text])[0]
         sparse_ranked = self.sparse_index.rank(expanded.sparse_query_terms, top_k=max(fetch_k * 3, 20))
         results = self.vector_store.hybrid_search(
