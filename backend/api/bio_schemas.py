@@ -42,6 +42,10 @@ class SequenceRecord(BaseModel):
     annotations: dict[str, Any] = Field(default_factory=dict)
 
 
+class ValidationRequest(BaseModel):
+    sequence: str
+
+
 class ValidationResult(BaseModel):
     is_valid: bool
     seq_type: SequenceType
@@ -51,6 +55,10 @@ class ValidationResult(BaseModel):
     ambiguity_index: float
     invalid_characters: list[str] = Field(default_factory=list)
     details: str = ""
+
+
+class MotifScanRequest(BaseModel):
+    sequence: str
 
 
 class ConversionRequest(BaseModel):
