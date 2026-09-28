@@ -1,0 +1,3192 @@
+{
+  "HBB": {
+    "query": "HBB",
+    "organism": "Mammuthus primigenius",
+    "nucleotide_record": {
+      "id": "HQ184444.1",
+      "name": "HQ184444",
+      "description": "Mammuthus primigenius hemoglobin subunit beta (HBB) gene",
+      "sequence": "ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGGTTGTCTACCCCTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCACTCCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAA",
+      "length": 444,
+      "seq_type": "dna",
+      "gc_content": 56.08,
+      "molecular_weight_kda": 146.52,
+      "ambiguity_index": 0.0,
+      "features": [
+        {
+          "type": "source",
+          "location": "[0:444](+)",
+          "qualifiers": {
+            "organism": [
+              "Mammuthus primigenius"
+            ]
+          }
+        },
+        {
+          "type": "gene",
+          "location": "[0:444](+)",
+          "qualifiers": {
+            "gene": [
+              "HBB"
+            ]
+          }
+        }
+      ],
+      "annotations": {
+        "molecule_type": "DNA",
+        "topology": "linear",
+        "data_file_division": "MAM",
+        "date": "14-MAY-2010",
+        "organism": "Mammuthus primigenius"
+      }
+    },
+    "protein_record": {
+      "accession": "D3U1H9",
+      "entry_name": "D3U1H9_MAMPR",
+      "protein_name": "Hemoglobin subunit beta",
+      "organism": "Mammuthus primigenius",
+      "organism_id": 37349,
+      "sequence": "MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH",
+      "length": 147,
+      "active_sites": [
+        {
+          "type": "Binding site",
+          "start": 93,
+          "end": 93,
+          "description": "Heme (iron axial ligand)"
+        }
+      ],
+      "disulfide_bonds": [
+        {
+          "type": "Disulfide bond",
+          "start": 94,
+          "end": 113,
+          "description": "Intra-chain"
+        }
+      ],
+      "ptms": [
+        {
+          "type": "Modified residue",
+          "start": 2,
+          "end": 2,
+          "description": "N-acetylvaline"
+        }
+      ],
+      "pir_ids": [
+        "PIR00123"
+      ],
+      "cross_references": {
+        "PIR": [
+          {
+            "id": "PIR00123",
+            "properties": {}
+          }
+        ],
+        "PDB": [
+          {
+            "id": "3VRF",
+            "properties": {
+              "Method": "X-ray"
+            }
+          }
+        ],
+        "Pfam": [
+          {
+            "id": "PF00042",
+            "properties": {
+              "EntryName": "Globin"
+            }
+          }
+        ],
+        "PROSITE": [
+          {
+            "id": "PS01033",
+            "properties": {
+              "EntryName": "GLOBIN"
+            }
+          }
+        ],
+        "GO": [
+          {
+            "id": "GO:0005344",
+            "properties": {
+              "GoTerm": "F:oxygen carrier activity"
+            }
+          }
+        ]
+      }
+    },
+    "structure_record": {
+      "pdb_id": "3VRF",
+      "title": "Crystal structure of ancestral woolly mammoth hemoglobin",
+      "resolution_angstrom": 1.55,
+      "method": "X-RAY DIFFRACTION",
+      "deposit_date": "2010-05-12T00:00:00Z",
+      "cath_codes": [
+        "1.10.490.10"
+      ],
+      "cath_names": [
+        "Globins"
+      ],
+      "scop_folds": [
+        "Globin-like"
+      ],
+      "ligands": [
+        "HEM",
+        "OXY"
+      ],
+      "chains": [
+        "A",
+        "B"
+      ],
+      "coordinates_url": "https://files.rcsb.org/download/3VRF.cif"
+    },
+    "domains": [
+      {
+        "id": "PS01033",
+        "database": "PROSITE",
+        "name": "GLOBIN_HEME",
+        "description": "Globin family proximal/distal heme pocket signature (match: MVHL)",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "id": "PS01033",
+        "database": "PROSITE",
+        "name": "GLOBIN_HEME",
+        "description": "Globin family proximal/distal heme pocket signature (match: LAHL)",
+        "start": 76,
+        "end": 79
+      }
+    ],
+    "pathways": [
+      {
+        "pathway_id": "map05100",
+        "name": "Bacterial invasion of epithelial cells",
+        "database": "KEGG",
+        "url": "https://www.kegg.jp/pathway/map05100",
+        "description": "Pathogenic bacteria can induce cellular changes..."
+      }
+    ],
+    "interactions": [],
+    "locus": {
+      "gene_symbol": "HBB",
+      "species": "human",
+      "chromosome": "chr11",
+      "start": 5225464,
+      "end": 5229395,
+      "assembly": "GRCh38",
+      "ensembl_url": "https://www.ensembl.org/human/Gene/Summary?g=ENSG00000244734",
+      "ucsc_url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr11:5225464-5229395&neandAltai=pack&denisova=pack"
+    }
+  },
+  "FOXP2": {
+    "query": "FOXP2",
+    "organism": "Homo sapiens / Homo neanderthalensis",
+    "nucleotide_record": {
+      "id": "AF512946.1",
+      "name": "AF512946",
+      "description": "Homo sapiens MLL/SEPTIN6 fusion protein mRNA, partial cds",
+      "sequence": "GTGGTCATCCCGCCTCAGCCACCTACTACAGGACCGCCAAGAAAAGAAGTTCCCAAAGCCACTCCTAGTGAGCCCAAGAAAAAGCAGCCTCCACCACCAGAATCAGGTCCAGAGCAGAGCAAACAGAAAAAAGTGGCTCCCCGCCCAAGTATCCCTGTAAAACAAAAACCAAAAGAAAAGGAAAAACCACCTCCGGTCAATAAGCAGGAGAATGCAGGCACTTTGAACATCCTCAGCACTCTCTCCAATGGCAATAGTTCTAAGCAAAAAATTCCAGCAGATGGAGTCCACAGGATCAGAGTGGACTTTAAGGAGGATTGTGAAGCAGAAAATGTGTGGGAGATGGGAGGCTTAGGAATCTTGACTTCTGTTCCTATAACACCCAGGGTGGTTTGCTTTCTCTGTGCCAGTAGTGGGCATGTAGAGGGTGAAGGTTGCCGAACTGTCCCCCTGGCTGGACATGTGGGGTTTGACAGCTTGCCTGACCAGCTGGTGAATAAGTCCGTCAGCCAGGGCTTCTGCTTCAACATCCTGTGCGTGGGAGAGACAGGTTTGGGCAAGTCCACCCTCATGGACACCCTGTTCAACACCAAATTCGAAGGGGAGCCAGCCACCCACACACAGCCGGGTGTCCAGCTCCAGTCTAATACCTATGACCTCCAAGAGAGCAACGTGAGGCTAAAGCTCACGATCGTTAGCACAGTTGGCTTTGGGGACCAGATCAACAAAGAGGACAGCTACAAGCCTATCGTGGAATTCATCGATGCACAATTCGAGGCCTACCTGCAGGAAGAGCTAAAGATCCGAAGAGTGCTACACACCTACCATGACTCCCGAATCCATGTCTGCTTGTATTTCATTGCCCCCACGGGTCATTCCCTGAAGTCTCTGGACCTAGTGACTATGAAGAAGCTGGACAGTAAGGTGAACATCATCCCCATCATTGCCAAAGCAGATGCCATTTCGAAGAGTGAGCTAACAAAGTTCAAAATCAAAATCACCAGCGAGCTTGTCAGCAACGGAGTCCAGATCTATCAGTTTCCTACAGATGATGAGTCGGTGGCAGAGATCAATGGAACCATGAACGCCCACCTGCCGTTTGCTGTCATTGGCAGCACAGAAGAACTGAAGATAGGCAACAAGATGATGAGGGCGCGGCAGTATCCTTGGGGCACTGTGCAGGTTGAAAACGAGGCCCACTGCGACTTTGTGAAGCTGCGGGAGATGCTGATTCGGGTCAACATGGAGGATCTGCGGGAGCAGACCCACACCCGGCACTATGAGCTGTATCGCCGCTGTAAGCTGGAGGAGATGGGCTTCAAGGACACCGACCCTGACAGCAAACCCTTCAGTTTACAGGAGACATATGAGGCCAAAAGGAACGAGTTCCTAGGGGAACTCCAGAAAAAAGAAGAGGAGATGAGACAGATGTTCGTCCAGCGAGTCAAAGAGAAAGAAGCGGAGCTCAAAGAGGCAGAGAAAGAGCTGCACGAGAAGTTTGACCGTCTGAAGAAACTGCACCAGGACGAGAAGAAGAAACTGGAGGATAAGAAGAAATCCCTGGATGATGAAGTGAATGCTTTCAAGCAAAGAAAGACGGCGGCTGAGCTGCTCCAGTCCCAGGGCTCCCAGGCTGGAGGCTCACAGACTCTGAAGAGAGACAAAGAGAAGAAAAATTAACTCTGCTGTTTGCTGCATGCTGCATGAGACCCAGGGTCCTGGTAAGCTTGATTAACTCTAAATAGAACTGGCAGTGGCTTCTAGAACATA",
+      "length": 1770,
+      "seq_type": "dna",
+      "gc_content": 50.56,
+      "molecular_weight_kda": 584.1,
+      "ambiguity_index": 0.0,
+      "features": [
+        {
+          "type": "source",
+          "location": "[0:1770](+)",
+          "qualifiers": {
+            "organism": [
+              "Homo sapiens"
+            ],
+            "mol_type": [
+              "mRNA"
+            ],
+            "isolation_source": [
+              "patient 62"
+            ],
+            "db_xref": [
+              "taxon:9606"
+            ],
+            "map": [
+              "t(11;X)(q23;q23-q24)"
+            ]
+          }
+        },
+        {
+          "type": "CDS",
+          "location": "[<0:1680](+)",
+          "qualifiers": {
+            "codon_start": [
+              "1"
+            ],
+            "product": [
+              "MLL/SEPTIN6 fusion protein"
+            ],
+            "protein_id": [
+              "AAM82548.1"
+            ],
+            "translation": [
+              "VVIPPQPPTTGPPRKEVPKATPSEPKKKQPPPPESGPEQSKQKKVAPRPSIPVKQKPKEKEKPPPVNKQENAGTLNILSTLSNGNSSKQKIPADGVHRIRVDFKEDCEAENVWEMGGLGILTSVPITPRVVCFLCASSGHVEGEGCRTVPLAGHVGFDSLPDQLVNKSVSQGFCFNILCVGETGLGKSTLMDTLFNTKFEGEPATHTQPGVQLQSNTYDLQESNVRLKLTIVSTVGFGDQINKEDSYKPIVEFIDAQFEAYLQEELKIRRVLHTYHDSRIHVCLYFIAPTGHSLKSLDLVTMKKLDSKVNIIPIIAKADAISKSELTKFKIKITSELVSNGVQIYQFPTDDESVAEINGTMNAHLPFAVIGSTEELKIGNKMMRARQYPWGTVQVENEAHCDFVKLREMLIRVNMEDLREQTHTRHYELYRRCKLEEMGFKDTDPDSKPFSLQETYEAKRNEFLGELQKKEEEMRQMFVQRVKEKEAELKEAEKELHEKFDRLKKLHQDEKKKLEDKKKSLDDEVNAFKQRKTAAELLQSQGSQAGGSQTLKRDKEKKN"
+            ]
+          }
+        }
+      ],
+      "annotations": {
+        "molecule_type": "mRNA",
+        "topology": "linear",
+        "data_file_division": "PRI",
+        "date": "24-JUL-2016",
+        "organism": "Homo sapiens"
+      }
+    },
+    "protein_record": {
+      "accession": "O15409",
+      "entry_name": "FOXP2_HUMAN",
+      "protein_name": "Forkhead box protein P2",
+      "organism": "Homo sapiens",
+      "organism_id": 9606,
+      "sequence": "MMQESATETISNSSMNQNGMSTLSSQLDAGSRDGRSSGDTSSEVSTVELLHLQQQQALQAARQLLLQQQTSGLKSPKSSDKQRPLQVPVSVAMMTPQVITPQQMQQILQQQVLSPQQLQALLQQQQAVMLQQQQLQEFYKKQQEQLHLQLLQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQHPGKQAKEQQQQQQQQQQLAAQQLVFQQQLLQMQQLQQQQHLLSLQRQGLISIPPGQAALPVQSLPQAGLSPAEIQQLWKEVTGVHSMEDNGIKHGGLDLTTNNSSSTTSSNTSKASPPITHHSIVNGQSSVLSARRDSSSHEETGASHTLYGHGVCKWPGCESICEDFGQFLKHLNNEHALDDRSTAQCRVQMQVVQQLEIQLSKERERLQAMMTHLHMRPSEPKPSPKPLNLVSSVTMSKNMLETSPQSLPQTPTTPTAPVTPITQGPSVITPASVPNVGAIRRRHSDKYNIPMSSEIAPNYEFYKNADVRPPFTYATLIRQAIMESSDRQLTLNEIYSWFTRTFAYFRRNAATWKNAVRHNLSLHKCFVRVENVKGAVWTVDEVEYQKRRSQKITGSPTLVKNIPTSLGYGAALNASLQAALAESSLPLLSNPGLINNASSGLLQAVHEDLNGSLDHIDSNGNSSPGCSPQPHIHSIHVKEEPVIAEDEDCPMSLVTTANHSPELEDDREIEEEPLSEDLE",
+      "length": 715,
+      "active_sites": [],
+      "disulfide_bonds": [],
+      "ptms": [],
+      "pir_ids": [],
+      "cross_references": {
+        "EMBL": [
+          {
+            "id": "AF337817",
+            "properties": {
+              "ProteinId": "AAL10762.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF467252",
+            "properties": {
+              "ProteinId": "AAM60762.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF467253",
+            "properties": {
+              "ProteinId": "AAM60763.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF467254",
+            "properties": {
+              "ProteinId": "AAM60764.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF467255",
+            "properties": {
+              "ProteinId": "AAM60765.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF467256",
+            "properties": {
+              "ProteinId": "AAM60766.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF467257",
+            "properties": {
+              "ProteinId": "AAM60767.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "KJ534839",
+            "properties": {
+              "ProteinId": "AHW56479.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF493430",
+            "properties": {
+              "ProteinId": "AAM13672.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AY144615",
+            "properties": {
+              "ProteinId": "AAN60016.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AK131266",
+            "properties": {
+              "ProteinId": "BAD18444.1",
+              "Status": "ALT_SEQ",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AK296957",
+            "properties": {
+              "ProteinId": "BAG59501.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AC003992",
+            "properties": {
+              "ProteinId": "AAS07399.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AC020606",
+            "properties": {
+              "ProteinId": "AAS07502.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AC073626",
+            "properties": {
+              "ProteinId": "-",
+              "Status": "NOT_ANNOTATED_CDS",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AC074000",
+            "properties": {
+              "ProteinId": "-",
+              "Status": "NOT_ANNOTATED_CDS",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AC092148",
+            "properties": {
+              "ProteinId": "-",
+              "Status": "NOT_ANNOTATED_CDS",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AC092606",
+            "properties": {
+              "ProteinId": "-",
+              "Status": "NOT_ANNOTATED_CDS",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "CH236947",
+            "properties": {
+              "ProteinId": "EAL24367.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "CH236947",
+            "properties": {
+              "ProteinId": "EAL24369.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "CH471070",
+            "properties": {
+              "ProteinId": "EAW83483.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "CH471070",
+            "properties": {
+              "ProteinId": "EAW83484.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "CH471070",
+            "properties": {
+              "ProteinId": "EAW83486.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "BC126104",
+            "properties": {
+              "ProteinId": "AAI26105.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "BC143866",
+            "properties": {
+              "ProteinId": "AAI43867.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "U80741",
+            "properties": {
+              "ProteinId": "AAB91439.1",
+              "Status": "-",
+              "MoleculeType": "mRNA"
+            }
+          },
+          {
+            "id": "AF515031",
+            "properties": {
+              "ProteinId": "AAN03389.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515032",
+            "properties": {
+              "ProteinId": "AAN03390.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515033",
+            "properties": {
+              "ProteinId": "AAN03391.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515034",
+            "properties": {
+              "ProteinId": "AAN03392.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515035",
+            "properties": {
+              "ProteinId": "AAN03393.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515036",
+            "properties": {
+              "ProteinId": "AAN03394.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515037",
+            "properties": {
+              "ProteinId": "AAN03395.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515038",
+            "properties": {
+              "ProteinId": "AAN03396.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515039",
+            "properties": {
+              "ProteinId": "AAN03397.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515040",
+            "properties": {
+              "ProteinId": "AAN03398.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515041",
+            "properties": {
+              "ProteinId": "AAN03399.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515042",
+            "properties": {
+              "ProteinId": "AAN03400.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515043",
+            "properties": {
+              "ProteinId": "AAN03401.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515044",
+            "properties": {
+              "ProteinId": "AAN03402.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515045",
+            "properties": {
+              "ProteinId": "AAN03403.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515046",
+            "properties": {
+              "ProteinId": "AAN03404.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515047",
+            "properties": {
+              "ProteinId": "AAN03405.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515048",
+            "properties": {
+              "ProteinId": "AAN03406.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515049",
+            "properties": {
+              "ProteinId": "AAN03407.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF515050",
+            "properties": {
+              "ProteinId": "AAN03408.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          }
+        ],
+        "CCDS": [
+          {
+            "id": "CCDS43635.1",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "CCDS55154.1",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "CCDS5760.1",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "CCDS5761.2",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "RefSeq": [
+          {
+            "id": "NP_001166237.1",
+            "properties": {
+              "NucleotideSequenceId": "NM_001172766.3"
+            }
+          },
+          {
+            "id": "NP_001166238.1",
+            "properties": {
+              "NucleotideSequenceId": "NM_001172767.2"
+            }
+          },
+          {
+            "id": "NP_055306.1",
+            "properties": {
+              "NucleotideSequenceId": "NM_014491.4"
+            }
+          },
+          {
+            "id": "NP_683696.2",
+            "properties": {
+              "NucleotideSequenceId": "NM_148898.4"
+            }
+          },
+          {
+            "id": "NP_683697.2",
+            "properties": {
+              "NucleotideSequenceId": "NM_148899.3"
+            }
+          },
+          {
+            "id": "NP_683698.2",
+            "properties": {
+              "NucleotideSequenceId": "NM_148900.4"
+            }
+          }
+        ],
+        "PDB": [
+          {
+            "id": "2A07",
+            "properties": {
+              "Method": "X-ray",
+              "Resolution": "1.90 A",
+              "Chains": "F/G/H/I/J/K=502-594"
+            }
+          },
+          {
+            "id": "2AS5",
+            "properties": {
+              "Method": "X-ray",
+              "Resolution": "2.70 A",
+              "Chains": "F/G=502-594"
+            }
+          }
+        ],
+        "PDBsum": [
+          {
+            "id": "2A07",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "2AS5",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "AlphaFoldDB": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "SMR": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "BioGRID": [
+          {
+            "id": "125073",
+            "properties": {
+              "Interactions": "79"
+            }
+          }
+        ],
+        "ComplexPortal": [
+          {
+            "id": "CPX-8775",
+            "properties": {
+              "EntryName": "FOXP2 transcription factor homodimer"
+            }
+          },
+          {
+            "id": "CPX-8802",
+            "properties": {
+              "EntryName": "FOXP1-FOXP2 transcription factor complex"
+            }
+          },
+          {
+            "id": "CPX-8805",
+            "properties": {
+              "EntryName": "FOXP2-FOXP4 transcription factor complex"
+            }
+          }
+        ],
+        "DIP": [
+          {
+            "id": "DIP-29004N",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "FunCoup": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Number of interactors": "1473"
+            }
+          }
+        ],
+        "IntAct": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Interactions": "34"
+            }
+          }
+        ],
+        "MINT": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "NDEx": [
+          {
+            "id": "IQUERY-CP-FOXP2",
+            "properties": {
+              "Evidences": "1 NDEx IQuery Curated Pathway"
+            }
+          }
+        ],
+        "STRING": [
+          {
+            "id": "9606.ENSP00000386200",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "GlyGen": [
+          {
+            "id": "O15409",
+            "properties": {
+              "glycosylation": "2 sites, 1 N-linked glycan (1 site), 1 O-linked glycan (1 site)"
+            }
+          }
+        ],
+        "iPTMnet": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "PhosphoSitePlus": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "BioMuta": [
+          {
+            "id": "FOXP2",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "jPOST": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "MassIVE": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "PaxDb": [
+          {
+            "id": "9606-ENSP00000386200",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "PeptideAtlas": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "ProteomicsDB": [
+          {
+            "id": "48644",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "48645",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "48646",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "48647",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "48648",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "48649",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "48650",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "48651",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Pumba": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Antibodypedia": [
+          {
+            "id": "672",
+            "properties": {
+              "antibodies": "475 antibodies from 41 providers"
+            }
+          }
+        ],
+        "DNASU": [
+          {
+            "id": "93986",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Ensembl": [
+          {
+            "id": "ENST00000350908.9",
+            "properties": {
+              "ProteinId": "ENSP00000265436.7",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000360232.8",
+            "properties": {
+              "ProteinId": "ENSP00000353367.4",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000378237.7",
+            "properties": {
+              "ProteinId": "ENSP00000367482.3",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000393489.8",
+            "properties": {
+              "ProteinId": "ENSP00000377129.4",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000393494.6",
+            "properties": {
+              "ProteinId": "ENSP00000377132.2",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000403559.9",
+            "properties": {
+              "ProteinId": "ENSP00000385069.4",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000408937.7",
+            "properties": {
+              "ProteinId": "ENSP00000386200.3",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000412402.5",
+            "properties": {
+              "ProteinId": "ENSP00000405470.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000441290.6",
+            "properties": {
+              "ProteinId": "ENSP00000416825.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000635109.1",
+            "properties": {
+              "ProteinId": "ENSP00000489457.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000703613.1",
+            "properties": {
+              "ProteinId": "ENSP00000515397.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000703614.1",
+            "properties": {
+              "ProteinId": "ENSP00000515398.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000901759.1",
+            "properties": {
+              "ProteinId": "ENSP00000571818.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000901761.1",
+            "properties": {
+              "ProteinId": "ENSP00000571820.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000901763.1",
+            "properties": {
+              "ProteinId": "ENSP00000571822.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          },
+          {
+            "id": "ENST00000960360.1",
+            "properties": {
+              "ProteinId": "ENSP00000630419.1",
+              "GeneId": "ENSG00000128573.29"
+            }
+          }
+        ],
+        "GeneID": [
+          {
+            "id": "93986",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "KEGG": [
+          {
+            "id": "hsa:93986",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "MANE-Select": [
+          {
+            "id": "ENST00000350908.9",
+            "properties": {
+              "ProteinId": "ENSP00000265436.7",
+              "RefSeqNucleotideId": "NM_014491.4",
+              "RefSeqProteinId": "NP_055306.1"
+            }
+          }
+        ],
+        "UCSC": [
+          {
+            "id": "uc003vgx.3",
+            "properties": {
+              "OrganismName": "human"
+            }
+          }
+        ],
+        "AGR": [
+          {
+            "id": "HGNC:13875",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "ClinPGx": [
+          {
+            "id": "PA28242",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "CTD": [
+          {
+            "id": "93986",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "DisGeNET": [
+          {
+            "id": "93986",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "GeneCards": [
+          {
+            "id": "FOXP2",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "GeneReviews": [
+          {
+            "id": "FOXP2",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "HGNC": [
+          {
+            "id": "HGNC:13875",
+            "properties": {
+              "GeneName": "FOXP2"
+            }
+          }
+        ],
+        "HPA": [
+          {
+            "id": "ENSG00000128573",
+            "properties": {
+              "ExpressionPatterns": "Tissue enhanced (intestine)"
+            }
+          }
+        ],
+        "MalaCards": [
+          {
+            "id": "FOXP2",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "MIM": [
+          {
+            "id": "602081",
+            "properties": {
+              "Type": "phenotype"
+            }
+          },
+          {
+            "id": "605317",
+            "properties": {
+              "Type": "gene"
+            }
+          }
+        ],
+        "OpenTargets": [
+          {
+            "id": "ENSG00000128573",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Orphanet": [
+          {
+            "id": "251061",
+            "properties": {
+              "Disease": "7q31 microdeletion syndrome"
+            }
+          },
+          {
+            "id": "209908",
+            "properties": {
+              "Disease": "Isolated childhood apraxia of speech"
+            }
+          }
+        ],
+        "VEuPathDB": [
+          {
+            "id": "HostDB:ENSG00000128573",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "eggNOG": [
+          {
+            "id": "KOG4385",
+            "properties": {
+              "ToxonomicScope": "Eukaryota"
+            }
+          }
+        ],
+        "GeneTree": [
+          {
+            "id": "ENSGT00940000155480",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "HOGENOM": [
+          {
+            "id": "CLU_2557677_0_0_1",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "InParanoid": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "OMA": [
+          {
+            "id": "REYPESH",
+            "properties": {
+              "Fingerprint": "-"
+            }
+          }
+        ],
+        "OrthoDB": [
+          {
+            "id": "5830876at2759",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "PAN-GO": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Number of GO annotations": "7 GO annotations based on evolutionary models"
+            }
+          }
+        ],
+        "PhylomeDB": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "PathwayCommons": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Reactome": [
+          {
+            "id": "R-HSA-9764790",
+            "properties": {
+              "PathwayName": "Positive Regulation of CDH1 Gene Transcription"
+            }
+          }
+        ],
+        "SignaLink": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "SIGNOR": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Agora": [
+          {
+            "id": "ENSG00000128573",
+            "properties": {
+              "NominatedTarget": "-"
+            }
+          }
+        ],
+        "BioGRID-ORCS": [
+          {
+            "id": "93986",
+            "properties": {
+              "hits": "15 hits in 1171 CRISPR screens"
+            }
+          }
+        ],
+        "ChiTaRS": [
+          {
+            "id": "FOXP2",
+            "properties": {
+              "OrganismName": "human"
+            }
+          }
+        ],
+        "EvolutionaryTrace": [
+          {
+            "id": "O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "GeneWiki": [
+          {
+            "id": "FOXP2",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "GenomeRNAi": [
+          {
+            "id": "93986",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Pharos": [
+          {
+            "id": "O15409",
+            "properties": {
+              "DevelopmentLevel": "Tbio"
+            }
+          }
+        ],
+        "PRO": [
+          {
+            "id": "PR:O15409",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Proteomes": [
+          {
+            "id": "UP000005640",
+            "properties": {
+              "Component": "Chromosome 7"
+            }
+          }
+        ],
+        "RNAct": [
+          {
+            "id": "O15409",
+            "properties": {
+              "moleculeType": "protein"
+            }
+          }
+        ],
+        "Bgee": [
+          {
+            "id": "ENSG00000128573",
+            "properties": {
+              "ExpressionPatterns": "Expressed in buccal mucosa cell and 180 other cell types or tissues"
+            }
+          }
+        ],
+        "ExpressionAtlas": [
+          {
+            "id": "O15409",
+            "properties": {
+              "ExpressionPatterns": "baseline and differential"
+            }
+          }
+        ],
+        "GO": [
+          {
+            "id": "GO:0000785",
+            "properties": {
+              "GoTerm": "C:chromatin",
+              "GoEvidenceType": "ISA:NTNU_SB"
+            }
+          },
+          {
+            "id": "GO:0005654",
+            "properties": {
+              "GoTerm": "C:nucleoplasm",
+              "GoEvidenceType": "IDA:HPA"
+            }
+          },
+          {
+            "id": "GO:0005634",
+            "properties": {
+              "GoTerm": "C:nucleus",
+              "GoEvidenceType": "IDA:ComplexPortal"
+            }
+          },
+          {
+            "id": "GO:0005667",
+            "properties": {
+              "GoTerm": "C:transcription regulator complex",
+              "GoEvidenceType": "IPI:ComplexPortal"
+            }
+          },
+          {
+            "id": "GO:0003677",
+            "properties": {
+              "GoTerm": "F:DNA binding",
+              "GoEvidenceType": "IDA:UniProtKB"
+            }
+          },
+          {
+            "id": "GO:0003700",
+            "properties": {
+              "GoTerm": "F:DNA-binding transcription factor activity",
+              "GoEvidenceType": "IDA:BHF-UCL"
+            }
+          },
+          {
+            "id": "GO:0000981",
+            "properties": {
+              "GoTerm": "F:DNA-binding transcription factor activity, RNA polymerase II-specific",
+              "GoEvidenceType": "ISA:NTNU_SB"
+            }
+          },
+          {
+            "id": "GO:0001227",
+            "properties": {
+              "GoTerm": "F:DNA-binding transcription repressor activity, RNA polymerase II-specific",
+              "GoEvidenceType": "IBA:GO_Central"
+            }
+          },
+          {
+            "id": "GO:0042802",
+            "properties": {
+              "GoTerm": "F:identical protein binding",
+              "GoEvidenceType": "IPI:IntAct"
+            }
+          },
+          {
+            "id": "GO:0042803",
+            "properties": {
+              "GoTerm": "F:protein homodimerization activity",
+              "GoEvidenceType": "IDA:UniProtKB"
+            }
+          },
+          {
+            "id": "GO:0000978",
+            "properties": {
+              "GoTerm": "F:RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+              "GoEvidenceType": "IBA:GO_Central"
+            }
+          },
+          {
+            "id": "GO:0043565",
+            "properties": {
+              "GoTerm": "F:sequence-specific DNA binding",
+              "GoEvidenceType": "IDA:BHF-UCL"
+            }
+          },
+          {
+            "id": "GO:0001221",
+            "properties": {
+              "GoTerm": "F:transcription coregulator binding",
+              "GoEvidenceType": "IEA:Ensembl"
+            }
+          },
+          {
+            "id": "GO:0021757",
+            "properties": {
+              "GoTerm": "P:caudate nucleus development",
+              "GoEvidenceType": "IMP:UniProtKB"
+            }
+          },
+          {
+            "id": "GO:0021702",
+            "properties": {
+              "GoTerm": "P:cerebellar Purkinje cell differentiation",
+              "GoEvidenceType": "IEA:Ensembl"
+            }
+          },
+          {
+            "id": "GO:0021987",
+            "properties": {
+              "GoTerm": "P:cerebral cortex development",
+              "GoEvidenceType": "IEP:BHF-UCL"
+            }
+          },
+          {
+            "id": "GO:0010467",
+            "properties": {
+              "GoTerm": "P:gene expression",
+              "GoEvidenceType": "IEA:Ensembl"
+            }
+          },
+          {
+            "id": "GO:0045892",
+            "properties": {
+              "GoTerm": "P:negative regulation of DNA-templated transcription",
+              "GoEvidenceType": "IDA:BHF-UCL"
+            }
+          },
+          {
+            "id": "GO:0021758",
+            "properties": {
+              "GoTerm": "P:putamen development",
+              "GoEvidenceType": "IMP:UniProtKB"
+            }
+          },
+          {
+            "id": "GO:0006357",
+            "properties": {
+              "GoTerm": "P:regulation of transcription by RNA polymerase II",
+              "GoEvidenceType": "IBA:GO_Central"
+            }
+          },
+          {
+            "id": "GO:0007519",
+            "properties": {
+              "GoTerm": "P:skeletal muscle tissue development",
+              "GoEvidenceType": "IBA:GO_Central"
+            }
+          },
+          {
+            "id": "GO:0048745",
+            "properties": {
+              "GoTerm": "P:smooth muscle tissue development",
+              "GoEvidenceType": "IBA:GO_Central"
+            }
+          },
+          {
+            "id": "GO:0071625",
+            "properties": {
+              "GoTerm": "P:vocalization behavior",
+              "GoEvidenceType": "IBA:GO_Central"
+            }
+          }
+        ],
+        "CDD": [
+          {
+            "id": "cd20065",
+            "properties": {
+              "EntryName": "FH_FOXP2",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "FunFam": [
+          {
+            "id": "1.20.5.340:FF:000005",
+            "properties": {
+              "EntryName": "Forkhead box P1, isoform CRA_f",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "1.10.10.10:FF:000010",
+            "properties": {
+              "EntryName": "Forkhead box P2 isoform B",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "Gene3D": [
+          {
+            "id": "1.20.5.340",
+            "properties": {
+              "EntryName": "-",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "1.10.10.10",
+            "properties": {
+              "EntryName": "Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "IDEAL": [
+          {
+            "id": "IID00429",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "InterPro": [
+          {
+            "id": "IPR047412",
+            "properties": {
+              "EntryName": "FH_FOXP1_P2"
+            }
+          },
+          {
+            "id": "IPR001766",
+            "properties": {
+              "EntryName": "Fork_head_dom"
+            }
+          },
+          {
+            "id": "IPR050998",
+            "properties": {
+              "EntryName": "FOXP"
+            }
+          },
+          {
+            "id": "IPR032354",
+            "properties": {
+              "EntryName": "FOXP-CC"
+            }
+          },
+          {
+            "id": "IPR030456",
+            "properties": {
+              "EntryName": "TF_fork_head_CS_2"
+            }
+          },
+          {
+            "id": "IPR036388",
+            "properties": {
+              "EntryName": "WH-like_DNA-bd_sf"
+            }
+          },
+          {
+            "id": "IPR036390",
+            "properties": {
+              "EntryName": "WH_DNA-bd_sf"
+            }
+          }
+        ],
+        "PANTHER": [
+          {
+            "id": "PTHR45796",
+            "properties": {
+              "EntryName": "FORKHEAD BOX P, ISOFORM C",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "PTHR45796:SF9",
+            "properties": {
+              "EntryName": "FORKHEAD BOX PROTEIN P2",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "Pfam": [
+          {
+            "id": "PF00250",
+            "properties": {
+              "EntryName": "Forkhead",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "PF16159",
+            "properties": {
+              "EntryName": "FOXP-CC",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "PRINTS": [
+          {
+            "id": "PR00053",
+            "properties": {
+              "EntryName": "FORKHEAD"
+            }
+          }
+        ],
+        "SMART": [
+          {
+            "id": "SM00339",
+            "properties": {
+              "EntryName": "FH",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "SUPFAM": [
+          {
+            "id": "SSF46785",
+            "properties": {
+              "EntryName": "Winged helix' DNA-binding domain",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "PROSITE": [
+          {
+            "id": "PS00658",
+            "properties": {
+              "EntryName": "FORK_HEAD_2",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "PS50039",
+            "properties": {
+              "EntryName": "FORK_HEAD_3",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "PS52079",
+            "properties": {
+              "EntryName": "FOXP_ZIP",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "PS00028",
+            "properties": {
+              "EntryName": "ZINC_FINGER_C2H2_1",
+              "MatchStatus": "1"
+            }
+          }
+        ]
+      }
+    },
+    "structure_record": null,
+    "domains": [
+      {
+        "id": "PS01033",
+        "database": "PROSITE",
+        "name": "GLOBIN_HEME",
+        "description": "Globin family proximal/distal heme pocket signature (match: LLHL)",
+        "start": 49,
+        "end": 52
+      },
+      {
+        "id": "PS01033",
+        "database": "PROSITE",
+        "name": "GLOBIN_HEME",
+        "description": "Globin family proximal/distal heme pocket signature (match: LKHL)",
+        "start": 364,
+        "end": 367
+      },
+      {
+        "id": "PS01033",
+        "database": "PROSITE",
+        "name": "GLOBIN_HEME",
+        "description": "Globin family proximal/distal heme pocket signature (match: MTHL)",
+        "start": 406,
+        "end": 409
+      },
+      {
+        "id": "PS01033",
+        "database": "PROSITE",
+        "name": "GLOBIN_HEME",
+        "description": "Globin family proximal/distal heme pocket signature (match: LDHI)",
+        "start": 649,
+        "end": 652
+      },
+      {
+        "id": "PS00658",
+        "database": "PROSITE",
+        "name": "FORK_HEAD_2",
+        "description": "Forkhead domain signature 2 (FOXP2) (match: WKNAVRH)",
+        "start": 548,
+        "end": 554
+      }
+    ],
+    "pathways": [
+      {
+        "pathway_id": "map05100",
+        "name": "Bacterial invasion of epithelial cells",
+        "database": "KEGG",
+        "url": "https://www.kegg.jp/pathway/map05100",
+        "description": "Pathogenic bacteria can induce cellular changes..."
+      }
+    ],
+    "interactions": [
+      {
+        "source": "CTBP1",
+        "target": "NFATC2",
+        "score": 0.422,
+        "evidence_channels": {
+          "experimental": 0.166,
+          "database": 0.0,
+          "coexpression": 0.042,
+          "textmining": 0.335,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "CTBP1",
+        "target": "FOXP4",
+        "score": 0.502,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.042,
+          "textmining": 0.501,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "CTBP1",
+        "target": "FOXP1-2",
+        "score": 0.526,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.526,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "CTBP1",
+        "target": "FOXP1",
+        "score": 0.65,
+        "evidence_channels": {
+          "experimental": 0.292,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.526,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "CTBP1",
+        "target": "FOXP2",
+        "score": 0.934,
+        "evidence_channels": {
+          "experimental": 0.611,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.839,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "CNTNAP2",
+        "target": "FOXP1-2",
+        "score": 0.646,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.646,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "CNTNAP2",
+        "target": "FOXP1",
+        "score": 0.646,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.646,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "CNTNAP2",
+        "target": "FOXP2",
+        "score": 0.977,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.049,
+          "textmining": 0.977,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP4",
+        "target": "TBR1",
+        "score": 0.478,
+        "evidence_channels": {
+          "experimental": 0.329,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.254,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP4",
+        "target": "FOXP1-2",
+        "score": 0.794,
+        "evidence_channels": {
+          "experimental": 0.422,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.654,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP4",
+        "target": "FOXP3",
+        "score": 0.812,
+        "evidence_channels": {
+          "experimental": 0.786,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.126,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP4",
+        "target": "FOXP1",
+        "score": 0.867,
+        "evidence_channels": {
+          "experimental": 0.625,
+          "database": 0.0,
+          "coexpression": 0.042,
+          "textmining": 0.656,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP4",
+        "target": "FOXP2",
+        "score": 0.952,
+        "evidence_channels": {
+          "experimental": 0.863,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.662,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP3",
+        "target": "FOXP1-2",
+        "score": 0.71,
+        "evidence_channels": {
+          "experimental": 0.675,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.116,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP3",
+        "target": "FOXP1",
+        "score": 0.778,
+        "evidence_channels": {
+          "experimental": 0.757,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.124,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP3",
+        "target": "FOXP2",
+        "score": 0.843,
+        "evidence_channels": {
+          "experimental": 0.823,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.152,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP3",
+        "target": "NFATC2",
+        "score": 0.995,
+        "evidence_channels": {
+          "experimental": 0.947,
+          "database": 0.5,
+          "coexpression": 0.06,
+          "textmining": 0.843,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "TBR1",
+        "target": "FOXP1",
+        "score": 0.707,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.707,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "TBR1",
+        "target": "FOXP1-2",
+        "score": 0.792,
+        "evidence_channels": {
+          "experimental": 0.322,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.707,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "TBR1",
+        "target": "FOXP2",
+        "score": 0.861,
+        "evidence_channels": {
+          "experimental": 0.33,
+          "database": 0.0,
+          "coexpression": 0.042,
+          "textmining": 0.801,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "NFATC2",
+        "target": "FOXP1-2",
+        "score": 0.577,
+        "evidence_channels": {
+          "experimental": 0.071,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.564,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "NFATC2",
+        "target": "FOXP1",
+        "score": 0.586,
+        "evidence_channels": {
+          "experimental": 0.071,
+          "database": 0.0,
+          "coexpression": 0.063,
+          "textmining": 0.563,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "NFATC2",
+        "target": "FOXP2",
+        "score": 0.918,
+        "evidence_channels": {
+          "experimental": 0.903,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.194,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP2",
+        "target": "FOXP1",
+        "score": 0.897,
+        "evidence_channels": {
+          "experimental": 0.83,
+          "database": 0.0,
+          "coexpression": 0.042,
+          "textmining": 0.412,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FOXP2",
+        "target": "FOXP1-2",
+        "score": 0.905,
+        "evidence_channels": {
+          "experimental": 0.846,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.407,
+          "neighborhood": 0.0
+        }
+      }
+    ],
+    "locus": {
+      "gene_symbol": "FOXP2",
+      "species": "human",
+      "chromosome": "chr7",
+      "start": 114086186,
+      "end": 114693772,
+      "assembly": "GRCh38",
+      "ensembl_url": "https://www.ensembl.org/human/Gene/Summary?g=ENSG00000128573",
+      "ucsc_url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr7:114086186-114693772&neandAltai=pack&denisova=pack"
+    }
+  },
+  "Pla": {
+    "query": "Pla",
+    "organism": "Yersinia pestis",
+    "nucleotide_record": {
+      "id": "AL590842.1",
+      "name": "AL590842",
+      "description": "Yersinia pestis CO92 complete genome",
+      "sequence": "GATCTTTTTATTTAAACGATCTCTTTATTAGATCTCTTATTAGGATCATGATCCTCTGTGGATAAGTGATTATTCACATGGCAGATCATATAATTAAGGAGGATCGTTTGTTGTGAGTGACCGGTGATCGTATTGCGTATAAGCTGGGATCTAAATGGCATGTTATGCACAGTCACTCGGCAGAATCAAGGTTGTTATGTGGATATCTACTGGTTTTACCCTGCTTTTAAGCATAGTTATACACATTCGTTCGCGCGATCTTTGAGCTAATTAGAGTAAATTAATCCAATCTTTGACCCAAATCTCTGCTGGATCCTCTGGTATTTCATGTTGGATGACGTCAATTTCTAATATTTCACCCAACCGTTGAGCACCTTGTGCGATCAATTGTTGATCCAGTTTTATGATTGCACCGCAGAAAGTGTCATATTCTGAGCTGCCTAAACCAACCGCCCCAAAGCGTACTTGGGATAAATCAGGCTTTTGTTGTTCGATCTGTTCTAATAATGGCTGCAAGTTATCAGGTAGATCCCCGGCACCATGAGTGGATGTCACGATTAACCACAGGCCATTCAGCGTAAGTTCGTCCAACTCTGGGCCATGAAGTATTTCTGTAGAAAACCCAGCTTCTTCTAATTTATCCGCTAAATGTTCAGCAACATATTCAGCACTACCAAGCGTACTGCCACTTATCAACGTTATGTCAGCCATTCAAGAACCCAACTGAAGTAAAGAGCTGGCATTGTACTCTGTGAATCAGCTGGGATCTAGCTGTGGATAATGTGGGTATAGTTATTTTAGGGTTAAGGAACGATCGTACGCATGATAGGGTTTTGCAGTGATATTAGTGTCTCGGTTGACTGGATCTCATCAATAGTCTGGATTTTGTTGATAAGTACCTGCTGCAATGCATCAATGGATTTACACATCACTTTAATAAATATGCTGTAGTGGCCAGTGGTGTAATAGGCCTCAACCACTTCTTCTAAGCTTTCCAATTTTTTCAAGGCGGAAGGGTAATCTTTGGCACTTTTCAAGATTATGCCAATAAAGCAGCAAACGTCGTAACCCAGTTGTTTTGGGTTAACGTGTACACAAGCTGCGGTAATGATCCCTGCTTGCCGCATCTTTTCTACTCTTACATGAATAGTTCCGGGGCTAACAGCGAGGTTTTTGGCTAATTCAGCATAGGGTGTGCGTGCATTTTCCATTAATGCTTTCAGGATGCTGCGATCGAGATTATCGATCTGATAAATTTCACTCATATTTCCCCCGTTTTTTTATCGATATCTCAATTATAGTGCCATATAAATTCATTATTAAAACCATAATGGCTATATTTGTTATTGGATATTGAATTTAACCCTCATTCTGTTGCTTAATCGATGACAAGCCAGTAGGCATAACTAAACATAACGAATTGAGAAAACAGCAATGAAAAAACAATTTATCCAAAAACAACAACAAATCAGCTTCGTAAAATCATTCTTTTCCCGCCAATTAGAGCAACAACTTGGCTTGATCGAAGTCCAGGCTCCTATTTTGAGCCGTGTGGGTGATGGAACCCAAGATAACCTTTCTGGTTCTGAGAAAGCGGTACAGGTAAAAGTTAAGTCATTGCCGGATTCAACTTTTGAAGTTGTACATTCATTAGCGAAGTGGAAACGTAAAACCTTAGGGCGTTTTGATTTTGGTGCTGACCAAGGGGTGTATACCCATATGAAAGCATTGCGCCCAGATGAAGATCGCCTGAGTGCTATTCATTCTGTATATGTAGATCAGTGGGATTGGGAACGGGTTATGGGGGACGGTGAACGTAACCTGGCTTACCTGAAATCGACTGTTAACAAGATTTATGCAGCGATTAAAGAAACTGAAGCGGCGATCAGTGCTGAGTTTGGTGTGAAGCCTTTCCTGCCGGATCATATTCAGTTTATCCACAGTGAAAGCCTGCGGGCCAGATTCCCTGATTTAGATGCTAAAGGCCGTGAACGTGCAAT",
+      "length": 4653728,
+      "seq_type": "dna",
+      "gc_content": 47.64,
+      "molecular_weight_kda": 1535730.24,
+      "ambiguity_index": 0.0,
+      "features": [
+        {
+          "type": "source",
+          "location": "[0:4653728](+)",
+          "qualifiers": {
+            "organism": [
+              "Yersinia pestis CO92"
+            ],
+            "mol_type": [
+              "genomic DNA"
+            ],
+            "strain": [
+              "CO92"
+            ],
+            "db_xref": [
+              "taxon:214092"
+            ],
+            "note": [
+              "biovar:Orientalis"
+            ]
+          }
+        },
+        {
+          "type": "gene",
+          "location": "[270:711](-)",
+          "qualifiers": {
+            "locus_tag": [
+              "YPO0001"
+            ]
+          }
+        },
+        {
+          "type": "CDS",
+          "location": "[270:711](-)",
+          "qualifiers": {
+            "locus_tag": [
+              "YPO0001"
+            ],
+            "note": [
+              "Similar to the FMN-binding domain of many flavoproteins e.g. Salmonella typhimurium sulfite reductase [NADPH] flavoprotein alpha-component CysJ SW:CYSJ_SALTY (P38039) (598 aa) fasta scores: E(): 3.8e-06, 32.0% id in 128 aa. Also highly similar over entire range to Escherichia coli MioC protein, the fuction of which in a chromosomal context, is unknown SW:MIOC_ECOLI (P03817) (146 aa) fasta scores: E(): 0, 66.9% id in 145 aa"
+            ],
+            "codon_start": [
+              "1"
+            ],
+            "transl_table": [
+              "11"
+            ],
+            "product": [
+              "putative flavoprotein"
+            ],
+            "protein_id": [
+              "CAL18691.1"
+            ],
+            "db_xref": [
+              "GOA:Q7CLF0",
+              "InterPro:IPR001094",
+              "InterPro:IPR008254",
+              "InterPro:IPR029039",
+              "UniProtKB/TrEMBL:Q7CLF0"
+            ],
+            "translation": [
+              "MADITLISGSTLGSAEYVAEHLADKLEEAGFSTEILHGPELDELTLNGLWLIVTSTHGAGDLPDNLQPLLEQIEQQKPDLSQVRFGAVGLGSSEYDTFCGAIIKLDQQLIAQGAQRLGEILEIDVIQHEIPEDPAEIWVKDWINLL"
+            ]
+          }
+        },
+        {
+          "type": "gene",
+          "location": "[803:1265](-)",
+          "qualifiers": {
+            "gene": [
+              "asnC"
+            ],
+            "locus_tag": [
+              "YPO0002"
+            ]
+          }
+        },
+        {
+          "type": "CDS",
+          "location": "[803:1265](-)",
+          "qualifiers": {
+            "gene": [
+              "asnC"
+            ],
+            "locus_tag": [
+              "YPO0002"
+            ],
+            "note": [
+              "Similar to the Escherichia coli regulator of AnsA: AsnC SW:ASNC_ECOLI (P03809) (152 aa) fasta scores: E(): 0,84.8% id in 151 aa"
+            ],
+            "codon_start": [
+              "1"
+            ],
+            "transl_table": [
+              "11"
+            ],
+            "product": [
+              "regulatory protein"
+            ],
+            "protein_id": [
+              "CAL18692.1"
+            ],
+            "db_xref": [
+              "GOA:Q7CLE9",
+              "InterPro:IPR000485",
+              "InterPro:IPR011008",
+              "InterPro:IPR011991",
+              "InterPro:IPR019885",
+              "InterPro:IPR019887",
+              "InterPro:IPR019888",
+              "UniProtKB/TrEMBL:Q7CLE9"
+            ],
+            "translation": [
+              "MSEIYQIDNLDRSILKALMENARTPYAELAKNLAVSPGTIHVRVEKMRQAGIITAACVHVNPKQLGYDVCCFIGIILKSAKDYPSALKKLESLEEVVEAYYTTGHYSIFIKVMCKSIDALQQVLINKIQTIDEIQSTETLISLQNPIMRTIVP"
+            ]
+          }
+        },
+        {
+          "type": "misc_feature",
+          "location": "[869:1175](-)",
+          "qualifiers": {
+            "gene": [
+              "asnC"
+            ],
+            "locus_tag": [
+              "YPO0002"
+            ],
+            "inference": [
+              "protein motif:PFAM:PF01037"
+            ],
+            "note": [
+              "Pfam match to entry PF01037 ASNC_trans_reg, AsnC family, score 63.50, E-value 4.4e-15"
+            ]
+          }
+        },
+        {
+          "type": "misc_feature",
+          "location": "[1112:1193](-)",
+          "qualifiers": {
+            "gene": [
+              "asnC"
+            ],
+            "locus_tag": [
+              "YPO0002"
+            ],
+            "inference": [
+              "protein motif:ProSite:PS00519"
+            ],
+            "note": [
+              "PS00519 Bacterial regulatory proteins, asnC family signature."
+            ]
+          }
+        },
+        {
+          "type": "misc_feature",
+          "location": "[1130:1196](-)",
+          "qualifiers": {
+            "gene": [
+              "asnC"
+            ],
+            "locus_tag": [
+              "YPO0002"
+            ],
+            "note": [
+              "Predicted helix-turn-helix motif with score 1363 (+3.83 SD) at aa 6-27, sequence TPYAELAKNLAVSPGTIHVRVE"
+            ]
+          }
+        },
+        {
+          "type": "gene",
+          "location": "[1434:2427](+)",
+          "qualifiers": {
+            "gene": [
+              "asnA"
+            ],
+            "locus_tag": [
+              "YPO0003"
+            ]
+          }
+        },
+        {
+          "type": "CDS",
+          "location": "[1434:2427](+)",
+          "qualifiers": {
+            "gene": [
+              "asnA"
+            ],
+            "locus_tag": [
+              "YPO0003"
+            ],
+            "EC_number": [
+              "6.3.1.1"
+            ],
+            "note": [
+              "Similar to Escherichia coli aspartate-ammonia ligase AsnA SW:ASNA_ECOLI (P00963) (330 aa) fasta scores: E(): 0,78.5% id in 330 aa"
+            ],
+            "codon_start": [
+              "1"
+            ],
+            "transl_table": [
+              "11"
+            ],
+            "product": [
+              "aspartate-ammonia ligase"
+            ],
+            "protein_id": [
+              "CAL18693.1"
+            ],
+            "db_xref": [
+              "GOA:Q8ZJT3",
+              "InterPro:IPR004618",
+              "InterPro:IPR006195"
+            ],
+            "translation": [
+              "MKKQFIQKQQQISFVKSFFSRQLEQQLGLIEVQAPILSRVGDGTQDNLSGSEKAVQVKVKSLPDSTFEVVHSLAKWKRKTLGRFDFGADQGVYTHMKALRPDEDRLSAIHSVYVDQWDWERVMGDGERNLAYLKSTVNKIYAAIKETEAAISAEFGVKPFLPDHIQFIHSESLRARFPDLDAKGRERAIAKELGAVFLIGIGGKLADGQSHDVRAPDYDDWTSPSAEGFSGLNGDIIVWNPILEDAFEISSMGIRVDAEALKRQLALTGDEDRLELEWHQSLLRGEMPQTIGGGIGQSRLVMLLLQKQHIGQVQCGVWGPEISEKVDGLL"
+            ]
+          }
+        },
+        {
+          "type": "gene",
+          "location": "[2525:3992](-)",
+          "qualifiers": {
+            "locus_tag": [
+              "YPO0004"
+            ]
+          }
+        },
+        {
+          "type": "CDS",
+          "location": "[2525:3992](-)",
+          "qualifiers": {
+            "locus_tag": [
+              "YPO0004"
+            ],
+            "inference": [
+              "similar to sequence:INSDC:AE004404"
+            ],
+            "note": [
+              "Similar to Vibrio cholerae hypothetical protein VCA0762 TR:Q9KLI2 (EMBL:AE004404) (481 aa) fasta scores: E(): 0, 34.1% id in 496 aa"
+            ],
+            "codon_start": [
+              "1"
+            ],
+            "transl_table": [
+              "11"
+            ],
+            "product": [
+              "conserved hypothetical protein"
+            ],
+            "protein_id": [
+              "CAL18694.1"
+            ],
+            "db_xref": [
+              "InterPro:IPR002035",
+              "InterPro:IPR008912",
+              "InterPro:IPR023481"
+            ],
+            "translation": [
+              "MLSLATLDMLLSISEGELIEEMVVGLLAAPQLAIFFEKFPRIKRALMKDIPGWKQNLQQRIREASVPPGLANEFSLYQQSLLEDSPQFYAHLPDIVAQLQDLHSPFATQAKTLVQTADLAKNPPGGDSLQTLFLQRWRVSLILQTITIHHQLLEQEREQLLAELQRRLALSGALEPILTTNDNAAGRLWDMSQGHLQRGDYQLLLQYGDFLQQQPELIRLAEQLGRSRSAKAQPAPDARYEPYTVMVRQPDSVPEEVSGIHQSNDILRLLPTELVMLGMSELEFEFYRRLLERRLLTYRLQGDNWQEKTQQRPVSLKQNDEQPRGPFIVCVDTSGSMGGFNEQCAKAFCLALLRIALADNRRCYIMLFATEIIHYELSADNGIEQAIRFLNQHFRGGTDLAACLANTLNKMEDREWYDADAVIISDFIAQRLPEELVRKIKIQQQAHQHRFHAVAMSAYGKPGIMRIFDHIWRFDTSLKSRLIRRWKR"
+            ]
+          }
+        },
+        {
+          "type": "gene",
+          "location": "[3995:5549](-)",
+          "qualifiers": {
+            "locus_tag": [
+              "YPO0005"
+            ]
+          }
+        },
+        {
+          "type": "CDS",
+          "location": "[3995:5549](-)",
+          "qualifiers": {
+            "locus_tag": [
+              "YPO0005"
+            ],
+            "note": [
+              "Similar to Escherichia coli hypothetical protein YieN SW:YIEN_ECOLI (P31473) (498 aa) fasta scores: E(): 0,67.8% id in 497 aa"
+            ],
+            "codon_start": [
+              "1"
+            ],
+            "transl_table": [
+              "11"
+            ],
+            "product": [
+              "conserved hypothetical protein"
+            ],
+            "protein_id": [
+              "CAL18695.1"
+            ],
+            "db_xref": [
+              "GOA:Q8ZJT1",
+              "InterPro:IPR003593",
+              "InterPro:IPR011704",
+              "InterPro:IPR022547",
+              "InterPro:IPR023671",
+              "InterPro:IPR027417"
+            ],
+            "translation": [
+              "MAQSSQLAERISRLSHALESGLYERQEAIRLCLLAALSGESVFLLGPPGIAKSLIARRLKFAFRHARAFEYLMTRFSTPEEVFGPLSIQALKEEGRYQRMTGGYLPEAEIVFLDEIWKAGPAILNTLLTAINERRFRNGDREDSIPMRLLVTASNELPDADSSLEALYDRMLIRLWLDRVQEKQNFRSLLISRQNENHNPVAENLSITDEEFHQWQPLIDKITLPDHCFELIFQLRQRLSALEHAPYVSDRRWKKALRLLQASAFFSGRDEITPIDLILLKDCLWHDLNSFKLLQQQLEQLLTEQGYQQQSLLMKLQDINSKWLQHQQQQSDHQALTVVKQSGMFSRKAQYALPDNLTDSTLTLLLQKPLNLHDIQVNHLQVDKEALAQWLNKGGALRAKLNGVGYAQSIDAEIDDQLHIIILDVSRQPSTLSLPGATTTSVPPELLLALTKLESTLAEQRRLFSQHQPCLFTPSSWLAKIEASLLQVVEQLQFQQIQFQQIQFQQRKFQQQKHSGH"
+            ]
+          }
+        },
+        {
+          "type": "gene",
+          "location": "[5822:7691](+)",
+          "qualifiers": {
+            "gene": [
+              "kup"
+            ],
+            "locus_tag": [
+              "YPO0006"
+            ],
+            "gene_synonym": [
+              "trkD"
+            ]
+          }
+        }
+      ],
+      "annotations": {
+        "molecule_type": "DNA",
+        "topology": "circular",
+        "data_file_division": "BCT",
+        "date": "06-FEB-2015",
+        "organism": "Yersinia pestis CO92"
+      }
+    },
+    "protein_record": {
+      "accession": "P17811",
+      "entry_name": "PLA_YERPE",
+      "protein_name": "Plasminogen activator",
+      "organism": "Yersinia pestis",
+      "organism_id": 632,
+      "sequence": "MKKSSIVATIITILSGSANAASSQLIPNISPDSFTVAASTGMLSGKSHEMLYDAETGRKISQLDWKIKNVAILKGDISWDPYSFLTLNARGWTSLASGSGNMDDYDWMNENQSEWTDHSSHPATNVNHANEYDLNVKGWLLQDENYKAGITAGYQETRFSWTATGGSYSYNNGAYTGNFPKGVRVIGYNQRFSMPYIGLAGQYRINDFELNALFKFSDWVRAHDNDEHYMRDLTFREKTSGSRYYGTVINAGYYVTPNAKVFAEFTYSKYDEGKGGTQTIDKNSGDSVSIGGDAAGISNKNYTVTAGLQYRF",
+      "length": 312,
+      "active_sites": [
+        {
+          "type": "Active site",
+          "start": 104,
+          "end": 104,
+          "description": ""
+        },
+        {
+          "type": "Active site",
+          "start": 106,
+          "end": 106,
+          "description": ""
+        },
+        {
+          "type": "Active site",
+          "start": 226,
+          "end": 226,
+          "description": ""
+        },
+        {
+          "type": "Active site",
+          "start": 228,
+          "end": 228,
+          "description": ""
+        }
+      ],
+      "disulfide_bonds": [],
+      "ptms": [],
+      "pir_ids": [
+        "A42928",
+        "S06979"
+      ],
+      "cross_references": {
+        "EMBL": [
+          {
+            "id": "X15136",
+            "properties": {
+              "ProteinId": "CAA33235.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "M27820",
+            "properties": {
+              "ProteinId": "AAA27667.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AF053945",
+            "properties": {
+              "ProteinId": "AAC62545.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AL109969",
+            "properties": {
+              "ProteinId": "CAB53170.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          },
+          {
+            "id": "AE017046",
+            "properties": {
+              "ProteinId": "AAS58765.1",
+              "Status": "-",
+              "MoleculeType": "Genomic_DNA"
+            }
+          }
+        ],
+        "PIR": [
+          {
+            "id": "A42928",
+            "properties": {
+              "EntryName": "A42928"
+            }
+          },
+          {
+            "id": "S06979",
+            "properties": {
+              "EntryName": "A30916"
+            }
+          }
+        ],
+        "RefSeq": [
+          {
+            "id": "WP_002218234.1",
+            "properties": {
+              "NucleotideSequenceId": "NC_004837.1"
+            }
+          }
+        ],
+        "PDB": [
+          {
+            "id": "2X4M",
+            "properties": {
+              "Method": "X-ray",
+              "Resolution": "2.55 A",
+              "Chains": "A/B/C/D=21-312"
+            }
+          },
+          {
+            "id": "2X55",
+            "properties": {
+              "Method": "X-ray",
+              "Resolution": "1.85 A",
+              "Chains": "A=21-312"
+            }
+          },
+          {
+            "id": "2X56",
+            "properties": {
+              "Method": "X-ray",
+              "Resolution": "2.30 A",
+              "Chains": "A=21-312"
+            }
+          },
+          {
+            "id": "4DCB",
+            "properties": {
+              "Method": "X-ray",
+              "Resolution": "2.03 A",
+              "Chains": "A=25-312"
+            }
+          }
+        ],
+        "PDBsum": [
+          {
+            "id": "2X4M",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "2X55",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "2X56",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "4DCB",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "AlphaFoldDB": [
+          {
+            "id": "P17811",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "SMR": [
+          {
+            "id": "P17811",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "IntAct": [
+          {
+            "id": "P17811",
+            "properties": {
+              "Interactions": "1"
+            }
+          }
+        ],
+        "MINT": [
+          {
+            "id": "P17811",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "ChEMBL": [
+          {
+            "id": "CHEMBL1075037",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "MEROPS": [
+          {
+            "id": "A26.003",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "DNASU": [
+          {
+            "id": "1149148",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "EnsemblBacteria": [
+          {
+            "id": "AAS58765",
+            "properties": {
+              "ProteinId": "AAS58765",
+              "GeneId": "YP_pPCP08"
+            }
+          }
+        ],
+        "GeneID": [
+          {
+            "id": "310221686",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "KEGG": [
+          {
+            "id": "ype:YPPCP1.07",
+            "properties": {
+              "Description": "-"
+            }
+          },
+          {
+            "id": "ypm:YP_pPCP08",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "PATRIC": [
+          {
+            "id": "fig|214092.21.peg.114",
+            "properties": {
+              "GeneDesignation": "-"
+            }
+          }
+        ],
+        "HOGENOM": [
+          {
+            "id": "CLU_063041_1_0_6",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "OMA": [
+          {
+            "id": "YNYDNGA",
+            "properties": {
+              "Fingerprint": "-"
+            }
+          }
+        ],
+        "OrthoDB": [
+          {
+            "id": "2112810at2",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "BRENDA": [
+          {
+            "id": "3.4.23.48",
+            "properties": {
+              "OrganismId": "17050"
+            }
+          },
+          {
+            "id": "3.4.23.49",
+            "properties": {
+              "OrganismId": "4559"
+            }
+          }
+        ],
+        "EvolutionaryTrace": [
+          {
+            "id": "P17811",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "PRO": [
+          {
+            "id": "PR:P17811",
+            "properties": {
+              "Description": "-"
+            }
+          }
+        ],
+        "Proteomes": [
+          {
+            "id": "UP000000815",
+            "properties": {
+              "Component": "Plasmid pPCP1"
+            }
+          },
+          {
+            "id": "UP000001019",
+            "properties": {
+              "Component": "Plasmid pPCP1"
+            }
+          }
+        ],
+        "GO": [
+          {
+            "id": "GO:0009279",
+            "properties": {
+              "GoTerm": "C:cell outer membrane",
+              "GoEvidenceType": "IEA:UniProtKB-SubCell"
+            }
+          },
+          {
+            "id": "GO:0004190",
+            "properties": {
+              "GoTerm": "F:aspartic-type endopeptidase activity",
+              "GoEvidenceType": "IEA:InterPro"
+            }
+          },
+          {
+            "id": "GO:0006508",
+            "properties": {
+              "GoTerm": "P:proteolysis",
+              "GoEvidenceType": "IEA:InterPro"
+            }
+          }
+        ],
+        "Gene3D": [
+          {
+            "id": "2.40.128.90",
+            "properties": {
+              "EntryName": "OMPT-like",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "InterPro": [
+          {
+            "id": "IPR020080",
+            "properties": {
+              "EntryName": "OM_adhesin/peptidase_omptin"
+            }
+          },
+          {
+            "id": "IPR020079",
+            "properties": {
+              "EntryName": "Peptidase_A26_CS"
+            }
+          },
+          {
+            "id": "IPR000036",
+            "properties": {
+              "EntryName": "Peptidase_A26_omptin"
+            }
+          }
+        ],
+        "NCBIfam": [
+          {
+            "id": "NF008223",
+            "properties": {
+              "EntryName": "PRK10993.1-3",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "NF009230",
+            "properties": {
+              "EntryName": "PRK12580.1",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "Pfam": [
+          {
+            "id": "PF01278",
+            "properties": {
+              "EntryName": "Omptin",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "PIRSF": [
+          {
+            "id": "PIRSF001522",
+            "properties": {
+              "EntryName": "Peptidase_A26",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "PRINTS": [
+          {
+            "id": "PR00482",
+            "properties": {
+              "EntryName": "OMPTIN"
+            }
+          }
+        ],
+        "SUPFAM": [
+          {
+            "id": "SSF69917",
+            "properties": {
+              "EntryName": "OMPT-like",
+              "MatchStatus": "1"
+            }
+          }
+        ],
+        "PROSITE": [
+          {
+            "id": "PS00834",
+            "properties": {
+              "EntryName": "OMPTIN_1",
+              "MatchStatus": "1"
+            }
+          },
+          {
+            "id": "PS00835",
+            "properties": {
+              "EntryName": "OMPTIN_2",
+              "MatchStatus": "1"
+            }
+          }
+        ]
+      }
+    },
+    "structure_record": {
+      "pdb_id": "2X55",
+      "title": "Yersinia Pestis Plasminogen Activator Pla (Native)",
+      "resolution_angstrom": 1.85,
+      "method": "X-RAY DIFFRACTION",
+      "deposit_date": "2010-02-05T00:00:00.000+00:00",
+      "cath_codes": [
+        "2.40.128.90"
+      ],
+      "cath_names": [
+        "OMPT-like"
+      ],
+      "scop_folds": [],
+      "ligands": [],
+      "chains": [
+        "A"
+      ],
+      "coordinates_url": "https://files.rcsb.org/download/2X55.cif"
+    },
+    "domains": [
+      {
+        "id": "PS00834",
+        "database": "PROSITE",
+        "name": "OMPTIN_1",
+        "description": "Omptin family signature 1 (Yersinia Pla protease) (match: WTDHSSHPAT)",
+        "start": 115,
+        "end": 124
+      }
+    ],
+    "pathways": [
+      {
+        "pathway_id": "map05100",
+        "name": "Bacterial invasion of epithelial cells",
+        "database": "KEGG",
+        "url": "https://www.kegg.jp/pathway/map05100",
+        "description": "Pathogenic bacteria can induce cellular changes..."
+      }
+    ],
+    "interactions": [
+      {
+        "source": "LRP6",
+        "target": "PORCN",
+        "score": 0.547,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.547,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "LRP6",
+        "target": "WIF1",
+        "score": 0.817,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.4,
+          "coexpression": 0.086,
+          "textmining": 0.693,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "LRP6",
+        "target": "WNT9B",
+        "score": 0.898,
+        "evidence_channels": {
+          "experimental": 0.091,
+          "database": 0.65,
+          "coexpression": 0.0,
+          "textmining": 0.707,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "LRP6",
+        "target": "FZD5",
+        "score": 0.976,
+        "evidence_channels": {
+          "experimental": 0.33,
+          "database": 0.8,
+          "coexpression": 0.044,
+          "textmining": 0.839,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "LRP6",
+        "target": "FZD4",
+        "score": 0.999,
+        "evidence_channels": {
+          "experimental": 0.093,
+          "database": 0.8,
+          "coexpression": 0.062,
+          "textmining": 0.995,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WIF1",
+        "target": "FZD5",
+        "score": 0.439,
+        "evidence_channels": {
+          "experimental": 0.067,
+          "database": 0.0,
+          "coexpression": 0.046,
+          "textmining": 0.421,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WIF1",
+        "target": "FZD4",
+        "score": 0.539,
+        "evidence_channels": {
+          "experimental": 0.067,
+          "database": 0.0,
+          "coexpression": 0.046,
+          "textmining": 0.524,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WIF1",
+        "target": "NOTUM",
+        "score": 0.545,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.074,
+          "textmining": 0.529,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WIF1",
+        "target": "WNT9B",
+        "score": 0.933,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.9,
+          "coexpression": 0.0,
+          "textmining": 0.357,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WNT9B",
+        "target": "FZD5",
+        "score": 0.901,
+        "evidence_channels": {
+          "experimental": 0.173,
+          "database": 0.65,
+          "coexpression": 0.0,
+          "textmining": 0.686,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WNT9B",
+        "target": "FZD4",
+        "score": 0.907,
+        "evidence_channels": {
+          "experimental": 0.173,
+          "database": 0.65,
+          "coexpression": 0.0,
+          "textmining": 0.619,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WNT9B",
+        "target": "GPC3",
+        "score": 0.915,
+        "evidence_channels": {
+          "experimental": 0.115,
+          "database": 0.9,
+          "coexpression": 0.0,
+          "textmining": 0.123,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WNT9B",
+        "target": "CER1",
+        "score": 0.915,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.9,
+          "coexpression": 0.042,
+          "textmining": 0.187,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WNT9B",
+        "target": "NOTUM",
+        "score": 0.931,
+        "evidence_channels": {
+          "experimental": 0.105,
+          "database": 0.9,
+          "coexpression": 0.0,
+          "textmining": 0.297,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "WNT9B",
+        "target": "PORCN",
+        "score": 0.948,
+        "evidence_channels": {
+          "experimental": 0.306,
+          "database": 0.9,
+          "coexpression": 0.0,
+          "textmining": 0.321,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "PORCN",
+        "target": "FZD5",
+        "score": 0.484,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.484,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "PORCN",
+        "target": "NOTUM",
+        "score": 0.514,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.0,
+          "coexpression": 0.0,
+          "textmining": 0.514,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "FZD5",
+        "target": "FZD4",
+        "score": 0.553,
+        "evidence_channels": {
+          "experimental": 0.0,
+          "database": 0.5,
+          "coexpression": 0.049,
+          "textmining": 0.136,
+          "neighborhood": 0.0
+        }
+      },
+      {
+        "source": "GPC3",
+        "target": "NOTUM",
+        "score": 0.718,
+        "evidence_channels": {
+          "experimental": 0.44,
+          "database": 0.0,
+          "coexpression": 0.106,
+          "textmining": 0.482,
+          "neighborhood": 0.0
+        }
+      }
+    ],
+    "locus": {
+      "gene_symbol": "PLA",
+      "species": "human",
+      "chromosome": "chr1",
+      "start": 1,
+      "end": 1,
+      "assembly": "GRCh38",
+      "ensembl_url": "https://www.ensembl.org/human/Gene/Summary?g=PLA",
+      "ucsc_url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr1:1-1&neandAltai=pack&denisova=pack"
+    }
+  }
+}

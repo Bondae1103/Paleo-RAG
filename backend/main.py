@@ -16,7 +16,7 @@ app = FastAPI(title="PaleoRAG", description="Phylogenetic Context Engine", versi
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )

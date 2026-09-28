@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import logging
 from typing import Any, Optional
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Body, Depends, HTTPException, Query
 
 from backend.api.bio_schemas import (
     BioLookupResponse,
@@ -13,6 +13,7 @@ from backend.api.bio_schemas import (
     ConversionResponse,
     InteractionEdge,
     LocusLink,
+    MotifScanRequest,
     PathwayHit,
     ProteinRecord,
     SequenceRecord,
@@ -21,6 +22,7 @@ from backend.api.bio_schemas import (
     SubmissionValidationResponse,
     TranslationRequest,
     TranslationResponse,
+    ValidationRequest,
     ValidationResult,
 )
 from backend.config import Settings, get_settings
@@ -98,11 +100,14 @@ def bio_health(
 
 @bio_router.post("/sequence/validate", response_model=ValidationResult)
 def api_validate_sequence(
-    sequence: str = Query(..., description="Raw molecular sequence or FASTA/GenBank text"),
+    payload: Optional[ValidationRequest] = Body(None),
+    sequence: Optional[str] = Query(None, description="Raw molecular sequence or FASTA/GenBank text"),
 ) -> ValidationResult:
     """Validate molecular sequence, detect type (DNA/RNA/Protein), check IUPAC, and compute metrics."""
     from backend.utils.sequence_tools import validate_sequence
-    return validate_sequence(sequence)
+
+    raw = (payload.sequence if payload else None) or sequence or ""
+    return validate_sequence(raw)
 
 
 @bio_router.post("/sequence/convert", response_model=ConversionResponse)
@@ -259,10 +264,37 @@ def api_get_structure_coordinates(
         raise HTTPException(status_code=500, detail=f"Failed to retrieve coordinates: {exc}")
 
 
+CURATED_STRUCTURE_MUTATIONS = {
+    "3VRF": [
+        {"position": 12, "ancestral": "T", "derived": "A", "label": "T12A", "chain": "A", "functional_impact": "Reduces oxygenation enthalpy for arctic cold-tolerance"},
+        {"position": 86, "ancestral": "A", "derived": "S", "label": "A86S", "chain": "A", "functional_impact": "Stabilizes T-state quaternary conformation"},
+        {"position": 101, "ancestral": "G", "derived": "S", "label": "G101S", "chain": "A", "functional_impact": "Modulates allosteric chloride ion binding pocket"},
+    ],
+    "2A07": [
+        {"position": 303, "ancestral": "T", "derived": "N", "label": "T303N", "chain": "A", "functional_impact": "Archaic hominin shared derived substitution in winged-helix forkhead domain"},
+        {"position": 325, "ancestral": "N", "derived": "S", "label": "N325S", "chain": "A", "functional_impact": "Modulates transcription factor DNA binding affinity"},
+    ],
+    "2X55": [
+        {"position": 259, "ancestral": "T", "derived": "I", "label": "T259I", "chain": "A", "functional_impact": "Bronze Age -> Black Death Pla acquisition enabling pneumonic dissemination"},
+    ],
+}
+
+
+@bio_router.get("/structure/{pdb_id}/mutations")
+def api_get_structure_mutations(
+    pdb_id: str,
+    chain: str = "A",
+) -> dict[str, Any]:
+    """Retrieve paleogenomic mutation mappings for a 3D PDB structure."""
+    clean_id = pdb_id.strip().upper()
+    muts = CURATED_STRUCTURE_MUTATIONS.get(clean_id, [])
+    return {"pdb_id": clean_id, "chain": chain, "mutations": muts}
+
+
 @bio_router.post("/structure/{pdb_id}/mutations")
 def api_map_mutations(
     pdb_id: str,
-    mutations: list[dict[str, Any]],
+    mutations: list[dict[str, Any]] = Body(...),
     chain: str = "A",
     client: BioHttpClient = Depends(get_bio_http_client),
     settings: Settings = Depends(get_settings),
@@ -272,7 +304,7 @@ def api_map_mutations(
 
     pdb = PDBClient(settings=settings, http_client=client)
     mapped = pdb.map_mutations_to_structure(pdb_id=pdb_id, mutations=mutations, chain=chain)
-    return {"pdb_id": pdb_id.upper(), "chain": chain, "mapped_mutations": mapped}
+    return {"pdb_id": pdb_id.upper(), "chain": chain, "mutations": mapped, "mapped_mutations": mapped}
 
 
 # ========================================================
@@ -281,16 +313,28 @@ def api_map_mutations(
 
 @bio_router.post("/motifs/scan")
 def api_scan_motifs(
-    sequence: str = Query(..., description="Amino acid sequence to scan for PROSITE signatures"),
+    payload: Optional[MotifScanRequest] = Body(None),
+    sequence: Optional[str] = Query(None, description="Amino acid sequence to scan for PROSITE signatures"),
     settings: Settings = Depends(get_settings),
     client: BioHttpClient = Depends(get_bio_http_client),
 ) -> dict[str, Any]:
     """Scan amino acid sequence against curated PROSITE regex patterns."""
     from backend.utils.functional_client import FunctionalClient
 
+    raw = (payload.sequence if payload else None) or sequence or ""
     func = FunctionalClient(settings=settings, http_client=client)
-    hits = func.scan_prosite_motifs(sequence)
-    return {"hits": hits, "count": len(hits)}
+    hits = func.scan_prosite_motifs(raw)
+    matches = [
+        {
+            "motif_id": h.id,
+            "motif_name": h.name,
+            "start": h.start,
+            "end": h.end,
+            "matched_sequence": h.description,
+        }
+        for h in hits
+    ]
+    return {"hits": hits, "matches": matches, "count": len(hits), "sequence_length": len(raw)}
 
 
 @bio_router.get("/pathways/{pathway_id}")
@@ -353,6 +397,7 @@ def api_get_gene_locus(
 @bio_router.get("/lookup/{query}", response_model=BioLookupResponse)
 def api_unified_bio_lookup(
     query: str,
+    organism: Optional[str] = Query(None, description="Optional target organism filter"),
     settings: Settings = Depends(get_settings),
     client: BioHttpClient = Depends(get_bio_http_client),
 ) -> BioLookupResponse:
@@ -364,4 +409,4 @@ def api_unified_bio_lookup(
     from backend.utils.bio_aggregator import BioAggregator
 
     aggregator = BioAggregator(settings=settings, http_client=client)
-    return aggregator.lookup(query)
+    return aggregator.lookup(query, organism=organism)

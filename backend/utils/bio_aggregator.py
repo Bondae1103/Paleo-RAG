@@ -4,7 +4,9 @@ across NCBI, UniProt, RCSB PDB, Pfam, PROSITE, KEGG, STRING, and Ensembl.
 """
 from __future__ import annotations
 
+import json
 import logging
+from pathlib import Path
 from typing import Optional
 
 from backend.api.bio_schemas import BioLookupResponse, DomainHit
@@ -28,6 +30,7 @@ PREINDEXED_ENTITIES = {
         "pdb_id": "3VRF",
         "kegg_pathway": "map05100",
         "locus": "HBB",
+        "cache_key": "HBB",
     },
     "HBB": {
         "gene": "HBB",
@@ -37,6 +40,7 @@ PREINDEXED_ENTITIES = {
         "pdb_id": "3VRF",
         "kegg_pathway": "map05100",
         "locus": "HBB",
+        "cache_key": "HBB",
     },
     "FOXP2": {
         "gene": "FOXP2",
@@ -46,6 +50,7 @@ PREINDEXED_ENTITIES = {
         "pdb_id": "2A07",
         "kegg_pathway": "map05100",
         "locus": "FOXP2",
+        "cache_key": "FOXP2",
     },
     "PLA": {
         "gene": "pla",
@@ -55,6 +60,7 @@ PREINDEXED_ENTITIES = {
         "pdb_id": "2X55",
         "kegg_pathway": "map05100",
         "locus": "pla",
+        "cache_key": "Pla",
     },
     "YERSINIA": {
         "gene": "pla",
@@ -64,8 +70,29 @@ PREINDEXED_ENTITIES = {
         "pdb_id": "2X55",
         "kegg_pathway": "map05100",
         "locus": "pla",
+        "cache_key": "Pla",
     },
 }
+
+_PREINDEXED_CACHE: dict[str, dict] = {}
+
+
+def _get_preindexed_cache() -> dict[str, dict]:
+    global _PREINDEXED_CACHE
+    if not _PREINDEXED_CACHE:
+        possible_paths = [
+            Path(__file__).parent.parent / "data" / "preindexed_case_studies.json",
+            Path(__file__).parent.parent.parent / "frontend" / "client" / "src" / "lib" / "preindexed_case_studies.json",
+        ]
+        for p in possible_paths:
+            if p.exists():
+                try:
+                    with open(p, "r", encoding="utf-8") as f:
+                        _PREINDEXED_CACHE = json.load(f)
+                    break
+                except Exception as exc:
+                    logger.debug(f"Failed to load preindexed cache from {p}: {exc}")
+    return _PREINDEXED_CACHE
 
 
 class BioAggregator:
@@ -84,17 +111,27 @@ class BioAggregator:
         self.func = FunctionalClient(settings=self.settings, http_client=self.http)
         self.genomics = GenomicsClient(settings=self.settings, http_client=self.http)
 
-    def lookup(self, query: str) -> BioLookupResponse:
+    def lookup(self, query: str, organism: Optional[str] = None) -> BioLookupResponse:
         clean_q = query.strip().upper()
         mapping = None
 
         # Check known paleogenomic targets
         for key, target in PREINDEXED_ENTITIES.items():
-            if key in clean_q:
+            if key in clean_q or clean_q in key:
                 mapping = target
                 break
 
-        organism = mapping.get("organism") if mapping else None
+        # Fast pre-cached path for case studies
+        cache_data = _get_preindexed_cache()
+        if mapping and mapping.get("cache_key") and mapping["cache_key"] in cache_data:
+            hit = cache_data[mapping["cache_key"]]
+            resp = BioLookupResponse(**hit)
+            resp.query = query
+            if organism:
+                resp.organism = organism
+            return resp
+
+        target_organism = organism or (mapping.get("organism") if mapping else None)
         nuc_rec = None
         prot_rec = None
         struct_rec = None
@@ -103,16 +140,25 @@ class BioAggregator:
         interactions = []
         locus = None
 
+        # Check if query is Pfam accession
+        if clean_q.startswith("PF") and len(clean_q) in (7, 8):
+            try:
+                pfam_hit = self.func.get_pfam_domain(clean_q)
+                if pfam_hit:
+                    domains.append(pfam_hit)
+            except Exception as exc:
+                logger.debug(f"Pfam query failed for {clean_q}: {exc}")
+
         # 1. Fetch Protein Record
         uniprot_id = mapping.get("uniprot_acc") if mapping else None
-        if not uniprot_id and clean_q.startswith(("P", "Q", "O", "D")):
+        if not uniprot_id and clean_q.startswith(("P", "Q", "O", "D")) and len(clean_q) in (6, 10):
             uniprot_id = clean_q
 
         if uniprot_id:
             try:
                 prot_rec = self.uniprot.get_protein(uniprot_id)
-                if not organism:
-                    organism = prot_rec.organism
+                if not target_organism:
+                    target_organism = prot_rec.organism
                 # Scan PROSITE motifs on protein sequence
                 if prot_rec.sequence:
                     domains.extend(self.func.scan_prosite_motifs(prot_rec.sequence))
@@ -144,15 +190,30 @@ class BioAggregator:
         # 4. Fetch Pathways & Interactions
         gene_symbol = mapping.get("gene") if mapping else clean_q
         if gene_symbol:
-            interactions = self.func.get_string_interactions(gene_symbol, limit=8)
-            kegg_hit = self.func.get_kegg_pathway(mapping.get("kegg_pathway", "map05100") if mapping else "map05100")
-            if kegg_hit:
-                pathways.append(kegg_hit)
-            locus = self.genomics.get_gene_locus(gene_symbol)
+            try:
+                interactions = self.func.get_string_interactions(gene_symbol, limit=8)
+            except Exception as exc:
+                logger.debug(f"STRING interaction lookup failed: {exc}")
+
+            try:
+                kegg_id = mapping.get("kegg_pathway", "map05100") if mapping else "map05100"
+                kegg_hit = self.func.get_kegg_pathway(kegg_id)
+                if kegg_hit:
+                    pathways.append(kegg_hit)
+            except Exception as exc:
+                logger.debug(f"KEGG pathway lookup failed: {exc}")
+
+            try:
+                # Avoid querying human Ensembl for non-mammalian/bacterial genes
+                org_lower = (target_organism or "").lower()
+                if not org_lower or any(k in org_lower for k in ("homo", "human", "neanderthal", "mammuthus", "mammoth")):
+                    locus = self.genomics.get_gene_locus(gene_symbol)
+            except Exception as exc:
+                logger.debug(f"Genomics locus lookup failed: {exc}")
 
         return BioLookupResponse(
             query=query,
-            organism=organism,
+            organism=target_organism,
             nucleotide_record=nuc_rec,
             protein_record=prot_rec,
             structure_record=struct_rec,
