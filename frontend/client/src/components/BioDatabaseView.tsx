@@ -394,17 +394,17 @@ export const BioDatabaseView: React.FC = () => {
                         </span>
                         {record.protein_record.active_sites.map((site, i) => (
                           <div key={i} className="font-mono text-[11px] text-[#8cd1c7]">
-                            • Active site: {site.description || "catalytic residue"} (pos {site.position})
+                            • Active site: {String(site.description || "catalytic residue")} (pos {String(site.position ?? "")})
                           </div>
                         ))}
                         {record.protein_record.ptms.map((ptm, i) => (
                           <div key={i} className="font-mono text-[11px] text-[#f0c778]">
-                            • PTM: {ptm.description || "modification"} (pos {ptm.position})
+                            • PTM: {String(ptm.description || "modification")} (pos {String(ptm.position ?? "")})
                           </div>
                         ))}
                         {record.protein_record.disulfide_bonds.map((dsb, i) => (
                           <div key={i} className="font-mono text-[11px] text-[#70c4b5]">
-                            • Disulfide bond: residues {dsb.start} &harr; {dsb.end}
+                            • Disulfide bond: residues {String(dsb.start ?? "")} &harr; {String(dsb.end ?? "")}
                           </div>
                         ))}
                       </div>
