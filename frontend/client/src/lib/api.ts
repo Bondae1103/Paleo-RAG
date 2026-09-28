@@ -72,11 +72,34 @@ export interface ManifestDocument {
 const DEFAULT_TOKEN = "sk-paleorag-8f2c9a1e";
 
 export function getApiBaseUrl(): string {
+  const stored = typeof window !== "undefined" ? localStorage.getItem("paleorag-api-url") : null;
+  if (stored) return stored.replace(/\/+$/, "");
   const envUrl = import.meta.env.VITE_API_URL;
   if (envUrl && typeof envUrl === "string") {
     return envUrl.replace(/\/+$/, "");
   }
   return "";
+}
+
+export function setApiBaseUrl(url: string): void {
+  if (typeof window !== "undefined") {
+    localStorage.setItem("paleorag-api-url", url.trim());
+  }
+}
+
+export async function safeJson<T = any>(resp: Response): Promise<T> {
+  const contentType = resp.headers.get("content-type") || "";
+  const text = await resp.text();
+  if (contentType.includes("text/html") || text.trim().startsWith("<")) {
+    throw new Error(
+      "Received HTML instead of JSON. The backend server might be offline, or Vercel is rewriting /api requests to index.html. Please configure your live Backend API URL in Diagnostics settings."
+    );
+  }
+  try {
+    return JSON.parse(text) as T;
+  } catch (err: any) {
+    throw new Error(`Invalid JSON response: ${err.message}. Response: ${text.slice(0, 100)}`);
+  }
 }
 
 export function getBearerToken(): string {
@@ -107,7 +130,7 @@ export async function fetchHealth(): Promise<HealthResponse> {
   if (!resp.ok) {
     throw new Error(`Health check returned HTTP ${resp.status}`);
   }
-  return resp.json();
+  return safeJson<HealthResponse>(resp);
 }
 
 /**
@@ -220,7 +243,7 @@ export async function uploadPdfDocument(file: File): Promise<{ task_id: string; 
     throw new Error(`Upload failed (${response.status}): ${err}`);
   }
 
-  return response.json();
+  return safeJson(response);
 }
 
 /**
@@ -248,7 +271,7 @@ export async function ingestRemoteDocument(
     throw new Error(`Remote ingestion failed (${response.status}): ${err}`);
   }
 
-  return response.json();
+  return safeJson(response);
 }
 
 /**
@@ -266,7 +289,7 @@ export async function fetchTaskStatus(taskId: string): Promise<TaskStatusRespons
     throw new Error(`Task query failed (${response.status})`);
   }
 
-  return response.json();
+  return safeJson<TaskStatusResponse>(response);
 }
 
 /**
@@ -284,7 +307,7 @@ export async function fetchDocuments(): Promise<{ documents: ManifestDocument[];
     throw new Error(`Failed to fetch documents (${response.status})`);
   }
 
-  return response.json();
+  return safeJson(response);
 }
 
 /**
@@ -316,7 +339,7 @@ export async function fetchEvalSummary(): Promise<{
     throw new Error(`Failed to fetch evaluation summary (${response.status})`);
   }
 
-  return response.json();
+  return safeJson(response);
 }
 
 // ---------------------------------------------------------------------------
@@ -500,7 +523,7 @@ export async function validateSequence(sequence: string): Promise<ValidationResu
     const err = await resp.text();
     throw new Error(`Validation failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson<ValidationResult>(resp);
 }
 
 /**
@@ -528,7 +551,7 @@ export async function convertSequence(
     const err = await resp.text();
     throw new Error(`Conversion failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson<ConversionResponse>(resp);
 }
 
 /**
@@ -554,7 +577,7 @@ export async function translateDogma(
     const err = await resp.text();
     throw new Error(`Translation failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson<TranslationResponse>(resp);
 }
 
 /**
@@ -576,7 +599,7 @@ export async function validateSubmission(
     const err = await resp.text();
     throw new Error(`Submission check failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson<SubmissionValidationResponse>(resp);
 }
 
 /**
@@ -596,7 +619,7 @@ export async function lookupBio(query: string, organism?: string): Promise<BioLo
     const err = await resp.text();
     throw new Error(`Bio lookup failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson<BioLookupResponse>(resp);
 }
 
 /**
@@ -613,7 +636,7 @@ export async function fetchStructure(pdbId: string): Promise<StructureRecord> {
     const err = await resp.text();
     throw new Error(`Structure fetch failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson<StructureRecord>(resp);
 }
 
 /**
@@ -639,7 +662,7 @@ export async function fetchStructureMutations(pdbId: string): Promise<{
     const err = await resp.text();
     throw new Error(`Structure mutations failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson(resp);
 }
 
 /**
@@ -681,7 +704,7 @@ export async function fetchInteractions(
     const err = await resp.text();
     throw new Error(`Interactions fetch failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson(resp);
 }
 
 /**
@@ -710,6 +733,6 @@ export async function scanMotifs(sequence: string): Promise<{
     const err = await resp.text();
     throw new Error(`Motif scan failed (${resp.status}): ${err}`);
   }
-  return resp.json();
+  return safeJson(resp);
 }
 

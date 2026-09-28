@@ -41,10 +41,12 @@ import {
   fetchEvalSummary,
   fetchHealth,
   fetchTaskStatus,
+  getApiBaseUrl,
   getBearerToken,
   HealthResponse,
   ingestRemoteDocument,
   RetrievedChunk,
+  setApiBaseUrl,
   setBearerToken,
   streamChatQuery,
   uploadPdfDocument,
@@ -1528,6 +1530,7 @@ function DiagnosticsView({
   onRefreshHealth: () => void;
 }) {
   const [token, setTokenState] = useState(() => getBearerToken());
+  const [apiUrl, setApiUrlState] = useState(() => getApiBaseUrl());
   const [showPassword, setShowPassword] = useState(false);
   const [logs, setLogs] = useState<Array<{ time: string; status: "OK" | "INFO" | "WARN"; text: string }>>([
     { time: new Date().toLocaleTimeString(), status: "OK", text: "Diagnostics initialized · loaded bearer authentication token" },
@@ -1540,6 +1543,16 @@ function DiagnosticsView({
       { time: new Date().toLocaleTimeString(), status: "INFO", text: "Updated API_BEARER_TOKEN configuration" },
       ...prev,
     ]);
+  };
+
+  const saveApiUrl = () => {
+    setApiBaseUrl(apiUrl);
+    toast.success("Backend API URL saved.");
+    setLogs((prev) => [
+      { time: new Date().toLocaleTimeString(), status: "INFO", text: `Updated Backend API URL: ${apiUrl || "(relative /api)"}` },
+      ...prev,
+    ]);
+    onRefreshHealth();
   };
 
   const handleTestConnection = async () => {
@@ -1571,7 +1584,7 @@ function DiagnosticsView({
       <SectionHeading
         eyebrow="Diagnostics / 04"
         title="System health & settings"
-        detail="Inspect connectivity across the retrieval stack and configure the bearer token used by protected API endpoints."
+        detail="Inspect connectivity across the retrieval stack and configure the backend URL and bearer token."
         action={
           <Badge tone={health?.status === "ok" ? "teal" : "amber"}>
             <CircleCheck size={11} /> {health?.status === "ok" ? "All systems nominal" : "Degraded / connecting"}
@@ -1609,31 +1622,60 @@ function DiagnosticsView({
       </div>
 
       <div className="grid gap-5 xl:grid-cols-[0.9fr_1.1fr]">
-        <section className="border border-white/[0.08] bg-[#0f1516] p-5">
-          <div className="mb-6 flex items-start justify-between">
+        <section className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-5">
+          <div className="flex items-start justify-between">
             <div>
               <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#d5a65b]">
-                Credentials / protected routes
+                Configuration / network endpoints
               </div>
-              <h2 className="mt-2 font-display text-xl text-[#eee9de]">Bearer token</h2>
+              <h2 className="mt-2 font-display text-xl text-[#eee9de]">Connection & credentials</h2>
             </div>
             <Settings2 size={18} className="text-slate-700" />
           </div>
-          <p className="mb-5 text-xs leading-5 text-slate-500">
-            The token is persisted locally and injected as{" "}
-            <span className="font-mono text-slate-400">Authorization: Bearer &lt;token&gt;</span> for protected requests.
-          </p>
-          <label className="block">
-            <span className="mb-2 block font-mono text-[9px] uppercase tracking-[0.16em] text-slate-600">
-              API_BEARER_TOKEN
-            </span>
+
+          {/* Backend API Base URL input */}
+          <div>
+            <div className="mb-2 flex items-center justify-between">
+              <span className="font-mono text-[9px] uppercase tracking-[0.16em] text-slate-400">
+                Backend API URL (VITE_API_URL)
+              </span>
+              <span className="font-mono text-[9px] text-[#70c4b5]">
+                {apiUrl ? apiUrl : "Default (Relative /api)"}
+              </span>
+            </div>
+            <div className="flex gap-2">
+              <input
+                value={apiUrl}
+                onChange={(e) => setApiUrlState(e.target.value)}
+                placeholder="e.g. http://localhost:8000 or https://api.paleorag.com"
+                className="h-10 flex-1 border border-white/10 bg-black/20 px-3 font-mono text-xs text-slate-200 outline-none focus:border-[#d5a65b]/60"
+              />
+              <button
+                onClick={saveApiUrl}
+                className="border border-[#d5a65b]/35 bg-[#d5a65b]/10 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.16em] text-[#f0c778] transition hover:bg-[#d5a65b]/20"
+              >
+                Save URL
+              </button>
+            </div>
+            <p className="mt-1 text-[10px] text-slate-500">
+              When viewing on Vercel, point this to your running FastAPI backend URL.
+            </p>
+          </div>
+
+          {/* Bearer token input */}
+          <div>
+            <div className="mb-2 flex items-center justify-between">
+              <span className="font-mono text-[9px] uppercase tracking-[0.16em] text-slate-400">
+                API_BEARER_TOKEN
+              </span>
+            </div>
             <div className="relative flex items-center">
               <input
                 value={token}
                 onChange={(e) => setTokenState(e.target.value)}
                 type={showPassword ? "text" : "password"}
                 placeholder="Paste token to configure protected calls"
-                className="h-11 w-full border border-white/10 bg-black/20 pl-3 pr-10 font-mono text-xs text-slate-200 outline-none focus:border-[#d5a65b]/60"
+                className="h-10 w-full border border-white/10 bg-black/20 pl-3 pr-10 font-mono text-xs text-slate-200 outline-none focus:border-[#d5a65b]/60"
               />
               <button
                 type="button"
@@ -1643,8 +1685,9 @@ function DiagnosticsView({
                 {showPassword ? <EyeOff size={14} /> : <Eye size={14} />}
               </button>
             </div>
-          </label>
-          <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          </div>
+
+          <div className="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-white/[0.06]">
             <button
               onClick={handleTestConnection}
               className="border border-white/15 bg-white/[0.03] px-3 py-2 font-mono text-[10px] text-slate-300 transition hover:border-white/30 hover:text-white"
