@@ -558,6 +558,17 @@ export interface PathwayAnnotation {
   description?: string;
 }
 
+export interface FossilRecordAnnotation {
+  pbdb_taxon_id?: string | null;
+  pbdb_taxon_name?: string | null;
+  pbdb_navigator_url: string;
+  pbdb_api_url?: string | null;
+  fossil_occurrences_count?: number | null;
+  first_appearance_ma?: number | null;
+  last_appearance_ma?: number | null;
+  geological_interval: string;
+}
+
 export interface TaxonRegistryEntry {
   tax_id: string;
   common_name: string;
@@ -572,6 +583,7 @@ export interface TaxonRegistryEntry {
   structure: StructureAnnotation;
   genomics: GenomicsAnnotation;
   pathway: PathwayAnnotation;
+  fossil_record?: FossilRecordAnnotation | null;
 }
 
 export interface AtlasListResponse {

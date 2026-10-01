@@ -248,6 +248,17 @@ class PathwayAnnotation(BaseModel):
     pathway_name: str
 
 
+class FossilRecordAnnotation(BaseModel):
+    pbdb_taxon_id: Optional[str] = None
+    pbdb_taxon_name: Optional[str] = None
+    pbdb_navigator_url: str = "https://paleobiodb.org/navigator/"
+    pbdb_api_url: Optional[str] = None
+    fossil_occurrences_count: Optional[int] = 0
+    first_appearance_ma: Optional[float] = None
+    last_appearance_ma: Optional[float] = None
+    geological_interval: str = "Pleistocene"
+
+
 class TaxonRegistryEntry(BaseModel):
     tax_id: str
     common_name: str
@@ -262,6 +273,7 @@ class TaxonRegistryEntry(BaseModel):
     structure: StructureAnnotation
     genomics: GenomicsAnnotation
     pathway: PathwayAnnotation
+    fossil_record: Optional[FossilRecordAnnotation] = None
 
 
 class AtlasListResponse(BaseModel):
