@@ -56,3 +56,17 @@ def test_atlas_get_taxon_by_alias():
 def test_atlas_get_taxon_not_found():
     resp = client.get("/api/bio/atlas/UNKNOWN_TAXON_99999")
     assert resp.status_code == 404
+
+
+def test_atlas_taxon_fossil_record_from_pbdb():
+    resp = client.get("/api/bio/atlas/PRAG-TAX-001")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "fossil_record" in data
+    fossil = data["fossil_record"]
+    assert fossil is not None
+    assert fossil["pbdb_taxon_id"] == "txn:46027"
+    assert fossil["fossil_occurrences_count"] == 77
+    assert "paleobiodb.org/navigator" in fossil["pbdb_navigator_url"]
+    assert "paleobiodb.org/data1.2" in fossil["pbdb_api_url"]
+

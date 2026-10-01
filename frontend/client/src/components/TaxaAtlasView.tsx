@@ -49,7 +49,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
   const [selectedClade, setSelectedClade] = useState<string>("All");
   const [selectedEpoch, setSelectedEpoch] = useState<string>("All");
   const [activeTaxon, setActiveTaxon] = useState<TaxonRegistryEntry | null>(null);
-  const [activeTab, setActiveTab] = useState<"overview" | "comparative" | "structure" | "genomics">("overview");
+  const [activeTab, setActiveTab] = useState<"overview" | "comparative" | "structure" | "genomics" | "fossils">("overview");
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   // Load atlas from backend or client fallback
@@ -287,6 +287,14 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           <span className="border border-white/10 bg-black/40 px-1.5 py-0.5 font-mono text-[9px] text-slate-400">
                             {item.clade}
                           </span>
+                          {item.fossil_record?.pbdb_taxon_id && (
+                            <span
+                              className="border border-[#79bcb3]/40 bg-[#4f9f96]/15 px-1.5 py-0.5 font-mono text-[9px] text-[#8cd1c7]"
+                              title={`PaleoBioDB Taxon: ${item.fossil_record.pbdb_taxon_id}`}
+                            >
+                              PBDB · {item.fossil_record.fossil_occurrences_count} fossils
+                            </span>
+                          )}
                         </div>
                       </div>
 
@@ -421,6 +429,17 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                   <Compass size={12} />
                   Genomics & KEGG
                 </button>
+                <button
+                  onClick={() => setActiveTab("fossils")}
+                  className={`flex items-center gap-1.5 border-b-2 px-3 py-2 transition ${
+                    activeTab === "fossils"
+                      ? "border-[#d5a65b] font-semibold text-[#f0c778]"
+                      : "border-transparent text-slate-500 hover:text-slate-300"
+                  }`}
+                >
+                  <Layers size={12} />
+                  PBDB Fossils
+                </button>
               </div>
 
               {/* Tab 1: Overview */}
@@ -469,6 +488,38 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       </div>
                     </div>
                   </div>
+
+                  {activeTaxon.fossil_record && activeTaxon.fossil_record.pbdb_taxon_id && (
+                    <div className="border-t border-white/[0.06] pt-3">
+                      <div className="mb-2 flex items-center justify-between font-mono text-[10px] uppercase tracking-wider text-slate-500">
+                        <span>PaleoBioDB Fossil Record</span>
+                        <a
+                          href={activeTaxon.fossil_record.pbdb_navigator_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 text-[#d5a65b] hover:underline"
+                        >
+                          PBDB Navigator <ExternalLink size={9} />
+                        </a>
+                      </div>
+                      <div className="grid grid-cols-3 gap-2 font-mono text-[11px]">
+                        <div className="rounded border border-white/[0.06] bg-black/30 p-2">
+                          <div className="text-[9px] uppercase text-slate-500">PBDB Taxon ID</div>
+                          <div className="font-bold text-[#8cd1c7]">{activeTaxon.fossil_record.pbdb_taxon_id}</div>
+                        </div>
+                        <div className="rounded border border-white/[0.06] bg-black/30 p-2">
+                          <div className="text-[9px] uppercase text-slate-500">Occurrences</div>
+                          <div className="font-bold text-[#f0c778]">{activeTaxon.fossil_record.fossil_occurrences_count} finds</div>
+                        </div>
+                        <div className="rounded border border-white/[0.06] bg-black/30 p-2">
+                          <div className="text-[9px] uppercase text-slate-500">Chronology</div>
+                          <div className="font-bold text-slate-200">
+                            {activeTaxon.fossil_record.first_appearance_ma !== null ? `${activeTaxon.fossil_record.first_appearance_ma}–${activeTaxon.fossil_record.last_appearance_ma} Ma` : "aDNA record"}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
 
                   {/* Quick Action Buttons */}
                   <div className="border-t border-white/[0.06] pt-4">
@@ -800,6 +851,140 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       </div>
                     </div>
                   </div>
+                </div>
+              )}
+
+              {/* Tab 5: PaleoBioDB Fossil Data & Global Navigator */}
+              {activeTab === "fossils" && (
+                <div className="mt-4 space-y-4 text-xs">
+                  <div>
+                    <div className="font-mono text-[10px] uppercase tracking-wider text-slate-500">
+                      Paleobiology Database (PBDB) Fossil Intelligence
+                    </div>
+                    <div className="mt-1 flex items-baseline justify-between">
+                      <span className="font-display text-base text-[#eee9de]">
+                        {activeTaxon.fossil_record?.pbdb_taxon_name || activeTaxon.scientific_name}
+                      </span>
+                      {activeTaxon.fossil_record?.pbdb_taxon_id && (
+                        <span className="font-mono text-[10px] font-bold text-[#8cd1c7]">
+                          PBDB ID: {activeTaxon.fossil_record.pbdb_taxon_id}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {activeTaxon.fossil_record?.pbdb_taxon_id ? (
+                    <>
+                      {/* Stratigraphic & Occurrence Metrics */}
+                      <div className="grid grid-cols-2 gap-2 font-mono text-[11px]">
+                        <div className="rounded border border-white/[0.06] bg-black/40 p-3">
+                          <div className="text-[9px] uppercase text-slate-500">Global Occurrences</div>
+                          <div className="mt-1 text-lg font-bold text-[#f0c778]">
+                            {activeTaxon.fossil_record.fossil_occurrences_count}
+                          </div>
+                          <div className="text-[10px] text-slate-400">Verified specimen sites in PBDB</div>
+                        </div>
+
+                        <div className="rounded border border-white/[0.06] bg-black/40 p-3">
+                          <div className="text-[9px] uppercase text-slate-500">Stratigraphic Interval</div>
+                          <div className="mt-1 text-sm font-bold text-[#8cd1c7]">
+                            {activeTaxon.fossil_record.geological_interval}
+                          </div>
+                          <div className="text-[10px] text-slate-400">
+                            {activeTaxon.fossil_record.first_appearance_ma !== null
+                              ? `First ${activeTaxon.fossil_record.first_appearance_ma} Ma · Last ${activeTaxon.fossil_record.last_appearance_ma} Ma`
+                              : "Quaternary"}
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* PBDB External Navigation Hub */}
+                      <div className="space-y-2 rounded border border-white/10 bg-[#162021] p-3">
+                        <div className="font-mono text-[10px] uppercase tracking-wider text-[#d5a65b]">
+                          Live PaleoBioDB Deep-Links
+                        </div>
+
+                        <a
+                          href={activeTaxon.fossil_record.pbdb_navigator_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-between rounded border border-white/10 bg-black/50 p-2.5 transition hover:border-[#d5a65b] hover:bg-[#d5a65b]/10"
+                        >
+                          <div>
+                            <div className="font-mono text-[11px] font-semibold text-[#f0c778]">
+                              PBDB Navigator (Interactive Global Map)
+                            </div>
+                            <div className="text-[10px] text-slate-400">
+                              Explore spatial coordinates, paleolatitude projections, and global geological collections
+                            </div>
+                          </div>
+                          <ExternalLink size={13} className="text-[#d5a65b] shrink-0 ml-2" />
+                        </a>
+
+                        {activeTaxon.fossil_record.pbdb_api_url && (
+                          <a
+                            href={activeTaxon.fossil_record.pbdb_api_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-between rounded border border-white/10 bg-black/50 p-2.5 transition hover:border-[#4f9f96] hover:bg-[#4f9f96]/10"
+                          >
+                            <div>
+                              <div className="font-mono text-[11px] font-semibold text-[#8cd1c7]">
+                                Raw Occurrences Feed (PBDB Data 1.2 API)
+                              </div>
+                              <div className="text-[10px] text-slate-400">
+                                Direct JSON feed of geographic coordinates, formation stratigraphy, and taphonomy
+                              </div>
+                            </div>
+                            <ExternalLink size={13} className="text-[#4f9f96] shrink-0 ml-2" />
+                          </a>
+                        )}
+
+                        <a
+                          href={`https://paleobiodb.org/data1.2/taxa/single.json?name=${encodeURIComponent(activeTaxon.fossil_record.pbdb_taxon_name || activeTaxon.scientific_name)}&show=phylo,app`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-between rounded border border-white/10 bg-black/50 p-2.5 transition hover:border-white/30"
+                        >
+                          <div>
+                            <div className="font-mono text-[11px] font-semibold text-slate-300">
+                              PBDB Taxonomic Classification Record
+                            </div>
+                            <div className="text-[10px] text-slate-400">
+                              Parent taxon, synonymy history, and formal nomenclatural status
+                            </div>
+                          </div>
+                          <ExternalLink size={13} className="text-slate-400 shrink-0 ml-2" />
+                        </a>
+                      </div>
+
+                      {/* Paleontological Context Note */}
+                      <div className="rounded border border-white/[0.06] bg-black/30 p-3 leading-relaxed text-slate-400">
+                        <span className="font-semibold text-slate-300">Fossil-to-Genome Synthesis: </span>
+                        Fossil distribution records in PBDB provide critical paleogeographic and radiometric boundary dates,
+                        enabling molecular clock calibration and verification of ancient biomolecular preservation across permafrost,
+                        tar seeps (Rancho La Brea), and sub-fossil cave deposits.
+                      </div>
+                    </>
+                  ) : (
+                    <div className="rounded border border-dashed border-white/10 p-6 text-center text-slate-400">
+                      <div className="font-semibold text-slate-300">Microbial / Viral aDNA Specimen</div>
+                      <p className="mt-1 text-[11px] text-slate-500">
+                        Macro-fossil occurrences are not cataloged in PBDB for ancient pathogens ({activeTaxon.scientific_name}).
+                        Molecular phylogenetic data is derived from archaeological dental calculus, skeletal pulp chambers, or archival lung tissue.
+                      </p>
+                      <div className="mt-4">
+                        <a
+                          href="https://paleobiodb.org/navigator/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 border border-white/10 bg-black/40 px-3 py-1.5 font-mono text-[10px] uppercase text-[#d5a65b] hover:border-[#d5a65b]"
+                        >
+                          Browse PBDB Navigator <ExternalLink size={10} />
+                        </a>
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
             </div>

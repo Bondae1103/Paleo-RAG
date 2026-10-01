@@ -68,6 +68,16 @@
     "pathway": {
       "kegg_id": "map05100",
       "pathway_name": "Oxygen transport & erythrocyte gas exchange"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:46027",
+      "pbdb_taxon_name": "Mammuthus primigenius",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mammuthus+primigenius",
+      "fossil_occurrences_count": 77,
+      "first_appearance_ma": 7.25,
+      "last_appearance_ma": 0.01,
+      "geological_interval": "Late Miocene \u2013 Holocene"
     }
   },
   {
@@ -131,6 +141,16 @@
     "pathway": {
       "kegg_id": "map05100",
       "pathway_name": "Neuronal development & language circuitry"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:83087",
+      "pbdb_taxon_name": "Homo neanderthalensis",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Homo+neanderthalensis",
+      "fossil_occurrences_count": 6,
+      "first_appearance_ma": 0.77,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Middle \u2013 Late Pleistocene"
     }
   },
   {
@@ -186,6 +206,16 @@
     "pathway": {
       "kegg_id": "map05100",
       "pathway_name": "Bacterial invasion & fibrinolysis"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": null,
+      "pbdb_taxon_name": "Yersinia pestis",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": null,
+      "fossil_occurrences_count": 0,
+      "first_appearance_ma": null,
+      "last_appearance_ma": null,
+      "geological_interval": "Bronze Age \u2013 Modern (Microbial aDNA)"
     }
   },
   {
@@ -241,6 +271,16 @@
     "pathway": {
       "kegg_id": "map04512",
       "pathway_name": "ECM-receptor interaction & bone remodeling"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:44837",
+      "pbdb_taxon_name": "Aenocyon dirus",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Aenocyon+dirus",
+      "fossil_occurrences_count": 86,
+      "first_appearance_ma": 2.58,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Pleistocene (Rancholabrean)"
     }
   },
   {
@@ -296,6 +336,16 @@
     "pathway": {
       "kegg_id": "map00190",
       "pathway_name": "Oxidative phosphorylation & thermogenesis"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:308748",
+      "pbdb_taxon_name": "Panthera spelaea",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Panthera+spelaea",
+      "fossil_occurrences_count": 16,
+      "first_appearance_ma": 2.58,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Pleistocene"
     }
   },
   {
@@ -351,6 +401,16 @@
     "pathway": {
       "kegg_id": "map00190",
       "pathway_name": "Mitochondrial metabolic adaptation"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:52615",
+      "pbdb_taxon_name": "Bison priscus",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Bison+priscus",
+      "fossil_occurrences_count": 39,
+      "first_appearance_ma": 7.25,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Late Miocene \u2013 Late Pleistocene"
     }
   },
   {
@@ -406,6 +466,16 @@
     "pathway": {
       "kegg_id": "map04066",
       "pathway_name": "HIF-1 signaling pathway & erythropoiesis"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:83088",
+      "pbdb_taxon_name": "Homo sapiens",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Homo+sapiens",
+      "fossil_occurrences_count": 97,
+      "first_appearance_ma": 5.33,
+      "last_appearance_ma": 0.01,
+      "geological_interval": "Pliocene \u2013 Holocene"
     }
   },
   {
@@ -461,6 +531,16 @@
     "pathway": {
       "kegg_id": "map04512",
       "pathway_name": "Cranial morphology & skeletal mineralization"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:234413",
+      "pbdb_taxon_name": "Thylacinus cynocephalus",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Thylacinus+cynocephalus",
+      "fossil_occurrences_count": 24,
+      "first_appearance_ma": 3.6,
+      "last_appearance_ma": 0.01,
+      "geological_interval": "Pliocene \u2013 Holocene (1936 CE)"
     }
   },
   {
@@ -516,6 +596,16 @@
     "pathway": {
       "kegg_id": "map04916",
       "pathway_name": "Melanogenesis & integument thermoregulation"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:54846",
+      "pbdb_taxon_name": "Coelodonta antiquitatis",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Coelodonta+antiquitatis",
+      "fossil_occurrences_count": 27,
+      "first_appearance_ma": 7.25,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Late Miocene \u2013 Late Pleistocene"
     }
   },
   {
@@ -571,6 +661,16 @@
     "pathway": {
       "kegg_id": "map04512",
       "pathway_name": "Musculoskeletal biomechanics & ECM integrity"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:46515",
+      "pbdb_taxon_name": "Smilodon fatalis",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Smilodon+fatalis",
+      "fossil_occurrences_count": 39,
+      "first_appearance_ma": 2.58,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Pleistocene (Rancholabrean)"
     }
   },
   {
@@ -626,6 +726,16 @@
     "pathway": {
       "kegg_id": "map00190",
       "pathway_name": "Oxidative phosphorylation & flightless energetics"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:92328",
+      "pbdb_taxon_name": "Raphus cucullatus",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Raphus+cucullatus",
+      "fossil_occurrences_count": 4,
+      "first_appearance_ma": 0.01,
+      "last_appearance_ma": 0.01,
+      "geological_interval": "Holocene (Extinct 1662 CE)"
     }
   },
   {
@@ -681,6 +791,16 @@
     "pathway": {
       "kegg_id": "map00190",
       "pathway_name": "High-endurance flight energetics"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:83493",
+      "pbdb_taxon_name": "Ectopistes migratorius",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Ectopistes+migratorius",
+      "fossil_occurrences_count": 36,
+      "first_appearance_ma": 5.33,
+      "last_appearance_ma": 0.01,
+      "geological_interval": "Pliocene \u2013 Holocene (1914 CE)"
     }
   },
   {
@@ -736,6 +856,16 @@
     "pathway": {
       "kegg_id": "map04512",
       "pathway_name": "ECM-receptor interaction & osteoderm mineralization"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:43636",
+      "pbdb_taxon_name": "Mylodon",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Mylodon",
+      "fossil_occurrences_count": 48,
+      "first_appearance_ma": 27.3,
+      "last_appearance_ma": 0.01,
+      "geological_interval": "Oligocene \u2013 Holocene"
     }
   },
   {
@@ -791,6 +921,16 @@
     "pathway": {
       "kegg_id": "map00190",
       "pathway_name": "Oxidative phosphorylation & hyper-carnivore metabolism"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:44309",
+      "pbdb_taxon_name": "Arctodus simus",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Arctodus+simus",
+      "fossil_occurrences_count": 32,
+      "first_appearance_ma": 4.7,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Pliocene \u2013 Late Pleistocene"
     }
   },
   {
@@ -854,6 +994,16 @@
     "pathway": {
       "kegg_id": "map05164",
       "pathway_name": "Influenza A host cell entry & endocytosis"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": null,
+      "pbdb_taxon_name": "Influenza A virus",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": null,
+      "fossil_occurrences_count": 0,
+      "first_appearance_ma": null,
+      "last_appearance_ma": null,
+      "geological_interval": "Modern / 20th Century (Archival aRNA)"
     }
   },
   {
@@ -909,6 +1059,16 @@
     "pathway": {
       "kegg_id": "map00190",
       "pathway_name": "Low-metabolic rate xenarthran energetics"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:247968",
+      "pbdb_taxon_name": "Doedicurus clavicaudatus",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Doedicurus+clavicaudatus",
+      "fossil_occurrences_count": 9,
+      "first_appearance_ma": 0.4,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Middle \u2013 Late Pleistocene"
     }
   },
   {
@@ -964,6 +1124,16 @@
     "pathway": {
       "kegg_id": "map04512",
       "pathway_name": "Connective tissue osteogenesis"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:117319",
+      "pbdb_taxon_name": "Toxodon platensis",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Toxodon+platensis",
+      "fossil_occurrences_count": 33,
+      "first_appearance_ma": 23.04,
+      "last_appearance_ma": 0.13,
+      "geological_interval": "Early Miocene \u2013 Late Pleistocene"
     }
   },
   {
@@ -1019,6 +1189,16 @@
     "pathway": {
       "kegg_id": "map00190",
       "pathway_name": "Avian gigantism & flightless metabolic rate"
+    },
+    "fossil_record": {
+      "pbdb_taxon_id": "txn:39297",
+      "pbdb_taxon_name": "Dinornis",
+      "pbdb_navigator_url": "https://paleobiodb.org/navigator/",
+      "pbdb_api_url": "https://paleobiodb.org/data1.2/occs/list.json?base_name=Dinornis",
+      "fossil_occurrences_count": 18,
+      "first_appearance_ma": 0.13,
+      "last_appearance_ma": 0.01,
+      "geological_interval": "Late Pleistocene \u2013 Holocene (~1445 CE)"
     }
   }
 ]
