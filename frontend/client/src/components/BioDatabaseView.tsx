@@ -27,6 +27,8 @@ import {
 } from "../lib/api";
 import { MolecularViewer } from "./MolecularViewer";
 
+import atlasRegistryData from "../lib/paleo_atlas_registry.json";
+
 interface CaseStudyPreset {
   label: string;
   query: string;
@@ -39,51 +41,34 @@ interface CaseStudyPreset {
   description: string;
 }
 
-const CASE_STUDIES: CaseStudyPreset[] = [
-  {
-    label: "Mammoth HBB",
-    query: "HBB",
-    organism: "Mammuthus primigenius",
-    nucleotide: "HQ184444.1",
-    protein: "D3U1H9",
-    pdb: "3VRF",
-    pfam: "PF00042",
-    prosite: "PS01033",
-    description:
-      "Cold-adaptation substitutions in woolly mammoth hemoglobin reducing enthalpy of oxygenation for arctic survival.",
-  },
-  {
-    label: "Neanderthal FOXP2",
-    query: "FOXP2",
-    organism: "Homo neanderthalensis",
-    nucleotide: "AF512946.1",
-    protein: "O15409",
-    pdb: "2A07",
-    pfam: "PF00250",
-    prosite: "PS00658",
-    description:
-      "Speech/language associated forkhead transcription factor shared identically between archaic Neanderthals and modern humans.",
-  },
-  {
-    label: "Ancient Y. pestis Pla",
-    query: "Pla",
-    organism: "Yersinia pestis",
-    nucleotide: "AL590842.1",
-    protein: "P17811",
-    pdb: "2X55",
-    pfam: "PF01278",
-    prosite: "PS00834",
-    description:
-      "Plasminogen activator protease on pPCP1 virulence plasmid essential for pneumonic plague dissemination across Bronze Age/Black Death lineages.",
-  },
-];
+const CASE_STUDIES: CaseStudyPreset[] = (atlasRegistryData as any[]).map((entry) => ({
+  label: `${entry.common_name} (${entry.target_locus.gene_symbol})`,
+  query: entry.target_locus.gene_symbol,
+  organism: entry.scientific_name,
+  nucleotide: entry.target_locus.extinct_nucleotide_acc,
+  protein: entry.target_locus.extinct_uniprot_acc,
+  pdb: entry.structure.pdb_id,
+  pfam: entry.target_locus.gene_symbol === "HBB" ? "PF00042" : (entry.target_locus.gene_symbol === "FOXP2" ? "PF00250" : "PF01391"),
+  prosite: entry.target_locus.gene_symbol === "HBB" ? "PS01033" : (entry.target_locus.gene_symbol === "FOXP2" ? "PS00658" : "PS00017"),
+  description: entry.description || entry.key_trait,
+}));
 
-export const BioDatabaseView: React.FC = () => {
-  const [searchQuery, setSearchQuery] = useState("HBB");
-  const [searchOrganism, setSearchOrganism] = useState("Mammuthus primigenius");
+interface BioDatabaseViewProps {
+  initialQuery?: string;
+  initialOrganism?: string;
+}
+
+export const BioDatabaseView: React.FC<BioDatabaseViewProps> = ({
+  initialQuery,
+  initialOrganism,
+}) => {
+  const [searchQuery, setSearchQuery] = useState(initialQuery || "HBB");
+  const [searchOrganism, setSearchOrganism] = useState(initialOrganism || "Mammuthus primigenius");
   const [loading, setLoading] = useState(false);
   const [record, setRecord] = useState<BioLookupResponse | null>(null);
-  const [selectedCaseStudy, setSelectedCaseStudy] = useState<string>("Mammoth HBB");
+  const [selectedCaseStudy, setSelectedCaseStudy] = useState<string>(
+    initialQuery ? `${initialOrganism || ""} (${initialQuery})` : CASE_STUDIES[0]?.label || "Mammoth HBB"
+  );
 
   // Structure & Mutations state
   const [mutations, setMutations] = useState<any[]>([]);
@@ -95,6 +80,10 @@ export const BioDatabaseView: React.FC = () => {
   const [scanInputSeq, setScanInputSeq] = useState("");
   const [scanResults, setScanResults] = useState<any[]>([]);
   const [scanning, setScanning] = useState(false);
+
+  React.useEffect(() => {
+    executeLookup(searchQuery, searchOrganism);
+  }, [initialQuery, initialOrganism]);
 
   const executeLookup = async (q: string, org?: string) => {
     if (!q.trim()) return;

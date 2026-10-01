@@ -8,6 +8,7 @@ from typing import Any, Optional
 from fastapi import APIRouter, Body, Depends, HTTPException, Query
 
 from backend.api.bio_schemas import (
+    AtlasListResponse,
     BioLookupResponse,
     ConversionRequest,
     ConversionResponse,
@@ -20,6 +21,7 @@ from backend.api.bio_schemas import (
     StructureRecord,
     SubmissionValidationRequest,
     SubmissionValidationResponse,
+    TaxonRegistryEntry,
     TranslationRequest,
     TranslationResponse,
     ValidationRequest,
@@ -92,6 +94,47 @@ def bio_health(
         "services": services,
         "cache_directory": settings.bio_cache_dir,
     }
+
+
+# ==========================================
+# TAXA ATLAS & SPECIES REGISTRY
+# ==========================================
+
+@bio_router.get("/atlas", response_model=AtlasListResponse)
+def api_get_atlas(clade: Optional[str] = Query(None, description="Filter by clade")) -> AtlasListResponse:
+    """Retrieve full catalog of 18 codified prehistoric taxa in the Paleogenomics Atlas."""
+    from pathlib import Path
+    import json
+    atlas_file = Path(__file__).parent.parent / "data" / "paleo_atlas_registry.json"
+    if not atlas_file.exists():
+        return AtlasListResponse(total_taxa=0, taxa=[], catalog=[])
+    with open(atlas_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    if clade:
+        clean_clade = clade.strip().lower()
+        data = [e for e in data if clean_clade in e.get("clade", "").lower()]
+    return AtlasListResponse(total_taxa=len(data), taxa=data, catalog=data)
+
+
+@bio_router.get("/atlas/{tax_id}", response_model=TaxonRegistryEntry)
+def api_get_atlas_entry(tax_id: str) -> TaxonRegistryEntry:
+    """Retrieve codified entry details for a specific prehistoric taxon by accession (e.g. PRAG-TAX-001)."""
+    from pathlib import Path
+    import json
+    atlas_file = Path(__file__).parent.parent / "data" / "paleo_atlas_registry.json"
+    if not atlas_file.exists():
+        raise HTTPException(status_code=404, detail="Atlas registry data file not found.")
+    with open(atlas_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    clean_id = tax_id.strip().upper()
+    for entry in data:
+        if (
+            entry["tax_id"].upper() == clean_id
+            or clean_id in entry["common_name"].upper()
+            or clean_id in entry["scientific_name"].upper()
+        ):
+            return TaxonRegistryEntry(**entry)
+    raise HTTPException(status_code=404, detail=f"Taxon '{tax_id}' not found in Paleogenomics Atlas.")
 
 
 # ==========================================

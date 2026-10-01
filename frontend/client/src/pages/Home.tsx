@@ -54,8 +54,9 @@ import {
 import { SequenceWorkbenchView } from "../components/SequenceWorkbenchView";
 import { BioDatabaseView } from "../components/BioDatabaseView";
 import { BioEntityCard } from "../components/BioEntityCard";
+import { TaxaAtlasView } from "../components/TaxaAtlasView";
 
-type ViewKey = "studio" | "workbench" | "biodb" | "corpus" | "evaluation" | "diagnostics";
+type ViewKey = "studio" | "atlas" | "workbench" | "biodb" | "corpus" | "evaluation" | "diagnostics";
 type ChunkType = "TEXT" | "TABLE" | "CAPTION" | string;
 
 interface EvidenceItem {
@@ -79,11 +80,12 @@ interface IngestTask {
 
 const navItems: { key: ViewKey; label: string; short: string; icon: typeof Archive }[] = [
   { key: "studio", label: "Research Studio", short: "01", icon: Microscope },
-  { key: "workbench", label: "Sequence Workbench", short: "02", icon: Dna },
-  { key: "biodb", label: "BioDB Explorer", short: "03", icon: Database },
-  { key: "corpus", label: "Literature Corpus", short: "04", icon: Library },
-  { key: "evaluation", label: "Benchmark Eval", short: "05", icon: Gauge },
-  { key: "diagnostics", label: "Diagnostics", short: "06", icon: Activity },
+  { key: "atlas", label: "Taxa Atlas", short: "02", icon: BookOpen },
+  { key: "workbench", label: "Sequence Workbench", short: "03", icon: Dna },
+  { key: "biodb", label: "BioDB Explorer", short: "04", icon: Database },
+  { key: "corpus", label: "Literature Corpus", short: "05", icon: Library },
+  { key: "evaluation", label: "Benchmark Eval", short: "06", icon: Gauge },
+  { key: "diagnostics", label: "Diagnostics", short: "07", icon: Activity },
 ];
 
 const DEFAULT_EVIDENCE: EvidenceItem[] = [
@@ -606,19 +608,25 @@ function StudioView({
   setEvidence,
   activeEvidence,
   setActiveEvidence,
+  initialQuery,
+  initialTaxon,
 }: {
   onSelectChunk: (id: string) => void;
   evidence: EvidenceItem[];
   setEvidence: (items: EvidenceItem[]) => void;
   activeEvidence: string;
   setActiveEvidence: (id: string) => void;
+  initialQuery?: string;
+  initialTaxon?: string;
 }) {
-  const [taxon, setTaxon] = useState("Smilodon fatalis");
+  const [taxon, setTaxon] = useState(initialTaxon || "Smilodon fatalis");
   const [period, setPeriod] = useState("Pleistocene");
   const [minYear, setMinYear] = useState("2010");
   const [maxYear, setMaxYear] = useState("2026");
   const [topK, setTopK] = useState(8);
-  const [query, setQuery] = useState("What spinal pathology was identified in a Smilodon fatalis specimen?");
+  const [query, setQuery] = useState(
+    initialQuery || "What spinal pathology was identified in a Smilodon fatalis specimen?"
+  );
   const [answer, setAnswer] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
@@ -629,6 +637,11 @@ function StudioView({
   } | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    if (initialQuery) setQuery(initialQuery);
+    if (initialTaxon) setTaxon(initialTaxon);
+  }, [initialQuery, initialTaxon]);
 
   const runQuery = async (forcedQuery?: string) => {
     const q = (forcedQuery !== undefined ? forcedQuery : query).trim();
@@ -1785,6 +1798,19 @@ export default function Home() {
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [evidence, setEvidence] = useState<EvidenceItem[]>(DEFAULT_EVIDENCE);
   const [activeEvidence, setActiveEvidence] = useState("PMC13453694:0");
+  const [workbenchContext, setWorkbenchContext] = useState<{
+    sequence: string;
+    locus: string;
+    organism: string;
+  } | null>(null);
+  const [biodbContext, setBiodbContext] = useState<{
+    query: string;
+    organism: string;
+  } | null>(null);
+  const [studioContext, setStudioContext] = useState<{
+    prompt: string;
+    taxon: string;
+  } | null>(null);
 
   const checkHealth = () => {
     fetchHealth()
@@ -1843,10 +1869,39 @@ export default function Home() {
               setEvidence={setEvidence}
               activeEvidence={activeEvidence}
               setActiveEvidence={setActiveEvidence}
+              initialQuery={studioContext?.prompt}
+              initialTaxon={studioContext?.taxon}
             />
           )}
-          {active === "workbench" && <SequenceWorkbenchView />}
-          {active === "biodb" && <BioDatabaseView />}
+          {active === "atlas" && (
+            <TaxaAtlasView
+              onExploreInBioDB={(query, organism) => {
+                setBiodbContext({ query, organism });
+                setActive("biodb");
+              }}
+              onLoadInWorkbench={(sequence, locus, organism) => {
+                setWorkbenchContext({ sequence, locus, organism });
+                setActive("workbench");
+              }}
+              onAskInStudio={(prompt, taxon) => {
+                setStudioContext({ prompt, taxon });
+                setActive("studio");
+              }}
+            />
+          )}
+          {active === "workbench" && (
+            <SequenceWorkbenchView
+              initialSequence={workbenchContext?.sequence}
+              initialLocus={workbenchContext?.locus}
+              initialOrganism={workbenchContext?.organism}
+            />
+          )}
+          {active === "biodb" && (
+            <BioDatabaseView
+              initialQuery={biodbContext?.query}
+              initialOrganism={biodbContext?.organism}
+            />
+          )}
           {active === "corpus" && <CorpusView />}
           {active === "evaluation" && <EvaluationView />}
           {active === "diagnostics" && (

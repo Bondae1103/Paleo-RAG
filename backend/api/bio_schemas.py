@@ -196,3 +196,75 @@ class BioLookupResponse(BaseModel):
     pathways: list[PathwayHit] = Field(default_factory=list)
     interactions: list[InteractionEdge] = Field(default_factory=list)
     locus: Optional[LocusLink] = None
+
+
+class MutationAnnotation(BaseModel):
+    position: int
+    ancestral_aa: str
+    derived_aa: str
+    label: str
+    grantham_distance: int = 0
+    functional_impact: str = ""
+
+
+class StructureAnnotation(BaseModel):
+    pdb_id: str
+    title: str
+    resolution_angstrom: Optional[float] = None
+    chain: str = "A"
+    cath_code: str = ""
+    scop_fold: str = ""
+    mutations: list[MutationAnnotation] = Field(default_factory=list)
+
+
+class LocusAnnotation(BaseModel):
+    gene_symbol: str
+    protein_name: str
+    extinct_nucleotide_acc: str
+    extinct_uniprot_acc: str
+    extinct_sequence_dna: str
+    extinct_sequence_aa: str
+
+
+class ExtantCounterpartAnnotation(BaseModel):
+    common_name: str
+    scientific_name: str
+    extant_nucleotide_acc: str
+    extant_uniprot_acc: str
+    extant_sequence_dna: str
+    extant_sequence_aa: str
+
+
+class GenomicsAnnotation(BaseModel):
+    chromosome: str
+    start: int
+    end: int
+    assembly: str
+    ensembl_species: str
+
+
+class PathwayAnnotation(BaseModel):
+    kegg_id: str
+    pathway_name: str
+
+
+class TaxonRegistryEntry(BaseModel):
+    tax_id: str
+    common_name: str
+    scientific_name: str
+    clade: str
+    epoch: str
+    extinction_date: str
+    key_trait: str
+    description: str
+    target_locus: LocusAnnotation
+    extant_counterpart: ExtantCounterpartAnnotation
+    structure: StructureAnnotation
+    genomics: GenomicsAnnotation
+    pathway: PathwayAnnotation
+
+
+class AtlasListResponse(BaseModel):
+    total_taxa: int
+    taxa: list[TaxonRegistryEntry]
+    catalog: list[TaxonRegistryEntry] = Field(default_factory=list)

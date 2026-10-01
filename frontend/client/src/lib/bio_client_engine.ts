@@ -10,6 +10,7 @@
  * or when the backend server is temporarily disconnected.
  */
 import preindexedData from "./preindexed_case_studies.json";
+import atlasRegistryData from "./paleo_atlas_registry.json";
 import type {
   BioLookupResponse,
   ConversionResponse,

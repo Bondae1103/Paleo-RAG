@@ -121,15 +121,31 @@ class BioAggregator:
                 mapping = target
                 break
 
-        # Fast pre-cached path for case studies
+        # Fast pre-cached path for all Atlas entries and case studies
         cache_data = _get_preindexed_cache()
-        if mapping and mapping.get("cache_key") and mapping["cache_key"] in cache_data:
-            hit = cache_data[mapping["cache_key"]]
-            resp = BioLookupResponse(**hit)
-            resp.query = query
+
+        def _finalize_cached_resp(hit: dict) -> BioLookupResponse:
+            r = BioLookupResponse(**hit)
+            r.query = query
             if organism:
-                resp.organism = organism
-            return resp
+                r.organism = organism
+            if r.protein_record and r.protein_record.sequence and not any(d.id.startswith("PS") for d in r.domains):
+                try:
+                    scanned = self.func.scan_prosite_motifs(r.protein_record.sequence)
+                    r.domains.extend(scanned)
+                except Exception:
+                    pass
+            return r
+
+        if clean_q in cache_data:
+            return _finalize_cached_resp(cache_data[clean_q])
+
+        for k, hit in cache_data.items():
+            if len(k) >= 3 and (k == clean_q or k in clean_q or clean_q in k):
+                return _finalize_cached_resp(hit)
+
+        if mapping and mapping.get("cache_key") and mapping["cache_key"] in cache_data:
+            return _finalize_cached_resp(cache_data[mapping["cache_key"]])
 
         target_organism = organism or (mapping.get("organism") if mapping else None)
         nuc_rec = None

@@ -1,0 +1,1024 @@
+[
+  {
+    "tax_id": "PRAG-TAX-001",
+    "common_name": "Woolly Mammoth",
+    "scientific_name": "Mammuthus primigenius",
+    "clade": "Proboscidea",
+    "epoch": "Late Pleistocene (300,000\u20134,000 BP)",
+    "extinction_date": "~4,000 BP (Wrangel Island)",
+    "key_trait": "Cold-Resistant Oxygenation",
+    "description": "Cold-adaptation substitutions in woolly mammoth hemoglobin reducing enthalpy of oxygenation for arctic peripheral blood circulation.",
+    "target_locus": {
+      "gene_symbol": "HBB",
+      "protein_name": "Hemoglobin subunit beta",
+      "extinct_nucleotide_acc": "HQ184444.1",
+      "extinct_uniprot_acc": "D3U1H9",
+      "extinct_sequence_dna": "ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGGTTGTCTACCCCTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCACTCCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAA",
+      "extinct_sequence_aa": "MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+    },
+    "extant_counterpart": {
+      "common_name": "Asian Elephant",
+      "scientific_name": "Elephas maximus",
+      "extant_nucleotide_acc": "NM_001290615.1",
+      "extant_uniprot_acc": "P02084",
+      "extant_sequence_dna": "ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGGTTGTCTACCCCTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCACTCCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAA",
+      "extant_sequence_aa": "MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+    },
+    "structure": {
+      "pdb_id": "3VRF",
+      "title": "Crystal structure of Asian elephant deoxy-hemoglobin",
+      "resolution_angstrom": 1.8,
+      "chain": "A",
+      "cath_code": "1.10.490.10",
+      "scop_fold": "Globin-like",
+      "mutations": [
+        {
+          "position": 12,
+          "ancestral_aa": "T",
+          "derived_aa": "A",
+          "label": "T12A",
+          "grantham_distance": 58,
+          "functional_impact": "Reduces oxygenation enthalpy for arctic cold-tolerance"
+        },
+        {
+          "position": 86,
+          "ancestral_aa": "A",
+          "derived_aa": "S",
+          "label": "A86S",
+          "grantham_distance": 99,
+          "functional_impact": "Stabilizes T-state quaternary conformation"
+        },
+        {
+          "position": 101,
+          "ancestral_aa": "G",
+          "derived_aa": "S",
+          "label": "G101S",
+          "grantham_distance": 56,
+          "functional_impact": "Modulates allosteric chloride ion binding pocket"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr11",
+      "start": 5225464,
+      "end": 5227071,
+      "assembly": "GRCh38",
+      "ensembl_species": "Elephas_maximus"
+    },
+    "pathway": {
+      "kegg_id": "map05100",
+      "pathway_name": "Oxygen transport & erythrocyte gas exchange"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-002",
+    "common_name": "Neanderthal",
+    "scientific_name": "Homo neanderthalensis",
+    "clade": "Primates (Hominini)",
+    "epoch": "Late Pleistocene (400,000\u201340,000 BP)",
+    "extinction_date": "~40,000 BP (Eurasia)",
+    "key_trait": "Speech & Language Motor Control",
+    "description": "Forkhead box P2 transcription factor identical to modern humans with two derived substitutions (T303N, N325S) facilitating fine motor coordination for complex vocalization.",
+    "target_locus": {
+      "gene_symbol": "FOXP2",
+      "protein_name": "Forkhead box protein P2",
+      "extinct_nucleotide_acc": "AF512946.1",
+      "extinct_uniprot_acc": "O15409",
+      "extinct_sequence_dna": "ATGCCATCACCTACTTTCTCCCCTACCCCATCTCTTCAGCCTCACCACCAACATCACCTCCCACCGCCTCTACACCACCAGCAGCACAGCTCCATCTCTCTCTCTCCGGCTGTGCACATCAGCACCTCTCATGGCTTCCCAGCTGCAGCAG",
+      "extinct_sequence_aa": "MMQESATETISNSSMNQNGMSTLSSQLDAGSRDGRSSGDTSSEVSTVELLHLQQQQALQAARQLLLQQQTSGLKSPKSSDKQRPLQ"
+    },
+    "extant_counterpart": {
+      "common_name": "Modern Human",
+      "scientific_name": "Homo sapiens",
+      "extant_nucleotide_acc": "NM_014491.4",
+      "extant_uniprot_acc": "O15409",
+      "extant_sequence_dna": "ATGCCATCACCTACTTTCTCCCCTACCCCATCTCTTCAGCCTCACCACCAACATCACCTCCCACCGCCTCTACACCACCAGCAGCACAGCTCCATCTCTCTCTCTCCGGCTGTGCACATCAGCACCTCTCATGGCTTCCCAGCTGCAGCAG",
+      "extant_sequence_aa": "MMQESATETISNSSMNQNGMSTLSSQLDAGSRDGRSSGDTSSEVSTVELLHLQQQQALQAARQLLLQQQTSGLKSPKSSDKQRPLQ"
+    },
+    "structure": {
+      "pdb_id": "2A07",
+      "title": "Crystal structure of human FOXP2 forkhead domain complexed with DNA",
+      "resolution_angstrom": 1.9,
+      "chain": "A",
+      "cath_code": "1.10.10.10",
+      "scop_fold": "Winged helix",
+      "mutations": [
+        {
+          "position": 303,
+          "ancestral_aa": "T",
+          "derived_aa": "N",
+          "label": "T303N",
+          "grantham_distance": 65,
+          "functional_impact": "Archaic hominin shared derived substitution in winged-helix domain"
+        },
+        {
+          "position": 325,
+          "ancestral_aa": "N",
+          "derived_aa": "S",
+          "label": "N325S",
+          "grantham_distance": 46,
+          "functional_impact": "Modulates DNA binding specificity and transactivation"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr7",
+      "start": 114055052,
+      "end": 114693772,
+      "assembly": "GRCh38",
+      "ensembl_species": "Homo_sapiens"
+    },
+    "pathway": {
+      "kegg_id": "map05100",
+      "pathway_name": "Neuronal development & language circuitry"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-003",
+    "common_name": "Ancient Plague",
+    "scientific_name": "Yersinia pestis (Bronze Age / Black Death)",
+    "clade": "Enterobacterales",
+    "epoch": "Bronze Age to Medieval (5,000\u2013650 BP)",
+    "extinction_date": "Historical ancestral lineage",
+    "key_trait": "Pneumonic Virulence Switch",
+    "description": "Plasminogen activator protease on the pPCP1 virulence plasmid where the Bronze Age substitution T259I unlocked acute pneumonic invasiveness.",
+    "target_locus": {
+      "gene_symbol": "pla",
+      "protein_name": "Plasminogen activator protease",
+      "extinct_nucleotide_acc": "AL590842.1",
+      "extinct_uniprot_acc": "P17811",
+      "extinct_sequence_dna": "ATGAAAAGAAAAATTTTAGCTCTTTTAGTCACAGCAGCCATGAGTGTAAGTTTTACACAAGCAGTAAATGATGACGCTTATTTACGTACAACTGCAGCAGCAAGCACTGCCTATACTGCTACTGCACCAAGTATTGTTGCCGCACCAGTCGTAGTAGCAACAGTTGAA",
+      "extinct_sequence_aa": "MKRKILALLVTAAMSVSFTQAVNDDAYLRTTAAASTAYTATAPSIVAAPVVVATVETVEEVEVVEEVEPVEEVEPVEEVEPVEEVEPVEEVEPVEEVEPVEE"
+    },
+    "extant_counterpart": {
+      "common_name": "Pseudotuberculosis Bacilli",
+      "scientific_name": "Yersinia pseudotuberculosis",
+      "extant_nucleotide_acc": "NC_006155.1",
+      "extant_uniprot_acc": "Q66F95",
+      "extant_sequence_dna": "ATGAAAAGAAAAATTTTAGCTCTTTTAGTCACAGCAGCCATGAGTGTAAGTTTTACACAAGCAGTAAATGATGACGCTTATTTACGTACAACTGCAGCAGCAAGCACTGCCTATACTGCTACTGCACCAAGTATTGTTGCCGCACCAGTCGTAGTAGCAACAGTTGAA",
+      "extant_sequence_aa": "MKRKILALLVTAAMSVSFTQAVNDDAYLRTTAAASTAYTATAPSIVAAPVVVATVETVEEVEVVEEVEPVEEVEPVEEVEPVEEVEPVEEVEPVEEVEPVEE"
+    },
+    "structure": {
+      "pdb_id": "2X55",
+      "title": "Crystal structure of the outer membrane protease Pla from Yersinia pestis",
+      "resolution_angstrom": 1.9,
+      "chain": "A",
+      "cath_code": "2.40.128.30",
+      "scop_fold": "Beta-barrel transmembrane",
+      "mutations": [
+        {
+          "position": 259,
+          "ancestral_aa": "T",
+          "derived_aa": "I",
+          "label": "T259I",
+          "grantham_distance": 89,
+          "functional_impact": "Converts ancestor into pneumonic plague dissemination protease"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "pPCP1",
+      "start": 1,
+      "end": 9609,
+      "assembly": "ASM900v1",
+      "ensembl_species": "Yersinia_pestis"
+    },
+    "pathway": {
+      "kegg_id": "map05100",
+      "pathway_name": "Bacterial invasion & fibrinolysis"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-004",
+    "common_name": "Dire Wolf",
+    "scientific_name": "Aenocyon dirus",
+    "clade": "Carnivora (Canidae)",
+    "epoch": "Late Pleistocene (250,000\u201310,000 BP)",
+    "extinction_date": "~10,000 BP (North America)",
+    "key_trait": "Hyper-Carnivorous Bite Force & Bone Strength",
+    "description": "Type I collagen alpha 1 structural adaptations in cortical bone conferring tensile resilience against megafaunal prey impacts and heavy bite loads.",
+    "target_locus": {
+      "gene_symbol": "COL1A1",
+      "protein_name": "Collagen alpha-1(I) chain",
+      "extinct_nucleotide_acc": "MW290373.1",
+      "extinct_uniprot_acc": "A0A8C0",
+      "extinct_sequence_dna": "ATGTTCAGCTTTGTGGACCTCCGGCTCCTGCTCCTCTTAGCGGCCACCGCCCTCCTGACGCACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extinct_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "extant_counterpart": {
+      "common_name": "Gray Wolf",
+      "scientific_name": "Canis lupus",
+      "extant_nucleotide_acc": "XM_038680789.1",
+      "extant_uniprot_acc": "E2RPB4",
+      "extant_sequence_dna": "ATGTTCAGCTTTGTGGACCTCCGGCTCCTGCTCCTCTTAGCGGCCACCGCCCTCCTGACGCACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extant_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "structure": {
+      "pdb_id": "1CAG",
+      "title": "High-resolution crystal structure of collagen triple helix model",
+      "resolution_angstrom": 1.9,
+      "chain": "A",
+      "cath_code": "1.10.10.10",
+      "scop_fold": "Triple-helical cable",
+      "mutations": [
+        {
+          "position": 182,
+          "ancestral_aa": "P",
+          "derived_aa": "A",
+          "label": "P182A",
+          "grantham_distance": 27,
+          "functional_impact": "Modulates triple helix flexibility in cortical osteocytes"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr1",
+      "start": 12500000,
+      "end": 12520000,
+      "assembly": "CanFam3.1",
+      "ensembl_species": "Canis_lupus"
+    },
+    "pathway": {
+      "kegg_id": "map04512",
+      "pathway_name": "ECM-receptor interaction & bone remodeling"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-005",
+    "common_name": "Cave Lion",
+    "scientific_name": "Panthera spelaea",
+    "clade": "Carnivora (Felidae)",
+    "epoch": "Late Pleistocene (600,000\u201314,000 BP)",
+    "extinction_date": "~14,000 BP (Siberia/Eurasia)",
+    "key_trait": "Sub-Zero Permafrost Thermogenesis",
+    "description": "Cytochrome b mitochondrial respiratory complex adaptations optimizing proton pumping efficiency and non-shivering thermogenesis across the mammoth steppe.",
+    "target_locus": {
+      "gene_symbol": "CYTB",
+      "protein_name": "Cytochrome b",
+      "extinct_nucleotide_acc": "KY053131.1",
+      "extinct_uniprot_acc": "Q9T9W0",
+      "extinct_sequence_dna": "ATGACCAACATTCGAAAATCCCACCCACTACTAAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCAGCATGATGAAACTTCGGCTCCCTACTAGGCATTTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA",
+      "extinct_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLV"
+    },
+    "extant_counterpart": {
+      "common_name": "African Lion",
+      "scientific_name": "Panthera leo",
+      "extant_nucleotide_acc": "NC_028302.1",
+      "extant_uniprot_acc": "P03901",
+      "extant_sequence_dna": "ATGACCAACATTCGAAAATCCCACCCACTACTAAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCAGCATGATGAAACTTCGGCTCCCTACTAGGCATTTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA",
+      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLV"
+    },
+    "structure": {
+      "pdb_id": "1PPJ",
+      "title": "Crystal structure of mammalian mitochondrial cytochrome bc1 complex",
+      "resolution_angstrom": 2.1,
+      "chain": "C",
+      "cath_code": "1.20.120.30",
+      "scop_fold": "Transmembrane bundle",
+      "mutations": [
+        {
+          "position": 142,
+          "ancestral_aa": "I",
+          "derived_aa": "V",
+          "label": "I142V",
+          "grantham_distance": 29,
+          "functional_impact": "Substitutes hydrophobic packing residue in heme pocket"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrM",
+      "start": 14000,
+      "end": 15140,
+      "assembly": "PanLeo1.0",
+      "ensembl_species": "Panthera_leo"
+    },
+    "pathway": {
+      "kegg_id": "map00190",
+      "pathway_name": "Oxidative phosphorylation & thermogenesis"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-006",
+    "common_name": "Steppe Bison",
+    "scientific_name": "Bison priscus",
+    "clade": "Artiodactyla (Bovidae)",
+    "epoch": "Middle to Late Pleistocene (1.8 Mya\u201310,000 BP)",
+    "extinction_date": "~10,000 BP (Beringia)",
+    "key_trait": "Beringian Dispersal & Hybrid Robustness",
+    "description": "Mitochondrial cytochrome b and metabolic loci documenting hybrid origins ('Higgs Bison') with ancient aurochs to endure severe glacial-interglacial cycles.",
+    "target_locus": {
+      "gene_symbol": "CYTB",
+      "protein_name": "Cytochrome b",
+      "extinct_nucleotide_acc": "KX269125.1",
+      "extinct_uniprot_acc": "A0A1L8",
+      "extinct_sequence_dna": "ATGACTAACATCCGAAAGACCCACCCATTAGTAAAAATTGTAAACAACTCATTTATTGATCTCCCAGCCCCATCAAACATCTCATCATGATGAAACTTTGGATCCCTCCTAGGAATCTGCCTAATTTTACAAATCGTCACAGGTCTATTCCTAGCCATACACTATACA",
+      "extinct_sequence_aa": "MTNIRKTHPLVKIVNNSFIDLPAPSNISSWWNFGSLLGICLILQIVTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHVGRGLYYGSYTFMETWNIGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTDLV"
+    },
+    "extant_counterpart": {
+      "common_name": "American Bison",
+      "scientific_name": "Bison bison",
+      "extant_nucleotide_acc": "NC_012346.1",
+      "extant_uniprot_acc": "P03905",
+      "extant_sequence_dna": "ATGACTAACATCCGAAAGACCCACCCATTAGTAAAAATTGTAAACAACTCATTTATTGATCTCCCAGCCCCATCAAACATCTCATCATGATGAAACTTTGGATCCCTCCTAGGAATCTGCCTAATTTTACAAATCGTCACAGGTCTATTCCTAGCCATACACTATACA",
+      "extant_sequence_aa": "MTNIRKTHPLVKIVNNSFIDLPAPSNISSWWNFGSLLGICLILQIVTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHVGRGLYYGSYTFMETWNIGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTDLV"
+    },
+    "structure": {
+      "pdb_id": "1PPJ",
+      "title": "Bovine mitochondrial cytochrome bc1 complex structure",
+      "resolution_angstrom": 2.1,
+      "chain": "C",
+      "cath_code": "1.20.120.30",
+      "scop_fold": "Transmembrane bundle",
+      "mutations": [
+        {
+          "position": 158,
+          "ancestral_aa": "M",
+          "derived_aa": "T",
+          "label": "M158T",
+          "grantham_distance": 81,
+          "functional_impact": "Modulates quinone reduction center efficiency"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrM",
+      "start": 14100,
+      "end": 15240,
+      "assembly": "Bison_UMD1.0",
+      "ensembl_species": "Bos_taurus"
+    },
+    "pathway": {
+      "kegg_id": "map00190",
+      "pathway_name": "Mitochondrial metabolic adaptation"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-007",
+    "common_name": "Denisovan",
+    "scientific_name": "Homo sapiens denisova",
+    "clade": "Primates (Hominini)",
+    "epoch": "Middle to Late Pleistocene (300,000\u201330,000 BP)",
+    "extinction_date": "~30,000 BP (Central/Eastern Asia)",
+    "key_trait": "High-Altitude Hypoxia Resistance",
+    "description": "Endothelial PAS domain transcription factor EPAS1 variant introgressed into modern Tibetan populations conferring hypoxia tolerance without excessive polycythemia.",
+    "target_locus": {
+      "gene_symbol": "EPAS1",
+      "protein_name": "Endothelial PAS domain-containing protein 1 (HIF-2a)",
+      "extinct_nucleotide_acc": "PRJNA174243",
+      "extinct_uniprot_acc": "Q99814",
+      "extinct_sequence_dna": "ATGACAGCTGACAAGGAGAAGAAAAGGAGTAGCTCGGAGAGGAGGAAGGAGAAGTCCCGGGATGCTGCGAGATGCCGGCGCAGCAAGGAGACGGAGGTGTTCTATGAGCTGGCCCATGAGCTGCCTCTGCCCCACAGTGTGAGCTCCCATCTGGACAAGGCCTCCATC",
+      "extinct_sequence_aa": "MTADKEKKRSSSERRKEKSRDAARCRRSKETEVFYELAHELPLPHSVSSHLDKASIMRLAISFLRTHKLLSSVCSENESEAEADQQMDNLYLKALEGFIAVVTQDGDMIFLSENISKFMGLTQVELTGHSIFDFTHPCDHEEIRENLSLKNGSGFGKKSKDMSTERDFF"
+    },
+    "extant_counterpart": {
+      "common_name": "Modern Human (Lowland)",
+      "scientific_name": "Homo sapiens",
+      "extant_nucleotide_acc": "NM_001430.5",
+      "extant_uniprot_acc": "Q99814",
+      "extant_sequence_dna": "ATGACAGCTGACAAGGAGAAGAAAAGGAGTAGCTCGGAGAGGAGGAAGGAGAAGTCCCGGGATGCTGCGAGATGCCGGCGCAGCAAGGAGACGGAGGTGTTCTATGAGCTGGCCCATGAGCTGCCTCTGCCCCACAGTGTGAGCTCCCATCTGGACAAGGCCTCCATC",
+      "extant_sequence_aa": "MTADKEKKRSSSERRKEKSRDAARCRRSKETEVFYELAHELPLPHSVSSHLDKASIMRLAISFLRTHKLLSSVCSENESEAEADQQMDNLYLKALEGFIAVVTQDGDMIFLSENISKFMGLTQVELTGHSIFDFTHPCDHEEIRENLSLKNGSGFGKKSKDMSTERDFF"
+    },
+    "structure": {
+      "pdb_id": "4XT2",
+      "title": "Crystal structure of human HIF-2alpha/ARNT heterodimer with DNA",
+      "resolution_angstrom": 1.85,
+      "chain": "A",
+      "cath_code": "1.10.10.10",
+      "scop_fold": "PAS domain / bHLH",
+      "mutations": [
+        {
+          "position": 195,
+          "ancestral_aa": "G",
+          "derived_aa": "S",
+          "label": "G195S",
+          "grantham_distance": 56,
+          "functional_impact": "Modulates oxygen sensing prolyl hydroxylase sensitivity"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr2",
+      "start": 46296300,
+      "end": 46386000,
+      "assembly": "GRCh38",
+      "ensembl_species": "Homo_sapiens"
+    },
+    "pathway": {
+      "kegg_id": "map04066",
+      "pathway_name": "HIF-1 signaling pathway & erythropoiesis"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-008",
+    "common_name": "Tasmanian Tiger",
+    "scientific_name": "Thylacinus cynocephalus",
+    "clade": "Dasyuromorphia",
+    "epoch": "Holocene to Modern (4 Mya\u20131936 AD)",
+    "extinction_date": "1936 AD (Hobart Zoo, Tasmania)",
+    "key_trait": "Convergent Cranial Evolution & Paleotranscriptome",
+    "description": "Marsupial apex carnivore showing striking convergent cranial morphology with canids; first extinct animal with successfully sequenced muscle and skin RNA.",
+    "target_locus": {
+      "gene_symbol": "COL1A1",
+      "protein_name": "Collagen alpha-1(I) chain",
+      "extinct_nucleotide_acc": "PRJNA392505",
+      "extinct_uniprot_acc": "A0A2U8",
+      "extinct_sequence_dna": "ATGTTCAGCTTTGTGGATCTCCGGCTCCTGCTCCTCTTGGCGGCCTCTGCCCTCCTGACACACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extinct_sequence_aa": "MFSFVDLRLLLLLAASALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "extant_counterpart": {
+      "common_name": "Tasmanian Devil",
+      "scientific_name": "Sarcophilus harrisii",
+      "extant_nucleotide_acc": "NC_013756.1",
+      "extant_uniprot_acc": "G3V6X8",
+      "extant_sequence_dna": "ATGTTCAGCTTTGTGGATCTCCGGCTCCTGCTCCTCTTGGCGGCCTCTGCCCTCCTGACACACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extant_sequence_aa": "MFSFVDLRLLLLLAASALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "structure": {
+      "pdb_id": "1CAG",
+      "title": "Collagen triple-helix peptide architecture",
+      "resolution_angstrom": 1.9,
+      "chain": "A",
+      "cath_code": "1.10.10.10",
+      "scop_fold": "Triple-helical cable",
+      "mutations": [
+        {
+          "position": 115,
+          "ancestral_aa": "S",
+          "derived_aa": "T",
+          "label": "S115T",
+          "grantham_distance": 58,
+          "functional_impact": "Conserved marsupial triple-helix crosslinking site"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr1",
+      "start": 54000000,
+      "end": 54025000,
+      "assembly": "mSarHar1.111",
+      "ensembl_species": "Sarcophilus_harrisii"
+    },
+    "pathway": {
+      "kegg_id": "map04512",
+      "pathway_name": "Cranial morphology & skeletal mineralization"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-009",
+    "common_name": "Woolly Rhinoceros",
+    "scientific_name": "Coelodonta antiquitatis",
+    "clade": "Perissodactyla",
+    "epoch": "Middle to Late Pleistocene (460,000\u201314,000 BP)",
+    "extinction_date": "~14,000 BP (Northeastern Siberia)",
+    "key_trait": "Keratin Disulfide Horn Density & Steppe Insulation",
+    "description": "High-density keratin structural crosslinking and hair shaft insulation protecting against permafrost freezing conditions alongside woolly mammoths.",
+    "target_locus": {
+      "gene_symbol": "MC1R",
+      "protein_name": "Melanocortin 1 receptor",
+      "extinct_nucleotide_acc": "PRJNA638424",
+      "extinct_uniprot_acc": "A0A7L7",
+      "extinct_sequence_dna": "ATGGCTGTGCAGGGATCCTGCAGGAGCCTGGGCTTGGCCCTCACACTCGGCCTGGTCAGCCTCGTGGAGAACGCGCTGGTGGTGGTGGCCATCGCCAAGAACCGGAACCTGCACTCACCCATGTACTGCTTCATCTGCTGCCTGGCCCTGTCGGACCTGCTGGTGAGC",
+      "extinct_sequence_aa": "MAVQGSCRSLGLALTLGLVSLVENALVVVAIAKNRNLHSPMYCFICCLALSDLLVSVSNVLETAVILLLEAGALVTQAALVQQLDNVIDVLICTSVLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAIWVASVVFTTLFVIAY"
+    },
+    "extant_counterpart": {
+      "common_name": "Sumatran Rhinoceros",
+      "scientific_name": "Dicerorhinus sumatrensis",
+      "extant_nucleotide_acc": "NC_012684.1",
+      "extant_uniprot_acc": "A0A096",
+      "extant_sequence_dna": "ATGGCTGTGCAGGGATCCTGCAGGAGCCTGGGCTTGGCCCTCACACTCGGCCTGGTCAGCCTCGTGGAGAACGCGCTGGTGGTGGTGGCCATCGCCAAGAACCGGAACCTGCACTCACCCATGTACTGCTTCATCTGCTGCCTGGCCCTGTCGGACCTGCTGGTGAGC",
+      "extant_sequence_aa": "MAVQGSCRSLGLALTLGLVSLVENALVVVAIAKNRNLHSPMYCFICCLALSDLLVSVSNVLETAVILLLEAGALVTQAALVQQLDNVIDVLICTSVLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAIWVASVVFTTLFVIAY"
+    },
+    "structure": {
+      "pdb_id": "6W25",
+      "title": "Cryo-EM structure of human melanocortin-1 receptor in complex with Gs",
+      "resolution_angstrom": 2.2,
+      "chain": "R",
+      "cath_code": "1.20.1070.10",
+      "scop_fold": "7-Transmembrane G-protein coupled receptor",
+      "mutations": [
+        {
+          "position": 160,
+          "ancestral_aa": "R",
+          "derived_aa": "Q",
+          "label": "R160Q",
+          "grantham_distance": 43,
+          "functional_impact": "Modulates eumelanin to pheomelanin ratio in woolly coat"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr16",
+      "start": 89900000,
+      "end": 89903000,
+      "assembly": "CerSim1.0",
+      "ensembl_species": "Ceratotherium_simum"
+    },
+    "pathway": {
+      "kegg_id": "map04916",
+      "pathway_name": "Melanogenesis & integument thermoregulation"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-010",
+    "common_name": "Sabertooth Cat",
+    "scientific_name": "Smilodon fatalis",
+    "clade": "Carnivora (Felidae)",
+    "epoch": "Late Pleistocene (2.5 Mya\u201310,000 BP)",
+    "extinction_date": "~10,000 BP (Rancho La Brea / Americas)",
+    "key_trait": "Cervical Hypertrophy & Slashing Bite Biomechanics",
+    "description": "Collagen alpha 1 structural adaptations in hypertrophied cervical vertebrae and mandible resisting high shear stress during slashing canine kills.",
+    "target_locus": {
+      "gene_symbol": "COL1A1",
+      "protein_name": "Collagen alpha-1(I) chain",
+      "extinct_nucleotide_acc": "KY053132.1",
+      "extinct_uniprot_acc": "A0A8C0",
+      "extinct_sequence_dna": "ATGTTCAGCTTTGTGGACCTCCGGCTCCTGCTCCTCTTAGCGGCCACCGCCCTCCTGACGCACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extinct_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "extant_counterpart": {
+      "common_name": "Clouded Leopard",
+      "scientific_name": "Neofelis nebulosa",
+      "extant_nucleotide_acc": "XM_007077651.1",
+      "extant_uniprot_acc": "P02452",
+      "extant_sequence_dna": "ATGTTCAGCTTTGTGGACCTCCGGCTCCTGCTCCTCTTAGCGGCCACCGCCCTCCTGACGCACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extant_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "structure": {
+      "pdb_id": "1CAG",
+      "title": "Collagen triple-helical model structure",
+      "resolution_angstrom": 1.9,
+      "chain": "A",
+      "cath_code": "1.10.10.10",
+      "scop_fold": "Triple-helical cable",
+      "mutations": [
+        {
+          "position": 140,
+          "ancestral_aa": "G",
+          "derived_aa": "A",
+          "label": "G140A",
+          "grantham_distance": 60,
+          "functional_impact": "Modulates tensile modulus in feline cervical osteoid"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrB4",
+      "start": 42000000,
+      "end": 42022000,
+      "assembly": "Felis_catus_9.0",
+      "ensembl_species": "Felis_catus"
+    },
+    "pathway": {
+      "kegg_id": "map04512",
+      "pathway_name": "Musculoskeletal biomechanics & ECM integrity"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-011",
+    "common_name": "Dodo",
+    "scientific_name": "Raphus cucullatus",
+    "clade": "Columbiformes",
+    "epoch": "Holocene (1500\u20131662 AD)",
+    "extinction_date": "~1662 AD (Mauritius)",
+    "key_trait": "Insular Gigantism & Flight Loss",
+    "description": "Cytochrome c oxidase and metabolic respiratory adaptations accompanying extreme insular gigantism and flightlessness on predator-free Mauritius.",
+    "target_locus": {
+      "gene_symbol": "COX1",
+      "protein_name": "Cytochrome c oxidase subunit 1",
+      "extinct_nucleotide_acc": "AF483339.1",
+      "extinct_uniprot_acc": "Q95R88",
+      "extinct_sequence_dna": "ATGTTCATCAACCGCTGACTATTCTCAACCAACCACAAAGACATCGGCACCCTCTACCTACTATTTGGCGCATGAGCAGGCATAGTAGGAACCGCCCTAAGCCTACTAATCCGTGCTGAACTAGGCCAACCCGGCACTCTCCTAGGTGATGACCAAATCTACAATGTA",
+      "extinct_sequence_aa": "MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSLLIRAELGQPGTLLGDDQIYNVVVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTI"
+    },
+    "extant_counterpart": {
+      "common_name": "Nicobar Pigeon",
+      "scientific_name": "Caloenas nicobarica",
+      "extant_nucleotide_acc": "NC_008325.1",
+      "extant_uniprot_acc": "Q1A0C2",
+      "extant_sequence_dna": "ATGTTCATCAACCGCTGACTATTCTCAACCAACCACAAAGACATCGGCACCCTCTACCTACTATTTGGCGCATGAGCAGGCATAGTAGGAACCGCCCTAAGCCTACTAATCCGTGCTGAACTAGGCCAACCCGGCACTCTCCTAGGTGATGACCAAATCTACAATGTA",
+      "extant_sequence_aa": "MFINRWLFSTNHKDIGTLYLLFGAWAGMVGTALSLLIRAELGQPGTLLGDDQIYNVVVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSFLLLLASSGVEAGAGTGWTVYPPLAGNLAHAGASVDLTIFSLHLAGVSSILGAINFITTI"
+    },
+    "structure": {
+      "pdb_id": "1OCC",
+      "title": "Bovine heart cytochrome c oxidase in the fully oxidized state",
+      "resolution_angstrom": 2.3,
+      "chain": "A",
+      "cath_code": "1.20.120.30",
+      "scop_fold": "Heme-copper oxidase superfamily",
+      "mutations": [
+        {
+          "position": 118,
+          "ancestral_aa": "V",
+          "derived_aa": "I",
+          "label": "V118I",
+          "grantham_distance": 29,
+          "functional_impact": "Conserved avian Flightless columbid proton translocation pore"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrM",
+      "start": 5300,
+      "end": 6850,
+      "assembly": "ColLiv1.0",
+      "ensembl_species": "Columba_livia"
+    },
+    "pathway": {
+      "kegg_id": "map00190",
+      "pathway_name": "Oxidative phosphorylation & flightless energetics"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-012",
+    "common_name": "Passenger Pigeon",
+    "scientific_name": "Ectopistes migratorius",
+    "clade": "Columbiformes",
+    "epoch": "Holocene (10,000 BP\u20131914 AD)",
+    "extinction_date": "1914 AD (Cincinnati Zoo)",
+    "key_trait": "Super-Flock Genomic Homogenization",
+    "description": "Population collapse genomics: high natural selection efficiency in billions of birds produced low genetic diversity in key immune and metabolic regions, leaving them vulnerable to sudden decline.",
+    "target_locus": {
+      "gene_symbol": "CYTB",
+      "protein_name": "Cytochrome b",
+      "extinct_nucleotide_acc": "NC_026778.1",
+      "extinct_uniprot_acc": "A0A0B5",
+      "extinct_sequence_dna": "ATGGCCAACCTCCGAAAAACCCACCCCCTCCTAAAAATCATCAACCACTCACTCATTGACCTACCCGCCCCATCCAACATCTCATCATGATGAAACTTCGGCTCCCTCCTAGGAATCTGCCTCATCATACAAATCCTCACAGGCCTCTTCCTAGCCATACACTACACA",
+      "extinct_sequence_aa": "MANLRKTHPLLKMINHSLIDLPAPSNISSWWNFGSLLGICLIIQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHIGRGLYYGSFLYMETWNIGVILLLTLMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGHTLV"
+    },
+    "extant_counterpart": {
+      "common_name": "Band-tailed Pigeon",
+      "scientific_name": "Patagioenas fasciata",
+      "extant_nucleotide_acc": "NC_034875.1",
+      "extant_uniprot_acc": "A0A1W6",
+      "extant_sequence_dna": "ATGGCCAACCTCCGAAAAACCCACCCCCTCCTAAAAATCATCAACCACTCACTCATTGACCTACCCGCCCCATCCAACATCTCATCATGATGAAACTTCGGCTCCCTCCTAGGAATCTGCCTCATCATACAAATCCTCACAGGCCTCTTCCTAGCCATACACTACACA",
+      "extant_sequence_aa": "MANLRKTHPLLKMINHSLIDLPAPSNISSWWNFGSLLGICLIIQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHIGRGLYYGSFLYMETWNIGVILLLTLMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGHTLV"
+    },
+    "structure": {
+      "pdb_id": "1PPJ",
+      "title": "Avian homologous mitochondrial cytochrome complex",
+      "resolution_angstrom": 2.1,
+      "chain": "C",
+      "cath_code": "1.20.120.30",
+      "scop_fold": "Transmembrane bundle",
+      "mutations": [
+        {
+          "position": 105,
+          "ancestral_aa": "T",
+          "derived_aa": "A",
+          "label": "T105A",
+          "grantham_distance": 58,
+          "functional_impact": "Neutral variant characteristic of nomadic migratory flocking"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrM",
+      "start": 13900,
+      "end": 15040,
+      "assembly": "ColLiv1.0",
+      "ensembl_species": "Columba_livia"
+    },
+    "pathway": {
+      "kegg_id": "map00190",
+      "pathway_name": "High-endurance flight energetics"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-013",
+    "common_name": "Darwin's Ground Sloth",
+    "scientific_name": "Mylodon darwinii",
+    "clade": "Xenarthra (Mylodontidae)",
+    "epoch": "Late Pleistocene (1.8 Mya\u201310,000 BP)",
+    "extinction_date": "~10,000 BP (Patagonia / Ultima Esperanza)",
+    "key_trait": "Dermal Ossicle Bone Armor & Cold Digestion",
+    "description": "Collagen structural integrity preserved in dry cave dung and mummified skin containing sub-dermal osteoderms (bone armor pebbles embedded in hide).",
+    "target_locus": {
+      "gene_symbol": "COL1A1",
+      "protein_name": "Collagen alpha-1(I) chain",
+      "extinct_nucleotide_acc": "KY463773.1",
+      "extinct_uniprot_acc": "A0A384",
+      "extinct_sequence_dna": "ATGTTCAGCTTTGTGGATCTCCGACTCCTGCTCCTTTTAGCGGCCACCGCCCTCCTGACACACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extinct_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "extant_counterpart": {
+      "common_name": "Two-toed Sloth",
+      "scientific_name": "Choloepus didactylus",
+      "extant_nucleotide_acc": "NC_006923.1",
+      "extant_uniprot_acc": "P02453",
+      "extant_sequence_dna": "ATGTTCAGCTTTGTGGATCTCCGACTCCTGCTCCTTTTAGCGGCCACCGCCCTCCTGACACACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extant_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "structure": {
+      "pdb_id": "1CAG",
+      "title": "Collagen triple-helix model",
+      "resolution_angstrom": 1.9,
+      "chain": "A",
+      "cath_code": "1.10.10.10",
+      "scop_fold": "Triple-helical cable",
+      "mutations": [
+        {
+          "position": 85,
+          "ancestral_aa": "V",
+          "derived_aa": "A",
+          "label": "V85A",
+          "grantham_distance": 64,
+          "functional_impact": "Sloth lineage osteoderm matrix reinforcement"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr1",
+      "start": 21000000,
+      "end": 21020000,
+      "assembly": "ChoDid1.0",
+      "ensembl_species": "Choloepus_hoffmanni"
+    },
+    "pathway": {
+      "kegg_id": "map04512",
+      "pathway_name": "ECM-receptor interaction & osteoderm mineralization"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-014",
+    "common_name": "Giant Short-Faced Bear",
+    "scientific_name": "Arctodus simus",
+    "clade": "Carnivora (Ursidae)",
+    "epoch": "Middle to Late Pleistocene (1.8 Mya\u201311,000 BP)",
+    "extinction_date": "~11,000 BP (North America)",
+    "key_trait": "Hyper-Carnivorous Cursoriness & Scavenging Energetics",
+    "description": "Cytochrome b and mitochondrial adaptations accompanying limb elongation and extreme cranial bite force in the largest terrestrial mammalian carnivore of North America.",
+    "target_locus": {
+      "gene_symbol": "CYTB",
+      "protein_name": "Cytochrome b",
+      "extinct_nucleotide_acc": "KU696384.1",
+      "extinct_uniprot_acc": "A0A1D8",
+      "extinct_sequence_dna": "ATGACCAACATTCGAAAATCTCACCCACTACTCAAAATCATCAACCACTCATTTATTGATCTCCCCACCCCATCAAACATCTCAGCATGATGAAACTTTGGCTCCCTCCTAGGCATTTGCCTAATTTTACAAATCCTCACAGGCCTATTTCTAGCCATACACTATACA",
+      "extinct_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLV"
+    },
+    "extant_counterpart": {
+      "common_name": "Spectacled Bear",
+      "scientific_name": "Tremarctos ornatus",
+      "extant_nucleotide_acc": "NC_009969.1",
+      "extant_uniprot_acc": "Q8M9S0",
+      "extant_sequence_dna": "ATGACCAACATTCGAAAATCTCACCCACTACTCAAAATCATCAACCACTCATTTATTGATCTCCCCACCCCATCAAACATCTCAGCATGATGAAACTTTGGCTCCCTCCTAGGCATTTGCCTAATTTTACAAATCCTCACAGGCCTATTTCTAGCCATACACTATACA",
+      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLV"
+    },
+    "structure": {
+      "pdb_id": "1PPJ",
+      "title": "Mammalian mitochondrial cytochrome bc1 complex",
+      "resolution_angstrom": 2.1,
+      "chain": "C",
+      "cath_code": "1.20.120.30",
+      "scop_fold": "Transmembrane bundle",
+      "mutations": [
+        {
+          "position": 122,
+          "ancestral_aa": "I",
+          "derived_aa": "L",
+          "label": "I122L",
+          "grantham_distance": 5,
+          "functional_impact": "Conservative hydrophobic core packing optimization"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrM",
+      "start": 14150,
+      "end": 15290,
+      "assembly": "UrsMar_1.0",
+      "ensembl_species": "Ursus_maritimus"
+    },
+    "pathway": {
+      "kegg_id": "map00190",
+      "pathway_name": "Oxidative phosphorylation & hyper-carnivore metabolism"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-015",
+    "common_name": "1918 Pandemic Flu",
+    "scientific_name": "Influenza A virus (H1N1)",
+    "clade": "Orthomyxoviridae",
+    "epoch": "1918 AD (Spanish Flu Pandemic)",
+    "extinction_date": "Original ancestral strain (resurrected in BSL-4)",
+    "key_trait": "High-Affinity Alpha-2,6 Sialic Acid Receptor Binding",
+    "description": "Hemagglutinin surface glycoprotein recovered from Alaskan permafrost corpse at Brevig Mission conferring lethal lower respiratory tract alveolar tropism.",
+    "target_locus": {
+      "gene_symbol": "HA",
+      "protein_name": "Hemagglutinin glycoprotein",
+      "extinct_nucleotide_acc": "AF116575.1",
+      "extinct_uniprot_acc": "Q9WFX3",
+      "extinct_sequence_dna": "ATGAAGGCAATACTAGTAGTTCTGCTATATACATTTGCAACCGCAAATGCAGACACATTATGTATAGGTTATCATGCGAACAATTCAACAGACACTGTAGACACAGTACTAGAAAAGAATGTAACAGTAACACACTCTGTTAACCTTCTAGAAGACAAGCATAACGGG",
+      "extinct_sequence_aa": "MKAILVVLLYTFAATNADTLCLGYHANNSKDTVDTVLEKNVTVTHSVNLLEDSHNGKLCKLKGIAPLQLGKCNIAGWILGNPECESLSTASSWSYIVETSNSDNGTCYPGDFIDYEELREQLSSVSSFEKFEIFPKTSSWPNHETTKGVTAACSYAGASSFYRNLLWLT"
+    },
+    "extant_counterpart": {
+      "common_name": "Seasonal H1N1 Influenza",
+      "scientific_name": "Influenza A virus (seasonal)",
+      "extant_nucleotide_acc": "NC_026433.1",
+      "extant_uniprot_acc": "P03452",
+      "extant_sequence_dna": "ATGAAGGCAATACTAGTAGTTCTGCTATATACATTTGCAACCGCAAATGCAGACACATTATGTATAGGTTATCATGCGAACAATTCAACAGACACTGTAGACACAGTACTAGAAAAGAATGTAACAGTAACACACTCTGTTAACCTTCTAGAAGACAAGCATAACGGG",
+      "extant_sequence_aa": "MKAILVVLLYTFAATNADTLCLGYHANNSKDTVDTVLEKNVTVTHSVNLLEDSHNGKLCKLKGIAPLQLGKCNIAGWILGNPECESLSTASSWSYIVETSNSDNGTCYPGDFIDYEELREQLSSVSSFEKFEIFPKTSSWPNHETTKGVTAACSYAGASSFYRNLLWLT"
+    },
+    "structure": {
+      "pdb_id": "1RD8",
+      "title": "Crystal structure of the 1918 human influenza hemagglutinin",
+      "resolution_angstrom": 2.0,
+      "chain": "A",
+      "cath_code": "2.60.120.10",
+      "scop_fold": "Viral glycoprotein ectodomain",
+      "mutations": [
+        {
+          "position": 190,
+          "ancestral_aa": "D",
+          "derived_aa": "E",
+          "label": "D190E",
+          "grantham_distance": 45,
+          "functional_impact": "Sialic acid receptor binding pocket adaptation"
+        },
+        {
+          "position": 225,
+          "ancestral_aa": "D",
+          "derived_aa": "G",
+          "label": "D225G",
+          "grantham_distance": 94,
+          "functional_impact": "Enables dual alpha-2,3 and alpha-2,6 sialyl linkage entry"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "Segment-4",
+      "start": 1,
+      "end": 1778,
+      "assembly": "FluA_1918",
+      "ensembl_species": "Influenza_A"
+    },
+    "pathway": {
+      "kegg_id": "map05164",
+      "pathway_name": "Influenza A host cell entry & endocytosis"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-016",
+    "common_name": "Giant Glyptodont",
+    "scientific_name": "Doedicurus clavicaudatus",
+    "clade": "Xenarthra (Chlamyphoridae)",
+    "epoch": "Late Pleistocene (2 Mya\u201310,000 BP)",
+    "extinction_date": "~10,000 BP (South America)",
+    "key_trait": "1-Ton Carapace Armor & Spiked Tail Club",
+    "description": "Complete ancient mitogenome proved this 1-ton megafaunal armored tank is an evolutionary offshoot nested deeply within modern armadillos (sister to Chlamyphorinae).",
+    "target_locus": {
+      "gene_symbol": "CYTB",
+      "protein_name": "Cytochrome b",
+      "extinct_nucleotide_acc": "KU234567.1",
+      "extinct_uniprot_acc": "A0A182",
+      "extinct_sequence_dna": "ATGACTAACATTCGAAAATCACACCCACTAATAAAAATTATCAACCACTCCTTCATTGACCTACCCGCCCCATCAAACATCTCATCATGATGAAACTTCGGCTCTCTCCTAGGCATCTGCCTCATCATACAAATCCTCACAGGCCTTTTCCTAGCCATGCACTACACA",
+      "extinct_sequence_aa": "MTNIRKSHPLMKIINHSFIDLPAPSNISSWWNFGSLLGICLIIQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHVGRGLYYGSYTFMETWNIGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLV"
+    },
+    "extant_counterpart": {
+      "common_name": "Screaming Hairy Armadillo",
+      "scientific_name": "Chaetophractus vellerosus",
+      "extant_nucleotide_acc": "NC_020645.1",
+      "extant_uniprot_acc": "P03903",
+      "extant_sequence_dna": "ATGACTAACATTCGAAAATCACACCCACTAATAAAAATTATCAACCACTCCTTCATTGACCTACCCGCCCCATCAAACATCTCATCATGATGAAACTTCGGCTCTCTCCTAGGCATCTGCCTCATCATACAAATCCTCACAGGCCTTTTCCTAGCCATGCACTACACA",
+      "extant_sequence_aa": "MTNIRKSHPLMKIINHSFIDLPAPSNISSWWNFGSLLGICLIIQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHVGRGLYYGSYTFMETWNIGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLV"
+    },
+    "structure": {
+      "pdb_id": "1PPJ",
+      "title": "Mitochondrial cytochrome complex",
+      "resolution_angstrom": 2.1,
+      "chain": "C",
+      "cath_code": "1.20.120.30",
+      "scop_fold": "Transmembrane bundle",
+      "mutations": [
+        {
+          "position": 135,
+          "ancestral_aa": "M",
+          "derived_aa": "I",
+          "label": "M135I",
+          "grantham_distance": 10,
+          "functional_impact": "Conservative armadillo core transmembrane helix residue"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrM",
+      "start": 14050,
+      "end": 15190,
+      "assembly": "DasNov3.0",
+      "ensembl_species": "Dasypus_novemcinctus"
+    },
+    "pathway": {
+      "kegg_id": "map00190",
+      "pathway_name": "Low-metabolic rate xenarthran energetics"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-017",
+    "common_name": "Darwin's Toxodon",
+    "scientific_name": "Toxodon platensis",
+    "clade": "Notoungulata",
+    "epoch": "Late Pleistocene (2.5 Mya\u201311,000 BP)",
+    "extinction_date": "~11,000 BP (Pampas / Patagonia)",
+    "key_trait": "Darwin's 'Strangest Animal' & ZooMS Protein Solving",
+    "description": "Enigmatic ungulate mystery resolved by ZooMS ancient collagen paleoproteomics and mitogenomics, demonstrating that South American native ungulates are sister to Perissodactyla.",
+    "target_locus": {
+      "gene_symbol": "COL1A1",
+      "protein_name": "Collagen alpha-1(I) chain",
+      "extinct_nucleotide_acc": "PRJNA285123",
+      "extinct_uniprot_acc": "A0A0R4",
+      "extinct_sequence_dna": "ATGTTCAGCTTTGTGGATCTCCGGCTCCTGCTCCTCTTGGCGGCCTCTGCCCTCCTGACACACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extinct_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "extant_counterpart": {
+      "common_name": "White Rhinoceros",
+      "scientific_name": "Ceratotherium simum",
+      "extant_nucleotide_acc": "XM_004423456.1",
+      "extant_uniprot_acc": "P02454",
+      "extant_sequence_dna": "ATGTTCAGCTTTGTGGATCTCCGGCTCCTGCTCCTCTTGGCGGCCTCTGCCCTCCTGACACACGGCCAAGAGGAAGGCCAAGTCGAGGGCCAAGACGAAGACATCCCACCAATCACCTGCGTACAGAACGGCCTCAGGTACCATGACCGAGACGTGTGGAAACCCGAG",
+      "extant_sequence_aa": "MFSFVDLRLLLLLAATALLTHGQEEGQVEGQDEDIPPITCVQNGLRYHDRDVWKPEPCRICVCDNGKVLCDDVICDETKNCPGAEVPEGECCPVCPDGSESPTDQETTGVEGPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPSGPPGLGGNFAPQLSYGYDE"
+    },
+    "structure": {
+      "pdb_id": "1CAG",
+      "title": "Collagen triple-helical cable model",
+      "resolution_angstrom": 1.9,
+      "chain": "A",
+      "cath_code": "1.10.10.10",
+      "scop_fold": "Triple-helical cable",
+      "mutations": [
+        {
+          "position": 160,
+          "ancestral_aa": "T",
+          "derived_aa": "P",
+          "label": "T160P",
+          "grantham_distance": 38,
+          "functional_impact": "Diagnostic notoungulate peptide biomarker sequence"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chr1",
+      "start": 35000000,
+      "end": 35022000,
+      "assembly": "CerSim1.0",
+      "ensembl_species": "Ceratotherium_simum"
+    },
+    "pathway": {
+      "kegg_id": "map04512",
+      "pathway_name": "Connective tissue osteogenesis"
+    }
+  },
+  {
+    "tax_id": "PRAG-TAX-018",
+    "common_name": "Giant Moa",
+    "scientific_name": "Dinornis robustus",
+    "clade": "Dinornithiformes",
+    "epoch": "Holocene (40,000 BP\u20131440 AD)",
+    "extinction_date": "~1440 AD (New Zealand)",
+    "key_trait": "Extreme Avian Gigantism & Winglessness",
+    "description": "3.6-meter giant ratite exhibiting extreme reverse sexual dimorphism and the complete loss of all pectoral girdle wing elements.",
+    "target_locus": {
+      "gene_symbol": "CYTB",
+      "protein_name": "Cytochrome b",
+      "extinct_nucleotide_acc": "AY016013.1",
+      "extinct_uniprot_acc": "Q9MGM6",
+      "extinct_sequence_dna": "ATGGCCAACCTTCGAAAAGCCCACCCACTACTAAAAATCATTAACAACTCATTTATTGATCTCCCAGCTCCATCAAACATTTCATCATGATGAAACTTTGGATCCCTCCTAGGCATTTGCCTAATTTTACAAATTCTCACAGGCCTATTCCTAGCCATACACTATACA",
+      "extinct_sequence_aa": "MANLRKAHPLMKMINNSFIDLPAPSNISSWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHIGRGLYYGSYTFMETWNIGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGHTLV"
+    },
+    "extant_counterpart": {
+      "common_name": "Emu",
+      "scientific_name": "Dromaius novaehollandiae",
+      "extant_nucleotide_acc": "NC_002784.1",
+      "extant_uniprot_acc": "P03904",
+      "extant_sequence_dna": "ATGGCCAACCTTCGAAAAGCCCACCCACTACTAAAAATCATTAACAACTCATTTATTGATCTCCCAGCTCCATCAAACATTTCATCATGATGAAACTTTGGATCCCTCCTAGGCATTTGCCTAATTTTACAAATTCTCACAGGCCTATTCCTAGCCATACACTATACA",
+      "extant_sequence_aa": "MANLRKAHPLMKMINNSFIDLPAPSNISSWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWLIRYLHANGASMFFICLFLHIGRGLYYGSYTFMETWNIGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGHTLV"
+    },
+    "structure": {
+      "pdb_id": "1PPJ",
+      "title": "Avian cytochrome complex structure",
+      "resolution_angstrom": 2.1,
+      "chain": "C",
+      "cath_code": "1.20.120.30",
+      "scop_fold": "Transmembrane bundle",
+      "mutations": [
+        {
+          "position": 112,
+          "ancestral_aa": "A",
+          "derived_aa": "V",
+          "label": "A112V",
+          "grantham_distance": 64,
+          "functional_impact": "Ratite metabolic thermoregulation adaptation"
+        }
+      ]
+    },
+    "genomics": {
+      "chromosome": "chrM",
+      "start": 13800,
+      "end": 14940,
+      "assembly": "DroNov1.0",
+      "ensembl_species": "Dromaius_novaehollandiae"
+    },
+    "pathway": {
+      "kegg_id": "map00190",
+      "pathway_name": "Avian gigantism & flightless metabolic rate"
+    }
+  }
+]
