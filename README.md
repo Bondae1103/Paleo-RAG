@@ -1,6 +1,6 @@
-# PaleoRAG: Phylogenetic Context Engine & Biological Databases Platform
+# PaleoDB: Prehistoric Biomolecular Database & Phylogenetic Platform
 
-PaleoRAG is a unified bioinformatics platform and citation-grounded Retrieval-Augmented Generation (RAG) system tailored for paleogenomics, evolutionary biology, and molecular database mining. It integrates primary sequence repositories (NCBI GenBank, EMBL-EBI ENA, DDBJ), protein annotation resources (UniProtKB, PIR), macromolecular structural databases (RCSB PDB, CATH, SCOP), functional domain profiles (Pfam, PROSITE), metabolic pathways (KEGG), protein-protein interaction networks (STRING), and comparative genome browsers (Ensembl, UCSC) into an interactive dual-pane research environment.
+PaleoDB is a unified prehistoric biomolecular database, phylogenetic atlas, and citation-grounded Retrieval-Augmented Generation (RAG) platform tailored for paleogenomics, evolutionary biology, and molecular database mining. It integrates an 18-taxa Codified Prehistoric Registry with pairwise extant sister-taxon alignments, primary sequence repositories (NCBI GenBank, EMBL-EBI ENA, DDBJ), protein annotation resources (UniProtKB, PIR), macromolecular structural databases (RCSB PDB, CATH, SCOP), functional domain profiles (Pfam, PROSITE), metabolic pathways (KEGG), protein-protein interaction networks (STRING), fossil occurrences (Paleobiology Database PBDB), and comparative genome browsers (Ensembl, UCSC) into an interactive research environment.
 
 The platform directly implements and validates all 7 modules of the **Biological Databases Coursework Syllabus (CO1–CO6)**.
 
@@ -10,10 +10,11 @@ The platform directly implements and validates all 7 modules of the **Biological
 
 ```
                       +-----------------------------------------------------+
-                      |             PaleoRAG Frontend (React 19)            |
-                      |  - Research Studio (Dual-Pane Grounding + Citations)|
-                      |  - Sequence Workbench (Validation, Formats, Dogma)  |
-                      |  - BioDB Explorer (3Dmol WebGL, PPI Networks, KEGG) |
+                      |              PaleoDB Frontend (React 19)            |
+                      |  - 01 Taxa Atlas & Registry (18 Codified Taxa)      |
+                      |  - 02 Sequence Workbench (Validation, Formats, Dogma)|
+                      |  - 03 BioDB Multi-Explorer (3Dmol, PPI, KEGG, PBDB) |
+                      |  - 04 Literature Copilot (RAG) (Dual-Pane Grounding)|
                       +--------------------------+--------------------------+
                                                  | (HTTP REST / SSE Stream)
                                                  v
