@@ -29,17 +29,29 @@ const PRESET_FOXP2 =
 const PRESET_PLA =
   "ATGAAAAGAAAAATTTTAGCTCTTTTAGTCACAGCAGCCATGAGTGTAAGTTTTACACAAGCAGTAAATGATGACGCTTATTTACGTACAACTGCAGCAGCAAGCACTGCCTATACTGCTACTGCACCAAGTATTGTTGCCGCACCAGTCGTAGTAGCAACAGTTGAA";
 
-export const SequenceWorkbenchView: React.FC = () => {
+interface SequenceWorkbenchViewProps {
+  initialSequence?: string;
+  initialLocus?: string;
+  initialOrganism?: string;
+}
+
+export const SequenceWorkbenchView: React.FC<SequenceWorkbenchViewProps> = ({
+  initialSequence,
+  initialLocus,
+  initialOrganism,
+}) => {
   const [activeTab, setActiveTab] = useState<"validate" | "convert" | "dogma" | "submission">("validate");
 
   // State: Validation
-  const [valSeq, setValSeq] = useState(PRESET_MAMMOTH);
+  const [valSeq, setValSeq] = useState(initialSequence || PRESET_MAMMOTH);
   const [valResult, setValResult] = useState<ValidationResult | null>(null);
   const [valLoading, setValLoading] = useState(false);
 
   // State: Conversion
   const [convInput, setConvInput] = useState(
-    `>Mammuthus_primigenius_HBB\n${PRESET_MAMMOTH}`
+    initialSequence
+      ? `>${(initialOrganism || "Taxon").replace(/\s+/g, "_")}_${initialLocus || "GENE"}\n${initialSequence}`
+      : `>Mammuthus_primigenius_HBB\n${PRESET_MAMMOTH}`
   );
   const [convInFormat, setConvInFormat] = useState<SequenceFormat>("fasta");
   const [convOutFormat, setConvOutFormat] = useState<SequenceFormat>("genbank");
@@ -47,23 +59,23 @@ export const SequenceWorkbenchView: React.FC = () => {
   const [convLoading, setConvLoading] = useState(false);
 
   // State: Central Dogma
-  const [dogmaSeq, setDogmaSeq] = useState(PRESET_PLA);
+  const [dogmaSeq, setDogmaSeq] = useState(initialSequence || PRESET_PLA);
   const [minOrfAa, setMinOrfAa] = useState(15);
   const [dogmaResult, setDogmaResult] = useState<TranslationResponse | null>(null);
   const [dogmaLoading, setDogmaLoading] = useState(false);
   const [activeFrameIndex, setActiveFrameIndex] = useState<number>(0);
 
   // State: Submission Validator
-  const [subLocus, setSubLocus] = useState("MAMPR_HBB");
-  const [subOrganism, setSubOrganism] = useState("Mammuthus primigenius");
+  const [subLocus, setSubLocus] = useState(initialLocus || "MAMPR_HBB");
+  const [subOrganism, setSubOrganism] = useState(initialOrganism || "Mammuthus primigenius");
   const [subDefinition, setSubDefinition] = useState(
-    "Mammuthus primigenius hemoglobin subunit beta (HBB) gene, complete cds."
+    `${initialOrganism || "Mammuthus primigenius"} ${initialLocus || "HBB"} gene, coding sequence.`
   );
   const [subAuthors, setSubAuthors] = useState("Campbell, K.L., Krause, J., Poinar, H.N.");
   const [subMolType, setSubMolType] = useState("DNA");
   const [subTopology, setSubTopology] = useState("linear");
   const [subDivision, setSubDivision] = useState("MAM");
-  const [subSeq, setSubSeq] = useState(PRESET_MAMMOTH);
+  const [subSeq, setSubSeq] = useState(initialSequence || PRESET_MAMMOTH);
   const [subResult, setSubResult] = useState<{
     is_valid: boolean;
     errors: string[];

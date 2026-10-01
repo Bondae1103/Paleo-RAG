@@ -506,6 +506,82 @@ export interface BioLookupResponse {
   locus?: LocusLink | null;
 }
 
+export interface MutationAnnotation {
+  position: number;
+  ancestral_aa: string;
+  derived_aa: string;
+  label?: string;
+  grantham_distance?: number;
+  functional_impact?: string;
+  functional_note?: string;
+}
+
+export interface StructureAnnotation {
+  pdb_id: string;
+  title: string;
+  resolution_angstrom?: number | null;
+  chain?: string;
+  cath_code?: string;
+  scop_fold?: string;
+  mutations: MutationAnnotation[];
+}
+
+export interface LocusAnnotation {
+  gene_symbol: string;
+  protein_name: string;
+  extinct_nucleotide_acc: string;
+  extinct_uniprot_acc: string;
+  extinct_sequence_dna: string;
+  extinct_sequence_aa: string;
+}
+
+export interface ExtantCounterpartAnnotation {
+  common_name: string;
+  scientific_name: string;
+  extant_nucleotide_acc: string;
+  extant_uniprot_acc: string;
+  extant_sequence_dna: string;
+  extant_sequence_aa: string;
+}
+
+export interface GenomicsAnnotation {
+  chromosome: string;
+  start: number;
+  end: number;
+  assembly: string;
+  ensembl_species?: string;
+}
+
+export interface PathwayAnnotation {
+  kegg_id: string;
+  pathway_name: string;
+  description?: string;
+}
+
+export interface TaxonRegistryEntry {
+  tax_id: string;
+  common_name: string;
+  scientific_name: string;
+  clade: string;
+  epoch: string;
+  extinction_date: string;
+  key_trait: string;
+  description: string;
+  target_locus: LocusAnnotation;
+  extant_counterpart: ExtantCounterpartAnnotation;
+  structure: StructureAnnotation;
+  genomics: GenomicsAnnotation;
+  pathway: PathwayAnnotation;
+}
+
+export interface AtlasListResponse {
+  total_taxa: number;
+  taxa: TaxonRegistryEntry[];
+  catalog: TaxonRegistryEntry[];
+}
+
+import atlasRegistryData from "./paleo_atlas_registry.json";
+
 import {
   convertSequenceClient,
   fetchStructureMutationsClient,
@@ -786,6 +862,64 @@ export async function scanMotifs(sequence: string): Promise<{
     console.warn("Backend scanMotifs unavailable, using client engine fallback:", err);
   }
   return scanMotifsClient(sequence);
+}
+
+/**
+ * Fetch PaleoRAG Taxa Atlas catalog of codified prehistoric organisms
+ */
+export async function fetchAtlas(clade?: string): Promise<AtlasListResponse> {
+  const base = getApiBaseUrl();
+  const qs = clade ? `?clade=${encodeURIComponent(clade)}` : "";
+  try {
+    const resp = await fetch(`${base}/api/bio/atlas${qs}`, {
+      headers: {
+        ...authHeaders(),
+      },
+    });
+    if (resp.ok) {
+      return await safeJson<AtlasListResponse>(resp);
+    }
+  } catch (err) {
+    console.warn("Backend fetchAtlas unavailable, using client atlas fallback:", err);
+  }
+  let entries = atlasRegistryData as unknown as TaxonRegistryEntry[];
+  if (clade) {
+    entries = entries.filter((e) => e.clade.toLowerCase().includes(clade.toLowerCase()));
+  }
+  return {
+    total_taxa: entries.length,
+    taxa: entries,
+    catalog: entries,
+  };
+}
+
+/**
+ * Fetch a single Taxon Registry record by PRAG-TAX-xxx or scientific/common name alias
+ */
+export async function fetchAtlasEntry(taxId: string): Promise<TaxonRegistryEntry | null> {
+  const base = getApiBaseUrl();
+  try {
+    const resp = await fetch(`${base}/api/bio/atlas/${encodeURIComponent(taxId)}`, {
+      headers: {
+        ...authHeaders(),
+      },
+    });
+    if (resp.ok) {
+      return await safeJson<TaxonRegistryEntry>(resp);
+    }
+  } catch (err) {
+    console.warn("Backend fetchAtlasEntry unavailable, using client atlas fallback:", err);
+  }
+  const clean = taxId.trim().toUpperCase();
+  const entries = atlasRegistryData as unknown as TaxonRegistryEntry[];
+  const found = entries.find(
+    (e) =>
+      e.tax_id.toUpperCase() === clean ||
+      e.scientific_name.toUpperCase().includes(clean) ||
+      e.common_name.toUpperCase().includes(clean) ||
+      e.target_locus.gene_symbol.toUpperCase() === clean
+  );
+  return found || null;
 }
 
 
