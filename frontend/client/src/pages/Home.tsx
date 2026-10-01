@@ -79,13 +79,13 @@ interface IngestTask {
 }
 
 const navItems: { key: ViewKey; label: string; short: string; icon: typeof Archive }[] = [
-  { key: "studio", label: "Research Studio", short: "01", icon: Microscope },
-  { key: "atlas", label: "Taxa Atlas", short: "02", icon: BookOpen },
-  { key: "workbench", label: "Sequence Workbench", short: "03", icon: Dna },
-  { key: "biodb", label: "BioDB Explorer", short: "04", icon: Database },
+  { key: "atlas", label: "Taxa Atlas & Registry", short: "01", icon: BookOpen },
+  { key: "workbench", label: "Sequence Workbench", short: "02", icon: Dna },
+  { key: "biodb", label: "BioDB Multi-Explorer", short: "03", icon: Database },
+  { key: "studio", label: "Literature Copilot (RAG)", short: "04", icon: Microscope },
   { key: "corpus", label: "Literature Corpus", short: "05", icon: Library },
-  { key: "evaluation", label: "Benchmark Eval", short: "06", icon: Gauge },
-  { key: "diagnostics", label: "Diagnostics", short: "07", icon: Activity },
+  { key: "evaluation", label: "Benchmark Diagnostics", short: "06", icon: Gauge },
+  { key: "diagnostics", label: "System Telemetry", short: "07", icon: Activity },
 ];
 
 const DEFAULT_EVIDENCE: EvidenceItem[] = [
@@ -223,11 +223,11 @@ function Header({
           <SpecimenMark />
           <div>
             <div className="flex items-baseline gap-2">
-              <span className="font-display text-[15px] font-semibold tracking-[0.02em] text-[#eee9de]">PaleoRAG</span>
+              <span className="font-display text-[15px] font-semibold tracking-[0.02em] text-[#eee9de]">PaleoDB</span>
               <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-[#d5a65b]">v1.0</span>
             </div>
             <p className="hidden font-mono text-[10px] uppercase tracking-[0.16em] text-slate-500 sm:block">
-              Phylogenetic Context Engine
+              Prehistoric Biomolecular & Phylogenetic Database
             </p>
           </div>
         </div>
@@ -289,9 +289,9 @@ function ArchiveRail({
         </button>
       </div>
       <div className="mb-10 px-2">
-        <div className="mb-2 font-mono text-[10px] uppercase tracking-[0.23em] text-[#d5a65b]">Archive / 00</div>
+        <div className="mb-2 font-mono text-[10px] uppercase tracking-[0.23em] text-[#d5a65b]">PaleoDB Core / 00</div>
         <p className="max-w-[180px] text-xs leading-5 text-slate-500">
-          A working index of extinct life, deep-time evidence, and grounded genomic context.
+          A working index of extinct life, deep-time genomics, and grounded phylogenetic context.
         </p>
       </div>
       <nav className="space-y-1" aria-label="Primary">
@@ -785,15 +785,15 @@ function StudioView({
             <div className="relative max-w-3xl">
               <div className="mb-3 flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.22em] text-[#d5a65b]">
                 <span className="h-px w-6 bg-[#d5a65b]" />
-                Active research session / 001
+                PaleoDB Sub-module / Literature Copilot (RAG)
               </div>
               <h1 className="max-w-2xl font-display text-2xl font-medium leading-[1.1] tracking-[-0.04em] text-[#f2ede1] md:text-4xl">
-                Trace the question.<br />
+                Trace the literature.<br />
                 <span className="text-[#8bbeb7]">Inspect the evidence.</span>
               </h1>
               <p className="mt-4 max-w-xl text-xs leading-5 text-slate-400">
-                Ask across extinct taxa, deep-time horizons, and open-access literature. PaleoRAG expands vernacular terms into
-                taxonomic context before hybrid retrieval.
+                Ask across extinct taxa, deep-time horizons, and open-access literature. The copilot expands vernacular terms into
+                taxonomic context before hybrid retrieval and evidence synthesis.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <button
@@ -923,7 +923,7 @@ function StudioView({
             <div className="mb-10 pl-5 md:pl-7">
               <div className="mb-3 flex items-center gap-3">
                 <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#79bcb3]">
-                  PaleoRAG / synthesis
+                  PaleoDB Copilot / synthesis
                 </span>
                 {isStreaming && (
                   <span className="inline-flex items-center gap-1 font-mono text-[9px] uppercase tracking-[0.14em] text-slate-600">
@@ -1793,7 +1793,7 @@ function ServiceCard({
 }
 
 export default function Home() {
-  const [active, setActive] = useState<ViewKey>("studio");
+  const [active, setActive] = useState<ViewKey>("atlas");
   const [railOpen, setRailOpen] = useState(false);
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [evidence, setEvidence] = useState<EvidenceItem[]>(DEFAULT_EVIDENCE);
@@ -1852,7 +1852,7 @@ export default function Home() {
         <div className="flex min-w-0 flex-1 flex-col">
           <div className="flex min-h-10 items-center justify-between border-b border-white/[0.06] px-5 md:px-8">
             <div className="flex items-center gap-2 font-mono text-[9px] uppercase tracking-[0.16em] text-slate-600">
-              <span className="text-[#d5a65b]">PaleoRAG</span>
+              <span className="text-[#d5a65b]">PaleoDB</span>
               <ChevronRight size={11} />
               {navItems.find((item) => item.key === active)?.label}
             </div>

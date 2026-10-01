@@ -174,7 +174,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
         <div>
           <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-[#d5a65b]">
             <BookOpen size={13} />
-            <span>Phylogenetic Registry & Evolutionary Atlas</span>
+            <span>PaleoDB Core Registry · Evolutionary Atlas</span>
             <span className="rounded bg-[#d5a65b]/20 px-1.5 py-0.5 text-[#f0c778]">
               {taxa.length} Codified Taxa
             </span>
@@ -190,6 +190,13 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
+          <button
+            onClick={() => onAskInStudio?.("Synthesize recent paleogenomic findings across Pleistocene and Holocene megafauna.", "")}
+            className="flex items-center gap-2 border border-[#d5a65b]/40 bg-[#d5a65b]/10 px-3.5 py-2 font-mono text-[11px] text-[#f0c778] transition hover:bg-[#d5a65b]/20 hover:border-[#d5a65b]"
+          >
+            <Microscope size={14} />
+            <span>Launch Literature Copilot (RAG)</span>
+          </button>
           <div className="flex items-center gap-2 border border-white/10 bg-[#0d1213] px-3 py-1.5 font-mono text-[11px] text-slate-300">
             <span className="h-2 w-2 rounded-full bg-[#4f9f96]" />
             <span>18 Taxa Indexed</span>
@@ -568,13 +575,13 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           if (onAskInStudio) {
                             onAskInStudio(prompt, activeTaxon.scientific_name);
                           } else {
-                            toast.info(`Prompt generated for Research Studio`);
+                            toast.info(`Prompt generated for Literature Copilot`);
                           }
                         }}
                         className="col-span-full flex items-center justify-center gap-1.5 border border-white/10 bg-[#162021] py-2 font-mono text-[10px] uppercase tracking-wider text-[#d5a65b] transition hover:border-[#d5a65b] hover:bg-[#d5a65b]/20"
                       >
                         <Microscope size={12} />
-                        Query PaleoRAG Literature Studio
+                        Ask Literature Copilot (RAG)
                       </button>
                     </div>
                   </div>
