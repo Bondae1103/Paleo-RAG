@@ -1890,6 +1890,7 @@ export default function Home() {
     prompt: string;
     taxon: string;
   } | null>(null);
+  const [atlasTaxonId, setAtlasTaxonId] = useState<string | null>(null);
 
   const checkHealth = () => {
     fetchHealth()
@@ -1953,7 +1954,8 @@ export default function Home() {
           {active === "about" && (
             <AboutPlatformView
               onNavigate={(view) => setActive(view)}
-              onSelectTaxonWorkflow={(_taxId, module) => {
+              onSelectTaxonWorkflow={(taxId, module) => {
+                setAtlasTaxonId(taxId);
                 setActive(module || "atlas");
               }}
             />
@@ -1972,6 +1974,7 @@ export default function Home() {
           )}
           {active === "atlas" && (
             <TaxaAtlasView
+              initialTaxonId={atlasTaxonId}
               onExploreInBioDB={(query, organism) => {
                 setBiodbContext({ query, organism });
                 setActive("biodb");

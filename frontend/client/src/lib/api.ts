@@ -590,6 +590,11 @@ export interface TaxonRegistryEntry {
   description: string;
   image_url?: string;
   image_caption?: string;
+  habitat_range?: string;
+  geological_range?: string;
+  diet_ecology?: string;
+  morphology?: string;
+  extinction_driver?: string;
   target_locus: LocusAnnotation;
   extant_counterpart: ExtantCounterpartAnnotation;
   structure: StructureAnnotation;

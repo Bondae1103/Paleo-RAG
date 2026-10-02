@@ -8,8 +8,8 @@
     "extinction_date": "~4,000 BP (Wrangel Island)",
     "key_trait": "Cold-Resistant Oxygen Delivery",
     "description": "Adaptive paleogenomic amino acid substitutions in beta-globin reduce the temperature-dependence of oxygen affinity, allowing oxygen delivery to freezing peripheral limb tissues on the arctic steppe.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Siegsdorfer_Mammut.jpg/330px-Siegsdorfer_Mammut.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Reconstruction of Mammuthus primigenius in late Pleistocene subarctic steppe habitat.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Woolly_mammoth_model_Royal_BC_Museum_in_Victoria.jpg/960px-Woolly_mammoth_model_Royal_BC_Museum_in_Victoria.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life model reconstruction of Mammuthus primigenius in full winter pelage at Royal BC Museum.",
     "target_locus": {
       "gene_symbol": "HBB",
       "protein_name": "Hemoglobin subunit beta",
@@ -110,7 +110,12 @@
       "first_appearance_ma": 7.25,
       "last_appearance_ma": 0.01,
       "geological_interval": "Late Miocene \u2013 Holocene"
-    }
+    },
+    "habitat_range": "Mammoth Steppe: continuous hyper-arid biome spanning Western Europe through Siberia, Beringia, and Northern North America.",
+    "geological_range": "Late Pleistocene to mid-Holocene (~300,000 \u2013 4,000 BP; Wrangel Island relict population survived until ~2000 BCE).",
+    "diet_ecology": "Cold-adapted megaherbivore grazing primarily on high-protein steppe grasses, sedges, Artemisia, and willow shrubs.",
+    "morphology": "Shoulder height 2.8\u20133.4 m; body mass 4\u20136 tonnes; dual-layer woolly coat with guard hairs up to 90 cm; spiraled tusks up to 4.2 m for sweeping snow.",
+    "extinction_driver": "Rapid Holocene post-glacial warming causing peat-moss expansion and loss of nutrient-rich steppe-tundra, compounded by human hunting."
   },
   {
     "tax_id": "PRAG-TAX-002",
@@ -121,8 +126,8 @@
     "extinction_date": "~40,000 BP (Eurasia)",
     "key_trait": "High-Latitude Skin Pigmentation & Immune Receptor Adaptation",
     "description": "Melanocortin 1 receptor (MC1R) paleogenomic substitution Arg307Gly causing reduced receptor signalling, functional eumelanin reduction, and pale pigmentation adapted to low UV levels in Pleistocene Eurasia.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Neanderthal_at_AMNH.jpg/330px-Neanderthal_at_AMNH.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Skeletal and facial reconstruction of Homo neanderthalensis at the American Museum of Natural History.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Neanderthal_at_AMNH.jpg/960px-Neanderthal_at_AMNH.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Full-body life reconstruction of a Neanderthal hunter at the American Museum of Natural History.",
     "target_locus": {
       "gene_symbol": "MC1R",
       "protein_name": "Melanocortin 1 receptor",
@@ -207,7 +212,12 @@
       "first_appearance_ma": 0.77,
       "last_appearance_ma": 0.13,
       "geological_interval": "Middle \u2013 Late Pleistocene"
-    }
+    },
+    "habitat_range": "Western, Central, and Eastern Europe, extending eastward into the Levant, Crimean Peninsula, Altai Mountains, and Uzbekistan.",
+    "geological_range": "Middle to Late Pleistocene (~430,000 \u2013 40,000 BP; last refugia in the Iberian Peninsula).",
+    "diet_ecology": "Apex hominin hunter-gatherer specialized in close-range thrust-spear hunting of Pleistocene megafauna (mammoth, woolly rhino, bison, red deer).",
+    "morphology": "Stocky cold-adapted stature (males ~165 cm, 78 kg); barrel-chested thorax; enlarged nasal chambers; heavy supraorbital tori; cranial capacity 1500\u20131600 cm\u00b3.",
+    "extinction_driver": "Demographic assimilation and competitive exclusion by anatomically modern humans, exacerbated by Heinrich event climate instability."
   },
   {
     "tax_id": "PRAG-TAX-003",
@@ -218,8 +228,8 @@
     "extinction_date": "1346\u20131353 CE (Black Death lineage)",
     "key_trait": "Pneumonic Virulence Plasmid Acquisition",
     "description": "Acquisition of the pPCP1 plasminogen activator protease gene (pla) and derived I259T substitution converting ancestral enteropathogen Y. pseudotuberculosis into a systemic, flea-transmitted pneumonic and bubonic killer.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Yersinia_pestis.jpg/330px-Yersinia_pestis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Colorized scanning electron micrograph of Yersinia pestis bacteria.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Yersinia_pestis.jpg/960px-Yersinia_pestis.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Colored scanning electron micrograph of Yersinia pestis, the etiologic agent of historical plague pandemics.",
     "target_locus": {
       "gene_symbol": "pla",
       "protein_name": "Plasminogen activator protease",
@@ -304,7 +314,12 @@
       "first_appearance_ma": null,
       "last_appearance_ma": null,
       "geological_interval": "Bronze Age \u2013 Modern (Microbial aDNA)"
-    }
+    },
+    "habitat_range": "Eurasian steppe corridor, extending across Bronze Age trade routes, the Roman Empire, Mediterranean littoral, and medieval Europe.",
+    "geological_range": "Late Neolithic / Bronze Age (~5,000 BP) through the Black Death (1346\u20131353 CE) and historical pandemics into modern endemic foci.",
+    "diet_ecology": "Zoonotic Gram-negative facultative intracellular pathogen cycling between wild rodent hosts (marmots, gerbils) and flea vectors (Xenopsylla cheopis).",
+    "morphology": "Non-motile encapsulated coccobacillus; length 1\u20132 \u03bcm; carries pPCP1, pCD1, and pMT1 virulence plasmids encoding Yop effectors and the Pla protease.",
+    "extinction_driver": "Historical pandemic attenuation through host genetic selection (CCR5-\u039432), rodent population depletion, quarantine cordons, and modern antibiotics."
   },
   {
     "tax_id": "PRAG-TAX-004",
@@ -315,8 +330,8 @@
     "extinction_date": "~10,000 BP (North America)",
     "key_trait": "Deep Canid Evolutionary Divergence & Steppe Thermogenesis",
     "description": "Ancient mitochondrial and nuclear genomes demonstrate dire wolves diverged ~5.7 million years ago from the ancestor of gray wolves, forming an independent endemic New World canid lineage with distinctive Cytochrome b energetic adaptations.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Canis_dirus_Sternberg_Museum.jpg/330px-Canis_dirus_Sternberg_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Fossil skeleton reconstruction of Aenocyon dirus at the Sternberg Museum of Natural History.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Paleontological_landscape_painting%2C_White_Sands_National_Park%2C_United_States.jpg/960px-Paleontological_landscape_painting%2C_White_Sands_National_Park%2C_United_States.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life painting of an Aenocyon dirus pack traversing Pleistocene playa grasslands.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -425,7 +440,12 @@
       "first_appearance_ma": 2.58,
       "last_appearance_ma": 0.13,
       "geological_interval": "Pleistocene (Rancholabrean)"
-    }
+    },
+    "habitat_range": "North America (from Alberta to Mexico) and northern South America; extraordinarily abundant in the asphaltic Rancho La Brea tar seeps.",
+    "geological_range": "Late Pleistocene (Rancholabrean land mammal age, ~125,000 \u2013 9,500 BP).",
+    "diet_ecology": "Hypercarnivorous pack predator targeting large ungulates including Western horses (Equus occidentalis), bison, and juvenile ground sloths.",
+    "morphology": "Head-body length ~1.5 m; estimated weight 60\u201375 kg; heavy skull with bone-cracking carnassials, massive zygomatic arches, and short sturdy limbs.",
+    "extinction_driver": "Abrupt prey collapse following the Quaternary extinction of North American megafauna, combined with complete evolutionary isolation from Canis lupus."
   },
   {
     "tax_id": "PRAG-TAX-005",
@@ -436,8 +456,8 @@
     "extinction_date": "~14,000 BP (Siberia/Eurasia)",
     "key_trait": "Sub-Zero Permafrost Thermogenesis",
     "description": "Cytochrome b mitochondrial respiratory complex adaptations optimizing proton pumping efficiency and non-shivering thermogenesis across the mammoth steppe.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Panthera_leo_spelaea_in_Vienna.jpg/330px-Panthera_leo_spelaea_in_Vienna.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Panthera spelaea specimen mount in the Natural History Museum of Vienna.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hoehlenloewe_CaveLion_hharder.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "image_caption": "Life restoration of the Eurasian cave lion (Panthera spelaea) by Heinrich Harder.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -538,7 +558,12 @@
       "first_appearance_ma": 2.58,
       "last_appearance_ma": 0.13,
       "geological_interval": "Pleistocene"
-    }
+    },
+    "habitat_range": "Eurasian steppe-tundra from the British Isles across Central Europe and Siberia to the Yukon territory in Northwestern North America.",
+    "geological_range": "Middle to Late Pleistocene (~600,000 \u2013 13,000 BP).",
+    "diet_ecology": "Apex predatory felid stalking reindeer, Pleistocene wild horses, juvenile steppe bison, and cave bear cubs in open sub-arctic plains.",
+    "morphology": "Shoulder height ~1.2 m; head-body length 2.1 m; weight 300\u2013360 kg; 10% larger than modern lions; lack of pronounced male mane based on Upper Paleolithic cave art.",
+    "extinction_driver": "Rapid collapse of specialized tundra-steppe prey populations (reindeer and bison) during B\u00f8lling-Aller\u00f8d warming and post-glacial forest expansion."
   },
   {
     "tax_id": "PRAG-TAX-006",
@@ -549,8 +574,8 @@
     "extinction_date": "~10,000 BP (Beringia / Holarctic)",
     "key_trait": "High-Fiber Grazing & Arctic Foraging",
     "description": "Dominant herbivore of the Quaternary mammoth steppe with adaptive Cytochrome b electron transport mutations sustaining metabolic heat generation during northern Siberian glacial maxima.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Steppe_bison_mummy.jpg/330px-Steppe_bison_mummy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Blue Babe, the permafrost-preserved 36,000-year-old steppe bison mummy at the University of Alaska Museum.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Ice_age_fauna_of_northern_Spain_-_Mauricio_Ant%C3%B3n.jpg/960px-Ice_age_fauna_of_northern_Spain_-_Mauricio_Ant%C3%B3n.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Steppe bison (Bison priscus) and megafauna in late Pleistocene habitat by Mauricio Ant\u00f3n.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -651,7 +676,12 @@
       "first_appearance_ma": 7.25,
       "last_appearance_ma": 0.13,
       "geological_interval": "Late Miocene \u2013 Late Pleistocene"
-    }
+    },
+    "habitat_range": "Holarctic steppe-tundra belt extending across Great Britain, Northern Eurasia, Siberia, Alaska, and the Canadian Yukon.",
+    "geological_range": "Middle to Late Pleistocene (~1.5 Ma \u2013 5,400 BP; northern Yukon relict populations survived into the mid-Holocene).",
+    "diet_ecology": "Cold-tolerant bulk grazer consuming C3 grasses, rushes, sedges, and dwarf birch in mosaic permafrost grasslands.",
+    "morphology": "Shoulder height over 2 m; weight exceeding 1,000 kg; massive crescent horn cores with a tip-to-tip span over 1 meter; pronounced muscular thoracic hump.",
+    "extinction_driver": "Replacement of arid mammoth steppe by moist shrub-tundra and taiga; introgressive hybridization with ancient taurine cattle yielded the European wisent."
   },
   {
     "tax_id": "PRAG-TAX-007",
@@ -662,8 +692,8 @@
     "extinction_date": "~30,000 BP (Central & East Asia)",
     "key_trait": "High-Altitude Hypoxia Tolerance",
     "description": "Archaic hominin EPAS1 transcription factor haplotype introgressed into modern Tibetan ancestors, preventing dangerous polycythemia and pulmonary hypertension in extreme hypoxia.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Homo_longi_holotype.jpg/330px-Homo_longi_holotype.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Archaic human cranium related to the East Asian Denisovan lineage.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Brno%2C_Neanderthal_Mother_%28detail_of_diorama%29.jpg/960px-Brno%2C_Neanderthal_Mother_%28detail_of_diorama%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life reconstruction of an archaic Pleistocene hominin in natural habitat.",
     "target_locus": {
       "gene_symbol": "EPAS1",
       "protein_name": "Endothelial PAS domain protein 1 (HIF-2a)",
@@ -748,7 +778,12 @@
       "first_appearance_ma": 5.33,
       "last_appearance_ma": 0.01,
       "geological_interval": "Pliocene \u2013 Holocene"
-    }
+    },
+    "habitat_range": "Central, High-Altitude, and Eastern Asia; verified fossil occurrences at Denisova Cave (Altai Krai) and Baishiya Karst Cave (Tibetan Plateau).",
+    "geological_range": "Middle to Late Pleistocene (~300,000 \u2013 30,000 BP).",
+    "diet_ecology": "Archaic hunter-gatherer exploiting alpine ungulates (bharal, yak, woolly rhino) under extreme hypoxia and sub-zero montane conditions.",
+    "morphology": "Massive robust molars with complex three-rooted anatomy; wide cranial vault; EPAS1 high-altitude hypoxia adaptations introgressed into modern Tibetans.",
+    "extinction_driver": "Demographic absorption and gene flow into encroaching modern human populations, leaving 4\u20136% genetic heritage in modern Australo-Melanesians."
   },
   {
     "tax_id": "PRAG-TAX-008",
@@ -759,8 +794,8 @@
     "extinction_date": "September 7, 1936 (Hobart Zoo)",
     "key_trait": "Convergent Marsupial Carnivory",
     "description": "Remarkable morphological convergence with placental canids despite >160 million years of evolutionary divergence; high-coverage nuclear genome illuminates apex marsupial predation.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Thylacinus_cropped.png/330px-Thylacinus_cropped.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Historic photograph of the last known living Thylacine, Benjamin, at Hobart Zoo in the 1930s.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Thylacinus_cropped.png/960px-Thylacinus_cropped.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Live photograph of the Thylacine (Tasmanian tiger) in life at Hobart Zoo (1933).",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -852,7 +887,12 @@
       "first_appearance_ma": 3.6,
       "last_appearance_ma": 0.01,
       "geological_interval": "Pliocene \u2013 Holocene (1936 CE)"
-    }
+    },
+    "habitat_range": "Continental Australia, New Guinea, and historically restricted to the dense temperate rainforests and button grass plains of Tasmania.",
+    "geological_range": "Pliocene to Holocene (~4 Ma \u2013 1936 CE; last captive individual died at Beaumaris Zoo in Hobart).",
+    "diet_ecology": "Solitary nocturnal apex marsupial predator hunting pademelons, Bennett's wallabies, bettongs, and ground-nesting seabirds by endurance tracking.",
+    "morphology": "Shoulder height ~60 cm; weight 15\u201330 kg; 15\u201320 dark transverse dorsal stripes; semi-rigid tail; backward-opening pouch; remarkable 80-degree jaw gape.",
+    "extinction_driver": "Intensive government-funded agricultural bounty eradication (1888\u20131909), habitat clearance, competition with feral dogs, and disease outbreaks."
   },
   {
     "tax_id": "PRAG-TAX-009",
@@ -863,8 +903,8 @@
     "extinction_date": "~14,000 BP (Northeastern Siberia)",
     "key_trait": "Sub-Zero Keratinous Insulation & Thermal Sensation",
     "description": "Thermo-receptor TRPV3 and lipid metabolism paleogenomic adaptations that enabled survival under hyper-arid, freezing steppe-tundra climates alongside woolly mammoths.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Coelodonta_antiquitatis_.jpg/330px-Coelodonta_antiquitatis_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Model reconstruction of Coelodonta antiquitatis in late Pleistocene permafrost setting.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Coelodonta_antiquitatis_by_Benjamin_Langlois.jpg/960px-Coelodonta_antiquitatis_by_Benjamin_Langlois.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life restoration of the woolly rhinoceros (Coelodonta antiquitatis) in sub-zero steppe-tundra.",
     "target_locus": {
       "gene_symbol": "TRPV3",
       "protein_name": "Transient receptor potential cation channel V3",
@@ -940,7 +980,12 @@
       "first_appearance_ma": 7.25,
       "last_appearance_ma": 0.13,
       "geological_interval": "Late Miocene \u2013 Late Pleistocene"
-    }
+    },
+    "habitat_range": "Northern Eurasia permafrost zone, from the Iberian Peninsula and Britain eastward across Siberia to the Chukchi Peninsula.",
+    "geological_range": "Middle to Late Pleistocene (~350,000 \u2013 14,000 BP).",
+    "diet_ecology": "Low-slung specialist grazer utilizing its keeled anterior horn to sweep snow aside to graze on subnivean grasses, mosses, and sedges.",
+    "morphology": "Body length 3.7 m; shoulder height ~2 m; weight 1.8\u20132.7 tonnes; massive anterior nasal horn up to 1.35 m; dense double-layered reddish woolly fleece.",
+    "extinction_driver": "Sudden B\u00f8lling-Aller\u00f8d warming (~14,000 BP) causing heavy snowfall regimes that immobilized the short-legged rhino and suffocated steppe vegetation."
   },
   {
     "tax_id": "PRAG-TAX-010",
@@ -951,8 +996,8 @@
     "extinction_date": "~10,000 BP (Rancho La Brea / Americas)",
     "key_trait": "Hyper-Specialized Canines & Cervical Bite Force",
     "description": "Hyper-carnivorous machairodontine apex predator with robust humeral cortical bone density, massive cervical vertebrae, and deep evolutionary split (~20 Ma) from modern pantherines.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Smilodon_populator_fossil%2C_Tellus_Science_Museum_1.jpg/330px-Smilodon_populator_fossil%2C_Tellus_Science_Museum_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Fossil skeleton of Smilodon fatalis highlighting elongated saber canines at Tellus Science Museum.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Smilodon_Knight.jpg/960px-Smilodon_Knight.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "World-renowned life restoration of Smilodon fatalis by Charles R. Knight (1903).",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1053,7 +1098,12 @@
       "first_appearance_ma": 2.58,
       "last_appearance_ma": 0.13,
       "geological_interval": "Pleistocene (Rancholabrean)"
-    }
+    },
+    "habitat_range": "Americas: widespread throughout North America (abundant at Rancho La Brea) and western South America in open woodland and scrub margins.",
+    "geological_range": "Early to Late Pleistocene (Blancan to Rancholabrean, ~1.6 Ma \u2013 10,000 BP).",
+    "diet_ecology": "Ambush apex machairodontine predator targeting bison, camelops, Western horses, and juvenile mastodons/mammoths.",
+    "morphology": "Shoulder height 1.0 m; mass 160\u2013280 kg; recurved maxillary saber canines up to 28 cm; massively hypertrophied cervical vertebrae and forelimb adductor muscles.",
+    "extinction_driver": "Abrupt demise of all large herbivorous megafauna prey at the Younger Dryas boundary, compounded by human hunter colonization."
   },
   {
     "tax_id": "PRAG-TAX-011",
@@ -1064,8 +1114,8 @@
     "extinction_date": "~1662 CE (Mauritius)",
     "key_trait": "Flightless Island Endemism & Gigantism",
     "description": "Iconic Mauritian flightless columbid that evolved insular gigantism in the absence of mammalian predators; ancient DNA establishes its sister-clade relationship to the Nicobar pigeon.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Oxford_Dodo_display.jpg/330px-Oxford_Dodo_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Dried head and soft-tissue specimen of the Oxford Dodo (Raphus cucullatus).",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Model_of_a_dodo_%28Raphus_cucullatus%29%2C_Lee_Kong_Chian_Natural_History_Museum%2C_Singapore_-_20150808_%28cropped%29.jpg/960px-Model_of_a_dodo_%28Raphus_cucullatus%29%2C_Lee_Kong_Chian_Natural_History_Museum%2C_Singapore_-_20150808_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life model reconstruction of the Dodo (Raphus cucullatus) in native Mauritian plumage.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1157,7 +1207,12 @@
       "first_appearance_ma": 0.01,
       "last_appearance_ma": 0.01,
       "geological_interval": "Holocene (Extinct 1662 CE)"
-    }
+    },
+    "habitat_range": "Endemic exclusively to the dry coastal lowlands and subtropical palm forests of Mauritius in the western Indian Ocean.",
+    "geological_range": "Holocene (~10,000 BP \u2013 1662 CE; confirmed last reliable observation in offshore islets).",
+    "diet_ecology": "Flightless ground frugivore and seed predator feeding on fallen tambalacoque (dodo tree) fruits, palm nuts, berries, and bulbous roots.",
+    "morphology": "Standing height ~1 m; weight 10\u201318 kg; blue-gray plumage; heavy hooked bill with yellow sheath; rudimentary wings; stout yellow feet with robust claws.",
+    "extinction_driver": "Complete devastation of ground nests by introduced invasive mammals (pigs, macaque monkeys, rats, dogs) and deforestation by Dutch settlers."
   },
   {
     "tax_id": "PRAG-TAX-012",
@@ -1168,8 +1223,8 @@
     "extinction_date": "September 1, 1914 (Cincinnati Zoo)",
     "key_trait": "Hyper-Abundant Social Flocking & Rapid Demography",
     "description": "Once the most abundant bird on Earth (3\u20135 billion individuals), natural selection and human exploitation drove sudden genomic and population collapse in less than fifty years.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bird_lore_%281913%29_%2814562557107%29.jpg/330px-Bird_lore_%281913%29_%2814562557107%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Taxidermy study skin of Ectopistes migratorius (Passenger Pigeon).",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Mershon%27s_The_Passenger_Pigeon_%28Audubon_plate%2C_crop%29.jpg/960px-Mershon%27s_The_Passenger_Pigeon_%28Audubon_plate%2C_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life illustration of a pair of Passenger Pigeons by John James Audubon.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1262,7 +1317,12 @@
       "first_appearance_ma": 5.33,
       "last_appearance_ma": 0.01,
       "geological_interval": "Pliocene \u2013 Holocene (1914 CE)"
-    }
+    },
+    "habitat_range": "Eastern and Central North America; nesting in mixed deciduous forests of the Great Lakes and wintering across the Southern United States.",
+    "geological_range": "Pliocene to early 20th century (~3 Ma \u2013 1914 CE; Martha, the last survivor, died at Cincinnati Zoo).",
+    "diet_ecology": "Obligate nomadic forest granivore foraging in hyper-dense flocks of billions, consuming beech mast, acorns, chestnuts, berries, and cultivated grain.",
+    "morphology": "Total length 39\u201342 cm; weight ~340 g; iridescent metallic neck plumage; long pointed tail; exceptional aerodynamic flight reaching speeds over 100 km/h.",
+    "extinction_driver": "Unrestricted industrial market hunting facilitated by telegraph tracking and railroad transport, coupled with mass clearing of eastern hardwood forests."
   },
   {
     "tax_id": "PRAG-TAX-013",
@@ -1273,8 +1333,8 @@
     "extinction_date": "~10,000 BP (Patagonia / South America)",
     "key_trait": "Dermal Ossicles (Osteoderms) & Herbivorous Colleague",
     "description": "South American giant ground sloth possessing ossified bone nodules (osteoderms) embedded within skin; ancient bone collagen and mitogenomes reclassified folivoran systematics.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Mylodon_skull_%28cropped%29.jpg/330px-Mylodon_skull_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Mounted fossil skeleton of Mylodon darwinii at the Natural History Museum in London.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Mylodon_model.jpg/960px-Mylodon_model.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life model reconstruction of Darwin's ground sloth (Mylodon darwinii) in sub-Antarctic Patagonia.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1358,7 +1418,12 @@
       "first_appearance_ma": 27.3,
       "last_appearance_ma": 0.01,
       "geological_interval": "Oligocene \u2013 Holocene"
-    }
+    },
+    "habitat_range": "Southern Cone of South America: Argentine Pampas and Patagonian shrub-steppe (famed preservation in Cueva del Milod\u00f3n, Chile).",
+    "geological_range": "Late Pleistocene to early Holocene (~1.8 Ma \u2013 10,200 BP).",
+    "diet_ecology": "Bulk ground herbivore grazing on tough Patagonian tussock grasses, sedges, and thorny sub-Antarctic scrub.",
+    "morphology": "Total length ~3 m; estimated weight 1.0\u20132.0 tonnes; semi-fossorial robust limbs; subdermal osteoderm beads embedded in thick leather; dense coarse yellowish coat.",
+    "extinction_driver": "Synergistic impact of post-glacial aridification across the Patagonian plains and specialized hunting pressure by early Clovis-era Paleo-Indians."
   },
   {
     "tax_id": "PRAG-TAX-014",
@@ -1369,8 +1434,8 @@
     "extinction_date": "~11,000 BP (North America)",
     "key_trait": "Hyper-Cursorial Carnivory & High Energetics",
     "description": "Massive hyper-predatory tremarctine bear with elongated cursorial limbs capable of high-speed pursuit and scavenging across the late Quaternary North American megafaunal biome.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Tremarctinae.png/330px-Tremarctinae.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Skeletal comparison of Tremarctos floridanus and the giant short-faced bear Arctodus simus.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/MACN_Arctotherium.jpg/960px-MACN_Arctotherium.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life reconstruction of a giant tremarctine short-faced bear in Pleistocene South America.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1454,7 +1519,12 @@
       "first_appearance_ma": 4.7,
       "last_appearance_ma": 0.13,
       "geological_interval": "Pliocene \u2013 Late Pleistocene"
-    }
+    },
+    "habitat_range": "North America, from the high Arctic of Alaska and the Yukon south across the continental United States into the central Mexican highlands.",
+    "geological_range": "Middle to Late Pleistocene (~1.8 Ma \u2013 11,000 BP).",
+    "diet_ecology": "Hypercarnivore and apex scavenger capable of kleptoparasitizing dire wolf and sabertooth cat kills, tracking horses, caribou, and bison across open plains.",
+    "morphology": "Shoulder height on all fours 1.5\u20131.8 m; erect height 3.7 m; body mass up to 1,000 kg; disproportionately long cursorial limbs, broad muzzle, and deep nasal cavity.",
+    "extinction_driver": "Collapse of megaherbivore carrion availability, intense resource competition from expanding brown bears (Ursus arctos), and human predation."
   },
   {
     "tax_id": "PRAG-TAX-015",
@@ -1465,8 +1535,8 @@
     "extinction_date": "1919 CE (Extinct natural strain)",
     "key_trait": "Avian-to-Mammalian Receptor Switch & Cytokine Storm",
     "description": "Reconstructed 1918 pandemic virus with hemagglutinin mutations D190E and D225G switching receptor preference from avian alpha-2,3 to human alpha-2,6 sialic acid for lethal pulmonary pathogenesis.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg/330px-Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Emergency hospital ward at Camp Funston, Kansas during the 1918 influenza pandemic.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg/960px-Emergency_hospital_during_Influenza_epidemic%2C_Camp_Funston%2C_Kansas_-_NCP_1603.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Historical archival documentation of the 1918 influenza pandemic outbreak at Camp Funston.",
     "target_locus": {
       "gene_symbol": "HA",
       "protein_name": "Hemagglutinin HA1 chain",
@@ -1550,7 +1620,12 @@
       "first_appearance_ma": null,
       "last_appearance_ma": null,
       "geological_interval": "Modern / 20th Century (Archival aRNA)"
-    }
+    },
+    "habitat_range": "Global pandemic epicenter radiating from military camps across Europe and North America to the Pacific Islands and remote Arctic permafrost villages.",
+    "geological_range": "Modern archival paleovirological aRNA (1918\u20131920 CE pandemic, sequenced from permafrost victim lung tissue).",
+    "diet_ecology": "Avian-origin H1N1 influenza A virus causing hyper-induction of pro-inflammatory cytokines (cytokine storm) and acute hemorrhagic pulmonary edema.",
+    "morphology": "Pleomorphic spherical virion 80\u2013120 nm in diameter; enveloped host-derived lipid bilayer; segmented negative-sense ssRNA genome; HA and NA surface glycoproteins.",
+    "extinction_driver": "Depletion of immunologically naive human hosts, herd immunity, and rapid genetic drift toward less lethal seasonal endemic H1N1 descendents."
   },
   {
     "tax_id": "PRAG-TAX-016",
@@ -1561,8 +1636,8 @@
     "extinction_date": "~10,000 BP (Pampas / South America)",
     "key_trait": "Ossified Carapace Shield & Spiked Tail Club",
     "description": "Massive Quaternary armored herbivore (1.5 tonnes) equipped with an impenetrable fused carapace and a spiked bony tail club used in intraspecific combat.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Doedicurus.png/330px-Doedicurus.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Carapace and spiked tail club of Doedicurus clavicaudatus in Paris Museum of Natural History.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Charles_Darwin_200_year_exhibition_Brazil3.jpg/960px-Charles_Darwin_200_year_exhibition_Brazil3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life-size model reconstruction of Doedicurus clavicaudatus with characteristic spiked caudal club.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1646,7 +1721,12 @@
       "first_appearance_ma": 0.4,
       "last_appearance_ma": 0.13,
       "geological_interval": "Middle \u2013 Late Pleistocene"
-    }
+    },
+    "habitat_range": "South American Pampas, Gran Chaco, and southern mesopotamian savannas of Argentina, Uruguay, and Southern Brazil.",
+    "geological_range": "Middle to Late Pleistocene (~400,000 \u2013 11,000 BP).",
+    "diet_ecology": "Low-slung specialist grazer feeding on abrasive silica-rich savanna grasses, dry forbs, and riparian sedges.",
+    "morphology": "Length 3.6 m; height 1.5 m; mass 1.4\u20132.0 tonnes; massive dome-like fused osteoderm carapace; flexible tail sheath terminating in a spiked, bone-mace caudal club.",
+    "extinction_driver": "Climatic restructuring of Pampean wetlands at the Pleistocene-Holocene transition, coupled with targeted ambush hunting by early South American hunters."
   },
   {
     "tax_id": "PRAG-TAX-017",
@@ -1657,8 +1737,8 @@
     "extinction_date": "~12,000 BP (Pampas / South America)",
     "key_trait": "Enigmatic South American Ungulate Collagen Signature",
     "description": "One of Darwin's famous 'strangest animals ever discovered'; ancient bone collagen proteomics resolved its phylogenetic relationship as sister to modern perissodactyls (Panperissodactyla).",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Toxodon_skeleton_in_BA.JPG/330px-Toxodon_skeleton_in_BA.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Fossil skeleton of Toxodon platensis at the Natural History Museum in London.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Toxodon_platensis.jpg/960px-Toxodon_platensis.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life restoration painting of Toxodon platensis grazing in Pleistocene Pampas by Heinrich Harder.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1742,7 +1822,12 @@
       "first_appearance_ma": 23.04,
       "last_appearance_ma": 0.13,
       "geological_interval": "Early Miocene \u2013 Late Pleistocene"
-    }
+    },
+    "habitat_range": "South American continent: Pampas grasslands, Chaco plains, and Patagonian river basins (first identified by Charles Darwin during the Beagle voyage).",
+    "geological_range": "Late Pliocene to Late Pleistocene (~2.5 Ma \u2013 11,000 BP).",
+    "diet_ecology": "Semi-aquatic or mixed-feeding notoungulate grazing on tough grasses, marshland vegetation, and semi-submerged riparian foliage.",
+    "morphology": "Length 2.7 m; shoulder height 1.5 m; body mass ~1.5 tonnes; barrel-shaped torso; elevated dorsal nostrils; continuously growing hypsodont chisel incisors.",
+    "extinction_driver": "Prolonged aridification of South American river valley ecosystems combined with human hunting of large, slow-moving notoungulate populations."
   },
   {
     "tax_id": "PRAG-TAX-018",
@@ -1753,8 +1838,8 @@
     "extinction_date": "~1445 CE (New Zealand)",
     "key_trait": "Complete Forelimb Absence & Ultra-Long Paleogenomic Half-Life",
     "description": "Largest bird of the Quaternary (up to 3.6 m tall, 230 kg) completely devoid of vestigial wing bones; fossil bones provided landmark kinetic calibration for ancient DNA decay.",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg/330px-Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_caption": "Articulated skeleton of Dinornis robustus, the South Island giant moa.",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Dinornis_struthoides.jpg/960px-Dinornis_struthoides.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_caption": "Life restoration of the Giant Moa (Dinornis) foraging in New Zealand beech forest.",
     "target_locus": {
       "gene_symbol": "CYTB",
       "protein_name": "Cytochrome b",
@@ -1838,6 +1923,11 @@
       "first_appearance_ma": 0.13,
       "last_appearance_ma": 0.01,
       "geological_interval": "Late Pleistocene \u2013 Holocene (~1445 CE)"
-    }
+    },
+    "habitat_range": "South Island of New Zealand: lowland podocarp-broadleaf forests, subalpine shrublands, and coastal dunelands.",
+    "geological_range": "Late Pleistocene to Holocene (~2 Ma \u2013 ~1440 CE; completely exterminated within 100\u2013150 years of M\u0101ori settlement).",
+    "diet_ecology": "Primary avian megaherbivore browsing on tough twigs, subalpine herbs, fallen fruits, and beech foliage using heavy gizzard stones (gastroliths).",
+    "morphology": "Standing height up to 3.6 m; weight up to 250 kg; extreme reverse sexual dimorphism (females twice as massive as males); total loss of all wing bones and pectoral girdle.",
+    "extinction_driver": "Rapid, systematic overhunting by Polynesian settlers, widespread clearance of native forests through anthropogenic burning, and dog predation of moa nests."
   }
 ]
