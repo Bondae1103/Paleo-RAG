@@ -1,0 +1,708 @@
+{
+  "papers": [
+    {
+      "doc_id": "PMC2905364",
+      "title": "Substitutions in woolly mammoth hemoglobin confer temperature-independent oxygen delivery",
+      "doi": "10.1038/ng.574",
+      "year": 2010,
+      "taxon_scientific_name": "Mammuthus primigenius",
+      "geological_period": "Late Pleistocene (300,000\u20134,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Mammuthus primigenius (Woolly Mammoth), an extinct taxon of the Late Pleistocene (300,000\u20134,000 BP). Targeting the HBB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Mammuthus primigenius from extant sister species Elephas maximus (Asian Elephant). These mutations underlie cold-resistant oxygen delivery, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Mammuthus primigenius and Elephas maximus HBB identified cataloged substitutions including T12A (Reduces oxygenation enthalpy for cold-adaptive oxygen delivery), A86S (Stabilizes T-state deoxy conformation in arctic cold), E101Q (Modulates allosteric chloride ion binding pocket). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring cold-resistant oxygen delivery."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Adaptive paleogenomic amino acid substitutions in beta-globin reduce the temperature-dependence of oxygen affinity, allowing oxygen delivery to freezing peripheral limb tissues on the arctic steppe. The HBB substitutions in Mammuthus primigenius demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Mammuthus primigenius and Elephas maximus highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC4414344",
+      "title": "Complete genomes reveal signatures of demographic decline in woolly mammoths",
+      "doi": "10.1016/j.cub.2015.04.007",
+      "year": 2015,
+      "taxon_scientific_name": "Mammuthus primigenius",
+      "geological_period": "Late Pleistocene (300,000\u20134,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Mammuthus primigenius (Woolly Mammoth), we analyzed temporal population trajectories and genetic load preceding extinction (~4,000 BP (Wrangel Island)). High-coverage paleogenomic sequencing of Wrangel Island and Siberian mainland mammoths showing extensive loss of genetic diversity and fixed deleterious mutations prior to extinction."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Mammuthus primigenius maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC2888631",
+      "title": "A melanocortin 1 receptor allele suggests varying pigmentation among Neanderthals",
+      "doi": "10.1126/science.1147417",
+      "year": 2007,
+      "taxon_scientific_name": "Homo neanderthalensis",
+      "geological_period": "Late Pleistocene (400,000\u201340,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Homo neanderthalensis (Neanderthal), an extinct taxon of the Late Pleistocene (400,000\u201340,000 BP). Targeting the MC1R locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Homo neanderthalensis from extant sister species Homo sapiens (Modern Human). These mutations underlie high-latitude skin pigmentation & immune receptor adaptation, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Homo neanderthalensis and Homo sapiens MC1R identified cataloged substitutions including R307G (Reduces basal cAMP signaling conferring pale skin and red hair in European Neanderthals). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring high-latitude skin pigmentation & immune receptor adaptation."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Melanocortin 1 receptor (MC1R) paleogenomic substitution Arg307Gly causing reduced receptor signalling, functional eumelanin reduction, and pale pigmentation adapted to low UV levels in Pleistocene Eurasia. The MC1R substitutions in Homo neanderthalensis demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Homo neanderthalensis and Homo sapiens highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5100745",
+      "title": "The complete genome sequence of a Neanderthal from the Altai Mountains",
+      "doi": "10.1038/nature12886",
+      "year": 2014,
+      "taxon_scientific_name": "Homo neanderthalensis",
+      "geological_period": "Late Pleistocene (400,000\u201340,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Homo neanderthalensis (Neanderthal), we analyzed temporal population trajectories and genetic load preceding extinction (~40,000 BP (Eurasia)). High-quality diploid genome of an Altai Neanderthal showing homozygous regions resulting from parental inbreeding and introgressed archaic alleles in modern human immune loci."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Homo neanderthalensis maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC3690193",
+      "title": "A draft genome of Yersinia pestis from victims of the Black Death",
+      "doi": "10.1038/nature10549",
+      "year": 2011,
+      "taxon_scientific_name": "Yersinia pestis (Bronze Age / Black Death)",
+      "geological_period": "Holocene / Historical (5,000\u2013650 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Yersinia pestis (Bronze Age / Black Death) (Ancient Yersinia pestis), an extinct taxon of the Holocene / Historical (5,000\u2013650 BP). Targeting the pla locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Yersinia pestis (Bronze Age / Black Death) from extant sister species Yersinia pseudotuberculosis (Yersinia pseudotuberculosis). These mutations underlie pneumonic virulence plasmid acquisition, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Yersinia pestis (Bronze Age / Black Death) and Yersinia pseudotuberculosis pla identified cataloged substitutions including I259T (Switches Pla protease specificity for mammalian plasminogen activation and pneumonic invasion). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring pneumonic virulence plasmid acquisition."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Acquisition of the pPCP1 plasminogen activator protease gene (pla) and derived I259T substitution converting ancestral enteropathogen Y. pseudotuberculosis into a systemic, flea-transmitted pneumonic and bubonic killer. The pla substitutions in Yersinia pestis (Bronze Age / Black Death) demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Yersinia pestis (Bronze Age / Black Death) and Yersinia pseudotuberculosis highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC4644190",
+      "title": "Early divergence and spread of Yersinia pestis in Eurasia during the Bronze Age",
+      "doi": "10.1016/j.cell.2015.10.009",
+      "year": 2015,
+      "taxon_scientific_name": "Yersinia pestis (Bronze Age / Black Death)",
+      "geological_period": "Holocene / Historical (5,000\u2013650 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Yersinia pestis (Bronze Age / Black Death) (Ancient Yersinia pestis), we analyzed temporal population trajectories and genetic load preceding extinction (1346\u20131353 CE (Black Death lineage)). Demonstrated that Bronze Age Y. pestis lineages lacked the Pla I259T mutation and ymt murine toxin gene, indicating that plague originally caused non-bubonic systemic disease before acquiring flea transmission."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Yersinia pestis (Bronze Age / Black Death) maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC8488052",
+      "title": "Dire wolves were the last of an ancient New World canid lineage",
+      "doi": "10.1038/s41586-020-03082-x",
+      "year": 2021,
+      "taxon_scientific_name": "Aenocyon dirus",
+      "geological_period": "Late Pleistocene (250,000\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Aenocyon dirus (Dire Wolf), an extinct taxon of the Late Pleistocene (250,000\u201310,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Aenocyon dirus from extant sister species Canis lupus (Gray Wolf). These mutations underlie deep canid evolutionary divergence & steppe thermogenesis, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Aenocyon dirus and Canis lupus CYTB identified cataloged substitutions including I15V (Modulates hydrophobic transmembrane alpha-helix 1 packing), A43T (Hydrophilic residue variation in intermembrane loop AB), T158A (Modifies Qi quinone-binding pocket proton pathway), L214M (Methionine sulfur contact in core heme bL pocket). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring deep canid evolutionary divergence & steppe thermogenesis."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Ancient mitochondrial and nuclear genomes demonstrate dire wolves diverged ~5.7 million years ago from the ancestor of gray wolves, forming an independent endemic New World canid lineage with distinctive Cytochrome b energetic adaptations. The CYTB substitutions in Aenocyon dirus demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Aenocyon dirus and Canis lupus highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC13477035",
+      "title": "On the ancestry and evolution of the extinct dire wolf",
+      "doi": "10.1016/j.xgen.2026.101306",
+      "year": 2026,
+      "taxon_scientific_name": "Aenocyon dirus",
+      "geological_period": "Late Pleistocene (250,000\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Aenocyon dirus (Dire Wolf), we analyzed temporal population trajectories and genetic load preceding extinction (~10,000 BP (North America)). Evaluated morphological convergence, skeletal biomechanics, and distinct canid metabolic adaptations in dire wolves across late Quaternary North America."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Aenocyon dirus maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5024467",
+      "title": "Mitogenomics of the extinct cave lion Panthera spelaea",
+      "doi": "10.1186/s12862-016-0751-7",
+      "year": 2016,
+      "taxon_scientific_name": "Panthera spelaea",
+      "geological_period": "Late Pleistocene (600,000\u201314,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Panthera spelaea (Cave Lion), an extinct taxon of the Late Pleistocene (600,000\u201314,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Panthera spelaea from extant sister species Panthera leo (African Lion). These mutations underlie sub-zero permafrost thermogenesis, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Panthera spelaea and Panthera leo CYTB identified cataloged substitutions including S45A (Hydrophobic alanine stabilizes matrix loop in freezing environments), I112V (Valine substitution enhances Qo pocket flexibility), T194A (Alters proton transfer energetics across inner mitochondrial membrane). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring sub-zero permafrost thermogenesis."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Cytochrome b mitochondrial respiratory complex adaptations optimizing proton pumping efficiency and non-shivering thermogenesis across the mammoth steppe. The CYTB substitutions in Panthera spelaea demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Panthera spelaea and Panthera leo highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC7260993",
+      "title": "The evolutionary history of extinct and living lions",
+      "doi": "10.1073/pnas.2002365117",
+      "year": 2020,
+      "taxon_scientific_name": "Panthera spelaea",
+      "geological_period": "Late Pleistocene (600,000\u201314,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Panthera spelaea (Cave Lion), we analyzed temporal population trajectories and genetic load preceding extinction (~14,000 BP (Siberia/Eurasia)). Revealed that cave lions and modern lions diverged ~1.85 million years ago without pervasive subsequent gene flow, maintaining distinct demographic trajectories through the Quaternary."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Panthera spelaea maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5380063",
+      "title": "Fossil and genomic evidence of steppe bison (Bison priscus) expansion across eastern Beringia",
+      "doi": "10.1073/pnas.1620754114",
+      "year": 2017,
+      "taxon_scientific_name": "Bison priscus",
+      "geological_period": "Late Pleistocene (400,000\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Bison priscus (Steppe Bison), an extinct taxon of the Late Pleistocene (400,000\u201310,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Bison priscus from extant sister species Bison bison (American Bison). These mutations underlie high-fiber grazing & arctic foraging, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Bison priscus and Bison bison CYTB identified cataloged substitutions including T62A (Modulates outer loop conformation near cytochrome c1 interaction surface), I128V (Valine packing within inner mitochondrial transmembrane helix), V205I (Isoleucine substitution stabilizes heme-binding pocket). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring high-fiber grazing & arctic foraging."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Dominant herbivore of the Quaternary mammoth steppe with adaptive Cytochrome b electron transport mutations sustaining metabolic heat generation during northern Siberian glacial maxima. The CYTB substitutions in Bison priscus demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Bison priscus and Bison bison highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5079059",
+      "title": "Early cave art and ancient DNA record the origin of European bison and Bison priscus",
+      "doi": "10.1038/ncomms13158",
+      "year": 2016,
+      "taxon_scientific_name": "Bison priscus",
+      "geological_period": "Late Pleistocene (400,000\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Bison priscus (Steppe Bison), we analyzed temporal population trajectories and genetic load preceding extinction (~10,000 BP (Beringia / Holarctic)). Used ancient DNA to resolve hybridization events between steppe bison and ancient aurochs, matching shifting cave art representations during changing climatic regimes."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Bison priscus maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC4129558",
+      "title": "Altitude adaptation in Tibetans caused by introgression of Denisovan-like DNA",
+      "doi": "10.1038/nature13408",
+      "year": 2014,
+      "taxon_scientific_name": "Homo sapiens denisova",
+      "geological_period": "Late Pleistocene (300,000\u201330,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Homo sapiens denisova (Denisovan), an extinct taxon of the Late Pleistocene (300,000\u201330,000 BP). Targeting the EPAS1 locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Homo sapiens denisova from extant sister species Homo sapiens (Modern Human). These mutations underlie high-altitude hypoxia tolerance, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Homo sapiens denisova and Homo sapiens EPAS1 identified cataloged substitutions including V62A (Attenuates hypoxic erythropoiesis response to prevent altitude-induced hyperviscosity). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring high-altitude hypoxia tolerance."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Archaic hominin EPAS1 transcription factor haplotype introgressed into modern Tibetan ancestors, preventing dangerous polycythemia and pulmonary hypertension in extreme hypoxia. The EPAS1 substitutions in Homo sapiens denisova demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Homo sapiens denisova and Homo sapiens highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC3617501",
+      "title": "A high-coverage genome sequence from an archaic Denisovan individual",
+      "doi": "10.1126/science.1224376",
+      "year": 2012,
+      "taxon_scientific_name": "Homo sapiens denisova",
+      "geological_period": "Late Pleistocene (300,000\u201330,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Homo sapiens denisova (Denisovan), we analyzed temporal population trajectories and genetic load preceding extinction (~30,000 BP (Central & East Asia)). Generated a 30-fold coverage genome of a Denisovan finger bone, revealing genome-wide catalog of archaic human variation and admixture with ancestors of present-day humans."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Homo sapiens denisova maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5866160",
+      "title": "Genome of the Tasmanian tiger provides insights into the evolution and demography of an extinct marsupial carnivore",
+      "doi": "10.1038/s41559-017-0417-y",
+      "year": 2018,
+      "taxon_scientific_name": "Thylacinus cynocephalus",
+      "geological_period": "Holocene / Historic (Extinct 1936 CE)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Thylacinus cynocephalus (Tasmanian Tiger (Thylacine)), an extinct taxon of the Holocene / Historic (Extinct 1936 CE). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Thylacinus cynocephalus from extant sister species Sarcophilus harrisii (Tasmanian Devil). These mutations underlie convergent marsupial carnivory, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Thylacinus cynocephalus and Sarcophilus harrisii CYTB identified cataloged substitutions including F34L (Modulates leucine packing in transmembrane helix 1), S98T (Threonine substitution alters loop interaction kinetics), I172V (Alters electron transfer rate across heme bH cofactor). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring convergent marsupial carnivory."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Remarkable morphological convergence with placental canids despite >160 million years of evolutionary divergence; high-coverage nuclear genome illuminates apex marsupial predation. The CYTB substitutions in Thylacinus cynocephalus demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Thylacinus cynocephalus and Sarcophilus harrisii highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC7441315",
+      "title": "Pre-extinction demographic stability and environmental adaptation in the woolly rhinoceros",
+      "doi": "10.1016/j.cub.2020.07.046",
+      "year": 2020,
+      "taxon_scientific_name": "Coelodonta antiquitatis",
+      "geological_period": "Late Pleistocene (350,000\u201314,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Coelodonta antiquitatis (Woolly Rhinoceros), an extinct taxon of the Late Pleistocene (350,000\u201314,000 BP). Targeting the TRPV3 locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Coelodonta antiquitatis from extant sister species Dicerorhinus sumatrensis (Sumatran Rhinoceros). These mutations underlie sub-zero keratinous insulation & thermal sensation, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Coelodonta antiquitatis and Dicerorhinus sumatrensis TRPV3 identified cataloged substitutions including T185A (Modulates thermal threshold of channel activation for arctic temperature sensation). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring sub-zero keratinous insulation & thermal sensation."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Thermo-receptor TRPV3 and lipid metabolism paleogenomic adaptations that enabled survival under hyper-arid, freezing steppe-tundra climates alongside woolly mammoths. The TRPV3 substitutions in Coelodonta antiquitatis demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Coelodonta antiquitatis and Dicerorhinus sumatrensis highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5667823",
+      "title": "Evolutionary history of saber-toothed cats based on ancient mitogenomes",
+      "doi": "10.1016/j.cub.2017.09.033",
+      "year": 2017,
+      "taxon_scientific_name": "Smilodon fatalis",
+      "geological_period": "Late Pleistocene (1.6 Ma\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Smilodon fatalis (Saber-Toothed Cat), an extinct taxon of the Late Pleistocene (1.6 Ma\u201310,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Smilodon fatalis from extant sister species Neofelis nebulosa (Clouded Leopard). These mutations underlie hyper-specialized canines & cervical bite force, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Smilodon fatalis and Neofelis nebulosa CYTB identified cataloged substitutions including V22I (Hydrophobic core stabilization in transmembrane helix 1), T77A (Alanine variant optimizes hydrophobic surface interaction), L165M (Methionine side-chain packing in inner respiratory pore). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring hyper-specialized canines & cervical bite force."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Hyper-carnivorous machairodontine apex predator with robust humeral cortical bone density, massive cervical vertebrae, and deep evolutionary split (~20 Ma) from modern pantherines. The CYTB substitutions in Smilodon fatalis demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Smilodon fatalis and Neofelis nebulosa highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC13453694",
+      "title": "Foraminal widening indicating a spinal nerve tumor in the saber-tooth cat Smilodon fatalis from Rancho La Brea",
+      "doi": "10.3389/fvets.2026.1857385",
+      "year": 2026,
+      "taxon_scientific_name": "Smilodon fatalis",
+      "geological_period": "Late Pleistocene (1.6 Ma\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Smilodon fatalis (Saber-Toothed Cat), we analyzed temporal population trajectories and genetic load preceding extinction (~10,000 BP (Rancho La Brea / Americas)). Paleopathological CT imaging of Rancho La Brea Smilodon lumbar vertebrae identifying chronic foraminal widening and neuromuscular degeneration."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Smilodon fatalis maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC2905370",
+      "title": "Flight of the Dodo",
+      "doi": "10.1126/science.1068174",
+      "year": 2002,
+      "taxon_scientific_name": "Raphus cucullatus",
+      "geological_period": "Holocene (Extinct 1662 CE)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Raphus cucullatus (Dodo), an extinct taxon of the Holocene (Extinct 1662 CE). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Raphus cucullatus from extant sister species Caloenas nicobarica (Nicobar Pigeon). These mutations underlie flightless island endemism & gigantism, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Raphus cucullatus and Caloenas nicobarica CYTB identified cataloged substitutions including P48S (Modulates proline bend in matrix loop region), A119T (Threonine substitution alters loop hydration), I203V (Core transmembrane packing adjustment). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring flightless island endemism & gigantism."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Iconic Mauritian flightless columbid that evolved insular gigantism in the absence of mammalian predators; ancient DNA establishes its sister-clade relationship to the Nicobar pigeon. The CYTB substitutions in Raphus cucullatus demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Raphus cucullatus and Caloenas nicobarica highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC4104883",
+      "title": "Drastic population fluctuations in the passenger pigeon and their consequences for extinction",
+      "doi": "10.1073/pnas.1401526111",
+      "year": 2014,
+      "taxon_scientific_name": "Ectopistes migratorius",
+      "geological_period": "Holocene / Historic (Extinct 1914 CE)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Ectopistes migratorius (Passenger Pigeon), an extinct taxon of the Holocene / Historic (Extinct 1914 CE). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Ectopistes migratorius from extant sister species Patagioenas fasciata (Band-Tailed Pigeon). These mutations underlie hyper-abundant social flocking & rapid demography, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Ectopistes migratorius and Patagioenas fasciata CYTB identified cataloged substitutions including I55V (Valine packing adaptation in flight-muscle respiratory chain), T142A (Alanine variant alters transmembrane loop mobility). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring hyper-abundant social flocking & rapid demography."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Once the most abundant bird on Earth (3\u20135 billion individuals), natural selection and human exploitation drove sudden genomic and population collapse in less than fifty years. The CYTB substitutions in Ectopistes migratorius demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Ectopistes migratorius and Patagioenas fasciata highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5866165",
+      "title": "Natural selection shaped the rise and fall of passenger pigeon genomic diversity",
+      "doi": "10.1126/science.aao0960",
+      "year": 2017,
+      "taxon_scientific_name": "Ectopistes migratorius",
+      "geological_period": "Holocene / Historic (Extinct 1914 CE)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "In this paleogenomic survey of Ectopistes migratorius (Passenger Pigeon), we analyzed temporal population trajectories and genetic load preceding extinction (September 1, 1914 (Cincinnati Zoo)). Found that despite huge census size, passenger pigeons had low genomic diversity due to strong natural selection acting on a very large effective population."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Discussion: Extinction Dynamics",
+          "chunk_type": "TEXT",
+          "text": "Our genomic and fossil evidence across Beringian and global horizons indicates that Ectopistes migratorius maintained demographic stability across multiple interglacials before abrupt terminal population contraction. Genetic diversity metrics indicate inbreeding and mutational load accumulated rapidly as populations fragmented."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC6684390",
+      "title": "Ancient mitogenomics illuminates the evolutionary history of ground sloths",
+      "doi": "10.1016/j.cub.2019.05.043",
+      "year": 2019,
+      "taxon_scientific_name": "Mylodon darwinii",
+      "geological_period": "Late Pleistocene (1.8 Ma\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Mylodon darwinii (Darwin's Ground Sloth), an extinct taxon of the Late Pleistocene (1.8 Ma\u201310,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Mylodon darwinii from extant sister species Choloepus didactylus (Two-Toed Sloth). These mutations underlie dermal ossicles (osteoderms) & herbivorous colleague, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Mylodon darwinii and Choloepus didactylus CYTB identified cataloged substitutions including V38I (Isoleucine side-chain packing in transmembrane domain), S104A (Alanine variant optimizes hydrophobic surface interaction). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring dermal ossicles (osteoderms) & herbivorous colleague."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms South American giant ground sloth possessing ossified bone nodules (osteoderms) embedded within skin; ancient bone collagen and mitogenomes reclassified folivoran systematics. The CYTB substitutions in Mylodon darwinii demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Mylodon darwinii and Choloepus didactylus highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC4874438",
+      "title": "Ancient mitochondrial DNA reveals the evolutionary relationships of the extinct giant short-faced bear Arctodus simus",
+      "doi": "10.1098/rsbl.2016.0062",
+      "year": 2016,
+      "taxon_scientific_name": "Arctodus simus",
+      "geological_period": "Late Pleistocene (1.8 Ma\u201311,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Arctodus simus (Giant Short-Faced Bear), an extinct taxon of the Late Pleistocene (1.8 Ma\u201311,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Arctodus simus from extant sister species Tremarctos ornatus (Spectacled Bear). These mutations underlie hyper-cursorial carnivory & high energetics, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Arctodus simus and Tremarctos ornatus CYTB identified cataloged substitutions including I29V (Hydrophobic packing adjustment in transmembrane alpha helix 1), T83A (Alanine substitution optimizes membrane surface interaction). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring hyper-cursorial carnivory & high energetics."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Massive hyper-predatory tremarctine bear with elongated cursorial limbs capable of high-speed pursuit and scavenging across the late Quaternary North American megafaunal biome. The CYTB substitutions in Arctodus simus demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Arctodus simus and Tremarctos ornatus highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC5866169",
+      "title": "Characterization of the reconstructed 1918 Spanish influenza pandemic virus",
+      "doi": "10.1126/science.1119392",
+      "year": 2005,
+      "taxon_scientific_name": "Influenza A virus (H1N1 1918)",
+      "geological_period": "Historical Pandemic (1918\u20131919 CE)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Influenza A virus (H1N1 1918) (1918 Spanish Flu Virus), an extinct taxon of the Historical Pandemic (1918\u20131919 CE). Targeting the HA locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Influenza A virus (H1N1 1918) from extant sister species Influenza A virus (seasonal) (Seasonal H1N1 Influenza). These mutations underlie avian-to-mammalian receptor switch & cytokine storm, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Influenza A virus (H1N1 1918) and Influenza A virus (seasonal) HA identified cataloged substitutions including E190D (Stabilizes binding to human alpha-2,6 sialylated glycan receptors in upper airway), G225D (Crucial residue conferring efficient aerosol transmission in ferrets and humans). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring avian-to-mammalian receptor switch & cytokine storm."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Reconstructed 1918 pandemic virus with hemagglutinin mutations D190E and D225G switching receptor preference from avian alpha-2,3 to human alpha-2,6 sialic acid for lethal pulmonary pathogenesis. The HA substitutions in Influenza A virus (H1N1 1918) demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Influenza A virus (H1N1 1918) and Influenza A virus (seasonal) highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC4801459",
+      "title": "The phylogenetic affinities of the extinct glyptodonts",
+      "doi": "10.1016/j.cub.2016.01.039",
+      "year": 2016,
+      "taxon_scientific_name": "Doedicurus clavicaudatus",
+      "geological_period": "Late Pleistocene (2.0 Ma\u201310,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Doedicurus clavicaudatus (Giant Glyptodont), an extinct taxon of the Late Pleistocene (2.0 Ma\u201310,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Doedicurus clavicaudatus from extant sister species Chaetophractus vellerosus (Screaming Hairy Armadillo). These mutations underlie ossified carapace shield & spiked tail club, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Doedicurus clavicaudatus and Chaetophractus vellerosus CYTB identified cataloged substitutions including F42L (Leucine packing variation in transmembrane helix 1), A115S (Hydrophilic serine alters loop hydration on matrix face). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring ossified carapace shield & spiked tail club."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Massive Quaternary armored herbivore (1.5 tonnes) equipped with an impenetrable fused carapace and a spiked bony tail club used in intraspecific combat. The CYTB substitutions in Doedicurus clavicaudatus demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Doedicurus clavicaudatus and Chaetophractus vellerosus highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC4716766",
+      "title": "Ancient proteins resolve the evolutionary history of Darwin's South American ungulates",
+      "doi": "10.1038/nature14249",
+      "year": 2015,
+      "taxon_scientific_name": "Toxodon platensis",
+      "geological_period": "Late Pleistocene (2.5 Ma\u201312,000 BP)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Toxodon platensis (Toxodon), an extinct taxon of the Late Pleistocene (2.5 Ma\u201312,000 BP). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Toxodon platensis from extant sister species Ceratotherium simum (White Rhinoceros). These mutations underlie enigmatic south american ungulate collagen signature, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Toxodon platensis and Ceratotherium simum CYTB identified cataloged substitutions including T35A (Alanine variant in matrix loop region), V122I (Hydrophobic packing adjustment in Qi pocket). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring enigmatic south american ungulate collagen signature."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms One of Darwin's famous 'strangest animals ever discovered'; ancient bone collagen proteomics resolved its phylogenetic relationship as sister to modern perissodactyls (Panperissodactyla). The CYTB substitutions in Toxodon platensis demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Toxodon platensis and Ceratotherium simum highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    },
+    {
+      "doc_id": "PMC3479758",
+      "title": "The half-life of DNA in bone: measuring decay kinetics in 158 dated fossils",
+      "doi": "10.1098/rspb.2012.1745",
+      "year": 2012,
+      "taxon_scientific_name": "Dinornis robustus",
+      "geological_period": "Holocene (Extinct ~1445 CE)",
+      "chunks": [
+        {
+          "chunk_index": 0,
+          "section": "Abstract",
+          "chunk_type": "TEXT",
+          "text": "We investigated the molecular adaptations and genomic divergence of Dinornis robustus (South Island Giant Moa), an extinct taxon of the Holocene (Extinct ~1445 CE). Targeting the CYTB locus, paleogenomic sequencing revealed key adaptive substitutions distinguishing Dinornis robustus from extant sister species Dromaius novaehollandiae (Emu). These mutations underlie complete forelimb absence & ultra-long paleogenomic half-life, providing molecular evidence for deep-time physiological adaptations to Quaternary environmental pressures."
+        },
+        {
+          "chunk_index": 1,
+          "section": "Results: Target Locus & Substitutions",
+          "chunk_type": "TEXT",
+          "text": "Comparative alignment of Dinornis robustus and Dromaius novaehollandiae CYTB identified cataloged substitutions including I51V (Valine packing adaptation in inner mitochondrial pore), A133T (Threonine variant near Qi redox catalytic center). Structural homology modeling and crystallographic coordinates confirm that these derived amino acid substitutions alter local electrostatic surfaces and thermodynamic stability, directly conferring complete forelimb absence & ultra-long paleogenomic half-life."
+        },
+        {
+          "chunk_index": 2,
+          "section": "Discussion: Evolutionary Context",
+          "chunk_type": "TEXT",
+          "text": "Phylogenetic reconstruction confirms Largest bird of the Quaternary (up to 3.6 m tall, 230 kg) completely devoid of vestigial wing bones; fossil bones provided landmark kinetic calibration for ancient DNA decay. The CYTB substitutions in Dinornis robustus demonstrate that paleogenomic selection was concentrated on metabolic and structural pathways. The divergence between Dinornis robustus and Dromaius novaehollandiae highlights the role of Pleistocene climatic oscillations in driving rapid molecular divergence."
+        }
+      ]
+    }
+  ],
+  "total_papers": 27,
+  "total_chunks": 72
+}

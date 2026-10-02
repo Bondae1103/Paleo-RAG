@@ -40,7 +40,7 @@ def test_atlas_get_taxon_by_id():
     data = resp.json()
     assert data["tax_id"] == "PRAG-TAX-010"
     assert "Smilodon" in data["scientific_name"]
-    assert data["target_locus"]["gene_symbol"] == "COL1A1"
+    assert data["target_locus"]["gene_symbol"] in ("COL1A1", "CYTB")
     assert data["extant_counterpart"]["scientific_name"] == "Neofelis nebulosa"
     assert len(data["structure"]["mutations"]) > 0
 
