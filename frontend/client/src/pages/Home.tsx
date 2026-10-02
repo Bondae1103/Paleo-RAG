@@ -55,9 +55,10 @@ import { SequenceWorkbenchView } from "../components/SequenceWorkbenchView";
 import { BioDatabaseView } from "../components/BioDatabaseView";
 import { BioEntityCard } from "../components/BioEntityCard";
 import { TaxaAtlasView } from "../components/TaxaAtlasView";
+import { LandingOverviewView } from "../components/LandingOverviewView";
 import taxaLitBundle from "../lib/taxa_literature.json";
 
-type ViewKey = "studio" | "atlas" | "workbench" | "biodb" | "corpus" | "evaluation" | "diagnostics";
+type ViewKey = "overview" | "atlas" | "workbench" | "biodb" | "studio" | "corpus" | "evaluation" | "diagnostics";
 type ChunkType = "TEXT" | "TABLE" | "CAPTION" | string;
 
 interface EvidenceItem {
@@ -80,6 +81,7 @@ interface IngestTask {
 }
 
 const navItems: { key: ViewKey; label: string; short: string; icon: typeof Archive }[] = [
+  { key: "overview", label: "Project Overview", short: "00", icon: Sparkles },
   { key: "atlas", label: "Taxa Atlas & Registry", short: "01", icon: BookOpen },
   { key: "workbench", label: "Sequence Workbench", short: "02", icon: Dna },
   { key: "biodb", label: "BioDB Multi-Explorer", short: "03", icon: Database },
@@ -269,10 +271,12 @@ function Header({
   onMenu,
   health,
   onOpenSettings,
+  onLogoClick,
 }: {
   onMenu: () => void;
   health: HealthResponse | null;
   onOpenSettings: () => void;
+  onLogoClick?: () => void;
 }) {
   const isHealthy = health?.status === "ok";
   return (
@@ -286,15 +290,21 @@ function Header({
           >
             <Menu size={17} />
           </button>
-          <SpecimenMark />
-          <div>
-            <div className="flex items-baseline gap-2">
-              <span className="font-display text-[15px] font-semibold tracking-[0.02em] text-[#eee9de]">PaleoDB</span>
-              <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-[#d5a65b]">v1.0</span>
+          <div
+            onClick={onLogoClick}
+            className={`flex items-center gap-3 ${onLogoClick ? "cursor-pointer group" : ""}`}
+            title="Return to Project Overview"
+          >
+            <SpecimenMark />
+            <div>
+              <div className="flex items-baseline gap-2">
+                <span className="font-display text-[15px] font-semibold tracking-[0.02em] text-[#eee9de] group-hover:text-[#f0c778] transition">PaleoDB</span>
+                <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-[#d5a65b]">v1.0</span>
+              </div>
+              <p className="hidden font-mono text-[10px] uppercase tracking-[0.16em] text-slate-500 sm:block">
+                Prehistoric Biomolecular &amp; Phylogenetic Database
+              </p>
             </div>
-            <p className="hidden font-mono text-[10px] uppercase tracking-[0.16em] text-slate-500 sm:block">
-              Prehistoric Biomolecular & Phylogenetic Database
-            </p>
           </div>
         </div>
         <div className="flex items-center gap-3">
@@ -1860,7 +1870,7 @@ function ServiceCard({
 }
 
 export default function Home() {
-  const [active, setActive] = useState<ViewKey>("atlas");
+  const [active, setActive] = useState<ViewKey>("overview");
   const [railOpen, setRailOpen] = useState(false);
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [evidence, setEvidence] = useState<EvidenceItem[]>(DEFAULT_EVIDENCE);
@@ -1902,7 +1912,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#0b0f10] text-[#eee9de]">
-      <Header onMenu={() => setRailOpen(true)} health={health} onOpenSettings={() => setActive("diagnostics")} />
+      <Header
+        onMenu={() => setRailOpen(true)}
+        health={health}
+        onOpenSettings={() => setActive("diagnostics")}
+        onLogoClick={() => setActive("overview")}
+      />
       <div className="flex min-h-[calc(100vh-72px)]">
         <ArchiveRail
           active={active}
@@ -1928,6 +1943,15 @@ export default function Home() {
               <span>Hybrid RRF k=60</span>
             </div>
           </div>
+
+          {active === "overview" && (
+            <LandingOverviewView
+              onNavigate={(view) => setActive(view)}
+              onSelectTaxonWorkflow={(_taxId, module) => {
+                setActive(module || "atlas");
+              }}
+            />
+          )}
 
           {active === "studio" && (
             <StudioView
