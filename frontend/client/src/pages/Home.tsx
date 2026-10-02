@@ -55,10 +55,11 @@ import { SequenceWorkbenchView } from "../components/SequenceWorkbenchView";
 import { BioDatabaseView } from "../components/BioDatabaseView";
 import { BioEntityCard } from "../components/BioEntityCard";
 import { TaxaAtlasView } from "../components/TaxaAtlasView";
-import { LandingOverviewView } from "../components/LandingOverviewView";
+import { MinimalLandingView } from "../components/MinimalLandingView";
+import { AboutPlatformView } from "../components/AboutPlatformView";
 import taxaLitBundle from "../lib/taxa_literature.json";
 
-type ViewKey = "overview" | "atlas" | "workbench" | "biodb" | "studio" | "corpus" | "evaluation" | "diagnostics";
+type ViewKey = "landing" | "atlas" | "workbench" | "biodb" | "studio" | "corpus" | "about" | "evaluation" | "diagnostics";
 type ChunkType = "TEXT" | "TABLE" | "CAPTION" | string;
 
 interface EvidenceItem {
@@ -81,14 +82,15 @@ interface IngestTask {
 }
 
 const navItems: { key: ViewKey; label: string; short: string; icon: typeof Archive }[] = [
-  { key: "overview", label: "Project Overview", short: "00", icon: Sparkles },
+  { key: "landing", label: "Home / Welcome", short: "00", icon: Sparkles },
   { key: "atlas", label: "Taxa Atlas & Registry", short: "01", icon: BookOpen },
   { key: "workbench", label: "Sequence Workbench", short: "02", icon: Dna },
   { key: "biodb", label: "BioDB Multi-Explorer", short: "03", icon: Database },
   { key: "studio", label: "Literature Copilot (RAG)", short: "04", icon: Microscope },
   { key: "corpus", label: "Literature Corpus", short: "05", icon: Library },
-  { key: "evaluation", label: "Benchmark Diagnostics", short: "06", icon: Gauge },
-  { key: "diagnostics", label: "System Telemetry", short: "07", icon: Activity },
+  { key: "about", label: "Platform Overview", short: "06", icon: FileText },
+  { key: "evaluation", label: "Benchmark Diagnostics", short: "07", icon: Gauge },
+  { key: "diagnostics", label: "System Telemetry", short: "08", icon: Activity },
 ];
 
 const DEFAULT_EVIDENCE: EvidenceItem[] = [
@@ -1870,7 +1872,7 @@ function ServiceCard({
 }
 
 export default function Home() {
-  const [active, setActive] = useState<ViewKey>("overview");
+  const [active, setActive] = useState<ViewKey>("landing");
   const [railOpen, setRailOpen] = useState(false);
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [evidence, setEvidence] = useState<EvidenceItem[]>(DEFAULT_EVIDENCE);
@@ -1916,7 +1918,7 @@ export default function Home() {
         onMenu={() => setRailOpen(true)}
         health={health}
         onOpenSettings={() => setActive("diagnostics")}
-        onLogoClick={() => setActive("overview")}
+        onLogoClick={() => setActive("landing")}
       />
       <div className="flex min-h-[calc(100vh-72px)]">
         <ArchiveRail
@@ -1944,8 +1946,12 @@ export default function Home() {
             </div>
           </div>
 
-          {active === "overview" && (
-            <LandingOverviewView
+          {active === "landing" && (
+            <MinimalLandingView onNavigate={(view) => setActive(view)} />
+          )}
+
+          {active === "about" && (
+            <AboutPlatformView
               onNavigate={(view) => setActive(view)}
               onSelectTaxonWorkflow={(_taxId, module) => {
                 setActive(module || "atlas");
