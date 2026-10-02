@@ -569,6 +569,16 @@ export interface FossilRecordAnnotation {
   geological_interval: string;
 }
 
+export interface TaxonPublication {
+  pmcid?: string;
+  doi?: string;
+  title: string;
+  authors: string;
+  journal: string;
+  year: number;
+  summary: string;
+}
+
 export interface TaxonRegistryEntry {
   tax_id: string;
   common_name: string;
@@ -578,12 +588,23 @@ export interface TaxonRegistryEntry {
   extinction_date: string;
   key_trait: string;
   description: string;
+  image_url?: string;
+  image_caption?: string;
   target_locus: LocusAnnotation;
   extant_counterpart: ExtantCounterpartAnnotation;
   structure: StructureAnnotation;
   genomics: GenomicsAnnotation;
   pathway: PathwayAnnotation;
   fossil_record?: FossilRecordAnnotation | null;
+  pbdb?: {
+    taxon_no?: string | number;
+    occurrences_count?: number;
+    first_occurrence_ma?: number;
+    last_occurrence_ma?: number;
+    navigator_url?: string;
+    collection_regions?: string[];
+  } | null;
+  publications?: TaxonPublication[];
 }
 
 export interface AtlasListResponse {
@@ -800,19 +821,39 @@ export async function fetchStructureMutations(pdbId: string): Promise<{
  * Fetch PDB format coordinates from backend proxy / cache
  */
 export async function fetchStructureCoordinates(pdbId: string): Promise<string> {
+  const cleanId = pdbId.trim().toUpperCase();
   const base = getApiBaseUrl();
+  if (base) {
+    try {
+      const resp = await fetch(`${base}/api/bio/structure/${encodeURIComponent(cleanId)}/coordinates`, {
+        headers: {
+          ...authHeaders(),
+        },
+      });
+      if (resp.ok) {
+        const text = await resp.text();
+        if (text.includes("ATOM") || text.includes("HEADER") || text.length > 200) {
+          return text;
+        }
+      }
+    } catch (err) {
+      console.warn("Backend fetchStructureCoordinates unavailable, falling back to RCSB PDB:", err);
+    }
+  }
+
+  // Direct RCSB PDB download fallback (CORS-enabled public endpoint)
   try {
-    const resp = await fetch(`${base}/api/bio/structure/${encodeURIComponent(pdbId)}/coordinates`, {
-      headers: {
-        ...authHeaders(),
-      },
-    });
-    if (resp.ok) {
-      return await resp.text();
+    const directResp = await fetch(`https://files.rcsb.org/download/${cleanId}.pdb`);
+    if (directResp.ok) {
+      const text = await directResp.text();
+      if (text.includes("ATOM") || text.includes("HEADER")) {
+        return text;
+      }
     }
   } catch (err) {
-    console.warn("Backend fetchStructureCoordinates unavailable:", err);
+    console.warn("Direct RCSB PDB coordinate fetch failed:", err);
   }
+
   return "";
 }
 

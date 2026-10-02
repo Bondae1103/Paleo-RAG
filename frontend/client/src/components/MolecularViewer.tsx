@@ -86,8 +86,27 @@ export const MolecularViewer: React.FC<MolecularViewerProps> = ({
           attempts++;
         }
 
-        const pdbData = await fetchStructureCoordinates(pdbId);
+        let pdbData = await fetchStructureCoordinates(pdbId);
         if (canceled || !containerRef.current) return;
+
+        // Fallback to direct RCSB PDB if backend proxy was unreachable or empty
+        if (!pdbData || (!pdbData.includes("ATOM") && !pdbData.includes("HEADER"))) {
+          try {
+            const directResp = await fetch(`https://files.rcsb.org/download/${pdbId.trim().toUpperCase()}.pdb`);
+            if (directResp.ok) {
+              const text = await directResp.text();
+              if (text.includes("ATOM") || text.includes("HEADER")) {
+                pdbData = text;
+              }
+            }
+          } catch (e) {
+            console.warn("Direct RCSB fetch failed in MolecularViewer:", e);
+          }
+        }
+
+        if (!pdbData || (!pdbData.includes("ATOM") && !pdbData.includes("HEADER"))) {
+          throw new Error(`Structure ${pdbId} coordinates could not be loaded from biological databases.`);
+        }
 
         if (window.$3Dmol) {
           containerRef.current.innerHTML = "";
@@ -134,10 +153,18 @@ export const MolecularViewer: React.FC<MolecularViewerProps> = ({
       viewer.removeAllLabels();
 
       const baseStyle: Record<string, unknown> = {};
-      if (mode === "cartoon") baseStyle.cartoon = { color: "spectrum" };
-      else if (mode === "stick") baseStyle.stick = { colorscheme: "amino" };
-      else if (mode === "sphere") baseStyle.sphere = { color: "spectrum", radius: 0.8 };
-      else if (mode === "ribbon") baseStyle.ribbon = { color: "spectrum" };
+      if (mode === "cartoon") {
+        baseStyle.cartoon = { color: "spectrum" };
+        // Subtle stick fallback for non-secondary structure loops, fibrous proteins and coils
+        baseStyle.stick = { radius: 0.12, colorscheme: "amino" };
+      } else if (mode === "stick") {
+        baseStyle.stick = { colorscheme: "amino", radius: 0.25 };
+      } else if (mode === "sphere") {
+        baseStyle.sphere = { color: "spectrum", radius: 0.8 };
+      } else if (mode === "ribbon") {
+        baseStyle.ribbon = { color: "spectrum" };
+        baseStyle.stick = { radius: 0.12, colorscheme: "amino" };
+      }
 
       viewer.setStyle({}, baseStyle);
 

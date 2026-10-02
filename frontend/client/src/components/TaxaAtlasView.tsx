@@ -285,25 +285,61 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                     }`}
                   >
                     <div>
-                      {/* Top Badges */}
-                      <div className="flex items-center justify-between gap-2">
-                        <span className="font-mono text-[10px] font-semibold text-[#d5a65b]">
-                          {item.tax_id}
-                        </span>
-                        <div className="flex items-center gap-1.5">
-                          <span className="border border-white/10 bg-black/40 px-1.5 py-0.5 font-mono text-[9px] text-slate-400">
-                            {item.clade}
-                          </span>
-                          {item.fossil_record?.pbdb_taxon_id && (
-                            <span
-                              className="border border-[#79bcb3]/40 bg-[#4f9f96]/15 px-1.5 py-0.5 font-mono text-[9px] text-[#8cd1c7]"
-                              title={`PaleoBioDB Taxon: ${item.fossil_record.pbdb_taxon_id}`}
-                            >
-                              PBDB · {item.fossil_record.fossil_occurrences_count} fossils
+                      {/* Taxon Image Thumbnail */}
+                      {item.image_url && (
+                        <div className="relative mb-3 h-32 w-full overflow-hidden rounded border border-white/[0.08] bg-[#080c0d]">
+                          <img
+                            src={item.image_url}
+                            alt={item.common_name}
+                            className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                            loading="lazy"
+                            onError={(e) => {
+                              (e.currentTarget as HTMLElement).style.display = "none";
+                            }}
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-[#0d1213] via-transparent to-black/30" />
+                          <div className="absolute top-2 left-2">
+                            <span className="rounded border border-white/10 bg-black/70 px-1.5 py-0.5 font-mono text-[9px] font-semibold text-[#f0c778] backdrop-blur-sm">
+                              {item.tax_id}
                             </span>
-                          )}
+                          </div>
+                          <div className="absolute top-2 right-2 flex items-center gap-1">
+                            <span className="rounded border border-white/10 bg-black/70 px-1.5 py-0.5 font-mono text-[9px] text-slate-300 backdrop-blur-sm">
+                              {item.clade}
+                            </span>
+                            {item.fossil_record?.pbdb_taxon_id && (
+                              <span
+                                className="rounded border border-[#79bcb3]/40 bg-[#4f9f96]/20 px-1.5 py-0.5 font-mono text-[9px] text-[#8cd1c7] backdrop-blur-sm"
+                                title={`PaleoBioDB Taxon: ${item.fossil_record.pbdb_taxon_id}`}
+                              >
+                                PBDB
+                              </span>
+                            )}
+                          </div>
                         </div>
-                      </div>
+                      )}
+
+                      {/* Top Badges (shown if no image or fallback) */}
+                      {!item.image_url && (
+                        <div className="flex items-center justify-between gap-2">
+                          <span className="font-mono text-[10px] font-semibold text-[#d5a65b]">
+                            {item.tax_id}
+                          </span>
+                          <div className="flex items-center gap-1.5">
+                            <span className="border border-white/10 bg-black/40 px-1.5 py-0.5 font-mono text-[9px] text-slate-400">
+                              {item.clade}
+                            </span>
+                            {item.fossil_record?.pbdb_taxon_id && (
+                              <span
+                                className="border border-[#79bcb3]/40 bg-[#4f9f96]/15 px-1.5 py-0.5 font-mono text-[9px] text-[#8cd1c7]"
+                                title={`PaleoBioDB Taxon: ${item.fossil_record.pbdb_taxon_id}`}
+                              >
+                                PBDB · {item.fossil_record.fossil_occurrences_count} fossils
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      )}
 
                       {/* Taxon Names */}
                       <div className="mt-2.5">
@@ -389,6 +425,26 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                   </span>
                 </div>
               </div>
+
+              {/* Specimen Visual Reconstruction */}
+              {activeTaxon.image_url && (
+                <div className="relative mt-4 h-48 w-full overflow-hidden rounded border border-white/10 bg-[#080c0d]">
+                  <img
+                    src={activeTaxon.image_url}
+                    alt={activeTaxon.common_name}
+                    className="h-full w-full object-cover object-center"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLElement).style.display = "none";
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0f1516] via-transparent to-transparent" />
+                  {activeTaxon.image_caption && (
+                    <div className="absolute bottom-2 left-3 right-3 text-[10px] text-slate-300 italic line-clamp-1 bg-black/60 px-2.5 py-1 rounded backdrop-blur-sm border border-white/10">
+                      {activeTaxon.image_caption}
+                    </div>
+                  )}
+                </div>
+              )}
 
               {/* Inspector Nav Tabs */}
               <div className="mt-4 flex border-b border-white/[0.08] font-mono text-[11px]">
@@ -524,6 +580,52 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                             {activeTaxon.fossil_record.first_appearance_ma !== null ? `${activeTaxon.fossil_record.first_appearance_ma}–${activeTaxon.fossil_record.last_appearance_ma} Ma` : "aDNA record"}
                           </div>
                         </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Grounded Paleogenomics Literature */}
+                  {activeTaxon.publications && activeTaxon.publications.length > 0 && (
+                    <div className="border-t border-white/[0.06] pt-3">
+                      <div className="mb-2 flex items-center justify-between font-mono text-[10px] uppercase tracking-wider text-slate-500">
+                        <span>Grounded Literature ({activeTaxon.publications.length} Papers)</span>
+                        <span className="text-[#8cd1c7]">Peer-Reviewed</span>
+                      </div>
+                      <div className="space-y-2">
+                        {activeTaxon.publications.map((pub, idx) => (
+                          <div key={idx} className="rounded border border-white/[0.08] bg-black/40 p-2.5 space-y-1.5">
+                            <div className="flex items-start justify-between gap-2">
+                              <span className="font-semibold text-xs text-[#eee9de] leading-snug">
+                                {pub.title}
+                              </span>
+                              <span className="shrink-0 font-mono text-[9px] text-[#d5a65b] bg-[#d5a65b]/10 border border-[#d5a65b]/30 px-1.5 py-0.5 rounded">
+                                {pub.year}
+                              </span>
+                            </div>
+                            <div className="text-[10px] text-slate-400 italic">
+                              {pub.authors} · <span className="text-[#8cd1c7]">{pub.journal}</span>
+                            </div>
+                            <p className="text-[11px] leading-relaxed text-slate-300">
+                              {pub.summary}
+                            </p>
+                            <div className="flex items-center justify-between pt-1 border-t border-white/[0.04]">
+                              <div className="flex items-center gap-2 font-mono text-[9px] text-slate-500">
+                                {pub.doi && <span>DOI: {pub.doi}</span>}
+                                {pub.pmcid && <span className="text-[#d5a65b]">{pub.pmcid}</span>}
+                              </div>
+                              <button
+                                onClick={() => {
+                                  const prompt = `Synthesize findings from ${pub.title} (${pub.authors}, ${pub.year}) regarding ${activeTaxon.scientific_name} (${activeTaxon.common_name}) and its ${activeTaxon.target_locus.gene_symbol} adaptations.`;
+                                  onAskInStudio?.(prompt, activeTaxon.scientific_name);
+                                }}
+                                className="flex items-center gap-1 font-mono text-[9px] uppercase tracking-wider text-[#d5a65b] hover:text-[#f0c778] transition"
+                              >
+                                <Microscope size={10} />
+                                Ask Copilot
+                              </button>
+                            </div>
+                          </div>
+                        ))}
                       </div>
                     </div>
                   )}
