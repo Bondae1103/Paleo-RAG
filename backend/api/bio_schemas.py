@@ -268,12 +268,21 @@ class TaxonRegistryEntry(BaseModel):
     extinction_date: str
     key_trait: str
     description: str
+    image_url: Optional[str] = None
+    image_caption: Optional[str] = None
+    habitat_range: Optional[str] = None
+    geological_range: Optional[str] = None
+    diet_ecology: Optional[str] = None
+    morphology: Optional[str] = None
+    extinction_driver: Optional[str] = None
     target_locus: LocusAnnotation
     extant_counterpart: ExtantCounterpartAnnotation
     structure: StructureAnnotation
     genomics: GenomicsAnnotation
     pathway: PathwayAnnotation
     fossil_record: Optional[FossilRecordAnnotation] = None
+    publications: Optional[list[dict]] = None
+    pbdb: Optional[dict] = None
 
 
 class AtlasListResponse(BaseModel):
