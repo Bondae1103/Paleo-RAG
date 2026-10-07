@@ -55,6 +55,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
   const [selectedClade, setSelectedClade] = useState<string>("All");
   const [selectedEpoch, setSelectedEpoch] = useState<string>("All");
   const [viewingTaxon, setViewingTaxon] = useState<TaxonRegistryEntry | null>(null);
+  const [selectedSampleIndex, setSelectedSampleIndex] = useState<number>(0);
   const [activeTab, setActiveTab] = useState<"overview" | "comparative" | "structure" | "genomics" | "fossils">("overview");
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
@@ -70,7 +71,10 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
           setTaxa(list);
           if (initialTaxonId) {
             const found = list.find((t) => t.tax_id === initialTaxonId || t.common_name.toLowerCase().includes(initialTaxonId.toLowerCase()));
-            if (found) setViewingTaxon(found);
+            if (found) {
+              setViewingTaxon(found);
+              setSelectedSampleIndex(0);
+            }
           }
         }
       } catch (err: any) {
@@ -125,11 +129,34 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
     setTimeout(() => setCopiedKey(null), 2000);
   };
 
-  // Pairwise Alignment Computation between Extinct and Extant Sequences
-  const alignmentResult = useMemo(() => {
+  // Active molecular sample (selected from multi-protein catalog or fallback to primary)
+  const activeSample = useMemo(() => {
     if (!viewingTaxon) return null;
-    const extinct = viewingTaxon.target_locus.extinct_sequence_aa || "";
-    const extant = viewingTaxon.extant_counterpart.extant_sequence_aa || "";
+    const samples = viewingTaxon.molecular_samples;
+    if (samples && samples.length > 0) {
+      return samples[selectedSampleIndex] || samples[0];
+    }
+    return {
+      sample_id: `${viewingTaxon.tax_id}-SMP-01`,
+      gene_symbol: viewingTaxon.target_locus.gene_symbol,
+      protein_name: viewingTaxon.target_locus.protein_name,
+      category: "Primary Diagnostic Marker",
+      biological_significance: viewingTaxon.description,
+      extinct_uniprot_acc: viewingTaxon.target_locus.extinct_uniprot_acc,
+      extinct_nucleotide_acc: viewingTaxon.target_locus.extinct_nucleotide_acc,
+      extinct_sequence_aa: viewingTaxon.target_locus.extinct_sequence_aa,
+      extant_counterpart: viewingTaxon.extant_counterpart,
+      structure: viewingTaxon.structure,
+      genomics: viewingTaxon.genomics,
+      pathway: viewingTaxon.pathway,
+    };
+  }, [viewingTaxon, selectedSampleIndex]);
+
+  // Pairwise Alignment Computation between Extinct and Extant Sequences for Active Sample
+  const alignmentResult = useMemo(() => {
+    if (!activeSample) return null;
+    const extinct = activeSample.extinct_sequence_aa || "";
+    const extant = activeSample.extant_counterpart.extant_sequence_aa || "";
 
     if (!extinct || !extant) return null;
 
@@ -183,7 +210,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
       substitutions,
       length: maxLen,
     };
-  }, [viewingTaxon]);
+  }, [activeSample]);
 
   // ============================================================
   // RENDER DEDICATED FULL-PAGE ANIMAL DOSSIER
@@ -289,17 +316,17 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
               <div className="flex flex-wrap gap-2 pt-2 border-t border-white/[0.08]">
                 {onLoadInWorkbench && (
                   <button
-                    onClick={() => onLoadInWorkbench(t.target_locus.extinct_sequence_aa, t.target_locus.gene_symbol, t.scientific_name)}
+                    onClick={() => onLoadInWorkbench(activeSample?.extinct_sequence_aa || t.target_locus.extinct_sequence_aa, activeSample?.gene_symbol || t.target_locus.gene_symbol, t.scientific_name)}
                     className="flex items-center gap-1.5 border border-[#70c4b5]/40 bg-[#70c4b5]/10 px-3.5 py-2 font-mono text-xs uppercase tracking-wider text-[#8cd1c7] hover:bg-[#70c4b5]/20"
                   >
                     <Dna size={13} />
-                    <span>Workbench Alignment</span>
+                    <span>Workbench Alignment ({activeSample?.gene_symbol || t.target_locus.gene_symbol})</span>
                   </button>
                 )}
 
                 {onExploreInBioDB && (
                   <button
-                    onClick={() => onExploreInBioDB(t.target_locus.gene_symbol, t.scientific_name)}
+                    onClick={() => onExploreInBioDB(activeSample?.gene_symbol || t.target_locus.gene_symbol, t.scientific_name)}
                     className="flex items-center gap-1.5 border border-white/15 bg-white/[0.04] px-3.5 py-2 font-mono text-xs uppercase tracking-wider text-slate-300 hover:border-white/30 hover:text-white"
                   >
                     <Database size={13} />
@@ -309,7 +336,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
 
                 {onAskInStudio && (
                   <button
-                    onClick={() => onAskInStudio(`What genetic adaptations enabled ${t.common_name} (${t.scientific_name}) to survive in its environment?`, t.scientific_name)}
+                    onClick={() => onAskInStudio(`What genetic adaptations enabled ${t.common_name} (${t.scientific_name}) to survive in its environment? Specifically regarding ${activeSample?.gene_symbol || t.target_locus.gene_symbol} (${activeSample?.protein_name || t.target_locus.protein_name}).`, t.scientific_name)}
                     className="flex items-center gap-1.5 border border-[#d5a65b]/40 bg-[#d5a65b]/10 px-3.5 py-2 font-mono text-xs uppercase tracking-wider text-[#f0c778] hover:bg-[#d5a65b]/20"
                   >
                     <Microscope size={13} />
@@ -417,6 +444,61 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
               </div>
             </div>
           </section>
+
+          {/* MOLECULAR PROTEIN SAMPLES (MULTI-LOCUS CATALOG SWITCHER) */}
+          {t.molecular_samples && t.molecular_samples.length > 0 && (
+            <section className="space-y-3 rounded border border-white/[0.08] bg-[#0c1214] p-4 lg:p-5">
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.06] pb-3">
+                <div className="flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-[#d5a65b]">
+                  <Dna size={15} />
+                  <span className="font-semibold">Molecular Paleogenomic Loci ({t.molecular_samples.length} Curated Samples)</span>
+                </div>
+                <div className="font-mono text-[10px] text-slate-400">
+                  Select a protein locus to dynamically update 3D molecular structure, pairwise synteny, and comparative analysis
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                {t.molecular_samples.map((sample, sIdx) => {
+                  const isSelected = selectedSampleIndex === sIdx;
+                  return (
+                    <button
+                      key={sample.sample_id || sIdx}
+                      onClick={() => setSelectedSampleIndex(sIdx)}
+                      className={`group flex flex-col justify-between text-left p-3.5 border transition rounded ${
+                        isSelected
+                          ? "border-[#d5a65b] bg-[#d5a65b]/[0.12] shadow-md shadow-black/40 ring-1 ring-[#d5a65b]/40"
+                          : "border-white/[0.08] bg-black/25 hover:border-white/20 hover:bg-white/[0.03]"
+                      }`}
+                    >
+                      <div className="space-y-1">
+                        <div className="flex items-center justify-between">
+                          <span className={`font-mono text-xs font-bold ${isSelected ? "text-[#f0c778]" : "text-white group-hover:text-[#eee9de]"}`}>
+                            {sample.gene_symbol}
+                          </span>
+                          <span className="font-mono text-[9px] px-1.5 py-0.5 border rounded border-white/10 bg-black/40 text-[#8cd1c7]">
+                            PDB: {sample.structure.pdb_id}
+                          </span>
+                        </div>
+                        <div className="text-xs font-medium text-slate-200 line-clamp-1">
+                          {sample.protein_name}
+                        </div>
+                        <div className="font-mono text-[10px] text-slate-400 line-clamp-1">
+                          {sample.category}
+                        </div>
+                      </div>
+                      <div className="mt-3 pt-2 border-t border-white/[0.06] flex items-center justify-between font-mono text-[9px]">
+                        <span className="text-slate-500">{sample.structure.mutations?.length || 0} diagnostic muts</span>
+                        <span className={isSelected ? "text-[#f0c778] font-semibold" : "text-slate-500"}>
+                          {isSelected ? "Active" : "Inspect →"}
+                        </span>
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
+          )}
 
           {/* FUNCTIONAL DOSSIER TABS */}
           <section className="space-y-4">
@@ -553,9 +635,38 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
               </div>
             )}
 
-            {/* TAB CONTENT 2: EXTANT SYNTEY */}
-            {activeTab === "comparative" && alignmentResult && (
+            {/* TAB CONTENT 2: EXTANT SYNTENY & COMPARATIVE ANALYSIS */}
+            {activeTab === "comparative" && alignmentResult && activeSample && (
               <div className="space-y-6">
+                {/* COMPARATIVE ANALYSIS WITH MODERN ANALOGUE */}
+                <div className="border border-[#d5a65b]/30 bg-[#d5a65b]/[0.08] p-5 space-y-3 rounded">
+                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#d5a65b]/20 pb-2">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-[#f0c778] font-semibold">
+                      <Sparkles size={14} />
+                      <span>Comparative Evolutionary Analysis // {activeSample.gene_symbol} ({activeSample.protein_name})</span>
+                    </div>
+                    <span className="font-mono text-[10px] text-slate-400">
+                      Prehistoric Extinct vs Living Sister Taxon Divergence
+                    </span>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-slate-300">
+                    <div>
+                      <span className="text-slate-500">Target Extinct Taxon: </span>
+                      <strong className="text-white">{t.common_name}</strong> (<span className="italic text-[#8cd1c7]">{t.scientific_name}</span>)
+                    </div>
+                    <span className="text-[#d5a65b] font-bold">⇄</span>
+                    <div>
+                      <span className="text-slate-500">Living Analogue: </span>
+                      <strong className="text-white">{activeSample.extant_counterpart.common_name}</strong> (<span className="italic text-[#8cd1c7]">{activeSample.extant_counterpart.scientific_name}</span>)
+                    </div>
+                  </div>
+
+                  <p className="text-xs leading-relaxed text-slate-200 pt-1">
+                    {activeSample.biological_significance}
+                  </p>
+                </div>
+
                 {/* ALIGNMENT METRICS STRIP */}
                 <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 border border-white/[0.08] bg-[#0f1516] p-4">
                   <div className="border border-white/[0.06] bg-black/20 p-3">
@@ -573,24 +684,24 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                   <div className="border border-white/[0.06] bg-black/20 p-3">
                     <span className="font-mono text-[10px] uppercase text-slate-500 block">Extinct Taxon</span>
                     <span className="text-xs font-semibold text-[#eee9de] block truncate">{t.common_name}</span>
-                    <span className="font-mono text-[10px] text-slate-500 block">{t.target_locus.extinct_uniprot_acc}</span>
+                    <span className="font-mono text-[10px] text-slate-500 block">{activeSample.extinct_uniprot_acc}</span>
                   </div>
 
                   <div className="border border-white/[0.06] bg-black/20 p-3">
                     <span className="font-mono text-[10px] uppercase text-slate-500 block">Living Relative</span>
-                    <span className="text-xs font-semibold text-[#8cd1c7] italic block truncate">{t.extant_counterpart.scientific_name}</span>
-                    <span className="font-mono text-[10px] text-slate-500 block">{t.extant_counterpart.extant_uniprot_acc}</span>
+                    <span className="text-xs font-semibold text-[#8cd1c7] italic block truncate">{activeSample.extant_counterpart.scientific_name}</span>
+                    <span className="font-mono text-[10px] text-slate-500 block">{activeSample.extant_counterpart.extant_uniprot_acc}</span>
                   </div>
                 </div>
 
                 {/* SUBSTITUTION CARDS */}
-                {t.structure.mutations && t.structure.mutations.length > 0 && (
+                {activeSample.structure.mutations && activeSample.structure.mutations.length > 0 && (
                   <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-3">
                     <div className="font-mono text-xs uppercase tracking-wider text-[#d5a65b] font-semibold">
-                      Diagnostic Derived Amino Acid Substitutions
+                      Diagnostic Derived Amino Acid Substitutions ({activeSample.structure.mutations.length} Sites)
                     </div>
                     <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                      {t.structure.mutations.map((m, idx) => (
+                      {activeSample.structure.mutations.map((m, idx) => (
                         <div key={idx} className="border border-white/[0.06] bg-black/30 p-3 space-y-1.5">
                           <div className="flex items-center justify-between font-mono">
                             <span className="text-sm font-bold text-[#f0c778]">{m.label}</span>
@@ -615,7 +726,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                 <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-3">
                   <div className="flex items-center justify-between">
                     <div className="font-mono text-xs uppercase tracking-wider text-[#70c4b5]">
-                      Aligned Residue Matrix ({alignmentResult.length} aa)
+                      Aligned Residue Matrix: {activeSample.gene_symbol} ({alignmentResult.length} aa)
                     </div>
                     <span className="font-mono text-[10px] text-slate-500">Green = Match · Gold = Mismatch</span>
                   </div>
@@ -642,24 +753,24 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
             )}
 
             {/* TAB CONTENT 3: 3D MOLECULAR STRUCTURE */}
-            {activeTab === "structure" && (
+            {activeTab === "structure" && activeSample && (
               <div className="space-y-6">
                 <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-4">
                   <div className="flex items-center justify-between border-b border-white/[0.08] pb-3">
                     <div>
                       <div className="font-mono text-xs uppercase tracking-wider text-[#d5a65b]">
-                        3D Coordinate Modeling &amp; Residue Mapping
+                        3D Coordinate Modeling &amp; Residue Mapping // {activeSample.gene_symbol}
                       </div>
                       <h3 className="font-display text-base text-[#eee9de]">
-                        {t.structure.title} (RCSB PDB: {t.structure.pdb_id})
+                        {activeSample.structure.title} (RCSB PDB: {activeSample.structure.pdb_id})
                       </h3>
                     </div>
                     <div className="flex items-center gap-2 font-mono text-xs">
                       <span className="border border-white/10 bg-black/30 px-2 py-0.5 text-slate-400">
-                        Chain {t.structure.chain}
+                        Chain {activeSample.structure.chain}
                       </span>
                       <span className="border border-[#70c4b5]/30 bg-[#70c4b5]/10 px-2 py-0.5 text-[#8cd1c7]">
-                        Resolution: {t.structure.resolution_angstrom} Å
+                        Resolution: {activeSample.structure.resolution_angstrom} Å
                       </span>
                     </div>
                   </div>
@@ -667,14 +778,14 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                   {/* 3DMOL VIEWER CONTAINER (EXPANSIVE) */}
                   <div className="border border-white/10 bg-black/40 overflow-hidden rounded">
                     <MolecularViewer
-                      pdbId={t.structure.pdb_id}
-                      title={t.structure.title}
-                      resolution={t.structure.resolution_angstrom}
-                      mutations={t.structure.mutations?.map((m) => ({
+                      pdbId={activeSample.structure.pdb_id}
+                      title={activeSample.structure.title}
+                      resolution={activeSample.structure.resolution_angstrom}
+                      mutations={activeSample.structure.mutations?.map((m) => ({
                         position: m.position,
                         ancestral: m.ancestral_aa,
                         derived: m.derived_aa,
-                        chain: t.structure.chain || "A",
+                        chain: activeSample.structure.chain || "A",
                         functional_impact: m.functional_impact,
                       }))}
                     />
@@ -684,11 +795,11 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                   <div className="grid gap-3 sm:grid-cols-2 pt-2 font-mono text-xs">
                     <div className="border border-white/[0.06] bg-black/25 p-3">
                       <span className="text-slate-500 block uppercase text-[10px]">CATH Architecture Code</span>
-                      <span className="text-[#8cd1c7] font-semibold">{t.structure.cath_code || "1.20.120.30"}</span>
+                      <span className="text-[#8cd1c7] font-semibold">{activeSample.structure.cath_code || "1.20.120.30"}</span>
                     </div>
                     <div className="border border-white/[0.06] bg-black/25 p-3">
                       <span className="text-slate-500 block uppercase text-[10px]">SCOP Structural Fold</span>
-                      <span className="text-[#f0c778] font-semibold">{t.structure.scop_fold || "Globin-like / Multi-helical fold"}</span>
+                      <span className="text-[#f0c778] font-semibold">{activeSample.structure.scop_fold || "Globin-like / Multi-helical fold"}</span>
                     </div>
                   </div>
                 </div>
@@ -696,12 +807,12 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
             )}
 
             {/* TAB CONTENT 4: FEDERATED DATABASES */}
-            {activeTab === "genomics" && (
+            {activeTab === "genomics" && activeSample && (
               <div className="space-y-6">
                 <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-4">
                   <div className="flex items-center justify-between border-b border-white/[0.08] pb-3">
                     <div className="font-mono text-xs uppercase tracking-wider text-[#70c4b5]">
-                      Federated Cross-Database Accession Matrix
+                      Federated Cross-Database Accession Matrix // {activeSample.gene_symbol} ({activeSample.protein_name})
                     </div>
                     <span className="font-mono text-[10px] text-slate-500">6 External Repositories</span>
                   </div>
@@ -712,7 +823,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-[#f0c778] font-semibold">NCBI Entrez</span>
                         <a
-                          href={`https://www.ncbi.nlm.nih.gov/nuccore/${t.target_locus.extinct_nucleotide_acc}`}
+                          href={`https://www.ncbi.nlm.nih.gov/nuccore/${activeSample.extinct_nucleotide_acc}`}
                           target="_blank"
                           rel="noreferrer"
                           className="text-slate-400 hover:text-white"
@@ -720,7 +831,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           <ExternalLink size={12} />
                         </a>
                       </div>
-                      <div className="font-mono text-xs text-white">{t.target_locus.extinct_nucleotide_acc}</div>
+                      <div className="font-mono text-xs text-white">{activeSample.extinct_nucleotide_acc}</div>
                       <p className="text-[11px] text-slate-500">Official nucleotide sequence accession in GenBank.</p>
                     </div>
 
@@ -729,7 +840,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-[#70c4b5] font-semibold">UniProtKB</span>
                         <a
-                          href={`https://www.uniprot.org/uniprotkb/${t.target_locus.extinct_uniprot_acc}`}
+                          href={`https://www.uniprot.org/uniprotkb/${activeSample.extinct_uniprot_acc}`}
                           target="_blank"
                           rel="noreferrer"
                           className="text-slate-400 hover:text-white"
@@ -737,7 +848,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           <ExternalLink size={12} />
                         </a>
                       </div>
-                      <div className="font-mono text-xs text-white">{t.target_locus.extinct_uniprot_acc}</div>
+                      <div className="font-mono text-xs text-white">{activeSample.extinct_uniprot_acc}</div>
                       <p className="text-[11px] text-slate-500">Curated protein sequence and functional annotation entry.</p>
                     </div>
 
@@ -746,7 +857,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-[#8cd1c7] font-semibold">RCSB PDB</span>
                         <a
-                          href={`https://www.rcsb.org/structure/${t.structure.pdb_id}`}
+                          href={`https://www.rcsb.org/structure/${activeSample.structure.pdb_id}`}
                           target="_blank"
                           rel="noreferrer"
                           className="text-slate-400 hover:text-white"
@@ -754,7 +865,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           <ExternalLink size={12} />
                         </a>
                       </div>
-                      <div className="font-mono text-xs text-white">{t.structure.pdb_id}</div>
+                      <div className="font-mono text-xs text-white">{activeSample.structure.pdb_id}</div>
                       <p className="text-[11px] text-slate-500">Experimentally determined 3D atomic coordinates.</p>
                     </div>
 
@@ -763,7 +874,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-slate-300 font-semibold">KEGG Pathway</span>
                         <a
-                          href={`https://www.kegg.jp/entry/${t.pathway.kegg_id}`}
+                          href={`https://www.kegg.jp/entry/${activeSample.pathway.kegg_id}`}
                           target="_blank"
                           rel="noreferrer"
                           className="text-slate-400 hover:text-white"
@@ -771,16 +882,16 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           <ExternalLink size={12} />
                         </a>
                       </div>
-                      <div className="font-mono text-xs text-white">{t.pathway.kegg_id}</div>
-                      <p className="text-[11px] text-slate-500">{t.pathway.pathway_name}</p>
+                      <div className="font-mono text-xs text-white">{activeSample.pathway.kegg_id}</div>
+                      <p className="text-[11px] text-slate-500">{activeSample.pathway.pathway_name}</p>
                     </div>
 
                     {/* Ensembl Species */}
                     <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2">
                       <div className="flex items-center justify-between">
-                        <span className="font-mono text-[11px] uppercase tracking-wider text-slate-300 font-semibold">Ensembl Species</span>
+                        <span className="font-mono text-[11px] uppercase tracking-wider text-slate-300 font-semibold">Ensembl Coordinates</span>
                         <a
-                          href={`https://www.ensembl.org/${t.genomics.ensembl_species}/`}
+                          href={`https://www.ensembl.org/${activeSample.genomics.ensembl_species}/`}
                           target="_blank"
                           rel="noreferrer"
                           className="text-slate-400 hover:text-white"
@@ -788,8 +899,8 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           <ExternalLink size={12} />
                         </a>
                       </div>
-                      <div className="font-mono text-xs text-white">{t.genomics.chromosome}:{t.genomics.start}..{t.genomics.end}</div>
-                      <p className="text-[11px] text-slate-500">Assembly: {t.genomics.assembly}</p>
+                      <div className="font-mono text-xs text-white">{activeSample.genomics.chromosome}:{activeSample.genomics.start}..{activeSample.genomics.end}</div>
+                      <p className="text-[11px] text-slate-500">Assembly: {activeSample.genomics.assembly} ({activeSample.genomics.ensembl_species})</p>
                     </div>
 
                     {/* Paleobiology Database */}
@@ -909,7 +1020,10 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
             {filteredTaxa.map((item) => (
               <div
                 key={item.tax_id}
-                onClick={() => setViewingTaxon(item)}
+                onClick={() => {
+                  setViewingTaxon(item);
+                  setSelectedSampleIndex(0);
+                }}
                 className="group flex flex-col justify-between border border-white/[0.08] bg-[#0f1516] transition hover:border-[#d5a65b]/60 hover:shadow-xl hover:shadow-black/50 cursor-pointer overflow-hidden rounded"
               >
                 <div>
@@ -940,6 +1054,11 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       <span className="rounded border border-white/15 bg-black/70 px-2 py-0.5 font-mono text-[9px] text-slate-300 backdrop-blur-sm">
                         {item.clade}
                       </span>
+                      {item.molecular_samples && item.molecular_samples.length > 0 && (
+                        <span className="rounded border border-[#70c4b5]/40 bg-black/70 px-2 py-0.5 font-mono text-[9px] text-[#8cd1c7] backdrop-blur-sm">
+                          {item.molecular_samples.length} Proteins
+                        </span>
+                      )}
                       {item.fossil_record?.pbdb_taxon_id && (
                         <span className="rounded border border-[#70c4b5]/40 bg-[#70c4b5]/20 px-2 py-0.5 font-mono text-[9px] text-[#8cd1c7] backdrop-blur-sm">
                           PBDB
@@ -972,8 +1091,10 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                     {/* Target Locus & Extant Relative */}
                     <div className="grid grid-cols-2 gap-2 border-t border-white/[0.06] pt-2.5 font-mono text-[10px]">
                       <div>
-                        <span className="text-slate-500 uppercase block text-[9px]">Target Gene</span>
-                        <span className="text-[#eee9de] font-semibold">{item.target_locus.gene_symbol}</span>
+                        <span className="text-slate-500 uppercase block text-[9px]">Molecular Loci</span>
+                        <span className="text-[#eee9de] font-semibold">
+                          {item.molecular_samples?.map((s) => s.gene_symbol).join(", ") || item.target_locus.gene_symbol}
+                        </span>
                       </div>
                       <div>
                         <span className="text-slate-500 uppercase block text-[9px]">Extant Relative</span>

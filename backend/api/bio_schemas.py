@@ -259,6 +259,21 @@ class FossilRecordAnnotation(BaseModel):
     geological_interval: str = "Pleistocene"
 
 
+class MolecularSampleAnnotation(BaseModel):
+    sample_id: str
+    gene_symbol: str
+    protein_name: str
+    category: str
+    biological_significance: str
+    extinct_uniprot_acc: str
+    extinct_nucleotide_acc: str
+    extinct_sequence_aa: str
+    extant_counterpart: ExtantCounterpartAnnotation
+    structure: StructureAnnotation
+    genomics: GenomicsAnnotation
+    pathway: PathwayAnnotation
+
+
 class TaxonRegistryEntry(BaseModel):
     tax_id: str
     common_name: str
@@ -280,6 +295,7 @@ class TaxonRegistryEntry(BaseModel):
     structure: StructureAnnotation
     genomics: GenomicsAnnotation
     pathway: PathwayAnnotation
+    molecular_samples: Optional[list[MolecularSampleAnnotation]] = None
     fossil_record: Optional[FossilRecordAnnotation] = None
     publications: Optional[list[dict]] = None
     pbdb: Optional[dict] = None

@@ -579,6 +579,21 @@ export interface TaxonPublication {
   summary: string;
 }
 
+export interface MolecularSampleAnnotation {
+  sample_id: string;
+  gene_symbol: string;
+  protein_name: string;
+  category: string;
+  biological_significance: string;
+  extinct_uniprot_acc: string;
+  extinct_nucleotide_acc: string;
+  extinct_sequence_aa: string;
+  extant_counterpart: ExtantCounterpartAnnotation;
+  structure: StructureAnnotation;
+  genomics: GenomicsAnnotation;
+  pathway: PathwayAnnotation;
+}
+
 export interface TaxonRegistryEntry {
   tax_id: string;
   common_name: string;
@@ -600,6 +615,7 @@ export interface TaxonRegistryEntry {
   structure: StructureAnnotation;
   genomics: GenomicsAnnotation;
   pathway: PathwayAnnotation;
+  molecular_samples?: MolecularSampleAnnotation[];
   fossil_record?: FossilRecordAnnotation | null;
   pbdb?: {
     taxon_no?: string | number;
