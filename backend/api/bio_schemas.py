@@ -130,6 +130,9 @@ class ProteinRecord(BaseModel):
     organism_id: Optional[int] = None
     sequence: str
     length: int
+    gene_symbols: list[str] = Field(default_factory=list)
+    entry_type: Optional[str] = None
+    reviewed: bool = False
     active_sites: list[dict[str, Any]] = Field(default_factory=list)
     disulfide_bonds: list[dict[str, Any]] = Field(default_factory=list)
     ptms: list[dict[str, Any]] = Field(default_factory=list)
@@ -196,6 +199,7 @@ class BioLookupResponse(BaseModel):
     pathways: list[PathwayHit] = Field(default_factory=list)
     interactions: list[InteractionEdge] = Field(default_factory=list)
     locus: Optional[LocusLink] = None
+    uniprot_validation: Optional[dict[str, Any]] = None
 
 
 class MutationAnnotation(BaseModel):
@@ -217,22 +221,36 @@ class StructureAnnotation(BaseModel):
     mutations: list[MutationAnnotation] = Field(default_factory=list)
 
 
+class UniprotValidationAnnotation(BaseModel):
+    """Provenance for a target/extant *_uniprot_acc value, from a live UniProt audit."""
+    status: str  # verified_exact | verified_proxy | corrected | unverified
+    checked_organism: Optional[str] = None
+    checked_taxon_id: Optional[int] = None
+    checked_gene_symbols: list[str] = Field(default_factory=list)
+    evidence_source: str = "https://rest.uniprot.org/uniprotkb/"
+    validated_at: Optional[str] = None
+    previous_accession: Optional[str] = None
+    note: Optional[str] = None
+
+
 class LocusAnnotation(BaseModel):
     gene_symbol: str
     protein_name: str
     extinct_nucleotide_acc: str
-    extinct_uniprot_acc: str
+    extinct_uniprot_acc: Optional[str] = None
     extinct_sequence_dna: str
     extinct_sequence_aa: str
+    extinct_uniprot_validation: Optional[UniprotValidationAnnotation] = None
 
 
 class ExtantCounterpartAnnotation(BaseModel):
     common_name: str
     scientific_name: str
     extant_nucleotide_acc: str
-    extant_uniprot_acc: str
+    extant_uniprot_acc: Optional[str] = None
     extant_sequence_dna: str
     extant_sequence_aa: str
+    extant_uniprot_validation: Optional[UniprotValidationAnnotation] = None
 
 
 class GenomicsAnnotation(BaseModel):
@@ -265,9 +283,10 @@ class MolecularSampleAnnotation(BaseModel):
     protein_name: str
     category: str
     biological_significance: str
-    extinct_uniprot_acc: str
+    extinct_uniprot_acc: Optional[str] = None
     extinct_nucleotide_acc: str
     extinct_sequence_aa: str
+    extinct_uniprot_validation: Optional[UniprotValidationAnnotation] = None
     extant_counterpart: ExtantCounterpartAnnotation
     structure: StructureAnnotation
     genomics: GenomicsAnnotation

@@ -1,0 +1,4102 @@
+{
+  "generated_at": "2026-10-12T12:55:34.292931+00:00",
+  "total_records_audited": 172,
+  "unique_accessions_checked": 30,
+  "verdict_counts": {
+    "exact_match": 12,
+    "wrong_organism": 102,
+    "proxy_same_species": 7,
+    "wrong_organism_and_gene": 45,
+    "inactive_entry": 6
+  },
+  "records": [
+    {
+      "path": "PRAG-TAX-001.target_locus",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "D3U1H9",
+      "expected_gene": "HBB",
+      "expected_organism": "Mammuthus primigenius",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Mammuthus primigenius",
+      "real_taxon_id": 37349,
+      "real_gene_symbols": [
+        "D",
+        "HBB"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta/delta hybrid",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-001.extant_counterpart",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02084",
+      "expected_gene": "HBB",
+      "expected_organism": "Elephas maximus",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Elephas maximus",
+      "real_taxon_id": 9783,
+      "real_gene_symbols": [
+        "HBB"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-01]",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "D3U1H9",
+      "expected_gene": "HBB",
+      "expected_organism": "Mammuthus primigenius",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Mammuthus primigenius",
+      "real_taxon_id": 37349,
+      "real_gene_symbols": [
+        "D",
+        "HBB"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta/delta hybrid",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02084",
+      "expected_gene": "HBB",
+      "expected_organism": "Elephas maximus",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Elephas maximus",
+      "real_taxon_id": 9783,
+      "real_gene_symbols": [
+        "HBB"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-02]",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P01994",
+      "expected_gene": "HBA",
+      "expected_organism": "Mammuthus primigenius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Gallus gallus",
+      "real_taxon_id": 9031,
+      "real_gene_symbols": [
+        "HBAA"
+      ],
+      "real_protein_name": "Hemoglobin subunit alpha-A",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "D3U1H8",
+        "entry_name": "D3U1H8_MAMPR",
+        "organism": "Mammuthus primigenius",
+        "taxon_id": 37349,
+        "gene_symbols": [
+          "HBA-T2"
+        ],
+        "reviewed": false,
+        "length": 142
+      }
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P01994",
+      "expected_gene": "HBA",
+      "expected_organism": "Elephas maximus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Gallus gallus",
+      "real_taxon_id": 9031,
+      "real_gene_symbols": [
+        "HBAA"
+      ],
+      "real_protein_name": "Hemoglobin subunit alpha-A",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "P01954",
+        "entry_name": "HBA_ELEMA",
+        "organism": "Elephas maximus",
+        "taxon_id": 9783,
+        "gene_symbols": [
+          "HBA"
+        ],
+        "reviewed": true,
+        "length": 141
+      }
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-03]",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q8NET8",
+      "expected_gene": "TRPV3",
+      "expected_organism": "Mammuthus primigenius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "TRPV3"
+      ],
+      "real_protein_name": "Transient receptor potential cation channel subfamily V member 3",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extant_uniprot_acc",
+      "original_accession": "A0A8C6GZ94",
+      "expected_gene": "TRPV3",
+      "expected_organism": "Elephas maximus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus spicilegus",
+      "real_taxon_id": 10103,
+      "real_gene_symbols": [],
+      "real_protein_name": "V-type proton ATPase subunit C",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-04]",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Mammuthus primigenius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-001",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Loxodonta africana",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "G3UE48",
+        "entry_name": "G3UE48_LOXAF",
+        "organism": "Loxodonta africana",
+        "taxon_id": 9785,
+        "gene_symbols": [
+          "COL1A1"
+        ],
+        "reviewed": false,
+        "length": 1455
+      }
+    },
+    {
+      "path": "PRAG-TAX-002.target_locus",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q01726",
+      "expected_gene": "MC1R",
+      "expected_organism": "Homo neanderthalensis",
+      "verdict": "proxy_same_species",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MC1R",
+        "MSHR"
+      ],
+      "real_protein_name": "Melanocyte-stimulating hormone receptor",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-002.extant_counterpart",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q01726",
+      "expected_gene": "MC1R",
+      "expected_organism": "Homo sapiens",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MC1R",
+        "MSHR"
+      ],
+      "real_protein_name": "Melanocyte-stimulating hormone receptor",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-01]",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q01726",
+      "expected_gene": "MC1R",
+      "expected_organism": "Homo neanderthalensis",
+      "verdict": "proxy_same_species",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MC1R",
+        "MSHR"
+      ],
+      "real_protein_name": "Melanocyte-stimulating hormone receptor",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q01726",
+      "expected_gene": "MC1R",
+      "expected_organism": "Homo sapiens",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MC1R",
+        "MSHR"
+      ],
+      "real_protein_name": "Melanocyte-stimulating hormone receptor",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-02]",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "O15409",
+      "expected_gene": "FOXP2",
+      "expected_organism": "Homo neanderthalensis",
+      "verdict": "proxy_same_species",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "FOXP2",
+        "CAGH44",
+        "TNRC10"
+      ],
+      "real_protein_name": "Forkhead box protein P2",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q8MJ82",
+      "expected_gene": "FOXP2",
+      "expected_organism": "Pan troglodytes",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Bos taurus",
+      "real_taxon_id": 9913,
+      "real_gene_symbols": [
+        "lman1"
+      ],
+      "real_protein_name": "Lectin mannose binding 1",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q8MJA0",
+        "entry_name": "FOXP2_PANTR",
+        "organism": "Pan troglodytes",
+        "taxon_id": 9598,
+        "gene_symbols": [
+          "FOXP2"
+        ],
+        "reviewed": true,
+        "length": 716
+      }
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-03]",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q99814",
+      "expected_gene": "EPAS1",
+      "expected_organism": "Homo neanderthalensis",
+      "verdict": "proxy_same_species",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "EPAS1",
+        "BHLHE73",
+        "HIF2A",
+        "MOP2",
+        "PASD2"
+      ],
+      "real_protein_name": "Endothelial PAS domain-containing protein 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-002",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q99814",
+      "expected_gene": "EPAS1",
+      "expected_organism": "Homo sapiens",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "EPAS1",
+        "BHLHE73",
+        "HIF2A",
+        "MOP2",
+        "PASD2"
+      ],
+      "real_protein_name": "Endothelial PAS domain-containing protein 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-003.target_locus",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P17811",
+      "expected_gene": "pla",
+      "expected_organism": "Yersinia pestis (Bronze Age / Black Death)",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Yersinia pestis",
+      "real_taxon_id": 632,
+      "real_gene_symbols": [
+        "pla"
+      ],
+      "real_protein_name": "Plasminogen activator",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-003.extant_counterpart",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extant_uniprot_acc",
+      "original_accession": "A0A0H2ZGN7",
+      "expected_gene": "pla",
+      "expected_organism": "Yersinia pseudotuberculosis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pseudomonas aeruginosa (strain UCBPP-PA14)",
+      "real_taxon_id": 208963,
+      "real_gene_symbols": [
+        "mvaT"
+      ],
+      "real_protein_name": "Transcriptional regulator MvaT, P16 subunit",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-01]",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P17811",
+      "expected_gene": "pla",
+      "expected_organism": "Yersinia pestis (Bronze Age / Black Death)",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Yersinia pestis",
+      "real_taxon_id": 632,
+      "real_gene_symbols": [
+        "pla"
+      ],
+      "real_protein_name": "Plasminogen activator",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extant_uniprot_acc",
+      "original_accession": "A0A0H2ZGN7",
+      "expected_gene": "pla",
+      "expected_organism": "Yersinia pseudotuberculosis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pseudomonas aeruginosa (strain UCBPP-PA14)",
+      "real_taxon_id": 208963,
+      "real_gene_symbols": [
+        "mvaT"
+      ],
+      "real_protein_name": "Transcriptional regulator MvaT, P16 subunit",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-02]",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P26948",
+      "expected_gene": "caf1",
+      "expected_organism": "Yersinia pestis (Bronze Age / Black Death)",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Yersinia pestis",
+      "real_taxon_id": 632,
+      "real_gene_symbols": [
+        "caf1"
+      ],
+      "real_protein_name": "F1 capsule antigen",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P26948",
+      "expected_gene": "caf1",
+      "expected_organism": "Yersinia pseudotuberculosis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Yersinia pestis",
+      "real_taxon_id": 632,
+      "real_gene_symbols": [
+        "caf1"
+      ],
+      "real_protein_name": "F1 capsule antigen",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-03]",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P17780",
+      "expected_gene": "yopM",
+      "expected_organism": "Yersinia pestis (Bronze Age / Black Death)",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Potato virus X (strain X3)",
+      "real_taxon_id": 12185,
+      "real_gene_symbols": [],
+      "real_protein_name": "Movement and silencing protein TGBp1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "P17778",
+        "entry_name": "YOPM_YERPE",
+        "organism": "Yersinia pestis",
+        "taxon_id": 632,
+        "gene_symbols": [
+          "yopM",
+          "yop48"
+        ],
+        "reviewed": true,
+        "length": 409
+      }
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-003",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P17780",
+      "expected_gene": "yopM",
+      "expected_organism": "Yersinia pseudotuberculosis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Potato virus X (strain X3)",
+      "real_taxon_id": 12185,
+      "real_gene_symbols": [],
+      "real_protein_name": "Movement and silencing protein TGBp1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-004.target_locus",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q37711",
+      "expected_gene": "CYTB",
+      "expected_organism": "Aenocyon dirus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Artemia franciscana",
+      "real_taxon_id": 6661,
+      "real_gene_symbols": [
+        "ND4",
+        "ND-4"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-004.extant_counterpart",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Canis lupus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q6Y8J2",
+        "entry_name": "CYB_CANLU",
+        "organism": "Canis lupus",
+        "taxon_id": 9612,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-01]",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q37711",
+      "expected_gene": "CYTB",
+      "expected_organism": "Aenocyon dirus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Artemia franciscana",
+      "real_taxon_id": 6661,
+      "real_gene_symbols": [
+        "ND4",
+        "ND-4"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Canis lupus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q6Y8J2",
+        "entry_name": "CYB_CANLU",
+        "organism": "Canis lupus",
+        "taxon_id": 9612,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-02]",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Aenocyon dirus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Canis lupus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-03]",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Aenocyon dirus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Canis lupus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "C4MWZ0",
+        "entry_name": "C4MWZ0_CANLU",
+        "organism": "Canis lupus",
+        "taxon_id": 9612,
+        "gene_symbols": [
+          "COX1",
+          "COI",
+          "cox1"
+        ],
+        "reviewed": false,
+        "length": 514
+      }
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-04]",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Aenocyon dirus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-004",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Canis lupus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-005.target_locus",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Panthera spelaea",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "S4V1L2",
+        "entry_name": "S4V1L2_9CARN",
+        "organism": "Panthera spelaea",
+        "taxon_id": 2770979,
+        "gene_symbols": [
+          "CytB",
+          "CYTB",
+          "cytb"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-005.extant_counterpart",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Panthera leo",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q35506",
+        "entry_name": "CYB_PANLE",
+        "organism": "Panthera leo",
+        "taxon_id": 9689,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-01]",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Panthera spelaea",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "S4V1L2",
+        "entry_name": "S4V1L2_9CARN",
+        "organism": "Panthera spelaea",
+        "taxon_id": 2770979,
+        "gene_symbols": [
+          "CytB",
+          "CYTB",
+          "cytb"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Panthera leo",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q35506",
+        "entry_name": "CYB_PANLE",
+        "organism": "Panthera leo",
+        "taxon_id": 9689,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-02]",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Panthera spelaea",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Panthera leo",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A8C8Y4U8",
+        "entry_name": "A0A8C8Y4U8_PANLE",
+        "organism": "Panthera leo",
+        "taxon_id": 9689,
+        "gene_symbols": [
+          "COL1A1"
+        ],
+        "reviewed": false,
+        "length": 1461
+      }
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-03]",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Panthera spelaea",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Panthera leo",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A0R6C029",
+        "entry_name": "A0A0R6C029_PANLE",
+        "organism": "Panthera leo",
+        "taxon_id": 9689,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 517
+      }
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-04]",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Panthera spelaea",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-005",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Panthera leo",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A0R8MY19",
+        "entry_name": "A0A0R8MY19_PANLE",
+        "organism": "Panthera leo",
+        "taxon_id": 9689,
+        "gene_symbols": [
+          "HBB"
+        ],
+        "reviewed": false,
+        "length": 147
+      }
+    },
+    {
+      "path": "PRAG-TAX-006.target_locus",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q95192",
+      "expected_gene": "CYTB",
+      "expected_organism": "Bison priscus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Macaca fascicularis",
+      "real_taxon_id": 9541,
+      "real_gene_symbols": [
+        "DAZL",
+        "DAZL1",
+        "DAZLA"
+      ],
+      "real_protein_name": "Deleted in azoospermia-like",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A1D8GYC5",
+        "entry_name": "A0A1D8GYC5_BISPR",
+        "organism": "Bison priscus",
+        "taxon_id": 268291,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-006.extant_counterpart",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q95192",
+      "expected_gene": "CYTB",
+      "expected_organism": "Bison bison",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Macaca fascicularis",
+      "real_taxon_id": 9541,
+      "real_gene_symbols": [
+        "DAZL",
+        "DAZL1",
+        "DAZLA"
+      ],
+      "real_protein_name": "Deleted in azoospermia-like",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q9T9C1",
+        "entry_name": "CYB_BISBI",
+        "organism": "Bison bison",
+        "taxon_id": 9901,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-01]",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q95192",
+      "expected_gene": "CYTB",
+      "expected_organism": "Bison priscus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Macaca fascicularis",
+      "real_taxon_id": 9541,
+      "real_gene_symbols": [
+        "DAZL",
+        "DAZL1",
+        "DAZLA"
+      ],
+      "real_protein_name": "Deleted in azoospermia-like",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A1D8GYC5",
+        "entry_name": "A0A1D8GYC5_BISPR",
+        "organism": "Bison priscus",
+        "taxon_id": 268291,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q95192",
+      "expected_gene": "CYTB",
+      "expected_organism": "Bison bison",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Macaca fascicularis",
+      "real_taxon_id": 9541,
+      "real_gene_symbols": [
+        "DAZL",
+        "DAZL1",
+        "DAZLA"
+      ],
+      "real_protein_name": "Deleted in azoospermia-like",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q9T9C1",
+        "entry_name": "CYB_BISBI",
+        "organism": "Bison bison",
+        "taxon_id": 9901,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-02]",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Bison priscus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Bison bison",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-03]",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Bison priscus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A0H3V233",
+        "entry_name": "A0A0H3V233_BISPR",
+        "organism": "Bison priscus",
+        "taxon_id": 268291,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 514
+      }
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Bison bison",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "B1P0Q3",
+        "entry_name": "B1P0Q3_BISBI",
+        "organism": "Bison bison",
+        "taxon_id": 9901,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 514
+      }
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-04]",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Bison priscus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-006",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Bison bison",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-007.target_locus",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q99814",
+      "expected_gene": "EPAS1",
+      "expected_organism": "Homo sapiens denisova",
+      "verdict": "proxy_same_species",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "EPAS1",
+        "BHLHE73",
+        "HIF2A",
+        "MOP2",
+        "PASD2"
+      ],
+      "real_protein_name": "Endothelial PAS domain-containing protein 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-007.extant_counterpart",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q99814",
+      "expected_gene": "EPAS1",
+      "expected_organism": "Homo sapiens",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "EPAS1",
+        "BHLHE73",
+        "HIF2A",
+        "MOP2",
+        "PASD2"
+      ],
+      "real_protein_name": "Endothelial PAS domain-containing protein 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-01]",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q99814",
+      "expected_gene": "EPAS1",
+      "expected_organism": "Homo sapiens denisova",
+      "verdict": "proxy_same_species",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "EPAS1",
+        "BHLHE73",
+        "HIF2A",
+        "MOP2",
+        "PASD2"
+      ],
+      "real_protein_name": "Endothelial PAS domain-containing protein 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q99814",
+      "expected_gene": "EPAS1",
+      "expected_organism": "Homo sapiens",
+      "verdict": "exact_match",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "EPAS1",
+        "BHLHE73",
+        "HIF2A",
+        "MOP2",
+        "PASD2"
+      ],
+      "real_protein_name": "Endothelial PAS domain-containing protein 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-02]",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q96SF8",
+      "expected_gene": "TBX15",
+      "expected_organism": "Homo sapiens denisova",
+      "verdict": "inactive_entry",
+      "http_status": "inactive",
+      "real_organism": null,
+      "real_taxon_id": null,
+      "real_gene_symbols": [],
+      "real_protein_name": null,
+      "reviewed": null,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q96SF8",
+      "expected_gene": "TBX15",
+      "expected_organism": "Homo sapiens",
+      "verdict": "inactive_entry",
+      "http_status": "inactive",
+      "real_organism": null,
+      "real_taxon_id": null,
+      "real_gene_symbols": [],
+      "real_protein_name": null,
+      "reviewed": null,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q96SF7",
+        "entry_name": "TBX15_HUMAN",
+        "organism": "Homo sapiens",
+        "taxon_id": 9606,
+        "gene_symbols": [
+          "TBX15",
+          "TBX14"
+        ],
+        "reviewed": true,
+        "length": 602
+      }
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-03]",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "O15409",
+      "expected_gene": "FOXP2",
+      "expected_organism": "Homo sapiens denisova",
+      "verdict": "proxy_same_species",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "FOXP2",
+        "CAGH44",
+        "TNRC10"
+      ],
+      "real_protein_name": "Forkhead box protein P2",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-007",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q8MJ82",
+      "expected_gene": "FOXP2",
+      "expected_organism": "Pan troglodytes",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Bos taurus",
+      "real_taxon_id": 9913,
+      "real_gene_symbols": [
+        "lman1"
+      ],
+      "real_protein_name": "Lectin mannose binding 1",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q8MJA0",
+        "entry_name": "FOXP2_PANTR",
+        "organism": "Pan troglodytes",
+        "taxon_id": 9598,
+        "gene_symbols": [
+          "FOXP2"
+        ],
+        "reviewed": true,
+        "length": 716
+      }
+    },
+    {
+      "path": "PRAG-TAX-008.target_locus",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Thylacinus cynocephalus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q36012",
+        "entry_name": "CYB_THYCY",
+        "organism": "Thylacinus cynocephalus",
+        "taxon_id": 9275,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 381
+      }
+    },
+    {
+      "path": "PRAG-TAX-008.extant_counterpart",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extant_uniprot_acc",
+      "original_accession": "D2HPY5",
+      "expected_gene": "CYTB",
+      "expected_organism": "Sarcophilus harrisii",
+      "verdict": "inactive_entry",
+      "http_status": "inactive",
+      "real_organism": null,
+      "real_taxon_id": null,
+      "real_gene_symbols": [],
+      "real_protein_name": null,
+      "reviewed": null,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q35861",
+        "entry_name": "CYB_SARHA",
+        "organism": "Sarcophilus harrisii",
+        "taxon_id": 9305,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 381
+      }
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-01]",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Thylacinus cynocephalus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q36012",
+        "entry_name": "CYB_THYCY",
+        "organism": "Thylacinus cynocephalus",
+        "taxon_id": 9275,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 381
+      }
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extant_uniprot_acc",
+      "original_accession": "D2HPY5",
+      "expected_gene": "CYTB",
+      "expected_organism": "Sarcophilus harrisii",
+      "verdict": "inactive_entry",
+      "http_status": "inactive",
+      "real_organism": null,
+      "real_taxon_id": null,
+      "real_gene_symbols": [],
+      "real_protein_name": null,
+      "reviewed": null,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q35861",
+        "entry_name": "CYB_SARHA",
+        "organism": "Sarcophilus harrisii",
+        "taxon_id": 9305,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 381
+      }
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-02]",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Thylacinus cynocephalus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Sarcophilus harrisii",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "G3WK23",
+        "entry_name": "G3WK23_SARHA",
+        "organism": "Sarcophilus harrisii",
+        "taxon_id": 9305,
+        "gene_symbols": [
+          "COL1A1"
+        ],
+        "reviewed": false,
+        "length": 1454
+      }
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-03]",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Thylacinus cynocephalus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "B8YB91",
+        "entry_name": "B8YB91_THYCY",
+        "organism": "Thylacinus cynocephalus",
+        "taxon_id": 9275,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 513
+      }
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Sarcophilus harrisii",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-04]",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Thylacinus cynocephalus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-008",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Sarcophilus harrisii",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.target_locus",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q8NET8",
+      "expected_gene": "TRPV3",
+      "expected_organism": "Coelodonta antiquitatis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "TRPV3"
+      ],
+      "real_protein_name": "Transient receptor potential cation channel subfamily V member 3",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.extant_counterpart",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extant_uniprot_acc",
+      "original_accession": "A0A8C6GZ94",
+      "expected_gene": "TRPV3",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus spicilegus",
+      "real_taxon_id": 10103,
+      "real_gene_symbols": [],
+      "real_protein_name": "V-type proton ATPase subunit C",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-01]",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q8NET8",
+      "expected_gene": "TRPV3",
+      "expected_organism": "Coelodonta antiquitatis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "TRPV3"
+      ],
+      "real_protein_name": "Transient receptor potential cation channel subfamily V member 3",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extant_uniprot_acc",
+      "original_accession": "A0A8C6GZ94",
+      "expected_gene": "TRPV3",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus spicilegus",
+      "real_taxon_id": 10103,
+      "real_gene_symbols": [],
+      "real_protein_name": "V-type proton ATPase subunit C",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-02]",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Coelodonta antiquitatis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-03]",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Coelodonta antiquitatis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-04]",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Coelodonta antiquitatis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "C4P9B2",
+        "entry_name": "C4P9B2_9EUTH",
+        "organism": "Coelodonta antiquitatis",
+        "taxon_id": 222863,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-009",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q9G396",
+        "entry_name": "CYB_DICSU",
+        "organism": "Dicerorhinus sumatrensis",
+        "taxon_id": 89632,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-010.target_locus",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Smilodon fatalis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-010.extant_counterpart",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Neofelis nebulosa",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q072K1",
+        "entry_name": "Q072K1_NEONE",
+        "organism": "Neofelis nebulosa",
+        "taxon_id": 61452,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-01]",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Smilodon fatalis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Neofelis nebulosa",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q072K1",
+        "entry_name": "Q072K1_NEONE",
+        "organism": "Neofelis nebulosa",
+        "taxon_id": 61452,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-02]",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Smilodon fatalis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Neofelis nebulosa",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-03]",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Smilodon fatalis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Neofelis nebulosa",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q072L1",
+        "entry_name": "Q072L1_NEONE",
+        "organism": "Neofelis nebulosa",
+        "taxon_id": 61452,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 514
+      }
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-04]",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Smilodon fatalis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-010",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Neofelis nebulosa",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-011.target_locus",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Raphus cucullatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q8SG72",
+        "entry_name": "CYB_RAPCU",
+        "organism": "Raphus cucullatus",
+        "taxon_id": 187135,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 267
+      }
+    },
+    {
+      "path": "PRAG-TAX-011.extant_counterpart",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q8SLY8",
+      "expected_gene": "CYTB",
+      "expected_organism": "Caloenas nicobarica",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Nitella opaca",
+      "real_taxon_id": 97465,
+      "real_gene_symbols": [
+        "atpB"
+      ],
+      "real_protein_name": "ATP synthase subunit beta",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q8SG74",
+        "entry_name": "Q8SG74_CALNI",
+        "organism": "Caloenas nicobarica",
+        "taxon_id": 187106,
+        "gene_symbols": [
+          "cytb"
+        ],
+        "reviewed": false,
+        "length": 350
+      }
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-01]",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Raphus cucullatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q8SG72",
+        "entry_name": "CYB_RAPCU",
+        "organism": "Raphus cucullatus",
+        "taxon_id": 187135,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 267
+      }
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q8SLY8",
+      "expected_gene": "CYTB",
+      "expected_organism": "Caloenas nicobarica",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Nitella opaca",
+      "real_taxon_id": 97465,
+      "real_gene_symbols": [
+        "atpB"
+      ],
+      "real_protein_name": "ATP synthase subunit beta",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q8SG74",
+        "entry_name": "Q8SG74_CALNI",
+        "organism": "Caloenas nicobarica",
+        "taxon_id": 187106,
+        "gene_symbols": [
+          "cytb"
+        ],
+        "reviewed": false,
+        "length": 350
+      }
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-02]",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Raphus cucullatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Caloenas nicobarica",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-03]",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Raphus cucullatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Caloenas nicobarica",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-04]",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Raphus cucullatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-011",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Caloenas nicobarica",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A7K6T427",
+        "entry_name": "A0A7K6T427_CALNI",
+        "organism": "Caloenas nicobarica",
+        "taxon_id": 187106,
+        "gene_symbols": [
+          "Hbb_1"
+        ],
+        "reviewed": false,
+        "length": 147
+      }
+    },
+    {
+      "path": "PRAG-TAX-012.target_locus",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Ectopistes migratorius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "M4PV01",
+        "entry_name": "M4PV01_9COLU",
+        "organism": "Ectopistes migratorius",
+        "taxon_id": 187118,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 380
+      }
+    },
+    {
+      "path": "PRAG-TAX-012.extant_counterpart",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q8SLY8",
+      "expected_gene": "CYTB",
+      "expected_organism": "Patagioenas fasciata",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Nitella opaca",
+      "real_taxon_id": 97465,
+      "real_gene_symbols": [
+        "atpB"
+      ],
+      "real_protein_name": "ATP synthase subunit beta",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-01]",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Ectopistes migratorius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "M4PV01",
+        "entry_name": "M4PV01_9COLU",
+        "organism": "Ectopistes migratorius",
+        "taxon_id": 187118,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 380
+      }
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q8SLY8",
+      "expected_gene": "CYTB",
+      "expected_organism": "Patagioenas fasciata",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Nitella opaca",
+      "real_taxon_id": 97465,
+      "real_gene_symbols": [
+        "atpB"
+      ],
+      "real_protein_name": "ATP synthase subunit beta",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-02]",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Ectopistes migratorius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Patagioenas fasciata",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-03]",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Ectopistes migratorius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "M4PJ90",
+        "entry_name": "M4PJ90_9COLU",
+        "organism": "Ectopistes migratorius",
+        "taxon_id": 187118,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 516
+      }
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Patagioenas fasciata",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-04]",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Ectopistes migratorius",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-012",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Patagioenas fasciata",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-013.target_locus",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Mylodon darwinii",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A343XBI4",
+        "entry_name": "A0A343XBI4_MYLDA",
+        "organism": "Mylodon darwinii",
+        "taxon_id": 48784,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-013.extant_counterpart",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q85AK8",
+      "expected_gene": "CYTB",
+      "expected_organism": "Choloepus didactylus",
+      "verdict": "inactive_entry",
+      "http_status": "inactive",
+      "real_organism": null,
+      "real_taxon_id": null,
+      "real_gene_symbols": [],
+      "real_protein_name": null,
+      "reviewed": null,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q58F69",
+        "entry_name": "CYB_CHODI",
+        "organism": "Choloepus didactylus",
+        "taxon_id": 27675,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-01]",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Mylodon darwinii",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A343XBI4",
+        "entry_name": "A0A343XBI4_MYLDA",
+        "organism": "Mylodon darwinii",
+        "taxon_id": 48784,
+        "gene_symbols": [
+          "CYTB"
+        ],
+        "reviewed": false,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q85AK8",
+      "expected_gene": "CYTB",
+      "expected_organism": "Choloepus didactylus",
+      "verdict": "inactive_entry",
+      "http_status": "inactive",
+      "real_organism": null,
+      "real_taxon_id": null,
+      "real_gene_symbols": [],
+      "real_protein_name": null,
+      "reviewed": null,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q58F69",
+        "entry_name": "CYB_CHODI",
+        "organism": "Choloepus didactylus",
+        "taxon_id": 27675,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-02]",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Mylodon darwinii",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "C0HJP3",
+        "entry_name": "CO1A1_MYLDA",
+        "organism": "Mylodon darwinii",
+        "taxon_id": 48784,
+        "gene_symbols": [
+          "COL1A1"
+        ],
+        "reviewed": true,
+        "length": 1022
+      }
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Choloepus didactylus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-03]",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Mylodon darwinii",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A0A343XBI2",
+        "entry_name": "A0A343XBI2_MYLDA",
+        "organism": "Mylodon darwinii",
+        "taxon_id": 48784,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 513
+      }
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Choloepus didactylus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q58F79",
+        "entry_name": "Q58F79_CHODI",
+        "organism": "Choloepus didactylus",
+        "taxon_id": 27675,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 513
+      }
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-04]",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Mylodon darwinii",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-013",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Choloepus didactylus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-014.target_locus",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Arctodus simus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-014.extant_counterpart",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q37711",
+      "expected_gene": "CYTB",
+      "expected_organism": "Tremarctos ornatus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Artemia franciscana",
+      "real_taxon_id": 6661,
+      "real_gene_symbols": [
+        "ND4",
+        "ND-4"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q36089",
+        "entry_name": "CYB_TREOR",
+        "organism": "Tremarctos ornatus",
+        "taxon_id": 9638,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-01]",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Arctodus simus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q37711",
+      "expected_gene": "CYTB",
+      "expected_organism": "Tremarctos ornatus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Artemia franciscana",
+      "real_taxon_id": 6661,
+      "real_gene_symbols": [
+        "ND4",
+        "ND-4"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q36089",
+        "entry_name": "CYB_TREOR",
+        "organism": "Tremarctos ornatus",
+        "taxon_id": 9638,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-02]",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Arctodus simus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Tremarctos ornatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-03]",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Arctodus simus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Tremarctos ornatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "A8QWB1",
+        "entry_name": "A8QWB1_TREOR",
+        "organism": "Tremarctos ornatus",
+        "taxon_id": 9638,
+        "gene_symbols": [
+          "COX1",
+          "coxI"
+        ],
+        "reviewed": false,
+        "length": 514
+      }
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-04]",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Arctodus simus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-014",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Tremarctos ornatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.target_locus",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03452",
+      "expected_gene": "HA",
+      "expected_organism": "Influenza A virus (H1N1 1918)",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)",
+      "real_taxon_id": 211044,
+      "real_gene_symbols": [
+        "HA"
+      ],
+      "real_protein_name": "Hemagglutinin",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.extant_counterpart",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03452",
+      "expected_gene": "HA",
+      "expected_organism": "Influenza A virus (seasonal)",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)",
+      "real_taxon_id": 211044,
+      "real_gene_symbols": [
+        "HA"
+      ],
+      "real_protein_name": "Hemagglutinin",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-01]",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03452",
+      "expected_gene": "HA",
+      "expected_organism": "Influenza A virus (H1N1 1918)",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)",
+      "real_taxon_id": 211044,
+      "real_gene_symbols": [
+        "HA"
+      ],
+      "real_protein_name": "Hemagglutinin",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03452",
+      "expected_gene": "HA",
+      "expected_organism": "Influenza A virus (seasonal)",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)",
+      "real_taxon_id": 211044,
+      "real_gene_symbols": [
+        "HA"
+      ],
+      "real_protein_name": "Hemagglutinin",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-02]",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03468",
+      "expected_gene": "NA",
+      "expected_organism": "Influenza A virus (H1N1 1918)",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)",
+      "real_taxon_id": 211044,
+      "real_gene_symbols": [
+        "NA"
+      ],
+      "real_protein_name": "Neuraminidase",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extant_uniprot_acc",
+      "original_accession": "C3W5S0",
+      "expected_gene": "NA",
+      "expected_organism": "Influenza A virus (A/California/04/2009)",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Influenza A virus (strain swl A/California/04/2009 H1N1)",
+      "real_taxon_id": 641501,
+      "real_gene_symbols": [
+        "PA"
+      ],
+      "real_protein_name": "Polymerase acidic protein",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-03]",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9QNE3",
+      "expected_gene": "PB2",
+      "expected_organism": "Influenza A virus (H1N1 1918)",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Human immunodeficiency virus type 1",
+      "real_taxon_id": 11676,
+      "real_gene_symbols": [
+        "nef"
+      ],
+      "real_protein_name": "Protein Nef",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-015",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q9QNE3",
+      "expected_gene": "PB2",
+      "expected_organism": "Influenza A virus (A/goose/Guangdong/1/96)",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Human immunodeficiency virus type 1",
+      "real_taxon_id": 11676,
+      "real_gene_symbols": [
+        "nef"
+      ],
+      "real_protein_name": "Protein Nef",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.target_locus",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.extant_counterpart",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q6V9Z1",
+      "expected_gene": "CYTB",
+      "expected_organism": "Chaetophractus vellerosus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Treponema pallidum subsp. pallidum",
+      "real_taxon_id": 161,
+      "real_gene_symbols": [
+        "tprK"
+      ],
+      "real_protein_name": "TprK",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-01]",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9T9W0",
+      "expected_gene": "CYTB",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Pan troglodytes",
+      "real_taxon_id": 9598,
+      "real_gene_symbols": [
+        "MT-ATP6",
+        "ATP6",
+        "ATPASE6",
+        "MTATP6"
+      ],
+      "real_protein_name": "ATP synthase F(0) complex subunit a",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q6V9Z1",
+      "expected_gene": "CYTB",
+      "expected_organism": "Chaetophractus vellerosus",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Treponema pallidum subsp. pallidum",
+      "real_taxon_id": 161,
+      "real_gene_symbols": [
+        "tprK"
+      ],
+      "real_protein_name": "TprK",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-02]",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Chaetophractus vellerosus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-03]",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Chaetophractus vellerosus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-04]",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-016",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Chaetophractus vellerosus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.target_locus",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Toxodon platensis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.extant_counterpart",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Ceratotherium simum",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "O03207",
+        "entry_name": "CYB_CERSI",
+        "organism": "Ceratotherium simum",
+        "taxon_id": 9807,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-01]",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Toxodon platensis",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P03901",
+      "expected_gene": "CYTB",
+      "expected_organism": "Ceratotherium simum",
+      "verdict": "wrong_organism_and_gene",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-ND4L",
+        "MTND4L",
+        "NADH4L",
+        "ND4L"
+      ],
+      "real_protein_name": "NADH-ubiquinone oxidoreductase chain 4L",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "O03207",
+        "entry_name": "CYB_CERSI",
+        "organism": "Ceratotherium simum",
+        "taxon_id": 9807,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-02]",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Toxodon platensis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Ceratotherium simum",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-03]",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Toxodon platensis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Ceratotherium simum",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-04]",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Toxodon platensis",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-017",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Ceratotherium simum",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "P02066",
+        "entry_name": "HBB_CERSI",
+        "organism": "Ceratotherium simum",
+        "taxon_id": 9807,
+        "gene_symbols": [
+          "HBB"
+        ],
+        "reviewed": true,
+        "length": 146
+      }
+    },
+    {
+      "path": "PRAG-TAX-018.target_locus",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Dinornis robustus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-018.extant_counterpart",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Dromaius novaehollandiae",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "O03523",
+        "entry_name": "CYB_DRONO",
+        "organism": "Dromaius novaehollandiae",
+        "taxon_id": 8790,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-01]",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Dinornis robustus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-01].extant_counterpart",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extant_uniprot_acc",
+      "original_accession": "Q9B6M4",
+      "expected_gene": "CYTB",
+      "expected_organism": "Dromaius novaehollandiae",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Squalius cephalus",
+      "real_taxon_id": 8284,
+      "real_gene_symbols": [
+        "cytb"
+      ],
+      "real_protein_name": "Cytochrome b",
+      "reviewed": false,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "O03523",
+        "entry_name": "CYB_DRONO",
+        "organism": "Dromaius novaehollandiae",
+        "taxon_id": 8790,
+        "gene_symbols": [
+          "MT-CYB",
+          "COB",
+          "CYTB",
+          "MTCYB"
+        ],
+        "reviewed": true,
+        "length": 379
+      }
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-02]",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Dinornis robustus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-02].extant_counterpart",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02452",
+      "expected_gene": "COL1A1",
+      "expected_organism": "Dromaius novaehollandiae",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "COL1A1"
+      ],
+      "real_protein_name": "Collagen alpha-1(I) chain",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-03]",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Dinornis robustus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-03].extant_counterpart",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P00395",
+      "expected_gene": "COX1",
+      "expected_organism": "Dromaius novaehollandiae",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Homo sapiens",
+      "real_taxon_id": 9606,
+      "real_gene_symbols": [
+        "MT-CO1",
+        "COI",
+        "COXI",
+        "MTCO1"
+      ],
+      "real_protein_name": "Cytochrome c oxidase subunit 1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": {
+        "accession": "Q9B6V5",
+        "entry_name": "Q9B6V5_DRONO",
+        "organism": "Dromaius novaehollandiae",
+        "taxon_id": 8790,
+        "gene_symbols": [
+          "COX1"
+        ],
+        "reviewed": false,
+        "length": 516
+      }
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-04]",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extinct_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Dinornis robustus",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-04].extant_counterpart",
+      "tax_id": "PRAG-TAX-018",
+      "field": "extant_uniprot_acc",
+      "original_accession": "P02088",
+      "expected_gene": "HBB",
+      "expected_organism": "Dromaius novaehollandiae",
+      "verdict": "wrong_organism",
+      "http_status": "ok",
+      "real_organism": "Mus musculus",
+      "real_taxon_id": 10090,
+      "real_gene_symbols": [
+        "Hbb-b1"
+      ],
+      "real_protein_name": "Hemoglobin subunit beta-1",
+      "reviewed": true,
+      "error_message": null,
+      "proposed_replacement": null
+    }
+  ]
+}

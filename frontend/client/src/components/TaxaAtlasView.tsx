@@ -684,13 +684,23 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                   <div className="border border-white/[0.06] bg-black/20 p-3">
                     <span className="font-mono text-[10px] uppercase text-slate-500 block">Extinct Taxon</span>
                     <span className="text-xs font-semibold text-[#eee9de] block truncate">{t.common_name}</span>
-                    <span className="font-mono text-[10px] text-slate-500 block">{activeSample.extinct_uniprot_acc}</span>
+                    <span
+                      className={`font-mono text-[10px] block ${activeSample.extinct_uniprot_acc ? "text-slate-500" : "text-amber-500/80 italic"}`}
+                      title={activeSample.extinct_uniprot_validation?.note ?? undefined}
+                    >
+                      {activeSample.extinct_uniprot_acc ?? "Unverified — no UniProt match"}
+                    </span>
                   </div>
 
                   <div className="border border-white/[0.06] bg-black/20 p-3">
                     <span className="font-mono text-[10px] uppercase text-slate-500 block">Living Relative</span>
                     <span className="text-xs font-semibold text-[#8cd1c7] italic block truncate">{activeSample.extant_counterpart.scientific_name}</span>
-                    <span className="font-mono text-[10px] text-slate-500 block">{activeSample.extant_counterpart.extant_uniprot_acc}</span>
+                    <span
+                      className={`font-mono text-[10px] block ${activeSample.extant_counterpart.extant_uniprot_acc ? "text-slate-500" : "text-amber-500/80 italic"}`}
+                      title={activeSample.extant_counterpart.extant_uniprot_validation?.note ?? undefined}
+                    >
+                      {activeSample.extant_counterpart.extant_uniprot_acc ?? "Unverified — no UniProt match"}
+                    </span>
                   </div>
                 </div>
 
@@ -839,17 +849,25 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                     <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2">
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-[#70c4b5] font-semibold">UniProtKB</span>
-                        <a
-                          href={`https://www.uniprot.org/uniprotkb/${activeSample.extinct_uniprot_acc}`}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-slate-400 hover:text-white"
-                        >
-                          <ExternalLink size={12} />
-                        </a>
+                        {activeSample.extinct_uniprot_acc && (
+                          <a
+                            href={`https://www.uniprot.org/uniprotkb/${activeSample.extinct_uniprot_acc}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
                       </div>
-                      <div className="font-mono text-xs text-white">{activeSample.extinct_uniprot_acc}</div>
-                      <p className="text-[11px] text-slate-500">Curated protein sequence and functional annotation entry.</p>
+                      <div className={`font-mono text-xs ${activeSample.extinct_uniprot_acc ? "text-white" : "text-amber-500/80 italic"}`}>
+                        {activeSample.extinct_uniprot_acc ?? "Unverified"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {activeSample.extinct_uniprot_acc
+                          ? "Curated protein sequence and functional annotation entry."
+                          : activeSample.extinct_uniprot_validation?.note ?? "No defensible UniProt match found for this organism/gene during the live audit."}
+                      </p>
                     </div>
 
                     {/* RCSB PDB */}

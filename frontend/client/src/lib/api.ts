@@ -526,22 +526,37 @@ export interface StructureAnnotation {
   mutations: MutationAnnotation[];
 }
 
+export interface UniprotValidationAnnotation {
+  status: "verified_exact" | "verified_proxy" | "corrected" | "unverified" | string;
+  checked_organism?: string | null;
+  checked_taxon_id?: number | null;
+  checked_gene_symbols?: string[];
+  evidence_source: string;
+  validated_at?: string | null;
+  previous_accession?: string | null;
+  note?: string | null;
+}
+
 export interface LocusAnnotation {
   gene_symbol: string;
   protein_name: string;
   extinct_nucleotide_acc: string;
-  extinct_uniprot_acc: string;
+  // null when no defensible UniProt match exists for this organism+gene;
+  // see extinct_uniprot_validation for why.
+  extinct_uniprot_acc: string | null;
   extinct_sequence_dna: string;
   extinct_sequence_aa: string;
+  extinct_uniprot_validation?: UniprotValidationAnnotation | null;
 }
 
 export interface ExtantCounterpartAnnotation {
   common_name: string;
   scientific_name: string;
   extant_nucleotide_acc: string;
-  extant_uniprot_acc: string;
+  extant_uniprot_acc: string | null;
   extant_sequence_dna: string;
   extant_sequence_aa: string;
+  extant_uniprot_validation?: UniprotValidationAnnotation | null;
 }
 
 export interface GenomicsAnnotation {
@@ -585,9 +600,10 @@ export interface MolecularSampleAnnotation {
   protein_name: string;
   category: string;
   biological_significance: string;
-  extinct_uniprot_acc: string;
+  extinct_uniprot_acc: string | null;
   extinct_nucleotide_acc: string;
   extinct_sequence_aa: string;
+  extinct_uniprot_validation?: UniprotValidationAnnotation | null;
   extant_counterpart: ExtantCounterpartAnnotation;
   structure: StructureAnnotation;
   genomics: GenomicsAnnotation;

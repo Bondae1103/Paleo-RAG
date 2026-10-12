@@ -11,14 +11,11 @@ def main():
     with open(atlas_path, "r", encoding="utf-8") as f:
         atlas_entries = json.load(f)
 
-    # Load existing preindexed_case_studies if exists to retain any rich records
-    backend_preindexed = root / "backend" / "data" / "preindexed_case_studies.json"
-    existing_data = {}
-    if backend_preindexed.exists():
-        with open(backend_preindexed, "r", encoding="utf-8") as f:
-            existing_data = json.load(f)
-
-    full_dict = dict(existing_data)
+    # This cache is 100% derived from paleo_atlas_registry.json -- it is rebuilt
+    # from scratch every run rather than merged on top of its own prior output.
+    # (Merging used to let stale/superseded accessions from earlier registry
+    # versions survive indefinitely under keys this run no longer touches.)
+    full_dict: dict = {}
 
     for entry in atlas_entries:
         tax_id = entry["tax_id"]
@@ -28,7 +25,9 @@ def main():
         dna = entry["target_locus"]["extinct_sequence_dna"]
         aa = entry["target_locus"]["extinct_sequence_aa"]
         nuc_acc = entry["target_locus"]["extinct_nucleotide_acc"]
-        uniprot_acc = entry["target_locus"]["extinct_uniprot_acc"]
+        uniprot_acc = entry["target_locus"].get("extinct_uniprot_acc")
+        uniprot_validation = entry["target_locus"].get("extinct_uniprot_validation") or {}
+        real_taxon_id = uniprot_validation.get("checked_taxon_id")
         pdb = entry["structure"]["pdb_id"]
         pdb_title = entry["structure"]["title"]
         res_ang = entry["structure"]["resolution_angstrom"]
@@ -86,31 +85,38 @@ def main():
                     "organism": organism
                 }
             },
-            "protein_record": {
-                "accession": uniprot_acc,
-                "entry_name": f"{uniprot_acc}_{gene}",
-                "protein_name": entry["target_locus"]["protein_name"],
-                "organism": organism,
-                "organism_id": 99999,
-                "sequence": aa,
-                "length": len(aa),
-                "active_sites": [
-                    {
-                        "type": "Active site",
-                        "start": 12,
-                        "end": 14,
-                        "description": "Functional domain active catalytic pocket"
+            # None when the accession was nulled by scripts/audit_uniprot_accessions.py
+            # (no defensible UniProt match exists for this organism+gene) -- never
+            # fabricate a placeholder record in that case.
+            "protein_record": (
+                {
+                    "accession": uniprot_acc,
+                    "entry_name": f"{uniprot_acc}_{gene}",
+                    "protein_name": entry["target_locus"]["protein_name"],
+                    "organism": organism,
+                    "organism_id": real_taxon_id,
+                    "sequence": aa,
+                    "length": len(aa),
+                    "active_sites": [
+                        {
+                            "type": "Active site",
+                            "start": 12,
+                            "end": 14,
+                            "description": "Functional domain active catalytic pocket"
+                        }
+                    ],
+                    "disulfide_bonds": [],
+                    "ptms": [],
+                    "pir_ids": [f"PIR_{uniprot_acc}"],
+                    "cross_references": {
+                        "PDB": [{"id": pdb}],
+                        "Pfam": [{"id": "PF00042" if "HBB" in gene else "PF01391"}],
+                        "KEGG": [{"id": kegg_id}]
                     }
-                ],
-                "disulfide_bonds": [],
-                "ptms": [],
-                "pir_ids": [f"PIR_{uniprot_acc}"],
-                "cross_references": {
-                    "PDB": [{"id": pdb}],
-                    "Pfam": [{"id": "PF00042" if "HBB" in gene else "PF01391"}],
-                    "KEGG": [{"id": kegg_id}]
                 }
-            },
+                if uniprot_acc else None
+            ),
+            "uniprot_validation": uniprot_validation or None,
             "structure_record": {
                 "pdb_id": pdb,
                 "title": pdb_title,

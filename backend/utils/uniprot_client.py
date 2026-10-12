@@ -70,6 +70,21 @@ class UniProtClient:
         organism_name = org_data.get("scientificName", "Unknown organism")
         organism_id = org_data.get("taxonId")
 
+        # Entry type / review status
+        entry_type = data.get("entryType")
+        reviewed = bool(entry_type and "reviewed" in entry_type.lower() and "unreviewed" not in entry_type.lower())
+
+        # Gene symbols (primary name + synonyms, deduplicated)
+        gene_symbols: list[str] = []
+        for gene in data.get("genes", []):
+            name = gene.get("geneName", {}).get("value")
+            if name and name not in gene_symbols:
+                gene_symbols.append(name)
+            for syn in gene.get("synonyms", []):
+                syn_val = syn.get("value")
+                if syn_val and syn_val not in gene_symbols:
+                    gene_symbols.append(syn_val)
+
         # Sequence
         seq_data = data.get("sequence", {})
         sequence = seq_data.get("value", "")
@@ -126,6 +141,9 @@ class UniProtClient:
             organism_id=organism_id,
             sequence=sequence,
             length=length,
+            gene_symbols=gene_symbols,
+            entry_type=entry_type,
+            reviewed=reviewed,
             active_sites=active_sites,
             disulfide_bonds=disulfide_bonds,
             ptms=ptms,

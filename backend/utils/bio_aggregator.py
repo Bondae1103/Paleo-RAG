@@ -128,7 +128,24 @@ class BioAggregator:
             r = BioLookupResponse(**hit)
             r.query = query
             if organism:
-                r.organism = organism
+                cached_organism = r.protein_record.organism if r.protein_record else r.organism
+                if cached_organism and cached_organism != organism:
+                    # The caller asked for a specific organism but the cached/indexed
+                    # record actually belongs to a different one (e.g. a gene-symbol
+                    # key collision across taxa). Do NOT silently relabel the record
+                    # as if it were the requested organism -- surface the conflict.
+                    logger.warning(
+                        f"BioAggregator cache organism mismatch for query={query!r}: "
+                        f"requested={organism!r} but cached record organism={cached_organism!r}"
+                    )
+                    r.uniprot_validation = {
+                        "status": "organism_conflict",
+                        "requested_organism": organism,
+                        "cached_record_organism": cached_organism,
+                        "note": "Cached record organism does not match the requested organism; not auto-relabeled.",
+                    }
+                else:
+                    r.organism = organism
             if r.protein_record and r.protein_record.sequence and not any(d.id.startswith("PS") for d in r.domains):
                 try:
                     scanned = self.func.scan_prosite_motifs(r.protein_record.sequence)
