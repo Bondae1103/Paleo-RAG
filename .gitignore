@@ -13,6 +13,8 @@ data/raw_pdfs/*.xml
 data/raw_pdfs/*.json
 data/processed/*.jsonl
 data/processed/*.json
+backend/data/_backup/
+*.orig
 *.log
 .env
 .env.local
