@@ -1,0 +1,785 @@
+{
+  "generated_at": "2026-10-12T19:05:57.675729+00:00",
+  "total_sites_audited": 86,
+  "verdict_counts": {
+    "unverifiable": 23,
+    "confirmed": 62,
+    "wrong_id": 1
+  },
+  "records": [
+    {
+      "path": "PRAG-TAX-001.pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Oxygen transport & erythrocyte gas exchange",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-01].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Oxygen transport & erythrocyte gas exchange",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-02].pathway",
+      "gene": "HBA",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Oxygen transport & erythrocyte gas exchange",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3039) shows HBA1 belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 is unrelated; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-03].pathway",
+      "gene": "TRPV3",
+      "registry_kegg_id": "map04750",
+      "registry_pathway_name": "Inflammatory mediator regulation of TRP channels",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-001.molecular_samples[PRAG-TAX-001-SMP-04].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "ECM-receptor interaction & collagen fibrillogenesis",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-002.pathway",
+      "gene": "MC1R",
+      "registry_kegg_id": "map04916",
+      "registry_pathway_name": "Melanogenesis & UV photoprotection",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-01].pathway",
+      "gene": "MC1R",
+      "registry_kegg_id": "map04916",
+      "registry_pathway_name": "Melanogenesis & UV photoprotection",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-02].pathway",
+      "gene": "FOXP2",
+      "registry_kegg_id": "map04360",
+      "registry_pathway_name": "Axon guidance & neural developmental regulation",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG query (rest.kegg.jp/link/pathway/hsa:93986) returns zero pathway memberships for FOXP2. map04360 ('Axon guidance') is not a confirmed KEGG association for this gene."
+    },
+    {
+      "path": "PRAG-TAX-002.molecular_samples[PRAG-TAX-002-SMP-03].pathway",
+      "gene": "EPAS1",
+      "registry_kegg_id": "map04066",
+      "registry_pathway_name": "HIF-1 signaling pathway",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-003.pathway",
+      "gene": "pla",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Bacterial invasion & fibrinolysis cascade",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG query (rest.kegg.jp/link/pathway/ype:YPPCP1.07) returns zero pathway memberships for pla. Yersinia pestis CO92 (ype) does not even instantiate pathway 05100 (rest.kegg.jp/get/ype05100 returns empty). map05100 is not a confirmed association."
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-01].pathway",
+      "gene": "pla",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Bacterial invasion & fibrinolysis cascade",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG query (rest.kegg.jp/link/pathway/ype:YPPCP1.07) returns zero pathway memberships for pla. Yersinia pestis CO92 (ype) does not even instantiate pathway 05100 (rest.kegg.jp/get/ype05100 returns empty). map05100 is not a confirmed association."
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-02].pathway",
+      "gene": "caf1",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Bacterial invasion of epithelial cells",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG query (rest.kegg.jp/link/pathway/ype:YPMT1.84) returns zero pathway memberships for caf1 (F1 capsule antigen). map05100 is not a confirmed association, and ype doesn't instantiate it."
+    },
+    {
+      "path": "PRAG-TAX-003.molecular_samples[PRAG-TAX-003-SMP-03].pathway",
+      "gene": "yopM",
+      "registry_kegg_id": "map05130",
+      "registry_pathway_name": "Pathogenic Escherichia coli & Yersinia infection",
+      "verdict": "wrong_id",
+      "correct_id": "map05135",
+      "note": "Live KEGG confirms yopM (ype:YPCD1.26c, on plasmid pCD1) is a member of ype05135 'Yersinia infection' (rest.kegg.jp/link/pathway/ype:YPCD1.26c -> path:ype05135). The registry's map05130 is KEGG's 'Pathogenic Escherichia coli infection' pathway -- a different species entirely."
+    },
+    {
+      "path": "PRAG-TAX-004.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & ATP synthesis",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & ATP synthesis",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-004.molecular_samples[PRAG-TAX-004-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-005.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & thermogenesis",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & thermogenesis",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-005.molecular_samples[PRAG-TAX-005-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-006.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & cold adaptation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & cold adaptation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-006.molecular_samples[PRAG-TAX-006-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-007.pathway",
+      "gene": "EPAS1",
+      "registry_kegg_id": "map04066",
+      "registry_pathway_name": "HIF-1 signaling pathway",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-01].pathway",
+      "gene": "EPAS1",
+      "registry_kegg_id": "map04066",
+      "registry_pathway_name": "HIF-1 signaling pathway",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-02].pathway",
+      "gene": "TBX15",
+      "registry_kegg_id": "map04923",
+      "registry_pathway_name": "Regulation of lipolysis in adipocytes",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG query (rest.kegg.jp/link/pathway/hsa:6913) returns zero pathway memberships for TBX15. map04923 ('Regulation of lipolysis in adipocytes') is not a confirmed KEGG association for this gene."
+    },
+    {
+      "path": "PRAG-TAX-007.molecular_samples[PRAG-TAX-007-SMP-03].pathway",
+      "gene": "FOXP2",
+      "registry_kegg_id": "map04360",
+      "registry_pathway_name": "Axon guidance",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG query (rest.kegg.jp/link/pathway/hsa:93986) returns zero pathway memberships for FOXP2. map04360 ('Axon guidance') is not a confirmed KEGG association for this gene."
+    },
+    {
+      "path": "PRAG-TAX-008.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & predatory stamina",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & predatory stamina",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-008.molecular_samples[PRAG-TAX-008-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-009.pathway",
+      "gene": "TRPV3",
+      "registry_kegg_id": "map04750",
+      "registry_pathway_name": "Inflammatory mediator regulation of TRP channels",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-01].pathway",
+      "gene": "TRPV3",
+      "registry_kegg_id": "map04750",
+      "registry_pathway_name": "Inflammatory mediator regulation of TRP channels",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-03].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-009.molecular_samples[PRAG-TAX-009-SMP-04].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-010.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & apex muscle endurance",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & apex muscle endurance",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-010.molecular_samples[PRAG-TAX-010-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-011.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & metabolic reduction",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & metabolic reduction",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-011.molecular_samples[PRAG-TAX-011-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-012.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & prolonged flight metabolism",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & prolonged flight metabolism",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-012.molecular_samples[PRAG-TAX-012-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-013.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & low basal metabolic rate",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & low basal metabolic rate",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-013.molecular_samples[PRAG-TAX-013-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-014.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & predatory stamina",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & predatory stamina",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-014.molecular_samples[PRAG-TAX-014-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-015.pathway",
+      "gene": "HA",
+      "registry_kegg_id": "map05164",
+      "registry_pathway_name": "Influenza A virus host cell entry & pathogenesis",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-01].pathway",
+      "gene": "HA",
+      "registry_kegg_id": "map05164",
+      "registry_pathway_name": "Influenza A virus host cell entry & pathogenesis",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-02].pathway",
+      "gene": "NA",
+      "registry_kegg_id": "map05164",
+      "registry_pathway_name": "Influenza A infection & viral egress",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-015.molecular_samples[PRAG-TAX-015-SMP-03].pathway",
+      "gene": "PB2",
+      "registry_kegg_id": "map05164",
+      "registry_pathway_name": "Viral RNA synthesis & transcription initiation",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "KEGG hosts no strain-specific gene entry for 1918 H1N1 PB2, and the generic reference pathway map05164 ('Influenza A')'s curated description names HA, NA, NS1, and PB1-F2 as its defining viral components but never PB2 (a distinct polymerase subunit); membership could not be confirmed."
+    },
+    {
+      "path": "PRAG-TAX-016.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & heavy carapace maintenance",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & heavy carapace maintenance",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-016.molecular_samples[PRAG-TAX-016-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-017.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & large mammal bioenergetics",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & large mammal bioenergetics",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-017.molecular_samples[PRAG-TAX-017-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    },
+    {
+      "path": "PRAG-TAX-018.pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & giant ratite metabolism",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-01].pathway",
+      "gene": "CYTB",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation & giant ratite metabolism",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-02].pathway",
+      "gene": "COL1A1",
+      "registry_kegg_id": "map04512",
+      "registry_pathway_name": "Connective tissue osteogenesis & ECM integrity",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-03].pathway",
+      "gene": "COX1",
+      "registry_kegg_id": "map00190",
+      "registry_pathway_name": "Oxidative phosphorylation",
+      "verdict": "confirmed",
+      "correct_id": null,
+      "note": null
+    },
+    {
+      "path": "PRAG-TAX-018.molecular_samples[PRAG-TAX-018-SMP-04].pathway",
+      "gene": "HBB",
+      "registry_kegg_id": "map05100",
+      "registry_pathway_name": "Erythrocyte gas exchange & oxygen homeostasis",
+      "verdict": "unverifiable",
+      "correct_id": null,
+      "note": "Live KEGG gene-pathway linkage (rest.kegg.jp/link/pathway/hsa:3043) shows HBB belongs only to hsa05143 (African trypanosomiasis) and hsa05144 (Malaria) -- not any oxygen-transport pathway. map05100 ('Bacterial invasion of epithelial cells') is unrelated to HBB's function; no KEGG reference pathway represents simple hemoglobin oxygen-carrier activity."
+    }
+  ]
+}

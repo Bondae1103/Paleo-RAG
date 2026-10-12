@@ -37,6 +37,7 @@ def main():
         start = entry["genomics"]["start"]
         end = entry["genomics"]["end"]
         assembly = entry["genomics"]["assembly"]
+        ensembl_species = entry["genomics"].get("ensembl_species")
         kegg_id = entry["pathway"]["kegg_id"]
         kegg_name = entry["pathway"]["pathway_name"]
 
@@ -48,43 +49,49 @@ def main():
         record = {
             "query": tax_id,
             "organism": organism,
-            "nucleotide_record": {
-                "id": nuc_acc,
-                "name": nuc_acc.split(".")[0],
-                "description": f"{organism} ({common}) {gene} gene, genomic coding sequence.",
-                "sequence": dna,
-                "length": len(dna),
-                "seq_type": "dna",
-                "gc_content": gc_pct,
-                "molecular_weight_kda": mw_kda,
-                "ambiguity_index": 0.0,
-                "features": [
-                    {
-                        "type": "source",
-                        "location": f"[0:{len(dna)}](+)",
-                        "qualifiers": {
-                            "organism": [organism],
-                            "common_name": [common],
-                            "db_xref": [f"taxon:{tax_id}"]
+            # None when the accession was nulled by scripts/audit_ncbi_accessions.py
+            # (no live NCBI Nucleotide record verifiably represents this
+            # organism/gene) -- never fabricate a placeholder record in that case.
+            "nucleotide_record": (
+                {
+                    "id": nuc_acc,
+                    "name": nuc_acc.split(".")[0],
+                    "description": f"{organism} ({common}) {gene} gene, genomic coding sequence.",
+                    "sequence": dna,
+                    "length": len(dna),
+                    "seq_type": "dna",
+                    "gc_content": gc_pct,
+                    "molecular_weight_kda": mw_kda,
+                    "ambiguity_index": 0.0,
+                    "features": [
+                        {
+                            "type": "source",
+                            "location": f"[0:{len(dna)}](+)",
+                            "qualifiers": {
+                                "organism": [organism],
+                                "common_name": [common],
+                                "db_xref": [f"taxon:{tax_id}"]
+                            }
+                        },
+                        {
+                            "type": "CDS",
+                            "location": f"[0:{len(dna)}](+)",
+                            "qualifiers": {
+                                "gene": [gene],
+                                "codon_start": [1],
+                                "product": [entry["target_locus"]["protein_name"]]
+                            }
                         }
-                    },
-                    {
-                        "type": "CDS",
-                        "location": f"[0:{len(dna)}](+)",
-                        "qualifiers": {
-                            "gene": [gene],
-                            "codon_start": [1],
-                            "product": [entry["target_locus"]["protein_name"]]
-                        }
+                    ],
+                    "annotations": {
+                        "molecule_type": "DNA",
+                        "topology": "linear",
+                        "data_file_division": "INV",
+                        "organism": organism
                     }
-                ],
-                "annotations": {
-                    "molecule_type": "DNA",
-                    "topology": "linear",
-                    "data_file_division": "INV",
-                    "organism": organism
                 }
-            },
+                if nuc_acc else None
+            ),
             # None when the accession was nulled by scripts/audit_uniprot_accessions.py
             # (no defensible UniProt match exists for this organism+gene) -- never
             # fabricate a placeholder record in that case.
@@ -111,7 +118,7 @@ def main():
                     "cross_references": {
                         "PDB": [{"id": pdb}],
                         "Pfam": [{"id": "PF00042" if "HBB" in gene else "PF01391"}],
-                        "KEGG": [{"id": kegg_id}]
+                        "KEGG": [{"id": kegg_id}] if kegg_id else []
                     }
                 }
                 if uniprot_acc else None
@@ -168,14 +175,20 @@ def main():
                     )
                 )
             ],
-            "pathways": [
-                {
-                    "pathway_id": kegg_id,
-                    "name": kegg_name,
-                    "database": "KEGG",
-                    "url": f"https://www.kegg.jp/entry/{kegg_id}"
-                }
-            ],
+            # Empty when no live-confirmed KEGG pathway membership exists for
+            # this gene (see pathway.kegg_validation in the registry) --
+            # never fabricate a pathway link in that case.
+            "pathways": (
+                [
+                    {
+                        "pathway_id": kegg_id,
+                        "name": kegg_name,
+                        "database": "KEGG",
+                        "url": f"https://www.kegg.jp/entry/{kegg_id}"
+                    }
+                ]
+                if kegg_id else []
+            ),
             "interactions": [
                 {
                     "source": gene,
@@ -189,16 +202,22 @@ def main():
                     }
                 }
             ],
-            "locus": {
-                "gene_symbol": gene,
-                "species": organism,
-                "chromosome": chrom,
-                "start": start,
-                "end": end,
-                "assembly": assembly,
-                "ensembl_url": f"https://www.ensembl.org/Homo_sapiens/Gene/Summary?g={gene}",
-                "ucsc_url": f"https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={chrom}:{start}-{end}"
-            }
+            # None when no live-verified Ensembl gene record exists for this
+            # organism (see genomics.ensembl_validation in the registry) --
+            # never point an Ensembl/UCSC link at the wrong species' genome.
+            "locus": (
+                {
+                    "gene_symbol": gene,
+                    "species": ensembl_species or organism,
+                    "chromosome": chrom,
+                    "start": start,
+                    "end": end,
+                    "assembly": assembly,
+                    "ensembl_url": f"https://www.ensembl.org/{ensembl_species}/Location/View?r={chrom.replace('chr', '')}:{start}-{end}",
+                    "ucsc_url": f"https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={chrom}:{start}-{end}"
+                }
+                if chrom and ensembl_species else None
+            )
         }
 
         # Index under tax_id, common_name, scientific_name, genus, and gene

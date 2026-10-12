@@ -540,43 +540,83 @@ export interface UniprotValidationAnnotation {
 export interface LocusAnnotation {
   gene_symbol: string;
   protein_name: string;
-  extinct_nucleotide_acc: string;
+  // null when no live NCBI Nucleotide record verifiably represents this
+  // organism/gene; see extinct_nucleotide_validation for why.
+  extinct_nucleotide_acc: string | null;
   // null when no defensible UniProt match exists for this organism+gene;
   // see extinct_uniprot_validation for why.
   extinct_uniprot_acc: string | null;
   extinct_sequence_dna: string;
   extinct_sequence_aa: string;
   extinct_uniprot_validation?: UniprotValidationAnnotation | null;
+  // null when no live NCBI Nucleotide record verifiably represents this
+  // organism/gene; see extinct_nucleotide_validation for why.
+  extinct_nucleotide_validation?: NcbiValidationAnnotation | null;
+}
+
+export interface NcbiValidationAnnotation {
+  status: "verified_exact" | "verified_proxy" | "unverified" | string;
+  checked_organism?: string | null;
+  checked_taxid?: number | null;
+  evidence_source?: string | null;
+  validated_at?: string | null;
+  previous_accession?: string | null;
+  note?: string | null;
 }
 
 export interface ExtantCounterpartAnnotation {
   common_name: string;
   scientific_name: string;
-  extant_nucleotide_acc: string;
+  // null when no live NCBI Nucleotide record verifiably represents this
+  // organism/gene; see extant_nucleotide_validation for why.
+  extant_nucleotide_acc: string | null;
   extant_uniprot_acc: string | null;
   extant_sequence_dna: string;
   extant_sequence_aa: string;
   extant_uniprot_validation?: UniprotValidationAnnotation | null;
+  extant_nucleotide_validation?: NcbiValidationAnnotation | null;
+}
+
+export interface EnsemblValidationAnnotation {
+  status: "verified_live" | "unverified" | string;
+  evidence_source?: string | null;
+  validated_at?: string | null;
+  note?: string | null;
 }
 
 export interface GenomicsAnnotation {
-  chromosome: string;
-  start: number;
-  end: number;
-  assembly: string;
-  ensembl_species?: string;
+  // null when no live-verified Ensembl gene record exists for the organism
+  // this locus claims; see ensembl_validation for why.
+  chromosome: string | null;
+  start: number | null;
+  end: number | null;
+  assembly: string | null;
+  ensembl_species?: string | null;
+  ensembl_gene_id?: string | null;
+  ensembl_validation?: EnsemblValidationAnnotation | null;
+}
+
+export interface KeggValidationAnnotation {
+  status: "verified_live" | "corrected" | "unverified" | string;
+  evidence_source?: string | null;
+  validated_at?: string | null;
+  previous_kegg_id?: string | null;
+  note?: string | null;
 }
 
 export interface PathwayAnnotation {
-  kegg_id: string;
+  // null when no live-confirmed KEGG pathway membership exists for this
+  // gene; see kegg_validation for why.
+  kegg_id: string | null;
   pathway_name: string;
   description?: string;
+  kegg_validation?: KeggValidationAnnotation | null;
 }
 
 export interface FossilRecordAnnotation {
   pbdb_taxon_id?: string | null;
   pbdb_taxon_name?: string | null;
-  pbdb_navigator_url: string;
+  pbdb_navigator_url: string | null;
   pbdb_api_url?: string | null;
   fossil_occurrences_count?: number | null;
   first_appearance_ma?: number | null;
@@ -601,9 +641,12 @@ export interface MolecularSampleAnnotation {
   category: string;
   biological_significance: string;
   extinct_uniprot_acc: string | null;
-  extinct_nucleotide_acc: string;
+  // null when no live NCBI Nucleotide record verifiably represents this
+  // organism/gene; see extinct_nucleotide_validation for why.
+  extinct_nucleotide_acc: string | null;
   extinct_sequence_aa: string;
   extinct_uniprot_validation?: UniprotValidationAnnotation | null;
+  extinct_nucleotide_validation?: NcbiValidationAnnotation | null;
   extant_counterpart: ExtantCounterpartAnnotation;
   structure: StructureAnnotation;
   genomics: GenomicsAnnotation;

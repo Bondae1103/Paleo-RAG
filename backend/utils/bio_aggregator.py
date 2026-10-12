@@ -20,35 +20,51 @@ from backend.utils.uniprot_client import UniProtClient
 
 logger = logging.getLogger(__name__)
 
-# Pre-indexed mappings for primary paleogenomic case studies
+# Pre-indexed mappings for primary paleogenomic case studies.
+#
+# nucleotide_acc / kegg_pathway values below were re-verified against live
+# NCBI Nucleotide / KEGG REST on 2026-10-12 (see scripts/audit_ncbi_accessions.py
+# and scripts/audit_kegg_pathways.py, and backend/data/_reports/). None is
+# left here rather than a guessed value when no live-confirmed record exists:
+#   - HQ184444.1 ("HBB"/"MAMMOTH") is an uncultured xanthophyte chloroplast
+#     gene, not mammoth hemoglobin -- wrong organism entirely.
+#   - map05100 for HBB/FOXP2/pla is "Bacterial invasion of epithelial cells";
+#     none of these three genes has any live-confirmed KEGG pathway
+#     membership at all.
+#   - AF512946.1 ("FOXP2") is a human MLL/SEPTIN6 fusion transcript, not
+#     FOXP2 -- wrong gene entirely.
+#   - AL590842.1 ("PLA"/"YERSINIA") IS the correct, live-verified Yersinia
+#     pestis CO92 genome and is kept.
+# uniprot_acc / pdb_id are out of scope here (UniProt and RCSB PDB mappings
+# are already correct) and are left untouched.
 PREINDEXED_ENTITIES = {
     "MAMMOTH": {
         "gene": "HBB",
         "organism": "Mammuthus primigenius",
-        "nucleotide_acc": "HQ184444.1",
+        "nucleotide_acc": None,
         "uniprot_acc": "D3U1H9",
         "pdb_id": "3VRF",
-        "kegg_pathway": "map05100",
+        "kegg_pathway": None,
         "locus": "HBB",
         "cache_key": "HBB",
     },
     "HBB": {
         "gene": "HBB",
         "organism": "Mammuthus primigenius",
-        "nucleotide_acc": "HQ184444.1",
+        "nucleotide_acc": None,
         "uniprot_acc": "D3U1H9",
         "pdb_id": "3VRF",
-        "kegg_pathway": "map05100",
+        "kegg_pathway": None,
         "locus": "HBB",
         "cache_key": "HBB",
     },
     "FOXP2": {
         "gene": "FOXP2",
         "organism": "Homo sapiens / Homo neanderthalensis",
-        "nucleotide_acc": "AF512946.1",
+        "nucleotide_acc": None,
         "uniprot_acc": "O15409",
         "pdb_id": "2A07",
-        "kegg_pathway": "map05100",
+        "kegg_pathway": None,
         "locus": "FOXP2",
         "cache_key": "FOXP2",
     },
@@ -58,7 +74,7 @@ PREINDEXED_ENTITIES = {
         "nucleotide_acc": "AL590842.1",
         "uniprot_acc": "P17811",
         "pdb_id": "2X55",
-        "kegg_pathway": "map05100",
+        "kegg_pathway": None,
         "locus": "pla",
         "cache_key": "Pla",
     },
@@ -68,7 +84,7 @@ PREINDEXED_ENTITIES = {
         "nucleotide_acc": "AL590842.1",
         "uniprot_acc": "P17811",
         "pdb_id": "2X55",
-        "kegg_pathway": "map05100",
+        "kegg_pathway": None,
         "locus": "pla",
         "cache_key": "Pla",
     },
@@ -228,13 +244,16 @@ class BioAggregator:
             except Exception as exc:
                 logger.debug(f"STRING interaction lookup failed: {exc}")
 
-            try:
-                kegg_id = mapping.get("kegg_pathway", "map05100") if mapping else "map05100"
-                kegg_hit = self.func.get_kegg_pathway(kegg_id)
-                if kegg_hit:
-                    pathways.append(kegg_hit)
-            except Exception as exc:
-                logger.debug(f"KEGG pathway lookup failed: {exc}")
+            # None when no live-confirmed KEGG pathway membership is known
+            # for this gene -- never guess a pathway for an unrelated gene.
+            kegg_id = mapping.get("kegg_pathway") if mapping else None
+            if kegg_id:
+                try:
+                    kegg_hit = self.func.get_kegg_pathway(kegg_id)
+                    if kegg_hit:
+                        pathways.append(kegg_hit)
+                except Exception as exc:
+                    logger.debug(f"KEGG pathway lookup failed: {exc}")
 
             try:
                 # Avoid querying human Ensembl for non-mammalian/bacterial genes

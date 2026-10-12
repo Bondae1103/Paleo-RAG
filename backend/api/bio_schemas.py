@@ -233,43 +233,87 @@ class UniprotValidationAnnotation(BaseModel):
     note: Optional[str] = None
 
 
+class NcbiValidationAnnotation(BaseModel):
+    """Provenance for a *_nucleotide_acc value, from a live NCBI E-utilities audit."""
+    status: str  # verified_exact | verified_proxy | unverified
+    checked_organism: Optional[str] = None
+    checked_taxid: Optional[int] = None
+    evidence_source: Optional[str] = None
+    validated_at: Optional[str] = None
+    previous_accession: Optional[str] = None
+    note: Optional[str] = None
+
+
+class EnsemblValidationAnnotation(BaseModel):
+    """Provenance for a genomics locus, from a live Ensembl REST audit."""
+    status: str  # verified_live | unverified
+    evidence_source: Optional[str] = None
+    validated_at: Optional[str] = None
+    note: Optional[str] = None
+
+
+class KeggValidationAnnotation(BaseModel):
+    """Provenance for a pathway.kegg_id value, from a live KEGG REST audit."""
+    status: str  # verified_live | corrected | unverified
+    evidence_source: Optional[str] = None
+    validated_at: Optional[str] = None
+    previous_kegg_id: Optional[str] = None
+    note: Optional[str] = None
+
+
 class LocusAnnotation(BaseModel):
     gene_symbol: str
     protein_name: str
-    extinct_nucleotide_acc: str
+    # None when no live NCBI Nucleotide record verifiably represents this
+    # organism/gene; see extinct_nucleotide_validation for why.
+    extinct_nucleotide_acc: Optional[str] = None
     extinct_uniprot_acc: Optional[str] = None
     extinct_sequence_dna: str
     extinct_sequence_aa: str
     extinct_uniprot_validation: Optional[UniprotValidationAnnotation] = None
+    extinct_nucleotide_validation: Optional[NcbiValidationAnnotation] = None
 
 
 class ExtantCounterpartAnnotation(BaseModel):
     common_name: str
     scientific_name: str
-    extant_nucleotide_acc: str
+    # None when no live NCBI Nucleotide record verifiably represents this
+    # organism/gene; see extant_nucleotide_validation for why.
+    extant_nucleotide_acc: Optional[str] = None
     extant_uniprot_acc: Optional[str] = None
     extant_sequence_dna: str
     extant_sequence_aa: str
     extant_uniprot_validation: Optional[UniprotValidationAnnotation] = None
+    extant_nucleotide_validation: Optional[NcbiValidationAnnotation] = None
 
 
 class GenomicsAnnotation(BaseModel):
-    chromosome: str
-    start: int
-    end: int
-    assembly: str
-    ensembl_species: str
+    # None when no live-verified Ensembl gene record exists for the organism
+    # this locus claims; see ensembl_validation for why.
+    chromosome: Optional[str] = None
+    start: Optional[int] = None
+    end: Optional[int] = None
+    assembly: Optional[str] = None
+    ensembl_species: Optional[str] = None
+    ensembl_gene_id: Optional[str] = None
+    ensembl_validation: Optional[EnsemblValidationAnnotation] = None
 
 
 class PathwayAnnotation(BaseModel):
-    kegg_id: str
+    # None when no live-confirmed KEGG pathway membership exists for this
+    # gene; see kegg_validation for why.
+    kegg_id: Optional[str] = None
     pathway_name: str
+    kegg_validation: Optional[KeggValidationAnnotation] = None
 
 
 class FossilRecordAnnotation(BaseModel):
     pbdb_taxon_id: Optional[str] = None
     pbdb_taxon_name: Optional[str] = None
-    pbdb_navigator_url: str = "https://paleobiodb.org/navigator/"
+    # None when this taxon has no PaleoBioDB record at all (e.g. bacteria,
+    # viruses); otherwise the taxon-specific classic/checkTaxonInfo record
+    # page, not the Navigator app's generic homepage.
+    pbdb_navigator_url: Optional[str] = None
     pbdb_api_url: Optional[str] = None
     fossil_occurrences_count: Optional[int] = 0
     first_appearance_ma: Optional[float] = None
@@ -284,9 +328,10 @@ class MolecularSampleAnnotation(BaseModel):
     category: str
     biological_significance: str
     extinct_uniprot_acc: Optional[str] = None
-    extinct_nucleotide_acc: str
+    extinct_nucleotide_acc: Optional[str] = None
     extinct_sequence_aa: str
     extinct_uniprot_validation: Optional[UniprotValidationAnnotation] = None
+    extinct_nucleotide_validation: Optional[NcbiValidationAnnotation] = None
     extant_counterpart: ExtantCounterpartAnnotation
     structure: StructureAnnotation
     genomics: GenomicsAnnotation

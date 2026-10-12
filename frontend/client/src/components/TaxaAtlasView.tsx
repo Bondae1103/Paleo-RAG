@@ -143,7 +143,9 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
       category: "Primary Diagnostic Marker",
       biological_significance: viewingTaxon.description,
       extinct_uniprot_acc: viewingTaxon.target_locus.extinct_uniprot_acc,
+      extinct_uniprot_validation: viewingTaxon.target_locus.extinct_uniprot_validation,
       extinct_nucleotide_acc: viewingTaxon.target_locus.extinct_nucleotide_acc,
+      extinct_nucleotide_validation: viewingTaxon.target_locus.extinct_nucleotide_validation,
       extinct_sequence_aa: viewingTaxon.target_locus.extinct_sequence_aa,
       extant_counterpart: viewingTaxon.extant_counterpart,
       structure: viewingTaxon.structure,
@@ -235,7 +237,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
               <span className="border border-[#d5a65b]/40 bg-[#d5a65b]/10 px-2.5 py-0.5 font-mono text-xs text-[#f0c778]">
                 {t.clade}
               </span>
-              {t.fossil_record?.pbdb_taxon_id && (
+              {t.fossil_record?.pbdb_taxon_id && t.fossil_record?.pbdb_navigator_url && (
                 <a
                   href={t.fossil_record.pbdb_navigator_url}
                   target="_blank"
@@ -832,17 +834,25 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                     <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2">
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-[#f0c778] font-semibold">NCBI Entrez</span>
-                        <a
-                          href={`https://www.ncbi.nlm.nih.gov/nuccore/${activeSample.extinct_nucleotide_acc}`}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-slate-400 hover:text-white"
-                        >
-                          <ExternalLink size={12} />
-                        </a>
+                        {activeSample.extinct_nucleotide_acc && (
+                          <a
+                            href={`https://www.ncbi.nlm.nih.gov/nuccore/${activeSample.extinct_nucleotide_acc}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
                       </div>
-                      <div className="font-mono text-xs text-white">{activeSample.extinct_nucleotide_acc}</div>
-                      <p className="text-[11px] text-slate-500">Official nucleotide sequence accession in GenBank.</p>
+                      <div className={`font-mono text-xs ${activeSample.extinct_nucleotide_acc ? "text-white" : "text-amber-500/80 italic"}`}>
+                        {activeSample.extinct_nucleotide_acc ?? "Unverified"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {activeSample.extinct_nucleotide_acc
+                          ? "Official nucleotide sequence accession in GenBank."
+                          : activeSample.extinct_nucleotide_validation?.note ?? "No live NCBI Nucleotide record verifiably represents this organism/gene."}
+                      </p>
                     </div>
 
                     {/* UniProt */}
@@ -891,34 +901,55 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                     <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2">
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-slate-300 font-semibold">KEGG Pathway</span>
-                        <a
-                          href={`https://www.kegg.jp/entry/${activeSample.pathway.kegg_id}`}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-slate-400 hover:text-white"
-                        >
-                          <ExternalLink size={12} />
-                        </a>
+                        {activeSample.pathway.kegg_id && (
+                          <a
+                            href={`https://www.kegg.jp/entry/${activeSample.pathway.kegg_id}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
                       </div>
-                      <div className="font-mono text-xs text-white">{activeSample.pathway.kegg_id}</div>
-                      <p className="text-[11px] text-slate-500">{activeSample.pathway.pathway_name}</p>
+                      <div className={`font-mono text-xs ${activeSample.pathway.kegg_id ? "text-white" : "text-amber-500/80 italic"}`}>
+                        {activeSample.pathway.kegg_id ?? "Unverified"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {activeSample.pathway.kegg_id
+                          ? activeSample.pathway.pathway_name
+                          : activeSample.pathway.kegg_validation?.note ?? "No live-confirmed KEGG pathway membership exists for this gene."}
+                      </p>
                     </div>
 
                     {/* Ensembl Species */}
                     <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2">
                       <div className="flex items-center justify-between">
                         <span className="font-mono text-[11px] uppercase tracking-wider text-slate-300 font-semibold">Ensembl Coordinates</span>
-                        <a
-                          href={`https://www.ensembl.org/${activeSample.genomics.ensembl_species}/`}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-slate-400 hover:text-white"
-                        >
-                          <ExternalLink size={12} />
-                        </a>
+                        {activeSample.genomics.ensembl_species && activeSample.genomics.chromosome && (
+                          <a
+                            href={`https://www.ensembl.org/${activeSample.genomics.ensembl_species}/Location/View?r=${activeSample.genomics.chromosome.replace(/^chr/, "")}:${activeSample.genomics.start}-${activeSample.genomics.end}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
                       </div>
-                      <div className="font-mono text-xs text-white">{activeSample.genomics.chromosome}:{activeSample.genomics.start}..{activeSample.genomics.end}</div>
-                      <p className="text-[11px] text-slate-500">Assembly: {activeSample.genomics.assembly} ({activeSample.genomics.ensembl_species})</p>
+                      {activeSample.genomics.chromosome ? (
+                        <>
+                          <div className="font-mono text-xs text-white">{activeSample.genomics.chromosome}:{activeSample.genomics.start}..{activeSample.genomics.end}</div>
+                          <p className="text-[11px] text-slate-500">Assembly: {activeSample.genomics.assembly} ({activeSample.genomics.ensembl_species})</p>
+                        </>
+                      ) : (
+                        <>
+                          <div className="font-mono text-xs text-amber-500/80 italic">Unverified</div>
+                          <p className="text-[11px] text-slate-500">
+                            {activeSample.genomics.ensembl_validation?.note ?? "No live-verified Ensembl gene record exists for this organism."}
+                          </p>
+                        </>
+                      )}
                     </div>
 
                     {/* Paleobiology Database */}

@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-10-12T18:59:28.790553+00:00",
+  "total_taxa_audited": 18,
+  "verdict_counts": {
+    "confirmed_match": 13,
+    "confirmed_absent": 2,
+    "confirmed_match_at_binomial_rank": 1,
+    "confirmed_match_at_genus_rank": 2
+  },
+  "records": [
+    {
+      "tax_id": "PRAG-TAX-001",
+      "scientific_name": "Mammuthus primigenius",
+      "stored_pbdb_taxon_id": "txn:46027",
+      "live_pbdb_taxon_id": "txn:46027",
+      "live_name": "Mammuthus primigenius",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-002",
+      "scientific_name": "Homo neanderthalensis",
+      "stored_pbdb_taxon_id": "txn:83087",
+      "live_pbdb_taxon_id": "txn:83087",
+      "live_name": "Homo neanderthalensis",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-003",
+      "scientific_name": "Yersinia pestis (Bronze Age / Black Death)",
+      "stored_pbdb_taxon_id": null,
+      "live_pbdb_taxon_id": null,
+      "live_name": null,
+      "live_rank": null,
+      "verdict": "confirmed_absent"
+    },
+    {
+      "tax_id": "PRAG-TAX-004",
+      "scientific_name": "Aenocyon dirus",
+      "stored_pbdb_taxon_id": "txn:44837",
+      "live_pbdb_taxon_id": "txn:44837",
+      "live_name": "Aenocyon dirus",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-005",
+      "scientific_name": "Panthera spelaea",
+      "stored_pbdb_taxon_id": "txn:308748",
+      "live_pbdb_taxon_id": "txn:308748",
+      "live_name": "Panthera spelaea",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-006",
+      "scientific_name": "Bison priscus",
+      "stored_pbdb_taxon_id": "txn:52615",
+      "live_pbdb_taxon_id": "txn:52615",
+      "live_name": "Bison priscus",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-007",
+      "scientific_name": "Homo sapiens denisova",
+      "stored_pbdb_taxon_id": "txn:83088",
+      "live_pbdb_taxon_id": "txn:83088",
+      "live_name": "Homo sapiens",
+      "live_rank": "binomial",
+      "verdict": "confirmed_match_at_binomial_rank"
+    },
+    {
+      "tax_id": "PRAG-TAX-008",
+      "scientific_name": "Thylacinus cynocephalus",
+      "stored_pbdb_taxon_id": "txn:234413",
+      "live_pbdb_taxon_id": "txn:234413",
+      "live_name": "Thylacinus cynocephalus",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-009",
+      "scientific_name": "Coelodonta antiquitatis",
+      "stored_pbdb_taxon_id": "txn:54846",
+      "live_pbdb_taxon_id": "txn:54846",
+      "live_name": "Coelodonta antiquitatis",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-010",
+      "scientific_name": "Smilodon fatalis",
+      "stored_pbdb_taxon_id": "txn:46515",
+      "live_pbdb_taxon_id": "txn:46515",
+      "live_name": "Smilodon fatalis",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-011",
+      "scientific_name": "Raphus cucullatus",
+      "stored_pbdb_taxon_id": "txn:92328",
+      "live_pbdb_taxon_id": "txn:92328",
+      "live_name": "Raphus cucullatus",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-012",
+      "scientific_name": "Ectopistes migratorius",
+      "stored_pbdb_taxon_id": "txn:83493",
+      "live_pbdb_taxon_id": "txn:83493",
+      "live_name": "Ectopistes migratorius",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-013",
+      "scientific_name": "Mylodon darwinii",
+      "stored_pbdb_taxon_id": "txn:43636",
+      "live_pbdb_taxon_id": "txn:43636",
+      "live_name": "Mylodon",
+      "live_rank": "genus",
+      "verdict": "confirmed_match_at_genus_rank"
+    },
+    {
+      "tax_id": "PRAG-TAX-014",
+      "scientific_name": "Arctodus simus",
+      "stored_pbdb_taxon_id": "txn:44309",
+      "live_pbdb_taxon_id": "txn:44309",
+      "live_name": "Arctodus simus",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-015",
+      "scientific_name": "Influenza A virus (H1N1 1918)",
+      "stored_pbdb_taxon_id": null,
+      "live_pbdb_taxon_id": null,
+      "live_name": null,
+      "live_rank": null,
+      "verdict": "confirmed_absent"
+    },
+    {
+      "tax_id": "PRAG-TAX-016",
+      "scientific_name": "Doedicurus clavicaudatus",
+      "stored_pbdb_taxon_id": "txn:247968",
+      "live_pbdb_taxon_id": "txn:247968",
+      "live_name": "Doedicurus clavicaudatus",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-017",
+      "scientific_name": "Toxodon platensis",
+      "stored_pbdb_taxon_id": "txn:117319",
+      "live_pbdb_taxon_id": "txn:117319",
+      "live_name": "Toxodon platensis",
+      "live_rank": 3,
+      "verdict": "confirmed_match"
+    },
+    {
+      "tax_id": "PRAG-TAX-018",
+      "scientific_name": "Dinornis robustus",
+      "stored_pbdb_taxon_id": "txn:39297",
+      "live_pbdb_taxon_id": "txn:39297",
+      "live_name": "Dinornis",
+      "live_rank": "genus",
+      "verdict": "confirmed_match_at_genus_rank"
+    }
+  ]
+}
