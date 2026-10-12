@@ -1184,9 +1184,9 @@
       "extant_nucleotide_acc": "NC_008092.1",
       "extant_uniprot_acc": "Q6Y8J2",
       "extant_sequence_dna": "ATGACCAACATCCGAAAGACCCACCCACTATTCAAAATCATCAATCACTCATTCATTGACCTACCCACCCCATCCAACATCTCATCATGATGAAACTTTGGCTCCCTCCTAGGCATCTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMIIHSFIDLPTPSNISAWWNFGSLLGICLIAQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVIHLLFLHETGSNNPLGITSHLDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMIPILAMSKQQSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLAVILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MTNIRKTHPLAKIVNNSFIDLPAPSNISAWWNFGSLLGVCLILQILTGLFLAMHYTSDTATAFSSVTHICRDVNYGWIIRYMHANGASMFFICLFLHVGRGLYYGSYVFMETWNIGIVLLFATMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTDLVEWIWGGFSVDKATLTRFFAFHFILPFIIAALAMVHLLFLHETGSNNPSGITSDSDKIPFHPYYTIKDILGALLLLLILMSLVLFSPDLLGDPDNYTPANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVFSILILAFIPLLHTSKQRSMMFRPLSQCLFWLLVADLLTLTWIGGQPVEHPFIIIGQVASILYFTILLILMPTVSVIENNLLKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Canis lupus",
         "checked_taxon_id": 9612,
         "checked_gene_symbols": [
@@ -1195,10 +1195,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q6Y8J2",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q6Y8J2.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "P03901",
-        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q6Y8J2.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q6Y8J2.1"
       }
     },
     "structure": {
@@ -1658,9 +1659,9 @@
       "extant_nucleotide_acc": "NC_028302.1",
       "extant_uniprot_acc": "Q35506",
       "extant_sequence_dna": "ATGACCAACATTCGAAAATCCCACCCACTACTAAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCAGCATGATGAAACTTCGGCTCCCTACTAGGCATTTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQSLTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTEIWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVTHLLFLHETGSNNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRVIPNKLGGVLALVLSILILAMIPILHMSKQQSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MTNIRKSHPLVKIINHSFIDLPTPPNISAWWNFGSLLGVCLILQILTGLFLAMHYTPDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLYMHVGRGMYYGSYTFSETWNIGIVLLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGADLVEWIWGGFSVDKATLTRFFAFHFILPFIISALAAVHLLFLHETGSNNPSGMVSDSDKIPFHPYYTIKDILGLLVLILTLMLLVLFSPDLLGDPDNYTPANPLSTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAIIPALHTSKQRGLMFRPLSQCLFWFLVADLLTLTWIGGQPVEHPFITIGQLASILYFSILLILMPISGIIENRLLKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Panthera leo",
         "checked_taxon_id": 9689,
         "checked_gene_symbols": [
@@ -1669,10 +1670,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q35506",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q35506.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "P03901",
-        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q35506.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q35506.1"
       }
     },
     "structure": {
@@ -2113,9 +2115,9 @@
       "extant_nucleotide_acc": "NC_012346.1",
       "extant_uniprot_acc": "Q9T9C1",
       "extant_sequence_dna": "ATGACCAACATTCGAAAGTCCCACCCACTACTCAAAATCATAACCAATCATTCATTGACCTACCCACCCCATCCAACATCTCATCATGATGAAACTTTGGCTCCCTACTAGGCATTTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQILTGLFLAMHYTSDTMTTFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAIMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVIHLLFLHETGSVNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMIPILHMSKQLSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MTNLRKSHPLMKIVNNAFIDLPAPSNISSWWNFGSLLGMCLILXILTGLFLAMHYTSDTTTAFSSVAHICRDVNYGWIIRYMHANGASMFFICLYMHAGRGLYYGSYTFLETWNIGVILLLTVMATAFMGYDLPWGQMSFWGATVITNLLSAIPYIGTNLVEWIWGGFSVDKATLTRFFAFHFILPFIIMAIAMVHLLFLHETGSNNPTGISSDMDKIPFHPYYTIKDILGALLLILALMLLVLFTPDLLGDPDNYTPANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALAFSILILALIPLLHTSKQRSMIFRPLSQCLFWTLVADLLTLTWIGGQPVEHPYIIIGQMASIMYFLLILVLMPTAGTIENKLLKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Bison bison",
         "checked_taxon_id": 9901,
         "checked_gene_symbols": [
@@ -2124,10 +2126,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q9T9C1",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q9T9C1.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "Q95192",
-        "note": "Replaced Q95192 (Macaca fascicularis / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced Q95192 (Macaca fascicularis / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q9T9C1.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q9T9C1.1"
       }
     },
     "structure": {
@@ -2924,9 +2927,9 @@
       "extant_nucleotide_acc": "NC_013771.1",
       "extant_uniprot_acc": "Q35861",
       "extant_sequence_dna": "ATGACCAACATCCGAAAGACCCACCCACTATTCAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCATCATGATGAAACTTTGGCTCCCTCCTAGGCATCTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFFSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHSGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDIATLTRFFAFHFLPFVLAAATVIHLLFLHETGSNNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLGTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMIPILHMSKQQSMMFRPLSQCLFWLATADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MINIRKTHPLMKIINHSFIDLPTPSNISAWWNFGSLLGMCLIIQILTGLFLAMHYTSDTLTAFSSVAHICRDVNHGWLLRNLHANGASMFFMCLFLHVGRGIYYGSYLYKETWNIGVILLLTVMATAFVGYVLPWGQMSFWGATVITNLLSAIPYIGTTLAEWIWGGFAVDKATLTRFFAFHFILPFIITALVVVHLLFLHETGSNNPSGINPDSDKIPFHPYYTIKDALGFMLLLLTLLILALFSPDSLGDPDNFSPANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALLASILILLIIPLLHTSNQRSMMFRPISQTLFWILTANLITLTWIGGQPVEQPFIIIGQLASVLYFLLILVLMPLAGLFENYMLKPKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Sarcophilus harrisii",
         "checked_taxon_id": 9305,
         "checked_gene_symbols": [
@@ -2935,10 +2938,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q35861",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q35861.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "D2HPY5",
-        "note": "Replaced D2HPY5 (None / inactive_entry) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced D2HPY5 (None / inactive_entry) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 381-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q35861.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q35861.2"
       }
     },
     "structure": {
@@ -3776,18 +3780,19 @@
       "extant_nucleotide_acc": "NC_008450.1",
       "extant_uniprot_acc": "Q072K1",
       "extant_sequence_dna": "ATGACCAACATTCGAAAATCTCACCCACTACTAAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCAGCATGATGAAACTTCGGCTCCCTACTAGGCATTTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLVTPSNISAWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGTIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWILGGFSVDKATLTRFFAFHFLPFVLAAATVIHLLFLHETGSNNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRSIPNALGGVLALVLSILILAMIPILHMSKQQSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MTNIRKSHPLIKIINHSFIDLPAPSNISAWWNFGSLLGVCLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLYMHVGRGMYYGSYTFSETWNIGIVLLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGADLVEWIWGGFSVDKATLTRFFAFHFILPFIISALAAVHLLFLHETGSNNPSGMVSDSDKIPFHPYYTIKDILGLLVLILALTLLVLFSPDLLGDPDNYTPANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILVLAIIPALHTSKQRGMMFRPMSQCLFWFLVADLLTLTWIGGQPVEHPFTTIGQLASILYFFTLLVLMPISGMIENRLLKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Neofelis nebulosa",
         "checked_taxon_id": 61452,
         "checked_gene_symbols": [
           "CYTB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q072K1",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q072K1.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "P03901",
-        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q072K1.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q072K1.1"
       }
     },
     "structure": {
@@ -4229,18 +4234,19 @@
       "extant_nucleotide_acc": "AY100650.1",
       "extant_uniprot_acc": "Q8SG74",
       "extant_sequence_dna": "ATGACCCACATCCGAAAGACCCACCCACTATTCAAAATCATCAATCACTCATTCATCGACCTACCCACCCCATCCAACATCTCATCATGATGAAACTTTGGCTCCCTCCTAGGCATCTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQILTPLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVIALFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVIHLLFLHETISNNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMIPILHMSKQQSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "WWNFGSLLGICLLTQILTGLLLAAHYTADTTLAFSSVAHTCRNVQYGWLIRNLHANGASFFFICIYLHIGRGLYYGSYLYKETWNTGVILLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQTIVEWAWGGFSVDNPTLTRFFTLHFLLPFMIAGLTIIHLTFLHESGSNNPLGISSNCDKIPFHPYFSLKDILGFTLMFLPLMTLAFFSPNLLGDPENFTPANPLVTPPHIKPEWYFLFAYAILRSIPNKLGGVLALAASVLILFLSPLLHKSKQRTMTFRPFSQLLFWILVSNLMILTWVGSQPVEHPFIIIGQLASFTYFSILLILFPTIGALENKLLNY",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Caloenas nicobarica",
         "checked_taxon_id": 187106,
         "checked_gene_symbols": [
           "cytb"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q8SG74",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q8SG74.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "Q8SLY8",
-        "note": "Replaced Q8SLY8 (Nitella opaca / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced Q8SLY8 (Nitella opaca / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 350-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q8SG74.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q8SG74.1"
       }
     },
     "structure": {
@@ -4684,7 +4690,7 @@
         "evidence_source": "https://rest.uniprot.org/uniprotkb/Q8SLY8",
         "validated_at": "2026-10-12T12:55:34.292931+00:00",
         "previous_accession": "Q8SLY8",
-        "note": "Original accession is wrong_organism_and_gene; no defensible same-organism same-gene UniProt replacement was found by live search. Field nulled rather than left silently wrong."
+        "note": "Original accession is wrong_organism_and_gene; no defensible same-organism same-gene UniProt replacement was found by live search. Field nulled rather than left silently wrong. extant_sequence_aa was NOT touched in this pass; manual accession research is still required before any CYTB protein sequence can be verified for this taxon."
       }
     },
     "structure": {
@@ -5104,9 +5110,9 @@
       "extant_nucleotide_acc": "NC_006898.1",
       "extant_uniprot_acc": "Q58F69",
       "extant_sequence_dna": "ATGACCAACATCCGAAAGACCCACCCACTATTCAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCATCATGATGAAACTTTGGCTCCCTCCTAGGCATCTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLVICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYSGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVIHLLFLHETGSNNPLGITSHSDKIMFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMIPILHMSKQQSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MTNIRKTHPLFKIINHTFIDLPTPSNISTWWNFGSLLGMCLIMQILTGLFLAMHYTPDTTTAFSSVTHICRDVNYGWIIRYLHTNGASMFFICLYLHIGRSMYYGSYTYLKTWNIGIMLLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTNLVEWIWGGFSVDKATLTRFFTLHFILPFIITALTMTHLLFLHETGSNNPLGISPDSDKIPFHPYYTMKDILGLLPMIFIMMALALFYPDLLGDPDNYTPANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVMALVLSILILAILPMLHTAKQRSLMFRPISQCLFWMLMTNLLVLTWIGGQPVEHPFTIIGQLASISYFSIILILMPMAGLIENNLMKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Choloepus didactylus",
         "checked_taxon_id": 27675,
         "checked_gene_symbols": [
@@ -5115,10 +5121,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q58F69",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q58F69.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "Q85AK8",
-        "note": "Replaced Q85AK8 (None / inactive_entry) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced Q85AK8 (None / inactive_entry) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q58F69.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q58F69.1"
       }
     },
     "structure": {
@@ -5532,9 +5539,9 @@
       "extant_nucleotide_acc": "NC_009969.1",
       "extant_uniprot_acc": "Q36089",
       "extant_sequence_dna": "ATGACCAACATTCGAAAATCTCACCCACTACTAAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCAGCATGATGAAACTTCGGCTCCCTACTAGGCATTTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISIWWNFGSLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLTANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVISLLFLHETGSNNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMVPILHMSKQQSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MTNIRKTHPLAKIINSSFIDLPTPSNISAWWNFGSLLGVCLILHILTGLFLAMHYTADTTTAFSSVAHICRDVNYGWVIRYMHANGASMFFICLFMHVGRGLYYGSYLFSETWNIGIILLLTIMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTDLVEWIWGGFSVDKATLTRFFAFHFILPFIILALAMVHLLFLHETGSNNPSGISSNSDKIPFHPYYTIKDILGVLLLLLALVTLVLFSPDLLGDPDNYTPANPVSTPLHIKPEWYFLFAYAILRSIPNKLGGVLALIFSILILAIIPLLHTSKQRGMMFRPLSQCLFWLLAADLLTLTWIGGQPVEHPLVIIGQLASILYFTILLVLMPIAGIIENNLSKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Tremarctos ornatus",
         "checked_taxon_id": 9638,
         "checked_gene_symbols": [
@@ -5543,10 +5550,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q36089",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/Q36089.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "Q37711",
-        "note": "Replaced Q37711 (Artemia franciscana / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced Q37711 (Artemia franciscana / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/Q36089.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "Q36089.1"
       }
     },
     "structure": {
@@ -6334,7 +6342,7 @@
         "evidence_source": "https://rest.uniprot.org/uniprotkb/Q6V9Z1",
         "validated_at": "2026-10-12T12:55:34.292931+00:00",
         "previous_accession": "Q6V9Z1",
-        "note": "Original accession is wrong_organism_and_gene; no defensible same-organism same-gene UniProt replacement was found by live search. Field nulled rather than left silently wrong."
+        "note": "Original accession is wrong_organism_and_gene; no defensible same-organism same-gene UniProt replacement was found by live search. Field nulled rather than left silently wrong. extant_sequence_aa was NOT touched in this pass; manual accession research is still required before any CYTB protein sequence can be verified for this taxon."
       }
     },
     "structure": {
@@ -6754,9 +6762,9 @@
       "extant_nucleotide_acc": "NC_001808.1",
       "extant_uniprot_acc": "O03207",
       "extant_sequence_dna": "ATGACCAACATCCGAAAGACCCACCCACTATTCAAAATCATTAACCACTCATTCATCGACCTACCCACCCCATCCAACATCTCATCATGATGAAACTTTGGCTCCCTCCTAGGCATCTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGTLLGICLILQILTGLFLAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFVVMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVIHLLFLHETGSNNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLALFSPDLLGDPDNYTLANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMIPILHMSKQQSMMFLPLSQCLFWLLTADLLTLTWIGGQPVEHPYITIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MTNIRKSHPLIKIINHSFIDLPTPSNISAWWNFGSLLGICLILQILTGLFLAMHYTPDTMTAFSSVAHICRDVNYGWIIRYLHANGASMFFICLFIHVGRGIYYGSYTFLETWNIGVILLFTLMATAFMGYVLPWGQMSFWGATVITNLLSAIPYIGTNLVEWIWGGFSVDKATLTRFFAFHFILPFIIMALAITHLLFLHETGSNNPSGIPSNMDKIPFHPYYTIKDILGILLLILALLALVLFSPDILGDPDNYTPANPLSTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILTLLIIPFLHTSKQRSMMFRPLSQCMFWLLVADLLTLTWIGGQPVEHPFIIIGQLASILYFTLILVLMPLAGIIENNLLKW",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Ceratotherium simum",
         "checked_taxon_id": 9807,
         "checked_gene_symbols": [
@@ -6765,10 +6773,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/O03207",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/O03207.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "P03901",
-        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced P03901 (Homo sapiens / wrong_organism_and_gene) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/O03207.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "O03207.1"
       }
     },
     "structure": {
@@ -7188,9 +7197,9 @@
       "extant_nucleotide_acc": "NC_002784.1",
       "extant_uniprot_acc": "O03523",
       "extant_sequence_dna": "ATGACCCACATCCGAAAGACCCACCCACTATTCAAAATCATCAATCACTCATTCATCGACCTACCCACCCCATCCAACATCTCATCATGATGAAACTTTGGCTCCCTCCTAGGCATCTGCCTAATCCTACAAATCCTCACAGGCCTATTCCTAGCCATACACTATACA...",
-      "extant_sequence_aa": "MTNIRKSHPLLKMINHSFIDLPTPSNISAWWNFGSLLGICLILQILTGLFIAMHYTSDTMTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLFLHVGRGLYYGSYTFTETWNIGVILLFTVMATAFMGYVAPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFLPFVLAAATVIHLLFLHETGSNNPLGITSHSDKIPFHPYYTIKDILGFLFLFLLTLTLFSPDLLGDPDNYTLANPLNTPPHIPPEWYFLFAYAILRSIPNKLGGVLALVLSILILAMIPILHMSKQQSMMFRPLSQCLFWLLTADLLTLTWIGGQPVEHPYVTIGQLASILYFLLILVLMPTAGTIENKLLKW",
+      "extant_sequence_aa": "MAPNIRKSHPLLKIINNSLIDLPSPSNISAWWNFGSLLGICLITQILTGLLLAMHYTADTSLAFSSVAHTCRNVQYGWLIRNLHANGASFFFICIYLHIGRGFYYGSYLYKETWNTGVILLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQTLVEWAWGGFSVDNPTLTRFFALHFLLPFLIAGITIIHLTFLHESGSNNPLGIVSHCDKIPFHPYFSLKDILGFTLMFIPLLILAFFSPNLLGDPENFTPANPLVTPPHIKPEWYFLFAYAILRSIPNKLGGVLALAASVLILFLIPFLHKSKQRSMTFRPLSQMLFWLLVANLLILTWIGSQPVEHPFIIIGQTASFTYFLILLILFPTIGALENKMLY",
       "extant_uniprot_validation": {
-        "status": "corrected",
+        "status": "corrected_sequence_verified",
         "checked_organism": "Dromaius novaehollandiae",
         "checked_taxon_id": 8790,
         "checked_gene_symbols": [
@@ -7199,10 +7208,11 @@
           "CYTB",
           "MTCYB"
         ],
-        "evidence_source": "https://rest.uniprot.org/uniprotkb/O03523",
-        "validated_at": "2026-10-12T12:55:34.292931+00:00",
+        "evidence_source": "https://rest.uniprot.org/uniprotkb/O03523.json",
+        "validated_at": "2026-10-12T15:33:56.806836+00:00",
         "previous_accession": "Q9B6M4",
-        "note": "Replaced Q9B6M4 (Squalius cephalus / wrong_organism) with a live-UniProt-verified organism+gene match."
+        "note": "Replaced Q9B6M4 (Squalius cephalus / wrong_organism) with a live-UniProt-verified organism+gene match. extant_sequence_aa re-synced to the exact 379-aa sequence retrieved live from https://rest.uniprot.org/uniprotkb/O03523.json (previously stored sequence was 376 aa and did not match this accession).",
+        "accession_version": "O03523.1"
       }
     },
     "structure": {
