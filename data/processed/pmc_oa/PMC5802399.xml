@@ -1,0 +1,954 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Nature</journal-id><journal-id journal-id-type="iso-abbrev">Nature</journal-id><journal-id journal-id-type="pmc-domain-id">319</journal-id><journal-id journal-id-type="pmc-domain">nihpa</journal-id><journal-id journal-id-type="nlm-id">0410462</journal-id><journal-title-group><journal-title>Nature</journal-title></journal-title-group><issn pub-type="ppub">0028-0836</issn><issn pub-type="epub">1476-4687</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>NIHPA Author Manuscripts</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC5802399</article-id><article-id pub-id-type="pmcid-ver">PMC5802399.1</article-id><article-id pub-id-type="pmcaid">5802399</article-id><article-id pub-id-type="pmcaiid">5802399</article-id><article-id pub-id-type="manuscript-id">NIHMS931246</article-id><article-id pub-id-type="pmid">28953867</article-id><article-id pub-id-type="doi">10.1038/nature23912</article-id><article-id pub-id-type="manuscript-id-alternative">NIHMS931246</article-id><article-id pub-id-type="manuscript-id-alternative">NIHPA931246</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Massively parallel <italic toggle="yes">de novo</italic> protein design for
+targeted therapeutics</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Chevalier</surname><given-names initials="A">Aaron</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref><xref rid="FN2" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Silva</surname><given-names initials="DA">Daniel-Adriano</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref><xref rid="FN2" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Rocklin</surname><given-names initials="GJ">Gabriel J.</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref><xref rid="FN2" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hicks</surname><given-names initials="DR">Derrick R.</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref><xref ref-type="aff" rid="A3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Vergara</surname><given-names initials="R">Renan</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref><xref ref-type="aff" rid="A4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Murapa</surname><given-names initials="P">Patience</given-names></name><xref ref-type="aff" rid="A5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bernard</surname><given-names initials="SM">Steffen M.</given-names></name><xref ref-type="aff" rid="A6">6</xref><xref ref-type="aff" rid="A7">7</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="L">Lu</given-names></name><xref ref-type="aff" rid="A8">8</xref><xref ref-type="aff" rid="A9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lam</surname><given-names initials="KH">Kwok-Ho</given-names></name><xref ref-type="aff" rid="A10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yao</surname><given-names initials="G">Guorui</given-names></name><xref ref-type="aff" rid="A10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bahl</surname><given-names initials="CD">Christopher D.</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Miyashita</surname><given-names initials="SI">Shin-Ichiro</given-names></name><xref ref-type="aff" rid="A11">11</xref><xref ref-type="aff" rid="A12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Goreshnik</surname><given-names initials="I">Inna</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Fuller</surname><given-names initials="JT">James T.</given-names></name><xref ref-type="aff" rid="A5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Koday</surname><given-names initials="MT">Merika T.</given-names></name><xref ref-type="aff" rid="A5">5</xref><xref ref-type="aff" rid="A13">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jenkins</surname><given-names initials="CM">Cody M.</given-names></name><xref ref-type="aff" rid="A5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Colvin</surname><given-names initials="T">Tom</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Carter</surname><given-names initials="L">Lauren</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bohn</surname><given-names initials="A">Alan</given-names></name><xref ref-type="aff" rid="A5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bryan</surname><given-names initials="CM">Cassie M.</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Fernández-Velasco</surname><given-names initials="DA">D. Alejandro</given-names></name><xref ref-type="aff" rid="A4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Stewart</surname><given-names initials="L">Lance</given-names></name><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Dong</surname><given-names initials="M">Min</given-names></name><xref ref-type="aff" rid="A11">11</xref><xref ref-type="aff" rid="A12">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Huang</surname><given-names initials="X">Xuhui</given-names></name><xref ref-type="aff" rid="A9">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jin</surname><given-names initials="R">Rongsheng</given-names></name><xref ref-type="aff" rid="A10">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wilson</surname><given-names initials="IA">Ian A.</given-names></name><xref ref-type="aff" rid="A6">6</xref><xref ref-type="aff" rid="A7">7</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Fuller</surname><given-names initials="DH">Deborah H.</given-names></name><xref ref-type="aff" rid="A5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Baker</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="aff" rid="A2">2</xref></contrib></contrib-group><aff id="A1">
+<label>1</label>Department of Biochemistry, University of Washington, Seattle,
+Washington 98195, USA</aff><aff id="A2">
+<label>2</label>Institute for Protein Design, University of Washington, Seattle,
+Washington 98195, USA</aff><aff id="A3">
+<label>3</label>Molecular and Cellular Biology Program, University of Washington,
+Seattle, Washington 98195, USA</aff><aff id="A4">
+<label>4</label>Facultad de Medicina, Universidad Nacional Autónoma de
+México (UNAM), Ciudad Universitaria, México City 04510, Mexico</aff><aff id="A5">
+<label>5</label>Department of Microbiology, University of Washington, Seattle,
+Washington 98109, USA</aff><aff id="A6">
+<label>6</label>Department of Integrative Structural and Computational Biology, The
+Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, California
+92037, USA</aff><aff id="A7">
+<label>7</label>The Skaggs Institute for Chemical Biology, The Scripps Research
+Institute, 10550 North Torrey Pines Road, La Jolla, California 92037, USA</aff><aff id="A8">
+<label>8</label>State Key Laboratory of Structural Chemistry, Fujian Institute of
+Research on the Structure of Matter, Chinese Academy of Sciences, Fuzhou, Fujian
+350002, China</aff><aff id="A9">
+<label>9</label>Department of Chemistry and State Key Laboratory of Molecular
+Neuroscience, The Hong Kong University of Science and Technology, Clear Water Bay,
+Kowloon, Hong Kong, China</aff><aff id="A10">
+<label>10</label>Department of Physiology and Biophysics, University of California,
+Irvine, California 92697, USA</aff><aff id="A11">
+<label>11</label>Department of Urology, Boston Children’s Hospital, Boston,
+Massachusetts 02115, USA</aff><aff id="A12">
+<label>12</label>Department of Microbiology and Immunobiology and Department of
+Surgery, Harvard Medical School, Boston, Massachusetts 02115, USA</aff><aff id="A13">
+<label>13</label>Virvio Inc., Seattle, Washington 98195, USA</aff><author-notes><corresp id="FN1">Correspondence and requests for materials should be addressed to
+D.B. (<email>dabaker@uw.edu</email>)</corresp><fn id="FN2" fn-type="equal"><label>*</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>27</day><month>9</month><year>2017</year></pub-date><pub-date pub-type="ppub"><day>05</day><month>10</month><year>2017</year></pub-date><volume>550</volume><issue>7674</issue><issue-id pub-id-type="pmc-issue-id">306123</issue-id><fpage>74</fpage><lpage>79</lpage><pub-history><event event-type="nihms-submitted"><date><day>04</day><month>01</month><year>2018</year></date></event><event event-type="pmc-release"><date><day>07</day><month>02</month><year>2018</year></date></event><event event-type="pmc-live"><date><day>07</day><month>02</month><year>2018</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-06-17 23:25:16.943"><day>17</day><month>06</month><year>2024</year></date></event></pub-history><permissions><license license-type="permissions-link"><license-p>Reprints and permissions information is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="www.nature.com/reprints">www.nature.com/reprints</ext-link>.</license-p></license><license><license-p>This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms931246.pdf"/><abstract><p id="P1"><italic toggle="yes">De novo</italic> protein design holds promise for creating small
+stable proteins with shapes customized to bind therapeutic targets. We describe
+a massively parallel approach for designing, manufacturing and screening
+mini-protein binders, integrating large-scale computational design,
+oligonucleotide synthesis, yeast display screening and next-generation
+sequencing. We designed and tested 22,660 mini-proteins of 37–43
+residues that target influenza haemagglutinin and botulinum neurotoxin B, along
+with 6,286 control sequences to probe contributions to folding and binding, and
+identified 2,618 high-affinity binders. Comparison of the binding and
+non-binding design sets, which are two orders of magnitude larger than any
+previously investigated, enabled the evaluation and improvement of the
+computational model. Biophysical characterization of a subset of the binder
+designs showed that they are extremely stable and, unlike antibodies, do not
+lose activity after exposure to high temperatures. The designs elicit little or
+no immune response and provide potent prophylactic and therapeutic protection
+against influenza, even after extensive repeated dosing.</p></abstract><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-manuscript</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p id="P2">Small (4–12 kDa) binding proteins have the potential to bridge the gap
+between monoclonal antibodies and small molecule drugs<sup><xref rid="R1" ref-type="bibr">1</xref>–<xref rid="R3" ref-type="bibr">3</xref></sup>,
+with advantages of stability and amenability to chemical synthesis over monoclonal
+antibodies, and of selectivity and designability over small molecules. Directed
+evolution, starting from naturally occurring small protein scaffolds, has previously
+been used to generate new binding proteins<sup><xref rid="R4" ref-type="bibr">4</xref></sup>. While powerful, such approaches have limitations: they cannot
+modify the overall shape of the starting scaffold protein(s), they can sample only a
+very small fraction of sequence space, and naturally occurring disulfide mini-proteins
+can be difficult to express. Computational protein design has the potential to overcome
+these limitations by efficiently sampling both shape and sequence space on a much larger
+scale, and by generating readily producible proteins, as recently demonstrated by the
+design of stapled mini-protein scaffolds with a wide range of shapes<sup><xref rid="R5" ref-type="bibr">5</xref></sup>. Despite this potential, the high cost of
+synthesizing genes for each designed protein has, until recently<sup><xref rid="R6" ref-type="bibr">6</xref></sup>, limited testing to small numbers (tens) of
+designs for any one application, which is too few to systematically explore the
+determinants of protein binding and folding and provide feedback to improve the
+computational model<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R8" ref-type="bibr">8</xref></sup>.</p><p id="P3">Here, we describe an integrated computational and experimental approach that
+enables the rapid design and testing of tens of thousands of <italic toggle="yes">de novo</italic>
+mini-protein binders. Our approach exploits advances in both DNA manufacturing and
+protein design that have led to a fortunate convergence between the upper limit of the
+size of oligonucleotides (230 bp) that can be synthesized as pools of 10,000 or
+larger<sup><xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R10" ref-type="bibr">10</xref></sup>, and the lower limit of the size of genetically
+encodable computationally designed proteins (roughly 40 amino acids). To generate
+binders for a given target, we used Rosetta<sup><xref rid="R11" ref-type="bibr">11</xref></sup> to design thousands of protein scaffolds with varying shapes,
+dock these onto the target, optimize the residues at the interface for high-affinity
+binding, and identify, from the resulting pool of hundreds of thousands of designs,
+approximately 10,000 with high predicted stability and affinity. This large pool of
+computational designs, together with controls probing aspects of the design procedure,
+was then experimentally evaluated by encoding each individual sequence in a single
+oligonucleotide, manufacturing the oligonucleotides in parallel, sorting yeast libraries
+displaying the designs labelled with fluorescent targets, and using deep sequencing to
+identify the designs most enriched for binding (<xref rid="F9" ref-type="fig">Fig.
+1</xref>).</p><sec id="S1"><title>High-throughput computational design</title><p id="P4">As targets, we selected Influenza A H1 haemagglutinin (HA), as this virus
+remains a serious public health concern<sup><xref rid="R12" ref-type="bibr">12</xref></sup>, and botulinum neurotoxin B (BoNT/B), which causes the
+acute neuroparalytic syndrome of botulism and is one of the most lethal natural
+toxins known (with a lethal dose of approximately 1 ng per kg)<sup><xref rid="R13" ref-type="bibr">13</xref></sup>. We generated virtual scaffold libraries
+with over 4,000 backbone geometries in five different topologies: HHH, EHEE, HEE,
+EEHE, and HEEH (where H indicates an α-helix and E a β-strand) with
+or without<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref></sup> diverse disulfide connectivities (<xref rid="F9" ref-type="fig">Fig. 1a</xref>). To design binding interfaces, we
+superimposed helical segments of the scaffolds on interface helices in previously
+solved HA and BoNT/B complexes (the previously designed HA binders HB36.6 and
+HB80.4<sup><xref rid="R14" ref-type="bibr">14</xref>–<xref rid="R16" ref-type="bibr">16</xref></sup>, and the natural target of BoNT/B
+synaptotagmin-II (Syt-II)<sup><xref rid="R17" ref-type="bibr">17</xref></sup>),
+seeded the newly formed interfaces with hotspot residues from these helices (<xref ref-type="fig" rid="F1">Extended Data Fig. 1</xref>) and designed the remainder
+of the residues to maximize binding affinity and monomer stability using Rosetta
+combinatorial sequence optimization (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). The designs
+interact with the targets in a myriad of ways (<xref rid="F9" ref-type="fig">Fig.
+1b</xref>), with a wide range of buried surface areas at the interface (<xref rid="F9" ref-type="fig">Fig. 1c</xref>) resulting from variations in the Rosetta
+designed interactions outside the hotspot residues. As HA and BoNT differ in shape
+(the HA epitope is more concave and the BoNT epitope is flatter), the design
+protocol favoured different topologies in the two cases (α-β for HA
+and all α for BoNT).</p><p id="P5">For experimental characterization, we selected 7,276 designs against HA and
+3,406 designs against BoNT (see Methods). To probe contributions to folding and
+binding, we also included a variety of control sequences in which the amino acids
+outside the helical interface motif were randomly permuted, the core residues were
+randomly permuted, all the core residues were mutated to valine, the loop residues
+were mutated to Gly-Ser, or the designed binding sites were omitted. Oligo pools
+encoding all of the design and control sequences (16,968 in total) were synthesized,
+amplified, and co-transformed into yeast, along with a linearized yeast display
+vector (<xref rid="F9" ref-type="fig">Fig. 1d</xref>). The resulting yeast
+libraries, displaying the 16,968 proteins, were incubated with a range of
+concentrations of fluorescently labelled target, in some cases after protease
+treatment to remove poorly folded designs. Cells displaying designs that bound the
+target were retrieved by fluorescence-activated cell sorting (FACS, <xref rid="F9" ref-type="fig">Fig. 1e</xref>). The frequency of each design and control
+sequence in each pool was determined by deep sequencing the sorted cell populations,
+and the sequences were categorized on the basis of the sorting condition in which
+they were most enriched (<xref ref-type="fig" rid="F2">Extended Data Fig.
+2</xref>).</p><p id="P6">Deep sequencing of the initial yeast-transformed pools showed near complete
+representation of full-length genes; the HA pool contained 11,002 of the 11,657
+sequences ordered (94.4%) and the BoNT pool contained 5,306 of the 5,311
+sequences ordered (99.9%). Sorting the pools under conditions of increasing
+stringency (decreasing concentration of target) sharply reduced the number of
+distinct sequences recovered (<xref rid="F10" ref-type="fig">Fig. 2</xref>). For the
+BoNT pool, after sorting at target concentrations of 100, 10 and 1 nM, the enriched
+binder populations contained 2,685, 987 and 355 distinct sequences, respectively; a
+final higher stringency screen that involved incubating with protease before
+assaying for binding (to favour highly stable designs) reduced the population to 57
+distinct sequences. At 1 nM of BoNT with no protease treatment, 7.8% of the
+designed sequences, 5.1% of the scrambled core variants, 1.4% of the
+valine core variants and none of the Gly-Ser loop variants were enriched. For the HA
+pool, after sorting against HA (from influenza strain A/PuertoRico/8/1934 (PR8))
+concentrations of 1,000, 100 and 10 nM, the enriched populations contained 115, 41
+and 29 distinct sequences, respectively. For both targets, the population fraction
+of the computationally designed mini-proteins increased over that of the scrambled
+control sequences as selection stringency increased; computational design
+considerably increased the probability of binding the target with high affinity. The
+simplest explanation for this is that a substantial fraction of the proteins fold
+into the designed structures.</p><p id="P7">The design population included 3,264 BoNT designs with single disulfides and
+3,594 HA designs with multiple disulfides in geometrically allowed positions. For
+both targets, designs containing disulfides had similar success rates to those in
+which disulfides were absent (26.2% versus 25.5% for BoNT and
+0.5% versus 0.8% for HA), consistent with a late and non-instructive
+role for disulfides in protein folding. However, when the design libraries were
+treated with trypsin before binding selection, only disulfide-stabilized designs
+were recovered; although they do not guide protein folding, the disulfides clearly
+confer stability against proteolysis (<xref ref-type="table" rid="T1">Extended Data
+Table 1</xref>).</p></sec><sec id="S2"><title>Assessment of the computational model</title><p id="P8">The measured binding activity of a design reflects both the extent to which
+the protein is folded and the binding affinity of its folded state to the target. In
+general, sequences with binding activity had lower computed folding energies and
+binding energies (<xref rid="F11" ref-type="fig">Fig. 3a</xref>): this may be the
+largest-scale confirmation to date of the ability of a computational model to
+recapitulate protein-protein interactions. The second-order features most strongly
+associated with binding were local sequence- structure compatibility and the numbers
+of contacts across the interface (<xref rid="F11" ref-type="fig">Fig. 3b</xref>). On
+the basis of these results, we updated the design protocol (see Methods) and
+generated 11,420 new HA designs for a second round of experimental testing (<xref rid="F11" ref-type="fig">Fig. 3c</xref>), in which the success rate increased
+from 1.4% to 3.1% (producing 342 new HA binders). The improvement
+was particularly marked in the subset of HB2 seeded designs, improving the success
+rate almost tenfold from 0.23% to 1.9%. Iterations of this
+design–build–test cycle should reveal additional contributions that
+are missing in the current model, which can then be captured in the energy function
+and design protocol.</p><p id="P9">The large dataset provides an opportunity to determine whether extensive
+molecular dynamics simulations in explicit solvent can reproducibly distinguish
+binding and non-binding designs. We simulated 143 randomly selected non-binders and
+146 binders that were evenly split between HA and BoNT, for a total simulation time
+of 108 μs (see Methods). Although there was little correlation with the
+overall structural deviation from the design model, the interface hotspot residues
+fluctuated to a lesser extent in the binding designs than in the non-binding designs
+(<xref rid="F11" ref-type="fig">Fig. 3d</xref>), suggesting that binding site
+preorganization is important for binding and that molecular dynamics simulations
+capture this property reasonably well (<xref ref-type="fig" rid="F3">Extended Data
+Fig. 3</xref>).</p><p id="P10">To investigate the sequence dependence of folding and function in more
+detail, we generated and screened single-site saturation mutagen-esis (SSM)
+libraries for six HA and two BoNT designs, with every position mutated to every
+amino acid, one at a time (a total of 6,126 mutants). Substitutions at the binding
+interface and in the protein core were more disruptive than substitutions at surface
+positions, and almost all the cysteines were highly conserved in designs containing
+disulfides (<xref rid="F11" ref-type="fig">Fig. 3e–f</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig.
+3a–h</xref>). Rosetta designed interactions outside the hotspot regions
+were found to make important contributions to binding (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3a–h</xref>);
+mutations of the non-hotspot HB1.6928.2 residues Ala11, Trp19, and Tyr24 (see <xref rid="F12" ref-type="fig">Fig. 4a</xref>), for example, greatly decreased binding
+affinity. The effects of each mutation on both binding energy and monomer stability
+were estimated using Rosetta design calculations, and a reasonable correlation was
+found between the predicted and experimentally determined susceptibility of
+positions to mutation for three of the six designs for HB1 and both of the two BoNT
+designs (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig.
+2</xref>). Finally, the SSM datasets were used to guide generation of higher
+affinity HA and BoNT binders (see <xref ref-type="table" rid="T2">Extended Data
+Table 2</xref> and Methods).</p></sec><sec id="S3"><title>Individual characterization of designed binders</title><p id="P11">Eight BoNT and six HA binders, a mix of affinity-matured and original
+designs, were chemically synthesized or expressed in <italic toggle="yes">Escherichia
+coli</italic>, purified, and characterized in solution (<xref ref-type="table" rid="T2">Extended Data Table 2</xref>). All 14 designs had circular dichroism
+spectra consistent with the design models, and melting temperatures greater than 70
+°C (<xref ref-type="fig" rid="F4">Extended Data Fig. 4a</xref>). Designs
+containing disulfides did not unfold at 95 °C and were resistant to trypsin
+(<xref ref-type="fig" rid="F5">Extended Data Fig. 5</xref>); reduction of the
+disulfides with the reducing agent tris(2-carboxyethyl)phosphine (TCEP) considerably
+decreased their stability (<xref ref-type="fig" rid="F4">Extended Data Fig.
+4b,c</xref>). The BoNT binders bound to H<sub>C</sub>B with affinities ranging
+from 1 to 20 nM by biolayer interferometry, and also bound the serotype G of
+botulinum neurotoxin (BoNT/G) (see Methods and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 4</xref>). The HA binders
+bound to HA proteins from two H1N1 influenza strains, PR8 and A/California/04/2009
+(CA09); the three affinity- matured binders had affinities against CA09 below 10 nM
+(<xref ref-type="table" rid="T2">Extended Data Table 2</xref>). We succeeded in
+solving crystal structures of both HA and BoNT H<sub>C</sub>B binders (HB1.6928.2.3
+and Bot.671.2.1, respectively) in complex with their targets. In both cases the
+complexes were in excellent agreement with the computational design models
+(monomer-C<sub>α</sub> root-mean-square deviation (r.m.s.d.) =
+0.94 Å for HB1.6928.2.3, and 0.82 Å for Bot.671.2.1, see <xref rid="F12" ref-type="fig">Fig. 4a–b</xref>, <xref ref-type="fig" rid="F6">Extended Data Fig. 6</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Tables 1 and 2</xref>).</p><p id="P12">To compare the ability of the designs to survive high temperature exposure
+with that of antibodies, we incubated HB1.6928.2.3, Bot.671.2.1, and the
+haemagglutinin-targeting antibody mAb FI6v3 at 80 °C for various times
+before performing binding assays to their respective targets. The mini-protein
+binders showed no detectable loss of binding after 1 hour at high temperature, while
+FI6v3 binding activity was reduced by approximately 74% (<xref rid="F12" ref-type="fig">Fig. 4c</xref>). These results suggest that therapeutics relying
+on small designed proteins could bypass the requirement for cold chain management
+for monoclonal antibodies.</p><p id="P13"><italic toggle="yes">In vitro</italic> assays were carried out for BoNT and influenza.
+HB1.6928.2.3, an affinity-matured, disulfide-containing design, strongly neutralized
+PR8 and CA09 influenza viruses after 48 hours in culture, with a half-maximal
+effective concentration (EC<sub>50</sub>) value for Cal09 (CA09) more than 100-fold
+lower than the broadly neutralizing antibody FI6v3<sup><xref rid="R18" ref-type="bibr">18</xref></sup>, or the previously designed HB36.6<sup><xref rid="R14" ref-type="bibr">14</xref></sup>, on the basis of mass (<xref rid="F12" ref-type="fig">Fig. 4d</xref>; the EC<sub>50</sub> is similar to the
+antibody on a molar basis). Paralleling this, Bot.671.2 protected rat cortical
+neurons against the entry of the BoNT/B toxin and against cleavage of the
+vesicle-associated membrane protein 2 (VAMP2; the intracellular target of BoNT/B)
+(<xref rid="F12" ref-type="fig">Fig. 4e</xref>) at lower concentrations than
+Syt-II (the BoNT/B receptor), which contains the same hotspot residues (<xref ref-type="fig" rid="F7">Extended Data Fig. 7</xref>). The increase in protection
+is likely to reflect both the reduction in conformational entropy of the binding
+motif and the additional designed interface contacts.</p><p id="P14">HB1.6928.2.3 protected mice from influenza both pre- and post-exposure.
+Intranasal administration of HB1.6928.2.3 twenty-four hours before lethal challenge
+with CA09 influenza resulted in 100% survival at doses as low as 0.03 mg
+kg<sup>−1</sup>, which is 100-fold lower on the basis of mass than the
+dose of FI6v3 required for equivalent protection (<xref rid="F13" ref-type="fig">Fig. 5a</xref> and <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>). Therapeutic administration of a single 3 mg
+kg<sup>−1</sup> dose of HB1.6928.2.3 twenty-four hours after virus
+challenge resulted in 100% survival and little (less than 10%)
+weight loss (<xref rid="F13" ref-type="fig">Fig. 5b</xref>); the same dose
+administered 72 hours after challenge imparted complete protection and 100%
+survival (<xref rid="F13" ref-type="fig">Fig. 5b</xref>). Intravenous administration
+of HB1.6928.2.3, however, resulted in little protection, indicating that (as with
+the on-market drug Zanamivir<sup><xref rid="R19" ref-type="bibr">19</xref></sup>)
+intranasal administration is likely to be the optimal delivery route for these
+mini-proteins.</p><p id="P15">Three sequential doses of the mini-proteins, administered by intranasal or
+intravenous delivery every two weeks, induced little or no antibody response (<xref rid="F13" ref-type="fig">Fig. 5c</xref>): the low levels of antibody detected
+were comparable to those induced by mouse IgG (negative control), and substantially
+less than levels induced by human IgG (positive control). Intranasal administration
+of the influenza mini-protein binders 24 hours prior to viral challenge still
+achieved 100% prophylactic efficacy even in mice that had previously
+received four repeated intranasal or intravenous doses of the mini-protein over a
+space of twelve weeks (<xref rid="F13" ref-type="fig">Fig. 5d</xref>), indicating
+that any immune response and clearance is minimal and not sufficient to interfere
+with antiviral potency. The low immunogenicity is likely to be a consequence of the
+very small size and hyperstability of the mini-proteins, and suggests that the
+binders could be used for prophylactic protection against influenza over an extended
+period of time. To our knowledge, this is the first investigation of the
+immunogenicity of <italic toggle="yes">de novo</italic> designed proteins.</p></sec><sec sec-type="conclusions" id="S4"><title>Conclusions</title><p id="P16">The high throughput of our pipeline from computational design to
+experimental testing enables the characterization of computationally designed
+binding proteins on a scale that is orders of magnitude greater than those of
+previous studies, providing insights into the contributions to folding and binding
+on thousands of test cases simultaneously. For example, our observation that
+substituting designed loop sequences with generic Gly-Ser linkers reduced binding
+fitness to a greater degree than did substituting the designed core residues with
+valine (or scrambling their order) suggests that loops may play an underappreciated,
+instructive role in the folding of proteins of this size. Different topologies were
+found to be optimal for the BoNT and HA interfaces, supporting the hypothesis that
+no single protein topology or shape is the best fit for all interfaces. The
+massively parallel design process succeeded in generating folded high-affinity
+binding proteins despite uncertainties in designing 40-residue proteins with
+multiple hydrophobic residues (which potentially complicate folding) on their
+surfaces. Iteration between data-driven model improvement and experimental testing
+is likely to improve both the computational design methodology and our understanding
+of the determinants of folding and binding: the limited number of native protein
+structures from which much of our current knowledge is derived is dwarfed by the
+nearly unlimited number of <italic toggle="yes">de novo</italic> proteins that can be designed
+and tested using our approach.</p><p id="P17"><italic toggle="yes">De novo</italic> protein design has the potential to generate
+pharmaceutically superior molecules that combine the specificity of antibodies with
+the high stability and manufacturability of small molecules. Designed protein
+binders have previously been produced by re-engineering naturally occurring
+proteins; although these achieve some of the above goals (such as accurate
+site-specific binding), they are not more robust than antibodies. The <italic toggle="yes">de
+novo</italic> designed binders described here exhibit much greater stability to
+incubation at elevated temperatures and better neutralization than comparable
+antibodies and natural protein derivatives, have approximately 1/30th of the
+molecular weight, and are readily chemically synthesizable, which enables the
+introduction of a wide variety of chemical functionality. Probably as a result of
+their small size and very high stability, they elicit little immune response even
+without explicit negative design<sup><xref rid="R20" ref-type="bibr">20</xref></sup>, and the best of the HA designs provides prophylactic and
+therapeutic protection against influenza infection <italic toggle="yes">in vivo</italic> with a
+potency rivalling or surpassing that of antibodies. Unlike antibodies, the
+mini-proteins do not contain the effector recruiting IgG Fc region; our results show
+the latter is not required for potent protection against influenza, and therapeutics
+which lack the Fc could avoid issues of antibody enhanced infectivity. More
+generally, hyperstable designed mini-proteins show promise for both therapeutic and
+diagnostic applications.</p></sec><sec sec-type="methods" id="S5"><title>METHODS</title><p id="P18">Unless stated otherwise, the experiments were not randomized and the
+investigators were not blinded to allocation during experiments and outcome
+assessment.</p><sec id="S6"><title>Mini-protein binders design</title><p id="P19">Mini-protein design began by defining a variety of mixed
+α–β and α-only scaffold topologies using the
+RosettaRemodel ‘blueprint’ format<sup><xref rid="R21" ref-type="bibr">21</xref></sup> with the requirement of at least one
+10–14-residue helix. The blueprints were used to generate backbones
+using the Rosetta Monte Carlo-based fragment assembly protocol<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup>. Between one and three disulfides were added to a
+subset of these backbones at geometrically allowed positions. Sequence design
+was performed using the FastDesign protocol with layer control active,
+alternating between side-chain rotamer optimization and gradient-descent-based
+energy minimization. For each topology, over 10,000 structures were generated
+and filtered on overall energy per residue and score terms related to backbone
+quality, compactness and disulfide quality (see <xref ref-type="supplementary-material" rid="SD1">Supplementary
+Appendix</xref>).</p><p id="P20">To match the mini-protein scaffolds with the desired target
+helix-binding motifs, we used the Rosetta MotifGraft Mover<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>. The inputs were composed of: (1) HB36, HB80 or Syt-II helical
+binding motifs (Protein Databank (PDB) IDs: 3R2X, 4EEF and 2NM1, respectively);
+(2) the context target protein (influenza HA or BoNT H<sub>C</sub>B); and (3)
+the above described library of <italic toggle="yes">de novo</italic> mini-protein scaffolds.
+Matching parameters were set to perform full backbone alignment of the input
+motif, with a maximum backbone r.m.s.d. = 1 Å, endpoints
+r.m.s.d. = 1 Å, clash_score_cutoff = 5 and enabling
+revert_graft_to_native_sequence. In the case of BoNT/B’s Syt-II binding
+domain, the hotspots were defined as: Met1, Phe2, Leu5, Lys6, Lys8, Phe9, Phe10,
+Glu12, Ile13 (see <xref ref-type="fig" rid="F1">Extended Data Fig. 1</xref>).
+For the influenza HA HB80.4 (HB1) binding domain, the hotspots were defined as:
+Phe1, Ile5, Ile9, Phe13. For the influenza HA HB36.6 (HB2) binding domain, the
+hotspots were defined as: Phe1, Met5, Trp9, Phe13. Following MotifGraft, we
+performed Rosetta’s sequence repack of interface neighbouring residues
+(except hotspots), Cartesian minimization and filtering using the scoring
+function Talaris2013 or Talaris2014.</p><p id="P21">After the first round of HA design and testing, the
+Kolmogorov–Smirnov two-sample test was used to determine
+<italic toggle="yes">P</italic> values for the null hypothesis that the computational
+metrics of the binding versus non-binding designs were drawn from the same
+underlying distribution. Using the metrics that correlated strongly with success
+(such as those shown <xref rid="F11" ref-type="fig">Fig. 3b</xref>), a second
+round of HA design was performed which incorporated more stringent filtering on
+a broader range of metrics. The metrics used to select the first round of HA
+designs were delta G of binding (ddg filter), shape complementarity (sc), and
+interface buried surface area (SASA). The additional metrics used to select the
+second generation HA designs and shown to be highly predictive of round one
+success in the logistic regression model (<xref rid="F11" ref-type="fig">Fig.
+3c</xref> inset) were average degree (degree), side-chain probability given
+phi-psi (p_aa_pp), per cent core by side-chain neighbours, phi-psi probability
+given side-chain (rama) and more stringent shape complementarity. Design models
+are available online (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://zenodo.org">https://zenodo.org</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.5281/zenodo.838815">http://dx.doi.org/10.5281/zenodo.838815</ext-link>).</p></sec><sec id="S7"><title>Software analysis</title><p id="P22">All amino acid sequences were reverse translated and codon optimized for
+yeast using DNAworks 2.0<sup><xref rid="R25" ref-type="bibr">25</xref></sup>.
+Sequence identity calculations were performed with a subset of designs using
+PRALINE<sup><xref rid="R26" ref-type="bibr">26</xref></sup> after
+PSI-BLAST global alignment. Sequencing pairing after Illumina deep sequencing
+was performed using PEAR<sup><xref rid="R27" ref-type="bibr">27</xref></sup>.
+Plots and visualizations were created using Seaborn statistical visualization
+tools<sup><xref rid="R28" ref-type="bibr">28</xref></sup>, Python
+(Python Software Foundation) and Python’s scikit- learn (INRIA).</p></sec><sec id="S8"><title>Gene pools</title><p id="P23">Oligo library pools ordered from either CustomArray or Agilent with all
+genes 3′ and 5′ flanked with common 20-bp adaptor segments to
+allow amplification. We obtained conventional oligonucleotides (PCR primers and
+sequencing primers) from Integrated DNA Technologies. The raw oligonucleotide
+pools were amplified with Kapa HiFi Hotstart Ready Mix (Kapa Biosystems) using
+extension primers to add pETCON yeast homologous recombination segments (40 bp)
+to each end. All amplifications were performed using real-time PCR on a
+MiniOpticon (Bio-Rad) for between 9 and 20 cycles. Quantitative PCR
+amplification was critical as over-amplification of gene pools resulted in low
+transformation efficiency. Amplified pools were size-selected on a 2%
+agarose gel and cleaned (Qiagen QIAquick Gel Extraction Kit). A second round of
+quantitative PCR amplification was performed with the same primers on the
+size-selected pools to generate 2–4μg of DNA. Yeast EBY100 cells
+were transformed with library DNA and linearized pETCON plasmid<sup><xref rid="R29" ref-type="bibr">29</xref></sup> using an established
+protocol<sup><xref rid="R30" ref-type="bibr">30</xref></sup>. After
+transformation (minimum 1 × 10<sup>7</sup> transformants), cells were
+grown overnight in SDCAA medium in 30-ml cultures at 30 °C, passaged
+once, and stored in 20 mM HEPES 150 mM NaCl pH 7.5, 20% (w/v) glycerol
+in 1 × 10<sup>7</sup>-cell aliquots at −80°C.</p></sec><sec id="S9"><title>Yeast display and deep sequencing</title><p id="P24">Cell aliquots were thawed on ice, centrifuged at 13,000 r.p.m. for 30 s,
+resuspended in 1 × 10<sup>7</sup> cells per ml of C-Trp-Ura medium and
+grown at 30 °C for 16 h. Cells were then centrifuged at 13,000 r.p.m.
+for 1 min and resuspended at 1 × 10<sup>7</sup> cells per ml SGCAA
+medium and induced at 30 °C for 16–24 h. Cells were labelled
+with either biotinylated BoNT H<sub>C</sub>B, PR8 haemagglutinin, or CA09
+haemagglutinin, washed, secondarily labelled with streptavidin- phycoerythrin
+(SAPE, Invitrogen) and anti-c-Myc fluorescein isothiocyanate (FITC, Miltenyi
+Biotech), and sorted by fluorescent gates under various stringency conditions
+using a Sony SH800. HA target proteins were produced as previously
+described<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. Cells
+were recovered overnight at 2.5 × 10<sup>5</sup> collected cells per ml
+SDCAA medium, whereupon at least 1 × 10<sup>7</sup> cells were spun down
+at 13,000 r.p.m. for 1 min and stored as cell pellets at −80 °C
+before library preparation for deep sequencing. Between 1 ×
+10<sup>7</sup> and 4 × 10<sup>7</sup> yeast cells were barcoded and
+prepared for deep sequencing for each library as previously described<sup><xref rid="R15" ref-type="bibr">15</xref></sup>. Enhanced score files
+including all sequences ordered, computational metrics, and enrichments are
+available online (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://zenodo.org">https://zenodo.org</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.5281/zenodo.838815">http://dx.doi.org/10.5281/zenodo.838815</ext-link>).</p></sec><sec id="S10"><title>SSM and affinity maturation</title><p id="P25">SSM libraries for eight designs (<xref rid="SD1" ref-type="supplementary-material">Supplementary Figs 2</xref> and <xref rid="F11" ref-type="fig">3a–h</xref>) were constructed from Agilent
+gene pools, and yeast display selections performed as described above, using
+target protein concentrations of 1,000 nM, 100 nM, 10 nM and 1 nM for HA, and
+100 nM, 10 nM, 1 nM, 1nM + (trypsin at 18.5 μg
+ml<sup>−1</sup>) for BoNT H<sub>C</sub>B. Upon deep sequencing, the
+five most beneficial mutations at nine positions in each of the HA designs
+predicted to result in higher affinity were combined into high-diversity
+libraries (&lt;1 × 10<sup>7</sup>) using wobble bases as guided by
+SwiftLib<sup><xref rid="R31" ref-type="bibr">31</xref></sup>. A DNA
+library for each design was constructed from assembly PCR using Ultramer
+oligonucleotides (Integrated DNA Technology) to encode the variable region.
+Primers and sequences are listed in <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 3</xref>. These libraries went through three
+increasing stringency sorts: rd1 100 nM, rd2 10 nM, and rd3 1 nM against CA09.
+Promising constructs were identified through Sanger sequencing of a subset of
+the final rd3 pool. Versions of the BoNT designs were directly generated from
+SSMs by incorporating the best beneficial mutations to create high-affinity
+variants; no selections were used.</p></sec><sec id="S11"><title>Mini-protein expression and peptide synthesis</title><p id="P26">Genes encoding the designed protein sequences were synthesized and
+cloned into pET−28b(+) <italic toggle="yes">E. coli</italic> plasmid
+expression vectors (GenScript, N-terminal 6 × His tag and thrombin
+cleavage site). Plasmids were then transformed into chemically competent
+<italic toggle="yes">E. coli</italic> Lemo21 cells (NEB). Protein expression was then
+induced with 1 mM of isopropyl β-D-thiogalactopyranoside (IPTG) at 18
+°C. After overnight expression, cells were collected and purified by
+nickel affinity followed by size-exclusion fast protein liquid chromatography
+(Superdex 75 10/300 GL, GE Healthcare) and mass spectrum verification of the
+molecular weight of the species in solution (Thermo Scientific). Peptide
+sequences were synthesized from commercial vendors Biomatik or CS Bio in 50 mg
+quantities with 70% purity requirements. Sequences containing cysteines
+underwent standard natural oxidation performed by vendor.</p></sec><sec id="S12"><title>Circular dichroism</title><p id="P27">Far-ultraviolet circular dichroism measurements were carried out with an
+AVIV spectrometer model 420 in PBS buffer (pH 7.4) in a 1 mm path-length cuvette
+with protein concentration of approximately 0.25 mg ml<sup>−1</sup>
+(unless otherwise mentioned in the text). Temperature melts were from 25 to 95
+°C and monitored absorption signal at 222 nm (steps of 2 °C per
+min, 30 s of equilibration by step). Wavelength scans (195–260 nm) were
+collected at 25 °C and 95 °C, and again at 25 °C after
+fast refolding (roughly 5 min). Four chemically synthesized,
+disulphide-containing mini-proteins (see <xref ref-type="fig" rid="F4">Extended
+Data Fig. 4b</xref>) were also characterized at a concentration of
+approximately 0.2 mg ml<sup>−1</sup> in the absence or presence of 2.5
+mM of the reducing agent TCEP<sup><xref rid="R5" ref-type="bibr">5</xref></sup>.</p></sec><sec id="S13"><title>Biolayer Interferometry</title><p id="P28">Binding data were collected in an Octet RED96 (ForteBio) and processed
+using the instrument’s integrated software using a 1:1 binding model.
+For BotNT/B binding proteins, the target BoNT heavy chain protein domains
+(H<sub>C</sub>B or H<sub>C</sub>G) were covalently linked to amine-reactive
+sensors (ARG2, ForteBio) at 5 μg ml<sup>−1</sup> in acetate
+buffer for 300 s, while the binding proteins to assay were diluted from a
+concentrated stock into binding buffer (10 mM HEPES, pH 7.4, 150 mM NaCl, 3 mM
+EDTA, 0.05% surfactant P20, 0.5% non-fat dry milk). For
+influenza binding proteins, streptavidin-coated biosensors were dipped in wells
+containing biotinylated HA proteins (100 nM) in binding buffer for
+immobilization for 300 s, while the binding proteins to assay were diluted from
+a concentrated stock into binding buffer (1 × phosphate buffered saline
+(PBS) pH 7.4, 0.01% BSA, 0.002% Tween 20). After baseline
+measurement in binding buffer alone, the binding kinetics were monitored by
+dipping the biosensors in wells containing defined concentrations of the
+designed protein (association) and then dipping the sensors back into baseline
+wells (dissociation). For heat-time courses, the proteins were incubated for
+defined times at a concentration of 160 nM in PBS buffer (150 nM NaCl, pH
+= 7.4) and then diluted to 8 nM in the final buffer and assayed as
+described above.</p></sec><sec id="S14"><title>BoNT/B (H<sub>C</sub>B) co-crystal structures</title><p id="P29">H<sub>C</sub>B was expressed and purified as previously
+described<sup><xref rid="R32" ref-type="bibr">32</xref></sup>. For X-ray
+crystallography, the H<sub>c</sub>B-Bot.671.2 complex was prepared by mixing
+H<sub>C</sub>B with the binder at a molar ratio of 1:1.5 and the complex was
+further purified by a Superdex 200 SEC (GE Healthcare) in a buffer containing
+150 mM NaCl, 10 mM Hepes pH 7.0, 1 mM TCEP Initial crystallization screens were
+carried out using a Gryphon crystallization robot (Art Robbins Instrument) and
+commercial high-throughput crystallization screen kits from Hampton Research and
+Qiagen. After extensive manual optimization, the best crystals were grown by
+sitting-drop vapour diffusion at 18 °C. The protein (5 mg
+ml<sup>− 1</sup>) was mixed in 2:1 ratio with a reservoir solution
+containing 100 mM Tris pH 8.0, 25% polyethylene glycol (PEG) 400. The
+crystals were cryoprotected in the original mother liquor and flash-cooled in
+liquid nitrogen. X-ray diffraction data were collected at 100 K at beamline
+24-ID-E, Advanced Photon Source (APS). The data were processed using
+XDS<sup><xref rid="R32" ref-type="bibr">32</xref>,<xref rid="R33" ref-type="bibr">33</xref></sup>. The structure was determined by
+molecular replacement software Phaser using the structure of the H<sub>C</sub>B
+(PDB code: 2NM1) as the search model<sup><xref rid="R32" ref-type="bibr">32</xref></sup>. The manual model building and refinement were
+performed in COOT<sup><xref rid="R34" ref-type="bibr">34</xref></sup> and
+PHENIX<sup><xref rid="R35" ref-type="bibr">35</xref></sup> in an
+iterative manner. The refinement progress was monitored with the
+<italic toggle="yes">R</italic><sub>free</sub> value<sup><xref rid="R36" ref-type="bibr">36</xref></sup> using a 5% randomly selected test set. The
+structures were validated through the MolProbity web server<sup><xref rid="R36" ref-type="bibr">36</xref>,<xref rid="R37" ref-type="bibr">37</xref></sup> and showed excellent stereochemistry. Data collection and
+structural refinement statistics are listed in <xref ref-type="supplementary-material" rid="SD1">Supplementary Table
+1</xref>.</p></sec><sec id="S15"><title>Influenza H1 co-crystal structure</title><p id="P30">For the HA-HB1.6928.2.3 complex, A/PuertoRico/8/1934 HA and HB1.6928.2.3
+peptide (in 25 mM Tris pH 8.0, 150 mM NaCl) were mixed at a 1:4 molar ratio at a
+final concentration of 10 mg ml<sup>−1</sup> HA in 25 mM Tris pH 8.0,
+150 mM NaCl. Crystals were grown with a well solution of 5% PEG 3000,
+30% PEG 200, 100 mM MES pH 6.0 using the sitting drop vapour diffusion
+method and directly flash cooled in liquid nitrogen. Data were collected at ALS
+beamline 5.0.3 and processed with HKL2000<sup><xref rid="R38" ref-type="bibr">38</xref></sup>. Phaser<sup><xref rid="R35" ref-type="bibr">35</xref>,<xref rid="R38" ref-type="bibr">38</xref></sup> was used for
+molecular replacement within Phenix<sup><xref rid="R39" ref-type="bibr">39</xref></sup> using a single protomer of PR8 H1 HA (PDB ID:
+1RVX<sup><xref rid="R40" ref-type="bibr">40</xref></sup>) as a search
+model. The HB1.6928.2.3 peptide was manually built into
+<italic toggle="yes">F<sub>O</sub>—F<sub>C</sub></italic> and
+<italic toggle="yes">2F<sub>O</sub>—F<sub>C</sub></italic> maps using clearly
+defined aromatic residues and disulfide bonds to confirm the register. The model
+was refined through iterative rounds of model building in COOT<sup><xref rid="R34" ref-type="bibr">34</xref></sup> and refinement in Phenix. TLS
+groups were automatically identified by Phenix. Glycans and waters were manually
+added and edited in COOT. The final model was assessed with quality metrics
+within the Phenix.refine interface which utilizes MolProbity<sup><xref rid="R37" ref-type="bibr">37</xref></sup>. Data collection and refinement
+statistics are listed in <xref ref-type="supplementary-material" rid="SD1">Supplementary Table 2</xref>.</p></sec><sec id="S16"><title>Molecular dynamics simulations</title><p id="P31">A total of 289 independent mini-protein binders (without the target)
+were simulated (143 for BoNT, and 146 for Influenza H1 HA see <xref ref-type="fig" rid="F3">Extended Data Fig. 3</xref>) using Gromacs
+5.04<sup><xref rid="R41" ref-type="bibr">41</xref></sup> and
+Amber99sb-ILDN force field<sup><xref rid="R42" ref-type="bibr">42</xref></sup>.
+Each protein was simulated in a triclinic box with explicit water solvent
+(TIP3P<sup><xref rid="R43" ref-type="bibr">43</xref></sup>), with box
+edges at least 10 Å from the protein. Counterions
+(Na<sup>+</sup> and Cl<sup>−</sup>) were used to neutralize
+the system. Integration time step was 2 ps and LINCS<sup><xref rid="R44" ref-type="bibr">44</xref></sup> was applied to constrain all the bonds.
+Long-range electrostatics (greater than 12 Å) were treated with the
+particle-mesh Ewald method<sup><xref rid="R45" ref-type="bibr">45</xref></sup>.
+Van der Waals interactions were smoothly switched off between 10 Å and
+12 Å. After minimization (10,000 steps), the system was position
+restrained for 200 ps in an NVT ensemble (only heavy atoms, restraint =
+10 kJ per mol × Å<sup>−2</sup>, <italic toggle="yes">T</italic>
+= 310 K), followed by 500 ps of NPT (<italic toggle="yes">T</italic> = 310 K,
+restraint = 10 kJ per mol × Å<sup>−2</sup>, 1
+bar) using Berendsen thermostat and barostat<sup><xref rid="R46" ref-type="bibr">46</xref></sup>. For each protein, we then performed five independent
+NPT production simulations (<italic toggle="yes">T</italic> = 310K, 1 bar) with 500
+ps of initial temperature annealing (<italic toggle="yes">T</italic><sub>0</sub> =
+50, <italic toggle="yes">T</italic><sub>final</sub> = 310 K) using V-rescale
+thermostat<sup><xref rid="R47" ref-type="bibr">47</xref></sup> and
+Parrinello-Rahman Barostat<sup><xref rid="R48" ref-type="bibr">48</xref></sup>.
+Each production simulation was in the length of 100 ns for BoNT and 50 ns for
+influenza binders (see <xref ref-type="supplementary-material" rid="SD1">Supplementary Information</xref>). Snapshots were recorded every 50 ps, and
+all of them were used for subsequent data analysis (<xref ref-type="fig" rid="F3">Extended Data Fig. 3</xref>).</p></sec><sec id="S17"><title>Influenza neutralization assays</title><p id="P32">One hundred TCID50 units of virus and half-log dilutions of binders were
+incubated in quadruplicate at 37 °C for two hours in 200 μl
+neutralization assay medium (‘NAM’: medium 199, 0.3%
+BSA, 10 mM HEPES, 1 mM CaCl<sub>2</sub>, penicillin-streptomycin).
+Ninety-six-well plates with confluent monolayers of Madin–Darby canine
+kidney epithelial cells (ATCC) were washed twice with PBS followed by addition
+of 50 μl of 5 μg ml<sup>−1</sup> TPCK-trypsin in NAM and
+the virus/binder neutralization mix. Plates were incubated for 48 h and virus
+detected by combining 50 μl each of assay supernatants and 0.5%
+turkey red blood cells (TRBC). Virus-positive wells that haemagglutinated the
+TRBC were identified, and the EC<sub>50</sub> was calculated using
+Reed–Muench method.</p></sec><sec id="S18"><title>Botulinum neurotoxin neutralization assays</title><p id="P33">All procedures were conducted in accordance with the guidelines approved
+by the Institute Animal Care and Use Committee (IACUC) at Boston
+Children’s Hospital (#3030). Timed-pregnant rats (Sprague Dawley
+strain, purchased from Charles River) were euthanized and primary rat cortical
+neurons were prepared from E18–19 embryos using a papain dissociation
+kit (Worthington Biochemical). For immunoblot analyses, neurons were exposed to
+BoNT/B (20 nM) or BoNT/A (10 nM) with GST-Syt-II or Bot.671.2 for 10 min in high
+[K<sup>+</sup>] buffer. Subsequently, the neurons
+were washed and incubated in culture medium for 10 h (BoNT/B) or 6 h (BoNT/A).
+Cells were then lysed (lysis buffer: PBS, 1% Triton X-100, 0.05%
+sodium dodecyl sulfate (SDS), plus protease inhibitor cocktail (Roche)). Lysates
+were centrifuged (4 °C) for 5 min at maximum speed using a
+microcentrifuge. The supernatants were collected for immunoblot analysis against
+BoNT/A, BoNT/B or actin. For immunocytochemistry, the neurons were seeded on
+cover glass in 24-well plates. The cells were then exposed to 20 nM BoNT/B for
+10 min (middle panel, positive control), or with 20 nM BoNT/B and 600 nM
+Bot.671.2 for 10 min. Cells were washed with PBS and fixed with 4%
+paraformaldehyde for 20 min. The cells were then blocked with PBS containing
+10% goat serum for 45 min and exposed to primary antibody (rabbit
+anti-BoNT/B antibody) for 1 h and secondary antibody (Alexa-488) for 1 h. The
+coverslips were then mounted on a slide and images collected using a
+fluorescence microscope. See <xref ref-type="fig" rid="F7">Extended Data Fig.
+7</xref>.</p></sec><sec id="S19"><title><italic toggle="yes">In vivo</italic> immunogenicity and influenza challenge</title><p id="P34">Animal studies were approved by the University of Washington
+Institutional Animal Care and Use Committee. BALB/c mice (female, 6–8
+weeks old, <italic toggle="yes">n</italic>=5–10 per group) were randomly
+separated into groups, anaesthetized and then were dosed either intranasally or
+intravenously with PBS (negative control), the antibody FI6 (SFFV-FI6v3 IgG,
+Molecular design &amp; Therapeutics) or mini-protein binders (HB1.6928.2.3
+or HB36.6). Between 24 and 96 h after being dosed (see <xref rid="F13" ref-type="fig">Fig. 5</xref>), the mice were anaesthetized with 2.5%
+isoflurane and challenged intranasally with 2 MLD<sub>50</sub> of CA09.
+Following challenge, the mice were monitored twice daily for weight loss and
+survival until up to 14 days post-infection. Animals that lost 30% of
+their body weight (as a proportion of their initial weight) were euthanized by
+carbon dioxide in accordance with our animal protocols. For the immunogenicity
+experiment, BALB/c mice (female, 6–8 weeks old, <italic toggle="yes">n</italic>
+= 5 per group) were randomly separated into groups, anaesthetized and
+dosed with (intranasal or intravenous) PBS, mini-proteins (HB1.5702.3.3,
+HB1.6928.2.3, HB1.6394.2.3, HB36.6, Bot2110.4 or Bot3194.4), or monoclonal
+antibodies mIgG (Innovative IR-MSBC-GF) or hIgG (Innovative IR-HU-GF-ED). A
+total of three or four doses were administered two weeks apart for both the
+intranasal and intravenous doses. Blood was collected two weeks after each dose
+by retro orbital bleed using micro-haematocrit capillary tubes (Fisher). Serum
+was separated by centrifuging the blood samples in polymer gel chemistry tubes.
+For mouse experiments, researchers were not blinded to animal identity.</p></sec><sec id="S20"><title>ELISA</title><p id="P35">HB36.6, HB1.6928.2.3, HB1.6394.2.3, Bot 2110.4, Bot 3194.4, mIgG, hIgG
+and BSA-specific IgG antibody levels in mouse serum were assessed by ELISA.
+Maxisorp (Thermo Scientific-Nunc) were coated with 100 ng per well of HB36.6,
+HB1.5702.3.3, HB1.6928.2.3, HB1.6394.2.3, Bot 2110.4, Bot 3194.4, mIgG
+(Innovative IR-MSBC-GF), hIgG (Innovative IR-HU-GF-ED) or BSA (LAMPIRE
+Biological laboratories, cat no. 7500804) in PBS overnight at 4 °C.
+Plates were blocked with 5% nonfat milk powder in PBS for 1 h at room
+temperature, and then washed three times with wash buffer (PBS-T;
+phosphate-buffered saline containing 0.05% Tween 20). Samples were
+diluted in a buffer containing 1% nonfat milk powder in PBS-T, added to
+the wells, and incubated for 1 hr at room temperature. Following three washes
+with PBS-T, plates were incubated with horseradish-peroxidase conjugated goat
+anti-mouse IgG (1/5,000 dilution) secondary antibodies (ThermoFisher
+62–6520) for 1 h at room temperature. After five washes with PBS-T, TMB
+substrate (KPL 52-00-03) was added to the wells for 30 min at room temperature.
+Colour development was stopped by the addition of 50 μl HCl (1 M), and
+the plates were read at 450 nm to measure relative optical densities. The
+average optical density of blank wells was subtracted to calculate the reported
+values.</p></sec><sec id="S21"><title>Statistical and power analyses</title><p id="P36">For animal studies, mice were randomly assigned to either treatment or
+control groups. In mouse influenza challenge studies, investigators were blinded
+to which treatment group each animal was assigned to during measurement of
+weight loss and survival. For all other analyses, investigators were not blinded
+to treatment groups or in the data analysis. A group size of <italic toggle="yes">n</italic>
+= 10 mice was determined based on power analysis, yielding 80%
+power to discern a difference of 5% weight-change between groups at an
+alpha value of 0.05, considering a standard deviation of 4% in
+weight-change at 4–7 days after infection. Survival analyses were
+performed using the Kaplan–Meier log–rank test. A
+<italic toggle="yes">P</italic> value of &lt;0.05 was considered to be significant.
+For mice, the minimum group size was determined using weight loss data with
+70% of control mice becoming infected with CA09. Comparisons in antibody
+responses were performed using unpaired student <italic toggle="yes">t</italic>-test. With a
+standard deviation of 2% in weight loss, a group size of
+<italic toggle="yes">n</italic> = 5 yields &gt;80% power to detect a
+minimum of a 10% difference between groups in weight loss using a
+two-sided <italic toggle="yes">t</italic>-test with an alpha value of 0.05.</p></sec><sec id="S22"><title>Code availability</title><p id="P37">Computational protein designs and filtering were performed using
+RosettaScripts. The respective XML code is available as part of the <xref ref-type="supplementary-material" rid="SD1">Supplementary Information
+Appendices A–C</xref>.</p></sec><sec id="S23"><title>Data availability</title><p id="P38">Computational design models, Rosetta-metrics, and experimental results
+that support the findings in this study have been deposited in the online zenodo
+repository (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://zenodo.org">https://zenodo.org</ext-link>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.5281/zenodo.838815">http://dx.doi.org/10.5281/zenodo.838815</ext-link>). Structures have been
+submitted to the Research Collaboratory for Structural Bioinformatics Protein
+Databank under the codes 5VLI (HB1.6928.2.3 co-crystal with influenza HA), 5VID
+(Bot.671.2 co-crystal with BoNT H<sub>C</sub>B) and 5VMR (Bot.2110.4 co-crystal
+with BoNT H<sub>C</sub>B).</p></sec></sec><sec id="S24"><title>Extended Data</title><fig id="F1" orientation="portrait" position="anchor"><label>Extended Data Figure 1</label><caption><title>Target proteins architecture and interactions with anti-BoNT/B and
+anti-influenza motifs</title><p id="P39"><bold>a</bold>, Full complex of BoNT, showing heavy chain binding
+domain (H<sub>C</sub>B) target epitope position in relation to catalytic and
+translocation domains. Inset shows inhibitory fragment Syt-II (in orange)
+bound to H<sub>C</sub>B with hotspots shown as sticks, and grey areas
+excluded from design calculations. <bold>b</bold>, Crystal structure of
+SC1918/H1 showing HA1 and HA2 subunits in complex with HB36.3. Inset shows
+detailed view of HB36.3 (in green) bound to stem region epitope with
+hotspots shown as sticks, and grey areas excluded from design calculations.
+<bold>c</bold>, Crystal structure of SC1918/H1 showing HA1 and HA2
+subunits in complex with HB80.4. Inset shows detailed view of HB80.4 (in
+magenta) bound to stem region epitope with hotspots shown as sticks, and
+grey areas excluded from design calculations.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f1.jpg"/></fig><fig id="F2" orientation="portrait" position="anchor"><label>Extended Data Figure 2</label><caption><title>Categorization of binders from high- throughput sequencing data of
+yeast-display FACS-sorted yeast pools</title><p id="P40"><bold>a</bold>, Schematic representation of a resulting yeast pool
+experiment transformed with four genes, corresponding to four different
+binder designs (colours: blue, orange, grey, yellow). The first column
+represents the initial yeast pool, which presents some variability in the
+initial number of cells transformed with each gene. Subsequently, the cells
+are subject to different stringencies of selection condition (display, high,
+medium and low target concentrations). The number of cells selected during
+FACS (see Methods) is proportional to both the binding affinity and the
+fractional population of the design. <bold>b</bold>, Instead of observing a
+‘classical’ readout where each measurement is directly
+proportional to the amount of binding, the result is a convoluted readout
+(using high-throughput sequencing of each FACS of selected yeast pools under
+different conditions, see Methods) of both the population fraction and the
+binding strength. <bold>c</bold>, Our method of analysing the strength of an
+individual design is to assign each of them to a binding condition
+(category) if they produce a peak in its enrichment (as compared to its own
+initial population in the unselected, but displaying, population). Since, at
+higher categories, ‘better’ binders will always out-compete
+weaker ones, this method clusters binders into categories of binding (for
+example, weak, medium, or strong). If protease is used to further select the
+populations for stability, the same concept applies (see <xref rid="F10" ref-type="fig">Fig. 2</xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f2.jpg"/></fig><fig id="F3" orientation="portrait" position="anchor"><label>Extended Data Figure 3</label><caption><title>Molecular dynamics simulations to assess the flexibility of mini-protein
+binder designs, their binding motifs and hotspots</title><p id="P41"><bold>a</bold>, Schematic representations of the helical segments
+and hotspots used to calculate the average r.m.s.d. for mini-protein binders
+containing binding motifs from HB36, HB80 and Syt-II. The four conserved
+hotspots (orange) used to calculate the average r.m.s.d. of each binding
+motif are also shown. <bold>b</bold>, Top, average r.m.s.d.s (with respect
+to the designed bound conformation) of the whole mini-proteins versus those
+of the hotspots. The results for non-binders and binders are shown in black
+and red, respectively. Bottom panel, same as top, except that the x-axis
+displays the r.m.s.d.s of the entire helical motif. These results were
+obtained from an aggregation of 108 μs molecular dynamics
+simulations, from a representative sample of designs (143 for BoNT and 146
+for influenza, see Methods for details). The r.m.s.d. values for hotspot
+residues were calculated using a subset of side-chain heavy atoms that are
+invariant to the rotation of the aromatic ring (CG and CZ for Phe and Tyr).
+The backbone heavy atoms were used for the r.m.s.d. calculations of
+‘binding helical motif’ and ‘whole protein’.
+<bold>c</bold>, The convergence of molecular dynamics simulations
+discriminates binders and non-binders as a function of simulation length (30
+ns, 40 ns, 50 ns and 100 ns), subject to a similar amount of total sampling.
+The results show that simulations of 50 ns in duration are sufficient to
+discriminate the stability of binders and non-binders, even though longer
+molecular dynamics simulations (such as 100 ns) may further improve the
+discrimination power. Ten randomly selected mini-proteins designed against
+BoNT (which are also included in <bold>b</bold>) were used in this figure.
+<bold>d</bold>, Similar to <xref rid="F11" ref-type="fig">Fig.
+3d</xref>, the normalized traces of the histograms (fitted using a normal
+probability density function) show that, for both targets, the designs that
+are binders (cyan, yellow and red lines) show trends with smaller
+fluctuations in hotspot residues than non-binders (blue lines); however, no
+particular trend is observed regarding strength of binding.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f3.jpg"/></fig><fig id="F4" orientation="portrait" position="anchor"><label>Extended Data Figure 4</label><caption><title>Circular dichroism studies</title><p id="P42"><bold>a</bold>, Designed mini-proteins that were co-crystallized in
+complex with their respective targets (as shown in <xref rid="F12" ref-type="fig">Fig. 4</xref>). Designed anti-HA mini-protein
+HB1.6928.2.3 does not denature up to a temperature of 95 °C.
+Designed anti-BoNT/B mini-protein shows partial denaturation at 95
+°C that is completely reversible after fast-cooling to 25
+°C. Black shows the circular dichroism spectrum at 25 °C,
+red at 95 °C, and yellow at 25 °C (after fast refolding, 5
+min). Proteins were measured at 0.25 mg ml<sup>−1</sup> in PBS
+buffer pH 7 (see Methods). <bold>b</bold>, Proteins that were solubly
+expressed or chemically synthesized. Plots are analogous to <bold>a</bold>.
+HB1.10027.3 contains two disulfides, HB1.6394.2.3 contains three disulfides,
+Bot.6782.4, Bot.6827.4, Bot.7075.4, Bot.4024.4, Bot.3318.4, Bot.5721.4, and
+Bot.5916.4, each contain one disulfide bond. The rest of the proteins were
+designed without disulfide bonds. <bold>c</bold>, Three disulfide-containing
+proteins with and without reducing agent. Plots are analogous to
+<bold>a</bold>. Proteins were measured at 0.25 mg
+ml<sup>−1</sup> in PBS buffer pH 7 without (top row) and with
+(bottom row) the reducing agent TCEP. The disulfides are shown to be crucial
+for the thermal stability of these disulfide-containing proteins
+(HB1.6928.2.3 contains two disulfides, Bot.2110.4 and Bot.3194.4 each
+contain one disulfide).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f4.jpg"/></fig><fig id="F5" orientation="portrait" position="anchor"><label>Extended Data Figure 5</label><caption><title>Trypsin resistance of HA binders</title><p id="P43">Chemically synthesized HA binder (0.3 mg ml<sup>−1</sup>)
+was incubated in PBS with various dilutions of trypsin (52 μM stock)
+for 20 min at room temperature. Reactions were quenched with addition of
+1% weight per volume BSA and samples run on SDS–PAGE gel.
+The relative concentrations of trypsin are shown at the top. ImageJ was used
+to quantify the intensity of each band (below the band). <bold>a</bold>,
+Both HB36.6 and HB1.5702.3 show weaker gel bands at trypsin concentrations
+higher than 0.055 stock (2.86 μM), indicating proteolytic
+degradation. HB1.6928.2 and HB1.6394.2, both of which contain disulfides,
+show no degradation at any trypsin concentration. <bold>b</bold>, Scatter
+plot of gel intensities in <bold>a</bold>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f5.jpg"/></fig><fig id="F6" orientation="portrait" position="anchor"><label>Extended Data Figure 6</label><caption><title>Omit map of HB1.6928.2.3</title><p id="P44"><bold>a</bold>, A simulated annealing
+<italic toggle="yes">F</italic><sub>O</sub>–<italic toggle="yes">F</italic><sub>C</sub>
+omit map for HB1.6928.2.3 (green) residues 10–22 (contoured at
+3σ) shows clear density for amino-acid side chains at the interface
+(dark blue HA1, light blue HA2). A single residue (Asn32), in a loop between
+the first and second β–strands, is not observed in the
+electron density. <bold>b</bold>,
+<italic toggle="yes">2F<sub>O</sub>–F<sub>C</sub></italic> map for
+Bot.671.2 (green) residues 2–13 (contoured at 2σ) shows
+clear density for side chains at the interface except for the flexible
+lysine residue. BoNT H<sub>C</sub>B is shown in dark blue. The entire
+backbone, interface, and core residues for Bot.671.2 are all well resolved
+in the electron density map.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f6.jpg"/></fig><fig id="F7" orientation="portrait" position="anchor"><label>Extended Data Figure 7</label><caption><title><italic toggle="yes">In vitro</italic> neutralization of BoNT/B</title><p id="P45"><bold>a, b</bold>, Immunoblots of cultured primary rat cortical
+neurons that were exposed to BoNT/B (20 nM) or BoNT/A (10 nM) with or
+without GST–Syt-II or Bot.671.2 (see Methods). The supernatants of
+lysed neurons were collected for immunoblot analysis to detect the indicated
+proteins, and actin served as control for loading. The designed mini-protein
+appears to confer protection against degradation of VAMP2, but not against
+degradation of the negative control, SNAP25 (the intracellular target of
+BoNT/A). c, Immunocytochemistry for detection of BoNT/B in neurons (see
+Methods). Left, negative control (no toxin); middle, positive control (cells
+incubated with 20 nM of BoNT/B for 10 min); right, near-total protective
+effect against 20 nM of BoNT/B conferred by co-incubating the cells with 600
+nM of the design Bot.671.2. Top panels show a representative image of
+fluorescence microscopy for the detection of BoNT/B; bottom panels show
+backfield illumination microscopy for the same area.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f7.jpg"/></fig><fig id="F8" orientation="portrait" position="anchor"><label>Extended Data Figure 8</label><caption><title><italic toggle="yes">In vitro</italic> neutralization of influenza</title><p id="P46">Comparison of <italic toggle="yes">in vitro</italic> neutralization of influenza
+viruses by HB36.6, FI6v3 and the designed mini-protein HB1.6928.2.3. Each
+antiviral was compared for its efficiency (EC<sub>50</sub>) in inhibiting
+the infection of Madin– Darby canine kidney cells by a range of
+influenza strains. It is clear that HB1.6928.2.3 most efficiently inhibited
+infection for all of the group-1 influenza strains tested (H1N1, H5N1 and
+H6N2). As expected, no neutralization was observed against H3N2 (group 2).
+In all experiments, <italic toggle="yes">n</italic> = 3 independent samples were
+tested for each condition, except for T/Mass/1965 (H6N2) and HK/ X31 (H3N2),
+for which <italic toggle="yes">n</italic> = 2 samples were tested. Dots show raw
+values for independent tests and whiskers show ± 1 s.d.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f8.jpg"/></fig><table-wrap id="T1" position="anchor" orientation="landscape"><label>Extended Data Table 1</label><caption><p id="P47">Number of designs and fraction surviving under each selection
+condition for mini-protein binders designed against influenza HA and
+BONT.</p></caption><table frame="hsides" rules="none"><thead><tr><th colspan="5" valign="bottom" align="center" rowspan="1">Influenza HA (Generation
+1) <hr/></th></tr><tr><th valign="middle" rowspan="2" align="center" colspan="1"/><th valign="middle" align="center" rowspan="1" colspan="1">Scramble</th><th valign="middle" align="center" rowspan="1" colspan="1">Scramble +Disulfides</th><th valign="middle" align="center" rowspan="1" colspan="1">Designs</th><th valign="middle" align="center" rowspan="1" colspan="1">Designs
++1<sup>−</sup>3 disulfides</th></tr><tr><th valign="middle" align="center" rowspan="1" colspan="1"># of designs (HB36 /
+HB80)/<break/>%)</th><th valign="middle" align="center" rowspan="1" colspan="1"># of designs (HB36 /
+HB80)/<break/>%)</th><th valign="middle" align="center" rowspan="1" colspan="1"># of designs (HB36 /
+HB80)/<break/>%)</th><th valign="middle" align="center" rowspan="1" colspan="1"># of designs (HB36 /
+HB80)/<break/>%)</th></tr></thead><tbody><tr><td valign="middle" align="center" rowspan="1" colspan="1"/><td colspan="5" valign="bottom" align="center" rowspan="1">
+<hr/></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">All Designs</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>2259
+(1104/1155)/</bold><break/>100.0 (48.9/51.1))</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>2122
+(1079/1043)/</bold><break/>100.0 (51.8/49.2)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>3682
+(1807/1875)/</bold><break/>100.0 (49.1 / 50.9)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>3594
+(1629/1964)</bold><break/>100.0 (45.33/54.67)</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">Low Affinity(1000
+nM)</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>5(2/3)/</bold><break/>0.22
+(0.09/0.13)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>2(0/2)/</bold><break/>0.09
+(0.0/0.09)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>55 (4/51)/</bold><break/>1.49
+(0.11 /1.38)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>53 (4/49) /</bold><break/>1.47
+(0.11 /1.36))</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">Medium Affinity(100
+nM)</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>1 (0/1)/</bold><break/>0.04
+(0.0/0.04)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0(0/0)/</bold><break/>0.0
+(0.0/0.0)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>20 (1 /19)/</bold><break/>0.54
+(0.03/0.51)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>20 (2/18)/</bold><break/>0.56
+(0.06/0.50)</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">High Affinity(10
+nM)</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>1 (0/1)/</bold><break/>0.04
+(0.0/0.04)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0(0/0)/</bold><break/>0.0
+(0.0/0.0)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>14(1 /13)/</bold><break/>0.38
+(0.03/0.35)</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>14(2 12)/</bold><break/>0.39
+(0.06/ 0.33)</td></tr></tbody></table><table frame="hsides" rules="none"><thead><tr><th colspan="9" valign="bottom" align="center" rowspan="1">BoNTHcB <hr/></th></tr><tr><th valign="middle" rowspan="2" align="center" colspan="1"/><th valign="middle" align="center" rowspan="1" colspan="1">Syt-II (incl. SSM)</th><th valign="middle" align="center" rowspan="1" colspan="1">Scaffolds</th><th valign="middle" align="center" rowspan="1" colspan="1">Scramble</th><th valign="middle" align="center" rowspan="1" colspan="1">Designs</th><th valign="middle" align="center" rowspan="1" colspan="1">+ GS Loops</th><th valign="middle" align="center" rowspan="1" colspan="1">+ Scramble Core</th><th valign="middle" align="center" rowspan="1" colspan="1">+ Valine core</th><th valign="middle" align="center" rowspan="1" colspan="1">Designs +1 disulfide</th></tr><tr><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs/%)</th><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs/%)</th><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs/%)</th><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs/%)</th><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs
+/%)</th><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs/%)</th><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs
+/%)</th><th valign="middle" align="center" rowspan="1" colspan="1">(# of designs
+/%)</th></tr></thead><tbody><tr><td valign="middle" align="center" rowspan="1" colspan="1"/><td colspan="8" valign="bottom" align="center" rowspan="1">
+<hr/></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">All Designs</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>250</bold> / 100.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>127</bold> / 100.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>284</bold> / 100.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>142</bold> / 100.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>828</bold> / 100.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>274</bold> / 100.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>142</bold> / 100.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>3264</bold> / 100.0</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">Low Affinity(100
+nM)</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0</bold> / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0</bold> / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>57</bold> / 20.07</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>87</bold> / 61.27</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>239 /</bold> 28.86</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>169 /</bold> 61.68</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>52 /</bold> 36.62</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>2081 /</bold> 63.76</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">Medium Affinity (10
+nM)</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0 /</bold> 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0 /</bold> 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>13 /</bold> 4.58</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>36 /</bold> 25.35</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>21 /</bold> 2.54</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>64 /</bold> 23.36</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>15 /</bold> 10.56</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>838 /</bold> 25.67</td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">High Affinity(1
+nM)</italic></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0 /</bold> 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0 /</bold> 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0 /</bold> 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>11 /</bold> 7.75</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0 /</bold> 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>14 /</bold> 5.11</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>2 /</bold> 1.41</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>328</bold> / 10.05</td></tr><tr><td colspan="9" valign="bottom" align="center" rowspan="1">
+<hr/></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">High Affinity (1 nM)
+and</italic>
+<bold><italic toggle="yes">Protease Resistant</italic></bold></td><td valign="middle" align="center" rowspan="1" colspan="1">0/ 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1">0 / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1">0 / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1">0 / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1">0 / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1">0 / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1">0 / 0.0</td><td valign="middle" align="center" rowspan="1" colspan="1">57 / 1.75</td></tr></tbody></table></table-wrap><table-wrap id="T2" position="anchor" orientation="landscape"><label>Extended Data Table 2</label><caption><p id="P48">Physicochemical properties characterized in solution for a selected
+pool of top binding designs.</p></caption><table frame="below" rules="groups"><thead><tr><th valign="middle" rowspan="2" align="center" colspan="1">ID</th><th valign="middle" rowspan="2" align="center" colspan="1">Target</th><th valign="middle" rowspan="2" align="center" colspan="1">Size (a.a.)</th><th valign="middle" rowspan="2" align="center" colspan="1">Topology</th><th valign="middle" rowspan="2" align="center" colspan="1">s-s (#)</th><th colspan="2" valign="bottom" align="center" rowspan="1">Rosetta <hr/></th><th colspan="2" valign="bottom" align="center" rowspan="1">Experimental <hr/></th><th valign="middle" rowspan="2" align="left" colspan="1">Sequence</th></tr><tr><th valign="middle" align="center" rowspan="1" colspan="1">Monomer Energy (REU/a.a.)</th><th valign="middle" align="center" rowspan="1" colspan="1">DDG (REU<sub>iface</sub>/nm<xref rid="TFN3" ref-type="table-fn">^</xref><sup>2</sup>)</th><th valign="middle" align="center" rowspan="1" colspan="1">Tm (°C)</th><th valign="middle" align="center" rowspan="1" colspan="1">Kd (nM)</th></tr></thead><tbody><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">HB36.6</italic></td><td valign="middle" align="center" rowspan="1" colspan="1">H1 HA<xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1">91</td><td valign="middle" align="center" rowspan="1" colspan="1">HHHH</td><td valign="middle" align="center" rowspan="1" colspan="1">0</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.3</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.7</td><td valign="middle" align="center" rowspan="1" colspan="1">65</td><td valign="middle" align="center" rowspan="1" colspan="1">0.2</td><td valign="middle" align="left" rowspan="1" colspan="1">      <xref rid="TFN2" ref-type="table-fn">*</xref></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><italic toggle="yes">FI6v3</italic></td><td valign="middle" align="center" rowspan="1" colspan="1">H1 HA</td><td valign="middle" align="center" rowspan="1" colspan="1">434</td><td valign="middle" align="center" rowspan="1" colspan="1">lg Fold</td><td valign="middle" align="center" rowspan="1" colspan="1">4</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.5</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.3</td><td valign="middle" align="center" rowspan="1" colspan="1"><xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1">&lt;1.0</td><td valign="middle" align="left" rowspan="1" colspan="1">      <xref rid="TFN2" ref-type="table-fn">*</xref></td></tr><tr><td colspan="10" valign="bottom" align="center" rowspan="1">
+<hr/></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">HB1.6811.3</td><td valign="middle" align="center" rowspan="1" colspan="1">H1 HA<xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1">40</td><td valign="middle" align="center" rowspan="1" colspan="1">EHEE</td><td valign="middle" align="center" rowspan="1" colspan="1">0</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.8</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.4</td><td valign="middle" align="center" rowspan="1" colspan="1">70</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;300.0</td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>TMTSITTSPFAAEIAARIWAEFGYTVRIETRGKTVHVTVD</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">HB1.5702.2</td><td valign="middle" align="center" rowspan="1" colspan="1">H1 HA<xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1">40</td><td valign="middle" align="center" rowspan="1" colspan="1">EHEE</td><td valign="middle" align="center" rowspan="1" colspan="1">0</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.6</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.7</td><td valign="middle" align="center" rowspan="1" colspan="1">72</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;300.0</td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>TSRVRATSKFAALIAAEIAREFGYTVDVQEVNGQWEVTFD</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">HB1.5702.3.3</td><td valign="middle" align="center" rowspan="1" colspan="1">H1 HA<xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1">40</td><td valign="middle" align="center" rowspan="1" colspan="1">EHEE</td><td valign="middle" align="center" rowspan="1" colspan="1">0</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.7</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.9</td><td valign="middle" align="center" rowspan="1" colspan="1">70</td><td valign="middle" align="center" rowspan="1" colspan="1">6.0</td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>TSGVRATSKFAALIAAEIAREFGYTVDVQEKNGEWRVVFD</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">HB1.6394.2.3</td><td valign="middle" align="center" rowspan="1" colspan="1">H1 HA<xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1">40</td><td valign="middle" align="center" rowspan="1" colspan="1">EHEE</td><td valign="middle" align="center" rowspan="1" colspan="1">3</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.3</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.9</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;95</td><td valign="middle" align="center" rowspan="1" colspan="1">2.0</td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>CQEYRFTNPFACQIALEILRDFGYACTVQTINGECRVRCC</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><xref rid="TFN1" ref-type="table-fn">&amp;</xref><bold>HB1.6928.2.3</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>H1 HA</bold><xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>40</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>EHEE</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>2</bold></td><td valign="middle" align="center" rowspan="1" colspan="1">−2.3</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.2</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>&gt;95</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>5.0</bold></td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>CIEQSFTTLFACQTAAEIWRAFGYTVKIMVDNGNCRLHVC</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">HB1.10027.3</td><td valign="middle" align="center" rowspan="1" colspan="1">H1 HA<xref rid="TFN2" ref-type="table-fn">*</xref></td><td valign="middle" align="center" rowspan="1" colspan="1">37</td><td valign="middle" align="center" rowspan="1" colspan="1">EHEE</td><td valign="middle" align="center" rowspan="1" colspan="1">4</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.9</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.6</td><td valign="middle" align="center" rowspan="1" colspan="1">80</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;300.0</td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>TTTCVRNNFAEAIRLKIECEFKGLEIREENGEVCCHG</bold></td></tr><tr><td colspan="10" valign="bottom" align="center" rowspan="1">
+<hr/></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1"><xref rid="TFN1" ref-type="table-fn">&amp;</xref><bold>Bot.671.2</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>BoNT H<sub>C</sub>B</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>43</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>HHH</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>0</bold></td><td valign="middle" align="center" rowspan="1" colspan="1">−3.4</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.0</td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>&gt;95</bold></td><td valign="middle" align="center" rowspan="1" colspan="1"><bold>2.8</bold></td><td valign="middle" align="left" rowspan="1" colspan="1"><xref rid="TFN3" ref-type="table-fn">^</xref><bold>QPMFAELKAKFFLEIGDRDAARNALRKAGYSDEEAERIIRKYE</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">Bot.671.2.1</td><td valign="middle" align="center" rowspan="1" colspan="1">BoNT H<sub>C</sub>B</td><td valign="middle" align="center" rowspan="1" colspan="1">43</td><td valign="middle" align="center" rowspan="1" colspan="1">HHH</td><td valign="middle" align="center" rowspan="1" colspan="1">0</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.3</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.1</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;95</td><td valign="middle" align="center" rowspan="1" colspan="1">1.6</td><td valign="middle" align="left" rowspan="1" colspan="1"><xref rid="TFN3" ref-type="table-fn">^</xref><bold>QPTFEELKWKFFLEIGDRDAARNALRKAGYSDEEAERIIRKYE</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">Bot.791.3</td><td valign="middle" align="center" rowspan="1" colspan="1">BoNT H<sub>C</sub>B</td><td valign="middle" align="center" rowspan="1" colspan="1">43</td><td valign="middle" align="center" rowspan="1" colspan="1">HHH</td><td valign="middle" align="center" rowspan="1" colspan="1">0</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.2</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.9</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;95</td><td valign="middle" align="center" rowspan="1" colspan="1">6.8</td><td valign="middle" align="left" rowspan="1" colspan="1"><xref rid="TFN3" ref-type="table-fn">^</xref><bold>SEMFARLKAKFFLEIGDTEEARKALEKAGYSPDEAEEIIRRHL</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">Bot.791.3.1</td><td valign="middle" align="center" rowspan="1" colspan="1">BoNT H<sub>C</sub>B</td><td valign="middle" align="center" rowspan="1" colspan="1">43</td><td valign="middle" align="center" rowspan="1" colspan="1">HHH</td><td valign="middle" align="center" rowspan="1" colspan="1">0</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.1</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.8</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;95</td><td valign="middle" align="center" rowspan="1" colspan="1">0.7</td><td valign="middle" align="left" rowspan="1" colspan="1"><xref rid="TFN3" ref-type="table-fn">^</xref><bold>SEMFERLKAKFFLEIGEYEEARKALEKAGYSPDEAEEIIRRHL</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">Bot.2110.4</td><td valign="middle" align="center" rowspan="1" colspan="1">BoNT H<sub>C</sub>B</td><td valign="middle" align="center" rowspan="1" colspan="1">43</td><td valign="middle" align="center" rowspan="1" colspan="1">HHH</td><td valign="middle" align="center" rowspan="1" colspan="1">1</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.8</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.1</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;95</td><td valign="middle" align="center" rowspan="1" colspan="1">2.1</td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>PDMFCALKIKFFLEIGDEDAARKAAKKCGYSEEQAERIIKKNL</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">Bot.3194.4</td><td valign="middle" align="center" rowspan="1" colspan="1">BoNT H<sub>C</sub>B</td><td valign="middle" align="center" rowspan="1" colspan="1">40</td><td valign="middle" align="center" rowspan="1" colspan="1">EHEE</td><td valign="middle" align="center" rowspan="1" colspan="1">1</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.35</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.0</td><td valign="middle" align="center" rowspan="1" colspan="1">65</td><td valign="middle" align="center" rowspan="1" colspan="1">0.5</td><td valign="middle" align="left" rowspan="1" colspan="1"><bold>AKATAADRMFAELKCKFFKEIGLEVEVREKNGTFICEAR</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">Bot.3318.4</td><td valign="middle" align="center" rowspan="1" colspan="1">BoNT H<sub>C</sub>B</td><td valign="middle" align="center" rowspan="1" colspan="1">43</td><td valign="middle" align="center" rowspan="1" colspan="1">HHH</td><td valign="middle" align="center" rowspan="1" colspan="1">1</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.8</td><td valign="middle" align="center" rowspan="1" colspan="1">-3.0</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;95</td><td valign="middle" align="center" rowspan="1" colspan="1">12.6</td><td valign="middle" align="left" rowspan="1" colspan="1"><xref rid="TFN3" ref-type="table-fn">^</xref><bold>QPMFAELKCKFFLEIGDRDAARNACRKAGYSDEEAERIIRKYE</bold></td></tr><tr><td valign="middle" align="center" rowspan="1" colspan="1">Bot.4024.4</td><td valign="middle" align="center" rowspan="1" colspan="1">BoNT H<sub>C</sub>B</td><td valign="middle" align="center" rowspan="1" colspan="1">43</td><td valign="middle" align="center" rowspan="1" colspan="1">HHH</td><td valign="middle" align="center" rowspan="1" colspan="1">1</td><td valign="middle" align="center" rowspan="1" colspan="1">−3.2</td><td valign="middle" align="center" rowspan="1" colspan="1">−2.9</td><td valign="middle" align="center" rowspan="1" colspan="1">&gt;95</td><td valign="middle" align="center" rowspan="1" colspan="1">6.6</td><td valign="middle" align="left" rowspan="1" colspan="1"><xref rid="TFN3" ref-type="table-fn">^</xref><bold>SEMFCRLKAKFFLEIGDTEEARKALEKCGYSPDEAEEIIRRHL</bold></td></tr></tbody></table><table-wrap-foot><fn id="TFN1"><label>&amp;</label><p id="P49">Crystal structures are shown in <xref ref-type="fig" rid="F12">Figure 4</xref>.</p></fn><fn id="TFN2"><label>*</label><p id="P50">Ca/09</p></fn><fn id="TFN3"><label>^</label><p id="P51">Protein expressed as fusion with N-terminal His-tag and
+thrombin-cleavable linker: MGSSHHHHHHSSGLVPRGSHM (see Methods).</p></fn></table-wrap-foot></table-wrap></sec><sec sec-type="supplementary-material" id="S25"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait"><label>SI</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS931246-supplement-SI.pdf" orientation="portrait" id="d36e2295" position="anchor"/></supplementary-material></sec></body><back><ack id="S26"><p>We thank M. Levitt and M. Zhang for discussions, A. Ford for data analysis advice,
+and Rosetta@Home participants for donating computing time. D.-A.S. thanks T J.
+Brunette, J. E. Hsu and M. J. Countryman for their assistance. R.J. thanks K. Perry
+for X-ray data collection. We acknowledge funding support from: Life Sciences
+Discovery Fund Launch grant 9598385 (A.C.); PEW Latin-American fellow in the
+biomedical sciences and a CONACyT postdoctoral fellowship (D.-A.S.); Merck fellow of
+the Life Sciences Research Foundation (G.J.R.); CONACyT and Doctorado en Ciencias
+Bioquimicas UNAM (R.V); NIH (R56AI117675) and Molecular Basis of Viral Pathogenesis
+Training Grant (T32AI007354-26A1) (S.M.B.); Investigator in the Pathogenesis of
+Infectious Disease award from the Burroughs Wellcome Fund and NIH (1R01NS080833)
+(M.D.); CoMotion Mary Gates Innovation Fellow program (TC.); generous gift from
+Rocky and Genie Higgins (C.B.); Shenzhen Science and Technology Innovation Committee
+(JCYJ20170413173837121), Hong Kong Research Grant Council C6009-15G and AoE/P-705/16
+(X.H.); PAPIIT UNAM (IN220516), CONACyT (254514) and Facultad de Medicina UNAM
+(D.A.F.-V); NIAID grants (AI091823, AI123920, and AI125704) (R.J.); NIAID grant
+1R41AI122431 (M.TK. and D.H.F.); NIAID grant 1R21AI119258 and Life Sciences
+Discovery Fund grant 20040757 (D.H.F). We acknowledge computing resources provided
+by the Supercomputing Laboratory at King Abdullah University of Science and
+Technology and the Hyak supercomputer system funded by the STF at the University of
+Washington. The Berkeley Center for Structural Biology is supported in part by the
+NIH, NIGMS, and HHMI. The Advanced Light Source is a DOE Office of Science User
+Facility under contract no. DE-AC02-05CH11231. The Northeastern Collaborative Access
+Team beamlines are funded by NIGMS grant P41 GM103403 and a NIH-ORIP HEI grant
+(S10OD021527). Advanced Photon Source is a U.S. DOE Office of Science User Facility
+operated by Argonne National Laboratory under Contract No. DE-AC02-06CH11357.</p></ack><fn-group><fn id="FN3"><p><bold>Online Content</bold> Methods, along with any additional Extended Data
+display items and Source Data, are available in the online version of the paper;
+references unique to these sections appear only in the online paper.</p></fn><fn id="FN4"><p><bold>Supplementary Information</bold> is available in the online version of the
+paper.</p></fn><fn id="FN5" fn-type="con"><p><bold>Author Contributions</bold></p><p>A.C., D.-A.S., G.J.R., D.H.F. and D.B. designed the research; A.C., D.-A.S., and
+G.J.R. contributed equally; D.R.H., R.V., and P.M. contributed equally; A.C.,
+D.-A.S., G.J.R., D.R.H., R.V, and C.D.B. designed proteins. A.C., D.-A.S.,
+D.R.H., R.V., performed binding experiments; S.M.B. solved influenza co-crystal
+structures; P.M., M.T.K., A.B., C.M.J. and J.TF. performed influenza
+experiments; L.Z. performed molecular dynamics simulations; K.-H.L. and G.Y
+solved BoNT co-crystal structures; S.-I.M. performed BoNT neutralization assays;
+I.G. and C.M.B. prepared yeast and next generation sequencing; T.C. performed
+protease-resistance characterization; L.C. performed protein purification. All
+authors analysed data. D.A.F.-V., L.S., M.D., X.H., R.J., I.A.W., D.H.F. and
+D.B. supervised research. A.C., D.-A.S., G.J.R., D.R.H., D.H.F. and D.B. wrote
+the manuscript.</p></fn><fn fn-type="COI-statement" id="FN6"><p>The authors declare competing financial interests: details are available in the
+online version of the paper. Readers are welcome to comment on the online
+version of the paper.</p></fn><fn id="FN7"><p>Publisher’s note: Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional affiliations.</p></fn><fn id="FN8"><p><bold>Reviewer Information</bold></p><p><italic toggle="yes">Nature</italic> thanks G. Nabel and the other anonymous reviewer(s) for
+their contribution to the peer review of this work.</p></fn></fn-group><ref-list><ref id="R1"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kintzing</surname><given-names>JR</given-names></name><name name-style="western"><surname>Cochran</surname><given-names>JR</given-names></name></person-group><article-title>Engineered knottin peptides as diagnostics, therapeutics, and
+drug delivery vehicles</article-title><source>Curr Opin Chem Biol</source><volume>34</volume><fpage>143</fpage><lpage>150</lpage><year>2016</year><pub-id pub-id-type="pmid">27642714</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cbpa.2016.08.022</pub-id></element-citation></ref><ref id="R2"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gebauer</surname><given-names>M</given-names></name><name name-style="western"><surname>Skerra</surname><given-names>A</given-names></name></person-group><article-title>Engineered protein scaffolds as next-generation antibody
+therapeutics</article-title><source>Curr Opin Chem Biol</source><volume>13</volume><fpage>245</fpage><lpage>255</lpage><year>2009</year><pub-id pub-id-type="pmid">19501012</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cbpa.2009.04.627</pub-id></element-citation></ref><ref id="R3"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zahnd</surname><given-names>C</given-names></name><etal/></person-group><article-title>Efficient tumor targeting with high-affinity designed ankyrin
+repeat proteins: effects of affinity and molecular size</article-title><source>Cancer Res</source><volume>70</volume><fpage>1595</fpage><lpage>1605</lpage><year>2010</year><pub-id pub-id-type="pmid">20124480</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-09-2724</pub-id></element-citation></ref><ref id="R4"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Vazquez-Lombardi</surname><given-names>R</given-names></name><etal/></person-group><article-title>Challenges and opportunities for non-antibody scaffold
+drugs</article-title><source>Drug Discov Today</source><volume>20</volume><fpage>1271</fpage><lpage>1283</lpage><year>2015</year><pub-id pub-id-type="pmid">26360055</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.drudis.2015.09.004</pub-id></element-citation></ref><ref id="R5"><label>5</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bhardwaj</surname><given-names>G</given-names></name><etal/></person-group><article-title>Accurate <italic toggle="yes">de novo</italic> design of hyperstable
+constrained peptides</article-title><source>Nature</source><volume>538</volume><fpage>329</fpage><lpage>335</lpage><year>2016</year><pub-id pub-id-type="pmid">27626386</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature19791</pub-id><pub-id pub-id-type="pmcid">PMC5161715</pub-id></element-citation></ref><ref id="R6"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rocklin</surname><given-names>GJ</given-names></name><etal/></person-group><article-title>Global analysis of protein folding using massively parallel
+design, synthesis, and testing</article-title><source>Science</source><volume>357</volume><fpage>168</fpage><lpage>175</lpage><year>2017</year><pub-id pub-id-type="pmid">28706065</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aan0693</pub-id><pub-id pub-id-type="pmcid">PMC5568797</pub-id></element-citation></ref><ref id="R7"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Berger</surname><given-names>S</given-names></name><etal/></person-group><article-title>Computationally designed high specificity inhibitors delineate
+the roles of BCL2 family proteins in cancer</article-title><source>eLife</source><volume>5</volume><fpage>e20352</fpage><year>2016</year><pub-id pub-id-type="pmid">27805565</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.20352</pub-id><pub-id pub-id-type="pmcid">PMC5127641</pub-id></element-citation></ref><ref id="R8"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Procko</surname><given-names>E</given-names></name><etal/></person-group><article-title>A computationally designed inhibitor of an Epstein-Barr viral
+Bcl-2 protein induces apoptosis in infected cells</article-title><source>Cell</source><volume>157</volume><fpage>1644</fpage><lpage>1656</lpage><year>2014</year><pub-id pub-id-type="pmid">24949974</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2014.04.034</pub-id><pub-id pub-id-type="pmcid">PMC4079535</pub-id></element-citation></ref><ref id="R9"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cleary</surname><given-names>MA</given-names></name><etal/></person-group><article-title>Production of complex nucleic acid libraries using highly
+parallel in situ oligonucleotide synthesis</article-title><source>Nat Methods</source><volume>1</volume><fpage>241</fpage><lpage>248</lpage><year>2004</year><pub-id pub-id-type="pmid">15782200</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth724</pub-id></element-citation></ref><ref id="R10"><label>10</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Sun</surname><given-names>MGF</given-names></name><name name-style="western"><surname>Seo</surname><given-names>MH</given-names></name><name name-style="western"><surname>Nim</surname><given-names>S</given-names></name><name name-style="western"><surname>Corbi-Verge</surname><given-names>C</given-names></name><name name-style="western"><surname>Kim</surname><given-names>PM</given-names></name></person-group><article-title>Protein engineering by highly parallel screening of
+computationally designed variants</article-title><source>Sci Adv</source><volume>2</volume><fpage>e1600692</fpage><year>2016</year><pub-id pub-id-type="pmid">27453948</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.1600692</pub-id><pub-id pub-id-type="pmcid">PMC4956399</pub-id></element-citation></ref><ref id="R11"><label>11</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fleishman</surname><given-names>SJ</given-names></name><etal/></person-group><article-title>RosettaScripts: a scripting language interface to the Rosetta
+macromolecular modeling suite</article-title><source>PLoS One</source><volume>6</volume><fpage>e20161</fpage><year>2011</year><pub-id pub-id-type="pmid">21731610</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0020161</pub-id><pub-id pub-id-type="pmcid">PMC3123292</pub-id></element-citation></ref><ref id="R12"><label>12</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hurt</surname><given-names>AC</given-names></name><etal/></person-group><article-title>Antiviral resistance during the 2009 influenza A H1N1 pandemic:
+public health, laboratory, and clinical perspectives</article-title><source>Lancet Infect Dis</source><volume>12</volume><fpage>240</fpage><lpage>248</lpage><year>2012</year><pub-id pub-id-type="pmid">22186145</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1473-3099(11)70318-8</pub-id></element-citation></ref><ref id="R13"><label>13</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Blitzer</surname><given-names>A</given-names></name></person-group><article-title>Spasmodic dysphonia and botulinum toxin: experience from the
+largest treatment series</article-title><source>Eur J Neurol</source><volume>17</volume><issue>Suppl 1</issue><fpage>28</fpage><lpage>30</lpage><year>2010</year><pub-id pub-id-type="pmid">20590805</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1468-1331.2010.03047.x</pub-id></element-citation></ref><ref id="R14"><label>14</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Koday</surname><given-names>MT</given-names></name><etal/></person-group><article-title>A computationally designed hemagglutinin stem-binding protein
+provides <italic toggle="yes">in vivo</italic> protection from influenza independent of a
+host immune response</article-title><source>PLoS Pathog</source><volume>12</volume><fpage>e1005409</fpage><year>2016</year><pub-id pub-id-type="pmid">26845438</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1005409</pub-id><pub-id pub-id-type="pmcid">PMC4742065</pub-id></element-citation></ref><ref id="R15"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Whitehead</surname><given-names>TA</given-names></name><etal/></person-group><article-title>Optimization of affinity, specificity and function of designed
+influenza inhibitors using deep sequencing</article-title><source>Nat Biotechnol</source><volume>30</volume><fpage>543</fpage><lpage>548</lpage><year>2012</year><pub-id pub-id-type="pmid">22634563</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt.2214</pub-id><pub-id pub-id-type="pmcid">PMC3638900</pub-id></element-citation></ref><ref id="R16"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fleishman</surname><given-names>SJ</given-names></name><etal/></person-group><article-title>Computational design of proteins targeting the conserved stem
+region of influenza hemagglutinin</article-title><source>Science</source><volume>332</volume><fpage>816</fpage><lpage>821</lpage><year>2011</year><pub-id pub-id-type="pmid">21566186</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1202617</pub-id><pub-id pub-id-type="pmcid">PMC3164876</pub-id></element-citation></ref><ref id="R17"><label>17</label><element-citation publication-type="web"><person-group person-group-type="author"><name name-style="western"><surname>Berntsson</surname><given-names>RPA</given-names></name><name name-style="western"><surname>Peng</surname><given-names>L</given-names></name><name name-style="western"><surname>Dong</surname><given-names>M</given-names></name><name name-style="western"><surname>Stenmark</surname><given-names>P</given-names></name></person-group><article-title>Structure of Botulinum neurotoxin B binding domain in complex
+with both synaptotagmin II and GD1a</article-title><source>RCSB Protein Data Bank</source><comment><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.2210/pdb4kbb/pdb">http://dx.doi.org/10.2210/pdb4kbb/pdb</ext-link></comment><year>2013</year></element-citation></ref><ref id="R18"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Corti</surname><given-names>D</given-names></name><etal/></person-group><article-title>A neutralizing antibody selected from plasma cells that binds to
+group 1 and group 2 influenza A hemagglutinins</article-title><source>Science</source><volume>333</volume><fpage>850</fpage><lpage>856</lpage><year>2011</year><pub-id pub-id-type="pmid">21798894</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1205669</pub-id></element-citation></ref><ref id="R19"><label>19</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cass</surname><given-names>LMR</given-names></name><name name-style="western"><surname>Efthymiopoulos</surname><given-names>C</given-names></name><name name-style="western"><surname>Bye</surname><given-names>A</given-names></name></person-group><article-title>Pharmacokinetics of zanamivir after intravenous, oral, inhaled or
+intranasal administration to healthy volunteers</article-title><source>Clin Pharmacokinet</source><volume>36</volume><issue>Suppl. 1</issue><fpage>1</fpage><lpage>11</lpage><year>1999</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.2165/00003088-199936001-00001</pub-id><pub-id pub-id-type="pmid">10429835</pub-id></element-citation></ref><ref id="R20"><label>20</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>King</surname><given-names>C</given-names></name><etal/></person-group><article-title>Removing T-cell epitopes with computational protein
+design</article-title><source>Proc Natl Acad Sci USA</source><volume>111</volume><fpage>8577</fpage><lpage>8582</lpage><year>2014</year><pub-id pub-id-type="pmid">24843166</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1321126111</pub-id><pub-id pub-id-type="pmcid">PMC4060723</pub-id></element-citation></ref><ref id="R21"><label>21</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Huang</surname><given-names>PS</given-names></name><etal/></person-group><article-title>RosettaRemodel: a generalized framework for flexible backbone
+protein design</article-title><source>PLOS One</source><volume>6</volume><fpage>e24109</fpage><year>2011</year><pub-id pub-id-type="pmid">21909381</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0024109</pub-id><pub-id pub-id-type="pmcid">PMC3166072</pub-id></element-citation></ref><ref id="R22"><label>22</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lin</surname><given-names>YR</given-names></name><etal/></person-group><article-title>Control over overall shape and size in de novo designed
+proteins</article-title><source>PROC Natl Acad Sei USA</source><volume>112</volume><fpage>E5478</fpage><lpage>E5485</lpage><year>2015</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1509508112</pub-id><pub-id pub-id-type="pmcid">PMC4603489</pub-id><pub-id pub-id-type="pmid">26396255</pub-id></element-citation></ref><ref id="R23"><label>23</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Koga</surname><given-names>N</given-names></name><etal/></person-group><article-title>Principles for designing ideal protein structures</article-title><source>Nature</source><volume>491</volume><fpage>222</fpage><lpage>227</lpage><year>2012</year><pub-id pub-id-type="pmid">23135467</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11600</pub-id><pub-id pub-id-type="pmcid">PMC3705962</pub-id></element-citation></ref><ref id="R24"><label>24</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Silva</surname><given-names>DA</given-names></name><name name-style="western"><surname>Correia</surname><given-names>BE</given-names></name><name name-style="western"><surname>Procko</surname><given-names>E</given-names></name></person-group><article-title>Motif-driven design of protein-protein interfaces</article-title><source>Methods Mol Biol</source><volume>1414</volume><fpage>285</fpage><lpage>304</lpage><year>2016</year><pub-id pub-id-type="pmid">27094298</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-1-4939-3569-7_17</pub-id></element-citation></ref><ref id="R25"><label>25</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hoover</surname><given-names>DM</given-names></name><name name-style="western"><surname>Lubkowski</surname><given-names>J</given-names></name></person-group><article-title>DNAWorks: an automated method for designing oligonucleotides for
+PCR-based gene synthesis</article-title><source>Nucleic Acids Res</source><volume>30</volume><fpage>e43</fpage><year>2002</year><pub-id pub-id-type="pmid">12000848</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/30.10.e43</pub-id><pub-id pub-id-type="pmcid">PMC115297</pub-id></element-citation></ref><ref id="R26"><label>26</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bawono</surname><given-names>P</given-names></name><name name-style="western"><surname>Heringa</surname><given-names>J</given-names></name></person-group><article-title>PRALINE: A versatile multiple sequence alignment
+toolkit</article-title><source>Methods in Mol Biol</source><volume>1079</volume><fpage>245</fpage><lpage>262</lpage><year>2013</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-1-62703-646-7_16</pub-id><pub-id pub-id-type="pmid">24170407</pub-id></element-citation></ref><ref id="R27"><label>27</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name><name name-style="western"><surname>Kobert</surname><given-names>K</given-names></name><name name-style="western"><surname>Flouri</surname><given-names>T</given-names></name><name name-style="western"><surname>Stamatakis</surname><given-names>A</given-names></name></person-group><article-title>PEAR: a fast and accurate Illumina Paired-End reAd
+mergeR</article-title><source>Bioinformatics</source><volume>30</volume><fpage>614</fpage><lpage>620</lpage><year>2014</year><pub-id pub-id-type="pmid">24142950</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btt593</pub-id><pub-id pub-id-type="pmcid">PMC3933873</pub-id></element-citation></ref><ref id="R28"><label>28</label><element-citation publication-type="web"><person-group person-group-type="author"><name name-style="western"><surname>Waskom</surname><given-names>M</given-names></name><etal/></person-group><source>seaborn: v0.7.1</source><comment><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/:10.5281/zenodo.54844">http://dx.doi.org/:10.5281/zenodo.54844</ext-link></comment><year>2016</year></element-citation></ref><ref id="R29"><label>29</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chao</surname><given-names>G</given-names></name><etal/></person-group><article-title>Isolating and engineering human antibodies using yeast surface
+display</article-title><source>Nat Protocols</source><volume>1</volume><fpage>755</fpage><lpage>768</lpage><year>2006</year><pub-id pub-id-type="pmid">17406305</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nprot.2006.94</pub-id></element-citation></ref><ref id="R30"><label>30</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Benatuil</surname><given-names>L</given-names></name><name name-style="western"><surname>Perez</surname><given-names>JM</given-names></name><name name-style="western"><surname>Belk</surname><given-names>J</given-names></name><name name-style="western"><surname>Hsieh</surname><given-names>CM</given-names></name></person-group><article-title>An improved yeast transformation method for the generation of
+very large human antibody libraries</article-title><source>Protein Eng Des Sel</source><volume>23</volume><fpage>155</fpage><lpage>159</lpage><year>2010</year><pub-id pub-id-type="pmid">20130105</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/protein/gzq002</pub-id></element-citation></ref><ref id="R31"><label>31</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jacobs</surname><given-names>TM</given-names></name><name name-style="western"><surname>Yumerefendi</surname><given-names>H</given-names></name><name name-style="western"><surname>Kuhlman</surname><given-names>B</given-names></name><name name-style="western"><surname>Leaver-Fay</surname><given-names>A</given-names></name></person-group><article-title>SwiftLib: rapid degenerate-codon-library optimization through
+dynamic programming</article-title><source>Nucleic Acids Res</source><volume>43</volume><fpage>e34</fpage><year>2015</year><pub-id pub-id-type="pmid">25539925</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gku1323</pub-id><pub-id pub-id-type="pmcid">PMC4357694</pub-id></element-citation></ref><ref id="R32"><label>32</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jin</surname><given-names>R</given-names></name><name name-style="western"><surname>Rummel</surname><given-names>A</given-names></name><name name-style="western"><surname>Binz</surname><given-names>T</given-names></name><name name-style="western"><surname>Brunger</surname><given-names>AT</given-names></name></person-group><article-title>Botulinum neurotoxin B recognizes its protein receptor with high
+affinity and specificity</article-title><source>Nature</source><volume>444</volume><fpage>1092</fpage><lpage>1095</lpage><year>2006</year><pub-id pub-id-type="pmid">17167421</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature05387</pub-id></element-citation></ref><ref id="R33"><label>33</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kabsch</surname><given-names>W</given-names></name></person-group><article-title>XDS</article-title><source>Acta Crystallogr D Biol Crystallogr</source><volume>66</volume><fpage>125</fpage><lpage>132</lpage><year>2010</year><pub-id pub-id-type="pmid">20124692</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1107/S0907444909047337</pub-id><pub-id pub-id-type="pmcid">PMC2815665</pub-id></element-citation></ref><ref id="R34"><label>34</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Emsley</surname><given-names>P</given-names></name><name name-style="western"><surname>Cowtan</surname><given-names>K</given-names></name></person-group><article-title>Coot: model-building tools for molecular graphics</article-title><source>Acta Crystallogr D Biol Crystallogr</source><volume>60</volume><fpage>2126</fpage><lpage>2132</lpage><year>2004</year><pub-id pub-id-type="pmid">15572765</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1107/S0907444904019158</pub-id></element-citation></ref><ref id="R35"><label>35</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>McCoy</surname><given-names>AJ</given-names></name><etal/></person-group><article-title>Phaser crystallographic software</article-title><source>J Appl Crystallogr</source><volume>40</volume><fpage>658</fpage><lpage>674</lpage><year>2007</year><pub-id pub-id-type="pmid">19461840</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1107/S0021889807021206</pub-id><pub-id pub-id-type="pmcid">PMC2483472</pub-id></element-citation></ref><ref id="R36"><label>36</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Brünger</surname><given-names>AT</given-names></name></person-group><article-title>Free R value: a novel statistical quantity for assessing the
+accuracy of crystal structures</article-title><source>Nature</source><volume>355</volume><fpage>472</fpage><lpage>475</lpage><year>1992</year><pub-id pub-id-type="pmid">18481394</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/355472a0</pub-id></element-citation></ref><ref id="R37"><label>37</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chen</surname><given-names>VB</given-names></name><etal/></person-group><article-title>MolProbity: all-atom structure validation for macromolecular
+crystallography</article-title><source>Acta Crystallogr D Biol Crystallogr</source><volume>66</volume><fpage>12</fpage><lpage>21</lpage><year>2010</year><pub-id pub-id-type="pmid">20057044</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1107/S0907444909042073</pub-id><pub-id pub-id-type="pmcid">PMC2803126</pub-id></element-citation></ref><ref id="R38"><label>38</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Otwinowski</surname><given-names>Z</given-names></name><name name-style="western"><surname>Minor</surname><given-names>W</given-names></name></person-group><article-title>Processing of X-ray diffraction data collected in oscillation
+mode</article-title><source>Methods Enzymol</source><volume>276</volume><fpage>307</fpage><lpage>326</lpage><year>1997</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0076-6879(97)76066-X</pub-id><pub-id pub-id-type="pmid">27754618</pub-id></element-citation></ref><ref id="R39"><label>39</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Adams</surname><given-names>PD</given-names></name><etal/></person-group><article-title>The Phenix software for automated determination of macromolecular
+structures</article-title><source>Methods</source><volume>55</volume><fpage>94</fpage><lpage>106</lpage><year>2011</year><pub-id pub-id-type="pmid">21821126</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ymeth.2011.07.005</pub-id><pub-id pub-id-type="pmcid">PMC3193589</pub-id></element-citation></ref><ref id="R40"><label>40</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gamblin</surname><given-names>SJ</given-names></name><etal/></person-group><article-title>The structure and receptor binding properties of the 1918
+influenza hemagglutinin</article-title><source>Science</source><volume>303</volume><fpage>1838</fpage><lpage>1842</lpage><year>2004</year><pub-id pub-id-type="pmid">14764886</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1093155</pub-id></element-citation></ref><ref id="R41"><label>41</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Van Der Spoel</surname><given-names>D</given-names></name><etal/></person-group><article-title>GROMACS: fast, flexible, and free</article-title><source>J Comput Chem</source><volume>26</volume><fpage>1701</fpage><lpage>1718</lpage><year>2005</year><pub-id pub-id-type="pmid">16211538</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jcc.20291</pub-id></element-citation></ref><ref id="R42"><label>42</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lindorff-Larsen</surname><given-names>K</given-names></name><etal/></person-group><article-title>Improved side-chain torsion potentials for the Amber ff99SB
+protein force field</article-title><source>Proteins</source><volume>78</volume><fpage>1950</fpage><lpage>1958</lpage><year>2010</year><pub-id pub-id-type="pmid">20408171</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/prot.22711</pub-id><pub-id pub-id-type="pmcid">PMC2970904</pub-id></element-citation></ref><ref id="R43"><label>43</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jorgensen</surname><given-names>WL</given-names></name><name name-style="western"><surname>Chandrasekhar</surname><given-names>J</given-names></name><name name-style="western"><surname>Madura</surname><given-names>JD</given-names></name><name name-style="western"><surname>Impey</surname><given-names>RW</given-names></name><name name-style="western"><surname>Klein</surname><given-names>ML</given-names></name></person-group><article-title>Comparison of simple potential functions for simulating liquid
+water</article-title><source>J Chem Phys</source><volume>79</volume><fpage>926</fpage><lpage>935</lpage><year>1983</year></element-citation></ref><ref id="R44"><label>44</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hess</surname><given-names>B</given-names></name><name name-style="western"><surname>Bekker</surname><given-names>H</given-names></name><name name-style="western"><surname>Berendsen</surname><given-names>HJC</given-names></name><name name-style="western"><surname>Fraaije</surname><given-names>JGEM</given-names></name></person-group><article-title>LINCS: A linear constraint solver for molecular
+simulations</article-title><source>J Comput Chem</source><volume>18</volume><fpage>1463</fpage><lpage>1472</lpage><year>1997</year></element-citation></ref><ref id="R45"><label>45</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Essmann</surname><given-names>U</given-names></name><etal/></person-group><article-title>A smooth particle mesh Ewald method</article-title><source>J Chem Phys</source><volume>103</volume><fpage>8577</fpage><lpage>8593</lpage><year>1995</year></element-citation></ref><ref id="R46"><label>46</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Berendsen</surname><given-names>HJC</given-names></name></person-group><source>Computer Simulation in Materials Science</source><person-group person-group-type="editor"><name name-style="western"><surname>Meyer</surname><given-names>M</given-names></name><name name-style="western"><surname>Pontikis</surname><given-names>V</given-names></name></person-group><fpage>139</fpage><lpage>155</lpage><publisher-name>Springer</publisher-name><year>1991</year></element-citation></ref><ref id="R47"><label>47</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bussi</surname><given-names>G</given-names></name><name name-style="western"><surname>Donadio</surname><given-names>D</given-names></name><name name-style="western"><surname>Parrinello</surname><given-names>M</given-names></name></person-group><article-title>Canonical sampling through velocity rescaling</article-title><source>J Chem Phys</source><volume>126</volume><fpage>014101</fpage><year>2007</year><pub-id pub-id-type="pmid">17212484</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1063/1.2408420</pub-id></element-citation></ref><ref id="R48"><label>48</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Nosé</surname><given-names>S</given-names></name><name name-style="western"><surname>Klein</surname><given-names>ML</given-names></name></person-group><article-title>Constant pressure molecular dynamics for molecular
+systems</article-title><source>Mol Phys</source><volume>50</volume><fpage>1055</fpage><lpage>1076</lpage><year>1983</year></element-citation></ref></ref-list></back><floats-group><fig id="F9" orientation="portrait" position="float"><label>Figure 1</label><caption><title>Massively parallel binding protein design</title><p><bold>a</bold>, Hundreds of 37–43 residue mini-protein backbones with
+different secondary structure elements, orientations and loop lengths were
+matched with hotspot binding motifs for HA (HB1 and HB2) and BoNT (Bot) by
+identifying compatible mini-protein local backbone segments, superimposing them
+onto the hotspot motif-target complex, and discarding docks with mini-
+protein/target backbone clashes. Each topology included designs with many
+different disulfide configurations; several possibilities are illustrated.
+<bold>b</bold>, For each non-clashing dock of each scaffold onto each
+target, the monomer and interaction energies were optimized with Rosetta
+sequence design. Representative models are shown at the left of each column.
+Right columns show a top view of the target with the hotspot interaction areas
+coloured as above and new contact areas generated by Rosetta sequence design
+coloured yellow; the total number of unique designs generated is indicated at
+the bottom. <bold>c</bold>, Designed contacts substantially increase the
+interface buried surface area of the designs beyond the starting hotspot
+residues. <bold>d</bold>, Genes encoding 16,968 mini-protein designs, including
+6,286 controls, were synthesized using DNA oligo pool synthesis (see Methods).
+<bold>e</bold>, The oligo pools were recombined into yeast display vectors
+and transformed into yeast (see Methods), and binding of the designs HA or BoNT
+at different concentrations was assessed by FACS. For each sorting condition,
+enriched designs were identified by comparing the frequencies in the original
+and sorted populations using deep sequencing. These data were used to guide
+improvement of the computational design model, and the entire design, synthesis
+and testing cycle was iterated</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f9.jpg"/></fig><fig id="F10" orientation="portrait" position="float"><label>Figure 2</label><caption><title>Massively parallel evaluation of binding</title><p>Vertical bars indicate FACS binding enrichment at different target concentrations
+for each of the 16,968 designs and 6,286 controls for Influenza H1 HA (a) and
+BoNT H<sub>C</sub>B (b). All α-helical designs are in green; mixed
+α-β topologies, in orange. The mini-proteins are grouped by type
+as indicated by the horizontal bars and text at the top of the panels.
+‘High+Protease’ indicates 5 min incubation with trypsin
+(18.5 μg ml<sup>−1</sup>) followed by incubation with 1 nM
+target. Right panels indicate normalized population fraction of each type of
+design (colour scheme as in corresponding left panel) for each of the selection
+conditions at the far left (<xref ref-type="table" rid="T2">Extended Data Table
+2</xref>); the total number of surviving designs is indicated by the numbers
+at the far right. For example, after incubation of the HA mini-protein
+population with 100 nM HA, FACS and deep sequencing, the population fractions of
+both non-disulfide (blue) and disulfide (yellow) designs doubled compared to the
+starting population, while that of the non-disulfide scrambles decreased
+approximately fivefold and the disulfide scrambles completely disappeared</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f10.jpg"/></fig><fig id="F11" orientation="portrait" position="float"><label>Figure 3</label><caption><title>Experiment-based assessment of computational models</title><p><bold>a</bold>, Computed energies of folding and binding for binding designs
+(orange) and non-binding designs (grey); <italic toggle="yes">x</italic>-axis is binding
+energy per nm<sup>2</sup> and <italic toggle="yes">y</italic>-axis is monomer (folding)
+energy per residue, both in kcal per mol. <bold>b</bold>, Kernel density
+estimates for HA (top) and BoNT (bottom) show that designs that bind target
+(blue) have better local sequence-structure compatibility, quantified by the
+Rosetta side-chain probability score -p_aa_pp, and higher interface atom counts
+than non-binding designs (red). Design success rate (dark green) is shown with
+1<italic toggle="yes">σ</italic> confidence interval (light green).
+<bold>c</bold>, Inset: Receiver–operator characteristic curve for
+discriminating first generation HA binders using a five-factor logistic
+regression. A second generation of HA binder design incorporating filtering on
+these five features (see Methods) had an increased success rate
+(<italic toggle="yes">y</italic>-axis); the numbers of successes are indicated above the
+bars. <bold>d</bold>, Interface residue fluctuations in molecular dynamics
+simulations are smaller for binding designs than non-binders (see Methods and
+<xref ref-type="fig" rid="F3">Extended Data Fig. 3</xref>). <bold>e</bold>,
+<bold>f</bold>, Left, design models of Bot.671.2 (<bold>e</bold>) and
+HB1.6928.2.3 (<bold>f</bold>) bound to their targets, coloured by the mean
+change in binding at each position in the comprehensive mutagenesis pools;
+conserved residues (blue) are shown as sticks, non-conserved positions in red.
+Right, the experimentally observed mean changes in binding at each position
+(<italic toggle="yes">y</italic>-axis) correlate with those computed from the structures
+(<italic toggle="yes">x</italic>-axis) (Pearson cross-correlation test: <bold>e</bold>,
+<italic toggle="yes">r</italic> = 0.76; <bold>f</bold>, <italic toggle="yes">r</italic>
+= 0.64).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f11.jpg"/></fig><fig id="F12" orientation="portrait" position="float"><label>Figure 4</label><caption><title>Characterization of structure, stability and activity of designs</title><p><bold>a</bold>, Left, comparison of design model with X-ray structure of
+HB1.6928.2.3 in complex with PR8 H1 HA (HA used in design calculations is
+essentially identical to crystal structure and not shown). Right, close-up of
+the HB1.6928.2.3 X-ray structure with designed residues conserved in the SSMs
+outside of the hotspot seed indicated in sticks; these residues make both
+packing (e.g. W19 and Y24) and electrostatic interactions with HA.
+<bold>b</bold>, Left, as in <bold>a</bold>, but for Bot.671.2 in complex
+with BoNT H<sub>C</sub>B. <bold>c</bold>, Binding activity remaining following
+incubation of the indicated molecules at 80 °C for different durations
+(<italic toggle="yes">x</italic>-axis), measured by biolayer interferometry. The designs
+are considerably more robust than the mAb FI6v3 antibody. <bold>d</bold>,
+HB1.6928.2.3 (HB1) more effectively prevents influenza infection of Madin-Darby
+canine kidney cells than do FI6v3 or the previously designed binder HB36.6 (see
+also <xref ref-type="fig" rid="F8">Extended Data Fig. 8</xref>).
+<italic toggle="yes">n</italic> = 3 independent virus titrations were performed
+for each condition. Dots show raw values for each test and whiskers show
+± 1 s.d. <bold>e</bold>, Bot.671.2 better protects cultured rat cortical
+neurons against degradation of VAMP2 than does Syt-II, and it prevents binding
+of the toxin to neurons. <italic toggle="yes">n</italic> = 4 independent samples for
+each condition, dots show raw values for each condition and whiskers show
+± 1 s.d.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f12.jpg"/></fig><fig id="F13" orientation="portrait" position="float"><label>Figure 5</label><caption><title><italic toggle="yes">In VIVO</italic> efficacy and immunogenicity</title><p><bold>a, b, d</bold>, Weight change (top) and survival (bottom) of BALB/c mice
+receiving influenza binder. <bold>a</bold>, Prophylactic efficacy: mice received
+HB1.6928.2.3 (orange) or FI6v3 mAb (green) intranasally or intravenously 24 h
+before challenge with 2 MLD<sub>50</sub> (fifty per cent mouse lethal dose) of
+H1N1 CA09 virus (<italic toggle="yes">n</italic> = 10, except 0.03 mg
+kg<sup>−1</sup>, <italic toggle="yes">n</italic> = 5), see also <xref ref-type="supplementary-material" rid="SD1">Supplementary Fig. 6</xref>.
+<bold>b</bold>, Therapeutic efficacy: mice were first challenged with 2
+MLD<sub>50</sub> of CA09 virus and then received HB1.6928.2.3 intranasally
+1–4 days post-challenge (<italic toggle="yes">n</italic> = 5). The
+mini-proteins have remarkable therapeutic efficiency even if administered after
+three days. <bold>c</bold>, Immune (IgG) responses in BALB/c mice
+(<italic toggle="yes">n</italic> = 5) that received three intravenous doses (3 mg
+kg<sup>−1</sup>) of miniproteins, human IgG (hIgG) or mouse IgG
+(mIgG) spaced three weeks apart (left) or three intranasal doses of
+mini-proteins or bovine serum albumin (BSA; 3 mg kg<sup>−1</sup>) spaced
+two weeks apart (right). IgG responses in both cases were measured by
+enzyme-linked immunosorbent assay (ELISA, 1:500 serum) two weeks after each
+dose. <bold>d</bold>, Prophylactic efficacy is not reduced by repeated dosing:
+Mice received four doses (weeks 0, 3, 6, and 12, 3 mg kg<sup>−1</sup>)
+of either HB1.6828.3.2, a Bot protein (mock dosing controls), or buffer (PBS),
+followed by a fifth intranasal dose of HB1.6828.3.2 or a Bot protein (0.3 mg
+kg<sup>−1</sup>) nine days after the fourth administration.
+Twenty-four hours after the fifth dose, mice were challenged with 2
+MLD<sub>50</sub> of H1N1 CA09 flu virus. HB1.6928.2.3 remains equally
+protective after repeated administration when compared to protection with no
+prior dosing. In all panels, whiskers show ± 1 s.e.m. Raw data for all
+the experiments in this figure are available in the <xref ref-type="supplementary-material" rid="SD1">Supplementary
+Information</xref>. i.n., intranasal; i.v., intravenous</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms931246f13.jpg"/></fig></floats-group></article></pmc-articleset>

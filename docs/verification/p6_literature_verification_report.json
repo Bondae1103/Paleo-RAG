@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "date": "2026-10-13T17:03:50.644323+00:00",
+    "phase": "P6",
+    "total_papers_stored": 885,
+    "open_access_papers_with_full_text": 443,
+    "total_protein_paper_links": 8438,
+    "accepted_protein_paper_links": 8428,
+    "retrieval_integrity_pass_rate_pct": 100.0,
+    "precision_audit_pass_rate_pct": 100.0
+  }
+}

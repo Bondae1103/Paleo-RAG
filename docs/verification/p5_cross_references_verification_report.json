@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "date": "2026-10-13T16:07:46.699327+00:00",
+    "phase": "P5",
+    "total_cross_references_stored": 101032,
+    "distinct_proteins_referenced": 5626,
+    "database_distribution": {
+      "EMBL": 11709,
+      "AlphaFoldDB": 4113,
+      "GO": 28032,
+      "InterPro": 24006,
+      "PANTHER": 7642,
+      "Pfam": 8673,
+      "PROSITE": 3422,
+      "RefSeq": 3788,
+      "GeneID": 3707,
+      "KEGG": 5940
+    },
+    "total_predicted_structures_stored": 355,
+    "live_verification_sample_size": 100,
+    "live_verification_pass_rate_pct": 100.0
+  },
+  "sample_verification_results": [
+    {
+      "sample_index": 1,
+      "uniprot_accession": "Q6DNQ9",
+      "project_tax_code": "PRAG-TAX-015",
+      "database": "InterPro",
+      "identifier": "IPR001407",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR001407",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 2,
+      "uniprot_accession": "Q1C216",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "PANTHER",
+      "identifier": "PTHR23132:SF23",
+      "url": "http://www.pantherdb.org/panther/family.do?clsAccession=PTHR23132:SF23",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 3,
+      "uniprot_accession": "A4TR27",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR036291",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR036291",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 4,
+      "uniprot_accession": "P0DJR3",
+      "project_tax_code": "PRAG-TAX-015",
+      "database": "GO",
+      "identifier": "GO:0030430",
+      "url": "https://amigo.geneontology.org/amigo/term/GO:0030430",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 5,
+      "uniprot_accession": "Q1CAK4",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR017871",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR017871",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 6,
+      "uniprot_accession": "Q8ZH68",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR002934",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR002934",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 7,
+      "uniprot_accession": "Q1CB91",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "EMBL",
+      "identifier": "CP000308",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/CP000308",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 8,
+      "uniprot_accession": "Q8ZEI2",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "GO",
+      "identifier": "GO:0032049",
+      "url": "https://amigo.geneontology.org/amigo/term/GO:0032049",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 9,
+      "uniprot_accession": "Q6DQ15",
+      "project_tax_code": "PRAG-TAX-015",
+      "database": "GO",
+      "identifier": "GO:0039654",
+      "url": "https://amigo.geneontology.org/amigo/term/GO:0039654",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 10,
+      "uniprot_accession": "A9R256",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR020631",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR020631",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 11,
+      "uniprot_accession": "Q9IQ46",
+      "project_tax_code": "PRAG-TAX-015",
+      "database": "GO",
+      "identifier": "GO:0003968",
+      "url": "https://amigo.geneontology.org/amigo/term/GO:0003968",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 12,
+      "uniprot_accession": "P08276",
+      "project_tax_code": "PRAG-TAX-015",
+      "database": "GO",
+      "identifier": "GO:0039524",
+      "url": "https://amigo.geneontology.org/amigo/term/GO:0039524",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 13,
+      "uniprot_accession": "Q8ZJI0",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "EMBL",
+      "identifier": "AE009952",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/AE009952",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 14,
+      "uniprot_accession": "Q8ZFT7",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR004655",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR004655",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 15,
+      "uniprot_accession": "A0A1D8GY07",
+      "project_tax_code": "PRAG-TAX-006",
+      "database": "Pfam",
+      "identifier": "PF00361",
+      "url": "https://www.ebi.ac.uk/interpro/entry/pfam/PF00361",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 16,
+      "uniprot_accession": "Q1C5P2",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "GO",
+      "identifier": "GO:0004637",
+      "url": "https://amigo.geneontology.org/amigo/term/GO:0004637",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 17,
+      "uniprot_accession": "Q8ZC05",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR029057",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR029057",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 18,
+      "uniprot_accession": "A4TPZ1",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "PANTHER",
+      "identifier": "PTHR45790",
+      "url": "http://www.pantherdb.org/panther/family.do?clsAccession=PTHR45790",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 19,
+      "uniprot_accession": "A4TIN0",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "Pfam",
+      "identifier": "PF21948",
+      "url": "https://www.ebi.ac.uk/interpro/entry/pfam/PF21948",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 20,
+      "uniprot_accession": "Q1C4K7",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR005215",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR005215",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 21,
+      "uniprot_accession": "Q1CMM6",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "GO",
+      "identifier": "GO:0005524",
+      "url": "https://amigo.geneontology.org/amigo/term/GO:0005524",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 22,
+      "uniprot_accession": "A9QZU8",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "RefSeq",
+      "identifier": "WP_002209794.1",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/WP_002209794.1",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 23,
+      "uniprot_accession": "C4P9A5",
+      "project_tax_code": "PRAG-TAX-009",
+      "database": "RefSeq",
+      "identifier": "YP_002887577.1",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/YP_002887577.1",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 24,
+      "uniprot_accession": "Q1C3Z0",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR003097",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR003097",
+      "status": "VERIFIED"
+    },
+    {
+      "sample_index": 25,
+      "uniprot_accession": "Q1CB48",
+      "project_tax_code": "PRAG-TAX-003",
+      "database": "InterPro",
+      "identifier": "IPR036255",
+      "url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR036255",
+      "status": "VERIFIED"
+    }
+  ]
+}

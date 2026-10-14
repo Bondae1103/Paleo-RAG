@@ -1,0 +1,1392 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article id="gcb70354" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Glob Chang Biol</journal-id><journal-id journal-id-type="iso-abbrev">Glob Chang Biol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">9888746</journal-id><journal-id journal-id-type="publisher-id">GCB</journal-id><journal-title-group><journal-title>Global Change Biology</journal-title></journal-title-group><issn pub-type="ppub">1354-1013</issn><issn pub-type="epub">1365-2486</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12322808</article-id><article-id pub-id-type="pmcid-ver">PMC12322808.1</article-id><article-id pub-id-type="pmcaid">12322808</article-id><article-id pub-id-type="pmcaiid">12322808</article-id><article-id pub-id-type="pmid">40762062</article-id><article-id pub-id-type="doi">10.1111/gcb.70354</article-id><article-id pub-id-type="publisher-id">GCB70354</article-id><article-id pub-id-type="other">GCB-25-0565.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Coexistence, Extinction and Survival—The Evolutionary History of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison</italic>
+</styled-content> Species in Western Eurasia</article-title></title-group><contrib-group><contrib id="gcb70354-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Llamas</surname><given-names initials="B">Bastien</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5550-9176</contrib-id><xref rid="gcb70354-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="gcb70354-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="gcb70354-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="gcb70354-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>bastien.llamas@adelaide.edu.au</email></address></contrib><contrib id="gcb70354-cr-0002" contrib-type="author"><name name-style="western"><surname>van Loenen</surname><given-names initials="AL">Ayla L.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6160-4903</contrib-id><xref rid="gcb70354-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gcb70354-cr-0003" contrib-type="author"><name name-style="western"><surname>Mitchell</surname><given-names initials="KJ">Kieren J.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3921-0262</contrib-id><xref rid="gcb70354-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="gcb70354-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="gcb70354-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="gcb70354-cr-0004" contrib-type="author"><name name-style="western"><surname>Hofman‐Kamińska</surname><given-names initials="E">Emilia</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7924-5307</contrib-id><xref rid="gcb70354-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="gcb70354-cr-0005" contrib-type="author"><name name-style="western"><surname>Bocherens</surname><given-names initials="H">Hervé</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0494-0126</contrib-id><xref rid="gcb70354-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="gcb70354-cr-0006" contrib-type="author"><name name-style="western"><surname>Heiniger</surname><given-names initials="H">Holly</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1319-1462</contrib-id><xref rid="gcb70354-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gcb70354-cr-0007" contrib-type="author"><name name-style="western"><surname>Pacher</surname><given-names initials="M">Martina</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0229-823X</contrib-id><xref rid="gcb70354-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="gcb70354-cr-0008" contrib-type="author"><name name-style="western"><surname>Makowiecki</surname><given-names initials="D">Daniel</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1821-4627</contrib-id><xref rid="gcb70354-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="gcb70354-cr-0009" contrib-type="author"><name name-style="western"><surname>Piličiauskienė</surname><given-names initials="G">Giedrė</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5168-8568</contrib-id><xref rid="gcb70354-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib><contrib id="gcb70354-cr-0010" contrib-type="author"><name name-style="western"><surname>Drucker</surname><given-names initials="DG">Dorothée G.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0854-4371</contrib-id><xref rid="gcb70354-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref></contrib><contrib id="gcb70354-cr-0011" contrib-type="author"><name name-style="western"><surname>Brown</surname><given-names initials="D">David</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6156-4868</contrib-id><xref rid="gcb70354-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref></contrib><contrib id="gcb70354-cr-0012" contrib-type="author"><name name-style="western"><surname>Thomas</surname><given-names initials="ZA">Zoe A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2323-4366</contrib-id><xref rid="gcb70354-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref></contrib><contrib id="gcb70354-cr-0013" contrib-type="author"><name name-style="western"><surname>Turney</surname><given-names initials="CSM">Chris S. M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6733-0993</contrib-id><xref rid="gcb70354-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref></contrib><contrib id="gcb70354-cr-0014" contrib-type="author" corresp="yes"><name name-style="western"><surname>Kowalczyk</surname><given-names initials="R">Rafał</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7264-2158</contrib-id><xref rid="gcb70354-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>rkowal@ibs.bialowieza.pl</email></address></contrib><contrib id="gcb70354-cr-0015" contrib-type="author" corresp="yes"><name name-style="western"><surname>Cooper</surname><given-names initials="A">Alan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7738-7851</contrib-id><xref rid="gcb70354-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="gcb70354-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref><address><email>alacooper@csu.edu.au</email></address></contrib></contrib-group><aff id="gcb70354-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Australian Centre for Ancient DNA (ACAD)</named-content>
+<institution>University of Adelaide</institution>
+<city>Adelaide</city>
+<named-content content-type="country-part">South Australia</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="gcb70354-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Centre of Excellence for Australian Biodiversity and Heritage (CABAH), School of Biological Sciences</named-content>
+<institution>University of Adelaide</institution>
+<city>Adelaide</city>
+<named-content content-type="country-part">South Australia</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="gcb70354-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">National Centre for Indigenous Genomics</named-content>
+<institution>Australian National University</institution>
+<city>Canberra</city>
+<named-content content-type="country-part">Australian Capital Territory</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="gcb70354-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Indigenous Genomics Research Group</named-content>
+<institution>The Kids Research Institute Australia</institution>
+<city>Adelaide</city>
+<named-content content-type="country-part">South Australia</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="gcb70354-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Manaaki Whenua–Landcare Research</institution>
+<city>Lincoln</city>
+<named-content content-type="country-part">Canterbury</named-content>
+<country country="NZ">New Zealand</country>
+</aff><aff id="gcb70354-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Mammal Research Institute</named-content>
+<institution>Polish Academy of Sciences</institution>
+<city>Białowieża</city>
+<country country="PL">Poland</country>
+</aff><aff id="gcb70354-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Fachbereich Geowissenschaften, Forschungsbereich Paläobiologie</named-content>
+<institution>Universität Tübingen</institution>
+<city>Tübingen</city>
+<country country="DE">Germany</country>
+</aff><aff id="gcb70354-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<institution>Naturmuseum St. Gallen</institution>
+<city>St. Gallen</city>
+<country country="CH">Switzerland</country>
+</aff><aff id="gcb70354-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Archeology, Faculty of History</named-content>
+<institution>Nicolaus Copernicus University</institution>
+<city>Toruń</city>
+<country country="PL">Poland</country>
+</aff><aff id="gcb70354-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<institution>Faculty of History, Vilnius University</institution>
+<city>Vilnius</city>
+<country country="LT">Lithuania</country>
+</aff><aff id="gcb70354-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Senckenberg Centre for Human Evolution and Palaeoenvironment</named-content>
+<institution>Universität Tübingen</institution>
+<city>Tübingen</city>
+<country country="DE">Germany</country>
+</aff><aff id="gcb70354-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">School of Natural and Built Environment</named-content>
+<institution>Queen's University</institution>
+<city>Belfast</city>
+<named-content content-type="country-part">Northern Ireland</named-content>
+<country country="GB">UK</country>
+</aff><aff id="gcb70354-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<named-content content-type="organisation-division">School of Geography and Environmental Science</named-content>
+<institution>University of Southampton</institution>
+<city>Southampton</city>
+<country country="GB">UK</country>
+</aff><aff id="gcb70354-aff-0014">
+<label>
+<sup>14</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Sustainable Futures</named-content>
+<institution>University of Technology Sydney</institution>
+<city>Ultimo</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="gcb70354-aff-0015">
+<label>
+<sup>15</sup>
+</label>
+<named-content content-type="organisation-division">Gulbali Institute</named-content>
+<institution>Charles Sturt University</institution>
+<city>Albury</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Bastien Llamas (<email>bastien.llamas@adelaide.edu.au</email>)<break/>
+Rafał Kowalczyk (<email>rkowal@ibs.bialowieza.pl</email>)<break/>
+Alan Cooper (<email>alacooper@csu.edu.au</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>05</day><month>8</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>8</month><year>2025</year></pub-date><volume>31</volume><issue seq="620">8</issue><issue-id pub-id-type="pmc-issue-id">494432</issue-id><issue-id pub-id-type="doi">10.1111/gcb.v31.8</issue-id><elocation-id>e70354</elocation-id><history><date date-type="rev-recd"><day>04</day><month>6</month><year>2025</year></date><date date-type="received"><day>16</day><month>2</month><year>2025</year></date><date date-type="accepted"><day>11</day><month>6</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>05</day><month>08</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>06</day><month>08</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-24 20:11:11.237"><day>24</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">
+<italic toggle="yes">Global Change Biology</italic>© 2025 The Author(s). Global Change Biology published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="GCB-31-e70354.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:GCB-31-e70354.pdf"/><abstract><title>ABSTRACT</title><p>European bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content>) are one of the few European megafaunal species to survive the Late Pleistocene mass megafaunal extinction. Current conservation management efforts have proceeded in the absence of information about their evolutionary history, which has been obscured by recent severe population bottlenecks. We characterized mitochondrial genomes from 135 ancient bison samples spanning &gt; 50,000 years (&gt; 50 ka) across the Eurasian continent and detected three distinct phylogenetic groups: two distinct clades of European bison and the extinct steppe bison (<italic toggle="no">Bison priscus</italic>). The geographical distributions and dietary/ecological signatures of the three groups overlapped during the Late Pleistocene climate cycles and tracked environmental changes including vegetation cover and human impacts. The abundance of European bison specimens responded negatively to the extent of forest cover, including Holocene cycles of abrupt atmospheric‐ocean circulation changes originating in the North Atlantic. European bison remain preferentially adapted to an open environment, but with today's anthropogenic landscapes, are now largely restricted to forest habitats with negative implications under scenarios of future environmental change.</p></abstract><abstract abstract-type="graphical"><p>European bison are one of the few large animals to survive the Ice Age, but modern populations are descended from 12 individuals following intensive hunting in the early 1900’s. We reconstructed their past genetic history using mitochondrial genomes from 135 bison skeletons, up to 50,000 years old, and identified two types of European bison and the extinct Steppe bison. These groups overlapped in space and diet, shifting with changes in climate, vegetation, and human activity. European bison populations preferred open habitats and declined when forests expanded, so their current restriction to forest habitats raises major concerns about their future.<boxed-text position="anchor" content-type="graphic" id="gcb70354-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="GCB-31-e70354-g001.jpg"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="gcb70354-kwd-0001">ancient DNA</kwd><kwd id="gcb70354-kwd-0002">European bison</kwd><kwd id="gcb70354-kwd-0003">mitochondrial genomes</kwd><kwd id="gcb70354-kwd-0004">palaeoclimate</kwd><kwd id="gcb70354-kwd-0005">palaeodiet</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Narodowe Centrum Nauki</institution><institution-id institution-id-type="doi">10.13039/501100004281</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="3"/><table-count count="0"/><page-count count="13"/><word-count count="11000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.9 mode:remove_FC converted:05.08.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="gcb70354-cit-1001">
+<string-name name-style="western">
+<surname>Llamas</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>van Loenen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Mitchell</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Coexistence, Extinction and Survival—The Evolutionary History of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison</italic>
+</styled-content> Species in Western Eurasia</article-title>.” <source>Global Change Biology</source>
+<volume>31</volume>, no. <issue>8</issue>: <elocation-id>e70354</elocation-id>. <pub-id pub-id-type="doi">10.1111/gcb.70354</pub-id>.<pub-id pub-id-type="pmid">40762062</pub-id>
+<pub-id pub-id-type="pmcid">PMC12322808</pub-id></mixed-citation>
+</p><fn-group id="gcb70354-ntgp-0001"><fn fn-type="funding" id="gcb70354-note-0001"><p>
+<bold>Funding:</bold> This research was supported by Narodowe Centrum Nauki.</p></fn><fn fn-type="equal" id="gcb70354-note-0002"><p>Bastien Llamas, Ayla L. van Loenen, Zoe A Thomas, and Chris SM Turney have contributed equally to this work.</p></fn><fn fn-type="equal" id="gcb70354-note-0003"><p>Rafał Kowalczyk and Alan Cooper have contributed equally to this work.</p></fn></fn-group></notes></front><body id="gcb70354-body-0001"><sec id="gcb70354-sec-0001"><label>1</label><title>Introduction</title><p>European bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content>), or wisent, are one of the only megafaunal species to survive the Late Pleistocene megafaunal extinctions in Europe, and remain the largest endemic vertebrate (Bocherens et al. <xref rid="gcb70354-bib-0009" ref-type="bibr">2015</xref>; Cooper et al. <xref rid="gcb70354-bib-0013" ref-type="bibr">2015</xref>). They were broadly distributed across the continent and (now submerged) North Sea during the Late Pleistocene (120,000–12,000 years ago; ka) and Holocene (12 ka to present day) (Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0032" ref-type="bibr">2019</xref>; Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>), along with the now extinct steppe bison (<italic toggle="yes">Bison priscus</italic>). However, by the end of the 19th Century, human persecution had restricted their distribution to two small populations (recognized as subspecies) in the Białowieża Forest between Poland and Belarus (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus bonasus</italic>
+</styled-content>) and the Caucasus Mountains (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus caucasicus</italic>
+</styled-content>) (Krasińska and Krasiński <xref rid="gcb70354-bib-0042" ref-type="bibr">2013</xref>; Pucek et al. <xref rid="gcb70354-bib-0068" ref-type="bibr">2004</xref>; Węcek et al. <xref rid="gcb70354-bib-0098" ref-type="bibr">2017</xref>). By the 1920s, European bison were extinct in the wild with just 54 individuals remaining in captivity, and these in turn were effectively descended from just 12 individuals (Krasińska and Krasiński <xref rid="gcb70354-bib-0042" ref-type="bibr">2013</xref>; Pucek et al. <xref rid="gcb70354-bib-0068" ref-type="bibr">2004</xref>; Slatis <xref rid="gcb70354-bib-0080" ref-type="bibr">1960</xref>).</p><p>The severe historical genetic bottleneck (Massilani et al. <xref rid="gcb70354-bib-0052" ref-type="bibr">2016</xref>; Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>; Tokarska et al. <xref rid="gcb70354-bib-0089" ref-type="bibr">2009</xref>, <xref rid="gcb70354-bib-0090" ref-type="bibr">2011</xref>; Węcek et al. <xref rid="gcb70354-bib-0098" ref-type="bibr">2017</xref>; Wójcik et al. <xref rid="gcb70354-bib-0099" ref-type="bibr">2009</xref>) and resulting extremely limited genetic diversity of modern European bison has obscured the genetic records of their evolutionary history, while range restriction to just two refugial locations has also obscured their ecological history and potential adaptive capacity, and as a result, they have been described as a refugee species (Kerley et al. <xref rid="gcb70354-bib-0038" ref-type="bibr">2012</xref>). However, the evolutionary history of European bison (Kerley et al. <xref rid="gcb70354-bib-0038" ref-type="bibr">2012</xref>), craniodental morphology (Mendoza and Palmqvist <xref rid="gcb70354-bib-0055" ref-type="bibr">2008</xref>), and the isotopic signatures of historical populations (Bocherens et al. <xref rid="gcb70354-bib-0009" ref-type="bibr">2015</xref>; Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0032" ref-type="bibr">2019</xref>) indicate adaptation to foraging in open habitats. This evidence is at odds with the re‐introduction of European bison in non‐optimal habitats such as forests (Kerley et al. <xref rid="gcb70354-bib-0038" ref-type="bibr">2012</xref>), where current populations are highly dependent on human care, leading to potentially serious impacts on genetic fitness. The pressing conservation needs of this species make the issue of potential resilience to environmental and anthropogenic challenges critically important, along with the increasing interest in restoring the ecological role of megaherbivores as habitat engineers and umbrella species in ecosystems such as Eurasia and North America (Svenning <xref rid="gcb70354-bib-0085" ref-type="bibr">2020</xref>; Svenning et al. <xref rid="gcb70354-bib-0086" ref-type="bibr">2024</xref>; Trepel et al. <xref rid="gcb70354-bib-0093" ref-type="bibr">2024</xref>). The European situation also provides important insights for current conservation efforts in North America, where the evolutionary history of North American bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bison</italic>
+</styled-content>) similarly revolves around two putative subspecies, the woods and plains bison (<italic toggle="yes">B. b. athabascae</italic> and <italic toggle="yes">B. b. bison</italic>), which have also experienced recent genetic bottlenecks and are currently managed separately in small populations (Cronin et al. <xref rid="gcb70354-bib-0014" ref-type="bibr">2013</xref>; Hartway et al. <xref rid="gcb70354-bib-0029" ref-type="bibr">2020</xref>).</p><p>Several ancient DNA (aDNA) studies have investigated the evolutionary history of bison in Western Eurasia (Grange et al. <xref rid="gcb70354-bib-0024" ref-type="bibr">2018</xref>; Massilani et al. <xref rid="gcb70354-bib-0052" ref-type="bibr">2016</xref>; Onar et al. <xref rid="gcb70354-bib-0059" ref-type="bibr">2017</xref>; Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>) using specimens principally from the North Sea, Ural Mountains, and France. Most of the data generated has been mitochondrial control region sequences, with smaller amounts of full mitochondrial genomes. The amount of ancient genomic data currently remains limited due to the sub‐optimal preservation conditions of many sites, but has revealed that Late Pleistocene <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content> mitochondrial lineages derive from a major admixture event with aurochs (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bos primigenius</italic>
+</styled-content>) around 120 ka, during the last (Eemian) interglacial (Massilani et al. <xref rid="gcb70354-bib-0052" ref-type="bibr">2016</xref>; Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). Although geographically and temporally restricted, the ancient DNA data support the division of ancient European bison into two distinct clades, only one of which survives. An extinct Pleistocene clade was first termed Clade X, or colloquially “the Higgs Bison,” to distinguish it from contemporary European bison (Massilani et al. <xref rid="gcb70354-bib-0052" ref-type="bibr">2016</xref>; Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). Subsequent studies have termed these two groups <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content> clades 1 and 2 (Bb1 and Bb2) (Grange et al. <xref rid="gcb70354-bib-0024" ref-type="bibr">2018</xref>; Massilani et al. <xref rid="gcb70354-bib-0052" ref-type="bibr">2016</xref>). We use this terminology for consistency, where Bb1 refers to the extinct Late Pleistocene clade and Bb2 refers to the clade including present‐day European bison. Initial results suggest that Bb1, Bb2, and steppe bison might potentially reflect distinct groups adapted to specific ecological niches found in the Ural mountains/eastern Europe, western Europe, and western Siberia respectively (Massilani et al. <xref rid="gcb70354-bib-0052" ref-type="bibr">2016</xref>; Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>), but this hypothesis cannot be examined without a continental scale geographic and temporal sampling of genetically typed individuals.</p><p>In this paper, we generate 75 ancient mitochondrial genome sequences from bison specimens across Eurasia, spanning over 50 thousand years, substantially increasing the spatial and temporal coverage of previous studies. Together with published sequences, the total dataset comprises 135 bison mitochondrial genomes. In addition, radiocarbon dates and stable isotope information were generated for each of the new specimens. The resulting dataset allows the evolutionary history of European bison to be reconstructed in some detail, permitting comparison with contemporaneous environmental and climatic changes.</p></sec><sec sec-type="materials-and-methods" id="gcb70354-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="gcb70354-sec-0003"><label>2.1</label><title>Sample Collection and Processing</title><p>Samples of bison specimens were collected from museums and private collections across Europe (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>) to complement an existing collection at the Australian Centre for Ancient DNA (ACAD), University of Adelaide. The final sample set includes specimens ranging from over 50 ka to present, across regions from Scandinavia and Siberia (Russia) to Italy and Turkey (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1A,D</xref>). All ancient DNA work was performed in the purpose‐built ancient DNA facilities at ACAD. Ancient DNA was extracted from bone fragments following a silica‐based extraction protocol (Brotherton et al. <xref rid="gcb70354-bib-0011" ref-type="bibr">2013</xref>) with modifications as previously described (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). Double‐stranded Illumina sequencing libraries were built from 25 μL of DNA extract following a partial uracil‐DNA‐glycosylase (UDG) treatment protocol (Rohland et al. <xref rid="gcb70354-bib-0073" ref-type="bibr">2015</xref>) modified to include dual 7‐mer internal barcode sequences as previously described (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). We used RNA baits targeting bison mitochondrial genome sequences and in‐solution hybridization capture followed by high‐throughput sequencing as previously described (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>) to generate complete or near‐complete mitochondrial genomes from 81 bison samples, although we retained only 75 samples after data quality filtering (see below).</p><fig position="float" fig-type="FIGURE" id="gcb70354-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(A) Geographical distribution of bison samples during three time periods of interest in Eurasia; Bb1: Blue squares, Bb2: Green circles, and steppe bison: Purple triangles. Current distribution of European bison is represented in red (from Kowalczyk and Plumb <xref rid="gcb70354-bib-0040" ref-type="bibr">2022</xref>). Map lines delineate study areas and do not necessarily depict accepted national boundaries (B) δ<sup>13</sup>C isotope values as a function of sample age. (C) δ<sup>15</sup>N isotope values as a function of sample age. (D) Latitude as a function of sample age. The Aurignacian–Gravettian and Magdalenian periods are represented, with corresponding Western Eurasian specimens annotated with Ca (Caucasus), Fr (France), Mo (Moldova), Po (Poland), Sl (Slovenia), Sw (Switzerland), Uk (Ukraine). (E) NGRIP δ<sup>18</sup>O record (Andersen et al. <xref rid="gcb70354-bib-0001" ref-type="bibr">2004</xref>) with Greenland interstadials numbered and highlighted in gray. Fitting lines in panels B–D are generalized additive models with integrated smoothness; colors correspond to bison clades and confidence intervals are highlighted.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="GCB-31-e70354-g003.jpg"/></fig><p>Sequencing reads were mapped to published mitochondrial genomes of European bison (chrM from NC014044) or Steppe bison (chrM from NC012346) according to the morphological assignment of bones (unidentified bones were mapped to steppe bison). We used the programs AdapterRemoval v2.2.1 (Lindgreen <xref rid="gcb70354-bib-0049" ref-type="bibr">2012</xref>), BWA v0.7.15 (Li and Durbin <xref rid="gcb70354-bib-0046" ref-type="bibr">2009</xref>), Picard Tools (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://broadinstitute.github.io/picard" ext-link-type="uri">broadinstitute.github.io/picard</ext-link>), Genome Analysis ToolKit (McKenna et al. <xref rid="gcb70354-bib-0054" ref-type="bibr">2010</xref>), SAMtools v1.3.1 (Li <xref rid="gcb70354-bib-0047" ref-type="bibr">2011</xref>; Li et al. <xref rid="gcb70354-bib-0048" ref-type="bibr">2009</xref>), and mapDamage v2.0.6 (Jónsson et al. <xref rid="gcb70354-bib-0036" ref-type="bibr">2013</xref>), as implemented in the pipeline PALEOMIX v1.2.9 (Schubert et al. <xref rid="gcb70354-bib-0078" ref-type="bibr">2014</xref>) and as previously described (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). The sequencing summary statistics for each specimen were compiled from the PALEOMIX pipeline output (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S2</xref>). A mitochondrial genome consensus sequence was generated in Geneious v9.0.5 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://geneious.com" ext-link-type="uri">geneious.com</ext-link>) with a minimum read depth of 3 and a consensus call threshold of 75%. Any ambiguities were visually inspected and manually realigned if necessary, and the resulting 75 consensus sequences were aligned to previously published bovid mitochondrial sequences using MAFFT7 (Katoh et al. <xref rid="gcb70354-bib-0037" ref-type="bibr">2002</xref>) to create a multiple sequence alignment (MSA). A Maximum‐Likelihood (ML) tree was generated in PhyML v3.0 (Guindon et al. <xref rid="gcb70354-bib-0026" ref-type="bibr">2010</xref>) from the MSA (substitution model: HKY + G6, data type: nucleotide, tree improvement: BEST) to classify specimens as Steppe bison, Bb1, or Bb2. In cases where the ML tree species assignment did not match the initial morphological assignment, sequencing reads from that specimen were re‐mapped to the morphologically appropriate reference genome and variants called as described above.</p><p>Sequence data from the 75 new specimens were combined with 17 mitochondrial genomes re‐sequenced from enriched DNA libraries generated in (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>) and (Onar et al. <xref rid="gcb70354-bib-0059" ref-type="bibr">2017</xref>), plus 43 published European bison mitochondrial genomes available on NCBI and ENA databases (i.e., specimens from western Eurasia identified as either Bb1, Bb2, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. bonasus</italic>
+</styled-content>, or <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. priscus</italic>
+</styled-content>). We did not include two previously published mitogenome sequences, as one was chimeric (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KY055664">KY055664</ext-link>) (Węcek et al. <xref rid="gcb70354-bib-0098" ref-type="bibr">2017</xref>), and the other was sourced from a hyena coprolite (GAO1/<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KU886087">KU886087</ext-link>) (Palacio et al. <xref rid="gcb70354-bib-0060" ref-type="bibr">2017</xref>) and has an unclear taxonomic origin (Grange et al. <xref rid="gcb70354-bib-0024" ref-type="bibr">2018</xref>). The resulting final dataset included 135 bison mitochondrial genomes from across western Eurasia (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>).</p></sec><sec id="gcb70354-sec-0004"><label>2.2</label><title>Phylogenetic Analyses</title><p>Median‐joining haplotype networks were generated in PopART (Bandelt et al. <xref rid="gcb70354-bib-0004" ref-type="bibr">1999</xref>; Leigh and Bryant <xref rid="gcb70354-bib-0044" ref-type="bibr">2015</xref>) from the alignment of all mitochondrial genomes, masking sites with more than 5% missing data from the analysis. Bayesian phylogenetic analyses were performed on the MSA of all complete mitochondrial genomes of European bison using BEAST v1.8.4 (Drummond and Rambaut <xref rid="gcb70354-bib-0019" ref-type="bibr">2007</xref>; Suchard and Rambaut <xref rid="gcb70354-bib-0084" ref-type="bibr">2009</xref>) through the CIPRES Science Gateway v3.1 (Miller et al. <xref rid="gcb70354-bib-0056" ref-type="bibr">2010</xref>) (HKY + G6 nucleotide substitution model, GMRF skyride, uncorrelated relaxed clock). Specimens were assigned to clades of European bison according to their position in an initial ML tree (Figure <xref rid="gcb70354-supitem-0003" ref-type="supplementary-material">S3</xref>) for subsequent analyses. The radiocarbon dates of specimens were used as tip dates to calibrate the tree and calculate rates of molecular evolution. The ages of specimens with infinite radiocarbon error margins were treated as parameters to be estimated in the model. Steppe bison mitochondrial genomes were not included in the Bayesian phylogenetic analyses as the GMRF skyride coalescent tree prior implemented in BEAST requires all samples to be drawn from a single species. Three Markov Chain Monte Carlo (MCMC) chains were run for 100 million generations, sampling every 10,000 generations. The first 10% of generations were discarded as burn‐in, and the remaining 90% combined using LogCombiner v1.8.3, with all parameters showing convergence when inspected in Tracer v1.7 (Rambaut et al. <xref rid="gcb70354-bib-0069" ref-type="bibr">2018</xref>). The resulting maximum clade credibility (MCC) tree was annotated in TreeAnnotator v1.8.4 and visualized in FigTree v1.4.2 (Drummond and Rambaut <xref rid="gcb70354-bib-0019" ref-type="bibr">2007</xref>). It is clear that Bb1 and Bb2 populations have relatively distinct geographical distributions, and it is likely that they were not randomly mating, which violates the assumptions of the Bayesian skyride (Ho and Shapiro <xref rid="gcb70354-bib-0030" ref-type="bibr">2011</xref>). As a result, we ran two separate skyride analyses, first with all Bb1 specimens and then with just Bb2 specimens. Both skyride plots were generated under the GMRF skyride analysis option in Tracer v1.5 (Ho and Shapiro <xref rid="gcb70354-bib-0030" ref-type="bibr">2011</xref>; Minin et al. <xref rid="gcb70354-bib-0057" ref-type="bibr">2008</xref>). For two samples with low coverage (A17406 and A17482), the BEAST maximum credibility tree was used as a backbone constraint in RAxML v8 (Stamatakis <xref rid="gcb70354-bib-0083" ref-type="bibr">2014</xref>) and the position of both samples estimated via ML.</p></sec><sec id="gcb70354-sec-0005"><label>2.3</label><title>Stable Isotope Data</title><p>Stable isotope data (δ<sup>13</sup>C and δ<sup>15</sup>N) were generated for the new samples at the Department of Geosciences at the University of Tübingen (Germany) using an Elemental Analyzer NC 2500 connected to a Thermo Quest Delta+XL mass spectrometer as previously described (Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0031" ref-type="bibr">2018</xref>). Previously published isotope data for Holocene European bison (Bocherens et al. <xref rid="gcb70354-bib-0009" ref-type="bibr">2015</xref>; Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0032" ref-type="bibr">2019</xref>; Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>) were collated and included in the analyses. In total, values for both δ<sup>13</sup>C and δ<sup>15</sup>N were available for 96 sequenced bison specimens. We used a Kruskal–Wallis test by ranks to identify differences in stable carbon and nitrogen isotope values (δ<sup>13</sup>C and δ<sup>15</sup>N, respectively) for the 3 bison clades in the Late Pleistocene (120–12 ka). Using a Mann–Whitney <italic toggle="yes">U</italic>‐test, we tested for pairwise temporal differences in δ<sup>13</sup>C and δ<sup>15</sup>N signals between the Pleistocene and Holocene for Bb1 (120–12 ka and 12–9 ka) and Bb2 (120–12 ka and 9 ka–present). Analyses were performed using Statistica v.9.1 (StatSoft).</p></sec><sec id="gcb70354-sec-0006"><label>2.4</label><title>Radiocarbon Dating and Kernel Density Estimation</title><p>Samples were AMS radiocarbon dated at the Laboratory of Ion Beam Physics, Eidgenössische Technische Hochschule Zürich, Switzerland (Swiss Federal Institute of Technology Zürich) (ETH). <sup>14</sup>C ages were calibrated with OxCal v4 using the IntCal20 curve (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>) (Ramsey <xref rid="gcb70354-bib-0070" ref-type="bibr">2009</xref>; Reimer et al. <xref rid="gcb70354-bib-0072" ref-type="bibr">2020</xref>). The quality of bone collagen was tested (collagen yield, proportion of C:N and collagen %N and %C) and samples with parameters different from fresh bones were excluded to avoid the need for extensive pre‐treatment and ultra‐filtration steps (Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0031" ref-type="bibr">2018</xref>). The distribution of Holocene radiocarbon ages exhibited an unusual degree of discrete clusters, so a kernel density estimation (KDE) was generated in OxCal v4.4 to provide a more robust estimate with less high‐frequency noise, as an alternative to summed probability modeling (Turney et al. <xref rid="gcb70354-bib-0096" ref-type="bibr">2006</xref>). The standardized normal kernel was used to model the measurement and sampling error, where <italic toggle="yes">K</italic>(u) ~ <italic toggle="yes">N</italic>(0,1), with Silverman's rule (Silverman <xref rid="gcb70354-bib-0079" ref-type="bibr">1986</xref>) providing the optimal choice of bandwidth (Ramsey <xref rid="gcb70354-bib-0071" ref-type="bibr">2017</xref>). Ensembles of possible KDE distributions from the MCMC sampler (using the Bayesian likelihood and model priors) were then combined.</p></sec><sec id="gcb70354-sec-0007"><label>2.5</label><title>Spectral Analysis</title><p>To investigate the potential relationship between climate changes and the temporal distribution of Holocene bison populations reflected by the KDE of the calibrated radiocarbon ages, we explored two key datasets. Whilst the North Atlantic Holocene record of iceberg‐rafted debris (IRD) provides a continuous record of changes in ocean circulation with 8 recognized “Bond” events (Bond et al. <xref rid="gcb70354-bib-0010" ref-type="bibr">2001</xref>), unfortunately, the slow sedimentation rate and changing marine reservoir impacts prevents precise alignment with the calibrated ages of the bison samples. As a result, we compared the bison KDE data (Figure <xref rid="gcb70354-fig-0002" ref-type="fig">2C–E</xref>) with an annually resolved population dataset of Irish bog oaks that provides a measure of westerly airflow over Eurasia (Figure <xref rid="gcb70354-fig-0002" ref-type="fig">2A,B</xref>). The continuous Irish bog oak chronology of &gt; 750 trees extends back to 7468 years ago and has been obtained from marginal environments across northern Ireland, and linked to the IRD records in the North Atlantic (Pilcher et al. <xref rid="gcb70354-bib-0064" ref-type="bibr">1984</xref>; Turney et al. <xref rid="gcb70354-bib-0095" ref-type="bibr">2005</xref>). Peaks in tree numbers have been interpreted as representing episodes of surface drying conducive for oak colonization (Turney et al. <xref rid="gcb70354-bib-0095" ref-type="bibr">2005</xref>, <xref rid="gcb70354-bib-0097" ref-type="bibr">2016</xref>). Previous studies have demonstrated that bog oaks are sensitive to precipitation/water table levels (García‐Suárez et al. <xref rid="gcb70354-bib-0022" ref-type="bibr">2009</xref>; Scharnweber et al. <xref rid="gcb70354-bib-0077" ref-type="bibr">2015</xref>; Turney et al. <xref rid="gcb70354-bib-0097" ref-type="bibr">2016</xref>).</p><fig position="float" fig-type="FIGURE" id="gcb70354-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>KDE model of Holocene specimens based on OxCal v4.4.4 with key climate records. (A) Iceberg‐rafted debris (IRD) stack with “Bond” numbers and events indicated by the numbers and black bars (Bond et al. <xref rid="gcb70354-bib-0010" ref-type="bibr">2001</xref>); (B) Number of Irish bog oaks as a proxy of surface wetness over northern Ireland (Turney et al. <xref rid="gcb70354-bib-0097" ref-type="bibr">2016</xref>); (C–E) Holocene Kernel density estimation (KDE) for all Bison, population Bb1 and Bb2 respectively. Colored boxes labeled “First” and “Last” population cohorts and “Span” provide the range and median age estimates. (F) Spectral analysis for the KDE of the Holocene specimens (Bb2), including a Morlet wavelet transform (right) and a Lomb–Scargle periodogram (left). (G) Cross‐wavelet power spectrum between KDE of the Holocene specimens (Bb2) and Irish bog oak number (right), and periodogram (left). Wavelet power spectra illustrate the change in concentration of spectral power with time with areas of red denoting strongest expression of the periodicity at ~800 and ~1600 years (F) and ~830 and ~1750 years (G). Solid black line in wavelet denotes 95% confidence in periodicity; white dashed line and shaded area denotes cone of influence where signal interpretation can be unreliable. Note, the peaks in bison numbers coincide with decreases in Irish bog oaks associated with wetter conditions over western Europe, consistent with the preference of these megafauna for relatively open landscapes.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="GCB-31-e70354-g002.jpg"/></fig><p>To explore the relationship between climate and European bison population over century to millennium timescales we undertook wavelet and cross‐wavelet analysis that allows the identification of changing periodicities. Continuous wavelet transforms can be used for analysing data that may contain non‐stationary power to identify periodicities in both the time and frequency domains (Torrence and Compo <xref rid="gcb70354-bib-0091" ref-type="bibr">1998</xref>). Wavelet and cross‐wavelet analysis was undertaken on the KDE using the wt() and xwt() functions respectively in the R package “Biwavelet” (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://github.com/tgouhier/biwavelet" ext-link-type="uri">github.com/tgouhier/biwavelet</ext-link>). The cross‐wavelet analysis allows the testing of relationships in time frequency space between two time series (Grinsted et al. <xref rid="gcb70354-bib-0025" ref-type="bibr">2004</xref>). A Morlet continuous wavelet transform was applied, and the data were padded with zeros at each end to reduce wraparound effects (Torrence and Webster <xref rid="gcb70354-bib-0092" ref-type="bibr">1999</xref>). The “cone of influence” represents the region where zero padding affects the estimation of the wavelet spectrum; the spectral peaks within this region are likely to be reduced in magnitude, and therefore may represent an artifact from the padding. To test the robustness of the obtained periodicities, the Lomb–Scargle algorithm was employed, a spectral decomposition method that computes the spectral properties of time series. This technique was undertaken using the lsp() function within the R package “lomb” (Ruf <xref rid="gcb70354-bib-0074" ref-type="bibr">1999</xref>).</p></sec></sec><sec sec-type="results" id="gcb70354-sec-0008"><label>3</label><title>Results</title><sec id="gcb70354-sec-0009"><label>3.1</label><title>Sequencing Results</title><p>Of the 92 samples that were sequenced for the first time or re‐sequenced, 75 had more than 70% coverage of the mitochondrial genome and an average depth‐of‐coverage ≥ 3. The remaining 17 samples had poor preservation but yielded sufficient data to determine their taxonomic affiliation. Sequencing and mapping summary statistics are presented in Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S2</xref>, and damage patterns for all specimens were consistent with ancient DNA (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S3</xref>). Out of the 135 Eurasian bison included in this study, 107 specimens were directly radiocarbon dated and ranged in age from greater than 50,000 cal BP (calibrated radiocarbon years before present) to modern day (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>). For the remaining 28 specimens, 3 were undated, but 25 were dated indirectly or came from well‐characterized archeological layers that provided an associated date range for the specimens (Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0032" ref-type="bibr">2019</xref>).</p></sec><sec id="gcb70354-sec-0010"><label>3.2</label><title>Phylogenetic Analysis</title><p>The median‐joining haplotype network (Figure <xref rid="gcb70354-supitem-0001" ref-type="supplementary-material">S1</xref>) clearly shows three distinct groups of mitochondrial genomic diversity: two clades of European bison (Bb1 and Bb2), and steppe bison. There was no obvious genetic structure within either of the European bison clades, which is important as Bb2 includes the Holocene specimens previously classified as <italic toggle="yes">B. b. bonasus</italic> or <italic toggle="yes">B. b. caucasicus</italic> (Figures <xref rid="gcb70354-supitem-0003" ref-type="supplementary-material">S3</xref> and <xref rid="gcb70354-supitem-0004" ref-type="supplementary-material">S4</xref>). The pronounced genetic divergence of the Bb1 and Bb2 mitochondrial clades (81 base changes, 0.5%) matches the genomic phylogeny (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>), and is comparable to mitochondrial diversity seen within steppe bison (Froese et al. <xref rid="gcb70354-bib-0021" ref-type="bibr">2017</xref>). This indicates that Bb1 and Bb2 should be considered two clades of the same species. The Maximum Clade Credibility (MCC) tree generated in BEAST, calibrated with the sample radiocarbon dates, shows that the Bb1 and Bb2 clades diverged ∼97 ka (95% Highest Posterior Density, HPD: 113–79 ka), centred around the warm phase of Marine Isotope Stage 5c. This date estimate is more precise and slightly younger than that obtained by Soubrier and colleagues (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>) (∼120 ka; 95% HPD: 152–92 ka) (Figure <xref rid="gcb70354-supitem-0002" ref-type="supplementary-material">S2B</xref>), due to the additional radiocarbon date calibrations and mitochondrial data. Previous estimates for the divergence of Bb1 and Bb2 have been considerably earlier but were generated using less robust temporal calibrations (Massilani et al. <xref rid="gcb70354-bib-0052" ref-type="bibr">2016</xref>) (∼246 ka; 95% HPD: 283–212 ka) and (Grange et al. <xref rid="gcb70354-bib-0024" ref-type="bibr">2018</xref>) (∼395 ka; 95% HPD: 445–343 ka).</p></sec><sec id="gcb70354-sec-0011"><label>3.3</label><title>Global Distribution and Ecology</title><p>All three groups (steppe bison, Bb1 and Bb2) were present in Europe until the end of the Pleistocene, but after the Pleistocene–Holocene transition (∼12–9 ka) there was a major reduction in bison diversity, with only Bb2 surviving into the Holocene and modern day (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1D</xref>). Reconstructed population sizes using GMRF (Gaussian Markov Random Field) Bayesian skyride plots revealed no signs of marked decreases prior to the extinction of Bb1 around the early Holocene, suggesting the decline was rapid. In contrast, Bb2 specimens showed a population decline starting ∼10 ka (Figure <xref rid="gcb70354-supitem-0002" ref-type="supplementary-material">S2A</xref>).</p><p>The geographical distributions of steppe, Bb1, and Bb2 bison overlapped across the European continent throughout the Late Pleistocene (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1A,D,E</xref>). The steppe bison specimens appear more common during the cold Greenland stadials. The distribution of Bb1 specimens is concentrated across northern Europe and western Eurasia, while in contrast, the records of Bb2 individuals appear limited to southern and southwestern Europe. The European extirpation of steppe bison appears to occur during the end‐Pleistocene, with the last individuals observed in Spain and southern France during the Last Glacial Maximum. Around the same time, the Bb1 clade also appears to contract in range and shift northwards into Scandinavia, prior to disappearing in the early Holocene, with the last identified specimen in Sweden at ∼9900 cal BP (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1A,D</xref>). The fossil record of the Bb2 clade disappears around the Pleistocene–Holocene transition, before reappearing by the mid‐Holocene, initially in Poland ∼6242 cal BP, and then quickly re‐emerging across the rest of the European continent (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1A,D</xref>). Despite this expansion, by the late Holocene, Bb2 specimens were restricted predominantly to the Caucasus Mountains and the Białowieża Forest (Poland), until their extinction in the wild by the 1920s (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1A,D</xref>, Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>).</p><p>During the Late Pleistocene there are no clear differences in the dietary δ<sup>13</sup>C and δ<sup>15</sup>N stable isotope values between Steppe bison, Bb1, and Bb2 (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S4</xref>) with all three groups showing signals of graze and mixed diet (higher proportions of δ<sup>15</sup>N) and utilization of open habitats (higher proportions of δ<sup>13</sup>C) (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1B,C</xref>). The dietary isotopic signals changed during the rapid climatic shifts at the Pleistocene–Holocene transition (12–9 ka), with a decrease in δ<sup>15</sup>N levels observed in Bb1 specimens (<italic toggle="yes">Z</italic> = 3.54, <italic toggle="yes">p</italic> = 0.0004, <italic toggle="yes">N</italic> = 30) (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>). During this period, δ<sup>15</sup>N in Bb1 appears to have remained low, but δ<sup>13</sup>C changed from higher between ∼12,000 and ∼10,650 cal BP to lower between ∼10,250 and ∼9850 cal BP (δ<sup>13</sup>C: −22.15‰ and −22.61‰) (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1B,C</xref>) prior to becoming extinct. A parallel significant decrease in δ<sup>13</sup>C signals can also be observed in Bb2 between the Late Pleistocene and Holocene (<italic toggle="yes">Z</italic> = 3.48, <italic toggle="yes">p</italic> = 0.0005, <italic toggle="yes">N</italic> = 52) (Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S4</xref>) suggesting a shift from more open Late Pleistocene habitats to more forested sites in the Middle Holocene. Two exceptions were from high‐altitude meadows (1900 m.a.s.l.) around Sevan Lake in Armenia.</p></sec><sec id="gcb70354-sec-0012"><label>3.4</label><title>Periodicity of Climate Changes and Bison Numbers</title><p>Analysis of the KDE plots with both wavelet and Lomb–Scargle spectral analyses demonstrates that the clumping pattern of the dates of the Holocene Bb2 specimens exhibits two pervasive periodicities at ~800 years and ~1600 years over the last 6000 years (within the cone of influence) (Figure <xref rid="gcb70354-fig-0002" ref-type="fig">2F</xref>). Further exploration of the KDE plots with Holocene climate changes suggests a close relationship. The cross‐wavelet plot between the Bb2 KDE and Irish bog oak number (Figure <xref rid="gcb70354-fig-0002" ref-type="fig">2G</xref>) indicates a strong and significant correlation between the time series centered on two frequencies, corresponding to ~830 years and ~1750 years. The high power, represented by the red color, suggests that variations in one time series are strongly related to those in the other time series over the last 6000 years.</p></sec></sec><sec sec-type="discussion" id="gcb70354-sec-0013"><label>4</label><title>Discussion</title><p>The broad geographic and temporal range of the sampled specimens provides the first comprehensive overview of bison paleoecology across Europe during the Late Pleistocene and the Holocene, and the genetic impacts of the megafaunal extinctions. The phylogenetic analyses illustrate a dramatic loss in bison genetic diversity across the Eurasian continent at the end of the Pleistocene, as exemplified by the extinction of both steppe and Bb1 bison (Figures <xref rid="gcb70354-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="gcb70354-supitem-0002" ref-type="supplementary-material">S2B</xref>). For Bb2, the apparent loss of genetic diversity during the Late Pleistocene–Holocene transition might be due to extirpation or a lack of sampling in regions where they persisted. Either way, the loss of bison genetic diversity continued during the Holocene, where Bb2 mitochondrial diversity declined from 11 haplotypes during the early‐to‐mid Holocene to just four in the late Holocene (Figures <xref rid="gcb70354-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="gcb70354-supitem-0002" ref-type="supplementary-material">S2</xref>).</p><p>The geographically broad dataset reveals the pre‐Holocene Bb2 clade bison was more widespread across southern Europe than the previously reported isolated occurrence in the Caucasus region (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). Indeed, the Bb1 and Bb2 clades appear to have been present in roughly comparable numbers during the Late Pleistocene (Figure <xref rid="gcb70354-supitem-0002" ref-type="supplementary-material">S2A</xref>), as shown by the overlapping highest posterior densities of the Bayesian skyride analyses. While more Bb1 individuals were found in Late Pleistocene sites, this may reflect a sampling bias due to geographic distribution or sample preservation. For example, Bb1 specimens were located across northern Europe and western Eurasia where cold conditions lead to good fossil bone preservation conditions. In contrast, late Pleistocene Bb2 specimens were found in southern and southwestern Europe where warmer conditions are less conducive to DNA preservation, except in mountainous areas. Interestingly, the distributions of Bb1 and Bb2 appear to match a species distribution modeling study of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content> (Pilowsky et al. <xref rid="gcb70354-bib-0065" ref-type="bibr">2023</xref>), which predicted separate late Pleistocene populations in western Russia and southwestern Europe. A longer‐term geographic separation of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content> populations as suggested by this model could explain the genetic divergence between Bb1 and Bb2 mitochondrial and genomic data, estimated here at ~100 ka, MIS 5c. It would also match the Late Pleistocene geographic distributions observed in this dataset, with the Bb1 group distributed across the colder environments of western Russia and northern Europe.</p><p>The two currently recognized lineages or subspecies of European bison are the Lowland and Lowland‐Caucasian bison (Pucek et al. <xref rid="gcb70354-bib-0068" ref-type="bibr">2004</xref>; Tokarska et al. <xref rid="gcb70354-bib-0090" ref-type="bibr">2011</xref>), and captive and wild populations of the two groups are currently kept artificially separated. This has important consequences for the genetic diversity of the species, which is very low in both lines (Tokarska et al. <xref rid="gcb70354-bib-0090" ref-type="bibr">2011</xref>). The Lowland‐Caucasian bison is a hybrid of <italic toggle="yes">B. b. bonasus</italic> and <italic toggle="yes">B. b. caucasicus</italic>, as only one pure Caucasian male was available during restoration efforts (Tokarska et al. <xref rid="gcb70354-bib-0088" ref-type="bibr">2015</xref>, <xref rid="gcb70354-bib-0090" ref-type="bibr">2011</xref>). The ancient DNA records show that these two groups have shared the same mitochondrial clade (Bb2) throughout the Holocene and appear to be two descendant groups of the Late Pleistocene southern European distribution of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content>. The limited amounts of genetic differentiation currently observed between these groups appear to be an effect of geographic structure and differing numbers of founders during population restoration rather than distinct evolutionary paths (Tokarska et al. <xref rid="gcb70354-bib-0088" ref-type="bibr">2015</xref>, <xref rid="gcb70354-bib-0090" ref-type="bibr">2011</xref>), and do not justify separate management plans. This has important ramifications for the conservation management of modern European bison populations, where limited genetic diversity and the risk of disease (Didkowska et al. <xref rid="gcb70354-bib-0017" ref-type="bibr">2023</xref>; Kołodziej‐Sobocińska et al. <xref rid="gcb70354-bib-0039" ref-type="bibr">2016</xref>) or environmental events on isolated herds are existential threats. Similar patterns are potentially likely for a number of other currently threatened megafaunal groups globally that have survived environmental and human‐caused population bottlenecks. For example, the separation of Holocene populations of North American bison into separate plains and wood bison appears very similar, and the genetic evidence used to support the current strategy of separate management has been contested (Cronin et al. <xref rid="gcb70354-bib-0014" ref-type="bibr">2013</xref>).</p><p>Dietary isotopic signatures suggest that Late Pleistocene steppe, Bb1, and Bb2 bison all foraged in non‐forested habitats and had broad but overlapping diets. Similar niche and dietary overlap of Late Pleistocene steppe bison and aurochs (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bos primigenius</italic>
+</styled-content>) has also been observed in Belgian and French sites (Bocherens et al. <xref rid="gcb70354-bib-0009" ref-type="bibr">2015</xref>). Late Pleistocene Eurasia supported a rich community of megaherbivores on a productive tundra steppe habitat that has no close modern analog (Guthrie <xref rid="gcb70354-bib-0028" ref-type="bibr">2013</xref>). While the steppe bison appears to have dominated cold dry steppe environments (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1A,D</xref>), European bison specimens appear more common in the southern latitudes. Within that, however, the Bb1 clade appears to have been more common in colder, more open northern environments, while Bb2 was largely present in warmer southern and southwestern European sites. Steppe bison disappeared in Europe before the end of the Pleistocene, while the Bb1 group survived until the early Holocene by moving northwards into Scandinavia as temperatures increased and following the retreat of the Fennoscandanavian ice sheet. This movement suggests Bb1 was utilizing the shrinking open habitats as forests expanded (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1A,D</xref>). The decreases in Bb1 dietary δ<sup>15</sup>N signals during this period likely reflect the low nitrogen levels in the early stages of soil formation and vegetation following deglaciation and the dominance of shrubs and bushes in northern Europe preceding forest expansion (Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0032" ref-type="bibr">2019</xref>) (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1C</xref>).</p><p>The stark contrast between dietary isotope signatures in Late Pleistocene and early Holocene bison individuals is consistent with the predicted forest cover across their respective geographical ranges (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1B,C</xref>). During the Late Pleistocene, repeated glaciation events restricted cold‐sensitive plant species (such as deciduous trees) to glacial refugia throughout Europe, resulting in a “mosaic” forest‐steppe environment. Following deglaciation of the European Ice Sheet Complex (EISC) at the end of the Younger Dryas and the onset of the Holocene (∼11.6 ka), continuing cold temperatures and seasonal dryness restricted forest expansion for the next two millennia. After this point, deciduous forest species rapidly expanded to cover the continent from ∼10 ka onwards until reaching a maximum extent ∼6.7 ka (Binney et al. <xref rid="gcb70354-bib-0007" ref-type="bibr">2017</xref>; Birks and Tinner <xref rid="gcb70354-bib-0008" ref-type="bibr">2016</xref>; Leuschner and Ellenberg <xref rid="gcb70354-bib-0045" ref-type="bibr">2017</xref>; Marquer et al. <xref rid="gcb70354-bib-0051" ref-type="bibr">2014</xref>; Patton et al. <xref rid="gcb70354-bib-0062" ref-type="bibr">2017</xref>; Theuerkauf et al. <xref rid="gcb70354-bib-0087" ref-type="bibr">2014</xref>). As the EISC retreated there were migrations of human populations into Scandinavia, northwards through Germany and Denmark, and southwards down the ice‐free Norwegian Atlantic coast (Günther et al. <xref rid="gcb70354-bib-0027" ref-type="bibr">2018</xref>). As a result, the remaining Bb1 populations in early Holocene Scandinavia would have been restricted to a region between rapidly expanding dense forest to the south, newly arriving human populations, and the remaining ice sheets. This confluence of factors perhaps ultimately resulted in the extinction of the Bb1 clade.</p><p>Recent modeling studies suggest that a combination of climatic change and human pressure interacted with key ecological processes to cause the abrupt decline of European bison, similarly to steppe bison in Siberia (Pilowsky et al. <xref rid="gcb70354-bib-0065" ref-type="bibr">2023</xref>, <xref rid="gcb70354-bib-0066" ref-type="bibr">2022</xref>). Humans are likely to have exacerbated regional extinctions of these species by interrupting critical metapopulation processes (e.g., dispersal and recolonisation) that are critical in providing long‐term demographic stability in the face of frequent and abrupt climate and environmental change, as has been suggested for other Late Pleistocene megafauna (Cooper et al. <xref rid="gcb70354-bib-0013" ref-type="bibr">2015</xref>; Fordham et al. <xref rid="gcb70354-bib-0020" ref-type="bibr">2024</xref>). Environmental change and habitat fragmentation are also recognized as major risk factors for extirpation or extinction of contemporary megafaunal herbivores due to their body size, low population density, larger spatial requirements, and disproportionate exploitation by humans (Cardillo et al. <xref rid="gcb70354-bib-0012" ref-type="bibr">2005</xref>). In this regard, it is interesting that the distributions of Bb1 and Bb2 appear differentiated by latitude, although it is important to note that the oldest non‐Caucasus Bb2 specimen is 21.6 ka in Slovenia (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1D</xref>; Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>). Assuming Bb1 had a long‐term presence in southern Europe during the late Pleistocene, this may have provided important adaptations to periodic warmer and more forested conditions, such as environmental and foraging plasticity (Gautier et al. <xref rid="gcb70354-bib-0023" ref-type="bibr">2016</xref>; Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0032" ref-type="bibr">2019</xref>). Such adaptations may have provided a key advantage to surviving the Holocene transition and rapid increase in forested habitats. The occupation of naturally open areas within forests such as river valleys and gaps after windfalls or insect/disease outbreaks is also likely to have provided important habitats for foraging and shelter from human pressure in the early Holocene, until the expansion of pastoralism and domestic animals (cattle, sheep, and subsequently pigs) into central European forest sites from around 6 ka (Zampirolo et al. <xref rid="gcb70354-bib-0100" ref-type="bibr">2023</xref>). It is notable that the reappearance of Bb2 in mid‐Holocene Polish sites occurs at the same time as the expanding human pressure in central European forests, potentially competing for habitat. This suggests that increased human activity may have prevented populations of European bison from rebounding during the Holocene, despite seemingly improved environmental conditions following deforestation by humans (Pilowsky et al. <xref rid="gcb70354-bib-0065" ref-type="bibr">2023</xref>).</p><p>We hypothesize that European bison partly avoided human pressure by using dense forests as refuge habitats during the Holocene (Kerley et al. <xref rid="gcb70354-bib-0038" ref-type="bibr">2012</xref>) as indicated by isotopic signatures (Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0032" ref-type="bibr">2019</xref>) (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1B,C</xref>), but ultimately faced gradual extirpation from the European continent at the end of the Holocene (Benecke <xref rid="gcb70354-bib-0005" ref-type="bibr">2005</xref>), potentially accelerated by the development of firearms (Pilowsky et al. <xref rid="gcb70354-bib-0065" ref-type="bibr">2023</xref>). Although the modern‐day Bb2 bison forage under dense forest cover in a typically warm/humid environment (Hofman‐Kamińska et al. <xref rid="gcb70354-bib-0031" ref-type="bibr">2018</xref>), during the Middle to Late Holocene this group was successfully occupying high‐altitude (1900 m above sea level) meadows in the Caucasus. They survived in those sites in the wild until the beginning of the 20th century, considerably longer than in Polish‐Lithuanian forests where bison have been under royal protection since the 15th century (Samojlik <xref rid="gcb70354-bib-0075" ref-type="bibr">2005</xref>). Together with the paleorecords, this supports the conclusion that dense forest environments are not optimal habitat for European bison, because they do not offer enough food for large herbivores in winter—the animals are given supplementary feed during winter months to compensate for the lack of dietary resources and avoid bison incursions into farmed lands (Hofman‐Kamińska and Kowalczyk <xref rid="gcb70354-bib-0033" ref-type="bibr">2012</xref>; Samojlik et al. <xref rid="gcb70354-bib-0076" ref-type="bibr">2019</xref>). Open environments are far more suitable as they are much more productive, with longer periods with green grasses and large amounts of dry vegetation available in winter (Hurtado‐Uria et al. <xref rid="gcb70354-bib-0034" ref-type="bibr">2013</xref>; Kowalczyk et al. <xref rid="gcb70354-bib-0041" ref-type="bibr">2019</xref>). However, not all open habitats provide the optimal conditions for the existence and survival of European bison. An average winter temperature below −5°C is a key climatic factor in current habitat use (Kuemmerle et al. <xref rid="gcb70354-bib-0043" ref-type="bibr">2011</xref>), so for example, while steppe bison inhabited the Iberian Peninsula during the Pleistocene, current and projected climatic conditions would not support the presence of European bison (Pilowsky et al. <xref rid="gcb70354-bib-0065" ref-type="bibr">2023</xref>). Milder winters mean temperatures only reach 0°C in the coldest month at the highest mountain peaks, while warmer conditions are projected for the future (IUCN/SSC, 2013), so the region would likely be unsuitable for re‐introduction (Paniagua et al. <xref rid="gcb70354-bib-0061" ref-type="bibr">2019</xref>).</p><p>Bison comprise around 20% of the species depicted in European cave art, and the diversity of bison horn and body shapes is thought to reflect variants of the steppe bison and European bison, which were the only two bison groups known to be present in Europe during the Late Pleistocene (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). The cave artists accurately recorded morphological details, and the presence of both Bb1 and Bb2 clades in Late Pleistocene central and southern Europe raises the potential that both might be represented in the cave art. The genetic separation between Bb1 and Bb2 is greater than between American wood and plains bison, which have distinct morphologies and profiles, potentially related to ecological adaptations for forest and plains niches (Guthrie <xref rid="gcb70354-bib-0028" ref-type="bibr">2013</xref>). European cave art images include a distinctive steppe bison outline (pronounced humped back and downswept horns), a European bison‐like profile (Bb1; upswept horns and flatter profile) (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>), and also a number of unidentified forms (Soubrier et al. <xref rid="gcb70354-bib-0082" ref-type="bibr">2016</xref>). Many of the latter artworks were painted in southern French caves during the Magdalenian (17–14 ka) and in central France during the Aurignacian and Gravettian periods (~42–21 ka), when Bb2 does not appear to have been present (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1D</xref>; Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>). The only recorded Bb2 specimens in Western Eurasia during these periods were in Switzerland, Moldova, Slovenia, and the Caucasus (Figure <xref rid="gcb70354-fig-0001" ref-type="fig">1D</xref>; Table <xref rid="gcb70354-supitem-0005" ref-type="supplementary-material">S1</xref>). It is therefore unclear if Bb2 is part of the unidentified forms depicted in Paleolithic French cave art.</p><p>The apparent periodicity in the radiocarbon dates of the Holocene bison specimens suggests some form of multi‐centennial‐ to millennial‐scale forcing, with periodicities around ~800 and ~1600 years (Figure <xref rid="gcb70354-fig-0002" ref-type="fig">2</xref>). The peaks in bison numbers also coincide with decreases in Irish bog oaks associated with wetter conditions (Figure <xref rid="gcb70354-fig-0002" ref-type="fig">2A,B,G</xref>) (Turney et al. <xref rid="gcb70354-bib-0097" ref-type="bibr">2016</xref>). Climate changes with similar variability have previously been identified in Holocene Western Europe, including the content of ice‐rafted debris in marine sediments and reconstructed atmospheric circulation over the North Atlantic (Bakke et al. <xref rid="gcb70354-bib-0002" ref-type="bibr">2008</xref>; Bond et al. <xref rid="gcb70354-bib-0010" ref-type="bibr">2001</xref>; Darby et al. <xref rid="gcb70354-bib-0016" ref-type="bibr">2012</xref>; Jonsson et al. <xref rid="gcb70354-bib-0035" ref-type="bibr">2010</xref>; Turney et al. <xref rid="gcb70354-bib-0095" ref-type="bibr">2005</xref>). These fluctuations appear to have had substantial impacts on climate and vegetation across the wider region, most notably Eurasia, where changes in glacier limits, lake levels, vegetation, and human populations have been reported (Balascio et al. <xref rid="gcb70354-bib-0003" ref-type="bibr">2015</xref>; Bevan et al. <xref rid="gcb70354-bib-0006" ref-type="bibr">2017</xref>; Daley and Barber <xref rid="gcb70354-bib-0015" ref-type="bibr">2012</xref>; Dobrowolski et al. <xref rid="gcb70354-bib-0018" ref-type="bibr">2016</xref>; Magny <xref rid="gcb70354-bib-0050" ref-type="bibr">2004</xref>; McDermott et al. <xref rid="gcb70354-bib-0053" ref-type="bibr">2001</xref>; Smith et al. <xref rid="gcb70354-bib-0081" ref-type="bibr">2016</xref>; Turney et al. <xref rid="gcb70354-bib-0096" ref-type="bibr">2006</xref>; Zielhofer et al. <xref rid="gcb70354-bib-0101" ref-type="bibr">2017</xref>). In the North Atlantic, peaks in ice‐rafted debris are generally associated with wetter conditions (higher lake levels), a shorter growing season over western Europe, changes in vegetation cover, and a decrease in human population numbers (Bevan et al. <xref rid="gcb70354-bib-0006" ref-type="bibr">2017</xref>; Pèlachs et al. <xref rid="gcb70354-bib-0063" ref-type="bibr">2011</xref>; Poska et al. <xref rid="gcb70354-bib-0067" ref-type="bibr">2022</xref>).</p><p>The wetter conditions are related to a pervasive phase state in the North Atlantic Oscillation (NAO), characterized by surface sea‐level pressure differences between the Icelandic (subpolar) Low and the Azores (subtropical) High pressure systems, which modulate the route and intensity of the North Atlantic jet stream and storm track (Smith et al. <xref rid="gcb70354-bib-0081" ref-type="bibr">2016</xref>). In the negative phase of the NAO, below‐normal pressure over western Europe and high pressure in the high latitudes of the North Atlantic results in a weakening of the winter storm tracks, which migrate southwards, resulting in cooler air masses over northwestern Europe and wetter conditions across southern Europe (Trouet et al. <xref rid="gcb70354-bib-0094" ref-type="bibr">2009</xref>). The opposite pattern is observed during a positive phase of the NAO. Here, we show a synchronicity of climate changes and variations in dated bison specimens that is consistent with known 800‐year cycles in westerly airflow and increased discharge of IRD into the North Atlantic resulting in colder and relatively short growing seasons across Europe. A number of scenarios may explain this observation. For instance, associated cooler conditions would have reduced vegetation growth, favoring open habitat spaces suitable for European bison, and potentially increasing bone deposition through larger population sizes and ranges, or enhanced bone preservation rates (e.g., alluvial sites, open areas). Alternatively, a similar impact may have resulted from reduced human activity in the landscape including a smaller agricultural footprint (Turney et al. <xref rid="gcb70354-bib-0096" ref-type="bibr">2006</xref>) so the driver remains somewhat unclear. Nevertheless, it is intriguing that short‐term European climate cycles can be observed so clearly within Holocene megaherbivore skeletal remains.</p></sec><sec sec-type="conclusions" id="gcb70354-sec-0014"><label>5</label><title>Conclusion</title><p>The extinction of steppe bison and the Bb1 European bison group was associated with human pressure but also the development of dense forest coverage across most of Europe around the Late Pleistocene–Holocene transition. This prompted the potentially more northerly distributed Bb1 group to follow shrinking open habitats into Scandinavia before eventually becoming extinct. The Bb2 lineage potentially survived due to having a Late Pleistocene distribution in southern and southwestern Europe, where warmer climates and forested habitats periodically occurred. This group appears to have survived in open areas of forests during the early Holocene before recolonizing the continent in the mid‐Holocene. This geographic expansion coincides with human population growth during the Neolithic, including the increasing use of forest habitats for pastoralism. The observation that forests provide sub‐optimal European bison habitat has important implications for long‐term bison conservation under projected climate warming (Kerley et al. <xref rid="gcb70354-bib-0038" ref-type="bibr">2012</xref>). In particular, the combination of our genetic, ecological, and climate findings strongly challenges the proposed rewilding initiative to use extant European bison as a megaherbivore replacement for extinct steppe bison in Spain (Nores et al. <xref rid="gcb70354-bib-0058" ref-type="bibr">2024</xref>).</p><p>Although modern European bison populations occur in an increasing number of locations and are becoming more numerous (Kowalczyk and Plumb <xref rid="gcb70354-bib-0040" ref-type="bibr">2022</xref>), isolation and low genetic variability pose a threat to their survival and restoration of their role as environmental engineers in ecosystems. The current artificial isolation of genetic lineages based solely on several hundred years of geographic isolation, rather than their genetic history, appears unwarranted and increases threats in multiple ways, including disease susceptibility and reproductive issues. It is critical that the evolutionary history of species is used to inform current conservation management of these last remnants of the European megafaunal ecosystem.</p></sec><sec id="gcb70354-sec-0019"><title>Author Contributions</title><p>
+<bold>Bastien Llamas:</bold> conceptualization, formal analysis, methodology, supervision, visualization, writing – review and editing. <bold>Ayla L. van Loenen:</bold> data curation, formal analysis, methodology, writing – original draft, writing – review and editing. <bold>Kieren J. Mitchell:</bold> methodology, supervision, writing – review and editing. <bold>Emilia Hofman‐Kamińska:</bold> data curation, formal analysis, writing – review and editing. <bold>Hervé Bocherens:</bold> resources, writing – review and editing. <bold>Holly Heiniger:</bold> methodology, writing – review and editing. <bold>Martina Pacher:</bold> resources, writing – review and editing. <bold>Daniel Makowiecki:</bold> resources, writing – review and editing. <bold>Giedrė Piličiauskienė:</bold> resources, writing – review and editing. <bold>Dorothée G. Drucker:</bold> resources, writing – review and editing. <bold>David Brown:</bold> resources, writing – review and editing. <bold>Zoe A. Thomas:</bold> formal analysis, methodology, visualization, writing – review and editing. <bold>Chris S. M. Turney:</bold> methodology, resources, writing – review and editing. <bold>Rafał Kowalczyk:</bold> conceptualization, funding acquisition, resources, writing – review and editing. <bold>Alan Cooper:</bold> conceptualization, funding acquisition, methodology, resources, supervision, writing – review and editing.</p></sec><sec sec-type="COI-statement" id="gcb70354-sec-0016"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="gcb70354-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1.</bold> Median Joining haplotype network based on the alignment of 135 Eurasian bison (Steppe bison, Bb1, Bb2) mitochondrial genome sequences. Circles represent sampled haplotypes, with size proportional to haplotype frequency. Line length is proportional to the number of base changes between haplotypes. The network is sliced into time periods; gray circles represent a sampled haplotype not found during the particular time period. Black dots represent inferred unsampled haplotypes.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCB-31-e70354-s004.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="gcb70354-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S2.</bold> BEAST estimates based on European bison mitochondrial genome sequences (Bb1 and Bb2). (A) Estimated median female effective population size in European bison. GMRF Bayesian skyride plots (thick lines) with 95% Higher Posterior Density (HPD) bounds (thin lines). (B) Maximum clade credibility tree calibrated using radiocarbon dates of the specimens. Height of the nodes represents median posterior age. The 95% HPD interval of the TMRCA estimate for all European bison mitochondrial lineages is in parentheses.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCB-31-e70354-s002.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="gcb70354-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S3.</bold> Maximum‐Likelihood tree generated in PhyML to classify specimens as steppe bison, Bb1, or Bb2 (with Water buffalo, Yak, American bison and Cow mitochondrial genomes for reference). Tips are labeled with sample ID, clade ID and location. *<italic toggle="yes">
+<styled-content style="fixed-case" toggle="no">Bison bison</styled-content> caucasicus</italic>.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCB-31-e70354-s001.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="gcb70354-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S4.</bold> RaXML tree constrained using the BEAST MCC tree, adding two low coverage specimens (highlighted in red, both falling within the diversity of Bb1). Tips are labeled with sample ID, clade ID, locations and age (in mean calibrated years BP). *<italic toggle="yes">
+<styled-content style="fixed-case" toggle="no">Bison bison</styled-content> caucasicus</italic>.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCB-31-e70354-s005.pdf" position="float" orientation="portrait"/></supplementary-material><supplementary-material id="gcb70354-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1.</bold> Sample information.</p><p>
+<bold>Table S2.</bold> PALEOMIX summary metrics.</p><p>
+<bold>Table S3.</bold> MapDamage metrics.</p><p>
+<bold>Table S4.</bold> Results of Kruskal–Wallis test by ranks showing differences for stable carbon δ<sup>13</sup>C and nitrogen δ<sup>15</sup>N isotope values between 3 bison clades/species in the Late Pleistocene (A). Results of Mann–Whitney <italic toggle="yes">U</italic>‐test showing temporal differences for δ<sup>13</sup>C and δ<sup>15</sup>N in Bb1 (B); and in Bb2 (C).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCB-31-e70354-s003.xlsx" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="gcb70354-sec-0015"><title>Acknowledgements</title><p>This research was supported by the Australian Research Council, the National Science Centre, Poland projects no: DEC‐2013/11/B/NZ8/00914; N N304 301940 and 2015/17/N/ST10/01707 and the European Commission's project No. PIRSES‐GA‐2009‐247652, BIOGEAST within the Seventh Framework Programme. We thank for providing access to specimens: D. Anatolie, N. Spassov, M. S. Arakelyan, N. H. Manaseryan, M. Križnar, V. Rusu, T. V. Krakhmalnaya, L. Chaix, C. Cupillard, Dr. M. Nussbaumer, E. Keczyńska‐ Moroz, L. Wickström, K. Rauscher, A. A. Krotova, A. T. Halamski, J. Kobylińska, A. Stępień, H. Długoszewska‐Nadratowska, M. Krajcarz, B. Stachowiak, B. Studencka, I. Lorek, A. Archacka, M. Szymkiewicz, J. Jastrzębski, J. Deptuła, A. D. Ya, B. Antoniuk, A. Sepioł, N. Czeremnyh, D. O. Klimishin, V. Boretskiy, P. Kjellander, A. Hultman, V. Gedminas, U. B. Göhlich, F. E. Zachos, K. Berggren, and K. M. Gregersen, W. Litwińczuk, A.‐M. Hultman, L. Golovanova, V. Doronichev. We thank T. Kamiński for assistance with map preparation. A.L.L. was supported by an Australian Government Research Training Program (RTP) Scholarship. K.J.M., B.L., and A.C. were supported by the Australian Research Council. Open access publishing facilitated by The University of Adelaide, as part of the Wiley ‐ The University of Adelaide agreement via the Council of Australian University Librarians.</p></ack><sec sec-type="data-availability" id="gcb70354-sec-0018"><title>Data Availability Statement</title><p>Aligned DNA sequences for the new mitogenomes are available in the Sequence Read Archive under BioProject PRJNA1279061. Dietary isotope data and radiocarbon dates are available in Figshare (DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.25909/29253974" ext-link-type="uri">10.25909/29253974</ext-link>; CC BY‐NC 4.0).</p></sec><ref-list content-type="cited-references" id="gcb70354-bibl-0001"><title>References</title><ref id="gcb70354-bib-0001"><mixed-citation publication-type="journal" id="gcb70354-cit-0001">
+<string-name name-style="western">
+<surname>Andersen</surname>, <given-names>K. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Azuma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐M.</given-names>
+<surname>Barnola</surname>
+</string-name>, et al. <year>2004</year>. “<article-title>High‐Resolution Record of Northern Hemisphere Climate Extending Into the Last Interglacial Period</article-title>.” <source>Nature</source>
+<volume>431</volume>, no. <issue>7005</issue>: <fpage>147</fpage>–<lpage>151</lpage>.<pub-id pub-id-type="pmid">15356621</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature02805</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0002"><mixed-citation publication-type="journal" id="gcb70354-cit-0002">
+<string-name name-style="western">
+<surname>Bakke</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ø.</given-names>
+<surname>Lie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. O.</given-names>
+<surname>Dahl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Nesje</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Bjune</surname>
+</string-name>. <year>2008</year>. “<article-title>Strength and Spatial Patterns of the Holocene Wintertime Westerlies in the NE Atlantic Region</article-title>.” <source>Global and Planetary Change</source>
+<volume>60</volume>, no. <issue>1</issue>: <fpage>28</fpage>–<lpage>41</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0003"><mixed-citation publication-type="journal" id="gcb70354-cit-0003">
+<string-name name-style="western">
+<surname>Balascio</surname>, <given-names>N. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>D'Andrea</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Bradley</surname>
+</string-name>. <year>2015</year>. “<article-title>Glacier Response to North Atlantic Climate Variability During the Holocene</article-title>.” <source>Climate of the Past</source>
+<volume>11</volume>, no. <issue>12</issue>: <fpage>1587</fpage>–<lpage>1598</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0004"><mixed-citation publication-type="journal" id="gcb70354-cit-0004">
+<string-name name-style="western">
+<surname>Bandelt</surname>, <given-names>H. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Forster</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Röhl</surname>
+</string-name>. <year>1999</year>. “<article-title>Median‐Joining Networks for Inferring Intraspecific Phylogenies</article-title>.” <source>Molecular Biology and Evolution</source>
+<volume>16</volume>, no. <issue>1</issue>: <fpage>37</fpage>–<lpage>48</lpage>.<pub-id pub-id-type="pmid">10331250</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/oxfordjournals.molbev.a026036</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0005"><mixed-citation publication-type="journal" id="gcb70354-cit-0005">
+<string-name name-style="western">
+<surname>Benecke</surname>, <given-names>N.</given-names>
+</string-name>
+<year>2005</year>. “<article-title>The Holocene Distribution of European Bison—The Archaeozoological Record</article-title>.” <source>Munibe Antropologia‐Arkeologia</source>
+<volume>57</volume>: <fpage>421</fpage>–<lpage>428</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0006"><mixed-citation publication-type="journal" id="gcb70354-cit-0006">
+<string-name name-style="western">
+<surname>Bevan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Colledge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Fuller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Fyfe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Shennan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Stevens</surname>
+</string-name>. <year>2017</year>. “<article-title>Holocene Fluctuations in Human Population Demonstrate Repeated Links to Food Production and Climate</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>114</volume>, no. <issue>49</issue>: <fpage>E10524</fpage>–<lpage>E10531</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1709190114</pub-id><pub-id pub-id-type="pmcid">PMC5724262</pub-id><pub-id pub-id-type="pmid">29158411</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0007"><mixed-citation publication-type="journal" id="gcb70354-cit-0007">
+<string-name name-style="western">
+<surname>Binney</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Edwards</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Macias‐Fauria</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Vegetation of Eurasia From the Last Glacial Maximum to Present: Key Biogeographic Patterns</article-title>.” <source>Quaternary Science Reviews</source>
+<volume>157</volume>: <fpage>80</fpage>–<lpage>97</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0008"><mixed-citation publication-type="book" id="gcb70354-cit-0008">
+<string-name name-style="western">
+<surname>Birks</surname>, <given-names>H. J. B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Tinner</surname>
+</string-name>. <year>2016</year>. “<part-title>Past Forests of Europe</part-title>.” In <source>European Atlas of Forest Tree Species</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>SanMiguel‐Ayanz</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>de Rigo</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Caudullo</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Houston Durrant</surname>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mauri</surname>
+</string-name>
+</person-group>. <publisher-name>Publ. Off. EU</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0009"><mixed-citation publication-type="journal" id="gcb70354-cit-0009">
+<string-name name-style="western">
+<surname>Bocherens</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Hofman‐Kamińska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Drucker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schmölcke</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>. <year>2015</year>. “<article-title>European Bison as a Refugee Species? Evidence From Isotopic Data on Early Holocene Bison and Other Large Herbivores in Northern Europe</article-title>.” <source>PLoS One</source>
+<volume>10</volume>, no. <issue>2</issue>: <elocation-id>e0115090</elocation-id>.<pub-id pub-id-type="pmid">25671634</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0115090</pub-id><pub-id pub-id-type="pmcid">PMC4324907</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0010"><mixed-citation publication-type="journal" id="gcb70354-cit-0010">
+<string-name name-style="western">
+<surname>Bond</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Kromer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Beer</surname>
+</string-name>, et al. <year>2001</year>. “<article-title>Persistent Solar Influence on North Atlantic Climate During the Holocene</article-title>.” <source>Science</source>
+<volume>294</volume>, no. <issue>5549</issue>: <fpage>2130</fpage>–<lpage>2136</lpage>.<pub-id pub-id-type="pmid">11739949</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1065680</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0011"><mixed-citation publication-type="journal" id="gcb70354-cit-0011">
+<string-name name-style="western">
+<surname>Brotherton</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Haak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Templeton</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Neolithic Mitochondrial Haplogroup H Genomes and the Genetic Origins of Europeans</article-title>.” <source>Nature Communications</source>
+<volume>4</volume>: <fpage>1764</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms2656</pub-id><pub-id pub-id-type="pmcid">PMC3978205</pub-id><pub-id pub-id-type="pmid">23612305</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0012"><mixed-citation publication-type="journal" id="gcb70354-cit-0012">
+<string-name name-style="western">
+<surname>Cardillo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. M.</given-names>
+<surname>Mace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Jones</surname>
+</string-name>, et al. <year>2005</year>. “<article-title>Multiple Causes of High Extinction Risk in Large Mammal Species</article-title>.” <source>Science</source>
+<volume>309</volume>, no. <issue>5738</issue>: <fpage>1239</fpage>–<lpage>1241</lpage>.<pub-id pub-id-type="pmid">16037416</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1116030</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0013"><mixed-citation publication-type="journal" id="gcb70354-cit-0013">
+<string-name name-style="western">
+<surname>Cooper</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. S. M.</given-names>
+<surname>Turney</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Hughen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. W.</given-names>
+<surname>Brook</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. G.</given-names>
+<surname>McDonald</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. J. A.</given-names>
+<surname>Bradshaw</surname>
+</string-name>. <year>2015</year>. “<article-title>Abrupt Warming Events Drove Late Pleistocene Holarctic Megafaunal Turnover</article-title>.” <source>Science</source>
+<volume>349</volume>, no. <issue>6248</issue>: <fpage>602</fpage>–<lpage>606</lpage>.<pub-id pub-id-type="pmid">26250679</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aac4315</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0014"><mixed-citation publication-type="journal" id="gcb70354-cit-0014">
+<string-name name-style="western">
+<surname>Cronin</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>MacNeil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Vu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Leesburg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. D.</given-names>
+<surname>Blackburn</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. N.</given-names>
+<surname>Derr</surname>
+</string-name>. <year>2013</year>. “<article-title>Genetic Variation and Differentiation of Bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bison</italic>
+</styled-content>) Subspecies and Cattle (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bos taurus</italic>
+</styled-content>) Breeds and Subspecies</article-title>.” <source>Journal of Heredity</source>
+<volume>104</volume>, no. <issue>4</issue>: <fpage>500</fpage>–<lpage>509</lpage>.<pub-id pub-id-type="pmid">23667052</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jhered/est030</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0015"><mixed-citation publication-type="journal" id="gcb70354-cit-0015">
+<string-name name-style="western">
+<surname>Daley</surname>, <given-names>T. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Barber</surname>
+</string-name>. <year>2012</year>. “<article-title>Multi‐Proxy Holocene Palaeoclimate Records From Walton Moss, Northern England and Dosenmoor, Northern Germany, Assessed Using Three Statistical Approaches</article-title>.” <source>Quaternary International: The Journal of the International Union for Quaternary Research</source>
+<volume>268</volume>: <fpage>111</fpage>–<lpage>127</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0016"><mixed-citation publication-type="journal" id="gcb70354-cit-0016">
+<string-name name-style="western">
+<surname>Darby</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ortiz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Grosch</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. P.</given-names>
+<surname>Lund</surname>
+</string-name>. <year>2012</year>. “<article-title>1,500‐Year Cycle in the Arctic Oscillation Identified in Holocene Arctic Sea‐Ice Drift</article-title>.” <source>Nature Geoscience</source>
+<volume>5</volume>, no. <issue>12</issue>: <fpage>897</fpage>–<lpage>900</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0017"><mixed-citation publication-type="journal" id="gcb70354-cit-0017">
+<string-name name-style="western">
+<surname>Didkowska</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Klich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nowak</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>A Serological Survey of Pathogens Associated With the Respiratory and Digestive System in the Polish European Bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content>) Population in 2017–2022</article-title>.” <source>BMC Veterinary Research</source>
+<volume>19</volume>, no. <issue>1</issue>: <fpage>74</fpage>.<pub-id pub-id-type="pmid">37264393</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12917-023-03627-y</pub-id><pub-id pub-id-type="pmcid">PMC10233174</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0018"><mixed-citation publication-type="journal" id="gcb70354-cit-0018">
+<string-name name-style="western">
+<surname>Dobrowolski</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Bałaga</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Buczek</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Multi‐Proxy Evidence of Holocene Climate Variability in Volhynia Upland (SE Poland) Recorded in Spring‐Fed Fen Deposits From the Komarów Site</article-title>.” <source>Holocene</source>
+<volume>26</volume>, no. <issue>9</issue>: <fpage>1406</fpage>–<lpage>1425</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0019"><mixed-citation publication-type="journal" id="gcb70354-cit-0019">
+<string-name name-style="western">
+<surname>Drummond</surname>, <given-names>A. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rambaut</surname>
+</string-name>. <year>2007</year>. “<article-title>BEAST: Bayesian Evolutionary Analysis by Sampling Trees</article-title>.” <source>BMC Evolutionary Biology</source>
+<volume>7</volume>: <fpage>214</fpage>.<pub-id pub-id-type="pmid">17996036</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2148-7-214</pub-id><pub-id pub-id-type="pmcid">PMC2247476</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0020"><mixed-citation publication-type="journal" id="gcb70354-cit-0020">
+<string-name name-style="western">
+<surname>Fordham</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Canteri</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>52,000 Years of Woolly Rhinoceros Population Dynamics Reveal Extinction Mechanisms</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>121</volume>, no. <issue>24</issue>: <elocation-id>e2316419121</elocation-id>.<pub-id pub-id-type="pmid">38830089</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2316419121</pub-id><pub-id pub-id-type="pmcid">PMC11181021</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0021"><mixed-citation publication-type="journal" id="gcb70354-cit-0021">
+<string-name name-style="western">
+<surname>Froese</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Stiller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. D.</given-names>
+<surname>Heintzman</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Fossil and Genomic Evidence Constrains the Timing of Bison Arrival in North America</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>114</volume>: <fpage>3457</fpage>–<lpage>3462</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1620754114</pub-id><pub-id pub-id-type="pmcid">PMC5380047</pub-id><pub-id pub-id-type="pmid">28289222</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0022"><mixed-citation publication-type="journal" id="gcb70354-cit-0022">
+<string-name name-style="western">
+<surname>García‐Suárez</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Butler</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. G. L.</given-names>
+<surname>Baillie</surname>
+</string-name>. <year>2009</year>. “<article-title>Climate Signal in Tree‐Ring Chronologies in a Temperate Climate: A Multi‐Species Approach</article-title>.” <source>Dendrochronologia</source>
+<volume>27</volume>, no. <issue>3</issue>: <fpage>183</fpage>–<lpage>198</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0023"><mixed-citation publication-type="journal" id="gcb70354-cit-0023">
+<string-name name-style="western">
+<surname>Gautier</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Moazami‐Goudarzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Levéziel</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Deciphering the Wisent Demographic and Adaptive Histories From Individual Whole‐Genome Sequences</article-title>.” <source>Molecular Biology and Evolution</source>
+<volume>33</volume>, no. <issue>11</issue>: <fpage>2801</fpage>–<lpage>2814</lpage>.<pub-id pub-id-type="pmid">27436010</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msw144</pub-id><pub-id pub-id-type="pmcid">PMC5062319</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0024"><mixed-citation publication-type="journal" id="gcb70354-cit-0024">
+<string-name name-style="western">
+<surname>Grange</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐P.</given-names>
+<surname>Brugal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Flori</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gautier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Uzunidis</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.‐M.</given-names>
+<surname>Geigl</surname>
+</string-name>. <year>2018</year>. “<article-title>The Evolution and Population Diversity of Bison in Pleistocene and Holocene Eurasia: Sex Matters</article-title>.” <source>Diversity</source>
+<volume>10</volume>, no. <issue>3</issue>: <fpage>65</fpage>.</mixed-citation></ref><ref id="gcb70354-bib-0025"><mixed-citation publication-type="journal" id="gcb70354-cit-0025">
+<string-name name-style="western">
+<surname>Grinsted</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Moore</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Jevrejeva</surname>
+</string-name>. <year>2004</year>. “<article-title>Application of the Cross Wavelet Transform and Wavelet Coherence to Geophysical Time Series</article-title>.” <source>Nonlinear Processes in Geophysics</source>
+<volume>11</volume>, no. <issue>5/6</issue>: <fpage>561</fpage>–<lpage>566</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0026"><mixed-citation publication-type="journal" id="gcb70354-cit-0026">
+<string-name name-style="western">
+<surname>Guindon</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐F.</given-names>
+<surname>Dufayard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Lefort</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Anisimova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Hordijk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Gascuel</surname>
+</string-name>. <year>2010</year>. “<article-title>New Algorithms and Methods to Estimate Maximum‐Likelihood Phylogenies: Assessing the Performance of PhyML 3.0</article-title>.” <source>Systematic Biology</source>
+<volume>59</volume>, no. <issue>3</issue>: <fpage>307</fpage>–<lpage>321</lpage>.<pub-id pub-id-type="pmid">20525638</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/sysbio/syq010</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0027"><mixed-citation publication-type="journal" id="gcb70354-cit-0027">
+<string-name name-style="western">
+<surname>Günther</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Malmström</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Svensson</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Population Genomics of Mesolithic Scandinavia: Investigating Early Postglacial Migration Routes and High‐Latitude Adaptation</article-title>.” <source>PLoS Biology</source>
+<volume>16</volume>, no. <issue>1</issue>: <elocation-id>e2003703</elocation-id>.<pub-id pub-id-type="pmid">29315301</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.2003703</pub-id><pub-id pub-id-type="pmcid">PMC5760011</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0028"><mixed-citation publication-type="book" id="gcb70354-cit-0028">
+<string-name name-style="western">
+<surname>Guthrie</surname>, <given-names>D. R.</given-names>
+</string-name>
+<year>2013</year>. <source>Frozen Fauna of the Mammoth Steppe: The Story of Blue Babe</source>. <publisher-name>University of Chicago Press</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0029"><mixed-citation publication-type="book" id="gcb70354-cit-0029">
+<string-name name-style="western">
+<surname>Hartway</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Hardy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Jones</surname>
+</string-name>, et al. <year>2020</year>. <source>Long‐Term Viability of Bison Under Current Management and Potential Metapopulation Management StrategiesNatural Resource Report NPS/NRSS/BRD—2020/2097</source>. <publisher-name>Department of the Interior, National Park Service</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0030"><mixed-citation publication-type="journal" id="gcb70354-cit-0030">
+<string-name name-style="western">
+<surname>Ho</surname>, <given-names>S. Y. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shapiro</surname>
+</string-name>. <year>2011</year>. “<article-title>Skyline‐Plot Methods for Estimating Demographic History From Nucleotide Sequences</article-title>.” <source>Molecular Ecology Resources</source>
+<volume>11</volume>, no. <issue>3</issue>: <fpage>423</fpage>–<lpage>434</lpage>.<pub-id pub-id-type="pmid">21481200</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1755-0998.2011.02988.x</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0031"><mixed-citation publication-type="journal" id="gcb70354-cit-0031">
+<string-name name-style="western">
+<surname>Hofman‐Kamińska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bocherens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Borowik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Drucker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>. <year>2018</year>. “<article-title>Stable Isotope Signatures of Large Herbivore Foraging Habitats Across Europe</article-title>.” <source>PLoS One</source>
+<volume>13</volume>, no. <issue>1</issue>: <elocation-id>e0190723</elocation-id>.<pub-id pub-id-type="pmid">29293647</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0190723</pub-id><pub-id pub-id-type="pmcid">PMC5749876</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0032"><mixed-citation publication-type="journal" id="gcb70354-cit-0032">
+<string-name name-style="western">
+<surname>Hofman‐Kamińska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bocherens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Drucker</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Adapt or Die—Response of Large Herbivores to Environmental Changes in Europe During the Holocene</article-title>.” <source>Global Change Biology</source>
+<volume>25</volume>, no. <issue>9</issue>: <fpage>2915</fpage>–<lpage>2930</lpage>.<pub-id pub-id-type="pmid">31298814</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.14733</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0033"><mixed-citation publication-type="journal" id="gcb70354-cit-0033">
+<string-name name-style="western">
+<surname>Hofman‐Kamińska</surname>, <given-names>E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>. <year>2012</year>. “<article-title>Farm Crops Depredation by European Bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content>) in the Vicinity of Forest Habitats in Northeastern Poland</article-title>.” <source>Environmental Management</source>
+<volume>50</volume>, no. <issue>4</issue>: <fpage>530</fpage>–<lpage>541</lpage>.<pub-id pub-id-type="pmid">22842710</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00267-012-9913-7</pub-id><pub-id pub-id-type="pmcid">PMC3439609</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0034"><mixed-citation publication-type="journal" id="gcb70354-cit-0034">
+<string-name name-style="western">
+<surname>Hurtado‐Uria</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Hennessy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Shalloo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>O'Connor</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Delaby</surname>
+</string-name>. <year>2013</year>. “<article-title>Relationships Between Meteorological Data and Grass Growth Over Time in the South of Ireland</article-title>.” <source>Irish Geography</source>
+<volume>46</volume>, no. <issue>3</issue>: <fpage>175</fpage>–<lpage>201</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0035"><mixed-citation publication-type="journal" id="gcb70354-cit-0035">
+<string-name name-style="western">
+<surname>Jonsson</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Andersson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. C.</given-names>
+<surname>Rosqvist</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Leng</surname>
+</string-name>. <year>2010</year>. “<article-title>Reconstructing Past Atmospheric Circulation Changes Using Oxygen Isotopes in Lake Sediments From Sweden</article-title>.” <source>Climate of the Past</source>
+<volume>6</volume>, no. <issue>1</issue>: <fpage>49</fpage>–<lpage>62</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0036"><mixed-citation publication-type="journal" id="gcb70354-cit-0036">
+<string-name name-style="western">
+<surname>Jónsson</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ginolhac</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schubert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. L.</given-names>
+<surname>Johnson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Orlando</surname>
+</string-name>. <year>2013</year>. “<article-title>mapDamage2.0: Fast Approximate Bayesian Estimates of Ancient DNA Damage Parameters</article-title>.” <source>Bioinformatics</source>
+<volume>29</volume>, no. <issue>13</issue>: <fpage>1682</fpage>–<lpage>1684</lpage>.<pub-id pub-id-type="pmid">23613487</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btt193</pub-id><pub-id pub-id-type="pmcid">PMC3694634</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0037"><mixed-citation publication-type="journal" id="gcb70354-cit-0037">
+<string-name name-style="western">
+<surname>Katoh</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Misawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.‐I.</given-names>
+<surname>Kuma</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Miyata</surname>
+</string-name>. <year>2002</year>. “<article-title>MAFFT: A Novel Method for Rapid Multiple Sequence Alignment Based on Fast Fourier Transform</article-title>.” <source>Nucleic Acids Research</source>
+<volume>30</volume>, no. <issue>14</issue>: <fpage>3059</fpage>–<lpage>3066</lpage>.<pub-id pub-id-type="pmid">12136088</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkf436</pub-id><pub-id pub-id-type="pmcid">PMC135756</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0038"><mixed-citation publication-type="journal" id="gcb70354-cit-0038">
+<string-name name-style="western">
+<surname>Kerley</surname>, <given-names>G. I. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. P. G. M.</given-names>
+<surname>Cromsigt</surname>
+</string-name>. <year>2012</year>. “<article-title>Conservation Implications of the Refugee Species Concept and the European Bison: King of the Forest or Refugee in a Marginal Habitat?</article-title>” <source>Ecography</source>
+<volume>35</volume>, no. <issue>6</issue>: <fpage>519</fpage>–<lpage>529</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0039"><mixed-citation publication-type="journal" id="gcb70354-cit-0039">
+<string-name name-style="western">
+<surname>Kołodziej‐Sobocińska</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. W.</given-names>
+<surname>Demiaszkiewicz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Pyziel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Marczuk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>. <year>2016</year>. “<article-title>Does the Blood‐Sucking Nematode Ashworthius Sidemi (Trichostrongylidae) Cause Deterioration of Blood Parameters in European Bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content>)?</article-title>” <source>European Journal of Wildlife Research</source>
+<volume>62</volume>, no. <issue>6</issue>: <fpage>781</fpage>–<lpage>785</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0040"><mixed-citation publication-type="book" id="gcb70354-cit-0040">
+<string-name name-style="western">
+<surname>Kowalczyk</surname>, <given-names>R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Plumb</surname>
+</string-name>. <year>2022</year>. “<article-title>European Bison <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content> (Linnaeus, 1758)</article-title>.” In Handbook of the Mammals of Europe, edited by K. Hackländer and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>F. E.</given-names>
+<surname>Zachos</surname>
+</string-name>
+</person-group>, 1–23. Cham: <publisher-name>Springer International Publishing</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0041"><mixed-citation publication-type="journal" id="gcb70354-cit-0041">
+<string-name name-style="western">
+<surname>Kowalczyk</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Wójcik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Taberlet</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Foraging Plasticity Allows a Large Herbivore to Persist in a Sheltering Forest Habitat: DNA Metabarcoding Diet Analysis of the European Bison</article-title>.” <source>Forest Ecology and Management</source>
+<volume>449</volume>: <elocation-id>117474</elocation-id>.</mixed-citation></ref><ref id="gcb70354-bib-0042"><mixed-citation publication-type="book" id="gcb70354-cit-0042">
+<string-name name-style="western">
+<surname>Krasińska</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Z. A.</given-names>
+<surname>Krasiński</surname>
+</string-name>. <year>2013</year>. <source>European Bison: The Nature Monograph</source>. <edition designator="2">2nd ed</edition>. <publisher-name>Springer‐Verlag</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0043"><mixed-citation publication-type="journal" id="gcb70354-cit-0043">
+<string-name name-style="western">
+<surname>Kuemmerle</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V. C.</given-names>
+<surname>Radeloff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Perzanowski</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Predicting Potential European Bison Habitat Across Its Former Range</article-title>.” <source>Ecological Applications: A Publication of the Ecological Society of America</source>
+<volume>21</volume>, no. <issue>3</issue>: <fpage>830</fpage>–<lpage>843</lpage>.<pub-id pub-id-type="pmid">21639048</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/10-0073.1</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0044"><mixed-citation publication-type="journal" id="gcb70354-cit-0044">
+<string-name name-style="western">
+<surname>Leigh</surname>, <given-names>J. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Bryant</surname>
+</string-name>. <year>2015</year>. “<article-title>Popart: Full‐Feature Software for Haplotype Network Construction</article-title>.” <source>Methods in Ecology and Evolution</source>
+<volume>6</volume>, no. <issue>9</issue>: <fpage>1110</fpage>–<lpage>1116</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0045"><mixed-citation publication-type="book" id="gcb70354-cit-0045">
+<string-name name-style="western">
+<surname>Leuschner</surname>, <given-names>C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Ellenberg</surname>
+</string-name>. <year>2017</year>. <source>Ecology of Central European Forests: Vegetation Ecology of Central Europe, Volume I</source>. <publisher-name>Springer International Publishing</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0046"><mixed-citation publication-type="journal" id="gcb70354-cit-0046">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Durbin</surname>
+</string-name>. <year>2009</year>. “<article-title>Fast and Accurate Short Read Alignment With Burrows‐Wheeler Transform</article-title>.” <source>Bioinformatics</source>
+<volume>25</volume>, no. <issue>14</issue>: <fpage>1754</fpage>–<lpage>1760</lpage>.<pub-id pub-id-type="pmid">19451168</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id><pub-id pub-id-type="pmcid">PMC2705234</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0047"><mixed-citation publication-type="journal" id="gcb70354-cit-0047">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>A Statistical Framework for SNP Calling, Mutation Discovery, Association Mapping and Population Genetical Parameter Estimation From Sequencing Data</article-title>.” <source>Bioinformatics</source>
+<volume>27</volume>, no. <issue>21</issue>: <fpage>2987</fpage>–<lpage>2993</lpage>.<pub-id pub-id-type="pmid">21903627</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr509</pub-id><pub-id pub-id-type="pmcid">PMC3198575</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0048"><mixed-citation publication-type="journal" id="gcb70354-cit-0048">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Handsaker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wysoker</surname>
+</string-name>, et al. <year>2009</year>. “<article-title>The Sequence Alignment/Map Format and SAMtools</article-title>.” <source>Bioinformatics</source>
+<volume>25</volume>, no. <issue>16</issue>: <fpage>2078</fpage>–<lpage>2079</lpage>.<pub-id pub-id-type="pmid">19505943</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp352</pub-id><pub-id pub-id-type="pmcid">PMC2723002</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0049"><mixed-citation publication-type="journal" id="gcb70354-cit-0049">
+<string-name name-style="western">
+<surname>Lindgreen</surname>, <given-names>S.</given-names>
+</string-name>
+<year>2012</year>. “<article-title>AdapterRemoval: Easy Cleaning of Next‐Generation Sequencing Reads</article-title>.” <source>BMC Research Notes</source>
+<volume>5</volume>, no. <issue>1</issue>: <fpage>1</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="pmid">22748135</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1756-0500-5-337</pub-id><pub-id pub-id-type="pmcid">PMC3532080</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0050"><mixed-citation publication-type="journal" id="gcb70354-cit-0050">
+<string-name name-style="western">
+<surname>Magny</surname>, <given-names>M.</given-names>
+</string-name>
+<year>2004</year>. “<article-title>Holocene Climate Variability as Reflected by Mid‐European Lake‐Level Fluctuations and Its Probable Impact on Prehistoric Human Settlements</article-title>.” <source>Quaternary International: The Journal of the International Union for Quaternary Research</source>
+<volume>113</volume>, no. <issue>1</issue>: <fpage>65</fpage>–<lpage>79</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0051"><mixed-citation publication-type="journal" id="gcb70354-cit-0051">
+<string-name name-style="western">
+<surname>Marquer</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.‐J.</given-names>
+<surname>Gaillard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sugita</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Holocene Changes in Vegetation Composition in Northern Europe: Why Quantitative Pollen‐Based Vegetation Reconstructions Matter</article-title>.” <source>Quaternary Science Reviews</source>
+<volume>90</volume>: <fpage>199</fpage>–<lpage>216</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0052"><mixed-citation publication-type="journal" id="gcb70354-cit-0052">
+<string-name name-style="western">
+<surname>Massilani</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Guimaraes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐P.</given-names>
+<surname>Brugal</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Past Climate Changes, Population Dynamics and the Origin of Bison in Europe</article-title>.” <source>BMC Biology</source>
+<volume>14</volume>, no. <issue>1</issue>: <fpage>93</fpage>.<pub-id pub-id-type="pmid">27769298</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12915-016-0317-7</pub-id><pub-id pub-id-type="pmcid">PMC5075162</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0053"><mixed-citation publication-type="journal" id="gcb70354-cit-0053">
+<string-name name-style="western">
+<surname>McDermott</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Mattey</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Hawkesworth</surname>
+</string-name>. <year>2001</year>. “<article-title>Centennial‐Scale Holocene Climate Variability Revealed by a High‐Resolution Speleothem δ18O Record From SW Ireland</article-title>.” <source>Science</source>
+<volume>294</volume>, no. <issue>5545</issue>: <fpage>1328</fpage>–<lpage>1331</lpage>.<pub-id pub-id-type="pmid">11701925</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1063678</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0054"><mixed-citation publication-type="journal" id="gcb70354-cit-0054">
+<string-name name-style="western">
+<surname>McKenna</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hanna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Banks</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>The Genome Analysis Toolkit: A MapReduce Framework for Analyzing Next‐Generation DNA Sequencing Data</article-title>.” <source>Genome Research</source>
+<volume>20</volume>, no. <issue>9</issue>: <fpage>1297</fpage>–<lpage>1303</lpage>.<pub-id pub-id-type="pmid">20644199</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.107524.110</pub-id><pub-id pub-id-type="pmcid">PMC2928508</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0055"><mixed-citation publication-type="journal" id="gcb70354-cit-0055">
+<string-name name-style="western">
+<surname>Mendoza</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Palmqvist</surname>
+</string-name>. <year>2008</year>. “<article-title>Hypsodonty in Ungulates: An Adaptation for Grass Consumption or for Foraging in Open Habitat?</article-title>” <source>Journal of Zoology</source>
+<volume>274</volume>, no. <issue>2</issue>: <fpage>134</fpage>–<lpage>142</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0056"><mixed-citation publication-type="miscellaneous" id="gcb70354-cit-0056">
+<string-name name-style="western">
+<surname>Miller</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Pfeiffer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Schwartz</surname>
+</string-name>. <year>2010</year>. <article-title>“Creating the CIPRES Science Gateway for Inference of Large Phylogenetic Trees</article-title>.” 2010 Gateway Computing Environments Workshop (GCE), 1–8.</mixed-citation></ref><ref id="gcb70354-bib-0057"><mixed-citation publication-type="journal" id="gcb70354-cit-0057">
+<string-name name-style="western">
+<surname>Minin</surname>, <given-names>V. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. W.</given-names>
+<surname>Bloomquist</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Suchard</surname>
+</string-name>. <year>2008</year>. “<article-title>Smooth Skyride Through a Rough Skyline: Bayesian Coalescent‐Based Inference of Population Dynamics</article-title>.” <source>Molecular Biology and Evolution</source>
+<volume>25</volume>, no. <issue>7</issue>: <fpage>1459</fpage>–<lpage>1471</lpage>.<pub-id pub-id-type="pmid">18408232</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msn090</pub-id><pub-id pub-id-type="pmcid">PMC3302198</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0058"><mixed-citation publication-type="journal" id="gcb70354-cit-0058">
+<string-name name-style="western">
+<surname>Nores</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Álvarez‐Laó</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Navarro</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Rewilding Through Inappropriate Species Introduction: The Case of European Bison in Spain</article-title>.” <source>Conservation Science and Practice</source>
+<volume>6</volume>: <elocation-id>e13221</elocation-id>.</mixed-citation></ref><ref id="gcb70354-bib-0059"><mixed-citation publication-type="journal" id="gcb70354-cit-0059">
+<string-name name-style="western">
+<surname>Onar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Soubrier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. Y.</given-names>
+<surname>Toker</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Did the Historical Range of the European Bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content> L.) Extend Further South?—A New Finding From the Yenikapı Metro and Marmaray Excavation, Turkey</article-title>.” <source>Mammal Research</source>
+<volume>62</volume>, no. <issue>1</issue>: <fpage>103</fpage>–<lpage>109</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0060"><mixed-citation publication-type="journal" id="gcb70354-cit-0060">
+<string-name name-style="western">
+<surname>Palacio</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Berthonaud</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Guérin</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Genome Data on the Extinct Bison Schoetensacki Establish It as a Sister Species of the Extant European Bison (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content>)</article-title>.” <source>BMC Evolutionary Biology</source>
+<volume>17</volume>: <fpage>48</fpage>.<pub-id pub-id-type="pmid">28187706</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12862-017-0894-2</pub-id><pub-id pub-id-type="pmcid">PMC5303235</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0061"><mixed-citation publication-type="journal" id="gcb70354-cit-0061">
+<string-name name-style="western">
+<surname>Paniagua</surname>, <given-names>L. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>García‐Martín</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Moral</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Rebollo</surname>
+</string-name>. <year>2019</year>. “<article-title>Aridity in the Iberian Peninsula (1960–2017): Distribution, Tendencies, and Changes</article-title>.” <source>Theoretical and Applied Climatology</source>
+<volume>138</volume>, no. <issue>1–2</issue>: <fpage>811</fpage>–<lpage>830</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0062"><mixed-citation publication-type="journal" id="gcb70354-cit-0062">
+<string-name name-style="western">
+<surname>Patton</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Hubbard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Andreassen</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Deglaciation of the Eurasian Ice Sheet Complex</article-title>.” <source>Quaternary Science Reviews</source>
+<volume>169</volume>: <fpage>148</fpage>–<lpage>172</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0063"><mixed-citation publication-type="journal" id="gcb70354-cit-0063">
+<string-name name-style="western">
+<surname>Pèlachs</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Julià</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Pérez‐Obiol</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Potential Influence of Bond Events on Mid‐Holocene Climate and Vegetation in Southern Pyrenees as Assessed From Burg Lake LOI and Pollen Records</article-title>.” <source>Holocene</source>
+<volume>21</volume>, no. <issue>1</issue>: <fpage>95</fpage>–<lpage>104</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0064"><mixed-citation publication-type="journal" id="gcb70354-cit-0064">
+<string-name name-style="western">
+<surname>Pilcher</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. G. L.</given-names>
+<surname>Baillie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Schmidt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Becker</surname>
+</string-name>. <year>1984</year>. “<article-title>A 7,272‐Year Tree‐Ring Chronology for Western Europe</article-title>.” <source>Nature</source>
+<volume>312</volume>, no. <issue>5990</issue>: <fpage>150</fpage>–<lpage>152</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0065"><mixed-citation publication-type="journal" id="gcb70354-cit-0065">
+<string-name name-style="western">
+<surname>Pilowsky</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Llamas</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Millennial Processes of Population Decline, Range Contraction and Near Extinction of the European Bison</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>290</volume>: <elocation-id>20231095</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2023.1095</pub-id><pub-id pub-id-type="pmcid">PMC10716654</pub-id><pub-id pub-id-type="pmid">38087919</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0066"><mixed-citation publication-type="journal" id="gcb70354-cit-0066">
+<string-name name-style="western">
+<surname>Pilowsky</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Haythorne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Brown</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Range and Extinction Dynamics of the Steppe Bison in Siberia: A Pattern‐Oriented Modelling Approach</article-title>.” <source>Global Ecology and Biogeography: A Journal of Macroecology</source>
+<volume>31</volume>, no. <issue>12</issue>: <fpage>2483</fpage>–<lpage>2497</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0067"><mixed-citation publication-type="journal" id="gcb70354-cit-0067">
+<string-name name-style="western">
+<surname>Poska</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Väli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Vassiljev</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Alliksaar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Saarse</surname>
+</string-name>. <year>2022</year>. “<article-title>Timing and Drivers of Local to Regional Scale Land‐Cover Changes in the Hemiboreal Forest Zone During the Holocene: A Pollen‐Based Study From South Estonia</article-title>.” <source>Quaternary Science Reviews</source>
+<volume>277</volume>: <elocation-id>107351</elocation-id>.</mixed-citation></ref><ref id="gcb70354-bib-0068"><mixed-citation publication-type="book" id="gcb70354-cit-0068">
+<string-name name-style="western">
+<surname>Pucek</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I. P.</given-names>
+<surname>Belousova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Krasiñska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. A.</given-names>
+<surname>Krasiñski</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Olech</surname>
+</string-name>. <year>2004</year>. <source>European Bison (Bison bonasus): Current State of the Species and Strategy for Its Conservation</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Pucek</surname>
+</string-name>
+</person-group>. <publisher-name>Council of Europe</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0069"><mixed-citation publication-type="journal" id="gcb70354-cit-0069">
+<string-name name-style="western">
+<surname>Rambaut</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Drummond</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Baele</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Suchard</surname>
+</string-name>. <year>2018</year>. “<article-title>Posterior Summarisation in Bayesian Phylogenetics Using Tracer 1.7</article-title>.” <source>Systematic Biology</source>
+<volume>67</volume>: <fpage>901</fpage>–<lpage>904</lpage>.<pub-id pub-id-type="pmid">29718447</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/sysbio/syy032</pub-id><pub-id pub-id-type="pmcid">PMC6101584</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0070"><mixed-citation publication-type="journal" id="gcb70354-cit-0070">
+<string-name name-style="western">
+<surname>Ramsey</surname>, <given-names>C. B.</given-names>
+</string-name>
+<year>2009</year>. “<article-title>Bayesian Analysis of Radiocarbon Dates</article-title>.” <source>Radiocarbon</source>
+<volume>51</volume>, no. <issue>1</issue>: <fpage>337</fpage>–<lpage>360</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0071"><mixed-citation publication-type="journal" id="gcb70354-cit-0071">
+<string-name name-style="western">
+<surname>Ramsey</surname>, <given-names>C. B.</given-names>
+</string-name>
+<year>2017</year>. “<article-title>Methods for Summarizing Radiocarbon Datasets</article-title>.” <source>Radiocarbon</source>
+<volume>59</volume>, no. <issue>6</issue>: <fpage>1809</fpage>–<lpage>1833</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0072"><mixed-citation publication-type="journal" id="gcb70354-cit-0072">
+<string-name name-style="western">
+<surname>Reimer</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. E. N.</given-names>
+<surname>Austin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Bard</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>The IntCal20 Northern Hemisphere Radiocarbon Age Calibration Curve (0–55 Cal kBP)</article-title>.” <source>Radiocarbon</source>
+<volume>62</volume>, no. <issue>4</issue>: <fpage>725</fpage>–<lpage>757</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0073"><mixed-citation publication-type="journal" id="gcb70354-cit-0073">
+<string-name name-style="western">
+<surname>Rohland</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Harney</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mallick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Nordenfelt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Reich</surname>
+</string-name>. <year>2015</year>. “<article-title>Partial Uracil‐DNA‐Glycosylase Treatment for Screening of Ancient DNA</article-title>.” <source>Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences</source>
+<volume>370</volume>, no. <issue>1660</issue>: <elocation-id>20130624</elocation-id>.<pub-id pub-id-type="pmid">25487342</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rstb.2013.0624</pub-id><pub-id pub-id-type="pmcid">PMC4275898</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0074"><mixed-citation publication-type="journal" id="gcb70354-cit-0074">
+<string-name name-style="western">
+<surname>Ruf</surname>, <given-names>T.</given-names>
+</string-name>
+<year>1999</year>. “<article-title>The Lomb–Scargle Periodogram in Biological Rhythm Research: Analysis of Incomplete and Unequally Spaced Time‐Series</article-title>.” <source>Biological Rhythm Research</source>
+<volume>30</volume>, no. <issue>2</issue>: <fpage>178</fpage>–<lpage>201</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1076/brhm.30.2.149.1424</pub-id><pub-id pub-id-type="pmid">11708361</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0075"><mixed-citation publication-type="book" id="gcb70354-cit-0075">
+<person-group person-group-type="editor">
+<string-name name-style="western">
+<surname>Samojlik</surname>, <given-names>T.</given-names>
+</string-name>
+</person-group>, ed. <year>2005</year>. <source>Conservation and Hunting. Białowieża Forest in the Time of Kings</source>. <publisher-name>Mammal Research Institute Polish Academy of Sciences</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0076"><mixed-citation publication-type="journal" id="gcb70354-cit-0076">
+<string-name name-style="western">
+<surname>Samojlik</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Fedotova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Borowik</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>. <year>2019</year>. “<article-title>Historical Data on European Bison Management in Białowieża Primeval Forest Can Contribute to a Better Contemporary Conservation of the Species</article-title>.” <source>Mammal Research</source>
+<volume>64</volume>, no. <issue>4</issue>: <fpage>543</fpage>–<lpage>557</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0077"><mixed-citation publication-type="journal" id="gcb70354-cit-0077">
+<string-name name-style="western">
+<surname>Scharnweber</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Couwenberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Heinrich</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wilmking</surname>
+</string-name>. <year>2015</year>. “<article-title>New Insights for the Interpretation of Ancient Bog Oak Chronologies? Reactions of Oak (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Quercus robur</italic>
+</styled-content> L.) to a Sudden Peatland Rewetting</article-title>.” <source>Palaeogeography, Palaeoclimatology, Palaeoecology</source>
+<volume>417</volume>: <fpage>534</fpage>–<lpage>543</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0078"><mixed-citation publication-type="journal" id="gcb70354-cit-0078">
+<string-name name-style="western">
+<surname>Schubert</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Ermini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Sarkissian</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Characterization of Ancient and Modern Genomes by SNP Detection and Phylogenomic and Metagenomic Analysis Using PALEOMIX</article-title>.” <source>Nature Protocols</source>
+<volume>9</volume>, no. <issue>5</issue>: <fpage>1056</fpage>–<lpage>1082</lpage>.<pub-id pub-id-type="pmid">24722405</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nprot.2014.063</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0079"><mixed-citation publication-type="book" id="gcb70354-cit-0079">
+<string-name name-style="western">
+<surname>Silverman</surname>, <given-names>B. W.</given-names>
+</string-name>
+<year>1986</year>. <source>Density Estimation for Statistics and Data Analysis</source>. <publisher-name>CRC Press</publisher-name>.</mixed-citation></ref><ref id="gcb70354-bib-0080"><mixed-citation publication-type="journal" id="gcb70354-cit-0080">
+<string-name name-style="western">
+<surname>Slatis</surname>, <given-names>H. M.</given-names>
+</string-name>
+<year>1960</year>. “<article-title>An Analysis of Inbreeding in the European Bison</article-title>.” <source>Genetics</source>
+<volume>45</volume>, no. <issue>3</issue>: <fpage>275</fpage>–<lpage>287</lpage>.<pub-id pub-id-type="pmid">17247924</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/genetics/45.3.275</pub-id><pub-id pub-id-type="pmcid">PMC1210050</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0081"><mixed-citation publication-type="journal" id="gcb70354-cit-0081">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Wynn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Barker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Leng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Noble</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Tych</surname>
+</string-name>. <year>2016</year>. “<article-title>North Atlantic Forcing of Moisture Delivery to Europe Throughout the Holocene</article-title>.” <source>Scientific Reports</source>
+<volume>6</volume>: <fpage>24745</fpage>.<pub-id pub-id-type="pmid">27109216</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep24745</pub-id><pub-id pub-id-type="pmcid">PMC4842961</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0082"><mixed-citation publication-type="journal" id="gcb70354-cit-0082">
+<string-name name-style="western">
+<surname>Soubrier</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Gower</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Chen</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Early Cave Art and Ancient DNA Record the Origin of European Bison</article-title>.” <source>Nature Communications</source>
+<volume>7</volume>: <fpage>13158</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms13158</pub-id><pub-id pub-id-type="pmcid">PMC5071849</pub-id><pub-id pub-id-type="pmid">27754477</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0083"><mixed-citation publication-type="journal" id="gcb70354-cit-0083">
+<string-name name-style="western">
+<surname>Stamatakis</surname>, <given-names>A.</given-names>
+</string-name>
+<year>2014</year>. “<article-title>RAxML Version 8: A Tool for Phylogenetic Analysis and Post‐Analysis of Large Phylogenies</article-title>.” <source>Bioinformatics</source>
+<volume>30</volume>, no. <issue>9</issue>: <fpage>1312</fpage>–<lpage>1313</lpage>.<pub-id pub-id-type="pmid">24451623</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btu033</pub-id><pub-id pub-id-type="pmcid">PMC3998144</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0084"><mixed-citation publication-type="journal" id="gcb70354-cit-0084">
+<string-name name-style="western">
+<surname>Suchard</surname>, <given-names>M. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rambaut</surname>
+</string-name>. <year>2009</year>. “<article-title>Many‐Core Algorithms for Statistical Phylogenetics</article-title>.” <source>Bioinformatics</source>
+<volume>25</volume>, no. <issue>11</issue>: <fpage>1370</fpage>–<lpage>1376</lpage>.<pub-id pub-id-type="pmid">19369496</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp244</pub-id><pub-id pub-id-type="pmcid">PMC2682525</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0085"><mixed-citation publication-type="journal" id="gcb70354-cit-0085">
+<string-name name-style="western">
+<surname>Svenning</surname>, <given-names>J.‐C.</given-names>
+</string-name>
+<year>2020</year>. “<article-title>Rewilding Should Be Central to Global Restoration Efforts</article-title>.” <source>One Earth</source>
+<volume>3</volume>, no. <issue>6</issue>: <fpage>657</fpage>–<lpage>660</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0086"><mixed-citation publication-type="journal" id="gcb70354-cit-0086">
+<string-name name-style="western">
+<surname>Svenning</surname>, <given-names>J.‐C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Buitenwerf</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Le Roux</surname>
+</string-name>. <year>2024</year>. “<article-title>Trophic Rewilding as a Restoration Approach Under Emerging Novel Biosphere Conditions</article-title>.” <source>Current Biology</source>
+<volume>34</volume>, no. <issue>9</issue>: <fpage>R435</fpage>–<lpage>R451</lpage>.<pub-id pub-id-type="pmid">38714176</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cub.2024.02.044</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0087"><mixed-citation publication-type="journal" id="gcb70354-cit-0087">
+<string-name name-style="western">
+<surname>Theuerkauf</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A. A.</given-names>
+<surname>Bos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Jahns</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Corylus Expansion and Persistent Openness in the Early Holocene Vegetation of Northern Central Europe</article-title>.” <source>Quaternary Science Reviews</source>
+<volume>90</volume>: <fpage>183</fpage>–<lpage>198</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0088"><mixed-citation publication-type="journal" id="gcb70354-cit-0088">
+<string-name name-style="western">
+<surname>Tokarska</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. N.</given-names>
+<surname>Bunevich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Demontis</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Genes of the Extinct Caucasian Bison Still Roam the Białowieża Forest and Are the Source of Genetic Discrepancies Between Polish and Belarusian Populations of the European Bison, <italic toggle="yes">Bison bonasus</italic>
+</article-title>.” <source>Biological Journal of the Linnean Society Linnean Society of London</source>
+<volume>114</volume>, no. <issue>4</issue>: <fpage>752</fpage>–<lpage>763</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0089"><mixed-citation publication-type="journal" id="gcb70354-cit-0089">
+<string-name name-style="western">
+<surname>Tokarska</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Marshall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>, et al. <year>2009</year>. “<article-title>Effectiveness of Microsatellite and SNP Markers for Parentage and Identity Analysis in Species With Low Genetic Diversity: The Case of European Bison</article-title>.” <source>Heredity</source>
+<volume>103</volume>, no. <issue>4</issue>: <fpage>326</fpage>–<lpage>332</lpage>.<pub-id pub-id-type="pmid">19623210</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/hdy.2009.73</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0090"><mixed-citation publication-type="journal" id="gcb70354-cit-0090">
+<string-name name-style="western">
+<surname>Tokarska</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Pertoldi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kowalczyk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Perzanowski</surname>
+</string-name>. <year>2011</year>. “<article-title>Genetic Status of the European Bison <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Bison bonasus</italic>
+</styled-content> After Extinction in the Wild and Subsequent Recovery</article-title>.” <source>Mammal Review</source>
+<volume>41</volume>, no. <issue>2</issue>: <fpage>151</fpage>–<lpage>162</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0091"><mixed-citation publication-type="journal" id="gcb70354-cit-0091">
+<string-name name-style="western">
+<surname>Torrence</surname>, <given-names>C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G. P.</given-names>
+<surname>Compo</surname>
+</string-name>. <year>1998</year>. “<article-title>A Practical Guide to Wavelet Analysis</article-title>.” <source>Bulletin of the American Meteorological Society</source>
+<volume>79</volume>, no. <issue>1</issue>: <fpage>61</fpage>–<lpage>78</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0092"><mixed-citation publication-type="journal" id="gcb70354-cit-0092">
+<string-name name-style="western">
+<surname>Torrence</surname>, <given-names>C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Webster</surname>
+</string-name>. <year>1999</year>. “<article-title>Interdecadal Changes in the ENSO–Monsoon System</article-title>.” <source>Journal of Climate</source>
+<volume>12</volume>, no. <issue>8</issue>: <fpage>2679</fpage>–<lpage>2690</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0093"><mixed-citation publication-type="journal" id="gcb70354-cit-0093">
+<string-name name-style="western">
+<surname>Trepel</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>le Roux</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Abraham</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Meta‐Analysis Shows That Wild Large Herbivores Shape Ecosystem Properties and Promote Spatial Heterogeneity</article-title>.” <source>Nature Ecology &amp; Evolution</source>
+<volume>8</volume>, no. <issue>4</issue>: <fpage>705</fpage>–<lpage>716</lpage>.<pub-id pub-id-type="pmid">38337048</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41559-024-02327-6</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0094"><mixed-citation publication-type="journal" id="gcb70354-cit-0094">
+<string-name name-style="western">
+<surname>Trouet</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Esper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. E.</given-names>
+<surname>Graham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Baker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Scourse</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Frank</surname>
+</string-name>. <year>2009</year>. “<article-title>Persistent Positive North Atlantic Oscillation Mode Dominated the Medieval Climate Anomaly</article-title>.” <source>Science</source>
+<volume>324</volume>, no. <issue>5923</issue>: <fpage>78</fpage>–<lpage>80</lpage>.<pub-id pub-id-type="pmid">19342585</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1166349</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0095"><mixed-citation publication-type="journal" id="gcb70354-cit-0095">
+<string-name name-style="western">
+<surname>Turney</surname>, <given-names>C. S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Baillie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Clemens</surname>
+</string-name>, et al. <year>2005</year>. “<article-title>Testing Solar Forcing of Pervasive Holocene Climate Cycles</article-title>.” <source>Journal of Quaternary Science</source>
+<volume>20</volume>, no. <issue>6</issue>: <fpage>511</fpage>–<lpage>518</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0096"><mixed-citation publication-type="journal" id="gcb70354-cit-0096">
+<string-name name-style="western">
+<surname>Turney</surname>, <given-names>C. S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Baillie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Palmer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Brown</surname>
+</string-name>. <year>2006</year>. “<article-title>Holocene Climatic Change and Past Irish Societal Response</article-title>.” <source>Journal of Archaeological Science</source>
+<volume>33</volume>, no. <issue>1</issue>: <fpage>34</fpage>–<lpage>38</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0097"><mixed-citation publication-type="journal" id="gcb70354-cit-0097">
+<string-name name-style="western">
+<surname>Turney</surname>, <given-names>C. S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. T.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. A.</given-names>
+<surname>Thomas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. G.</given-names>
+<surname>Palmer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Brown</surname>
+</string-name>. <year>2016</year>. “<article-title>Extreme Wet Conditions Coincident With Bronze Age Abandonment of Upland Areas in Britain</article-title>.” <source>Anthropocene</source>
+<volume>13</volume>: <fpage>69</fpage>–<lpage>79</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0098"><mixed-citation publication-type="journal" id="gcb70354-cit-0098">
+<string-name name-style="western">
+<surname>Węcek</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hartmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L. A.</given-names>
+<surname>Paijmans</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Complex Admixture Preceded and Followed the Extinction of Wisent in the Wild</article-title>.” <source>Molecular Biology and Evolution</source>
+<volume>34</volume>, no. <issue>3</issue>: <fpage>598</fpage>–<lpage>612</lpage>.<pub-id pub-id-type="pmid">28007976</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msw254</pub-id><pub-id pub-id-type="pmcid">PMC5356474</pub-id></mixed-citation></ref><ref id="gcb70354-bib-0099"><mixed-citation publication-type="journal" id="gcb70354-cit-0099">
+<string-name name-style="western">
+<surname>Wójcik</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kawałko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Tokarska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jaarola</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Vallenback</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Pertoldi</surname>
+</string-name>. <year>2009</year>. “<article-title>Post‐Bottleneck mtDNA Diversity in a Free‐Living Population of European Bison: Implications for Conservation</article-title>.” <source>Journal of Zoology</source>
+<volume>277</volume>, no. <issue>1</issue>: <fpage>81</fpage>–<lpage>87</lpage>.</mixed-citation></ref><ref id="gcb70354-bib-0100"><mixed-citation publication-type="miscellaneous" id="gcb70354-cit-0100">
+<string-name name-style="western">
+<surname>Zampirolo</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Holman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Sawafuji</surname>
+</string-name>, et al. <year>2023</year>. <article-title>“Early Pastoralism in Central European Forests: Insights From Ancient Environmental Genomics.”</article-title>
+<italic toggle="yes">bioRxiv</italic>.</mixed-citation></ref><ref id="gcb70354-bib-0101"><mixed-citation publication-type="journal" id="gcb70354-cit-0101">
+<string-name name-style="western">
+<surname>Zielhofer</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>Fletcher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mischke</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Atlantic Forcing of Western Mediterranean Winter Rain Minima During the Last 12,000 Years</article-title>.” <source>Quaternary Science Reviews</source>
+<volume>157</volume>: <fpage>29</fpage>–<lpage>51</lpage>.</mixed-citation></ref></ref-list></back></article></pmc-articleset>

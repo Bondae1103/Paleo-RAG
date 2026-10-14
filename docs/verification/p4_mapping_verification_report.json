@@ -1,0 +1,1028 @@
+{
+  "metadata": {
+    "date": "2026-10-13T15:20:11.739120+00:00",
+    "phase": "P4",
+    "total_mappings_stored": 2699,
+    "distinct_proteins_mapped": 199,
+    "distinct_pdb_ids_mapped": 883,
+    "mappings_by_taxon": {
+      "PRAG-TAX-001": 8,
+      "PRAG-TAX-002": 16,
+      "PRAG-TAX-003": 343,
+      "PRAG-TAX-015": 2332
+    },
+    "taxon_match_status_counts": {
+      "MATCH": 2659,
+      "TAXON_MISMATCH": 40
+    },
+    "source_distribution": {
+      "PDBe SIFTS": 2658,
+      "UniProtKB_PDB_XREF": 41
+    },
+    "live_verification_sample_size": 100,
+    "live_verification_pass_count": 100,
+    "live_verification_pass_rate_pct": 100.0
+  },
+  "sample_verification_results": [
+    {
+      "sample_index": 1,
+      "uniprot_accession": "P03429",
+      "pdb_id": "8Y7O",
+      "chain_id": "K",
+      "entity_id": "3",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 2,
+      "uniprot_accession": "P03437",
+      "pdb_id": "3VUN",
+      "chain_id": "D",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 3,
+      "uniprot_accession": "A4TSJ5",
+      "pdb_id": "3FWW",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 4,
+      "uniprot_accession": "A4K144",
+      "pdb_id": "8BER",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 5,
+      "uniprot_accession": "P03496",
+      "pdb_id": "3O9Q",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 6,
+      "uniprot_accession": "P03428",
+      "pdb_id": "2ZTT",
+      "chain_id": "D",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 7,
+      "uniprot_accession": "P05777",
+      "pdb_id": "5V7S",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 8,
+      "uniprot_accession": "P03437",
+      "pdb_id": "2HMG",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 9,
+      "uniprot_accession": "P19696",
+      "pdb_id": "7U8M",
+      "chain_id": "G",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 10,
+      "uniprot_accession": "Q8ZGC6",
+      "pdb_id": "4KI3",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "UniProtKB_PDB_XREF",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 11,
+      "uniprot_accession": "P26562",
+      "pdb_id": "6HJQ",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 12,
+      "uniprot_accession": "P15682",
+      "pdb_id": "4BBL",
+      "chain_id": "R",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 13,
+      "uniprot_accession": "Q7CJ65",
+      "pdb_id": "4DYU",
+      "chain_id": "J",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 14,
+      "uniprot_accession": "Q7CJ65",
+      "pdb_id": "4DYU",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 15,
+      "uniprot_accession": "P03433",
+      "pdb_id": "5JHT",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 16,
+      "uniprot_accession": "O70632",
+      "pdb_id": "2KQT",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 17,
+      "uniprot_accession": "P03472",
+      "pdb_id": "1NMC",
+      "chain_id": "N",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 18,
+      "uniprot_accession": "Q91MA7",
+      "pdb_id": "9CXU",
+      "chain_id": "D",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 19,
+      "uniprot_accession": "Q9Q0U9",
+      "pdb_id": "3HW6",
+      "chain_id": "D",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 20,
+      "uniprot_accession": "P31522",
+      "pdb_id": "5LN4",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 21,
+      "uniprot_accession": "Q289M7",
+      "pdb_id": "8UR5",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 22,
+      "uniprot_accession": "P03485",
+      "pdb_id": "4QFF",
+      "chain_id": "L",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 23,
+      "uniprot_accession": "Q99AU3",
+      "pdb_id": "6ATV",
+      "chain_id": "M",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 24,
+      "uniprot_accession": "P19696",
+      "pdb_id": "7U8M",
+      "chain_id": "G",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 25,
+      "uniprot_accession": "P15682",
+      "pdb_id": "4BBL",
+      "chain_id": "H",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 26,
+      "uniprot_accession": "O70632",
+      "pdb_id": "3LBW",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 27,
+      "uniprot_accession": "Q91MA7",
+      "pdb_id": "4FQR",
+      "chain_id": "R",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 28,
+      "uniprot_accession": "P26562",
+      "pdb_id": "6HJP",
+      "chain_id": "E",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 29,
+      "uniprot_accession": "C3W5S0",
+      "pdb_id": "4AVL",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 30,
+      "uniprot_accession": "Q8Z9U1",
+      "pdb_id": "3ZU4",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 31,
+      "uniprot_accession": "P03452",
+      "pdb_id": "5W5U",
+      "chain_id": "B",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 32,
+      "uniprot_accession": "P15682",
+      "pdb_id": "4BBL",
+      "chain_id": "U",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 33,
+      "uniprot_accession": "Q6XV27",
+      "pdb_id": "1V0Z",
+      "chain_id": "D",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 34,
+      "uniprot_accession": "C3W5S0",
+      "pdb_id": "4AVG",
+      "chain_id": "D",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 35,
+      "uniprot_accession": "P03452",
+      "pdb_id": "1RVZ",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 36,
+      "uniprot_accession": "Q6DPL2",
+      "pdb_id": "3CL2",
+      "chain_id": "D",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 37,
+      "uniprot_accession": "P15659",
+      "pdb_id": "5IFC",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 38,
+      "uniprot_accession": "P03437",
+      "pdb_id": "1QU1",
+      "chain_id": "F",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 39,
+      "uniprot_accession": "P03433",
+      "pdb_id": "5FDG",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 40,
+      "uniprot_accession": "P03432",
+      "pdb_id": "6QPG",
+      "chain_id": "K",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 41,
+      "uniprot_accession": "P03437",
+      "pdb_id": "1HGG",
+      "chain_id": "E",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 42,
+      "uniprot_accession": "Q3HM40",
+      "pdb_id": "9RYC",
+      "chain_id": "B",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 43,
+      "uniprot_accession": "Q6XV27",
+      "pdb_id": "2CML",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 44,
+      "uniprot_accession": "Q9WFX3",
+      "pdb_id": "1RD8",
+      "chain_id": "E",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 45,
+      "uniprot_accession": "Q5EP34",
+      "pdb_id": "4E5G",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 46,
+      "uniprot_accession": "Q8ZIE7",
+      "pdb_id": "3V4Z",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 47,
+      "uniprot_accession": "Q91MA7",
+      "pdb_id": "4ZCJ",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 48,
+      "uniprot_accession": "P19696",
+      "pdb_id": "7U8L",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 49,
+      "uniprot_accession": "P03437",
+      "pdb_id": "6Y5K",
+      "chain_id": "D",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 50,
+      "uniprot_accession": "P03432",
+      "pdb_id": "6QNW",
+      "chain_id": "E",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 51,
+      "uniprot_accession": "P26948",
+      "pdb_id": "3DSN",
+      "chain_id": "F",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 52,
+      "uniprot_accession": "P31345",
+      "pdb_id": "7XME",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 53,
+      "uniprot_accession": "C3W5S0",
+      "pdb_id": "5W44",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 54,
+      "uniprot_accession": "Q9Q0U8",
+      "pdb_id": "5SWZ",
+      "chain_id": "R",
+      "entity_id": "3",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 55,
+      "uniprot_accession": "Q9WFX3",
+      "pdb_id": "4JUH",
+      "chain_id": "B",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 56,
+      "uniprot_accession": "Q6J8F6",
+      "pdb_id": "4MHH",
+      "chain_id": "D",
+      "entity_id": "3",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 57,
+      "uniprot_accession": "Q9Q0U6",
+      "pdb_id": "4MHJ",
+      "chain_id": "G",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 58,
+      "uniprot_accession": "P03485",
+      "pdb_id": "4ITV",
+      "chain_id": "I",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 59,
+      "uniprot_accession": "P69968",
+      "pdb_id": "1XL3",
+      "chain_id": "D",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 60,
+      "uniprot_accession": "Q8ZIE7",
+      "pdb_id": "5BPH",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 61,
+      "uniprot_accession": "P03436",
+      "pdb_id": "6BKM",
+      "chain_id": "F",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 62,
+      "uniprot_accession": "C3W5S0",
+      "pdb_id": "5EGA",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 63,
+      "uniprot_accession": "P68640",
+      "pdb_id": "1XKP",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 64,
+      "uniprot_accession": "P03472",
+      "pdb_id": "1NNA",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 65,
+      "uniprot_accession": "P03437",
+      "pdb_id": "1QU1",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 66,
+      "uniprot_accession": "Q91MA7",
+      "pdb_id": "4NM8",
+      "chain_id": "B",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 67,
+      "uniprot_accession": "P03429",
+      "pdb_id": "6QNW",
+      "chain_id": "L",
+      "entity_id": "3",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 68,
+      "uniprot_accession": "Q9Q0L9",
+      "pdb_id": "6BKL",
+      "chain_id": "D",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 69,
+      "uniprot_accession": "P03452",
+      "pdb_id": "5W6U",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 70,
+      "uniprot_accession": "Q9Q0L9",
+      "pdb_id": "6BOC",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 71,
+      "uniprot_accession": "Q3HM40",
+      "pdb_id": "7NJ4",
+      "chain_id": "B",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 72,
+      "uniprot_accession": "Q6DPL2",
+      "pdb_id": "2HTY",
+      "chain_id": "G",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 73,
+      "uniprot_accession": "Q5EP34",
+      "pdb_id": "4E5H",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 74,
+      "uniprot_accession": "Q3HM41",
+      "pdb_id": "8R65",
+      "chain_id": "C",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 75,
+      "uniprot_accession": "Q56991",
+      "pdb_id": "3MD9",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 76,
+      "uniprot_accession": "Q9WFX3",
+      "pdb_id": "4EEF",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 77,
+      "uniprot_accession": "P03429",
+      "pdb_id": "6QNW",
+      "chain_id": "C",
+      "entity_id": "3",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 78,
+      "uniprot_accession": "P03452",
+      "pdb_id": "9PHS",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 79,
+      "uniprot_accession": "P19696",
+      "pdb_id": "5XLD",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 80,
+      "uniprot_accession": "P03496",
+      "pdb_id": "3L4Q",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 81,
+      "uniprot_accession": "P03452",
+      "pdb_id": "6WCR",
+      "chain_id": "B",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 82,
+      "uniprot_accession": "Q91MA7",
+      "pdb_id": "5K9Q",
+      "chain_id": "F",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 83,
+      "uniprot_accession": "P03432",
+      "pdb_id": "6QPG",
+      "chain_id": "E",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 84,
+      "uniprot_accession": "Q5EP34",
+      "pdb_id": "4E5J",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 85,
+      "uniprot_accession": "P03429",
+      "pdb_id": "8Y7O",
+      "chain_id": "P",
+      "entity_id": "3",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 86,
+      "uniprot_accession": "Q289M7",
+      "pdb_id": "7SCN",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 87,
+      "uniprot_accession": "O70632",
+      "pdb_id": "3C9J",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 88,
+      "uniprot_accession": "C3W5S0",
+      "pdb_id": "9PO6",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 89,
+      "uniprot_accession": "Q8ZG93",
+      "pdb_id": "3OS4",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 90,
+      "uniprot_accession": "P03472",
+      "pdb_id": "1BJI",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 91,
+      "uniprot_accession": "Q7CJ65",
+      "pdb_id": "4DYU",
+      "chain_id": "K",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 92,
+      "uniprot_accession": "C3W5S0",
+      "pdb_id": "7MX0",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 93,
+      "uniprot_accession": "Q910D6",
+      "pdb_id": "8Y7O",
+      "chain_id": "J",
+      "entity_id": "2",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 94,
+      "uniprot_accession": "Q5EP34",
+      "pdb_id": "4E5H",
+      "chain_id": "D",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 95,
+      "uniprot_accession": "P26949",
+      "pdb_id": "2XET",
+      "chain_id": "B",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 96,
+      "uniprot_accession": "Q6DPL2",
+      "pdb_id": "2HU0",
+      "chain_id": "E",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 97,
+      "uniprot_accession": "Q3HM39",
+      "pdb_id": "8R60",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 98,
+      "uniprot_accession": "C3W5S0",
+      "pdb_id": "7MPF",
+      "chain_id": "A",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 99,
+      "uniprot_accession": "Q6DPL2",
+      "pdb_id": "2HU4",
+      "chain_id": "C",
+      "entity_id": "1",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    },
+    {
+      "sample_index": 100,
+      "uniprot_accession": "Q09159",
+      "pdb_id": "8V50",
+      "chain_id": "R",
+      "entity_id": "3",
+      "mapping_source": "PDBe SIFTS",
+      "live_status": "VERIFIED",
+      "error_note": null
+    }
+  ]
+}

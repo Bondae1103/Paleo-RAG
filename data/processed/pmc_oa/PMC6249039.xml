@@ -1,0 +1,1021 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">J Med Chem</journal-id><journal-id journal-id-type="iso-abbrev">J. Med. Chem.</journal-id><journal-id journal-id-type="pmc-domain-id">319</journal-id><journal-id journal-id-type="pmc-domain">nihpa</journal-id><journal-id journal-id-type="nlm-id">9716531</journal-id><journal-title-group><journal-title>Journal of medicinal chemistry</journal-title></journal-title-group><issn pub-type="ppub">0022-2623</issn><issn pub-type="epub">1520-4804</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>NIHPA Author Manuscripts</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC6249039</article-id><article-id pub-id-type="pmcid-ver">PMC6249039.1</article-id><article-id pub-id-type="pmcaid">6249039</article-id><article-id pub-id-type="pmcaiid">6249039</article-id><article-id pub-id-type="manuscript-id">NIHMS993565</article-id><article-id pub-id-type="pmid">30351002</article-id><article-id pub-id-type="doi">10.1021/acs.jmedchem.8b01363</article-id><article-id pub-id-type="manuscript-id-alternative">NIHMS993565</article-id><article-id pub-id-type="manuscript-id-alternative">NIHPA993565</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Structure-Activity Relationships in Metal-Binding Pharmacophores for
+Influenza Endonuclease</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Credille</surname><given-names initials="CV">Cy V.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Dick</surname><given-names initials="B">Benjamin</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Morrison</surname><given-names initials="CN">Christine N.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Stokes</surname><given-names initials="RW">Ryjul W.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Adamek</surname><given-names initials="RN">Rebecca N.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wu</surname><given-names initials="NC">Nicholas C.</given-names></name><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Wilson</surname><given-names initials="IA">Ian A.</given-names></name><xref ref-type="aff" rid="A2">2</xref><xref ref-type="aff" rid="A3">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Cohen</surname><given-names initials="SM">Seth M.</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref rid="CR1" ref-type="corresp">*</xref></contrib></contrib-group><aff id="A1"><label>1</label>Department of Chemistry and Biochemistry, University of
+California, San Diego, La Jolla, CA 92093, United States</aff><aff id="A2"><label>2</label>Department of Integrative Structural and Computational
+Biology, The Scripps Research Institute, La Jolla, CA 92037, United States</aff><aff id="A3"><label>3</label>The Skaggs Institute for Chemical Biology, The Scripps
+Research Institute, La Jolla, CA 92037, United States</aff><author-notes><corresp id="CR1"><label>*</label><bold>Corresponding Author:</bold><email>scohen@ucsd.edu.</email> Telephone: (858) 822-5596.</corresp></author-notes><pub-date pub-type="epub"><day>31</day><month>10</month><year>2018</year></pub-date><pub-date pub-type="ppub"><day>21</day><month>11</month><year>2018</year></pub-date><volume>61</volume><issue>22</issue><issue-id pub-id-type="pmc-issue-id">324326</issue-id><fpage>10206</fpage><lpage>10217</lpage><pub-history><event event-type="nihms-submitted"><date><day>19</day><month>10</month><year>2018</year></date></event><event event-type="pmc-release"><date><day>21</day><month>11</month><year>2019</year></date></event><event event-type="pmc-live"><date><day>21</day><month>11</month><year>2019</year></date></event><event event-type="pmc-released-under-embargo"><date><day>22</day><month>11</month><year>2018</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-06-18 13:25:35.730"><day>18</day><month>06</month><year>2024</year></date></event></pub-history><permissions><license><license-p>This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms-993565.pdf"/><abstract id="ABS1"><p id="P1">Metalloenzymes represent an important target space for drug discovery. A
+limitation to the early development of metalloenzyme inhibitors has been the
+lack of established structure-activity relationships (SARs) for molecules that
+bind the metal ion cofactor(s) of a metalloenzyme. Herein, we employed a
+bioinorganic perspective to develop an SAR for inhibition of the metalloenzyme
+influenza RNA polymerase PA<sub>N</sub> endonuclease. The identified trends
+highlight the importance of the electronics of the metal-binding pharmacophore
+(MBP), in addition to MBP sterics, for achieving improved inhibition and
+selectivity. By optimizing the MBPs for PA<sub>N</sub> endonuclease, a class of
+highly active and selective fragments were developed that display
+IC<sub>50</sub> values &lt;50 nM. This SAR led to structurally distinct
+molecules that also displayed IC<sub>50</sub> values of ∼10 nM,
+illustrating the utility of a metal-centric development campaign in generating
+highly active and selective metalloenzyme inhibitors.</p></abstract><abstract id="ABS2" abstract-type="graphical"><title>Graphical Abstract</title><p id="P2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" orientation="portrait" xlink:href="nihms-993565-f0001.jpg"/></p></abstract><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-manuscript</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="S1"><title>Introduction</title><p id="P3">Metalloenzymes comprise over one-third of all known enzymes, are ubiquitous
+across all domains of life, and are implicated in a wide variety of human
+diseases.<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup> As a result, metalloenzymes represent prime
+target space for drug discovery; however, the clinical development of metalloenzyme
+inhibitors is rather limited. In the past five years, only ∼9% of new
+molecular entities approved by the FDA target metalloenzymes, and &lt;5% of all
+FDA approved drugs inhibit metalloenzymes.<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup> Compounds that are
+able to interact strongly with an active site metal center can effectively inhibit
+the catalytic activity of metalloenzymes, by disrupting substrate access to the
+active site and preventing metal-mediated catalysis.<sup><xref rid="R3" ref-type="bibr">3</xref></sup> Metal binding inhibitors are reversible, but
+are capable of forming strong interactions due to the large bond enthalpy of
+metal-ligand dative or coordinate covalent bonds.</p><p id="P4">Within the context of metalloenzyme inhibitors, a shortcoming to the
+development of new inhibitors has been an over-reliance on a very limited number of
+metal-binding pharmacophores (MBPs).<sup><xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R5" ref-type="bibr">5</xref></sup> In addition, despite
+the importance of metal-ligand interactions in the development of metalloenzyme
+inhibitors, relatively little work has been focused on the development and
+optimization of MBPs, with a general lack of structural diversity in the MBP
+chemical space.<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup> Indeed, the only metalloenzyme targets where
+a substantial chemical diversity is present in terms of the MBPs are inhibitors of
+HIV integrase (HIV IN) and HIV reverse-transcriptase associated RNaseH (HIV
+RNaseH),<sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R9" ref-type="bibr">9</xref></sup> with most of this structural diversity
+reported in the patent literature.<sup><xref rid="R10" ref-type="bibr">10</xref>–<xref rid="R12" ref-type="bibr">12</xref></sup> However,
+despite the structural diversity in the patent literature against these targets,
+there is little analysis into the effects of varied MBP cores on metalloenzyme
+inhibition. Furthermore, these reports generally do not detail development of the
+MBP core nor efforts towards MBP optimization. To address these shortcomings, MBP
+libraries, consisting of fragment-like compounds designed to bind metal ion
+cofactors in metalloenzyme active sites, have been developed.<sup><xref rid="R13" ref-type="bibr">13</xref></sup> These MBP libraries have been used in
+fragment-based drug discovery (FBDD) to identify novel inhibitors of several
+metalloenzymes, including the influenza RNA-dependent RNA polymerase PA
+subunit.<sup><xref rid="R13" ref-type="bibr">13</xref></sup></p><p id="P5">The influenza polymerase complex is an attractive target for new antiviral
+therapies, particularly the polymerase PA endonuclease domain. This domain is both
+highly conserved across influenza strains and serotypes and is indispensable for the
+viral lifecycle.<sup><xref rid="R14" ref-type="bibr">14</xref></sup>
+Crystallographic and biochemical studies have shown that the polymerase PA
+N-terminal endonuclease domain (PA<sub>N</sub>) contains a dinuclear metal active
+site which binds to two Mg<sup>2+</sup> or Mn<sup>2+</sup> cations.<sup><xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R16" ref-type="bibr">16</xref></sup> The metal cations reside in a pocket comprised of a
+histidine (His41), an isoleucine (Ile120), and a cluster of three acidic residues
+(Asp108, Glu80, Glu119) that all coordinate to the active site metal ions (<xref rid="F1" ref-type="fig">Figure 1</xref>).<sup><xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R17" ref-type="bibr">17</xref></sup> These metal ions
+are essential for catalysis, and it has been shown that metal coordination by small
+molecules effectively inhibits endonuclease activity.<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R18" ref-type="bibr">18</xref>–<xref rid="R22" ref-type="bibr">22</xref></sup> Indeed,
+nearly all reported inhibitors of endonucleases have been shown by X-ray
+crystallography or modeling to coordinate to at least one active site metal center,
+including the polymerase PA inhibitor Baloxavir marboxil, developed by Roche and
+Shionogi, which is currently in Phase III clinical trials in the U.S. and has
+received regulatory approval in Japan.<sup><xref rid="R23" ref-type="bibr">23</xref></sup></p><p id="P6">The influenza virus RNA polymerase has no proofreading capability, which
+results in a high mutation rate of approximately one error per genome replication
+cycle.<sup><xref rid="R25" ref-type="bibr">25</xref></sup> This results in
+each infected cell producing on average ∼10,000 new viral mutants during the
+course of infection.<sup><xref rid="R16" ref-type="bibr">16</xref></sup> One primary
+advantage to a discovery campaign focused on metal binding is an intrinsic barrier
+to antiviral resistance. Any mutation to the PA<sub>N</sub> metal coordinating
+residues (with the exception of substituting Glu119 with Asp, which coordinates
+identically to Glu119) results in total loss of viral transcription activity and
+ultimately virulence.<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R27" ref-type="bibr">27</xref></sup> Hence, an inhibitor molecule that obtains
+significant binding energy from metal coordination may be less susceptible to
+antiviral resistance, as mutations that disfavor metal coordination will likewise
+disfavor substrate binding and/or catalytic activity.</p><p id="P7">Little work has been reported on the optimization of specific metal-ligand
+interactions for PA<sub>N</sub> inhibitors,<sup><xref rid="R19" ref-type="bibr">19</xref></sup> despite some chemical diversity among the various reported
+PA<sub>N</sub> inhibitor MBPs both in terms of chemical structure and
+coordination motif. However, there are few clear structure-activity trends that can
+be derived from the different reported MBPs.<sup><xref rid="R28" ref-type="bibr">28</xref></sup> This lack of consensus regarding preferred metal
+coordination interactions is not unique to PA<sub>N</sub> endonuclease, and has been
+a limitation to the development of inhibitors of many metalloenzymes.<sup><xref rid="R10" ref-type="bibr">10</xref></sup> A more detailed understanding of
+the metal coordination preferences of the dinuclear metal center of PA<sub>N</sub>
+endonuclease would allow for optimization of MBP domains and produce highly active
+endonuclease inhibitors. To this end, a targeted FBDD screen was conducted employing
+a MBP library.<sup><xref rid="R13" ref-type="bibr">13</xref></sup> This screen
+included MBPs with the ability to coordinate to both metals of the dinuclear metal
+active site simultaneously. Using a FRET-labeled DNA oligonucleotide substrate, the
+endonuclease activity of the PA<sub>N</sub> subunit of H1N1 influenza A polymerase
+was measured in the presence of MBPs to identify fragments that exhibit strong
+inhibition. Several MBP fragments were found to have IC<sub>50</sub> values of
+&lt;500 nM. SAR elucidated from the library screen and subsequent derivatization
+identified key chemical properties that were essential for tight binding to the
+metal cofactors in the PA<sub>N</sub> active site. In addition, good selectivity for
+PA<sub>N</sub> inhibition over other dinuclear metalloenzymes was also achieved.
+This strategy resulted in the identification of an optimized chemotype for MBP-based
+inhibition of PA<sub>N</sub>, with several MBPs displaying IC<sub>50</sub> values of
+&lt;50 nM. X-ray structural determination of MBPs in PA<sub>N</sub> were used to
+elucidate key binding interactions. Ultimately, the identification of key metal
+binding preferences allowed for the predictive development of other chemically
+distinct, highly active inhibitor chemotypes illustrating the value of a
+bioinorganic, coordination chemistry-based fragment discovery approach for
+metalloenzyme inhibitor development.</p></sec><sec id="S2"><title>Results and Discussion</title><p id="P8">Fragments in the MBP library were screened for endonuclease inhibition
+against a truncated N-terminal (PA<sub>N</sub>) endonuclease construct employing a
+FRET-labeled DNA oligonucleotide, as previously reported.<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R22" ref-type="bibr">22</xref></sup> This construct is derived from an
+influenza A (A/California/04/2009) H1N1 clinical isolate that has been modified such
+that residues 52–64 of the N-terminal (PA<sub>N</sub>) endonuclease were
+replaced by a single glycine residue.<sup><xref rid="R18" ref-type="bibr">18</xref>,<xref rid="R29" ref-type="bibr">29</xref></sup> This truncation
+removes a highly disordered protein loop that engages in protein-protein
+interactions with other subunits of the RNA polymerase complex. Loop removal was
+found to produce higher quality protein crystals and improve the solution stability
+of the isolated PA<sub>N</sub> domain.<sup><xref rid="R18" ref-type="bibr">18</xref>,<xref rid="R29" ref-type="bibr">29</xref></sup> Note that several
+compounds used in this study were obtained from commercial suppliers (compounds
+<bold>4–5</bold>, <bold>7–14</bold>, <bold>16</bold>,
+<bold>19</bold>, <bold>23</bold>, <bold>31</bold>, and <bold>34</bold>).</p><p id="P9">Compounds that exhibited inhibition of PA<sub>N</sub> endonuclease at a
+fragment concentration of 200μ;M and were predicted to simultaneously
+coordinate both metal centers in the endonuclease active site (i.e., possessed a
+suitable triad of donor atoms)<sup><xref rid="R30" ref-type="bibr">30</xref></sup>
+were further analyzed with dose-response experiments to determine IC<sub>50</sub>
+values. The activity of these MBPs is shown in <xref rid="T1" ref-type="table">Table
+1</xref>. To ensure that the observed activity against endonuclease was not due
+to metal-stripping, all inhibition assays were performed with a large excess (2 mM)
+of both Mn<sup>2+</sup> and Mg<sup>2+</sup> metal cations in the assay media. From
+these results, a characteristic pharmacophore model with a common donor triad
+chemotype was identified that is shared by the most active inhibitors produced in
+this study. As shown in <xref rid="F2" ref-type="fig">Figure 2</xref>, compounds
+sharing this chemotype were predicted to coordinate to the divalent metal centers as
+multicoordinate bridging ligands with the conserved phenolic oxygen atom replacing
+the bound hydroxide anion observed in the native protein. To elucidate the mode of
+binding, crystallographic studies were performed. The truncated PA<sub>N</sub>
+construct was co-crystalized or soaked with several ligands that share the active
+chemotype (<xref rid="F2" ref-type="fig">Figure 2</xref>). All X-ray structures
+validate the multi-coordinate bridged coordination mode hypothesis. Compound
+<bold>3</bold> was observed to coordinate simultaneously to both metal centers
+with the carbonyl oxygen atom coordinating to Mn-1 at the open coordination site,
+the phenolic oxygen replacing the bound hydroxide anion as the bridging ligand, and
+the carboxylic acid group coordinating to Mn-2 (<xref rid="F2" ref-type="fig">Figure
+2</xref>). No steric clash was observed within the active site, and binding of
+compound <bold>3</bold> places each metal ion in an octahedral coordination
+geometry. From this co-crystal structure, it is inferred that the majority of the
+binding enthalpy for <bold>3</bold> is derived from metal coordination and not from
+other interactions with the protein active site. This is corroborated by the
+analogous binding mode and similar inhibitory activity of compound <bold>1</bold>
+(<xref rid="F2" ref-type="fig">Figure 2</xref>).</p><p id="P10">The inhibitory activity of compounds such as <bold>1</bold> is outstanding
+given the small molecular weight of the fragment (ligand efficiency of 0.84).
+Generally, hits identified in FBDD screening campaigns have IC<sub>50</sub> values
+&gt;100 μM, and not infrequently &gt;1 mM.<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup>
+More striking is the comparison between <bold>1</bold> and the related MBPs
+allomaltol and pyromeconic acid (<xref rid="T1" ref-type="table">Table 1</xref>,
+IC<sub>50</sub> = 17.1 μM and 22.5 μM, respectively), which were
+previously identified as PA<sub>N</sub> hits.<sup><xref rid="R13" ref-type="bibr">13</xref></sup> It was observed that the addition of only three atoms (in
+the form of the coordinating carboxylate group) to these inhibitor scaffolds (to
+generate compounds <bold>1</bold> and <bold>3</bold>, respectively) resulted in a
+∼500-fold increase in activity.<sup><xref rid="R32" ref-type="bibr">32</xref></sup> Interestingly, not every MBP that can present a donor atom
+triad to the PA<sub>N</sub> metal centers was found to display such tight binding
+affinities (e.g., compounds <bold>4</bold>, <bold>6</bold>, <bold>8</bold>, <xref rid="T1" ref-type="table">Table 1</xref>), and suggests that the PA<sub>N</sub>
+metal centers have specific ligand preferences, which have not been previously
+identified for this metalloenzyme.</p><p id="P11">Based on the excellent activity observed with MBPs such as <bold>1</bold>,
+other fragments were synthesized to obtain SAR to elucidate what aspects of these
+molecules were responsible for their tight binding affinity. Beyond probing simple
+steric effects or attempting to introduce new protein contacts, changes to the
+electronic character of the MBP ring system were explored. The effect of changes to
+donor atom identity, Lewis basicity, and isosteric replacement of coordinating
+moieties were also investigated. Multiple structural variants of the identified
+chemotype were ultimately designed and synthesized, and the effect of modulating
+each coordinating moiety was assessed by both biochemical and structural experiments
+to understand the observed trends.</p><p id="P12">Conversion of a pyrone to a pyridinone scaffold has been shown to improve
+activity in previously reported endonuclease inhibitors.<sup><xref rid="R13" ref-type="bibr">13</xref></sup> Pyridinones have a greater aromatic
+character than pyrones, which can result in greater electron density on the oxygen
+donor atoms. This change in ligand electronics generally results in greater ligand
+basicity, which can lead to stronger coordination to the hard Lewis acidic metal
+centers found in endonucleases.<sup><xref rid="R33" ref-type="bibr">33</xref></sup>
+To probe this effect, a series of analogs of <bold>1</bold> were synthesized and
+investigated (<xref rid="T2" ref-type="table">Table 2</xref>). As expected,
+conversion of a pyrone oxygen to a pyridinone nitrogen (<bold>17</bold>) resulted in
+an approximately 3-fold increase in activity relative to <bold>1</bold>. In
+addition, no change in the activity of compounds <bold>1</bold> and <bold>17</bold>
+was observed as a function of the presence or absence of excess metal ions in
+solution (up to 25 mM). These results conclusively demonstrates that the high
+affinity of these inhibitor molecules is derived from a strong binding preference
+for the dinuclear Mn<sup>2+</sup> PA<sub>N</sub> metal centers and not from any
+general affinity for free Mn<sup>2+</sup> in solution.</p><p id="P13">The position of the nitrogen atom within the ring system strongly effects
+inhibitory activity. While 3,4-hydroxypyridinones (<bold>17</bold>) did show an
+improvement in activity, 2,3-hydroxypyridinones (<bold>18</bold>) and
+4,5-hydroxypyrimidinones (<bold>19</bold>) showed markedly less activity than the
+3,4hydroxypyridinone or the parent hydroxypyrone fragments, with compounds
+<bold>18</bold> and <bold>19</bold> showing a 25-fold and 100-fold loss in
+activity, respectively (relative to <bold>17</bold>). Furthermore,
+<italic toggle="yes">N</italic>-hydroxy-1,2hydroxypyridinones (<bold>5</bold>) were even less
+active, with a &gt;400-fold loss in activity when compared to <bold>17</bold>.
+Analysis of the p<italic toggle="yes">K</italic><sub>a</sub> of the phenolic and
+<italic toggle="yes">N</italic>-hydroxy protons in these compounds revealed that the donor
+oxygen in <bold>5</bold> is less basic (p<italic toggle="yes">K</italic><sub>a</sub> ∼7.0
+calculated;<sup><xref rid="R33" ref-type="bibr">33</xref></sup>
+p<italic toggle="yes">K</italic><sub>a</sub> = 7.51 reported)<sup><xref rid="R34" ref-type="bibr">34</xref></sup> than the equivalent donor oxygen in
+compounds <bold>16</bold> (p<italic toggle="yes">K</italic><sub>a</sub> ∼9.5
+calculated)<sup><xref rid="R33" ref-type="bibr">33</xref></sup>,
+<bold>17</bold> (p<italic toggle="yes">K</italic><sub>a</sub> ∼11.3
+calculated)<sup><xref rid="R33" ref-type="bibr">33</xref></sup>,
+<bold>18</bold> (p<italic toggle="yes">K</italic><sub>a</sub> ∼9.2
+calculated)<sup><xref rid="R33" ref-type="bibr">33</xref></sup>, or
+<bold>19</bold> (p<italic toggle="yes">K</italic><sub>a</sub> ∼7.5
+calculated)<sup><xref rid="R33" ref-type="bibr">33</xref></sup>. This change
+in ligand basicity is likely the electronic driving force behind the variation in
+inhibitory activity, with the most basic ligand <bold>17</bold> being the most
+active. Interestingly, the overall inhibitory activity (pIC<sub>50</sub>) of these
+fragments was found to be linearly correlated to the calculated
+p<italic toggle="yes">K</italic><sub>a</sub> of the bridging oxygen atom (<italic toggle="yes">r</italic>
+= 0.96, <italic toggle="yes">n</italic> = 6, <italic toggle="yes">p</italic> &lt;
+2×10<sup>−3</sup>; <xref rid="F3" ref-type="fig">Figure 3</xref>).
+It was also found that catechol-based fragments, which contained no endocyclic
+heteroatoms (e.g., <bold>7</bold>), were far less active than the parent pyrone or
+pyridinone fragments in spite of their high ligand basicity. Compound <bold>7</bold>
+is likely too basic to fully deprotonate at physiological pH
+(p<italic toggle="yes">K</italic><sub>a</sub> ∼9.8, 14.3 calculated;<sup><xref rid="R33" ref-type="bibr">33</xref></sup> p<italic toggle="yes">K</italic><sub>a</sub> =
+10.30, 13.48 reported)<sup><xref rid="R35" ref-type="bibr">35</xref></sup> and hence
+may be unable to efficiently coordinate to the metal centers in the PA<sub>N</sub>
+active site. Compound <bold>7</bold> also ultimately coordinates as a trianionic
+species, as opposed to the other MBPs in <xref rid="T2" ref-type="table">Table
+2</xref>, which all coordinate as dianions.<sup><xref rid="R19" ref-type="bibr">19</xref></sup> This difference in overall charge of the final coordination
+complex (−2 vs −1) is substantial, and the vast disparity in activity
+between compounds <bold>7</bold> and <bold>1</bold> may also be attributed to the
+formation of a highly anionic coordination center.</p><p id="P14">While hydroxypyridine and hydroxypyrimidine MBP scaffolds have been explored
+as inhibitors of endonucleases,<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R19" ref-type="bibr">19</xref>,<xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R22" ref-type="bibr">22</xref></sup> no systematic
+study of the effects of their stereoelectronic differences on enzymatic inhibition
+has been performed previously. Surprisingly, the subtle differences in the
+electronic character of these structurally analogous MBPs has been shown to have a
+substantial impact on inhibitory activity. Similar relationships between small
+changes in ligand electronics and inhibitory activity have likewise not been well
+explored in other metalloenzyme systems;<sup><xref rid="R30" ref-type="bibr">30</xref></sup> however, this new evidence would suggest that the
+exploration of such relationships would be extremely valuable in the development of
+metalloenzyme inhibitors.</p><p id="P15">Despite high structural similarity, a peculiar disparity in inhibitory
+activity was observed between several highly active MBPs (i.e., <bold>1</bold>,
+<bold>3</bold>, <bold>17</bold>, <bold>18</bold>) and compound <bold>2</bold>.
+Compounds <bold>1</bold> and <bold>2</bold> are structurally nearly identical (the
+only difference is the position of the carboxylate moiety), but display a
+∼100-fold difference in activity. A potential explanation is the steric
+pressure exerted on the carboxylic acid moiety by the
+<italic toggle="yes">α</italic>-methyl group of <bold>2</bold>, which precludes an ideal
+coordination geometry. The difference in bridging atom type (phenolic vs. carbonyl
+oxygen) could also be an underlying reason for the disparity in activity, as has
+been previously suggested for related inhibitor molecules in HIV integrase (HIV
+IN).<sup><xref rid="R30" ref-type="bibr">30</xref></sup> Structural
+determination using X-ray crystallography showed that <bold>1</bold> and
+<bold>2</bold> shared a similar mode of binding, except the electron density
+corresponding to the carboxylic acid moiety of compound <bold>2</bold> is diffuse
+above that of the Mn-2 metal ion (<xref rid="F2" ref-type="fig">Figure 2</xref>).
+This suggests that the carboxylic acid does not coordinate to the metal center with
+a preferred orientation, is not co-planar with the aromatic ring, and only makes
+weak ionic interactions with the Mn-2 metal ion. To further evaluate this effect,
+compound <bold>20</bold> was synthesized (<xref rid="T3" ref-type="table">Table
+3</xref>). Comparison of <bold>17</bold> and <bold>20</bold> shows a similar,
+∼200-fold difference in activity as observed with compounds <bold>1</bold>
+and <bold>2</bold> giving evidence that steric pressure by a proximal methyl group
+is a central cause of the dramatic decrease in activity. To ensure that the
+disparity did not arise from a steric clash that was not observed
+crystallographically, compound <bold>21</bold> was synthesized. Compound
+<bold>21</bold> should exert the same steric pressure on any active site protein
+residue or water network as compound <bold>20</bold>, but can also stabilize the
+carboxylic acid moiety in the proper orientation for metal binding through an
+intramolecular hydrogen bond. Compound <bold>21</bold> was found to exhibit activity
+similar to compounds <bold>1</bold> and <bold>17</bold>. These data suggest that
+intramolecular steric pressure on coordinating moieties can cause dramatic
+differences in the ability of MBP ligands to effectively coordinate active site
+metal centers. Thus, care must be taken during structural elaboration of MBP leads
+that employ coordinating carboxylic acid moieties to prevent inadvertent
+perturbations to the desired modes of metal coordination. Despite the very strong
+binding enthalpy of coordination bonds, dative interactions are highly dependent on
+proper bond angle and orientation.<sup><xref rid="R36" ref-type="bibr">36</xref></sup></p><p id="P16">Donor atom identity was also found to play a key role in MBP activity
+against PA<sub>N</sub> endonuclease. A small comparison of MBP fragments with
+similar structures, but different donor atom sets, is detailed in <xref rid="T3" ref-type="table">Table 3</xref>. It was found that oxygen donor atoms were
+preferred to sulfur donor atoms, with compound <bold>22</bold> displaying a 10-fold
+decrease in activity relative to <bold>1</bold>. This trend is consistent with a
+hard-soft theory of Lewis acids and bases, where hard Mg<sup>2+</sup> or
+Mn<sup>2+</sup> Lewis acid metal centers are expected to form a more stable
+complexes with harder Lewis base oxygen donor atoms.<sup><xref rid="R37" ref-type="bibr">37</xref></sup> Some MBPs containing nitrogen donor atoms
+were found to exhibit good activity against endonuclease (<bold>14</bold>), but only
+compounds containing borderline hard-soft Lewis basic pyridine-like aryl nitrogen
+atoms as the coordinating atom were found to be active. Compounds containing softer
+Lewis basic alkyl or aniline donor nitrogen atoms were found to have very little
+inhibitory activity against endonuclease. For example, <bold>23</bold>
+(IC<sub>50</sub> &gt;200μM, <xref rid="T3" ref-type="table">Table
+3</xref>) was found to be a very poor inhibitor of PA<sub>N</sub>. While these
+trends are not unexpected based on principles of inorganic chemistry, such
+structural relationships are not often explored, optimized, or reported during the
+development of metalloenzyme inhibitors, despite the clear effect of incorporating
+the correct donor atom type on improving inhibition values.</p><p id="P17">Conversion of the coordinating carboxylic acid to N-H or N-alkyl amides was
+found to greatly impair inhibitory activity (<bold>24</bold>, <bold>25</bold>)
+compared to the carboxylic acid (<xref rid="T3" ref-type="table">Table 3</xref>).
+This trend was observed with all acid-to-amide conversions, regardless of the
+activity of the parent compound (e.g., <bold>18</bold>, <bold>26</bold>). This
+transformation does not preclude metal coordination nor cause a conformational
+change in mode of binding; however, it does greatly alter the electronics of the
+coordinating moiety and the overall charge of the resulting coordination complex.
+This change to the electronic character of the coordinating carboxylate is presumed
+to be the underlying cause for the observed decrease in activity. This trend stands
+in contrast to that observed in HIV IN. Structurally related hydroxypyridinone and
+hydroxypyrimidinone inhibitors of HIV IN with good inhibitory activity have been
+reported that contain both carboxylic acid and amide metalcoordinating groups, and
+the inclusion of a metal-coordinating 4-fluorobenzyl amide is a characteristic motif
+found in many HIV IN inhibitors including the FDA-approved inhibitors raltegravir
+and dolutegravir.<sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R30" ref-type="bibr">30</xref></sup> However, it should be noted that this
+4-fluorobenzyl amide group also makes key interactions with active site nucleotides,
+and these favorable interactions may compensate for any potential loss in binding
+enthalpy from less favorable metal binding.</p><p id="P18">Isosteric replacement is a common practice in medicinal chemistry to improve
+activity or overcome pharmacokinetic liabilities of specific functional groups, such
+as carboxylic acids.<sup><xref rid="R38" ref-type="bibr">38</xref></sup> The effects
+of isosteric replacement in metalloenzyme inhibitors have not been widely
+studied.<sup><xref rid="R39" ref-type="bibr">39</xref></sup> To further
+probe the carboxylic acid moiety, a small series of hydroxypyrone and
+hydroxypyridinone core scaffolds containing carboxylic acid isosteres were
+synthesized.<sup><xref rid="R40" ref-type="bibr">40</xref></sup> Compound
+<bold>27</bold> maintains an acidic tetrazole coordinating functional group and
+was found to have activity (IC<sub>50</sub> = 37 nM) similar to that of
+<bold>1</bold>. However, structurally similar compounds that were less acidic,
+such as amides <bold>24</bold> and <bold>25</bold>, or azoles <bold>29</bold> and
+<bold>30</bold> (<xref rid="T3" ref-type="table">Table 3</xref>), were all found
+to be between 10- and 100-fold less active. Interestingly, the structurally similar
+but overall basic <italic toggle="yes">N</italic>-hydroxy amidine <bold>28</bold>
+(IC<sub>50</sub> = 19 μM) was found to be substantially less active than
+all related isosteres, indicating a strong preference for acidic coordinating
+ligands in the PA<sub>N</sub> metal active site.</p><p id="P19">To illustrate the utility of a bioinorganic approach to SAR in the
+development of metalloenzyme inhibitors, we applied the obtained SAR to the
+development of other, chemically distinct PA<sub>N</sub> inhibitors. to highlight
+the applicability of a bioinorganic-guided inhibitor development paradigm beyond
+single targets or single chemotypes. The obtained SAR suggests that a tri-oxo,
+dianionic MBP that is aromatic and somewhat electron rich should be an ideal ligand
+for the PA<sub>N</sub> metal centers. With this information, we were able to
+synthesize an unrelated MBP, <italic toggle="yes">α</italic>-hydroxytropolone
+(<bold>32</bold>), that matches the proposed SAR, but is chemically distinct
+from <bold>1</bold> or <bold>17</bold>. Indeed, <bold>32</bold> was found to inhibit
+PA<sub>N</sub> with an exceptional IC<sub>50</sub> value of 11 nM (<xref rid="T3" ref-type="table">Table 3</xref>). Hydroxytropolone compounds
+<bold>32</bold> and <bold>33</bold> share similar ligand basicity as compound
+<bold>17</bold> despite belonging to a distinct chemotype. The calculated
+p<italic toggle="yes">K</italic><sub>a</sub> of the phenolic oxygens of <bold>32</bold> are
+∼10.1 and ∼12.7,<sup><xref rid="R33" ref-type="bibr">33</xref></sup>
+respectively, and the calculated p<italic toggle="yes">K</italic><sub>a</sub> of the phenolic
+oxygens of <bold>33</bold> are ∼9.8 and ∼11.9,<sup><xref rid="R33" ref-type="bibr">33</xref></sup> respectively, compared to the phenolic
+oxygen of <bold>17</bold> (p<italic toggle="yes">K</italic><sub>a</sub> = ∼11.2). The
+calculated p<italic toggle="yes">K</italic><sub>a</sub> values of these compounds compared to
+their inhibitory activity are consistent with the trends observed with pyridinone
+carboxylate MPB inhibitors detailed in <xref rid="T2" ref-type="table">Table
+2</xref> and <xref rid="F3" ref-type="fig">Figure 3</xref>, with relatively
+basic and electron rich donor oxygen atoms that result in exceptional inhibitory
+activity.</p><p id="P20">As compared to compounds <bold>1</bold> or <bold>17</bold>, compound
+<bold>32</bold> is more rigid, in terms of metal-coordinating atoms; in
+compounds <bold>1</bold> or <bold>17,</bold> the coordinating carboxylic acid moiety
+can rotate whereas in <bold>32,</bold> the three coordinating oxygen atoms are
+geometrically constrained in the proper orientation for metal binding. The improved
+activity of <bold>32</bold> over <bold>1</bold> or <bold>17</bold> is likely due in
+part to the added rigidity of this MBP’s pre-organized binding pose for the
+two active site metal ions. The overall ligand geometry (i.e., two 5-membered
+chelate rings), which is likely mimetic of the shape and charge of the 5-membered
+phosphate ester transition state intermediate, may also explain the observed
+increase in inhibitory activity. It is also worth noting that
+<italic toggle="yes">α</italic>-hydroxytropolone derivatives have been identified as
+inhibitors of other dinuclear DNA/RNA processing metalloenzymes, such as HIV IN and
+HIV RNaseH.<sup><xref rid="R41" ref-type="bibr">41</xref></sup> However, simple
+<italic toggle="yes">α</italic>-hydroxytropolone derivatives were shown to have 100-
+to 1000-fold less inhibitory activity against HIV IN or RNaseH than compound
+<bold>32</bold> displayed against PA<sub>N</sub>,<sup><xref rid="R41" ref-type="bibr">41</xref></sup> highlighting that even similar
+metalloenzymes can display very specific ligand preferences and that ligand
+selectivity can be engineered into MBPs. Further analysis of several MBPs that share
+a similar chemotype with <bold>32</bold> indicate that the electronic, as opposed to
+steric, aspects of this compound are responsible for its very high activity.
+<italic toggle="yes">N</italic>-Hydroxyphthalamide (<bold>16</bold>), which possesses a
+similar donor triad, but is mono-anionic and more acidic, and pyrogallol
+(<bold>31</bold>), which also possesses a similar donor triad, but is trianionic
+and more basic, are both significantly less active than <bold>32</bold>. Consistent
+with this SAR, gallic acid (<bold>9</bold>), was found to be much less active than
+the analogous <italic toggle="yes">α</italic>-hydroxytropolone compound <bold>33</bold>.
+The structure of <bold>33</bold> bound to PA<sub>N</sub> (<xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>) shows that the ligand binds
+to the active site as a bridging multidentate ligand, with the central carbonyl
+oxygen acting as a bridging atom and both hydroxyl moieties replacing the
+coordinating water molecules observed in the native structure. This binding mode is
+analogous to compounds such as <bold>1</bold>. The carboxylic acid moiety of
+<bold>33</bold> was not observed to engage in any protein or water network
+interactions at the resolutions obtained, and the high inhibitory activity is
+attributed to the optimized metal coordination. The identification of this novel
+inhibitor scaffold demonstrates that metal-centric SAR is useful for predictive
+development of metalloenzyme inhibitors and that similar analysis can be broadly
+applicable for any metalloenzyme inhibitor development.</p><p id="P21">Finally, to validate the activity and selectivity of these highly active MBP
+inhibitors, cell-based antiviral activity assays and metalloenzyme cross-inhibition
+screens were performed.<sup><xref rid="R42" ref-type="bibr">42</xref></sup> A subset
+of the MBP (compounds <bold>1, 3, 17, 18, 22, 27, 32,</bold> and <bold>33</bold>)
+were examined, which showed little antiviral activity in cell-based assays (<xref rid="SD1" ref-type="supplementary-material">Supporting Information; Figures S2
+and S3</xref>), likely due to their high ionizability and low molecular
+weight.<sup><xref rid="R43" ref-type="bibr">43</xref>,<xref rid="R44" ref-type="bibr">44</xref></sup> This result is not unexpected for these MBP
+fragments, which are intended as core scaffolds in FBDD for fragment growth efforts
+to achieve more complete inhibitors that can display cellular activity and
+drug-likeness. A crossinhibition screen of compound <bold>1</bold> was performed as
+a representative example of the series (<xref rid="SD1" ref-type="supplementary-material">Table S1</xref>). Compound <bold>1</bold> was
+screened against eight other relevant metalloenzymes, specifically: HIV IN, human
+carbonic anhydrase II, MMP-2, human glyoxalyase 1, NDM-1, HDAC-6, human arginase 1,
+and human methionine aminopeptidase 1. At a concentration of 200 μM, no
+substantial cross-inhibition was observed with <bold>1</bold>, even against other
+dinuclear metalloenzymes, such as NDM1 (Zn<sup>2+</sup>), human arginase 1
+(Mn<sup>2+</sup>), human methionine aminopeptidase 1 (Mn<sup>2+</sup>), and HIV
+integrase (Mg<sup>2+</sup>).<sup><xref rid="R30" ref-type="bibr">30</xref></sup>
+Despite the small size of these fragment molecules, which increases the likelihood
+of off-target binding, optimized PA<sub>N</sub> inhibitors were found to display
+surprising good selectivity. The strong preference that this chemotype displays for
+PA<sub>N</sub> endonuclease over other metalloenzymes is evidence that target
+selectivity can be effectively engineered into MBP fragments by optimization for the
+specific coordination environment of a target metalloenzyme. This finding is
+corroborated by other work investigating metalloenzyme inhibitor
+selectivity,<sup><xref rid="R45" ref-type="bibr">45</xref>,<xref rid="R46" ref-type="bibr">46</xref></sup> and stands in contrast to the widely held
+belief that MBP-containing compounds are intrinsically promiscuous. The data herein
+clearly suggest that the dogma that metal-coordinating metalloenzyme inhibitors may
+not be sufficiently selective over off-target metalloenzymes is not well
+substantiated.</p><p id="P22">To further illustrate that target selectivity can be engineered by MBP
+optimization, isologues of <bold>1</bold> were screened against the related
+dinuclear metalloenzymes human arginase 1 (Arg1), human methionine aminopeptidase 1
+(MetAP1), and NDM-1 (<xref rid="T4" ref-type="table">Table 4</xref>). A total of 25
+structurally related MBPs were screened against these three enzymes (200 μM
+MBP concentration) and PA<sub>N</sub> endonuclease (500 nM MBP concentration). Clear
+and distinct ligand preferences for each metalloenzyme are readily apparent (<xref rid="T4" ref-type="table">Table 4</xref>), despite the high degree of structural
+similarity between these fragments. This highlights the effects of varied ligand
+electronics on selectivity profiles in different metalloenzyme systems. Additional
+analysis shows that trends in donor atom preference remain, with compound
+<bold>22</bold> (which contains a sulfur donor atom) showing the expected
+preference for the soft Zn<sup>2+</sup> metal centers of NDM-1 over the hard
+Mn<sup>2+</sup> of Arg1 and MetAP1. Arg1 also clearly shows a preference for
+more highly basic MBP ligands, such as <bold>7</bold> and <bold>28</bold>, which
+stands in contrast to the preferences displayed by PA<sub>N</sub>, despite both
+metalloenzymes employing dinuclear Mn<sup>2+</sup> centers. These data further
+substantiate the hypothesis that activity and selectivity can both be achieved
+through proper optimization of metalligand interactions.</p><p id="P23">The results obtained in this SAR campaign indicate that both steric and
+electronic ligand effects must be explored to optimize MBP inhibitory activity for a
+given metalloenzyme microenvironment and that different metalloenzymes will exhibit
+different electronic and steric preferences at their active site. It was also found
+that small chemical modifications that might otherwise be considered innocuous in
+conventional inhibitor design (e.g., the position of a nonhydrogen bonding nitrogen
+atom in an aryl ring) were found to have a substantial effect on metal coordination
+and hence the overall activity of a MBP. These findings suggests that a more
+expanded view of which factors directly influence activity is absolutely necessary
+when developing and optimizing inhibitors of metalloenzymes as opposed to other
+classes of targets.</p></sec><sec id="S3"><title>Conclusions</title><p id="P24">Based on the results described herein, SAR for metalloenzyme inhibitor
+development is useful for inhibitors that directly interact with active site metal
+ions. As opposed to probing primarily steric effects when preforming SAR analysis,
+the effects of modulating ligand electronics on metal coordination must also be
+considered. Upon metal binding, an MBP forms a coordination complex, which will
+display preferences for certain ligand interactions (like any inorganic coordination
+complex).<sup><xref rid="R47" ref-type="bibr">47</xref>–<xref rid="R49" ref-type="bibr">49</xref></sup> In the field of metalloenzyme
+inhibitor development, this scenario has often been overlooked, due in part to a
+long-standing focus on perceived ‘privileged’ scaffolds such as
+hydroxamic acids,<sup><xref rid="R4" ref-type="bibr">4</xref></sup> but also because
+principles of inorganic chemistry are often not considered during development.
+Nevertheless, these design principles can be readily applied to the development of
+metalloenzyme inhibitors to afford selectivity and activity, even at the fragment
+level (i.e., before hit-to-lead development). In this report, we have demonstrated
+that consideration of SAR derived from MBP electronic effects can have substantial
+impact on optimizing both activity and selectivity of metalloenzyme inhibitor
+fragments. As shown by this MBP-FBDD approach, expanding the toolkit used by
+chemists working on metalloenzyme inhibitor development will allow for improved
+progress toward highly active and selective inhibitors and may help to overcome the
+barriers that have limited the clinical success of this class of drug target.</p><sec id="S4"><title>Experimental Section:</title><sec id="S5"><title>General Experimental Details.</title><p id="P25">All reagents and solvents were obtained from commercial sources and
+used without further purification. All reactions, unless otherwise stated,
+were done under nitrogen atmosphere. Reactions were monitored using
+glass-backed silica TLC plates impregnated with a fluorescent indicator,
+absorbing at 254 nm. Silica gel column chromatography was performed on a
+CombiFlash Rf Teledyne ISCO system using hexane, ethyl acetate, methylene
+chloride, or methanol as eluent. Reverse phase column chromatography (C18
+column) was performed on the same instrument using 0.1% formic acid in
+methanol, acetonitrile, or water as eluent. Separations were monitored by
+mass spectrometry via a Teledyne ISCO RF<sup>+</sup> PurIon ESIMS or APCI-MS
+detector with 1 Da resolution. <sup>1</sup>H and NMR spectra were obtained
+on a Varian (400 MHz) spectrometers in the Department of Chemistry and
+Biochemistry at U.C. San Diego. The purity of all compounds used in assays
+was determined to be ≥95% by HPLC-MS analysis. Standard resolution MS
+was performed either at U.C. San Diego Molecular Mass Spectrometry Facility
+or on the aforementioned Teledyne ISCO RF<sup>+</sup> PurIon MS. HRMS
+analysis was performed using an Agilent 6230 Accurate-Mass LC-TOFMS located
+at the U.C. San Diego Molecular Mass Spectrometry Facility. Compounds
+<bold>4–5</bold>, <bold>7–14</bold>, <bold>16</bold>,
+<bold>19</bold>, <bold>23</bold>, <bold>31</bold>, and <bold>34</bold>
+were obtained from commercial suppliers. Compounds <bold>1</bold>,<sup><xref rid="R50" ref-type="bibr">50</xref></sup>
+<bold>2</bold>,<sup><xref rid="R51" ref-type="bibr">51</xref></sup>
+<bold>3</bold>,<sup><xref rid="R6" ref-type="bibr">6</xref></sup>
+<bold>15</bold>,<sup><xref rid="R6" ref-type="bibr">6</xref></sup>
+<bold>32</bold>,<sup><xref rid="R52" ref-type="bibr">52</xref></sup> and
+<bold>33</bold><sup><xref rid="R53" ref-type="bibr">53</xref></sup> were
+previously reported. Xray diffraction data for co-crystal structures were
+collected either on an in-house Bruker X8 Proteum diffractometer at 100 K,
+using a Bruker Microfocus Rotating Anode (MicroSar FR-592) X-ray generator
+with a Bruker APEX II CCD detector at wavelength 1.54178 Ǻ (compound
+<bold>2</bold>), or ALS 5.0.1 beamline using a single-crystal,
+cylindrically bent, Si(220) monochromator set to a wavelength of 0.977
+Ǻ with a Pilatus 6M 25 Hz detector (compounds <bold>1</bold>,
+<bold>33</bold>), or at ALS 5.0.2 beamline using a double-crystal
+Si(111) monochromator set to a wavelength of 1.00 Ǻ with a Pilatus3
+6M 25 Hz detector (compound <bold>2</bold>). Statistics for data collection
+and refinement of the Xray crystal structures are listed in <xref rid="SD1" ref-type="supplementary-material">Table S2</xref> and discussed in the
+supporting information.</p></sec><sec id="S6"><title>Synthesis of Compounds 1, 17, and 33.</title><p id="P26">The chemical synthesis of the most active reported pyrone,
+pyridinone, and α-hydroxytropolone MBP molecules is described in
+<xref rid="F4" ref-type="fig">Scheme 1</xref>. Full synthetic details of
+all other reported molecules is described in the Supporting Information.</p></sec><sec id="S7"><title>Allomaltol.</title><p id="P27">Kojic chloride (<bold>35</bold>) (10 g, 62.3 mmol) and water (75 mL)
+were stirred at 40 °C. Zinc dust (8.14 g, 125 mmol) was added and the
+reaction was stirred vigorously and heated to 60 °C. Concentrated HCl
+(15.4 mL, 187 mmol) was added dropwise via an addition funnel over
+∼30 min. Effervescing hydrogen gas was observed. The slurry was left
+to stir for 2–3 h after HCl addition was complete, at which time the
+excess zinc was removed from the pale green reaction by hot filtration. The
+filtrate was adjusted to pH 1 and extracted with
+CH<sub>2</sub>Cl<sub>2</sub> 3×50 mL. The extracts were dried
+over magnesium sulfate and concentrated under vacuum, and the product was
+isolated by silica chromatography in 85% yield. <sup>1</sup>H NMR (400 MHz,
+Acetone-<italic toggle="yes">d</italic><sub>6</sub>): <italic toggle="yes">δ</italic> 7.82
+(s, 1H), 6.21 (s, 1H), 2.28 (d, <italic toggle="yes">J</italic> = 0.5 Hz, 3H). ESI-MS
+Experimental: 125.22. Calculated for
+[C<sub>6</sub>H<sub>5</sub>O<sub>3</sub>]<sup>-</sup>: 125.03</p></sec><sec id="S8"><title>3-Hydroxy-6-methyl-4-oxo-4H-pyran-2-carboxylic acid (1).</title><p id="P28">Compound <bold>37</bold> was taken up in a 5:5:1 mixture of
+concentrated HCl:HOAc:TFA and was stirred at room temperature for 48 h.
+After this time, acids were removed under high vacuum, the resultant solids
+were co-evaporated several times with methanol. The remaining solids were
+then purified by C18 chromatography eluting in a water/methanol system to
+yield the target compound as a white solid in 93 % yield. <sup>1</sup>H NMR
+(400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>): <italic toggle="yes">δ</italic>
+6.34 (s, 1H), 2.28 (s, 3H). <sup>13</sup>C NMR (126 MHz,
+DMSO-<italic toggle="yes">d</italic><sub>6</sub>): <italic toggle="yes">δ</italic> 174.66
+(s), 166.15 (s), 164.07 (s), 149.36 (s), 135.69 (s), 112.39 (s), 20.07 (d,
+<italic toggle="yes">J</italic> = 4.3 Hz). HR-ESI-MS Experimental: 169.0141.
+Calculated for [C<sub>7</sub>H<sub>5</sub>O<sub>5</sub>]<sup>-</sup>:
+169.0142. Δ = −0.6 ppm.</p></sec><sec id="S9"><title>3-Hydroxy-6-methyl-4-oxo-1,4-dihydropyridine-2-carboxylic acid
+(17).</title><p id="P29">Compound <bold>38</bold> was taken up in a 5:5:1 mixture of
+concentrated HCl:HOAc:TFA and was stirred at room temperature for 48 h.
+Acids were then removed under high vacuum, and the resultant solids were
+co-evaporated several times with methanol. The remaining solids were then
+purified by C18 chromatography eluting in a water/methanol system to yield
+the target compound as a white solid in 74 % yield. <sup>1</sup>H NMR (400
+MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>): <italic toggle="yes">δ</italic> 6.92
+(s, 1H), 2.48 – 2.38 (m, 3H). <sup>13</sup>C NMR (126 MHz,
+DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 174.66
+(s), 166.15 (s), 164.07 (s), 149.36 (s), 135.69 (s), 112.39 (s), 20.07 (d,
+<italic toggle="yes">J</italic> = 4.3 Hz). HR-ESI-MS Experimental: 168.0302.
+Calculated for [C<sub>7</sub>H<sub>6</sub>NO<sub>4</sub>]<sup>-</sup>:
+168.0302. Δ = 0.0 ppm.</p></sec><sec id="S10"><title>5-Methyl-2,7-dihydroxytropolone-4-carboxylic acid (33).</title><p id="P30">Compound <bold>41</bold> (200 mg, 0.84 mmol) was taken up in a 1:1
+mixture of acetic acid and 50% HBr (15 mL) and was heated to 95 °C
+for 6–8 h. After this time, solvent was removed under high vacuum and
+the residual solids were purified by reverse phase chromatography to afford
+<bold>33</bold> in 56% yield. <sup>1</sup>H NMR (400 MHz,
+CD<sub>3</sub>OD): <italic toggle="yes">δ</italic> 7.62 (s, 1H), 7.44 (s, 1H),
+2.53 (s, 3H). <sup>13</sup>C NMR (126 MHz,
+DMSO-<italic toggle="yes">d</italic><sub>6</sub>): <italic toggle="yes">δ</italic> 170.69
+(s), 169.02 (s), 160.40 (s), 157.70 (s), 138.08 (s), 132.49 (s), 124.22 (s),
+119.76 (s), 25.11 (s). HR-ESI-MS Experimental: 195.0298. Calculated for
+[C<sub>9</sub>H<sub>7</sub>O<sub>5</sub>]<sup>-</sup>: 195.0299.
+Δ = −0.5 ppm.</p></sec><sec id="S11"><title>Kojic chloride (35).</title><p id="P31">To a rapidly stirring suspension of kojic acid (<bold>34</bold>) (10
+g, 70.4 mmol) in DCM (250 ml) at room temperature was added thionyl chloride
+(5.9 mL, 81 mmol), dropwise over the course of 25 min. Throughout the
+addition, the suspension tends to clump. When clumping occurred, the
+addition was paused to allow the solution to return to homogeneity. After 4
+h of stirring, the suspension was filtered, and the solids were
+recrystallized from ethanol to afford kojic chloride as white needles in 91%
+yield. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>):
+<italic toggle="yes">δ</italic> 8.12 (s, 1H), 6.56 (s, 1H), 4.65 (s, 2H).
+ESI-MS Experimental: 159.14. Calculated for
+[C<sub>6</sub>H<sub>6</sub>ClO<sub>3</sub>]<sup>+</sup>: 159.99</p></sec><sec id="S12"><title>3-(Benzyloxy)-2-(hydroxymethyl)-6-methyl-4H-pyran-4-one (36).</title><p id="P32">Allomaltol (1.26 g, 10 mmol) was added to a solution of NaOH (0.44
+g, 11 mmol) in water (60 mL) and the mixture was cooled to 0 °C.
+Formaldehyde (37%, 0.83 mL, 11.1 mmol) was added dropwise maintaining the
+solution temperature at ∼0 °C. The mixture was stirred and
+allowed to warm to room temperature after addition of formaldehyde. A solid
+began to appear after 1.5 h, and methanol (30 mL) was added to solubilize
+the solids and the mixture was left stirring 18 h. The reaction was then
+heated to 40 °C and benzyl bromide (1.3 ml, 10.9 mmol) and
+tetra-<italic toggle="yes">N</italic>-butylammonium chloride (TABCl) (0.069 g, 0.25
+mmol) were added and the reaction was heated to reflux for 3.5 h. The
+reaction mixture was then cooled and the pH of the solution adjusted to
+pH=1. A solution of sodium hydroxide (0.25 g) in 10 mL water was added.
+Benzyl bromide (0.200 mL) was added and the mixture was heated to reflux for
+1.5 h and was then cooled to room temperature and methanol was removed by
+evaporation under vacuum. The mixture was then extracted with
+CH<sub>2</sub>Cl<sub>2</sub> 3×100 mL. The
+CH<sub>2</sub>Cl<sub>2</sub> layer was washed with brine and dried over
+magnesium sulfate and evaporated yielding a red oil, which was purified by
+column chromatography to isolate the product in 61% yield. <sup>1</sup>H NMR
+(400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>): <italic toggle="yes">δ</italic>
+7.48 – 7.19 (m, 5H), 6.24 (s, 1H), 5.43 (t, <italic toggle="yes">J</italic> = 6.0
+Hz, 1H), 4.98 (s, 2H), 4.23 (d, <italic toggle="yes">J</italic> = 6.0 Hz, 2H), 2.24 (s,
+3H). ESI-MS Experimental: 247.27. Calculated for
+[C<sub>14</sub>H<sub>15</sub>O<sub>4</sub>]<sup>+</sup>: 247.09</p></sec><sec id="S13"><title>3-(Benzyloxy)-6-methyl-4-oxo-4H-pyran-2-carboxylic acid (37).</title><p id="P33">3-(Benzyloxy)-2-(hydroxymethyl)-6-methyl-4H-pyran-4-one
+(<bold>36</bold>) (1.25 g, 5.08 mmol) was dissolved in
+CH<sub>2</sub>Cl<sub>2</sub> (60 ml) and stirred. A solution of sodium
+bicarbonate (1.83 g, 21.8 mmol) and KI (0.084 g, 0.508 mmol) in water (60
+mL) was added and the mixture was cooled in an ice bath to 0 °C.
+TEMPO (0.012 g, 0.076 mmol) and TABCl (0.056 g, 0.203 mmol) were added.
+Sodium hypochlorite (14.7 mL, 11.2 mmol) was added dropwise, in three
+portions, maintaining the internal temperature of the reaction below
+7° C. After each portion, the pH was measured and 10%
+NaCO<sub>3</sub>H solution was added after each portion to maintain
+basic pH. Before the final portion of hypochlorite was added, a half weight
+of TEMPO and KI were added, followed by CH<sub>2</sub>Cl<sub>2</sub> (15
+mL). The reaction was stirred at ice bath temperatures for one hour (3 h
+total reaction time). The reaction mixture was then filtered and the
+filtrate was transferred to a separatory funnel where the resultant two
+layers were separated. The aqueous layer was mixed with a sodium thiosulfate
+solution to remove excess hypochlorite and was placed under reduced pressure
+for 5 min to remove residual organic solvent. The solution was then cooled
+in an ice-bath with rapid stirring, and concentrated HCl was added until the
+pH reached ∼1. An insoluble white solid appeared and was isolated by
+filtration to afford the product in 73% yield. <sup>1</sup>H NMR (400 MHz,
+DMSO-<italic toggle="yes">d</italic><sub>6</sub>): <italic toggle="yes">δ</italic> 7.42 (d,
+<italic toggle="yes">J</italic> = 7.3 Hz, 2H), 7.33 (ddd, <italic toggle="yes">J</italic> = 9.4,
+7.5, 3.7 Hz, 3H), 6.39 (s, 1H), 5.08 (s, 2H), 2.27 (s, 3H). ESI-MS
+Experimental: 259.48. Calculated for
+[C<sub>14</sub>H<sub>11</sub>O<sub>5</sub>]<sup>−</sup>:
+259.07.</p></sec><sec id="S14"><title>3-(Benzyloxy)-6-methyl-4-oxo-1,4-dihydropyridine-2-carboxylic acid
+(38).</title><p id="P34">3-(Benzyloxy)-6-methyl-4-oxo-4H-pyran-2-carboxylic acid
+(<bold>37</bold>) (200 mg, 0.77 mmol) was taken up in a 1:1 mixture of
+water (10 mL) and methanol (10 mL) in a sealable vessel. Ammonium hydroxide
+(30%) (328 μL, 2.3 mmol) was added and the vessel was sealed and
+heated to 75 °C for 18–24 h. The reaction was then cooled and
+concentrated under vacuum, diluted with 1M HCl, and concentrated under
+vacuum to remove ammonium salts, and the resultant solids were purified by
+C18 column chromatography utilizing a MeOH/water system to afford
+3-(benzyloxy)-6-methyl-4-oxo-1,4dihydropyridine-2-carboxylic acid (122 mg,
+0.47 mmol, 69% yield) as a white powder. <sup>1</sup>H NMR (400 MHz,
+CD<sub>3</sub>OD): <italic toggle="yes">δ</italic> 7.45 (t, <italic toggle="yes">J</italic>
+= 5.6 Hz, 4H), 7.31 (dd, <italic toggle="yes">J</italic> = 15.9, 6.3 Hz, 8H), 5.18 (s,
+4H), 2.62 (s, 5H). ESI-MS Experimental: 259.66 Calculated for
+[C<sub>14</sub>H<sub>14</sub>NO<sub>4</sub>]<sup>+</sup>: 259.27.</p></sec><sec id="S15"><title>5-Hydroxy-4-methoxy-2-methylpyrylium trifluoromethanesulfonate
+(39).</title><p id="P35">Allomaltol (5.4 g, 42.8 mmol) was stirred in a mixture of
+CH<sub>2</sub>Cl<sub>2</sub> (10 ml) and chloroform (30.0 ml). To the
+mixture was slowly added fresh methyl trifluoromethansulfonate (7.1 mL, 64.2
+mmol). The reaction mixture was then heated to reflux and vigorously
+stirred. <italic toggle="yes">Note</italic>: the reaction mixture may form two layers at
+lower temperatures. The mixture was heated to reflux for 18 h and the
+reaction progress was monitored by TLC (5% MeOH in
+CH<sub>2</sub>Cl<sub>2</sub>) and stained with Iron chloride. Iron test
+alone can give false negatives for reaction progress as some residual
+allomaltol always remains unreacted and the free phenol of the product
+stains at high concentrations. After ∼18 h the reaction mixture was
+cooled and evaporated to dryness under high vacuum to remove solvent and
+residual methyl triflate. The resultant dark oil was then taken up in
+minimal ethyl acetate and was heated to dissolve residual solids. The
+mixture was then cooled to −20 °C for 4 h to allow for
+crystallization. White needle-like crystals were isolated by filtration and
+a second crop of crystals were isolated by the same method from concentrated
+mother liquor. Drying the isolate white crystals afforded
+5-hydroxy-4-methoxy-2-methylpyrylium triflate (9.4 g, 32.4 mmol, 76% yield).
+<sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>):
+<italic toggle="yes">δ</italic> 8.99 (s, 1H), 7.91 (s, 1H), 4.25 (s, 3H), 2.73
+(s, 3H). ESI-MS Experimental: 141.45. Calculated for
+[C<sub>7</sub>H<sub>9</sub>O<sub>3</sub>]<sup>+</sup>: 141.05.</p></sec><sec id="S16"><title>Ethyl
+3-methoxy-5-methyl-2-oxo-8-oxabicyclo[3.2.1]octa-3,6-diene-6-carboxylate
+(40).</title><p id="P36">Compound <bold>39</bold> (250 mg, 0.861 mmol) was added to
+chloroform (1 mL) in a 10 mL microwave vessel. To the mixture was added
+ethyl propiolate (0.61 mL, 6.03 mmol) followed by TEA (0.181 mL, 1.03 mmol).
+The mixture was stirred briefly, sealed, and then heated in the microwave
+reactor at 125 °C for 25 min with stirring. Upon completion, the
+crude mixture was evaporated under high vacuum to remove ethyl propiolate
+and purified by silica chromatography employing a stepwise gradient from 6%
+to 12% ethyl acetate in hexanes, affording the titled product in 67% yield
+(130 mg, 0.546 mmol) as a light-yellow solid. <sup>1</sup>H NMR (400 MHz,
+CDCl<sub>3</sub>) <italic toggle="yes">δ</italic> 7.08 (d, <italic toggle="yes">J</italic>
+= 2.5 Hz, 1H), 6.08 (s, 1H), 5.01 (dd, <italic toggle="yes">J</italic> = 2.5, 0.5 Hz,
+1H), 4.25 (qd, <italic toggle="yes">J</italic> = 7.1, 6.6 Hz, 2H), 3.55 (s, 3H), 1.77 (s,
+3H), 1.32 (td, <italic toggle="yes">J</italic> = 7.1, 0.6 Hz, 3H). ESI-MS Experimental:
+239.34. Calculated for
+[C<sub>12</sub>H<sub>15</sub>O<sub>5</sub>]<sup>+</sup>: 239.08.</p></sec><sec id="S17"><title>Ethyl 7-methoxy-5-methyl-2-hydroxytropolone carboxylate (41).</title><p id="P37">Compound <bold>40</bold> (1.5 g, 6.30 mmol) was taken up in
+CH<sub>2</sub>Cl<sub>2</sub> (20 mL) and was cooled to 0–5
+°C on an ice bath with stirring. To the cooled solution was added
+boron trichloride solution (1M, 12.6 mL, 12.6 mmol) dropwise. After
+addition, the reaction mixture was removed from the ice bath and was allowed
+to warm to room temperature for 30 min, when the reaction was quenched by
+the addition of MeOH. Solvent was removed under high vacuum and the solids
+were co-evaporated with methanol three additional times and the resultant
+solids were purified by silica chromatography to afford <bold>41</bold> in
+85% yield. <sup>1</sup>H NMR (400 MHz, CD<sub>3</sub>OD):
+<italic toggle="yes">δ</italic> 7.49 (s, 1H), 7.08 (s, 1H), 4.35 (q,
+<italic toggle="yes">J</italic> = 7.1 Hz, 2H), 3.98 (s, 3H), 2.50 (s, 3H), 1.36 (t,
+<italic toggle="yes">J</italic> = 7.1 Hz, 3H). ESI-MS Experimental: 239.61.
+Calculated for [C<sub>12</sub>H<sub>15</sub>O<sub>5</sub>]<sup>+</sup>:
+239.08.</p></sec><sec id="S18"><title>Endonuclease Activity Assay.</title><p id="P38">Endonuclease activity assays were carried out in Black Costar 96well
+plates. Each well contained a total volume of 100 μL comprised of:
+buffer (20 mM Tris, 150 mM NaCl, 2 mM MnCl<sub>2</sub>, 10 mM
+β-mercaptoethanol, 0.2% Triton-X100, pH=8.0), influenza PA
+endonuclease (4 nM), inhibitor (various concentrations) in buffer, and
+fluorescent ssDNA-oligo substrate (200 nM). A single-stranded, 17-mer DNA
+substrate labeled with a 5′-FAM fluorophore and a 3′-TAMRA
+quencher ([6-FAM]AATCGCAGGCAGCACTC[TAM]) synthesized by Sigma-Aldrich was
+employed to measure endonucleic cleavage. Upon addition of the substrate,
+the change in fluorescence was measured over 45 min at 37 ºC
+(excitation: 485 nm; emission 528 nm). The gain was set to 100 and the first
+10 min of data were excluded from the activity calculations. L-742,001
+(IC<sub>50</sub> value of 430 nM against Endo) was obtained from Sigma
+(catalog number SML1010) and utilized as a positive control. Dose-response
+curves were generated, fitted, and analyzed using Origin16 graphing
+software.</p></sec><sec id="S19"><title>Other Protein Activity Assays.</title><p id="P39">A cross inhibition screen was performed on compound <bold>1</bold>
+against a battery of eight different metalloenzymes, including structurally
+related dinuclear metalloenzymes (<xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>). Experiments were
+carried out according to literature protocols or were previously reported.
+Compound <bold>1</bold> was screened at a concentration of 200 μM
+against each enzyme. Percent inhibition, relative to positive and negative
+controls, is as follows: HIV IN 3′processing activity, no
+inhibition;<sup><xref rid="R30" ref-type="bibr">30</xref></sup> HIV
+IN strand transfer activity, 37% inhibition;<sup><xref rid="R30" ref-type="bibr">30</xref></sup> human carbonic anhydrase II
+(hCAII),<sup><xref rid="R36" ref-type="bibr">36</xref></sup> no
+inhibition; MMP-2, 11% inhibition;<sup><xref rid="R6" ref-type="bibr">6</xref></sup> human glyoxylase 1 (Glo-1), 11%;<sup><xref rid="R54" ref-type="bibr">54</xref></sup> NDM-1, 13% inhibition;<sup><xref rid="R55" ref-type="bibr">55</xref></sup> HDAC-6, no
+inhibition;<sup><xref rid="R45" ref-type="bibr">45</xref></sup>
+human arginase 1, 8% inhibition;<sup><xref rid="R56" ref-type="bibr">56</xref></sup> human methionine aminopeptidase 1, 27%
+inhibition.<sup><xref rid="R57" ref-type="bibr">57</xref></sup></p></sec></sec></sec><sec sec-type="supplementary-material" id="SM1"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait"><label>ESI</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS993565-supplement-ESI.pdf" orientation="portrait" id="d36e1937" position="anchor"/></supplementary-material></sec></body><back><ack id="S20"><title>Acknowledgements:</title><p id="P40">The authors acknowledge Dr. Yongxuan Su (U.C. San Diego, Molecular Mass
+Spectrometry Facility) for aid with HR-MS and HPLC compound purity analysis. We also
+thank Dr. Curtis Moore, Dr. Milan Gembicky, the UC San Diego X-ray Facility, the J.
+P. Noel lab at the Salk Institute, and the staff at beam lines 5.0.1 and 5.0.2 at
+the Advanced Light Source. This work was supported by grants from the National
+Institutes of Health (R01 GM098435 to S.M.C.; R56 AI127371 to I.A.W.; F32GM125233 to
+C.N.M.), and by the University of California President’s Postdoctoral
+Fellowship (to C.N.M.). S.M.C. is a co-founder, has an equity interest, and receives
+income as member of the Scientific Advisory Board for Cleave Biosciences and is a
+co-founder, has an equity interest, and a member of the Scientific Advisory Board
+for Forge Therapeutics. Both companies may potentially benefit from the research
+results of certain projects in the laboratory of S.M.C. The terms of this
+arrangement have been reviewed and approved by the University of California, San
+Diego in accordance with its conflict of interest policies.</p></ack><fn-group><fn id="FN1"><p id="P41">Ancillary Information:</p><p id="P42">Full descriptions of the chemical synthesis of reported compounds,
+protein expression, purification, and crystallography, and biochemical activity
+assays are given in the Supporting Information. Tables of Molecular Formula
+Strings for all reported compounds are also available as a CSV file. Statistics
+for data collection and refinement of the X-ray crystal structures are compiled
+in <xref rid="SD1" ref-type="supplementary-material">Supplemental Table
+S2</xref> (<xref rid="SD1" ref-type="supplementary-material">Supporting
+Information</xref>). Coordinates and structure factors have been deposited
+in the PDB under the accession codes: 6DZQ (compound <bold>1</bold>), 6DCY
+(compound <bold>2</bold>), 6DCZ (compound <bold>3</bold>), and 6E0Q (compound
+<bold>33</bold>). Authors will release the atomic coordinates and structure
+factors immediately upon article publication.</p></fn></fn-group><glossary><title>Abbreviations Used:</title><def-list><def-item><term>SAR</term><def><p id="P43">structure-activity relationship</p></def></def-item><def-item><term>MBP</term><def><p id="P44">metal-binding pharmacophore</p></def></def-item><def-item><term>FBDD</term><def><p id="P45">fragment-based drug discovery</p></def></def-item><def-item><term>PA<sub>N</sub></term><def><p id="P46">Influenza RNA-dependent polymerase PA N-terminal endonuclease
+domain</p></def></def-item><def-item><term>FRET</term><def><p id="P47">Forster resonance energy transfer</p></def></def-item><def-item><term>LE</term><def><p id="P48">ligand efficiency</p></def></def-item><def-item><term>HIV IN</term><def><p id="P49">human immunodeficiency virus integrase</p></def></def-item><def-item><term>MMP-2</term><def><p id="P50">matrix-metalloprotease 2</p></def></def-item><def-item><term>NDM-1</term><def><p id="P51">New Delhi metallo-β-lactamase 1</p></def></def-item><def-item><term>Arg1</term><def><p id="P52">human arginase 1</p></def></def-item><def-item><term>MetAP1</term><def><p id="P53">human methionine aminopeptidase 1</p></def></def-item><def-item><term>TBACl</term><def><p id="P54">tetra-<italic toggle="yes">N</italic>-butylammonium chloride</p></def></def-item><def-item><term>TEA</term><def><p id="P55">triethyl amine</p></def></def-item><def-item><term>TEMPO</term><def><p id="P56">2,2,6,6-tetramethylpiperidine-1-oxyl</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="R1"><label>(1)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Yang</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Hu</surname><given-names>XQ</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>QS</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>XX</given-names></name>; <name name-style="western"><surname>Ruan</surname><given-names>BF</given-names></name>; <name name-style="western"><surname>Xu</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Liao</surname><given-names>CZ</given-names></name>
+<article-title>Metalloprotein Inhibitors for the Treatment of Human
+Diseases</article-title>. <source>Curr. Top. Med. Chem</source>
+<year>2016</year>, <volume>16</volume>,
+<fpage>384</fpage>–<lpage>396</lpage>.<pub-id pub-id-type="pmid">26268345</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/1568026615666150813145218</pub-id></mixed-citation></ref><ref id="R2"><label>(2)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Chen</surname><given-names>AY</given-names></name>; <name name-style="western"><surname>Adamek</surname><given-names>RN</given-names></name>; <name name-style="western"><surname>Dick</surname><given-names>BL</given-names></name>; <name name-style="western"><surname>Credille</surname><given-names>CV</given-names></name>; <name name-style="western"><surname>Morrison</surname><given-names>CN</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Targeting Metalloenzymes for Therapeutic
+Intervention</article-title>. <source>Chem. Rev</source>
+<year>2018</year>, <volume>118</volume>, <comment>ASAP
+contents.</comment><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.chemrev.8b00201</pub-id><pub-id pub-id-type="pmcid">PMC6405328</pub-id><pub-id pub-id-type="pmid">30192523</pub-id></mixed-citation></ref><ref id="R3"><label>(3)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>White</surname><given-names>RJ</given-names></name>; <name name-style="western"><surname>Margolis</surname><given-names>PS</given-names></name>; <name name-style="western"><surname>Trias</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Yuan</surname><given-names>ZY</given-names></name>
+<article-title>Targeting Metalloenzymes: A Strategy that Works</article-title>.
+<source>Curr. Opin. Pharmacol</source>
+<year>2003</year>, <volume>3</volume>,
+<fpage>502</fpage>–<lpage>507</lpage>.<pub-id pub-id-type="pmid">14559095</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s1471-4892(03)00115-2</pub-id></mixed-citation></ref><ref id="R4"><label>(4)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>A Bioinorganic Approach to Fragment-Based Drug Discovery
+Targeting Metalloenzymes</article-title>. <source>Acc. Chem. Res</source>
+<year>2017</year>, <volume>50</volume>,
+<fpage>2007</fpage>–<lpage>2016</lpage>.<pub-id pub-id-type="pmid">28715203</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.accounts.7b00242</pub-id><pub-id pub-id-type="pmcid">PMC5749230</pub-id></mixed-citation></ref><ref id="R5"><label>(5)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Whittaker</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Floyd</surname><given-names>CD</given-names></name>; <name name-style="western"><surname>Brown</surname><given-names>P</given-names></name>; <name name-style="western"><surname>Gearing</surname><given-names>AJH</given-names></name>
+<article-title>Design and Therapeutic Application of Matrix Metalloproteinase
+Inhibitors</article-title>. <source>Chem. Rev</source>
+<year>1999</year>, <volume>99</volume>,
+<fpage>2735</fpage>–<lpage>2776</lpage>.<pub-id pub-id-type="pmid">11749499</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/cr9804543</pub-id></mixed-citation></ref><ref id="R6"><label>(6)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Jacobsen</surname><given-names>JA</given-names></name>; <name name-style="western"><surname>Fullagar</surname><given-names>JL</given-names></name>; <name name-style="western"><surname>Miller</surname><given-names>MT</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Identifying Chelators for Metalloprotein Inhibitors Using a
+Fragment-Based Approach</article-title>. <source>J. Med. Chem</source>
+<year>2011</year>, <volume>54</volume>,
+<fpage>591</fpage>–<lpage>602</lpage>.<pub-id pub-id-type="pmid">21189019</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm101266s</pub-id><pub-id pub-id-type="pmcid">PMC3024453</pub-id></mixed-citation></ref><ref id="R7"><label>(7)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Agrawal</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Johnson</surname><given-names>SL</given-names></name>; <name name-style="western"><surname>Jacobsen</surname><given-names>JA</given-names></name>; <name name-style="western"><surname>Miller</surname><given-names>MT</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>LH</given-names></name>; <name name-style="western"><surname>Pellecchia</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Chelator Fragment Libraries for Targeting
+Metalloproteinases</article-title>. <source>ChemMedChem</source>
+<year>2010</year>, <volume>5</volume>,
+<fpage>195</fpage>–<lpage>199</lpage>.<pub-id pub-id-type="pmid">20058293</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cmdc.200900516</pub-id><pub-id pub-id-type="pmcid">PMC2825879</pub-id></mixed-citation></ref><ref id="R8"><label>(8)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Wang</surname><given-names>X</given-names></name>; <name name-style="western"><surname>Gao</surname><given-names>P</given-names></name>; <name name-style="western"><surname>Menendez-Arias</surname><given-names>L</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>X</given-names></name>; <name name-style="western"><surname>Zhan</surname><given-names>P</given-names></name>
+<article-title>Update on Recent Developments in Small Molecular HIV-1 RNase H
+Inhibitors (2013–2016): Opportunities and Challenges</article-title>.
+<source>Curr. Med. Chem</source>
+<year>2018</year>, <volume>25</volume>,
+<fpage>1682</fpage>–<lpage>1702</lpage>.<pub-id pub-id-type="pmid">28088905</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/0929867324666170113110839</pub-id></mixed-citation></ref><ref id="R9"><label>(9)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Cao</surname><given-names>L</given-names></name>; <name name-style="western"><surname>Song</surname><given-names>W</given-names></name>; <name name-style="western"><surname>DeClercq</surname><given-names>E</given-names></name>; <name name-style="western"><surname>Zhan</surname><given-names>P</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>X</given-names></name>
+<article-title>Recent progress in the research of small molecule HIV-1 RNase H
+inhibitors</article-title>. <source>Curr. Med. Chem</source>
+<year>2014</year>, <volume>21</volume>,
+<fpage>1956</fpage>–<lpage>1967</lpage>.<pub-id pub-id-type="pmid">24438523</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/0929867321666140120121158</pub-id></mixed-citation></ref><ref id="R10"><label>(10)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rogolino</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Carcelli</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Sechi</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Neamati</surname><given-names>N</given-names></name>
+<article-title>Viral Enzymes Containing Magnesium: Metal Binding as a Successful
+Strategy in Drug Design</article-title>. <source>Coord. Chem. Rev</source>
+<year>2012</year>, <volume>256</volume>,
+<fpage>3063</fpage>–<lpage>3086</lpage>.</mixed-citation></ref><ref id="R11"><label>(11)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Dayam</surname><given-names>R</given-names></name>; <name name-style="western"><surname>Detig</surname><given-names>FX</given-names></name>; <name name-style="western"><surname>Neamati</surname><given-names>N</given-names></name>
+<article-title>HIV-1 integrase inhibitors: 2003–2004
+update</article-title>. <source>Medicinal Research Reviews</source>
+<year>2006</year>, <volume>26</volume>,
+<fpage>271</fpage>–<lpage>309</lpage>.<pub-id pub-id-type="pmid">16496343</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/med.20054</pub-id></mixed-citation></ref><ref id="R12"><label>(12)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Cotelle</surname><given-names>P</given-names></name>
+<article-title>Patented HIV-1 integrase inhibitors
+(1998–2005)</article-title>. <source>Recent Pat Antiinfect Drug
+Discov</source>
+<year>2006</year>, <volume>1</volume>,
+<fpage>1</fpage>–<lpage>15</lpage>.<pub-id pub-id-type="pmid">18221130</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/157489106775244082</pub-id></mixed-citation></ref><ref id="R13"><label>(13)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Credille</surname><given-names>CV</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Fragment-Based Identification of Influenza Endonuclease
+Inhibitors</article-title>. <source>J. Med. Chem</source>
+<year>2016</year>, <volume>59</volume>,
+<fpage>6444</fpage>–<lpage>6454</lpage>.<pub-id pub-id-type="pmid">27291165</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jmedchem.6b00628</pub-id><pub-id pub-id-type="pmcid">PMC4948595</pub-id></mixed-citation></ref><ref id="R14"><label>(14)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Monod</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Swale</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Tarus</surname><given-names>B</given-names></name>; <name name-style="western"><surname>Tissot</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Delmas</surname><given-names>B</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>RW</given-names></name>; <name name-style="western"><surname>Crepin</surname><given-names>T</given-names></name>; <name name-style="western"><surname>Slama-Schwok</surname><given-names>A</given-names></name>
+<article-title>Learning from Structure-Based Drug Design and New Antivirals
+Targeting the Ribonucleoprotein Complex for the Treatment of
+Influenza</article-title>. <source>Expert Opin. Drug Discov</source>
+<year>2015</year>, <volume>10</volume>,
+<fpage>345</fpage>–<lpage>371</lpage>.<pub-id pub-id-type="pmid">25792362</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1517/17460441.2015.1019859</pub-id></mixed-citation></ref><ref id="R15"><label>(15)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Dias</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Bouvier</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Crepin</surname><given-names>T</given-names></name>; <name name-style="western"><surname>McCarthy</surname><given-names>AA</given-names></name>; <name name-style="western"><surname>Hart</surname><given-names>DJ</given-names></name>; <name name-style="western"><surname>Baudin</surname><given-names>F</given-names></name>; <name name-style="western"><surname>Cusack</surname><given-names>S</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>RW</given-names></name>
+<article-title>The Cap-Snatching Endonuclease of Influenza Virus Polymerase
+Resides in the PA Subunit</article-title>. <source>Nature</source>
+<year>2009</year>, <volume>458</volume>,
+<fpage>914</fpage>–<lpage>918</lpage>.<pub-id pub-id-type="pmid">19194459</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07745</pub-id></mixed-citation></ref><ref id="R16"><label>(16)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Boivin</surname><given-names>S</given-names></name>; <name name-style="western"><surname>Cusack</surname><given-names>S</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>RWH</given-names></name>; <name name-style="western"><surname>Hart</surname><given-names>DJ</given-names></name>
+<article-title>Influenza A Virus Polymerase: Structural Insights into
+Replication and Host Adaptation Mechanisms</article-title>. <source>J. Biol.
+Chem</source>
+<year>2010</year>, <volume>285</volume>,
+<fpage>28411</fpage>–<lpage>28417</lpage>.<pub-id pub-id-type="pmid">20538599</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.R110.117531</pub-id><pub-id pub-id-type="pmcid">PMC2937865</pub-id></mixed-citation></ref><ref id="R17"><label>(17)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rao</surname><given-names>P</given-names></name>; <name name-style="western"><surname>Yuan</surname><given-names>WM</given-names></name>; <name name-style="western"><surname>Krug</surname><given-names>RM</given-names></name>
+<article-title>Crucial Role of CA Cleavage Sites in the Cap-Snatching Mechanism
+for Initiating Viral mRNA Synthesis</article-title>. <source>Embo
+J</source>.<year>2003</year>, <volume>22</volume>,
+<fpage>1188</fpage>–<lpage>1198</lpage>.<pub-id pub-id-type="pmid">12606583</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/emboj/cdg109</pub-id><pub-id pub-id-type="pmcid">PMC150342</pub-id></mixed-citation></ref><ref id="R18"><label>(18)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Kowalinski</surname><given-names>E</given-names></name>; <name name-style="western"><surname>Zubieta</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Wolkerstorfer</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Szolar</surname><given-names>OHJ</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>RWH</given-names></name>; <name name-style="western"><surname>Cusack</surname><given-names>S</given-names></name>
+<article-title>Structural Analysis of Specific Metal Chelating Inhibitor Binding
+to the Endonuclease Domain of Influenza pH1N1 (2009)
+Polymerase</article-title>. <source>PLoS Pathog</source>
+<year>2012</year>, <fpage>8</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1002831</pub-id><pub-id pub-id-type="pmcid">PMC3410856</pub-id><pub-id pub-id-type="pmid">22876177</pub-id></mixed-citation></ref><ref id="R19"><label>(19)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>DuBois</surname><given-names>RM</given-names></name>; <name name-style="western"><surname>Slavish</surname><given-names>PJ</given-names></name>; <name name-style="western"><surname>Baughman</surname><given-names>BM</given-names></name>; <name name-style="western"><surname>Yun</surname><given-names>MK</given-names></name>; <name name-style="western"><surname>Bao</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Webby</surname><given-names>RJ</given-names></name>; <name name-style="western"><surname>Webb</surname><given-names>TR</given-names></name>; <name name-style="western"><surname>White</surname><given-names>SW</given-names></name>
+<article-title>Structural and Biochemical Basis for Development of Influenza
+Virus Inhibitors Targeting the PA Endonuclease</article-title>. <source>PLoS
+Pathog</source>.<year>2012</year>, <fpage>8</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1002830</pub-id><pub-id pub-id-type="pmcid">PMC3410894</pub-id><pub-id pub-id-type="pmid">22876176</pub-id></mixed-citation></ref><ref id="R20"><label>(20)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Nakazawa</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Kadowaki</surname><given-names>SE</given-names></name>; <name name-style="western"><surname>Watanabe</surname><given-names>I</given-names></name>; <name name-style="western"><surname>Kadowaki</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Takei</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Fukuda</surname><given-names>H</given-names></name>
+<article-title>PA Subunit of RNA Polymerase as a Promising Target for
+Anti-Influenza Virus Agents</article-title>. <source>Antiviral
+Res</source>.<year>2008</year>, <volume>78</volume>,
+<fpage>194</fpage>–<lpage>201</lpage>.<pub-id pub-id-type="pmid">18258312</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.antiviral.2007.12.010</pub-id></mixed-citation></ref><ref id="R21"><label>(21)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Sagong</surname><given-names>HY</given-names></name>; <name name-style="western"><surname>Bauman</surname><given-names>JD</given-names></name>; <name name-style="western"><surname>Patel</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Das</surname><given-names>K</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E</given-names></name>; <name name-style="western"><surname>LaVoie</surname><given-names>EJ</given-names></name>
+<article-title>Phenyl Substituted 4-Hydroxypyridazin-3(2H)-ones and
+5-Hydroxypyrimidin-4(3H)-ones: Inhibitors of Influenza A
+Endonuclease</article-title>. <source>J. Med. Chem</source>
+<year>2014</year>, <volume>57</volume>,
+<fpage>8086</fpage>–<lpage>8098</lpage>.<pub-id pub-id-type="pmid">25225968</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm500958x</pub-id><pub-id pub-id-type="pmcid">PMC4191602</pub-id></mixed-citation></ref><ref id="R22"><label>(22)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Bauman</surname><given-names>JD</given-names></name>; <name name-style="western"><surname>Patel</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Baker</surname><given-names>SF</given-names></name>; <name name-style="western"><surname>Vijayan</surname><given-names>RSK</given-names></name>; <name name-style="western"><surname>Xiang</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Parhi</surname><given-names>AK</given-names></name>; <name name-style="western"><surname>Martinez-Sobrido</surname><given-names>L</given-names></name>; <name name-style="western"><surname>LaVoie</surname><given-names>EJ</given-names></name>; <name name-style="western"><surname>Das</surname><given-names>K</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E</given-names></name>
+<article-title>Crystallographic Fragment Screening and Structure-Based
+Optimization Yields a New Class of Influenza Endonuclease
+Inhibitors</article-title>. <source>ACS Chem. Biol</source>
+<year>2013</year>, <volume>8</volume>,
+<fpage>2501</fpage>–<lpage>2508</lpage>.<pub-id pub-id-type="pmid">23978130</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/cb400400j</pub-id><pub-id pub-id-type="pmcid">PMC3928712</pub-id></mixed-citation></ref><ref id="R23"><label>(23)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Heo</surname><given-names>YA</given-names></name>
+<article-title>Baloxavir: First Global Approval</article-title>.
+<source>Drugs</source>
+<year>2018</year>, <volume>78</volume>,
+<fpage>693</fpage>–<lpage>697</lpage>.<pub-id pub-id-type="pmid">29623652</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s40265-018-0899-1</pub-id></mixed-citation></ref><ref id="R24"><label>(24)</label><mixed-citation publication-type="other"><name name-style="western"><surname>Schrodinger</surname><given-names>L</given-names></name>; <source>Version 1.8 ed</source>. <year>2015</year>.</mixed-citation></ref><ref id="R25"><label>(25)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Drake</surname><given-names>JW</given-names></name>
+<article-title>Rates of Spontaneous Mutation Among RNA Viruses</article-title>.
+<source>Proc. Natl. Acad. Sci. U. S. A</source>
+<year>1993</year>, <volume>90</volume>,
+<fpage>4171</fpage>–<lpage>4175</lpage>.<pub-id pub-id-type="pmid">8387212</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.90.9.4171</pub-id><pub-id pub-id-type="pmcid">PMC46468</pub-id></mixed-citation></ref><ref id="R26"><label>(26)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Crepin</surname><given-names>T</given-names></name>; <name name-style="western"><surname>Dias</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Palencia</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Swale</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Cusack</surname><given-names>S</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>RWH</given-names></name>
+<article-title>Mutational and Metal Binding Analysis of the Endonuclease Domain
+of the Influenza Virus Polymerase PA Subunit</article-title>. <source>J.
+Virol</source>
+<year>2010</year>, <volume>84</volume>,
+<fpage>9096</fpage>–<lpage>9104</lpage>.<pub-id pub-id-type="pmid">20592097</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/JVI.00995-10</pub-id><pub-id pub-id-type="pmcid">PMC2937609</pub-id></mixed-citation></ref><ref id="R27"><label>(27)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Song</surname><given-names>MS</given-names></name>; <name name-style="western"><surname>Kumar</surname><given-names>G</given-names></name>; <name name-style="western"><surname>Shadrick</surname><given-names>WR</given-names></name>; <name name-style="western"><surname>Zhou</surname><given-names>W</given-names></name>; <name name-style="western"><surname>Jeevan</surname><given-names>T</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>ZM</given-names></name>; <name name-style="western"><surname>Slavish</surname><given-names>PJ</given-names></name>; <name name-style="western"><surname>Fabrizio</surname><given-names>TP</given-names></name>; <name name-style="western"><surname>Yoon</surname><given-names>SW</given-names></name>; <name name-style="western"><surname>Webb</surname><given-names>TR</given-names></name>; <name name-style="western"><surname>Webby</surname><given-names>RJ</given-names></name>; <name name-style="western"><surname>White</surname><given-names>SW</given-names></name>
+<article-title>Identification and Characterization of Influenza Variants
+Resistant to a Viral Endonuclease Inhibitor</article-title>. <source>P.
+Natl. Acad. Sci. USA</source>
+<year>2016</year>, <volume>113</volume>,
+<fpage>3669</fpage>–<lpage>3674</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1519772113</pub-id><pub-id pub-id-type="pmcid">PMC4822642</pub-id><pub-id pub-id-type="pmid">26976575</pub-id></mixed-citation></ref><ref id="R28"><label>(28)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Ju</surname><given-names>H</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>BS</given-names></name>; <name name-style="western"><surname>Kang</surname><given-names>DW</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>B</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>XY</given-names></name>; <name name-style="western"><surname>Zhan</surname><given-names>P</given-names></name>
+<article-title>Inhibitors of Influenza Virus Polymerase Acidic (PA)
+Endonuclease: Contemporary Developments and Perspectives</article-title>.
+<source>J. Med. Chem</source>
+<year>2017</year>, <volume>60</volume>,
+<fpage>3533</fpage>–<lpage>3551</lpage>.<pub-id pub-id-type="pmid">28118010</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jmedchem.6b01227</pub-id></mixed-citation></ref><ref id="R29"><label>(29)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Iwai</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Takahashi</surname><given-names>H</given-names></name>; <name name-style="western"><surname>Hatakeyama</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Motoshima</surname><given-names>K</given-names></name>; <name name-style="western"><surname>Ishikawa</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Sugita</surname><given-names>K</given-names></name>; <name name-style="western"><surname>Hashimoto</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Harada</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Itamura</surname><given-names>S</given-names></name>; <name name-style="western"><surname>Odagiri</surname><given-names>T</given-names></name>; <name name-style="western"><surname>Tashiro</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Sei</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Yamaguchi</surname><given-names>K</given-names></name>; <name name-style="western"><surname>Kuzuhara</surname><given-names>T</given-names></name>
+<article-title>Anti-Influenza Activity of Phenethylphenylphthalimide Analogs
+Derived From Thalidomide</article-title>. <source>Bioorg. Med.
+Chem</source>
+<year>2010</year>, <volume>18</volume>,
+<fpage>5379</fpage>–<lpage>5390</lpage>.<pub-id pub-id-type="pmid">20538468</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bmc.2010.05.035</pub-id></mixed-citation></ref><ref id="R30"><label>(30)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Agrawal</surname><given-names>A</given-names></name>; <name name-style="western"><surname>DeSoto</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Fullagar</surname><given-names>JL</given-names></name>; <name name-style="western"><surname>Maddali</surname><given-names>K</given-names></name>; <name name-style="western"><surname>Rostami</surname><given-names>S</given-names></name>; <name name-style="western"><surname>Richman</surname><given-names>DD</given-names></name>; <name name-style="western"><surname>Pommier</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Probing Chelation Motifs in HIV Integrase
+Inhibitors</article-title>. <source>P. Natl. Acad. Sci. USA</source>
+<year>2012</year>, <volume>109</volume>,
+<fpage>2251</fpage>–<lpage>2256</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1112389109</pub-id><pub-id pub-id-type="pmcid">PMC3289312</pub-id><pub-id pub-id-type="pmid">22308350</pub-id></mixed-citation></ref><ref id="R31"><label>(31)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Scott</surname><given-names>DE</given-names></name>; <name name-style="western"><surname>Coyne</surname><given-names>AG</given-names></name>; <name name-style="western"><surname>Hudson</surname><given-names>SA</given-names></name>; <name name-style="western"><surname>Abell</surname><given-names>C</given-names></name>
+<article-title>Fragment-Based Approaches in Drug Discovery and Chemical
+Biology</article-title>. <source>Biochemistry</source>
+<year>2012</year>, <volume>51</volume>,
+<fpage>4990</fpage>–<lpage>5003</lpage>.<pub-id pub-id-type="pmid">22697260</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/bi3005126</pub-id></mixed-citation></ref><ref id="R32"><label>(32)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Martin</surname><given-names>DP</given-names></name>; <name name-style="western"><surname>Blachly</surname><given-names>PG</given-names></name>; <name name-style="western"><surname>McCammon</surname><given-names>JA</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Exploring the Influence of the Protein Environment on
+Metal-Binding Pharmacophores</article-title>. <source>J. Med. Chem</source>
+<year>2014</year>, <volume>57</volume>,
+<fpage>7126</fpage>–<lpage>7135</lpage>.<pub-id pub-id-type="pmid">25116076</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm500984b</pub-id><pub-id pub-id-type="pmcid">PMC4148168</pub-id></mixed-citation></ref><ref id="R33"><label>(33)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Sanna</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Buglyo</surname><given-names>P</given-names></name>; <name name-style="western"><surname>Biro</surname><given-names>L</given-names></name>; <name name-style="western"><surname>Micera</surname><given-names>G</given-names></name>; <name name-style="western"><surname>Garribba</surname><given-names>E</given-names></name>
+<article-title>Coordinating Properties of Pyrone and Pyridinone Derivatives,
+Tropolone and Catechol toward the VO2+ Ion: An Experimental and
+Computational Approach</article-title>. <source>Eur. J. Inorg.
+Chem</source>
+<year>2012</year>,
+<fpage>1079</fpage>–<lpage>1092</lpage>.</mixed-citation></ref><ref id="R34"><label>(34)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Thipyapong</surname><given-names>K</given-names></name>; <name name-style="western"><surname>Ruangpornvisuti</surname><given-names>V</given-names></name>
+<article-title>Isomers of Various Species of 1-hydroxy-2-pyridinone6-carboxylic
+Acid, their Proton Dissociation and Complexes with Cr(III) and
+Zn(II)</article-title>. <source>J. Mol. Struct</source>
+<year>2008</year>, <volume>891</volume>,
+<fpage>1</fpage>–<lpage>10</lpage>.</mixed-citation></ref><ref id="R35"><label>(35)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Evanko</surname><given-names>CR</given-names></name>; <name name-style="western"><surname>Dzombak</surname><given-names>DA</given-names></name>
+<article-title>Influence of Structural Features on Sorption of NOM-Analogue
+Organic Acids to Goethite</article-title>. <source>Environ. Sci.
+Technol</source>
+<year>1998</year>, <volume>32</volume>,
+<fpage>2846</fpage>–<lpage>2855</lpage>.</mixed-citation></ref><ref id="R36"><label>(36)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Dick</surname><given-names>BL</given-names></name>; <name name-style="western"><surname>Patel</surname><given-names>A</given-names></name>; <name name-style="western"><surname>McCammon</surname><given-names>JA</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Effect of Donor Atom Identity on Metal-Binding Pharmacophore
+Coordination</article-title>. <source>J. Biol. Inorg. Chem</source>
+<year>2017</year>, <volume>22</volume>,
+<fpage>605</fpage>–<lpage>613</lpage>.<pub-id pub-id-type="pmid">28389830</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00775-017-1454-3</pub-id><pub-id pub-id-type="pmcid">PMC5493394</pub-id></mixed-citation></ref><ref id="R37"><label>(37)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Pearson</surname><given-names>RG</given-names></name>
+<article-title>Hard and Soft Acids and Bases</article-title>. <source>J. Am.
+Chem. Soc</source>
+<year>1963</year>, <volume>85</volume>, <fpage>3533</fpage>.</mixed-citation></ref><ref id="R38"><label>(38)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Ballatore</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Huryn</surname><given-names>DM</given-names></name>; <name name-style="western"><surname>Smith</surname><given-names>AB</given-names></name>
+<article-title>Carboxylic Acid (Bio)Isosteres in Drug Design</article-title>.
+<source>ChemMedChem</source>
+<year>2013</year>, <volume>8</volume>,
+<fpage>385</fpage>–<lpage>395</lpage>.<pub-id pub-id-type="pmid">23361977</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cmdc.201200585</pub-id><pub-id pub-id-type="pmcid">PMC3640829</pub-id></mixed-citation></ref><ref id="R39"><label>(39)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Dowell</surname><given-names>RI</given-names></name>; <name name-style="western"><surname>Hales</surname><given-names>NH</given-names></name>; <name name-style="western"><surname>Tucker</surname><given-names>H</given-names></name>
+<article-title>Novel Inhibitors of Prolyl 4-Hydroxylase .4.
+Pyridine-2-Carboxylic Acid Analogs with Alternative
+2-Substituents</article-title>. <source>Eur. J. Med. Chem</source>
+<year>1993</year>, <volume>28</volume>,
+<fpage>513</fpage>–<lpage>516</lpage>.</mixed-citation></ref><ref id="R40"><label>(40)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Lassalas</surname><given-names>P</given-names></name>; <name name-style="western"><surname>Gay</surname><given-names>B</given-names></name>; <name name-style="western"><surname>Lasfargeas</surname><given-names>C</given-names></name>; <name name-style="western"><surname>James</surname><given-names>MJ</given-names></name>; <name name-style="western"><surname>Tran</surname><given-names>V</given-names></name>; <name name-style="western"><surname>Vijayendran</surname><given-names>KG</given-names></name>; <name name-style="western"><surname>Brunden</surname><given-names>KR</given-names></name>; <name name-style="western"><surname>Kozlowski</surname><given-names>MC</given-names></name>; <name name-style="western"><surname>Thomas</surname><given-names>CJ</given-names></name>; <name name-style="western"><surname>Smith</surname><given-names>AB</given-names><suffix>3rd</suffix></name>; <name name-style="western"><surname>Huryn</surname><given-names>DM</given-names></name>; <name name-style="western"><surname>Ballatore</surname><given-names>C</given-names></name>
+<article-title>Structure Property Relationships of Carboxylic Acid
+Isosteres</article-title>. <source>J. Med. Chem</source>
+<year>2016</year>, <volume>59</volume>,
+<fpage>3183</fpage>–<lpage>3203</lpage>.<pub-id pub-id-type="pmid">26967507</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jmedchem.5b01963</pub-id><pub-id pub-id-type="pmcid">PMC4833640</pub-id></mixed-citation></ref><ref id="R41"><label>(41)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Didierjean</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Isel</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Querre</surname><given-names>F</given-names></name>; <name name-style="western"><surname>Mouscadet</surname><given-names>JF</given-names></name>; <name name-style="western"><surname>Aubertin</surname><given-names>AM</given-names></name>; <name name-style="western"><surname>Valnot</surname><given-names>JY</given-names></name>; <name name-style="western"><surname>Piettre</surname><given-names>SR</given-names></name>; <name name-style="western"><surname>Marquet</surname><given-names>R</given-names></name>
+<article-title>Inhibition of human immunodeficiency virus type 1 reverse
+transcriptase, RNase H, and integrase activities by
+hydroxytropolones</article-title>. <source>Antimicrobial Agents and
+Chemotherapy</source>
+<year>2005</year>, <volume>49</volume>,
+<fpage>4884</fpage>–<lpage>4894</lpage>.<pub-id pub-id-type="pmid">16304149</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/AAC.49.12.4884-4894.2005</pub-id><pub-id pub-id-type="pmcid">PMC1315922</pub-id></mixed-citation></ref><ref id="R42"><label>(42)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Wu</surname><given-names>NC</given-names></name>; <name name-style="western"><surname>Grande</surname><given-names>G</given-names></name>; <name name-style="western"><surname>Turner</surname><given-names>HL</given-names></name>; <name name-style="western"><surname>Ward</surname><given-names>AB</given-names></name>; <name name-style="western"><surname>Xie</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Lerner</surname><given-names>RA</given-names></name>; <name name-style="western"><surname>Wilson</surname><given-names>IA</given-names></name>
+<article-title>In vitro evolution of an influenza broadly neutralizing antibody
+is modulated by hemagglutinin receptor specificity</article-title>.
+<source>Nature Communications</source>
+<year>2017</year>, <fpage>8</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms15371</pub-id><pub-id pub-id-type="pmcid">PMC5440694</pub-id><pub-id pub-id-type="pmid">28504265</pub-id></mixed-citation></ref><ref id="R43"><label>(43)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Hu</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Gupta-Ostermann</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Bajorath</surname><given-names>J</given-names></name>
+<article-title>EXPLORING COMPOUND PROMISCUITY PATTERNS AND MULTI-TARGET ACTIVITY
+SPACES</article-title>. <source>Computational and Structural Biotechnology
+Journal</source>
+<year>2014</year>, <volume>9</volume>,
+<fpage>e201401003</fpage>.<pub-id pub-id-type="pmid">24688751</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.5936/csbj.201401003</pub-id><pub-id pub-id-type="pmcid">PMC3962225</pub-id></mixed-citation></ref><ref id="R44"><label>(44)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Sturm</surname><given-names>N</given-names></name>; <name name-style="western"><surname>Desaphy</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Quinn</surname><given-names>RJ</given-names></name>; <name name-style="western"><surname>Rognan</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Kellenberger</surname><given-names>E</given-names></name>
+<article-title>Structural Insights into the Molecular Basis of the Ligand
+Promiscuity</article-title>. <source>Journal of Chemical Information and
+Modeling</source>
+<year>2012</year>, <volume>52</volume>,
+<fpage>2410</fpage>–<lpage>2421</lpage>.<pub-id pub-id-type="pmid">22920885</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ci300196g</pub-id></mixed-citation></ref><ref id="R45"><label>(45)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Investigating the Selectivity of Metalloenzyme Inhibitors in the
+Presence of Competing Metalloproteins</article-title>.
+<source>ChemMedChem</source>
+<year>2015</year>, <volume>10</volume>,
+<fpage>1733</fpage>–<lpage>1738</lpage>.<pub-id pub-id-type="pmid">26412596</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cmdc.201500293</pub-id><pub-id pub-id-type="pmcid">PMC4658394</pub-id></mixed-citation></ref><ref id="R46"><label>(46)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Day</surname><given-names>JA</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Investigating the Selectivity of Metalloenzyme
+Inhibitors</article-title>. <source>J. Med. Chem</source>
+<year>2013</year>, <volume>56</volume>,
+<fpage>7997</fpage>–<lpage>8007</lpage>.<pub-id pub-id-type="pmid">24074025</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm401053m</pub-id><pub-id pub-id-type="pmcid">PMC3880651</pub-id></mixed-citation></ref><ref id="R47"><label>(47)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Haas</surname><given-names>KL</given-names></name>; <name name-style="western"><surname>Franz</surname><given-names>KJ</given-names></name>
+<article-title>Application of Metal Coordination Chemistry to Explore and
+Manipulate Cell Biology</article-title>. <source>Chem. Rev</source>
+<year>2009</year>, <volume>109</volume>,
+<fpage>4921</fpage>–<lpage>4960</lpage>.<pub-id pub-id-type="pmid">19715312</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/cr900134a</pub-id><pub-id pub-id-type="pmcid">PMC2761982</pub-id></mixed-citation></ref><ref id="R48"><label>(48)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Szunyogh</surname><given-names>D</given-names></name>; <name name-style="western"><surname>Gyurcsik</surname><given-names>B</given-names></name>; <name name-style="western"><surname>Larsen</surname><given-names>FH</given-names></name>; <name name-style="western"><surname>Stachura</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Thulstrup</surname><given-names>PW</given-names></name>; <name name-style="western"><surname>Hemmingsen</surname><given-names>L</given-names></name>; <name name-style="western"><surname>Jancso</surname><given-names>A</given-names></name>
+<article-title>Zn(II) and Hg(II) Binding to a Designed Peptide that Accommodates
+Different Coordination Geometries</article-title>. <source>Dalton
+Trans</source>. <year>2015</year>, <volume>44</volume>,
+<fpage>12576</fpage>–<lpage>12588</lpage>.<pub-id pub-id-type="pmid">26040991</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/c5dt00945f</pub-id></mixed-citation></ref><ref id="R49"><label>(49)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Comba</surname><given-names>P</given-names></name>; <name name-style="western"><surname>Schiek</surname><given-names>W</given-names></name>
+<article-title>Fit and Misfit Between Ligands and Metal Ions</article-title>.
+<source>Coord. Chem. Rev</source>
+<year>2003</year>, <volume>238–239</volume>,
+<fpage>21</fpage>–<lpage>29</lpage>.</mixed-citation></ref><ref id="R50"><label>(50)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Puerta</surname><given-names>DT</given-names></name>; <name name-style="western"><surname>Mongan</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Tran</surname><given-names>BL</given-names></name>; <name name-style="western"><surname>McCammon</surname><given-names>JA</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Potent, Selective Pyrone-Based Inhibitors of
+Stromelysin-1</article-title>. <source>J. Am. Chem. Soc</source>
+<year>2005</year>, <volume>127</volume>,
+<fpage>14148</fpage>–<lpage>14149</lpage>.<pub-id pub-id-type="pmid">16218585</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ja054558o</pub-id></mixed-citation></ref><ref id="R51"><label>(51)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Yan</surname><given-names>YL</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Efficient Synthesis of 5-amido-3-hydroxy-4-pyrones as Inhibitors
+of Matrix Metalloproteinases</article-title>. <source>Org. Lett</source>
+<year>2007</year>, <volume>9</volume>,
+<fpage>2517</fpage>–<lpage>2520</lpage>.<pub-id pub-id-type="pmid">17521196</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ol0707665</pub-id><pub-id pub-id-type="pmcid">PMC2531216</pub-id></mixed-citation></ref><ref id="R52"><label>(52)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Takeshita</surname><given-names>H</given-names></name>; <name name-style="western"><surname>Mori</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Kusaba</surname><given-names>T</given-names></name>
+<article-title>An Improved Synthesis of 2,7-Dihydroxytropone
+(3-Hydroxytropolone)</article-title>. <source>Synthesis-Stuttgart</source>
+<year>1986</year>,
+<fpage>578</fpage>–<lpage>579</lpage>.</mixed-citation></ref><ref id="R53"><label>(53)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Meck</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Mohd</surname><given-names>N</given-names></name>; <name name-style="western"><surname>Murelli</surname><given-names>RP</given-names></name>
+<article-title>An Oxidopyrylium Cyclization/Ring-Opening Route to
+Polysubstituted alpha-Hydroxytropolones</article-title>. <source>Org.
+Lett</source>
+<year>2012</year>, <volume>14</volume>,
+<fpage>5988</fpage>–<lpage>5991</lpage>.<pub-id pub-id-type="pmid">23167954</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ol302892g</pub-id><pub-id pub-id-type="pmcid">PMC3518617</pub-id></mixed-citation></ref><ref id="R54"><label>(54)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Perez</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>J</given-names></name>; <name name-style="western"><surname>Parlati</surname><given-names>F</given-names></name>; <name name-style="western"><surname>Rouffet</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Ma</surname><given-names>Y</given-names></name>; <name name-style="western"><surname>Mackinnon</surname><given-names>AL</given-names></name>; <name name-style="western"><surname>Chou</surname><given-names>TF</given-names></name>; <name name-style="western"><surname>Deshaies</surname><given-names>RJ</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Discovery of an Inhibitor of the Proteasome Subunit
+Rpn11</article-title>. <source>J. Med. Chem</source>
+<year>2017</year>, <volume>60</volume>,
+<fpage>1343</fpage>–<lpage>1361</lpage>.<pub-id pub-id-type="pmid">28191850</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jmedchem.6b01379</pub-id><pub-id pub-id-type="pmcid">PMC5761724</pub-id></mixed-citation></ref><ref id="R55"><label>(55)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Chen</surname><given-names>ALY</given-names></name>; <name name-style="western"><surname>Thomas</surname><given-names>PW</given-names></name>; <name name-style="western"><surname>Stewart</surname><given-names>AC</given-names></name>; <name name-style="western"><surname>Bergstrom</surname><given-names>A</given-names></name>; <name name-style="western"><surname>Cheng</surname><given-names>ZS</given-names></name>; <name name-style="western"><surname>Miller</surname><given-names>C</given-names></name>; <name name-style="western"><surname>Bethel</surname><given-names>CR</given-names></name>; <name name-style="western"><surname>Marshal</surname><given-names>SH</given-names></name>; <name name-style="western"><surname>Credille</surname><given-names>CV</given-names></name>; <name name-style="western"><surname>Riley</surname><given-names>CL</given-names></name>; <name name-style="western"><surname>Page</surname><given-names>RC</given-names></name>; <name name-style="western"><surname>Bonomo</surname><given-names>RA</given-names></name>; <name name-style="western"><surname>Crowder</surname><given-names>MW</given-names></name>; <name name-style="western"><surname>Tierney</surname><given-names>DL</given-names></name>; <name name-style="western"><surname>Fast</surname><given-names>W</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>SM</given-names></name>
+<article-title>Dipicolinic Acid Derivatives as Inhibitors of New Delhi
+Metallo-beta-lactamase-1</article-title>. <source>J. Med. Chem</source>
+<year>2017</year>, <volume>60</volume>,
+<fpage>7267</fpage>–<lpage>7283</lpage>.<pub-id pub-id-type="pmid">28809565</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jmedchem.7b00407</pub-id><pub-id pub-id-type="pmcid">PMC5599375</pub-id></mixed-citation></ref><ref id="R56"><label>(56)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Di Costanzo</surname><given-names>L</given-names></name>; <name name-style="western"><surname>Moulin</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Haertlein</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Meilleur</surname><given-names>F</given-names></name>; <name name-style="western"><surname>Christianson</surname><given-names>DW</given-names></name>
+<article-title>Expression, Purification, Assay, and Crystal Structure of
+Perdeuterated Human Arginase I</article-title>. <source>Arch. Biochem.
+Biophys</source>
+<year>2007</year>, <volume>465</volume>,
+<fpage>82</fpage>–<lpage>89</lpage>.<pub-id pub-id-type="pmid">17562323</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.abb.2007.04.036</pub-id><pub-id pub-id-type="pmcid">PMC2018606</pub-id></mixed-citation></ref><ref id="R57"><label>(57)</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Huang</surname><given-names>M</given-names></name>; <name name-style="western"><surname>Xie</surname><given-names>SX</given-names></name>; <name name-style="western"><surname>Ma</surname><given-names>ZQ</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>QQ</given-names></name>; <name name-style="western"><surname>Nan</surname><given-names>FJ</given-names></name>; <name name-style="western"><surname>Ye</surname><given-names>QZ</given-names></name>
+<article-title>Inhibition of Monometalated Methionine Aminopeptidase: Inhibitor
+Discovery and Crystallographic Analysis</article-title>. <source>J. Med.
+Chem</source>
+<year>2007</year>, <volume>50</volume>,
+<fpage>5735</fpage>–<lpage>5742</lpage>.<pub-id pub-id-type="pmid">17948983</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm700930k</pub-id><pub-id pub-id-type="pmcid">PMC2522305</pub-id></mixed-citation></ref></ref-list></back><floats-group><fig id="F1" orientation="portrait" position="float"><label>Figure 1.</label><caption><p id="P57">Structure of the RNA-dependent RNA polymerase PA subunit active site
+(PDB ID: 5DES). The endonuclease active site employs two divalent metal cations
+to facilitate the hydrolytic cleavage of the phosphodiester backbone of RNA.
+Protein secondary structure elements are shown in cartoon representation (gray).
+Mn<sup>2+</sup> cations are shown as purple spheres. Coordinating protein
+residues are colored by element and labeled and coordinating water/hydroxide
+molecules are shown as red spheres. All coordination bonds are displayed as
+dashed yellow bonds. This structure, as well as all other protein structures
+presented, were generated in PyMOL.<sup><xref rid="R24" ref-type="bibr">24</xref></sup></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-f0002.jpg"/></fig><fig id="F2" orientation="portrait" position="float"><label>Figure 2.</label><caption><p id="P58"><italic toggle="yes">Top left</italic>: Representative chemotype shared by active MBP
+fragments of influenza PA<sub>N</sub> highlighting the coordination motif of
+these MBPs to the dinuclear active site metal ions. <italic toggle="yes">Top right</italic>:
+X-ray co-crystal structure of compound <bold>3</bold> (PDB ID: 6DCZ) in the
+PA<sub>N</sub> active site. Mn-2 is also coordinated by two water molecules
+at the open coordination sites (not shown). <italic toggle="yes">Bottom</italic>: X-ray
+co-crystal structure of compounds <bold>1</bold> (<italic toggle="yes">left</italic>; PDB ID:
+6DZQ), <bold>2</bold> (<italic toggle="yes">middle</italic>; PDB ID: 6DCY), and
+<bold>3</bold> (<italic toggle="yes">right</italic>; PDB ID: 6DCZ) in the PA<sub>N</sub>
+active site. All ligands were found to coordinate in a similar manner. Compound
+<bold>2</bold> coordinates Mn-2 with the electron density (blue mesh is the
+2<italic toggle="yes">F</italic><sub>o</sub><italic toggle="yes">F</italic><sub>c</sub> map contoured
+to 2σ) corresponding to the carboxylic acid moiety found to be diffuse
+above the metal center. The poorer coordination ability of compound
+<bold>2</bold> is likely due to internal steric pressure exerted by the
+methyl group residing alpha to the carboxylic acid.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-f0003.jpg"/></fig><fig id="F3" orientation="portrait" position="float"><label>Figure 3.</label><caption><p id="P59">Inhibition values (pIC<sub>50</sub>) of MBP isologues of compound
+<bold>1</bold> plotted against the p<italic toggle="yes">K</italic><sub>a</sub> of their
+bridging phenolic oxygen atom. A linear correlation (<italic toggle="yes">r</italic> = 0.96,
+<italic toggle="yes">n</italic> = 6, <italic toggle="yes">p</italic> &lt;
+2×10<sup>−3</sup>) was observed between
+p<italic toggle="yes">K</italic><sub>a</sub> and pIC<sub>50</sub>, illustrating a ligand
+electronics-based justification for the observed disparity in inhibition values
+of otherwise structurally homologous inhibitors.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-f0004.jpg"/></fig><fig id="F4" orientation="portrait" position="float"><label>Scheme 1.</label><caption><p id="P60"><sup><italic toggle="yes">a</italic></sup>Reagents and conditions: (a) thionyl
+chloride, CH<sub>2</sub>Cl<sub>2</sub>, rt, 6–8 h; (b) zinc dust, HCl,
+water, 70 °C, 4–6 h; (c) NaOH, formaldehyde, water/MeOH,
+0–20 ºC, 18 h; (d) benzyl bromide, TBACl, 70 °C, 3 h; (e)
+NaCO<sub>3</sub>H, KI, TEMPO, TBACl, NaOCl,
+CH<sub>2</sub>Cl<sub>2</sub>/water, 5 °C, 2.5 h; (f) 5:5:1 HOAc/HCl/TFA,
+40 °C, 18 h. (g) NH<sub>4</sub>OH, MeOH/water, 75 °C, 18–24
+h; (h) methyl triflate, DCM/chloroform, reflux, 18 h; (i) ethyl propiolate, TEA,
+chloroform, microwave 100 ºC, 25 min; (j) BCl<sub>3</sub>,
+CH<sub>2</sub>Cl<sub>2</sub>, 0–20 °C, 30 min; (k) HBr/HOAc,
+neat, 95 °C, 6–8 h.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-f0005.jpg"/></fig><table-wrap id="T1" position="float" orientation="portrait"><label>Table 1.</label><caption><p id="P61">Structure and activity of a series of MBP derivatives.</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">Number</th><th align="center" valign="middle" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" rowspan="1" colspan="1">IC<sub>50</sub>(μΜ)</th><th align="center" valign="middle" rowspan="1" colspan="1">pIC<sub>50</sub><sup><xref rid="TFN1" ref-type="table-fn">a</xref></sup></th><th align="center" valign="middle" rowspan="1" colspan="1">LE<sup><xref rid="TFN1" ref-type="table-fn">b</xref></sup></th><th align="center" valign="middle" rowspan="1" colspan="1">Number</th><th align="center" valign="middle" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" rowspan="1" colspan="1">IC<sub>50</sub>(μΜ)</th><th align="center" valign="middle" rowspan="1" colspan="1">pIC<sub>50</sub><sup><xref rid="TFN1" ref-type="table-fn">a</xref></sup></th><th align="center" valign="middle" rowspan="1" colspan="1">LE<sup><xref rid="TFN2" ref-type="table-fn">b</xref></sup></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>1</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0006.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">0.043 ± 0.009
+μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">7.4</td><td align="center" valign="middle" rowspan="1" colspan="1">0.84</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>10</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0015.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">11.8 ± 2.1 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">4.9</td><td align="center" valign="middle" rowspan="1" colspan="1">0.56</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>2</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0007.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">3.5 ± 0.6 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">5.5</td><td align="center" valign="middle" rowspan="1" colspan="1">0.63</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>11</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0016.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">13.6 ± 0.9 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">4.9</td><td align="center" valign="middle" rowspan="1" colspan="1">0.48</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>3</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0008.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">0.068 ± 0.011
+μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">7.2</td><td align="center" valign="middle" rowspan="1" colspan="1">0.89</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>12</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0017.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">&gt;500 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;3.3</td><td align="center" valign="middle" rowspan="1" colspan="1">Ν/Α</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>4</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0009.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">&gt;200 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;3.7</td><td align="center" valign="middle" rowspan="1" colspan="1">Ν/Α</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>13</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0018.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">&gt;500 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;3.3</td><td align="center" valign="middle" rowspan="1" colspan="1">Ν/Α</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>5</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0010.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">7.5 ± 1.2 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">5.1</td><td align="center" valign="middle" rowspan="1" colspan="1">0.64</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>14</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0019.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">0.26 ± 0.04 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">6.6</td><td align="center" valign="middle" rowspan="1" colspan="1">0.65</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>6</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0011.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">&gt;100 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;4</td><td align="center" valign="middle" rowspan="1" colspan="1">Ν/Α</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>15</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0020.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">&gt;100 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;4</td><td align="center" valign="middle" rowspan="1" colspan="1">Ν/Α</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>7</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0012.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">6.5 ± 0.9 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">5.2</td><td align="center" valign="middle" rowspan="1" colspan="1">0.65</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>16</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0021.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">14.3 ± 1.7 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">4.8</td><td align="center" valign="middle" rowspan="1" colspan="1">0.55</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>8</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0013.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">&gt;100 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;4</td><td align="center" valign="middle" rowspan="1" colspan="1">Ν/Α</td><td align="center" valign="middle" rowspan="1" colspan="1">Allomaltol</td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0022.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">17.1 ±1.5 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">4.8</td><td align="center" valign="middle" rowspan="1" colspan="1">0.73</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>9</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0014.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">4.2 ± 1.0 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">5.4</td><td align="center" valign="middle" rowspan="1" colspan="1">0.61</td><td align="center" valign="middle" rowspan="1" colspan="1">Pyromeconic Acid</td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0023.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">22.5 ±1.0 μΜ</td><td align="center" valign="middle" rowspan="1" colspan="1">4.6</td><td align="center" valign="middle" rowspan="1" colspan="1">0.79</td></tr></tbody></table><table-wrap-foot><fn id="TFN1"><label>a</label><p id="P62">pIC<sub>50</sub> is defined as pIC<sub>50</sub> =
+−log(IC<sub>50</sub>) and is included to provide a linear
+comparison of relative inhibition activity.</p></fn><fn id="TFN2"><label>b</label><p id="P63">Ligand efficiency (LE) provides a measure of binding energy per
+nonhydrogen atom in the fragment molecule.</p></fn></table-wrap-foot></table-wrap><table-wrap id="T2" position="float" orientation="portrait"><label>Table 2.</label><caption><p id="P64">Structure and activity of a series of MBP derivatives.</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="center" valign="middle" span="1"/><col align="center" valign="middle" span="1"/><col align="center" valign="middle" span="1"/><col align="center" valign="middle" span="1"/><col align="center" valign="middle" span="1"/></colgroup><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">Number</th><th align="center" valign="middle" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" rowspan="1" colspan="1">IC<sub>50</sub> (nM)</th><th align="center" valign="middle" rowspan="1" colspan="1">pIC<sub>50</sub></th><th align="center" valign="middle" rowspan="1" colspan="1">Phenol p<italic toggle="yes">K</italic>
+<sub>a</sub><sup><xref rid="TFN3" ref-type="table-fn">a</xref></sup></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>1</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0024.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">43 ±9 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">7.4</td><td align="center" valign="middle" rowspan="1" colspan="1">9.7</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>3</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0025.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">68 ± 11 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">7.2</td><td align="center" valign="middle" rowspan="1" colspan="1">9.6</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>5</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0026.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">7500 ± 1200 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.1</td><td align="center" valign="middle" rowspan="1" colspan="1">7.0</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>7</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0027.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">6400 ± 900 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.2</td><td align="center" valign="middle" rowspan="1" colspan="1">9.8; 14.3</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>17</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0028.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">17 ± 3 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">7.8</td><td align="center" valign="middle" rowspan="1" colspan="1">11.2</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>18</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0029.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">430 ± 20 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">6.4</td><td align="center" valign="middle" rowspan="1" colspan="1">9.2</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>19</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0030.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">1600 ± 400 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.8</td><td align="center" valign="middle" rowspan="1" colspan="1">7.5</td></tr></tbody></table><table-wrap-foot><fn id="TFN3"><label>a</label><p id="P65">Calculated p<italic toggle="yes">K</italic><sub>a</sub> values<sup>33</sup></p></fn></table-wrap-foot></table-wrap><table-wrap id="T3" position="float" orientation="landscape"><label>Table 3.</label><caption><p id="P66">Structure and activity of MBP inhibitor molecules.</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">Number</th><th align="center" valign="middle" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" rowspan="1" colspan="1">IC<sub>50</sub> (nM)</th><th align="center" valign="middle" rowspan="1" colspan="1">pIC<sub>50</sub></th><th align="center" valign="middle" rowspan="1" colspan="1">Number</th><th align="center" valign="middle" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" rowspan="1" colspan="1">IC<sub>50</sub> (nM)</th><th align="center" valign="middle" rowspan="1" colspan="1">pIC<sub>50</sub></th><th align="center" valign="middle" rowspan="1" colspan="1">Number</th><th align="center" valign="middle" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" rowspan="1" colspan="1">IC<sub>50</sub> (nM)</th><th align="center" valign="middle" rowspan="1" colspan="1">pIC<sub>50</sub></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>20</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0031.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">3900 ± 900 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.4</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>25</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0036.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">3800 ± 1100 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.4</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>30</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0041.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">1200 ± 400 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.9</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>21</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0032.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">85 ± 17 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">7.1</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>26</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0037.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">&gt;50000 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">0 4.3</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>31</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0042.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">1700 ± 400 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.8</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>22</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0033.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">420 ± 60 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">6.4</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>27</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0038.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">37 ± 8 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">7.4</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>32</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0043.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">11 ± 1.8 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">8.0</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>23</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0034.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">∼200000 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt; 3.7</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>28</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0039.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">∼19000 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">4.7</td><td rowspan="2" align="center" valign="middle" colspan="1"><bold>33</bold></td><td rowspan="2" align="center" valign="middle" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0044.jpg"/></td><td rowspan="2" align="center" valign="middle" colspan="1">8.0 ± 1.1 nM</td><td rowspan="2" align="center" valign="middle" colspan="1">8.1</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>24</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0035.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">2700 ± 600 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">5.6</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>29</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-993565-t0040.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">540 ± 80 nM</td><td align="center" valign="middle" rowspan="1" colspan="1">6.3</td></tr></tbody></table></table-wrap><table-wrap id="T4" position="float" orientation="portrait"><label>Table 4.</label><caption><p id="P67">Single concentration cross-inhibition studies of MBPs against
+PA<sub>N</sub> endonuclease and three other dinuclear metalloenzymes. Final
+inhibitor concentration employed in assays is indicated in the table header for
+each enzyme. Percent inhibition is listed and colored from yellow to red with
+increasing inhibition values.</p></caption><table frame="box" rules="all"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" rowspan="1" colspan="1">PA<sub>N</sub> Endonuclease (500 nM)</th><th align="center" valign="middle" rowspan="1" colspan="1">Human Arginase 1 (200 μM)</th><th align="center" valign="middle" rowspan="1" colspan="1">Human MetAP1 Mn<sup>2+</sup>isoform (200
+μM)</th><th align="center" valign="middle" rowspan="1" colspan="1">NDM-1 (200 μM)</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">1</td><td align="center" valign="middle" style="background-color:#FF0C05" rowspan="1" colspan="1">96</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">8</td><td align="center" valign="middle" style="background-color:#FFCF53" rowspan="1" colspan="1">27</td><td align="center" valign="middle" style="background-color:#FFFA64" rowspan="1" colspan="1">12</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">2</td><td align="center" valign="middle" style="background-color:#FFE05A" rowspan="1" colspan="1">21</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">6</td><td align="center" valign="middle" style="background-color:#FFF161" rowspan="1" colspan="1">15</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">3</td><td align="center" valign="middle" style="background-color:#FF1107" rowspan="1" colspan="1">94</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">1</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">4</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">9</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">2</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">9</td><td align="center" valign="middle" style="background-color:#FFD555" rowspan="1" colspan="1">25</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">7</td><td align="center" valign="middle" style="background-color:#FFF161" rowspan="1" colspan="1">15</td><td align="center" valign="middle" style="background-color:#FF3315" rowspan="1" colspan="1">82</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">4</td><td align="center" valign="middle" style="background-color:#FFF161" rowspan="1" colspan="1">15</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">8</td><td align="center" valign="middle" style="background-color:#FFE95D" rowspan="1" colspan="1">18</td><td align="center" valign="middle" style="background-color:#FFA843" rowspan="1" colspan="1">41</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">6</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">6</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">14</td><td align="center" valign="middle" style="background-color:#FF5E26" rowspan="1" colspan="1">67</td><td align="center" valign="middle" style="background-color:#FFDD59" rowspan="1" colspan="1">22</td><td align="center" valign="middle" style="background-color:#FFCF53" rowspan="1" colspan="1">27</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">10</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">15</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="background-color:#FFEE60" rowspan="1" colspan="1">16</td><td align="center" valign="middle" style="background-color:#FFEE60" rowspan="1" colspan="1">16</td><td align="center" valign="middle" style="background-color:#FF250F" rowspan="1" colspan="1">87</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">17</td><td align="center" valign="middle" style="background-color:#FF0904" rowspan="1" colspan="1">97</td><td align="center" valign="middle" style="background-color:#FFD857" rowspan="1" colspan="1">24</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">0</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">6</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">18</td><td align="center" valign="middle" style="background-color:#FF9F40" rowspan="1" colspan="1">44</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">8</td><td align="center" valign="middle" style="background-color:#FF6629" rowspan="1" colspan="1">64</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">9</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">19</td><td align="center" valign="middle" style="background-color:#FFCC52" rowspan="1" colspan="1">28</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">0</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">0</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">3</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">20</td><td align="center" valign="middle" style="background-color:#FFE05A" rowspan="1" colspan="1">21</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">2</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">1</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">1</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">21</td><td align="center" valign="middle" style="background-color:#FF3616" rowspan="1" colspan="1">81</td><td align="center" valign="middle" style="background-color:#FFFA64" rowspan="1" colspan="1">12</td><td align="center" valign="middle" style="background-color:#FFC14E" rowspan="1" colspan="1">32</td><td align="center" valign="middle" style="background-color:#FFDD59" rowspan="1" colspan="1">22</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">22</td><td align="center" valign="middle" style="background-color:#FF993E" rowspan="1" colspan="1">46</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">9</td><td align="center" valign="middle" style="background-color:#FFBB4B" rowspan="1" colspan="1">34</td><td align="center" valign="middle" style="background-color:#FF2E13" rowspan="1" colspan="1">84</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">23</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">0</td><td align="center" valign="middle" style="background-color:#FFFD65" rowspan="1" colspan="1">11</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">0</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">7</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">24</td><td align="center" valign="middle" style="background-color:#FFC750" rowspan="1" colspan="1">30</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="background-color:#FFB94A" rowspan="1" colspan="1">35</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">8</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">25</td><td align="center" valign="middle" style="background-color:#FFDD59" rowspan="1" colspan="1">22</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">8</td><td align="center" valign="middle" style="background-color:#FFD857" rowspan="1" colspan="1">24</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">6</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">26</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">7</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">3</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">8</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">27</td><td align="center" valign="middle" style="background-color:#FF0C05" rowspan="1" colspan="1">96</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">7</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">1</td><td align="center" valign="middle" style="background-color:#FF0302" rowspan="1" colspan="1">99</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">28</td><td align="center" valign="middle" style="background-color:#FFF161" rowspan="1" colspan="1">15</td><td align="center" valign="middle" style="background-color:#FF3114" rowspan="1" colspan="1">83</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">2</td><td align="center" valign="middle" style="background-color:#FFA241" rowspan="1" colspan="1">43</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">29</td><td align="center" valign="middle" style="background-color:#FF220E" rowspan="1" colspan="1">88</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">0</td><td align="center" valign="middle" style="background-color:#FFBE4C" rowspan="1" colspan="1">33</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">8</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">30</td><td align="center" valign="middle" style="background-color:#FFC750" rowspan="1" colspan="1">30</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">6</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">4</td><td align="center" valign="middle" style="background-color:#FFFF66" rowspan="1" colspan="1">3</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">31</td><td align="center" valign="middle" style="background-color:#FFE05A" rowspan="1" colspan="1">21</td><td align="center" valign="middle" style="background-color:#FF913A" rowspan="1" colspan="1">49</td><td align="center" valign="middle" style="background-color:#FFB348" rowspan="1" colspan="1">37</td><td align="center" valign="middle" style="background-color:#FF692A" rowspan="1" colspan="1">63</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">32</td><td align="center" valign="middle" style="background-color:#FF0F06" rowspan="1" colspan="1">95</td><td align="center" valign="middle" style="background-color:#FF170A" rowspan="1" colspan="1">92</td><td align="center" valign="middle" style="background-color:#FF7730" rowspan="1" colspan="1">58</td><td align="center" valign="middle" style="background-color:#FF170A" rowspan="1" colspan="1">92</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">33</td><td align="center" valign="middle" style="background-color:#FF0603" rowspan="1" colspan="1">98</td><td align="center" valign="middle" style="background-color:#FFC14E" rowspan="1" colspan="1">32</td><td align="center" valign="middle" style="background-color:#FFC750" rowspan="1" colspan="1">30</td><td align="center" valign="middle" style="background-color:#FF6F2D" rowspan="1" colspan="1">61</td></tr></tbody></table></table-wrap></floats-group></article></pmc-articleset>

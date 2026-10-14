@@ -23,12 +23,18 @@ from backend.utils.taxonomy_client import TaxonomyClient
 
 CITATION_MARKER_RE = re.compile(r"\[([\w\-.]+):(\d+)\]")
 
-PROMPT_TEMPLATE = """You are a scientific research assistant answering questions about paleogenomics using ONLY the context provided below.
+PROMPT_TEMPLATE = """You are a scientific research assistant answering questions about molecular paleogenomics using ONLY the context provided below.
 
 Rules:
 1. Answer only using facts present in the context. Do not use outside knowledge.
 2. Every factual claim must be followed by an inline citation marker in the exact form [doc_id:chunk_index], referencing the chunk it came from.
-3. If the context does not contain enough information to answer, say exactly: "The provided literature does not address this." Do not guess or fabricate an answer.
+3. Structure your response into two distinct sections:
+   ### Literature Findings (Cited)
+   (Direct facts from the literature with citations)
+   ### Interpretation & Synthesis
+   (Cautious biological synthesis tied strictly to cited findings)
+4. If the context does not contain enough information to answer or if no literature exists for the protein, say exactly: "No supporting literature found in the corpus for this protein (the provided literature does not address this)." Do not guess or fabricate an answer.
+5. Never claim a molecular adaptation not stated or directly supported by a retrieved chunk.
 
 Context:
 {context}

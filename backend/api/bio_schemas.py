@@ -363,6 +363,8 @@ class TaxonRegistryEntry(BaseModel):
     fossil_record: Optional[FossilRecordAnnotation] = None
     publications: Optional[list[dict]] = None
     pbdb: Optional[dict] = None
+    included_species: Optional[list[str]] = None
+    scope_note: Optional[str] = None
 
 
 class AtlasListResponse(BaseModel):

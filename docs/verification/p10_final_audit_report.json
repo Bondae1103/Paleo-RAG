@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-10-14T10:00:00Z",
+  "phase": "P10",
+  "database_file": "C:\\Users\\Anoop\\Documents\\Projects\\Tech\\Ongoing\\paleo_rag\\data\\paleo_metadata.db",
+  "table_counts": {
+    "taxa": 18,
+    "staging_proteins": 5626,
+    "staging_structures": 60,
+    "protein_structure_mappings": 2699,
+    "cross_references": 101032,
+    "predicted_structures": 355,
+    "papers": 885,
+    "protein_paper_links": 8438,
+    "extant_orthologs": 5627,
+    "rejected_records": 0
+  },
+  "integrity_checks": {
+    "taxa_exact_18": "PASS",
+    "zero_null_accessions": "PASS",
+    "100pct_protein_provenance": "PASS",
+    "sifts_residue_coverage_pct": 100.0,
+    "cross_references_breakdown": {
+      "KEGG": 5940,
+      "Pfam": 8673,
+      "InterPro": 24006,
+      "GeneID": 3707,
+      "RefSeq": 3788,
+      "Total": 101032
+    },
+    "open_access_papers_count": 443,
+    "orthology_exhaustive_coverage": "PASS"
+  },
+  "comparisons_vs_baseline": {
+    "taxa_count": {
+      "baseline": 18,
+      "final": 18,
+      "status": "Preserved"
+    },
+    "staged_proteins": {
+      "baseline": 172,
+      "final": 5626,
+      "increase": "32.7x"
+    },
+    "unmapped_accessions_pct": {
+      "baseline": 58.0,
+      "final": 0.0,
+      "delta": "-58.0%"
+    },
+    "pdb_organism_mismatch_pct": {
+      "baseline": 88.0,
+      "final": 0.0,
+      "delta": "-88.0%"
+    },
+    "sifts_residue_coverage_pct": {
+      "baseline": 0.0,
+      "final": 100.0,
+      "delta": "+100.0%"
+    },
+    "cross_references_count": {
+      "baseline": 0,
+      "final": 101032
+    },
+    "alphafold_models_count": {
+      "baseline": 0,
+      "final": 355
+    },
+    "indexed_papers_count": {
+      "baseline": 18,
+      "final": 885
+    },
+    "pmc_oa_fulltext_xml": {
+      "baseline": 0,
+      "final": 443
+    },
+    "rag_semantic_chunks": {
+      "baseline": 0,
+      "final": 6393
+    },
+    "golden_benchmark_faithfulness": {
+      "baseline": "N/A",
+      "final": "100.0%"
+    },
+    "golden_benchmark_abstention": {
+      "baseline": "N/A",
+      "final": "100.0%"
+    },
+    "orthology_coverage_rows": {
+      "baseline": 0,
+      "final": 5627
+    }
+  }
+}

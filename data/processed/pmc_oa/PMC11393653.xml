@@ -1,0 +1,449 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="iso-abbrev">Vavilovskii Zhurnal Genet Selektsii</journal-id><journal-id journal-id-type="pmc-domain-id">3805</journal-id><journal-id journal-id-type="pmc-domain">vavilovjgb</journal-id><journal-id journal-id-type="nlm-id">101583566</journal-id><journal-title-group><journal-title>Vavilov Journal of Genetics and Breeding</journal-title></journal-title-group><issn pub-type="ppub">2500-0462</issn><issn pub-type="epub">2500-3259</issn><publisher><publisher-name>Institute of Cytology and Genetics, Siberian Branch of the Russian Academy of Science</publisher-name></publisher><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://vavilov.elpub.ru/jour/index">
+Website: Vavilov Journal of Genetics and Breeding
+</self-uri></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11393653</article-id><article-id pub-id-type="pmcid-ver">PMC11393653.1</article-id><article-id pub-id-type="pmcaid">11393653</article-id><article-id pub-id-type="pmcaiid">11393653</article-id><article-id pub-id-type="pmid">39280844</article-id><article-id pub-id-type="doi">10.18699/vjgb-24-63</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Phylogeography of the woolly mammoth (Mammuthus primigenius) in the Minusinsk Depression of southern Siberia
+in the Late Pleistocene</article-title><trans-title-group xml:lang="ru"><trans-title>Филогеография шерстистого мамонта (Mammuthus primigenius) в Минусинской котловине на Юге Сибири
+в позднем плейстоцене</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Modina</surname><given-names initials="SA">S.A.</given-names></name><aff>
+<institution>Institute of Molecular and Cellular Biology of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Novosibirsk State University, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Kusliy</surname><given-names initials="MA">M.A.</given-names></name><aff>
+<institution>Institute of Molecular and Cellular Biology of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Malikov</surname><given-names initials="DG">D.G.</given-names></name><aff>
+<institution>Institute of Molecular and Cellular Biology of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>V.S. Sobolev Institute of Geology and Mineralogy of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+</aff></contrib><contrib contrib-type="author"><name name-style="western"><surname>Molodtseva</surname><given-names initials="AS">A.S.</given-names></name><aff>
+<institution>Institute of Molecular and Cellular Biology of the Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution>
+<institution>Institute of Archaeology and Ethnography, Siberian Branch of the Russian Academy of Sciences, Novosibirsk, Russia</institution></aff></contrib></contrib-group><author-notes><fn><p>Correspondence to:
+<email/></p></fn></author-notes><pub-date pub-type="ppub"><month>9</month><year>2024</year></pub-date><volume>28</volume><issue>5</issue><issue-id pub-id-type="pmc-issue-id">470688</issue-id><fpage>571</fpage><lpage>577</lpage><history><date date-type="received"><day>06</day><month>12</month><year>2023</year></date><date date-type="rev-recd"><day>12</day><month>4</month><year>2024</year></date><date date-type="accepted"><day>13</day><month>5</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>09</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>14</day><month>09</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-09-26 13:25:35.920"><day>26</day><month>09</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright © AUTHORS</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.5/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 License</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="VJGB-28-2463.pdf"/><abstract><p>To date, a number of studies have been published on the phylogenetics of woolly mammoths (Mammuthus
+primigenius), ranging from analyses of parts of the mitochondrial genome to studies of complete nuclear genomes.
+However, until recently nothing was known about the genetic diversity of woolly mammoths in southern Siberia, in
+the Minusinsk Depression in particular. Within the framework of this effort, libraries for high-throughput sequencing
+of seven
+bone samples of woolly mammoths were obtained, two-round enrichment using biotinylated probes of modern
+mtDNA of Elephas maximus immobilised on magnetic microspheres and sequencing with subsequent bioinformatic
+analysis were carried out. Phylogenetic reconstructions showed the presence of all studied mammoths in clade
+I, which expanded its range. The assignment of mammoth mitotypes in the Minusinsk Depression to different clusters
+within clade I may indicate a sufficiently high diversity of their gene pool. Phylogeographic reconstructions revealed
+a genetic proximity
+of mitochondrial lineages of Late Pleistocene mammoths of the Minusinsk Depression and other
+regions of eastern Siberia and estimated their divergence time in the range of 100–150 thousand years ago, which
+indicates active migrations of woolly mammoths over vast territories of eastern Siberia in the late Middle Pleistoceneearly
+Late Pleistocene.</p></abstract><trans-abstract xml:lang="ru"><p>К настоящему времени опубликован ряд исследований о филогенетике шерстистых мамонтов
+(Mammuthus primigenius), начиная с анализа частей митохондриального генома и заканчивая изучением полных
+ядерных геномов. Однако до сих пор ничего не известно о генетическом разнообразии шерстистых мамонтов
+на Юге Сибири, в частности в Минусинской котловине. В рамках данной работы были получены библиотеки для
+высокопроизводительного секвенирования семи костных образцов шерстистых мамонтов, проведены двухраундное
+обогащение с использованием биотинилированных зондов современной мтДНК Elephas maximus, иммобилизованных на магнитные микросферы, и секвенирование с последующим биоинформационным анализом. Филогенетические реконструкции показали принадлежность всех исследованных нами вариантов мтДНК
+мамонтов к кладе I, что расширило ее ареал. Расположение митотипов мамонтов Минусинской котловины в разных субкладах внутри клады I может указывать на достаточно высокое разнообразие их генофонда. Филогеографические реконструкции выявили генетическую близость митохондриальных линий позднеплейстоценовых мамонтов Минусинской котловины и других регионов Восточной Сибири и их дивергенцию во временном
+промежутке от 100 до 150 тыс. лет назад, что свидетельствует об активных миграциях шерстистых мамонтов на
+обширных территориях Восточной Сибири в конце среднего–начале позднего плейстоцена.</p></trans-abstract><kwd-group><kwd>ancient DNA</kwd><kwd>woolly mammoth</kwd><kwd>phylogeography</kwd><kwd>mitochondrial genome</kwd><kwd>southern Siberia</kwd></kwd-group><kwd-group xml:lang="ru"><kwd>древняя ДНК</kwd><kwd>шерстистый мамонт</kwd><kwd>филогеография</kwd><kwd>митохондриальный геном</kwd><kwd>Южная Сибирь</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>The phylogeography of the woolly mammoth, one of the
+most important representatives of the mammoth fauna, is
+currently being studied on an extensive scientific basis. The
+Genbank database contains 32 mitogenomes of Mammuthus
+primigenius Blumenbach, 1799. According to palaeontological
+data, the common lineage of Asian elephants and woolly
+mammoths (Mammuthus primigenius) diverged from the
+lineage of African elephants (Loxodonta africana) 6 million
+years ago, and the divergence of the lineages of mammoths
+and Asian elephants (Elephas maximus) is dated by genetic
+data to 440 thousand–2 million years ago (Krause et al., 2006;
+Rogaev et al., 2006).</p><p>In 2007, the results of one of the first studies of the phylogeographic
+relationships of mitochondrial lineages from a
+large and diverse sample of woolly mammoths were published,
+based on mixed sequence analysis of 741 bp of the mitogenome
+(three genes plus part of the control region) (Barnes
+et al., 2007). The sample included 41 woolly mammoths
+from Europe, Asia (western Beringia, Kamchatka Peninsula,
+north-central Siberia) and North America (eastern Beringia).
+The samples ranged in age from 12 to 51 thousand years. The
+study identified two major mitogroups of woolly mammoths
+that existed in western and eastern Siberia, the Far East and
+Alaska, as well as a mitochondrial lineage of mammoths from
+the European region. The first mitogroup was distributed in
+Siberia and North America, while the second was restricted
+to the north of eastern Siberia, between the Lena and Kolyma
+river valleys. Sequence analysis of the 743 bp hypervariable
+region of the mitogenome of 160 mammoths from the Holarctic
+region of Eurasia and North America revealed 80 haplotypes
+forming five haplogroups (A–E), which form three
+major clades (A, B and C+D+E), the clustering of which is
+supported by high posterior probabilities. Clade A contains
+only Asian mitotypes, clade C contains only North American
+mitotypes, and the remaining haplogroups are mixed (Debruyne
+et al., 2008). However, the studies discussed above
+only focused on partial mitogenome sequences, which, unlike
+complete sequences, do not provide such a clear resolution
+of phylogeny.</p><p>Studies of 18 complete woolly mammoth mitogenomes
+confirmed the presence of two mitogroups in Siberia during
+the Late Pleistocene (Krause et al., 2006; Poinar et al., 2006;
+Rogaev et al., 2006; Gilbert et al., 2007). One of the clades
+was stably represented in the gene pool of the populations for
+a long time, while representatives of the second clade became
+extinct. The disappearance of the second clade may be related
+to its limited distribution (Payne, Finnegan, 2007).</p><p>There is disagreement about the timing of intraspecific divergence
+of mammoths. Some researchers suggest 1–2 million
+years ago (Gilbert et al., 2007), while others suggest around
+1 million years ago based on phylogenetic reconstructions
+(Van der Valk et al., 2021). The representativeness of data
+on the diversity of mitochondrial DNA variants belonging
+to clades I and II is low, especially for Siberian populations;
+therefore, further study of local series of mtDNA samples from
+different regions is necessary for a complete understanding
+of the genetic diversity of woolly mammoths in this region.</p><p>Nuclear genome analyses have confirmed the closeness of
+woolly mammoths to Asian elephants (Greenwood et al., 1999;
+Capelli et al., 2006; Miller et al., 2008)) and estimated the
+time of divergence of mammoths and African elephants (Elephas
+maximus) at 5–6 million years ago (Poinar et al., 2006).
+Separate studies of nuclear genome sequences also suggest
+two mammoth lineages that diverged 1.5–2 million years ago
+(Miller et al., 2008). Whole-genome analyses, however, suggest
+that the split occurred between 50 and 155 thousand years
+ago (Palkopoulou et al., 2015). Studies of the nuclear genomes
+of Early and Middle Pleistocene mammoths also suggest the
+existence of two lineages in eastern Siberia, only one of which
+represents the ancestor of the woolly mammoth.</p><p>It should be emphasized that the samples studied so far from
+Siberia and the Far East are from the northern and eastern
+regions. Molecular genetic studies of samples from geographically
+isolated areas are revealing new genetic diversity, such
+as the presence of a second mitogroup of woolly mammoths
+in the northern part of eastern Siberia (Gilbert et al., 2007).
+Additional analyses of mammoth DNA samples from different
+regions of Siberia are allowing us to expand our understanding
+of the phylogenetic diversity of mammoth mtDNA and
+the specifics of its phylogeography. For example, a woolly
+mammoth genetic lineage was discovered in Taymyr that
+was previously thought to be characteristic only of Europe
+(Maschenko et al., 2017). Mammoths of southern Siberia
+remain understudied at the molecular genetic level, although
+these data are important for assessing the peculiarities of local
+mammoth genetic diversity and the specifics of the evolution
+of regional mammoth populations. To fill this gap, we studied
+the ancient DNA of woolly mammoths from the Minusinsk
+Depression.</p><p>Working with ancient DNA is challenging due to its low
+content, degradation and chemical changes, and possible contamination
+of samples by microorganisms (Pääbo et al., 2004;
+Brotherton et al., 2007; Carpenter et al., 2013). One of the key
+approaches to overcome these difficulties is the enrichment of
+genomic libraries with targeted DNA fragments</p><p>Hybridisation capture has a number of advantages over PCR
+(Meyer, Kircher, 2010; Horn, 2012). Hybridisation capture
+involves the preparation of a genomic library and target DNA
+fragments, their hybridisation and subsequent separation using
+magnetic particles. Hybridisation capture methods such as
+primer extension capture or multiplex capture of target fragments
+have been shown to be fast and efficient (Briggs et al.,
+2009; Maricic et al., 2010).</p><p>In our study, we use the enrichment method proposed by
+T. Maricic, M. Whitten and S. Pääbo (Maricic et al., 2010) with two rounds of hybridisation, which has been shown many
+times (Reich et al., 2010; Dabney et al., 2013; Thalmann et
+al., 2013; Vorobieva et al., 2020; Kusliy et al., 2021) to be
+a highly efficient approach for the analysis of the complete
+mitochondrial genome in ancient samples</p></sec><sec><title>Materials and methods</title><p>The material for the study was collected by D.G. Malikov
+during expeditionary work in 2011–2021, as well as partially
+obtained from the collections of the Zoological Museum of
+the N.F. Katanov Khakass State University (ZM KSU) and
+the L.R. Kyzlasov Khakass National Museum of Local Lore
+(KNMLL). Territorially, the bone remains cover all parts of
+the Minusinsk Depression (Fig. 1) and come from six localities
+of different geological age (see the Table).</p><fig position="float" id="Fig-1" orientation="portrait"><label>Fig. 1.</label><caption><title>Map of locations of remains of woolly mammoths (Mammuthus primigenius) from the Minusinsk Depression.</title><p>Locations (red circles) are marked with numbers that correspond to the numbers in the Table (Malikov et al., 2023).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2463-Fig1.jpg"/></fig><fig position="float" id="Tab-1" orientation="portrait"><label>Table 1.</label><caption><title>Information on bone material</title><p>* Data obtained from other samples from the collection.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2463-Tab1.jpg"/></fig><p>14C dates were obtained for all samples (except MAM3)
+and were previously published in a summary (Malikov et al.,
+2023). Dating was performed at the Laboratory of Cenozoic
+Geology, Palaeoclimatology and Mineralogical Indicators of
+Climate, V.S. Sobolev Institute of Geology and Mineralogy
+(IGM) SB RAS by the benzene scintillation method. For
+specimen MAM3 from the Pervomayskoye locality, the age
+was determined on the basis of 14C dates obtained from other
+M. primigenius remains from this locality with similar preservation
+of bone material. For radiocarbon dating and DNA
+extraction, different parts of the same bone remains were used,
+which were not pre-treated with chemical reagents.</p><p>The isolation of ancient DNA from bone powder was performed
+according to the protocol described in the article by
+H. Yang et al. (Yang et al., 1998). Оbservance of all criteria of purity and authenticity of the DNA samples obtained (Gilbert
+et al., 2007). As part of this work, we obtained mitogenomic
+libraries for high-throughput sequencing from seven woolly
+mammoths from the Minusinsk Depression (southern Siberia),
+17–30 thousand years old, using the TruSeq Nano
+Library Prep Kit (Illumina) according to the manufacturer’s
+protocol. For these libraries, we performed a two-round
+enrichment by hybridisation with biotinylated fragments of
+modern mitochondrial DNA from Elephas maximus L., 1758,
+immobilised on Dynabeads® Streptavidin magnetic particles
+(Life Technologies, USA), which allowed us to significantly
+increase the proportion of endogenous ancient mitochondrial
+DNA.</p></sec><sec><title>Results</title><p>The characteristics of seven sequences of mitogenomes of Late
+Pleistocene woolly mammoths from the Minusinsk Depression
+studied by us are presented in the summary table (https://docs.
+google.com/spreadsheets/d/1XaSB-cb14rxNy0aas5xDLUiI_
+YiKeBSy-_Kwe1Rt2KQ/edit?usp=sharing). The average
+depth of coverage of the characterised mitogenomes varies
+from 0.5 to 15.5x, and the width of coverage ranges from 38
+to 99.5 % of the reference mitogenome length. The average
+percentage of uniquely mapped pooled reads to total pooled
+reads is 7.9 %. Based on the values of base deamination frequency
+and average size of DNA fragments obtained, we can
+conclude that the mammoth bone samples from the Minusinsk
+Depression have a high degree of DNA preservation, most
+likely due to relatively good environmental conditions for
+DNA preservation.</p><p>Only specimens with sufficient breadth (more than 70 %),
+depth of mitogenome coverage (more than 2) and radiocarbon
+dates were used to construct a phylogenetic tree with a
+certain time of divergence of genetic lineages (Fig. 2). These
+criteria were met by five of the seven specimens examined.
+The same selection criteria were used to include sequences from previously published woolly mammoth mitogenomes in
+the analysis. The analysis was performed using the BEAST
+software platform, based on the topology of a constructed
+tree with an uncertain time of divergence of genetic lineages</p><fig position="float" id="Fig-2" orientation="portrait"><label>Fig. 2.</label><caption><title>BEAST phylogenetic reconstructions based on mtDNA sequences of five woolly mammoths from the Minusinsk Depression and 25 previously
+published mtDNA sequences of woolly mammoths from the Genbank database</title><p>The phylogenetic tree was constructed using the BEAST software platform with internal calibration of branch divergence time based on radiocarbon dating of
+samples. The colours of the squares reflect the geographical origin of the samples: Central region – part of Siberia washed by the Kolyma and Lena rivers; Eastern
+region – part of Siberia east of the Kolyma River; Western region – part of Siberia east of 70° E and west of the Lena River; Wrangel Island – a group of islands in
+northeastern Siberia. The Bayesian posterior probability of the tree topology is greater than 0.75 in all cases except where this is indicated as numbers next to the
+tree nodes. The light grey lines through the tree nodes denote the standard deviation of the median estimates of divergence times. The radiocarbon dating of
+each specimen is given next to the name of each specimen after the “_” sign.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="VJGB-28-2463-Fig2.jpg"/></fig><p>The divergence of the genetic lineages of woolly mammoths
+from the Minusinsk Depression from the most genetically
+similar mammoths from other regions of eastern Siberia occurred
+in the time interval between 150 and 100 thousand
+years ago. Woolly mammoths from the Minusinsk Depression
+form sister clades with woolly mammoths from other represented
+regions of Siberia (Wrangel Island, central, western
+and eastern regions), which distinguishes them from some
+other studied local groups of mammoths, such as the mammoths
+from Wrangel Island, which were in a stage of reduced
+genetic diversity.</p></sec><sec><title>Discussion</title><p>This study allows us to estimate the mitochondrial genetic
+diversity of woolly mammoths in the Minusinsk Depression.
+The phylogenetic reconstruction obtained shows that
+the divergence of two clades of woolly mammoths occurred
+1–2 million years ago, which correlates with the results of
+studies of complete mammoth mitochondrial and nuclear
+genomes described in the introduction (Gilbert et al., 2008;
+Miller et al., 2008). The divergence of the genetic lineages
+of mammoths from the Minusinsk Depression and the most
+genetically similar genetic lineages of mammoths from other
+regions of eastern Siberia occurred in the time interval from
+150 to 100 thousand years ago. The structure of the phylogenetic
+tree we constructed indicates that the mtDNA sequences
+of woolly mammoths from the Minusinsk Depression do not
+form a separate clade on the tree, but are dispersed in different
+clusters of clade I. At the same time, mtDNA sequences
+of mammoths from the Minusinsk Depression form sister
+clades with mtDNA sequences of woolly mammoths from
+other represented regions of Siberia (Wrangel Island, central,
+western and eastern regions), which may indicate intensive
+mammoth migrations across large areas of eastern Siberia in
+the late Middle to early Late Pleistocene.</p><p>The placement of mitotypes of Late Pleistocene mammoths
+from the Minusinsk Depression in different clades within
+clade I, in contrast to Holocene mammoths from Wrangel
+Island, indicates a low probability that they were on the verge
+of extinction during this period. At this stage, we propose two
+possible explanations for their position on the phylogenetic
+tree: 1) the samples studied belong to a single (permanent in
+the region) population of mammoths characterised by high
+phylogenetic diversity of mtDNA; 2) the samples studied
+were obtained from representatives of different mammoth
+populations that migrated independently through the Minusinsk
+Depression during the Late Pleistocene. At this stage we
+have arguments “for” and “against” each of the versions. For
+example, the fact that some of the specimens from localities
+of different geological age form either single or closely related
+clades (Fig. 2), regardless of their geological age and location,
+may support the idea that the mammoths of the Minusinsk
+Depression studied by us belong to a single population. In
+addition,
+the revealed isotopic signal of carbon and nitrogen
+stable isotopes (δ13C and δ15N) in mammoths from the Minusinsk
+Depression differs significantly from those in northern
+populations of the species (Malikov et al., 2023). This suggests
+that the animals lived in this region for a relatively long time,
+which is reflected in their isotopic indices.</p><p>At the same time, the wide dispersal of the mammoths
+studied on the general phylogenetic tree may indicate that they
+belonged to different populations. In support of this version,
+it should be noted that there are currently no mammoth finds
+in the region under consideration that can be confidently attributed
+to warm Late Pleistocene. It is possible that during
+the warm intervals of the Late Pleistocene, conditions in
+southern Siberia were unfavourable for the permanent habitat
+of M. primigenius. In this case, representatives of the species
+could only repeatedly migrate into the depression during cold
+periods.
+Furthermore, modern African elephants are known
+to live in small groups of 6–8 individuals with seasonal home
+ranges of 130–1,600 km2 (Nasimovich, 1975). However,
+under
+unfavourable conditions, individual elephant movements
+can reach 32,000 km2 per year (Wall et al., 2013). The
+total area of the Minusinsk intermountain trough (including
+the Nazarovskaya Depression) is approximately 100,000 km2
+(Vorontsov, 2012). The maximum length of the Minusinsk
+Depression in the northwestern direction is about 450 km,
+with a maximum width (along the southern Minusinsk trough)
+of ~400 km. Consequently, the total area of the region is only
+sufficient to support a small population of large animals such
+as mammoths. This suggests that the area of the Minusinsk
+Depression is insufficient to support permanent populations
+of M. primigenius. This is because the resource base of the
+depression is limited and the annual seasonal migrations of
+the species are comparable to or exceed the size of the depression
+itself.</p><p>Another argument for the migratory nature of the Minusinsk
+Depression mammoth population is the fact that two
+samples from the Novoselovo alluvial site (MAM4 and
+MAM5) showed maximum genetic distance (Fig. 2). On the
+contrary, samples from the Pervomayskoye (MAM3) and
+Izykh (MAM2) localities formed a single group. Although the
+sites are more than 100 km apart, they date to approximately
+the same time interval (about 21.8 thousand years ago). It is
+possible that these individuals belong to a single population
+that migrated into the region from time to time, possibly over
+a long period of time.</p><p>If the second concept is true, the data obtained can be regarded
+as confirmation of the local extinction of mammoths in
+the Minusinsk Depression at the Pleistocene-Holocene boundary,
+which was probably caused by the development of taiga
+and forest-steppe landscapes in western and eastern Siberia.
+As a result, the replenishment of populations of herbivorous
+mammals of the Minusinsk Depression and their seasonal
+migrations stopped (Malikov, 2015).</p></sec><sec id="Conclusion"><title>Conclusion</title><p>In summary, climate change from the Late Glacial to the Holocene
+resulted in a reduction of open areas in Eurasia, which
+in turn reduced the habitat area of mammoths and other steppe
+animals. This process involved complex changes in climate
+and vegetation in space and time, the survival of species in
+refugia, local extinctions and temporary expansion of habitats</p><p>One of the most effective approaches to a detailed reconstruction
+of these processes is the study of local series of mammoth mitochondrial DNA samples belonging to different
+chronological periods. Our study is a step in this direction</p><p>It is necessary to continue palaeontological and molecular
+genetic studies of woolly mammoths in isolated regions of
+Siberia in order to fully determine their genetic diversity and
+the causes of their extinction in this locality. It is preferable to
+study complete genomes, which will make phylogeographic
+analyses more accurate and reliable.</p></sec><sec sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="References"><title>References</title><p>Barnes I., Shapiro B., Lister A., Kuznetsova T., Sher A., Guthrie D.,
+Thomas M. Genetic structure and extinction of the woolly mammoth,
+Mammuthus primigenius. Curr. Biol. 2007;17(12):1072-1075.
+DOI 10.1016/j.cub.2007.05.035</p><p>Briggs A.W., Good J.M., Green R.E., Krause J., Maricic T., Stenzel
+U., Lalueza-Fox C., Rudan P., Brajkovic D., Kucan Z., Gusic I.,
+Schmitz R., Doronichev V.B., Golovanova L.V., Rasilla M., Fortea
+J., Rosas A., Paabo S. Targeted retrieval and analysis of five neandertal
+MtDNA genomes. Science. 2009;325(5938):318-321. DOI
+10.1126/science.1174462</p><p>Brotherton P., Endicott P., Sanchez J.J., Beaumont M., Barnett R., Austin
+J., Cooper A. Novel high-resolution characterization of ancient
+DNA reveals C &gt; U-type base modification events as the sole cause
+of post mortem miscoding lesions. Nucleic Acids Res. 2007;35(17):
+5717-5128. DOI 10.1093/nar/gkm588</p><p>Capelli C., MacPhee R.D.E., Roca A.L., Brisighelli F., Georgiadis N.,
+O’Brien S.J., Greenwood A.D. A nuclear DNA phylogeny of the
+woolly mammoth (Mammuthus primigenius). Mol. Phylogen. Evol.
+2006;40(2):620-627. DOI 10.1016/j.ympev.2006.03.015</p><p>Carpenter M.L., Buenrostro J.D., Valdiosera C., Schroeder H., Allentoft
+M.E., Sikora M., Rasmussen M., Gravel S., Guillén S., Nekhrizov
+G., Leshtakov K., Dimitrova D., Theodossiev N., Pettener D.,
+Luiselli D., Sandoval K., Moreno-Estrada A., Li Y., Wang J., Gilbert
+M.T.P., Willerslev E., Greenleaf W.J., Bustamante C.D. Pulling
+out the 1 %: whole-genome capture for the targeted enrichment of
+ancient DNA sequencing libraries. Am. J. Hum. Genet. 2013;93(5):
+852-864. DOI 10.1016/j.ajhg.2013.10.002</p><p>Dabney J., Knapp M., Glocke I., Gansauge M.T., Weihmann A.,
+Nickel
+B., Valdiosera C., Garcia N., Paabo S., Arsuaga J.L.,
+Meyer
+M. Complete mitochondrial genome sequence of a middle
+pleistocene cave bear reconstructed from ultrashort DNA fragments.
+Proc. Natl. Acad. Sci. USA. 2013;110(39):15758-15763. DOI
+10.1073/pnas.1314445110</p><p>Debruyne R., Chu G., King C.E., Bos K., Kuch M., Schwarz C.,
+Szpak
+P., Gröcke D.R., Matheus P., Zazula G., Guthrie D., Froese
+D., Buigues B., Marliave C., Flemming C., Poinar D., Fisher D.,
+Southon J., Tikhonov A.N., MacPhee R.D.E., Poinar H.N. Out of
+America: ancient DNA evidence for a new world origin of late quaternary
+woolly mammoths. Curr. Biol. 2008;18(17):1320-1326. DOI
+10.1016/j.cub.2008.07.061</p><p>Gilbert M.T.P., Tomsho L.P., Rendulic S., Packard M., Drautz D.I.,
+Sher A., Tikhonov A., Dalen L., Kuznetsova T., Kosintsev P., Campos
+P.F., Higham T., Collins M.J., Wilson A.S., Shidlovskiy F.,
+Buigues B., Ericson P.G.P., Germonpre M., Gotherstrom A., Iacumin
+P., Nikolaev V., Nowak-Kemp M., Willerslev E., Knight J.R.,
+Irzyk G.P., Perbost C.S., Fredrikson K.M., Harkins T.T., Sheridan S.,
+Miller W., Schuster S.C. Whole-genome shotgun sequencing of mitochondria
+from ancient hair shafts. Science. 2007;317(5846):1927-
+1930. DOI 10.1126/science.1146971</p><p>Greenwood A.D., Capelli С., Possnert G., Paabo S. Nuclear DNA sequences
+from late Pleistocene megafauna. Mol. Biol. Evol. 1999;
+16(11):1466-1473. DOI 10.1093/oxfordjournals.molbev.a026058</p><p>Horn S. Target enrichment via DNA hybridization capture. In: Shapiro
+B., Hofreiter M. (Eds.) Ancient DNA. Methods in molecular
+biology. Vol. 840. Humana Press, 2012;177-188. DOI 10.1007/978-
+1-61779-516-9_21</p><p>Krause J., Dear P.H., Pollack J.L., Slatkin M., Spriggs H., Barnes I.,
+Lister A.M., Ebersberger I., Pääbo S., Hofreiter M. Multiplex amplification
+of the mammoth mitochondrial genome and the evolution
+of elephantidae. Nature. 2006;439(7077):724-727. DOI 10.1038/
+nature04432</p><p>Kusliy M.A., Vorobieva N.V., Tishkin A.A., Makunin A.I., Druzhkova
+A.S., Trifonov V.A., Iderkhangai T.O., Graphodatsky A.S. Traces
+of Late Bronze and Early Iron age Mongolian horse mitochondrial
+lineages in modern populations. Genes. 2021;12(3):412. DOI
+10.3390/genes12030412</p><p>Malikov D.G. Large Mammals of the Middle-Late Neopleistocene of
+the Minusinsk Depression, Stratigraphic Significance and Palaeozoogeography.
+Cand. geol. and mineral. sci. diss. Tomsk, 2015 (in
+Russian)</p><p>Malikov D.G., Svyatko S.V., Pyryaev A.N., Kolobova K.A., Ovchinnikov
+I.Yu., Malikova E.L. New data on the distribution and isotopic
+characteristics of woolly mammoth remains, Mammuthus
+primigenius (Proboscidea, Elephantidae), in the Late Pleistocene
+of the Minusinsk Depression (South Siberia). Zoologičeskij
+Žurnal = Journal of Zoology. 2023;102(8):924-938. DOI 10.31857/
+S004451342308007X (in Russian)</p><p>Maricic T., Whitten M., Pääbo S. Multiplexed DNA sequence capture
+of mitochondrial genomes using PCR products. PLoS One. 2010;
+5(11):e14004. DOI 10.1371/journal.pone.0014004</p><p>Maschenko E.N., Potapova O.R., Vershinina A., Shapiro B., Streletskaya
+I.D., Vasiliev A.A., Oblogov G.E., Kharlamova A.S., Potapov
+E., Plicht J., Tikhonov A.N., Serdyuk N.V., Tarasenko K.K. The
+Zhenya mammoth (Mammuthus primigenius (Blum.)): taphonomy,
+geology, age, morphology and ancient DNA of a 48,000 year old
+frozen mummy from western Taimyr, Russia. Quat. Int. 2007;445:
+104-134. DOI 10.1016/j.quaint.2017.06.055</p><p>Meyer M., Kircher M. Illumina sequencing library preparation for
+highly multiplexed target capture and sequencing. Cold Spring
+Harb. Protoc. 2010;2010(6):pdb.prot5448-pdb.prot5448</p><p>Miller W., Drautz D.I., Ratan A., Pusey B., Qi J., Lesk A.M., Tomsho
+L.P., Packard M.D., Zhao F., Sher A., Tikhonov A., Raney B.,
+Patterson N., Lindblad-Toh K., Lander E.S., Knight J.R., Irzyk G.P.,
+Fredrikson K.M., Harkins T.T., Sheridan S., Pringle T., Schuster
+S.C. Sequencing the nuclear genome of the extinct woolly
+mammoth. Nature.
+2008;456(7220):387-390. DOI 10.1101/pdb.
+prot5448</p><p>Nasimovich A.A. African Elephant. Moscow: Nauka Publ., 1975 (in
+Russian)</p><p>Pääbo S., Poinar H., Serre D., Jaenicke-Despres V., Hebler J., Rohland
+N., Kuch M., Krause J., Vigilant L., Hofreiter M. Genetic analyses
+from ancient DNA. Annu. Rev. Genet. 2004;38:645-679. DOI
+10.1146/annurev.genet.37.110801.143214</p><p>Palkopouloue E., Mallick S., Skoglund P., Enk J., Rohland N., Li H.,
+Omrak A., Vartanyan S., Poinar H., Götherström A., Reich D., Dalén
+L. Complete genomes reveal signatures of demographic and
+genetic declines in the woolly mammoth. Curr. Biol. 2015;25(10):
+1395-1400. DOI 10.1016/j.cub.2015.04.007</p><p>Payne J.L., Finnegan S. The effect of geographic range on extinction
+risk during background and mass extinction. Proc. Natl. Acad. Sci.
+USA. 2007;104(25):10506-10511. DOI 10.1073/pnas.0701257104</p><p>Poinar H.N., Schwarz C., Qi J., Shapiro B., MacPhee R.D.E., Buigues B.,
+Tikhonov A., Huson D.H., Tomsho L.P., Auch A., Rampp M., Miller
+W., Schuster S.C. Metagenomics to paleogenomics: large-scale
+sequencing of mammoth DNA. Science. 2006;311(5759):392-394.
+DOI 10.1126/science.1123360</p><p>Reich D., Green R.E., Kircher M., Krause J., Patterson N., Durand E.Y.,
+Viola B., Briggs A.W., Stenzel U., Johnson P.L.F., Maricic T.,
+Good J.M., Marques-Bonet T., Alkan C., Fu Q., Mallick S., Li H.,
+Meyer M., Eichler E.E., Stoneking M., Richards M., Talamo S.,
+Shunkov M.V., Derevianko A.P., Hublin J.J., Kelso J., Slatkin M.,
+Pääbo S. Genetic history of an archaic hominin group from Denisova
+Cave in Siberia. Nature. 2010;468(7327):1053-1060. DOI
+10.1038/nature09710</p><p>Rogaev E.I., Moliaka Y.K., Malyarchuk B.A., Kondrashov F.A., Derenko
+M.V., Chumakov I., Grigorenko A.P. Complete mitochondrial genome
+and phylogeny of pleistocene mammoth Mammuthus primigenius.
+PLoS Biol. 2006;4(3):e73. DOI 10.1371/journal.pbio.0040073</p><p>Thalmann O., Shapiro B., Cui P., Schuenemann V.J., Sawyer S.K.,
+Greenfield D.L., Germonpré M.B., Sablin M.V., López-Giráldez F.,
+Domingo-Roura X., Napierala H., Uerpmann H.P., Loponte D.M.,
+Acosta A.A., Giemsch L., Schmitz R.W., Worthington B., Buikstra
+J.E., Druzhkova A.S., Graphodatsky A.S., Ovodov N.D.,
+Wahlberg
+N., Freedman A.H., Schweizer R.M., Koepfli K.P., Leonard
+J.A., Meyer M., Krause J., Pääbo S., Green R.E., Wayne R.K.
+Complete mitochondrial genomes of ancient canids suggest a European
+origin of domestic dogs. Science. 2013;342(6160):871-874.
+DOI 10.1126/science.1243650</p><p>Van der Valk T., Pečnerová P., Díez-del-Molino D., Bergström A.,
+Oppenheimer J., Hartmann S., Xenikoudakis G., Thomas J.A., Dehasque
+M., Sağlıcan E., Fidan F.R., Barnes I., Liu S., Somel M.,
+Heintzman P.D., Nikolskiy P., Shapiro B., Skoglund P., Hofreiter
+M., Lister A.M., Götherström A., Dalén L. Million-year-old DNA
+sheds light on the genomic history of mammoths. Nature. 2021;
+591(7849):265-269. DOI 10.1038/s41586-021-03224-9</p><p>Vorobieva N.V., Makunin A.I., Druzhkova A.S., Kusliy M.A., Trifonov
+V.A., Popova K.O., Polosmak N.V., Molodin V.I., Vasiliev S.K.,
+Shunkov M.V., Graphodatsky A.S. High genetic diversity of ancient
+horses from the Ukok Plateau. Plos One. 2020;15(11):e0241997.
+DOI 10.1371/journal.pone.0241997</p><p>Vorontsov A.A. Regularities of the formation of volcanics of the Minusinsk
+Basin in the Devonian (according to geological and isotopicgeochemical
+data). In: Proceedings of the All-Russia Meeting “Modern
+Problems of Geochemistry”. Irkutsk,
+2012;36-39 (in Russian)</p><p>Wall J., Wittemyer G., Klinkenberg B., LeMay V., Douglas-Hamilton I.
+Characterizing properties and drivers of long distance movements
+by elephants (Loxodonta africana) in the Gourma, Mali. Biol. Conserv.
+2013;157:60-68. DOI 10.1016/j.biocon.2012.07.019</p><p>Yang H., Golenberg E.M., Shoshani J. Phylogenetic resolution within
+the Elephantidae using fossil DNA sequence from the American
+mastodon (Mammut americanum) as an outgroup. Proc. Natl. Acad.
+Sci. USA. 1996;93(3):1190-1194. DOI 10.1073/pnas.93.3.1190</p></sec></body><back><ack><p>This work was supported by Russian Science Foundation grant 23-74-10060,
+https://rscf.ru/project/23-74-10060/.</p></ack></back></article></pmc-articleset>

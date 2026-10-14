@@ -1,0 +1,509 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xml:lang="EN" article-type="rapid-communication" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Med Chem Lett</journal-id><journal-id journal-id-type="iso-abbrev">ACS Med Chem Lett</journal-id><journal-id journal-id-type="pmc-domain-id">2426</journal-id><journal-id journal-id-type="pmc-domain">acsmedlett</journal-id><journal-id journal-id-type="nlm-id">101521073</journal-id><journal-id journal-id-type="publisher-id">ml</journal-id><journal-title-group><journal-title>ACS Medicinal Chemistry Letters</journal-title></journal-title-group><issn pub-type="epub">1948-5875</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9841593</article-id><article-id pub-id-type="pmcid-ver">PMC9841593.1</article-id><article-id pub-id-type="pmcaid">9841593</article-id><article-id pub-id-type="pmcaiid">9841593</article-id><article-id pub-id-type="pmid">36655124</article-id><article-id pub-id-type="doi">10.1021/acsmedchemlett.2c00434</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group><subject>Letter</subject></subj-group></article-categories><title-group><article-title>Carboxylic
+Acid Isostere Derivatives of Hydroxypyridinones
+as Core Scaffolds for Influenza Endonuclease Inhibitors</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5965-5421</contrib-id><name name-style="western"><surname>Stokes</surname><given-names initials="RW">Ryjul
+W.</given-names></name><xref rid="aff1" ref-type="aff">†</xref><xref rid="notes-2" ref-type="notes">‡</xref></contrib><contrib contrib-type="author" id="ath2"><name name-style="western"><surname>Kohlbrand</surname><given-names initials="AJ">Alysia J.</given-names></name><xref rid="aff1" ref-type="aff">†</xref><xref rid="notes-2" ref-type="notes">‡</xref></contrib><contrib contrib-type="author" id="ath3"><name name-style="western"><surname>Seo</surname><given-names initials="H">Hyeonglim</given-names></name><xref rid="aff1" ref-type="aff">†</xref></contrib><contrib contrib-type="author" id="ath4"><name name-style="western"><surname>Sankaran</surname><given-names initials="B">Banumathi</given-names></name><xref rid="aff2" ref-type="aff">§</xref></contrib><contrib contrib-type="author" id="ath5"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5258-0260</contrib-id><name name-style="western"><surname>Karges</surname><given-names initials="J">Johannes</given-names></name><xref rid="aff1" ref-type="aff">†</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath6"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5233-2280</contrib-id><name name-style="western"><surname>Cohen</surname><given-names initials="SM">Seth M.</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">†</xref></contrib><aff id="aff1"><label>†</label>Department
+of Chemistry and Biochemistry, <institution>University
+of California</institution>, La Jolla, California 92093, <country>United States</country></aff><aff id="aff2"><label>§</label>The
+Berkeley Center for Structural Biology, Advanced Light Source, <institution>Lawrence Berkeley National Laboratory</institution>, Berkeley, California 94720, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label><email>scohen@ucsd.edu</email></corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>12</month><year>2022</year></pub-date><pub-date pub-type="collection"><day>12</day><month>01</month><year>2023</year></pub-date><volume>14</volume><issue>1</issue><issue-id pub-id-type="pmc-issue-id">426493</issue-id><fpage>75</fpage><lpage>82</lpage><history><date date-type="received"><day>01</day><month>10</month><year>2022</year></date><date date-type="accepted"><day>02</day><month>12</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>09</day><month>12</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>17</day><month>01</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-01-19 16:11:10.520"><day>19</day><month>01</month><year>2023</year></date></event></pub-history><permissions><copyright-statement>© 2022 The Authors. Published by American Chemical Society</copyright-statement><copyright-year>2022</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ml2c00434.pdf"/><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ab-tgr1" position="float" orientation="portrait" xlink:href="ml2c00434_0005.jpg"/></p><p>Among the most important influenza virus targets is the
+RNA-dependent
+RNA polymerase acidic N-terminal (PA<sub>N</sub>) endonuclease, which
+is a critical component of the viral replication machinery. To inhibit
+the activity of this metalloenzyme, small-molecule inhibitors employ
+metal-binding pharmacophores (MBPs) that coordinate to the dinuclear
+Mn<sup>2+</sup> active site. In this study, several metal-binding
+isosteres (MBIs) were examined where the carboxylic acid moiety of
+a hydroxypyridinone MBP is replaced with other groups to modulate
+the physicochemical properties of the compound. MBIs were evaluated
+for their ability to inhibit PA<sub>N</sub> using a FRET-based enzymatic
+assay, and their mode of binding in PA<sub>N</sub> was determined
+using X-ray crystallography.</p></abstract><kwd-group><kwd>drug discovery</kwd><kwd>metal-binding pharmacophore</kwd><kwd>isosteres</kwd><kwd>influenza endonuclease</kwd><kwd>medicinal inorganic
+chemistry</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution>U.S. Department of Health and Human Services</institution><institution-id institution-id-type="doi">10.13039/100000060</institution-id></institution-wrap></funding-source><award-id>R01 AI149444</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>National Science Foundation</institution><institution-id institution-id-type="doi">10.13039/100000082</institution-id></institution-wrap></funding-source><award-id>DGE-1650112</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ml2c00434</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ml2c00434</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p id="sec1">Current estimates suggest that
+annual influenza epidemics are responsible for up to 650,000 deaths
+globally.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> One recent study concluded that
+during the 2009 H1N1 pandemic there were ∼61 million cases
+in the United States alone, resulting in ∼275,000 hospitalizations
+and 12,000 deaths.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> Vaccines are available;
+however, efficacy depends on the ability to predict antigenic changes,
+and requires semi-annual re-formulation.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> To address acute cases of infection, small-molecule therapeutics
+have been approved by the U.S. Food and Drug Administration (FDA).
+Adamantane-based structures that inhibited the matrix protein 2 (M2)
+ion channel have been used,<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> but are now
+largely not prescribed due to resistance.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref></sup> Newer
+neuraminidase inhibitors are now used,<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> and resistance to neuraminidase inhibitors remains low; however,
+emergence of resistance remains a threat to public health.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> Other small-molecule strategies to address influenza include targeting
+the hemagglutinin protein<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> and the RNA-dependent
+RNA polymerase acidic N-terminal (PA<sub>N</sub>) endonuclease.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> PA<sub>N</sub> represents an especially attractive
+target due to its role in viral replication, its high conservation,
+and its lack of a human analog.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> FDA approval
+of baloxavir marboxil, a first-in-class PA<sub>N</sub> inhibitor,
+has validated this approach,<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> but despite
+its clinical success, resistance against baloxavir has also begun
+to emerge.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup></p><p>PA<sub>N</sub> is part
+of a heterotrimeric RNA-dependent RNA polymerase
+complex, which is composed of PA, PB1, and PB2 subunits.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> Together, they facilitate replication and transcription
+of the viral genome.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> A “cap-snatching”
+mechanism enables the synthesis of viral mRNA, which can later be
+translated into viral proteins.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> The PA
+subunit, which enables endonucleolytic cleavage, is composed of a
+C-terminal domain that is mostly structural and an N-terminal domain
+that is catalytically active. The N-terminal domain contains a dinuclear
+Mg<sup>2+</sup> or Mn<sup>2+</sup> active site that is highly conserved.<sup><xref ref-type="bibr" rid="ref17">17</xref>−<xref ref-type="bibr" rid="ref19">19</xref></sup> Some efforts have used metalloenzyme-focused fragment-based drug
+discovery (FBDD) to identify potent inhibitors of PA<sub>N</sub>.<sup><xref ref-type="bibr" rid="ref20">20</xref>−<xref ref-type="bibr" rid="ref23">23</xref></sup> These FBDD campaigns have identified metal-binding pharmacophores
+(MBPs) that utilize a triad of oxygen donors, including a carboxylic
+acid, to bind the metal ions, making these fragments very polar and
+non-ideal starting points for the development of novel therapeutics.
+To this end, (bio)isosteric replacement is a strategy that can mitigate
+pharmacological liabilities.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Herein,
+the design and experimental evaluation of novel metal-binding isosteres
+(MBIs) are reported (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). The MBIs were found to possess good inhibition of PA<sub>N</sub> endonuclease, with many displaying half-maximal inhibitory
+concentration (IC<sub>50</sub>) values in the low nanomolar range,
+comparable to the parent carboxylic acid MBP (compound <bold>1</bold>, <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). Using
+X-ray crystallography, the binding of these compounds to PA<sub>N</sub> was elucidated. While many compounds bound as expected (based on
+prior findings),<sup><xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref22">22</xref></sup> some isosteres exhibited somewhat
+unexpected binding interactions. A preliminary analysis of the physical
+properties, such as calculated log partition coefficient (clogP) and
+p<italic toggle="yes">K</italic><sub>a</sub>, shows that the isosteres have tunable
+properties, potentially circumventing the limitations of the carboxylic
+acid scaffold.</p><fig id="fig1" position="float" orientation="portrait"><label>Figure 1</label><caption><p>Chemical structures of metal-binding isosteres (MBIs)
+investigated
+in this study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr2" position="float" orientation="portrait" xlink:href="ml2c00434_0001.jpg"/></fig><p>Previous work has focused on the identification
+of MBP fragments
+and their evolution into lead-like molecules by FBDD.<sup><xref ref-type="bibr" rid="ref20">20</xref>−<xref ref-type="bibr" rid="ref22">22</xref></sup> A carboxylic acid-modified hydroxypyridinone MBP was reported to
+achieve IC<sub>50</sub> values as low as ∼17 nM against PA<sub>N</sub>.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> Hydroxypyridinones have been
+utilized in drug discovery campaigns, including for their specific
+ability to coordinate metal ions.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> Despite
+impressive activity, this MBP (and elaborated inhibitors derived from
+it) was found to be only moderately active in influenza-infected cells.
+This disparity between antiviral activity and enzymatic inhibition
+is likely due to low membrane permeability originating from the high
+polarity of these molecules.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Additionally,
+it is well-known that carboxylic acid moieties are associated with
+pharmacological liabilities, which can limit their use in drug development.<sup><xref ref-type="bibr" rid="ref26">26</xref>−<xref ref-type="bibr" rid="ref28">28</xref></sup> The carboxylic acid functional group can be replaced by a different
+moiety with similar biochemical interactions, but different physiochemical
+properties, via isosteric replacement to try to address possible shortcomings
+of the carboxylic acid-containing MBP <bold>1</bold> (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>).<sup><xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref29">29</xref></sup></p><p>Nine MBIs (<bold>3</bold>–<bold>11</bold>) of hydroxypyridinone
+MBP <bold>1</bold> were synthesized, with isosteric replacements for
+the carboxylic acid moiety installed (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). These MBIs also possess a bromine atom
+in the 6-position of the ring to aid in crystallography (i.e., via
+heavy-atom substitution and anomalous scattering) and to serve as
+a synthetic handle for future compound elaboration.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> To account for the electronic and lipophilic effects of
+adding this bromine substituent, a direct analog of <bold>1</bold> was synthesized that contains a bromine atom (<bold>2</bold>, <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Table S1</ext-link> lists the calculated clogP values of these fragments
+compared to analogues substituted with -H, -CH<sub>3</sub>, or -Ph
+groups.</p><sec id="sec2"><title>Compound Synthesis</title><p>All bromine-containing compounds
+(<bold>2</bold>–<bold>11</bold>) were synthesized from precursor <bold>12</bold>, 3-hydroxypicolinonitrile
+(<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>). Commercially
+available <bold>12</bold> can be dibrominated selectively in the 4-
+and 6-positions upon treatment with elemental bromine to afford <bold>13</bold> in high yield. An oxygen atom that will later participate
+as a Lewis base to bind the Mn<sup>2+</sup> center can be introduced
+via S<sub>N</sub>Ar chemistry. This nucleophilic addition results
+in the selective introduction of benzyl alcohol in the 4-position
+to afford intermediate <bold>14</bold> in good yield. Compound <bold>14</bold> serves as a crucial intermediate for the compounds evaluated
+in this study. Hydrolysis of <bold>14</bold> under basic conditions
+yields the benzyl-protected compounds <bold>2a</bold> and <bold>3a</bold>, which can be deprotected under acidic conditions to afford compounds <bold>2</bold> and <bold>3</bold>, the acid- and amide-functionalized molecules,
+respectively. Compound <bold>2</bold> can be further functionalized
+to incorporate an <italic toggle="yes">N</italic>-methoxycarboxamide group (<bold>5</bold>) by conversion to the acid chloride and subsequent treatment
+with methoxyamine hydrochloride. A click reaction between compound <bold>14</bold> and sodium azide results in the formation of tetrazole <bold>4a</bold>, a commonly employed carboxylic acid isostere, which can
+be deprotected to afford the tridentate MBI <bold>4</bold>. Treatment
+of compound <bold>14</bold> with zinc chloride and ethanolamine or
+ethylenediamine results in the partially saturated heterocycles <bold>10a</bold> and <bold>11a</bold>. Saturated heterocycles can be advantageous
+as they tend to have higher lipophilicity, solubility, and three-dimensionality
+than their unsaturated counterparts.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> Deprotection
+of these compounds with HCl results in the formation of the partially
+saturated imidazoline (<bold>10</bold>) and oxazoline (<bold>11</bold>). The nitrile group in compound <bold>14</bold> can also be transformed
+into an <italic toggle="yes">N</italic>-hydroxyamidine functional group when treated
+with hydroxylamine hydrochloride and triethylamine, followed by debenzylation
+to afford compound <bold>6</bold>. Finally, simple deprotection of
+compound <bold>14</bold> under acidic conditions results in the nitrile-containing
+MBI <bold>9</bold>. In some cases, protection of the phenol in compound <bold>14</bold> was beneficial. Treatment of <bold>14</bold> with benzyl
+bromide and potassium carbonate resulted in the formation of <bold>15</bold> in good yield. The protected <italic toggle="yes">N</italic>-hydroxyamide
+intermediate was synthesized using conditions similar to those used
+for <bold>6a</bold>, though longer reaction times were employed. Compound <bold>16</bold> can be acylated upon the addition of acetic anhydride to
+afford compound <bold>17</bold>, which when exposed to heat and a
+mixture of hydrochloric acid, acetic acid, and trifluoroacetic acid
+undergoes both debenzylation and an acid-promoted cyclization to afford
+oxadiazole <bold>8</bold> in a single step. Additionally, treatment
+of compound <bold>16</bold> with carbonyldiimidazole (CDI) results
+in the formation of the oxadiazolone-functionalized molecule <bold>7a</bold>, which can be deprotected to afford compound <bold>7</bold>.</p><fig id="sch1" position="float" orientation="portrait"><label>Scheme 1</label><caption><title>Synthesis of MBIs</title><p id="sch1-fn1">Reagents and conditions:
+(a)
+NaOAc, H<sub>2</sub>O:MeOH, Br<sub>2</sub>, 0 °C to 25 °C;
+(b) NaH, BnOH, DMSO, 60 °C, 18 h; (c) BnBr, K<sub>2</sub>CO<sub>3</sub>, DMF, 45 °C, 19 h; (d) HONH<sub>2</sub>·HCl, NEt<sub>3</sub>, EtOH, 50 °C, 15 h; (e) CDI, NEt<sub>3</sub>, DMF, 80
+°C, 8 h; (f) i. SOCl<sub>2</sub>, DCM, reflux, 12 h. ii. Methoxyamine
+hydrochloride, NEt<sub>3</sub>, DCM, −78 °C to 40 °C,
+48 h; (g) NaOH, EtOH, 100 °C, 20 h; (h) KOH, EtOH:H<sub>2</sub>O, 100 °C, 16 h; (i) NaN<sub>3</sub>, NH<sub>4</sub>Cl, DMF,
+115 °C, 4 h; (j) ethane-1,2-diamine or 2-aminoethan-1-ol, ZnCl<sub>2</sub>, toluene, 90 °C to 130 °C, 16–20 h; (k)
+HONH<sub>2</sub>·HCl, NEt<sub>3</sub>, EtOH, 50 °C 1 h;
+(l) HCl:AcOH:TFA (5:5:1), 50 °C, 48 h; (m) Ac<sub>2</sub>O, DBU,
+THF, 0 °C to 80 °C, 8 h; (n) HCl, 25 °C to 100 °C,
+12–48 h.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr1" position="float" orientation="portrait" xlink:href="ml2c00434_0003.jpg"/></fig><p>Previous studies have correlated
+the acidity of the phenolic proton
+(p<italic toggle="yes">K</italic><sub>a</sub>) of the hydroxypyridinone fragment
+with the ability to inhibit the activity of PA<sub>N</sub>.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> In addition, changes in p<italic toggle="yes">K</italic><sub>a</sub> can be telling indicators of changes in the electronic structure
+of the heterocycle. Accordingly, p<italic toggle="yes">K</italic><sub>a</sub> values
+of the MBIs were calculated to probe the electronic differences introduced
+by the isostere groups. The p<italic toggle="yes">K</italic><sub>a</sub> value
+of the phenolic proton was estimated using density functional theory
+(DFT) calculations. More precisely, the energetic states within a
+thermodynamic cycle of the proton-transfer reaction were calculated,
+and the resulting free energy was correlated to the p<italic toggle="yes">K</italic><sub>a</sub> values as has been previously described (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Supporting Information</ext-link> for details).<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> Compound <bold>2</bold> was predicted to have
+a p<italic toggle="yes">K</italic><sub>a</sub> value of 9.4. Using a pH-metric
+titration, the measured p<italic toggle="yes">K</italic><sub>a</sub> value of compound <bold>2</bold> was measured at 9.79 ± 0.01, showing reasonable agreement
+with the DFT calculation. The isosteric replacement of this functional
+group was identified as an influencing factor of the acidity of the
+phenolic proton (a full list of predicted and several additional measured
+p<italic toggle="yes">K</italic><sub>a</sub> values is provided in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Table S2</ext-link>). The isostere modification of the carbonyl
+group gave calculated p<italic toggle="yes">K</italic><sub>a</sub> values ranging
+from 8.1 to 12.6 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Table S2</ext-link>), indicating
+that changes in the 2-position of the hydroxypyridinone ring can have
+large effects on the electronics of the ring system, and is a useful
+means to tune the electronic properties of the ring.</p><p>To determine
+the binding mode of the MBIs in the PA<sub>N</sub> active site, several
+compounds were crystallized with the enzyme
+for structure determination. Tables of collection and refinement statistics
+are provided in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Supporting Information</ext-link> (Tables S3, S4). In native PA<sub>N</sub>, the Mn<sup>2+</sup> cations
+are coordinated by His41, Glu80, Asp108, Glu 119, and Ile120 and five
+water molecules, producing an octahedral coordination geometry at
+each metal center. As anticipated, the addition of a bromine atom
+to the MBIs produced no apparent change in the binding to the active
+site metal ions (compare structures of <bold>1</bold> and <bold>2</bold>, <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>) and aided
+in ligand placement within the electron density map. Both compounds <bold>1</bold> and <bold>2</bold> coordinated by bridging the metal ions
+through the phenolate donor. This provides a triad of oxygen donor
+atoms (including oxygen donor atoms from the ketone and carboxylic
+acid groups), creating a 5-membered chelate ring at Mn<sub>1</sub> and a 6-membered chelate ring at Mn<sub>2</sub>. Compounds <bold>1</bold> and <bold>2</bold> also displayed hydrogen bonding between
+the ketone donor from the hydroxypyridinone ring and Lys134.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup></p><fig id="fig2" position="float" orientation="portrait"><label>Figure 2</label><caption><p>Co-crystal structures of PA<sub>N</sub> endonuclease with
+compounds <bold>1</bold>–<bold>5</bold> and <bold>8</bold>−<bold>10</bold>. The large panel depicts MBI <bold>5</bold> coordinating
+Mn<sub>1</sub> through the exocyclic carbonyl oxygen atom, Mn<sub>2</sub> through the carboxylate group, and the hydroxyl donor bridging
+between
+Mn<sub>1</sub> and Mn<sub>2</sub>. The protein backbone is shown as
+a gray cartoon. Mn<sup>2+</sup> ions and water molecules are shown
+as purple and red spheres, respectively. The structure with compound <bold>8</bold> is shown from two perspectives. Residues coordinating the
+Mn<sup>2+</sup> ions are shown in sticks. Atom colors are as follow:
+carbon (green MBI, gray protein), oxygen (red), nitrogen (blue), bromine
+(dark red). The electron density of each MBI and the Mn<sup>2+</sup> ions is displayed as a blue mesh. Mesh is 2<italic toggle="yes">F</italic><sub>o</sub> – <italic toggle="yes">F</italic><sub>c</sub> contoured at 2σ.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr3" position="float" orientation="portrait" xlink:href="ml2c00434_0002.jpg"/></fig><p>Previous crystallographic studies have focused
+on compounds containing
+a triad of chelating oxygen atoms that bind in a tridentate fashion,
+displacing three of the coordinating water molecules.<sup><xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref22">22</xref></sup> Compounds <bold>1</bold>, <bold>2</bold>, <bold>3</bold>, and <bold>5</bold> present the same triad and display similar binding poses,
+coordinating Mn<sub>1</sub> through the ketone and Mn<sub>2</sub> through
+the carboxylate, with the hydroxyl group bridging Mn<sub>1</sub> and
+Mn<sub>2</sub> (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>).<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> The binding and inhibitory activity
+(vide infra) of these compounds are comparable to those of the parent
+MBP <bold>1</bold>. The average distance from Mn<sub>2</sub> to the
+carboxylic acid isosteric group in each of these structures is 2.2
+Å. A list of metal–donor atom distances is provided in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Table S5</ext-link>. Interestingly, several nitrogen-containing
+isosteres were found to have a bridging water molecule between the
+nitrogen of the hydroxypyridinone core and a nitrogen from the isosteric
+groups (see compounds <bold>3</bold>, <bold>4</bold>, <bold>5</bold>, and <bold>9</bold>, <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>). This interaction is reminiscent of the carbamoylpyridine
+bicycle in Baloxavir,<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> but creates a cyclized,
+rigid structure by hydrogen bonding with water, rather than a synthetic,
+covalent ring structure. This pseudo-five-membered ring may be a useful
+in future inhibitor design, as it provides conformational stabilization
+without the necessity to form a bicycle, affording additional synthetic
+opportunities to develop interactions in the pocket toward Tyr24 and
+α-helix 2.</p><p>Among structures, compounds <bold>4</bold>, <bold>8</bold>, <bold>9</bold>, and <bold>10</bold> break with the chelating
+oxygen triad
+motif by replacing the carboxylic acid oxygen with a nitrogen atom.
+As expected, Mn<sub>1</sub> is bound between the phenol and the ketone
+of the hydroxypyridinone core, but unlike previous MBIs with a third
+oxygen donor, rotations of varying degrees were observed with the
+heterocyclic MBIs when bound to Mn<sub>2</sub>. Interestingly, the
+oxadiazolone ring of compound <bold>8</bold> is noticeably rotated
+out of the plane of the hydroxypyridinone core. A possible explanation
+for the rotation is the driving force to maintain an octahedral coordination
+geometry at both metal centers. To preserve an acceptable angle/distance
+between the metal and the donor atom at both metal sites, a rotation
+of the heterocyclic isostere may occur, the metal–ligand distances
+may be adjusted, or a combination thereof. To further examine this
+hypothesis, octahedral distortion parameters ζ and Σ were
+calculated for compound <bold>8</bold> (relative to Mn<sub>2</sub>) and compared with the distortion parameters of compound <bold>3</bold> and the ligand-free structure, which presented the most ideal octahedral
+geometries. To calculate and visualize changes in octahedral geometry,
+Octadist,<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> an octahedral distortion analysis
+software, was used (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Figure S1, Table S6</ext-link>). The ζ and Σ values are general octahedral distortion
+parameters used to characterize deviations from ideal octahedral geometry
+and are used here to evaluate the isostere binding geometry to Mn<sub>2</sub>.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> The value of ζ is the
+average of the sum of the deviation of 6 unique metal–ligand
+bond lengths around the central metal atom (<italic toggle="yes">d</italic><sub>i</sub>) from the average value (<italic toggle="yes">d</italic><sub>mean</sub>).<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> The value of Σ is the sum of
+the deviation of 12 unique <italic toggle="yes">cis</italic> ligand–metal–ligand
+angles (ϕ<sub><italic toggle="yes">i</italic></sub>) from 90°.<sup><xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref36">36</xref></sup> These distortion values were calculated for compound <bold>8</bold>, although it should be noted that these values do not take into
+account the resolution of the crystal structure, and should be considered
+accordingly. The value for ζ is very small, 0.574 Å, suggesting
+only very small changes to ligand–metal distances for each
+of the six donor atoms. The Σ value is also rather small, 90.81°,
+with the largest deviations from 90° resultant from contributions
+of the more rigid angles associated with Glu80 and Asp108. When these
+distortion parameters are calculated for a structure of compound <bold>8</bold> that is forced into an idealized co-planar ligand geometry,
+the ζ value increases to 0.606 Å and Σ increases
+to 98.347°, suggesting that the planar MBI structure enforces
+an inferior octahedral geometry at the metal centers compared to the
+experimental structure. Comparing both the rotated and planar structures
+of compound <bold>8</bold> to those of compound <bold>3</bold> (0.357
+Å, 46.669°) and the ligand-free structure (bound water,
+0.685 Å, 44.571°), both conformations of compound <bold>8</bold> exhibit poorer octahedral character.</p><p>The tetrazole
+in compound <bold>4</bold> displays a slight twist,
+perhaps due to the same reason as compound <bold>8</bold>, though
+the rotation appears less pronounced. Interestingly, instead of incorporating
+a more distinct twist, this structure adopts different metal–ligand
+binding distances. The distance between Mn<sub>1</sub> and the ketone
+functional group is 2.3 Å, while the distance between the tetrazole
+and Mn<sub>2</sub> is 1.8 Å, both the longest and shortest metal–donor
+distances observed among these inhibitors, respectively. The average
+distance from the metal cation in each nitrogen-donating structure
+is 2.2 Å, matching the donor–metal distance in oxygen
+triad MBIs, furthering the argument that the rotations of compounds <bold>4</bold> and <bold>8</bold> result from attempting to optimize metal-binding
+interactions.</p><p>Overall, MBIs following the same donor oxygen
+triad displayed metal-binding
+activity and binding poses similar to those of previously reported
+structures. MBIs presenting a nitrogen donor atom instead of the carboxylate
+oxygen have more variability in metal-binding behavior and pose. Heterocyclic
+nitrogen MBIs were found to have varying degrees of internal ligand
+rotation, most notably with compound <bold>8</bold>, which is most
+likely explained by the need to optimize the octahedral coordination
+geometry at the Mn<sub>2</sub> metal center.</p><p>To determine the
+activity of these molecules against PA<sub>N</sub>, MBIs were evaluated
+using a fluorescence-quenching-based nuclease
+activity assay (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Supporting Information</ext-link> for details).<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> Using this assay, dose–response
+curves were obtained to determine the half-maximal inhibitory concentration
+(IC<sub>50</sub>) values of these compounds. Importantly, IC<sub>50</sub> values are strongly dependent on the buffer, pH, enzyme concentration,
+and substrate used, and as such may vary somewhat with assay conditions.<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> Here, a protein concentration of 25 nM was employed.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> As previously identified hydroxypyridinones
+have been shown to be tight binders of PA<sub>N</sub>,<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> it is expected that molecules with good metal-binding
+motifs will demonstrate low IC<sub>50</sub> values under these assay
+conditions.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> The results of the dose–response
+experiment are shown in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>.</p><table-wrap id="tbl1" position="float" orientation="portrait"><label>Table 1</label><caption><title>Half-Maximal Inhibitory Concentration
+(IC<sub>50</sub>), 95% Confidence Interval (95% CI), log IC<sub>50</sub> (pIC<sub>50</sub>), and Ligand Efficiency (LE) of Compounds <bold>1</bold>–<bold>11</bold> against PA<sub>N</sub> Endonuclease</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="fx1" position="float" orientation="portrait" xlink:href="ml2c00434_0004.jpg"/></table-wrap><p>Compound <bold>2</bold> was used as a control to determine
+whether
+the addition of a bromine atom negatively affected the metal-binding
+ability of the MBP. Compounds <bold>1</bold> and <bold>2</bold> showed
+similar inhibition activity (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>), indicating that the bromide did not impact metal-binding
+relative to the parent compound. Both compounds display high binding
+energy per atom (ligand efficiency, LE) (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>). Despite conversion from a potentially
+anionic carboxylate to a neutral carboxamide, compound <bold>3</bold> showed little difference in activity when compared with compounds <bold>1</bold> or <bold>2</bold>. Compound <bold>4</bold> showed activity
+comparable to that of the parent structure, possibly due to shorter
+metal-ligand bond distances (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">Table S5</ext-link>).
+This is perhaps unsurprising, as tetrazoles have been widely investigated
+as isosteres for carboxylic acids.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> Compound <bold>5</bold> demonstrated moderate inhibition, suggesting somewhat poorer
+metal-binding ability, perhaps due to the electron-withdrawing nature
+of the methoxy group. Compound <bold>7</bold> demonstrated the most
+potent IC<sub>50</sub> value of the evaluated compounds; however,
+a crystal structure was not obtained. Compound <bold>8</bold>, functionalized
+with a methyl-oxadiazole, showed good inhibition, indicating that
+the rotation of the heterocycle may contribute to improved metal-binding
+via optimizing the metal–ligand geometry. While compound <bold>8</bold> does bind favorably, it demonstrates higher distortion parameters
+than compound <bold>3</bold>, possibly accounting for the decreased
+activity of <bold>8</bold> compared to <bold>3</bold>. Compound <bold>9</bold> showed relatively poor inhibition, due to the loss of a
+strong interaction with Mn<sub>2</sub>, which cannot be provided by
+the nitrile isostere in this context. Previous structures have shown
+bidentate hydroxypyridinones coordinating to Mn<sub>1</sub>, with
+the ketone bridging the Mn<sub>1</sub> and Mn<sub>2</sub> metals with
+the hydroxyl group bound to only Mn<sub>1</sub>.<sup><xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> Consistent with every structure reported in this study, compound <bold>9</bold> bridges the metal ions through the anionic phenolic group,
+while the ketone group interacts with Mn<sub>2</sub> and Lys134. This
+result indicates that even with poorer-binding isosteres like <bold>9</bold>, the introduction of a substituent in the 2-position of
+the hydroxypyridine ring drives the MBI to coordinate in such a way
+that bridges the metals with the phenolic group, which is a stronger
+donor than the ketone and should give better overall affinity. Finally,
+the saturated heterocycle isosteres <bold>10</bold> and <bold>11</bold> showed markedly poorer inhibition than the parent MBI, possibly
+due to the softer nature of the heterocyclic donor nitrogen atoms,
+resulting in poorer electron donation to Mn<sub>2</sub>.</p><p>In
+summary, MBIs of the highly active hydroxypyridinone scaffold
+were designed to replace the carboxylic acid group and retain inhibition
+of PA<sub>N</sub> endonuclease. A variety of fragments with isosteric
+replacements were synthesized via a common intermediate and evaluated
+in a FRET-based enzymatic assay. Many of these molecules retain inhibitory
+activity comparable to that of the parent carboxylic acid fragment.
+These molecules were further evaluated crystallographically to improve
+our understanding of how the structural and metal-binding properties
+are affected by replacement of the carboxylic acid group. This study
+shows that MBIs may be useful in the development of small-molecule
+therapeutics of influenza PA<sub>N</sub> and other related nucleic-acid-processing
+viral metalloenzymes.<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup></p></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acsmedchemlett.2c00434?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acsmedchemlett.2c00434</ext-link>.<list id="silist" list-type="simple"><list-item><p>Computational prediction of p<italic toggle="yes">K</italic><sub>a</sub>, comparative predictions of clogP, predicted phenolic p<italic toggle="yes">K</italic><sub>a</sub> values, protein expression and purification,
+protein crystallography; protein crystallography tables, metal-binding
+distances, octahedral distortion parameters, octahedral distortion,
+representative HPLC traces, and lipophilic ligand efficiencies (LLE)
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_001.pdf">PDF</ext-link>)</p></list-item><list-item><p>SMILES
+strings formula (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsmedchemlett.2c00434/suppl_file/ml2c00434_si_002.xlsx">CSV</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ml2c00434_si_001.pdf" position="float" orientation="portrait"><caption><p>ml2c00434_si_001.pdf</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile2" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ml2c00434_si_002.xlsx" position="float" orientation="portrait"><caption><p>ml2c00434_si_002.xlsx</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes-2"><title>Author Contributions</title><p><sup>‡</sup> R.W.S. and A.J.K. contributed equally to
+this work.</p></notes><notes notes-type="COI-statement" id="notes-4"><p>The authors
+declare the following competing financial interest(s): S.M.C. is a
+co-founder, has an equity interest, and receives income as member
+of the Scientific Advisory Board for Forge Therapeutics; is a co-founder,
+has an equity interest, and is a member of the Scientific Advisory
+Board for Blacksmith Medicines; and is a co-founder and has an equity
+interest Cleave Therapeutics (formerly Cleave Biosciences). These
+companies may potentially benefit from the research results of certain
+projects in the laboratory of S.M.C. The terms of this arrangement
+have been reviewed and approved by the University of California, San
+Diego in accordance with its conflict of interest policies.</p></notes><ack><title>Acknowledgments</title><p>This work was supported by grants from the National
+Institutes
+of Health (R01 AI149444) and a National Science Foundation Graduate
+Research Fellowship Program (DGE-1650112 to R.W.S.). The computational
+studies were supported in part by the W. M. Keck Foundation through
+computing resources at the W. M. Keck Laboratory for Integrated
+Biology. The work used beamlines 5.0.3 and 8.2.1 of the Advanced Light
+Source, a U.S. DOE Office of Science User Facility, supported in part
+under Contract No. DE-AC02-05CH11231, and is supported in part by
+the ALS-ENABLE program funded by the National Institutes of Health,
+National Institute of General Medical Sciences, Grant P30 GM124169-01.
+The authors acknowledge Yongxuan Su (U.C. San Diego, Molecular Mass
+Spectrometry Facility) for aid with MS and HR-MS analysis. The authors
+also acknowledge Dr. Carlo Ballatore, Bobby Lucero, and Karol Francisco
+for aid with p<italic toggle="yes">K</italic><sub>a</sub> determination and preparatory
+HPLC.</p></ack><glossary id="dl1"><def-list><title>Abbreviations</title><def-item><term>clogP</term><def><p>calculated
+log partition coefficient</p></def></def-item><def-item><term>CDI</term><def><p>carbonyldiimidazole</p></def></def-item><def-item><term>DBU</term><def><p>1,8-diazabicyclo(5.4.0)undec-7-ene</p></def></def-item><def-item><term>DCM</term><def><p>dichloromethane</p></def></def-item><def-item><term>DFT</term><def><p>density functional
+theory</p></def></def-item><def-item><term>DMF</term><def><p>dimethylformamide</p></def></def-item><def-item><term>EtOAc</term><def><p>ethyl acetate</p></def></def-item><def-item><term>FDA</term><def><p>U.S. Food and Drug
+Administration</p></def></def-item><def-item><term>IC<sub>50</sub></term><def><p>half-maximal inhibitory concentration</p></def></def-item><def-item><term>HAC</term><def><p>heavy atom count</p></def></def-item><def-item><term>Hex</term><def><p>hexanes</p></def></def-item><def-item><term>LE</term><def><p>ligand efficiency</p></def></def-item><def-item><term>M2</term><def><p>matrix protein 2</p></def></def-item><def-item><term>MBI</term><def><p>metal-binding isostere</p></def></def-item><def-item><term>MeOH</term><def><p>methanol</p></def></def-item><def-item><term>MBP</term><def><p>metal-binding pharmacophore</p></def></def-item><def-item><term>PAN</term><def><p>N-terminal domain
+of the RNA-dependent RNA polymerase PA subunit</p></def></def-item><def-item><term>S<sub>N</sub>Ar</term><def><p>nucleophilic aromatic
+substitution</p></def></def-item><def-item><term>SAR</term><def><p>structure–activity relationship</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name name-style="western"><surname>Iuliano</surname><given-names>A D.</given-names></name>; <name name-style="western"><surname>Roguski</surname><given-names>K. M</given-names></name>; <name name-style="western"><surname>Chang</surname><given-names>H. H</given-names></name>; <name name-style="western"><surname>Muscatello</surname><given-names>D. J</given-names></name>; <name name-style="western"><surname>Palekar</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Tempia</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Gran</surname><given-names>J. M.</given-names></name>; <name name-style="western"><surname>Schanzer</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Cowling</surname><given-names>B. J</given-names></name>; <name name-style="western"><surname>Wu</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Kyncl</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Ang</surname><given-names>L. W.</given-names></name>; <name name-style="western"><surname>Park</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Redlberger-Fritz</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Yu</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Espenhain</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Krishnan</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Emukule</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>van Asten</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Pereira da Silva</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Aungkulanon</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Buchholz</surname><given-names>U.</given-names></name>; <name name-style="western"><surname>Widdowson</surname><given-names>M.-A.</given-names></name>; <name name-style="western"><surname>Bresee</surname><given-names>J. S</given-names></name>; <name name-style="western"><surname>Azziz-Baumgartner</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Cheng</surname><given-names>P.-Y.</given-names></name>; <name name-style="western"><surname>Dawood</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Foppa</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Olsen</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Haber</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Jeffers</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>MacIntyre</surname><given-names>C R.</given-names></name>; <name name-style="western"><surname>Newall</surname><given-names>A. T</given-names></name>; <name name-style="western"><surname>Wood</surname><given-names>J. G</given-names></name>; <name name-style="western"><surname>Kundi</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Popow-Kraupp</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Ahmed</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Rahman</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Marinho</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Sotomayor Proschle</surname><given-names>C V.</given-names></name>; <name name-style="western"><surname>Vergara Mallegas</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Luzhao</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Sa</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Barbosa-Ramirez</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Sanchez</surname><given-names>D. M.</given-names></name>; <name name-style="western"><surname>Gomez</surname><given-names>L. A.</given-names></name>; <name name-style="western"><surname>Vargas</surname><given-names>X. B.</given-names></name>; <name name-style="western"><surname>Acosta Herrera</surname><given-names>a.</given-names></name>; <name name-style="western"><surname>Llanes</surname><given-names>M. J.</given-names></name>; <name name-style="western"><surname>Fischer</surname><given-names>T. Køl.</given-names></name>; <name name-style="western"><surname>Krause</surname><given-names>T. G.</given-names></name>; <name name-style="western"><surname>Mølbak</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Nielsen</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Trebbien</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Bruno</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Ojeda</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Ramos</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>an der Heiden</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>del Carmen Castillo Signor</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Serrano</surname><given-names>C. E.</given-names></name>; <name name-style="western"><surname>Bhardwaj</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Chadha</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Narayan</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Kosen</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Bromberg</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Glatman-Freedman</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Kaufman</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Arima</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Oishi</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Chaves</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Nyawanda</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Al-Jarallah</surname><given-names>R. A.</given-names></name>; <name name-style="western"><surname>Kuri-Morales</surname><given-names>P. A</given-names></name>; <name name-style="western"><surname>Matus</surname><given-names>C. R.</given-names></name>; <name name-style="western"><surname>Corona</surname><given-names>M. E. J.</given-names></name>; <name name-style="western"><surname>Burmaa</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Darmaa</surname><given-names>O.</given-names></name>; <name name-style="western"><surname>Obtel</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Cherkaoui</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>van den Wijngaard</surname><given-names>C. C</given-names></name>; <name name-style="western"><surname>van der Hoek</surname><given-names>W.</given-names></name>; <name name-style="western"><surname>Baker</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Bandaranayake</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Bissielo</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Lopez</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Newbern</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Flem</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Grøneng</surname><given-names>G. M</given-names></name>; <name name-style="western"><surname>Hauge</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>de Cosio</surname><given-names>F. G</given-names></name>; <name name-style="western"><surname>de Molto</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Castillo</surname><given-names>L. M.</given-names></name>; <name name-style="western"><surname>Cabello</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>von Horoch</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Medina Osis</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Machado</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Nunes</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Rodrigues</surname><given-names>A. P.</given-names></name>; <name name-style="western"><surname>Rodrigues</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Calomfirescu</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Lupulescu</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Popescu</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Popovici</surname><given-names>O.</given-names></name>; <name name-style="western"><surname>Bogdanovic</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Kostic</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Lazarevic</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Milosevic</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Tiodorovic</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Cutter</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Lee</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Lin</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Ma</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>A. L</given-names></name>; <name name-style="western"><surname>Treurnicht</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Kim</surname><given-names>W. J.</given-names></name>; <name name-style="western"><surname>Delgado-Sanz</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>de mateo Ontanon</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Larrauri</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Leon</surname><given-names>I. L.</given-names></name>; <name name-style="western"><surname>Vallejo</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Born</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Junker</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Koch</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Chuang</surname><given-names>J.-H.</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>W.-T.</given-names></name>; <name name-style="western"><surname>Kuo</surname><given-names>H.-W.</given-names></name>; <name name-style="western"><surname>Tsai</surname><given-names>Y.-C.</given-names></name>; <name name-style="western"><surname>Bundhamcharoen</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Chittaganpitch</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Green</surname><given-names>H. K</given-names></name>; <name name-style="western"><surname>Pebody</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Goni</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Chiparelli</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Brammer</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Mustaquim</surname><given-names>D.</given-names></name>; et al. <article-title>Estimates of global seasonal influenza-associated respiratory mortality:
+a modelling study</article-title>. <source>Lancet</source>
+<year>2018</year>, <volume>391</volume>, <fpage>1285</fpage>–<lpage>1300</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(17)33293-2</pub-id>.<pub-id pub-id-type="pmid">29248255</pub-id><pub-id pub-id-type="pmcid">PMC5935243</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name name-style="western"><surname>Shrestha</surname><given-names>S. S.</given-names></name>; <name name-style="western"><surname>Swerdlow</surname><given-names>D. L.</given-names></name>; <name name-style="western"><surname>Borse</surname><given-names>R. H.</given-names></name>; <name name-style="western"><surname>Prabhu</surname><given-names>V. S.</given-names></name>; <name name-style="western"><surname>Finelli</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Atkins</surname><given-names>C. Y.</given-names></name>; <name name-style="western"><surname>Owusu-Edusei</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Bell</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Mead</surname><given-names>P. S.</given-names></name>; <name name-style="western"><surname>Biggerstaff</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Brammer</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Davidson</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Jernigan</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Jhung</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Kamimoto</surname><given-names>L. A.</given-names></name>; <name name-style="western"><surname>Merlin</surname><given-names>T. L.</given-names></name>; <name name-style="western"><surname>Nowell</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Redd</surname><given-names>S. C.</given-names></name>; <name name-style="western"><surname>Reed</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Schuchat</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Meltzer</surname><given-names>M. I.</given-names></name>
+<article-title>Estimating
+the Burden of 2009 Pandemic Influenza A (H1N1) in the United States
+(April 2009–April 2010)</article-title>. <source>Clin. Infect.
+Dis.</source>
+<year>2011</year>, <volume>52</volume>, <fpage>S75</fpage>–<lpage>S82</lpage>. <pub-id pub-id-type="doi">10.1093/cid/ciq012</pub-id>.<pub-id pub-id-type="pmid">21342903</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name name-style="western"><surname>Lewnard</surname><given-names>J.
+A.</given-names></name>; <name name-style="western"><surname>Cobey</surname><given-names>S.</given-names></name>
+<article-title>Immune History
+and Influenza Vaccine Effectiveness</article-title>. <source>Vaccines</source>
+<year>2018</year>, <volume>6</volume>, <fpage>28</fpage><pub-id pub-id-type="doi">10.3390/vaccines6020028</pub-id>.<pub-id pub-id-type="pmid">29883414</pub-id><pub-id pub-id-type="pmcid">PMC6027411</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name name-style="western"><surname>Pielak</surname><given-names>R. M.</given-names></name>; <name name-style="western"><surname>Chou</surname><given-names>J. J.</given-names></name>
+<article-title>Influenza M2 proton
+channels</article-title>. <source>Biochim. Biophys. Acta, Biomembr.</source>
+<year>2011</year>, <volume>1808</volume>, <fpage>522</fpage>–<lpage>529</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbamem.2010.04.015</pub-id>.<pub-id pub-id-type="pmcid">PMC3108042</pub-id><pub-id pub-id-type="pmid">20451491</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name name-style="western"><surname>Principi</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Camilloni</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Alunno</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Polinori</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Argentiero</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Esposito</surname><given-names>S.</given-names></name>
+<article-title>Drugs for Influenza Treatment: Is There Significant
+News?</article-title>. <source>Front. Med.</source>
+<year>2019</year>, <volume>6</volume>, <fpage>109</fpage><pub-id pub-id-type="doi">10.3389/fmed.2019.00109</pub-id>.<pub-id pub-id-type="pmcid">PMC6546914</pub-id><pub-id pub-id-type="pmid">31192211</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name name-style="western"><surname>Bright</surname><given-names>R. A.</given-names></name>; <name name-style="western"><surname>Shay</surname><given-names>D. K.</given-names></name>; <name name-style="western"><surname>Shu</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Cox</surname><given-names>N. J.</given-names></name>; <name name-style="western"><surname>Klimov</surname><given-names>A. I.</given-names></name>
+<article-title>Adamantane
+Resistance Among Influenza A Viruses Isolated Early During the 2005–2006
+Influenza Season in the United States</article-title>. <source>JAMA</source>
+<year>2006</year>, <volume>295</volume>, <fpage>891</fpage>–<lpage>894</lpage>. <pub-id pub-id-type="doi">10.1001/jama.295.8.joc60020</pub-id>.<pub-id pub-id-type="pmid">16456087</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name name-style="western"><surname>Moscona</surname><given-names>A.</given-names></name>
+<article-title>Neuraminidase
+Inhibitors for Influenza</article-title>. <source>N. Engl. J. Med.</source>
+<year>2005</year>, <volume>353</volume>, <fpage>1363</fpage>–<lpage>1373</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMra050740</pub-id>.<pub-id pub-id-type="pmid">16192481</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name name-style="western"><surname>Kim</surname><given-names>H. M.</given-names></name>; <name name-style="western"><surname>Lee</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Kim</surname><given-names>M.-S.</given-names></name>; <name name-style="western"><surname>Kang</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Chung</surname><given-names>Y.-S.</given-names></name>
+<article-title>Characterization
+of neuraminidase inhibitor-resistant influenza virus isolates from
+immunocompromised patients in the Republic of Korea</article-title>. <source>Virol. J.</source>
+<year>2020</year>, <volume>17</volume>, <fpage>94</fpage><pub-id pub-id-type="doi">10.1186/s12985-020-01375-1</pub-id>.<pub-id pub-id-type="pmid">32631440</pub-id><pub-id pub-id-type="pmcid">PMC7338124</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name name-style="western"><surname>Sriwilaijaroen</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Suzuki</surname><given-names>Y.</given-names></name>
+<article-title>Molecular basis of
+the structure and function of H1
+hemagglutinin of influenza virus</article-title>. <source>Proc. Jpn.
+Acad., Ser. B</source>
+<year>2012</year>, <volume>88</volume>, <fpage>226</fpage>–<lpage>249</lpage>. <pub-id pub-id-type="doi">10.2183/pjab.88.226</pub-id>.<pub-id pub-id-type="pmid">22728439</pub-id><pub-id pub-id-type="pmcid">PMC3410141</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name name-style="western"><surname>Yuan</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Bartlam</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Lou</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Zhou</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>He</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Lv</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Ge</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Deng</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Fodor</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Rao</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>Y.</given-names></name>
+<article-title>Crystal structure of
+an avian influenza polymerase PAN reveals an endonuclease active site</article-title>. <source>Nature</source>
+<year>2009</year>, <volume>458</volume>, <fpage>909</fpage>–<lpage>913</lpage>. <pub-id pub-id-type="doi">10.1038/nature07720</pub-id>.<pub-id pub-id-type="pmid">19194458</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name name-style="western"><surname>Monod</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Swale</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Tarus</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Tissot</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Delmas</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>R. W.</given-names></name>; <name name-style="western"><surname>Crépin</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Slama-Schwok</surname><given-names>A.</given-names></name>
+<article-title>Learning from
+structure-based drug design and new antivirals targeting the ribonucleoprotein
+complex for the treatment of influenza</article-title>. <source>Expert
+Opin. Drug Discovery</source>
+<year>2015</year>, <volume>10</volume>, <fpage>345</fpage>–<lpage>371</lpage>. <pub-id pub-id-type="doi">10.1517/17460441.2015.1019859</pub-id>.<pub-id pub-id-type="pmid">25792362</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name name-style="western"><surname>Ng</surname><given-names>K. E.</given-names></name>
+<article-title>Xofluza
+(Baloxavir Marboxil) for the Treatment Of Acute Uncomplicated Influenza</article-title>. <source>P&amp;T</source>
+<year>2019</year>, <volume>44</volume>, <fpage>9</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">30675086</pub-id><pub-id pub-id-type="pmcid">PMC6336199</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name name-style="western"><surname>Checkmahomed</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>M’Hamdi</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Carbonneau</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Venable</surname><given-names>M. C.</given-names></name>; <name name-style="western"><surname>Baz</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Abed</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Boivin</surname><given-names>G.</given-names></name>
+<article-title>Impact of the Baloxavir-Resistant
+Polymerase Acid I38T Substitution on the Fitness of Contemporary Influenza
+A(H1N1)pdm09 and A(H3N2) Strains</article-title>. <source>J. Infect.
+Dis.</source>
+<year>2020</year>, <volume>221</volume>, <fpage>63</fpage>–<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1093/infdis/jiz418</pub-id>.<pub-id pub-id-type="pmid">31419295</pub-id><pub-id pub-id-type="pmcid">PMC6910874</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name name-style="western"><surname>Resa-Infante</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Jorba</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Coloma</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Ortin</surname><given-names>J.</given-names></name>
+<article-title>The influenza virus
+RNA synthesis machine: advances in its structure and function</article-title>. <source>RNA Biol.</source>
+<year>2011</year>, <volume>8</volume>, <fpage>207</fpage>–<lpage>215</lpage>. <pub-id pub-id-type="doi">10.4161/rna.8.2.14513</pub-id>.<pub-id pub-id-type="pmid">21358279</pub-id><pub-id pub-id-type="pmcid">PMC3127100</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name name-style="western"><surname>Hutchinson</surname><given-names>E. C.</given-names></name>; <name name-style="western"><surname>Fodor</surname><given-names>E.</given-names></name>
+<article-title>Transport of the influenza virus genome from nucleus to nucleus</article-title>. <source>Viruses</source>
+<year>2013</year>, <volume>5</volume>, <fpage>2424</fpage>–<lpage>2446</lpage>. <pub-id pub-id-type="doi">10.3390/v5102424</pub-id>.<pub-id pub-id-type="pmid">24104053</pub-id><pub-id pub-id-type="pmcid">PMC3814596</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name name-style="western"><surname>Dias</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Bouvier</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Crépin</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>McCarthy</surname><given-names>A. A.</given-names></name>; <name name-style="western"><surname>Hart</surname><given-names>D. J.</given-names></name>; <name name-style="western"><surname>Baudin</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Cusack</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>R. W. H.</given-names></name>
+<article-title>The cap-snatching
+endonuclease of influenza virus polymerase resides in the PA subunit</article-title>. <source>Nature</source>
+<year>2009</year>, <volume>458</volume>, <fpage>914</fpage>–<lpage>918</lpage>. <pub-id pub-id-type="doi">10.1038/nature07745</pub-id>.<pub-id pub-id-type="pmid">19194459</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name name-style="western"><surname>Bauman</surname><given-names>J. D.</given-names></name>; <name name-style="western"><surname>Patel</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Baker</surname><given-names>S. F.</given-names></name>; <name name-style="western"><surname>Vijayan</surname><given-names>R. S. K.</given-names></name>; <name name-style="western"><surname>Xiang</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Parhi</surname><given-names>A. K.</given-names></name>; <name name-style="western"><surname>Martínez-Sobrido</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>LaVoie</surname><given-names>E. J.</given-names></name>; <name name-style="western"><surname>Das</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E.</given-names></name>
+<article-title>Crystallographic Fragment Screening and Structure-Based
+Optimization Yields a New Class of Influenza Endonuclease Inhibitors</article-title>. <source>ACS Chem. Biol.</source>
+<year>2013</year>, <volume>8</volume>, <fpage>2501</fpage>–<lpage>2508</lpage>. <pub-id pub-id-type="doi">10.1021/cb400400j</pub-id>.<pub-id pub-id-type="pmid">23978130</pub-id><pub-id pub-id-type="pmcid">PMC3928712</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name name-style="western"><surname>Jones</surname><given-names>J. C.</given-names></name>; <name name-style="western"><surname>Marathe</surname><given-names>B. M.</given-names></name>; <name name-style="western"><surname>Lerner</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Kreis</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Gasser</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Pascua</surname><given-names>P. N. Q.</given-names></name>; <name name-style="western"><surname>Najera</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Govorkova</surname><given-names>E. A.</given-names></name>
+<article-title>A Novel
+Endonuclease Inhibitor Exhibits Broad-Spectrum Anti-Influenza Virus
+Activity In Vitro</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>2016</year>, <volume>60</volume>, <fpage>5504</fpage>–<lpage>5514</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.00888-16</pub-id>.<pub-id pub-id-type="pmid">27381402</pub-id><pub-id pub-id-type="pmcid">PMC4997863</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name name-style="western"><surname>Miyagawa</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Akiyama</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Taoda</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Takaya</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Takahashi-Kageyama</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Tomita</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Yasuo</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Hattori</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Shano</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Yoshida</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Shishido</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Yoshinaga</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Sato</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Kawai</surname><given-names>M.</given-names></name>
+<article-title>Synthesis and SAR Study
+of Carbamoyl
+Pyridone Bicycle Derivatives as Potent Inhibitors of Influenza Cap-dependent
+Endonuclease</article-title>. <source>J. Med. Chem.</source>
+<year>2019</year>, <volume>62</volume>, <fpage>8101</fpage>–<lpage>8114</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.9b00861</pub-id>.<pub-id pub-id-type="pmid">31386363</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name name-style="western"><surname>Credille</surname><given-names>C. V.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>S. M.</given-names></name>
+<article-title>Fragment-Based
+Identification of
+Influenza Endonuclease Inhibitors</article-title>. <source>J. Med. Chem.</source>
+<year>2016</year>, <volume>59</volume>, <fpage>6444</fpage>–<lpage>6454</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.6b00628</pub-id>.<pub-id pub-id-type="pmid">27291165</pub-id><pub-id pub-id-type="pmcid">PMC4948595</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name name-style="western"><surname>Credille</surname><given-names>C. V.</given-names></name>; <name name-style="western"><surname>Morrison</surname><given-names>C. N.</given-names></name>; <name name-style="western"><surname>Stokes</surname><given-names>R. W.</given-names></name>; <name name-style="western"><surname>Dick</surname><given-names>B. L.</given-names></name>; <name name-style="western"><surname>Feng</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Sun</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>S. M.</given-names></name>
+<article-title>SAR Exploration of Tight-Binding
+Inhibitors of Influenza Virus PA Endonuclease</article-title>. <source>J. Med. Chem.</source>
+<year>2019</year>, <volume>62</volume>, <fpage>9438</fpage>–<lpage>9449</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.9b00747</pub-id>.<pub-id pub-id-type="pmid">31536340</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name name-style="western"><surname>Credille</surname><given-names>C. V.</given-names></name>; <name name-style="western"><surname>Dick</surname><given-names>B. L.</given-names></name>; <name name-style="western"><surname>Morrison</surname><given-names>C. N.</given-names></name>; <name name-style="western"><surname>Stokes</surname><given-names>R. W.</given-names></name>; <name name-style="western"><surname>Adamek</surname><given-names>R. N.</given-names></name>; <name name-style="western"><surname>Wu</surname><given-names>N. C.</given-names></name>; <name name-style="western"><surname>Wilson</surname><given-names>I. A.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>S. M.</given-names></name>
+<article-title>Structure–Activity
+Relationships in Metal-Binding Pharmacophores for Influenza Endonuclease</article-title>. <source>J. Med. Chem.</source>
+<year>2018</year>, <volume>61</volume>, <fpage>10206</fpage>–<lpage>10217</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.8b01363</pub-id>.<pub-id pub-id-type="pmid">30351002</pub-id><pub-id pub-id-type="pmcid">PMC6249039</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name name-style="western"><surname>Karges</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Stokes</surname><given-names>R. W.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>S. M.</given-names></name>
+<article-title>Photorelease of
+a metal-binding pharmacophore
+from a Ru(ii) polypyridine complex</article-title>. <source>Dalton Trans.</source>
+<year>2021</year>, <volume>50</volume>, <fpage>2757</fpage>–<lpage>2765</lpage>. <pub-id pub-id-type="doi">10.1039/D0DT04290K</pub-id>.<pub-id pub-id-type="pmid">33564808</pub-id><pub-id pub-id-type="pmcid">PMC7944940</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name name-style="western"><surname>Lassalas</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Gay</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Lasfargeas</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>James</surname><given-names>M. J.</given-names></name>; <name name-style="western"><surname>Tran</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Vijayendran</surname><given-names>K. G.</given-names></name>; <name name-style="western"><surname>Brunden</surname><given-names>K. R.</given-names></name>; <name name-style="western"><surname>Kozlowski</surname><given-names>M. C.</given-names></name>; <name name-style="western"><surname>Thomas</surname><given-names>C. J.</given-names></name>; <name name-style="western"><surname>Smith</surname><given-names>A. B.</given-names></name>; <name name-style="western"><surname>Huryn</surname><given-names>D. M.</given-names></name>; <name name-style="western"><surname>Ballatore</surname><given-names>C.</given-names></name>
+<article-title>Structure Property Relationships
+of Carboxylic Acid Isosteres</article-title>. <source>J. Med. Chem.</source>
+<year>2016</year>, <volume>59</volume>, <fpage>3183</fpage>–<lpage>3203</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.5b01963</pub-id>.<pub-id pub-id-type="pmid">26967507</pub-id><pub-id pub-id-type="pmcid">PMC4833640</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name name-style="western"><surname>Santos</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Marques</surname><given-names>S. M.</given-names></name>; <name name-style="western"><surname>Chaves</surname><given-names>S.</given-names></name>
+<article-title>Hydroxypyridinones
+as “privileged”
+chelating structures for the design of medicinal drugs</article-title>. <source>Coord. Chem. Rev.</source>
+<year>2012</year>, <volume>256</volume> (<issue>1</issue>), <fpage>240</fpage>–<lpage>259</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccr.2011.08.008</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name name-style="western"><surname>Lassila</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Hokkanen</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Aatsinki</surname><given-names>S.-M.</given-names></name>; <name name-style="western"><surname>Mattila</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Turpeinen</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Tolonen</surname><given-names>A.</given-names></name>
+<article-title>Toxicity of Carboxylic
+Acid-Containing Drugs: The Role
+of Acyl Migration and CoA Conjugation Investigated</article-title>. <source>Chem. Res. Toxicol.</source>
+<year>2015</year>, <volume>28</volume>, <fpage>2292</fpage>–<lpage>2303</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrestox.5b00315</pub-id>.<pub-id pub-id-type="pmid">26558897</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name name-style="western"><surname>Pajouhesh</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Lenz</surname><given-names>G. R.</given-names></name>
+<article-title>Medicinal chemical
+properties of successful central
+nervous system drugs</article-title>. <source>NeuroRx</source>
+<year>2005</year>, <volume>2</volume>, <fpage>541</fpage>–<lpage>553</lpage>. <pub-id pub-id-type="doi">10.1602/neurorx.2.4.541</pub-id>.<pub-id pub-id-type="pmid">16489364</pub-id><pub-id pub-id-type="pmcid">PMC1201314</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name name-style="western"><surname>Dick</surname><given-names>B. L.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>S. M.</given-names></name>
+<article-title>Metal-Binding Isosteres
+as New Scaffolds for Metalloenzyme
+Inhibitors</article-title>. <source>Inorg. Chem.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>9538</fpage>–<lpage>9543</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.8b01632</pub-id>.<pub-id pub-id-type="pmid">30009599</pub-id><pub-id pub-id-type="pmcid">PMC6289299</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name name-style="western"><surname>Patani</surname><given-names>G. A.</given-names></name>; <name name-style="western"><surname>LaVoie</surname><given-names>E. J.</given-names></name>
+<article-title>Bioisosterism: A
+Rational Approach in Drug Design</article-title>. <source>Chem. Rev.</source>
+<year>1996</year>, <volume>96</volume>, <fpage>3147</fpage>–<lpage>3176</lpage>. <pub-id pub-id-type="doi">10.1021/cr950066q</pub-id>.<pub-id pub-id-type="pmid">11848856</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="book" id="cit30"><person-group person-group-type="allauthors"><name name-style="western"><surname>Marson</surname><given-names>C. M.</given-names></name></person-group><article-title>Saturated Heterocycles
+with Applications in Medicinal Chemistry</article-title>. In <source>Advances in Heterocyclic Chemistry</source>; <person-group person-group-type="editor"><name name-style="western"><surname>Scriven</surname><given-names>E. F. V.</given-names></name>, <name name-style="western"><surname>Ramsden</surname><given-names>C. A.</given-names></name></person-group>, Eds.; <publisher-name>Academic
+Press</publisher-name>: <year>2017</year>; Vol. <volume>121</volume>, Chap. 2, <fpage>13</fpage>–<lpage>33</lpage>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name name-style="western"><surname>Pliego</surname><given-names>J. R.</given-names></name>
+<article-title>Thermodynamic
+cycles and the calculation of pKa</article-title>. <source>Chem. Phys.
+Lett.</source>
+<year>2003</year>, <volume>367</volume> (<issue>1</issue>), <fpage>145</fpage>–<lpage>149</lpage>. <pub-id pub-id-type="doi">10.1016/S0009-2614(02)01686-X</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name name-style="western"><surname>Zhang</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Xiang</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Xie</surname><given-names>Q.</given-names></name>; <name name-style="western"><surname>Zhao</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Shaw</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Hu</surname><given-names>C.</given-names></name>
+<article-title>Identification
+of Influenza PAN Endonuclease Inhibitors via 3D-QSAR Modeling and
+Docking-Based Virtual Screening</article-title>. <source>Molecules</source>
+<year>2021</year>, <volume>26</volume>, <fpage>7129</fpage><pub-id pub-id-type="doi">10.3390/molecules26237129</pub-id>.<pub-id pub-id-type="pmid">34885710</pub-id><pub-id pub-id-type="pmcid">PMC8659138</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name name-style="western"><surname>Ketkaew</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Tantirungrotechai</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Harding</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Chastanet</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Guionneau</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Marchivie</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Harding</surname><given-names>D. J.</given-names></name>
+<article-title>OctaDist: a tool
+for calculating distortion parameters in spin crossover and coordination
+complexes</article-title>. <source>Dalton Trans.</source>
+<year>2021</year>, <volume>50</volume>, <fpage>1086</fpage>–<lpage>1096</lpage>. <pub-id pub-id-type="doi">10.1039/D0DT03988H</pub-id>.<pub-id pub-id-type="pmid">33367357</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name name-style="western"><surname>Buron-Le
+Cointe</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Hébert</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Baldé</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Moisan</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Toupet</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Guionneau</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Létard</surname><given-names>J. F.</given-names></name>; <name name-style="western"><surname>Freysz</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Cailleau</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Collet</surname><given-names>E.</given-names></name>
+<article-title>Intermolecular
+control of thermoswitching and photoswitching phenomena in two spin-crossover
+polymorphs</article-title>. <source>Phys. Rev. B</source>
+<year>2012</year>, <volume>85</volume>, <fpage>064114</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.85.064114</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name name-style="western"><surname>Drew</surname><given-names>M. G. B.</given-names></name>; <name name-style="western"><surname>Harding</surname><given-names>C. J.</given-names></name>; <name name-style="western"><surname>McKee</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Morgan</surname><given-names>G. G.</given-names></name>; <name name-style="western"><surname>Nelson</surname><given-names>J.</given-names></name>
+<article-title>Geometric
+control of manganese redox state</article-title>. <source>J. Chem. Soc.,
+Chem. Commun.</source>
+<year>1995</year>, <fpage>1035</fpage>–<lpage>1038</lpage>. <pub-id pub-id-type="doi">10.1039/c39950001035</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name name-style="western"><surname>Guionneau</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Brigouleix</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Barrans</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Goeta</surname><given-names>A. E.</given-names></name>; <name name-style="western"><surname>Létard</surname><given-names>J.-F.</given-names></name>; <name name-style="western"><surname>Howard</surname><given-names>J. A. K.</given-names></name>; <name name-style="western"><surname>Gaultier</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Chasseau</surname><given-names>D.</given-names></name>
+<article-title>High pressure and very
+low temperature effects on the crystal structures of some iron(II)
+complexes</article-title>. <source>C. R. Acad. Sci., Ser. IIc: Chim.</source>
+<year>2001</year>, <volume>4</volume>, <fpage>161</fpage>–<lpage>171</lpage>. <pub-id pub-id-type="doi">10.1016/S1387-1609(00)01193-2</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name name-style="western"><surname>Baughman</surname><given-names>B. M.</given-names></name>; <name name-style="western"><surname>Jake Slavish</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>DuBois</surname><given-names>R. M.</given-names></name>; <name name-style="western"><surname>Boyd</surname><given-names>V. A.</given-names></name>; <name name-style="western"><surname>White</surname><given-names>S. W.</given-names></name>; <name name-style="western"><surname>Webb</surname><given-names>T. R.</given-names></name>
+<article-title>Identification
+of Influenza Endonuclease Inhibitors
+Using a Novel Fluorescence Polarization Assay</article-title>. <source>ACS Chem. Biol.</source>
+<year>2012</year>, <volume>7</volume>, <fpage>526</fpage>–<lpage>534</lpage>. <pub-id pub-id-type="doi">10.1021/cb200439z</pub-id>.<pub-id pub-id-type="pmid">22211528</pub-id><pub-id pub-id-type="pmcid">PMC3960075</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name name-style="western"><surname>Kalliokoski</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Kramer</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Vulpetti</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Gedeck</surname><given-names>P.</given-names></name>
+<article-title>Comparability of Mixed
+IC50 Data – A Statistical Analysis</article-title>. <source>PLoS
+One</source>
+<year>2013</year>, <volume>8</volume>, <fpage>e61007</fpage><pub-id pub-id-type="doi">10.1371/journal.pone.0061007</pub-id>.<pub-id pub-id-type="pmid">23613770</pub-id><pub-id pub-id-type="pmcid">PMC3628986</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name name-style="western"><surname>Todd</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Tchesnokov</surname><given-names>E. P.</given-names></name>; <name name-style="western"><surname>Götte</surname><given-names>M.</given-names></name>
+<article-title>The active form of the influenza
+cap-snatching endonuclease inhibitor baloxavir marboxil is a tight
+binding inhibitor</article-title>. <source>J. Biol. Chem.</source>
+<year>2021</year>, <volume>296</volume>, <fpage>100486</fpage><pub-id pub-id-type="doi">10.1016/j.jbc.2021.100486</pub-id>.<pub-id pub-id-type="pmid">33647314</pub-id><pub-id pub-id-type="pmcid">PMC8065212</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name name-style="western"><surname>Malik</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Wani</surname><given-names>M. Y.</given-names></name>; <name name-style="western"><surname>Al-Thabaiti</surname><given-names>S. A.</given-names></name>; <name name-style="western"><surname>Shiekh</surname><given-names>R. A.</given-names></name>
+<article-title>Tetrazoles as carboxylic
+acid isosteres: chemistry and biology</article-title>. <source>J. Inclusion
+Phenom. Macrocyclic Chem.</source>
+<year>2014</year>, <volume>78</volume>, <fpage>15</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1007/s10847-013-0334-x</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name name-style="western"><surname>Agrawal</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>DeSoto</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Fullagar</surname><given-names>J. L.</given-names></name>; <name name-style="western"><surname>Maddali</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Rostami</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Richman</surname><given-names>D. D.</given-names></name>; <name name-style="western"><surname>Pommier</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Cohen</surname><given-names>S. M.</given-names></name>
+<article-title>Probing
+chelation
+motifs in HIV integrase inhibitors</article-title>. <source>Proc. Natl.
+Acad. Sci. U. S. A.</source>
+<year>2012</year>, <volume>109</volume>, <fpage>2251</fpage>–<lpage>2256</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1112389109</pub-id>.<pub-id pub-id-type="pmid">22308350</pub-id><pub-id pub-id-type="pmcid">PMC3289312</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name name-style="western"><surname>Šebera</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Dubankova</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Sychrovský</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Ruzek</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Boura</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Nencka</surname><given-names>R.</given-names></name>
+<article-title>The structural model of Zika virus RNA-dependent RNA
+polymerase in complex with RNA for rational design of novel nucleotide
+inhibitors</article-title>. <source>Sci. Rep.</source>
+<year>2018</year>, <volume>8</volume>, <fpage>11132</fpage><pub-id pub-id-type="doi">10.1038/s41598-018-29459-7</pub-id>.<pub-id pub-id-type="pmid">30042483</pub-id><pub-id pub-id-type="pmcid">PMC6057956</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

@@ -1,0 +1,989 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="pmc-domain-id">440</journal-id><journal-id journal-id-type="pmc-domain">plosone</journal-id><journal-id journal-id-type="nlm-id">101285081</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>PLOS</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7080343</article-id><article-id pub-id-type="pmcid-ver">PMC7080343.1</article-id><article-id pub-id-type="pmcaid">7080343</article-id><article-id pub-id-type="pmcaiid">7080343</article-id><article-id pub-id-type="pmid">32187203</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0230496</article-id><article-id pub-id-type="publisher-id">PONE-D-19-17921</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Bovines</subject><subj-group><subject>Bison</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>DNA</subject><subj-group><subject>Ancient DNA</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>DNA</subject><subj-group><subject>Ancient DNA</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Paleontology</subject><subj-group><subject>Paleogenetics</subject><subj-group><subject>Ancient DNA</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth sciences</subject><subj-group><subject>Paleontology</subject><subj-group><subject>Paleogenetics</subject><subj-group><subject>Ancient DNA</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Extraction techniques</subject><subj-group><subject>DNA extraction</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Molecular Biology</subject><subj-group><subject>Molecular Biology Techniques</subject><subj-group><subject>Artificial Gene Amplification and Extension</subject><subj-group><subject>Polymerase Chain Reaction</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and Analysis Methods</subject><subj-group><subject>Molecular Biology Techniques</subject><subj-group><subject>Artificial Gene Amplification and Extension</subject><subj-group><subject>Polymerase Chain Reaction</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Paleontology</subject><subj-group><subject>Fossils</subject><subj-group><subject>Trace Fossils</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth Sciences</subject><subj-group><subject>Paleontology</subject><subj-group><subject>Fossils</subject><subj-group><subject>Trace Fossils</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Paleontology</subject><subj-group><subject>Paleobiology</subject><subj-group><subject>Ichnology</subject><subj-group><subject>Trace Fossils</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Earth Sciences</subject><subj-group><subject>Paleontology</subject><subj-group><subject>Paleobiology</subject><subj-group><subject>Ichnology</subject><subj-group><subject>Trace Fossils</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and analysis methods</subject><subj-group><subject>Database and informatics methods</subject><subj-group><subject>Bioinformatics</subject><subj-group><subject>Sequence analysis</subject><subj-group><subject>DNA sequence analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social Sciences</subject><subj-group><subject>Archaeology</subject><subj-group><subject>Archaeological Excavation</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Eukaryota</subject><subj-group><subject>Animals</subject><subj-group><subject>Vertebrates</subject><subj-group><subject>Amniotes</subject><subj-group><subject>Mammals</subject><subj-group><subject>Ruminants</subject><subj-group><subject>Reindeer</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories><title-group><article-title>A mobile laboratory for ancient DNA analysis</article-title><alt-title alt-title-type="running-head">Mobile aDNA laboratory</alt-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Utge</surname><given-names initials="J">José</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Methodology</role><role content-type="http://credit.casrai.org/">Validation</role><role content-type="http://credit.casrai.org/">Visualization</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><role content-type="http://credit.casrai.org/">Writing – review &amp;
+editing</role><xref ref-type="aff" rid="aff001"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Sévêque</surname><given-names initials="N">Noémie</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><xref ref-type="aff" rid="aff002"><sup>2</sup></xref></contrib><contrib contrib-type="author"><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8681-1458</contrib-id><name name-style="western"><surname>Lartigot-Campin</surname><given-names initials="AS">Anne-Sophie</given-names></name><role content-type="http://credit.casrai.org/">Funding acquisition</role><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><xref ref-type="aff" rid="aff003"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Testu</surname><given-names initials="A">Agnès</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><xref ref-type="aff" rid="aff003"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Moigne</surname><given-names initials="AM">Anne-Marie</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Project administration</role><role content-type="http://credit.casrai.org/">Resources</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><xref ref-type="aff" rid="aff003"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Vézian</surname><given-names initials="R">Régis</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Resources</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><xref ref-type="aff" rid="aff003"><sup>3</sup></xref><xref ref-type="aff" rid="aff004"><sup>4</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Maksud</surname><given-names initials="F">Frédéric</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><xref ref-type="aff" rid="aff005"><sup>5</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Begouën</surname><given-names initials="R">Robert</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Resources</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Visualization</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><xref ref-type="aff" rid="aff006"><sup>6</sup></xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Verna</surname><given-names initials="C">Christine</given-names></name><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Writing – review &amp;
+editing</role><xref ref-type="aff" rid="aff007"><sup>7</sup></xref></contrib><contrib contrib-type="author"><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-4288-9763</contrib-id><name name-style="western"><surname>Soriano</surname><given-names initials="S">Sylvain</given-names></name><role content-type="http://credit.casrai.org/">Funding acquisition</role><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Project administration</role><role content-type="http://credit.casrai.org/">Resources</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><xref ref-type="aff" rid="aff008"><sup>8</sup></xref></contrib><contrib contrib-type="author"><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0151-6423</contrib-id><name name-style="western"><surname>Elalouf</surname><given-names initials="JM">Jean-Marc</given-names></name><role content-type="http://credit.casrai.org/">Conceptualization</role><role content-type="http://credit.casrai.org/">Funding acquisition</role><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Methodology</role><role content-type="http://credit.casrai.org/">Project administration</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Validation</role><role content-type="http://credit.casrai.org/">Visualization</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><role content-type="http://credit.casrai.org/">Writing – review &amp;
+editing</role><xref ref-type="aff" rid="aff001"><sup>1</sup></xref><xref ref-type="aff" rid="aff009"><sup>9</sup></xref><xref ref-type="corresp" rid="cor001">*</xref></contrib></contrib-group><aff id="aff001"><label>1</label>
+<addr-line>Unité Eco-anthropologie, Muséum National d’Histoire Naturelle, CNRS,
+Université Paris Diderot, Paris, France</addr-line></aff><aff id="aff002"><label>2</label>
+<addr-line>Université de Lille, Ministère de la Culture et de la Communication, CNRS
+UMR 8164 Histoire, Archéologie et Littérature des Mondes Anciens, Villeneuve
+d'Ascq, France</addr-line></aff><aff id="aff003"><label>3</label>
+<addr-line>Unité Histoire Naturelle de l’Homme Préhistorique (HNHP), Muséum National
+d’Histoire Naturelle, CNRS, Université de Perpignan Via Domitia, Centre Européen
+de Recherches Préhistoriques de Tautavel, Tautavel, France</addr-line></aff><aff id="aff004"><label>4</label>
+<addr-line>École d’ingénieurs de Purpan, Institut National Polytechnique de
+Toulouse, Toulouse, France</addr-line></aff><aff id="aff005"><label>5</label>
+<addr-line>Service Régional de l’Archéologie, Toulouse, France</addr-line></aff><aff id="aff006"><label>6</label>
+<addr-line>Association Louis Bégouën, Laboratoire de Préhistoire de Pujol,
+Montesquieu-Avantès, France</addr-line></aff><aff id="aff007"><label>7</label>
+<addr-line>Département Homme et Environnement, Unité Histoire Naturelle de l’Homme
+Préhistorique (HNHP), Muséum National d’Histoire Naturelle, CNRS UMR 7194,
+Paris, France</addr-line></aff><aff id="aff008"><label>8</label>
+<addr-line>CNRS UMR 7041, Maison de l’Archéologie et de l’Ethnologie, Nanterre,
+France</addr-line></aff><aff id="aff009"><label>9</label>
+<addr-line>Université Paris-Saclay, CEA, CNRS, Institute for the Integrative Biology
+of the Cell (I2BC), Gif-sur-Yvette, France</addr-line></aff><contrib-group><contrib contrib-type="editor"><name name-style="western"><surname>Caramelli</surname><given-names initials="D">David</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1"><addr-line>University of Florence, ITALY</addr-line></aff><author-notes><fn fn-type="COI-statement" id="coi001"><p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p></fn><corresp id="cor001">* E-mail: <email>jean-marc.elalouf@cea.fr</email></corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>3</month><year>2020</year></pub-date><pub-date pub-type="collection"><year>2020</year></pub-date><volume>15</volume><issue>3</issue><issue-id pub-id-type="pmc-issue-id">353546</issue-id><elocation-id>e0230496</elocation-id><history><date date-type="received"><day>25</day><month>6</month><year>2019</year></date><date date-type="accepted"><day>3</day><month>3</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>18</day><month>03</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>24</day><month>03</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-03-21 18:25:14.377"><day>21</day><month>03</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2020 Utge et al</copyright-statement><copyright-year>2020</copyright-year><copyright-holder>Utge et al</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://creativecommons.org/licenses/by/4.0/"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article distributed under the terms of the
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="pone.0230496.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="pone.0230496.pdf"/><abstract><p>Mobile devices for on-field DNA analysis have been used for medical diagnostics
+at the point-of-care, forensic investigations and environmental surveys, but
+still have to be validated for ancient DNA studies. We report here on a mobile
+laboratory that we setup using commercially available devices, including a
+compact real-time PCR machine, and describe procedures to perform DNA extraction
+and analysis from a variety of archeological samples within 4 hours. The process
+is carried out on 50 mg samples that are identified at the species level using
+custom TaqMan real-time PCR assays for mitochondrial DNA fragments. We evaluated
+the potential of this approach in museums lacking facilities for DNA studies by
+analyzing samples from the Enlène (MIS 2 layer) and the Portel-Ouest cave (MIS 3
+deposits), and also performed experiments during an excavation campaign at the
+Roc-en-Pail (MIS 5) open-air site. Enlène <italic toggle="yes">Bovinae</italic> bone samples
+only yielded DNA for the extinct steppe bison (<italic toggle="yes">Bison priscus</italic>),
+whereas Portel-Ouest cave coprolites contained cave hyena (<italic toggle="yes">Crocuta
+crocuta spelaea</italic>) DNA together, for some of them, with DNA for the
+European bison sister species/subspecies (<italic toggle="yes">Bison
+schoetensacki</italic>/Bb1-X), thus highlighting the cave hyena diet.
+Roc-en-Pail <italic toggle="yes">Bovinae</italic> bone and tooth samples also contained DNA
+for the <italic toggle="yes">Bison schoetensacki</italic>/Bb1-X clade, and
+<italic toggle="yes">Cervidae</italic> bone samples only yielded reindeer
+(<italic toggle="yes">Rangifer tarandus</italic>) DNA. Subsequent DNA sequencing analyses
+confirmed that correct species identification had been achieved using our TaqMan
+assays, hence validating these assays for future studies. We conclude that our
+approach enables the rapid genetic characterization of tens of millennia-old
+archeological samples and is expected to be useful for the on-site screening of
+museums and freshly excavated samples for DNA content. Because our mobile
+laboratory is made up of commercially available instruments, this approach is
+easily accessible to other investigators.</p></abstract><funding-group><award-group id="award001"><funding-source><institution>Muséum National d'Histoire Naturelle</institution></funding-source><award-id>MOBILAB</award-id><principal-award-recipient><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0151-6423</contrib-id><name name-style="western"><surname>Elalouf</surname><given-names>Jean-Marc</given-names></name></principal-award-recipient></award-group><award-group id="award002"><funding-source><institution-wrap><institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100006489</institution-id><institution>Commissariat à l'Énergie Atomique et aux Énergies
+Alternatives</institution></institution-wrap></funding-source><award-id>LOC1043ELALO</award-id><principal-award-recipient><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-0151-6423</contrib-id><name name-style="western"><surname>Elalouf</surname><given-names>Jean-Marc</given-names></name></principal-award-recipient></award-group><award-group id="award003"><funding-source><institution>University of Perpignan</institution></funding-source><award-id>BQR</award-id><principal-award-recipient><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-8681-1458</contrib-id><name name-style="western"><surname>Lartigot-Campin</surname><given-names>Anne-Sophie</given-names></name></principal-award-recipient></award-group><award-group id="award004"><funding-source><institution>French Ministry of Culture and Communication</institution></funding-source><award-id>PGR522017000012</award-id><principal-award-recipient><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-4288-9763</contrib-id><name name-style="western"><surname>Soriano</surname><given-names>Sylvain</given-names></name></principal-award-recipient></award-group><award-group id="award005"><funding-source><institution>French Ministry of Culture and Communication</institution></funding-source><award-id>PGR522018000029</award-id><principal-award-recipient><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-4288-9763</contrib-id><name name-style="western"><surname>Soriano</surname><given-names>Sylvain</given-names></name></principal-award-recipient></award-group><award-group id="award006"><funding-source><institution>Mécène &amp; Loire Fondation</institution></funding-source><award-id>17 2015/2016</award-id><principal-award-recipient><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-4288-9763</contrib-id><name name-style="western"><surname>Soriano</surname><given-names>Sylvain</given-names></name></principal-award-recipient></award-group><funding-statement>This work was supported by the Muséum National d’Histoire
+Naturelle, MOBILAB, CEA Saclay, LOC1043ELALO, to JME; the University of
+Perpignan Via Domitia, BQR, to ASLC; and the French Ministry of Culture and
+Communication through the Pays-de-Loire DRAC/SRA, PGR522017000012 and
+PGR522018000029, Mécène &amp; Loire Fundation (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.mecene-et-loire.fr/">http://www.mecene-et-loire.fr/</ext-link>), 17 2015/2016, to SS for
+fieldwork. The funders had no role in study design, data collection and
+analysis, decision to publish, or preparation of the
+manuscript.</funding-statement></funding-group><counts><fig-count count="8"/><table-count count="1"/><page-count count="21"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>The DNA sequence data of this study have been deposited at Dryad
+under accession number doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.8gtht76jz">10.5061/dryad.8gtht76jz</ext-link></meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>The DNA sequence data of this study have been deposited at Dryad
+under accession number doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.8gtht76jz">10.5061/dryad.8gtht76jz</ext-link></p></notes></front><body><sec sec-type="intro" id="sec001"><title>Introduction</title><p>Over the last twelve years, the field of ancient DNA has experienced deep changes
+that come both from technological advances and the attention paid to a variety of
+DNA sources. On the one hand, next generation DNA sequencing methods enabled
+deciphering complete animal and human genomes [<xref rid="pone.0230496.ref001" ref-type="bibr">1</xref>–<xref rid="pone.0230496.ref003" ref-type="bibr">3</xref>], including the genome of a human lineage not
+known from the hominin fossil record [<xref rid="pone.0230496.ref004" ref-type="bibr">4</xref>]. On the other hand, the survey of
+archeological specimens revealed additional and sometimes unexpected sources of
+ancient DNA such as the avian distal feather components [<xref rid="pone.0230496.ref005" ref-type="bibr">5</xref>] and eggshell [<xref rid="pone.0230496.ref006" ref-type="bibr">6</xref>], dental calculus [<xref rid="pone.0230496.ref007" ref-type="bibr">7</xref>], mollusk shell [<xref rid="pone.0230496.ref008" ref-type="bibr">8</xref>], sediments [<xref rid="pone.0230496.ref009" ref-type="bibr">9</xref>], with especially high yield from hair shafts
+[<xref rid="pone.0230496.ref010" ref-type="bibr">10</xref>], coprolites [<xref rid="pone.0230496.ref011" ref-type="bibr">11</xref>], and the petrous bone
+[<xref rid="pone.0230496.ref012" ref-type="bibr">12</xref>]. As a complementary
+approach, new experimental procedures for DNA extraction [<xref rid="pone.0230496.ref013" ref-type="bibr">13</xref>–<xref rid="pone.0230496.ref015" ref-type="bibr">15</xref>] or sampling [<xref rid="pone.0230496.ref016" ref-type="bibr">16</xref>,<xref rid="pone.0230496.ref017" ref-type="bibr">17</xref>] have been described.</p><p>Despite these advances, days to weeks are required from the time a sample has been
+excavated to the delivery of DNA data. This contrasts with the increasing use of
+physics methods to perform on-field analysis of archeological material, which enable
+for example to characterize the pigments of rock art paintings [<xref rid="pone.0230496.ref018" ref-type="bibr">18</xref>–<xref rid="pone.0230496.ref020" ref-type="bibr">20</xref>].</p><p>For studies on extant DNA, great attention is paid to on-field analysis to perform
+medical diagnostics at the point-of-care, for forensic sciences, food testing,
+environmental monitoring, and detection of biothreat agents (see [<xref rid="pone.0230496.ref021" ref-type="bibr">21</xref>,<xref rid="pone.0230496.ref022" ref-type="bibr">22</xref>] for review). Progress accomplished thanks
+to such studies for rapid DNA analysis, together with the increasing need to avoid
+the dissemination of museum collections and the observation that freshly excavated
+fossils are best for ancient DNA analysis [<xref rid="pone.0230496.ref023" ref-type="bibr">23</xref>,<xref rid="pone.0230496.ref024" ref-type="bibr">24</xref>] call for the evaluation of the on-field
+approach for ancient DNA studies.</p><p>Because ancient DNA is most often present in trace amounts in archeological samples,
+contamination by modern or previously amplified DNA is a matter of concern. With
+this limitation in mind, we attempted to obtain the proof-of-concept for an ancient
+DNA mobile laboratory by focusing on DNA from extinct species or species no longer
+present in the locations where our studies were performed. Also, we used the method
+of real-time PCR because it avoids the post-PCR processing of amplified DNA. We
+report here on the use of a mobile laboratory consisting of commercially available
+devices for DNA extraction and amplification, and of TaqMan probes [<xref rid="pone.0230496.ref025" ref-type="bibr">25</xref>] that we designed for
+real-time PCR analysis of the mitochondrial DNA of six animal species. We conducted
+studies on samples from three Paleolithic sites: the Enlène cave, the Portel-Ouest
+cave, and the Roc-en-Pail open-air site (<xref ref-type="fig" rid="pone.0230496.g001">Fig 1</xref>).</p><fig id="pone.0230496.g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g001</object-id><label>Fig 1</label><caption><title>Information about archeological sites.</title><p><bold>(a)</bold> Location of sites. <bold>(b)</bold> Samples studied in each
+site for DNA content. <bold>(c)</bold> Enlène cave. Paving stones in the
+Salle-du-Fond. <bold>(d)</bold> Portel-Ouest cave. The 5-m thick
+archeological deposit. <bold>(e)</bold> Roc-en-Pail open-air site during the
+2018 excavation campaign.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g001.jpg"/></fig><p>Enlène (450 m above sea level (asl)), together with the Tuc d’Audoubert and the
+Trois-Frères caves, is part of the Volp cavern system [<xref rid="pone.0230496.ref026" ref-type="bibr">26</xref>], a property of the Bégouën family located
+near Montesquieu-Avantès (Ariège, France). By contrast to the Tuc d’Audoubert and
+the Trois-Frères caves, which are famous for Magdalenian rock art, Enlène contains
+almost no such art [<xref rid="pone.0230496.ref027" ref-type="bibr">27</xref>,<xref rid="pone.0230496.ref028" ref-type="bibr">28</xref>]. Enlène is nevertheless a
+major site which provided clues to Magdalenian daily life. Interest for
+archeological remains in Enlène began in 1860 with excavations performed by canon
+Jean-Jasques Pouech, was strongly reinforced in 1911 when Jacques Bégouën found a
+carved propulsion device, and furthermore in 1914 when Jacques and brothers Louis
+and Max discovered the Trois-Frères cave and its subterranean connection with Enlène
+[<xref rid="pone.0230496.ref028" ref-type="bibr">28</xref>]. Excavations carried
+out in the 1920’s and 1930’s by Louis Bégouën [<xref rid="pone.0230496.ref029" ref-type="bibr">29</xref>], then from 1970 to 1990 by Robert Bégouën,
+Jean Clottes and coworkers revealed 30,000 years of human occupation beginning with
+the Gravettian period [<xref rid="pone.0230496.ref030" ref-type="bibr">30</xref>].
+Notably, these studies yielded abundant Magdalenian tools and portable art pieces.
+They also provided evidence for the sedentary settlement of magdalenian people in
+the deep cave sector (the <italic toggle="yes">Salle-du-Fond</italic>) which displays paving
+stones, bowl-shaped fire structures, and remains of hunted animal species. A
+palynological study carried out on this level revealed the presence of on open
+landscape, dominated by <italic toggle="yes">Poaceae</italic> and <italic toggle="yes">Asteraceae</italic>,
+with steppe species such as <italic toggle="yes">Artemisia</italic>,
+<italic toggle="yes">Helianthemum</italic>, <italic toggle="yes">Armeria</italic>, and
+<italic toggle="yes">Rubiaceae</italic>, growing in a cold and dry climate [<xref rid="pone.0230496.ref031" ref-type="bibr">31</xref>]. In the present study, we
+performed the DNA analysis of <italic toggle="yes">Bovinae</italic> bone remains excavated from
+the 18,000-year-old (Marine Isotope Stage 2 (MIS2)) Magdalenian layer of the Enlène
+<italic toggle="yes">Salle-du-Fond</italic>. This was done in the laboratory of the Bégouën
+Museum in Montesquieu-Avantès.</p><p>The cave of Le Portel (490 m asl) is also located in Ariège, near the village of
+Loubens, about 30 km away from Enlène. The site, a property of the Vézian family,
+consists of two caves which were connected to each other until a rockfall sealed the
+communication during MIS 5. The largest cave (eastern entrance) displays Magdalenian
+and Gravettian rock art pictures that were discovered in 1908 [<xref rid="pone.0230496.ref032" ref-type="bibr">32</xref>]. The Portel-Ouest cave (western entrance),
+discovered some ten years later, contains a rich, more than 5-m thick archeological
+sequence. Excavations carried out from 1949 to 1987 in the Portel-Ouest cave by
+Joseph and Jean Vézian disclosed 21 layers that yielded Neandertal bones and teeth
+[<xref rid="pone.0230496.ref033" ref-type="bibr">33</xref>], as well as lithic
+tools and animal remains spread over a time period of about 100,000 years, from MIS
+5 to MIS 2 [<xref rid="pone.0230496.ref034" ref-type="bibr">34</xref>,<xref rid="pone.0230496.ref035" ref-type="bibr">35</xref>]. In this study, we analyzed
+cave hyena coprolites from layers D and B1 of the Portel-Ouest cave, dating back to
+MIS 3. Occupation by the cave hyena in these levels is well documented by the
+presence of numerous skeletal remains, coprolites and toothmarks on large mammal
+remains [<xref rid="pone.0230496.ref036" ref-type="bibr">36</xref>,<xref rid="pone.0230496.ref037" ref-type="bibr">37</xref>]. Layer D yielded Mousterian
+tools [<xref rid="pone.0230496.ref038" ref-type="bibr">38</xref>] and micro and
+macrofaunal remains that are consistent with the warming and dampening phase [<xref rid="pone.0230496.ref039" ref-type="bibr">39</xref>,<xref rid="pone.0230496.ref040" ref-type="bibr">40</xref>] of a cold climate, associated with the
+presence of a semi-open landscape [<xref rid="pone.0230496.ref041" ref-type="bibr">41</xref>]. Layer B1 yielded Upper Paleolithic tools. Faunal remains in this
+layer indicate a shift from a cold steppe to a partially forested environment [<xref rid="pone.0230496.ref039" ref-type="bibr">39</xref>,<xref rid="pone.0230496.ref040" ref-type="bibr">40</xref>], and the pollen record from north Pyrenean
+sites for this time period points to the dominance of steppe taxa with a progressive
+increase of forested taxa with the altitude [<xref rid="pone.0230496.ref041" ref-type="bibr">41</xref>]. Layers D and B1 correspond to the Middle
+to Upper Paleolithic transition. The archeological remains of Le Portel are stored
+in the Centre Européen de Recherches Préhistoriques (CERP, Tautavel, France) were we
+performed the DNA studies.</p><p>Roc-en-Pail (Chalonnes-sur-Loire, Maine-et-Loire; 30 m asl) is an open-air site from
+Western-Central France that is shared between several owners. It is located on the
+left bank of the Layon River. The site was discovered during the winter of 1870–1871
+on the fringes of a quarry supplying lime kilns. Fossil fauna, mainly reindeer, and
+flint tools were unearthed at the foot of the small Devonian limestone hill
+exploited by the quarry [<xref rid="pone.0230496.ref042" ref-type="bibr">42</xref>].
+The site was excavated by Dr. Gruet from 1943 to 1956 and shortly reopened in 1969.
+Gruet’s fieldwork was very briefly described in several preliminary publications,
+and a synthetic description of the stratigraphy was later published [<xref rid="pone.0230496.ref043" ref-type="bibr">43</xref>]. The site was additionally
+described in studies devoted to sedimentology [<xref rid="pone.0230496.ref044" ref-type="bibr">44</xref>] and the relative chronology is only known
+from pollen studies [<xref rid="pone.0230496.ref045" ref-type="bibr">45</xref>]. In
+2014, new excavations were launched with the aim to provide a comprehensive
+stratigraphy and establish the chronology. With almost 5-m thick deposits and
+numerous archeological layers, Roc-en-Pail is the longest sequence described so far
+for the Middle Paleolithic in Central Western France. Lithic industries are
+associated with faunal and macrofaunal remains in all layers [<xref rid="pone.0230496.ref046" ref-type="bibr">46</xref>]. Seventeen OSL samples are under processing
+so the preliminary chronology relies only on geomorphology, fauna and industry
+record. The bulk of the samples analyzed for DNA content come from stratigraphic
+unit 401, a sandy loam from the first phase of slope deposits potentially associated
+with intra-MIS 5 climate degradation, either the MIS 5d or 5b. Mixed fauna recovered
+in this unit is consistent with the mosaic environments described in deposits from
+the Early Weichselian in Northern France [<xref rid="pone.0230496.ref047" ref-type="bibr">47</xref>]. It is associated with a Middle Paleolithic
+industry characterized by recurrent Levallois debitage. The DNA studies of
+<italic toggle="yes">Bovinae</italic> and <italic toggle="yes">Cervidae</italic> remains were performed in
+a house next to the site during the 2018 excavation campaign.</p></sec><sec sec-type="materials|methods" id="sec002"><title>Materials and methods</title><sec id="sec003"><title>Archeological specimens</title><sec id="sec004"><title>Enlène cave</title><p>We studied 11 archeological samples from the Enlène cave. The samples,
+registered under numbers Enlène 6170 to 6180, are stored in a permanent
+repository in the Laboratoire de Préhistoire de Pujol, 09200
+Montesquieu-Avantès, France. The samples are accessible by others in this
+private repository upon request to Robert Bégouën at the address indicated
+above. The permit (reference: MV/FM/MB/2015/20302) obtained for all aspects
+of the study was delivered by the Service Régional de l’Archéologie (32 rue
+de la Dalbade, BP811, 31080 Toulouse cedex 6 France), and approved by the
+collection owner (Robert Bégouën).</p></sec><sec id="sec005"><title>Portel-Ouest cave</title><p>We studied 14 archeological samples from the Portel-Ouest cave. The samples,
+registered under numbers Portel T1 to T14, are stored in a permanent
+repository in the Museum of Prehistory reserves, Établissement Publique de
+Cooperation Culturelle-Centre Européen de Recherches Préhistoriques
+(EPCC-CERP), 1 avenue Léon-Jean Grégory, 66720 Tautavel, France. The samples
+are accessible by others upon request at the address indicated above. The
+permit (reference: 20170328) obtained for all aspects of the study was
+delivered under the control of the Service Régional de l’Archéologie
+Occitanie (5 rue Salle-l’Évêque, 34000 Montpellier, France), the collection
+owner (Régis Vézian), and the administrator of EPCC-CERP.</p></sec><sec id="sec006"><title>Roc-en-Pail</title><p>We studied 30 archeological samples from the Roc-en-Pail site. The samples
+are registered under numbers Roc-en-Pail 4, 10, 11, 12, 18, 29, 32, 33, 37,
+44, 49, 54, 75, 118, 181, 182, 196, 206, 231, 260, 297, 318, 321, 337, 398,
+409, 410, 464,528, 529. They are temporarily stored in the research
+laboratory of the archeological excavation permit holder (Sylvain Soriano,
+MSH Mondes, UMR7041, 21 allée de l’université, 92000 Nanterre, France).
+After a period which may not exceed five years after the excavation, the
+archaeological remains, including the specimens described in this paper,
+will be deposited and accessible by others in a public repository of the
+Pays-de-la-Loire region. The location of the permanent repository will be
+available upon request to the Service Régional de l’Archéologie
+Pays-de-la-Loire (1 rue Stanislas Baudry, BP 63518, 44035 Nantes Cedex 1,
+France). The permits (references: 134/2016, 193/2017, 556/2018) for all
+aspects of the study were delivered by the Prefecture de la region des
+Pays-de-la-Loire.</p></sec></sec><sec id="sec007"><title>Overview of experimental procedures</title><p>The equipment used for DNA studies was carried to museum and archeological sites
+in the luggage compartment of a mid-size car. In addition to the machines and
+kits described below that were used for DNA extraction and analysis, small
+equipment and consumables consisted of tubes, pipettes, pipette filter tips,
+disposable clothes, surgical blades, Petri dishes, aluminum foil, bench coat
+protector, biohazard bags, buffers and ultrapure distilled water. The full list
+of laboratory material is available from the authors. Temperature-sensitive
+reagents were transported in a cool box and stored at -20°C upon arrival.</p><p>Investigators responsible for DNA studies (JME, JU) wore masks, hair nets,
+disposable lab coats and gloves. Working surfaces were covered with versi-dry
+protection paper sheets (Nalge Nunc; Rochester, NY, USA) that were changed after
+each experiment. All material related to the dissection of archeological samples
+was changed between samples. There was no post-PCR processing of the samples in
+the museum and archeological sites. Wastes were brought back to the
+laboratory.</p></sec><sec id="sec008"><title>DNA extraction</title><p>For bone samples, we scraped off the outer surface using a single-use surgical
+blade to delineate a sampling area (<xref ref-type="supplementary-material" rid="pone.0230496.s001">S1A and S1B Fig</xref>). Then, a clean blade was
+used to recover bone powder from which DNA extraction was performed. For
+coprolites, the cortex was removed to allow recovery of material from the
+coprolite core (<xref ref-type="supplementary-material" rid="pone.0230496.s001">S1C and S1D Fig</xref>). The samples recovered from coprolites ranged from
+a fine powder to small granules. When granules were obtained, the sample was
+crushed between two aluminum foils. For bone and coprolites samples, the powder
+was transferred into a 2-ml Eppendorf tube (Eppendorf, Hamburg, Germany) until
+filling the bottom of the tube (<xref ref-type="supplementary-material" rid="pone.0230496.s001">S1E Fig</xref>). This amount of material corresponds
+to 30–50 mg. Five hundred μl of DNA extraction buffer (0.25 M EDTA, 10 mM
+Tris-EDTA (pH 8), 0.2% N-lauryl-sarcosyl, 200 μg/ml proteinase K (Thermo Fisher
+Scientific (Walthman, MA, USA)) were added to each experimental or mock sample,
+and the tubes were incubated 2–16 h at 42°C under constant agitation (1,200 rpm)
+in an Eppendorf thermomixer. The tubes were then centrifuged (5,000 g; 5 min) in
+an Eppendorf microcentrifuge, and the supernatant was transferred into an Amicon
+ultra-0.5 ml 30 kDa centrifugal filter unit (Millipore; Burlington, MA, USA).
+The filter unit was centrifuged (14,000 g; 7 min), rinsed 4 times by adding 500
+μl of ultrapure DNase/ RNase-free distilled water (Thermo Fisher Scientific) and
+centrifugation (14,000 g; 7 min), and the DNA extract was recovered as a ~ 50-μl
+sample volume by centrifugation (1,000 g; 1 min) of the filter unit in the
+reverse position. The extract was further purified using Qiagen minelute PCR
+purification kit (Qiagen; Venlo, Netherlands) according to manufacturer’s
+instructions, and eluted in 50 μl of 10 mM Tris, pH 8.</p></sec><sec id="sec009"><title>Real-time PCR analysis</title><p>Real-time PCR analysis was carried out using TaqMan MGB probes obtained from
+Thermo Fisher Scientific. Primers and probes for the TaqMan assays (<xref rid="pone.0230496.t001" ref-type="table">Table 1</xref>) were designed with
+the help of Primer Express software 3.0.1 (Thermo Fisher Scientific) or the
+custom assay design tool available on the Thermo Fisher Scientific web site
+using reference sequences for the mitochondrial genomes of <italic toggle="yes">Bison
+priscus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_027233">NC_027233</ext-link>), <italic toggle="yes">Bison schoetensacki</italic>
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_033873">NC_033873</ext-link>), <italic toggle="yes">Rangifer tarandus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_007703">NC_007703</ext-link>), <italic toggle="yes">Cervus
+elaphus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_007704">NC_007704</ext-link>), and <italic toggle="yes">Crocuta crocuta spelaea</italic>
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_020670">NC_020670</ext-link>). Real-time PCR was carried out in a 20-μl reaction volume containing
+10 μl of 2X TaqMan fast advanced master mix (Thermo Fisher Scientific), 900 nM
+of forward and reverse primers, 250 nM of TaqMan probe, and water (PCR blank),
+mock or DNA extracts. The TaqMan fast advanced master mix contains dUTP (instead
+of dTTP) and uracil-N-glycosylase to prevent from carryover contamination from
+one experiment to another. For each sample, 3 to 4 serial dilutions
+corresponding to 2 to 0.03 μl of the DNA extract were usually analyzed.
+Amplification was performed in a Mic PCR cycler (Bio Molecular Systems; Upper
+Coomera, Australia) and included the following steps: 50°C, 2 min; 95°C, 20 s;
+then 40 PCR cycles (95°C, 3 s; 60°C, 30 s). Data were analyzed using Mic PCR
+software set with default parameters to determine the cycle threshold
+(<italic toggle="yes">C</italic><sub>T</sub>), <italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>. the
+number of PCR cycles required for the fluorescent signal to exceed the
+background level. Only samples for which a <italic toggle="yes">C</italic><sub>T</sub> value
+below or equal to 37 cycles were considered positive for DNA content.</p><table-wrap id="pone.0230496.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.t001</object-id><label>Table 1</label><caption><title>Primers and probes used in this study.</title></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="pone.0230496.t001g" position="float" orientation="portrait" xlink:href="pone.0230496.t001.jpg"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Application</th><th align="left" rowspan="1" colspan="1">Species</th><th align="left" rowspan="1" colspan="1">Oligonucleotide sequence</th><th align="left" rowspan="1" colspan="1">Target, size (bp)</th></tr></thead><tbody><tr><td align="left" rowspan="3" colspan="1">TaqMan</td><td align="left" rowspan="3" colspan="1"><italic toggle="yes">Bison priscus</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>CCCCAGCAAATCCACTCAATACA</monospace></td><td align="left" rowspan="3" colspan="1">CYTB, 81</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>TTGATCGTAAAATTGCGTATGCAAATAAG</monospace></td></tr><tr><td align="left" rowspan="1" colspan="1">Probe,
+<monospace>CCTCCCCACATCAAAC</monospace></td></tr><tr><td align="left" rowspan="3" colspan="1">TaqMan</td><td align="left" rowspan="3" colspan="1"><italic toggle="yes">Bison
+schoetensacki</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>CTACTAGTACTATTCGCACCCGA</monospace></td><td align="left" rowspan="3" colspan="1">CYTB, 75</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>AGGCGTGTTAAGTGGATTTGCT</monospace></td></tr><tr><td align="left" rowspan="1" colspan="1">Probe,
+<monospace>CCTCCTCGGAGACCCAG</monospace></td></tr><tr><td align="left" rowspan="3" colspan="1">TaqMan</td><td align="left" rowspan="3" colspan="1"><italic toggle="yes">Bos
+primigenius</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>CCAGCCAATCCACTCAACACA</monospace></td><td align="left" rowspan="3" colspan="1">CYTB, 79</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>TTGATCGTAAGATTGCGTATGCAAA</monospace></td></tr><tr><td align="left" rowspan="1" colspan="1">Probe,
+<monospace>CCCCTCACATCAAACC</monospace></td></tr><tr><td align="left" rowspan="3" colspan="1">TaqMan</td><td align="left" rowspan="3" colspan="1"><italic toggle="yes">Rangifer
+tarandus</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>TCACATCTGTCGAGACGTCAATT</monospace></td><td align="left" rowspan="3" colspan="1">CYTB, 61</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>TGCTCCGTTGGCATGTATGTA</monospace></td></tr><tr><td align="left" rowspan="1" colspan="1">Probe,
+<monospace>TGGCTGAATCATCCG</monospace></td></tr><tr><td align="left" rowspan="3" colspan="1">TaqMan</td><td align="left" rowspan="3" colspan="1"><italic toggle="yes">Cervus
+elaphus</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>CATGTAGGGCGAGGCCTGTA</monospace></td><td align="left" rowspan="3" colspan="1">CYTB, 66</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>AACTACTCCGATGTTTCACGTCTCT</monospace></td></tr><tr><td align="left" rowspan="1" colspan="1">Probe,
+<monospace>ACGGATCATATACTTTTC</monospace></td></tr><tr><td align="left" rowspan="3" colspan="1">TaqMan</td><td align="left" rowspan="3" colspan="1"><italic toggle="yes">Crocuta
+crocuta</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>TGGCGAGACATTATCCGAGAA</monospace></td><td align="left" rowspan="3" colspan="1">COX3, 68</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>CGCAGCCCCTTTTGTACAGT</monospace></td></tr><tr><td align="left" rowspan="1" colspan="1">Probe,
+<monospace>CACATTCCAGGGACACC</monospace></td></tr><tr><td align="left" rowspan="2" colspan="1">PCR-sequencing</td><td align="left" rowspan="2" colspan="1"><italic toggle="yes">Bison priscus</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>CCAAACCCTTAAACTATCCCTC</monospace></td><td align="left" rowspan="2" colspan="1">ND5, 74</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>CGAATAGTGCTACTGGGACA</monospace></td></tr><tr><td align="left" rowspan="2" colspan="1">PCR-sequencing</td><td align="left" rowspan="2" colspan="1"><italic toggle="yes">Bison
+schoetensacki</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>CTACTAGTACTATTCGCACCCGA</monospace></td><td align="left" rowspan="2" colspan="1">CYTB, 75</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>AGGCGTGTTAAGTGGATTTGCT</monospace></td></tr><tr><td align="left" rowspan="2" colspan="1">PCR-sequencing</td><td align="left" rowspan="2" colspan="1"><italic toggle="yes">Rangifer
+tarandus</italic></td><td align="left" rowspan="1" colspan="1">F,
+<monospace>ATCCGATACAATAACAGCAT</monospace></td><td align="left" rowspan="2" colspan="1">CYTB, 65</td></tr><tr><td align="left" rowspan="1" colspan="1">R,
+<monospace>TTCAGCCATAATTGACGTCT</monospace></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t001fn001"><p>Oligonucleotides sequences are displayed in the 5’-3’ orientation. F,
+forward PCR primer; R, reverse PCR primer; Probe, TaqMan minor
+groove binder (MGB) probe labeled with 6-carboxyfluorescein (FAM).
+The last column indicates the region of the mitochondrial genome
+amplified with each primer set and the size of the amplicon.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec010"><title>Kinetic analysis of DNA recovery</title><p>These experiments were performed in the Paleogenomic and Genetic analysis
+platform of the Musée de l’Homme. This platform has a clean room facility for
+pre-PCR steps carried out on ancient DNA, and modern DNA laboratories for PCR
+and post-PCR steps.</p><p>To set up a rapid DNA extraction procedure, we used the methods described above
+to analyze two samples previously published: a steppe bison rib [<xref rid="pone.0230496.ref048" ref-type="bibr">48</xref>], and a cave hyena
+coprolite [<xref rid="pone.0230496.ref011" ref-type="bibr">11</xref>]. Briefly,
+300 mg of bone or coprolite powder was recovered using a single-use surgical
+blade, divided in two 150 mg samples that were transferred into 2-ml Eppendorf
+tube, and 1.5 ml of DNA extraction buffer was added. The samples were incubated
+under constant agitation in an Eppendorf Thermomixer, and aliquots of 500 μl
+were retrieved after a 1-h, 2-h, or 16-h (sample 1) or a 1-h, 3-h, or 16-h
+(sample 2) incubation time. DNA was then extracted using Amicon and Qiagen
+columns and eluted in 50 μl of 10 mM Tris, pH 8. Sizing of the DNA recovered in
+extracts was performed by electrophoresis using the LabChip GX touch nucleic
+acid analyzer (PerkinElmer; Waltham, MA, USA). TaqMan assays for steppe bison,
+cave hyena, and red deer DNA were performed using the Mic PCR cycler.</p></sec><sec id="sec011"><title>DNA sequencing</title><p>To confirm that correct species identification was achieved using TaqMan assays,
+a subset of DNA extracts were further analyzed by DNA sequencing. In order to
+avoid dissemination of amplified DNA in museum and archeological sites lacking
+an appropriate laboratory, these studies were performed in the Paleogenomic and
+Genetic analysis platform of the Musée de l’Homme.</p><p>Aliquots (0.3 to 0.9 μl) of the DNA extracts were PCR-amplified in a 50-μl
+reaction volume containing 300 nM of forward and reverse primers (<xref rid="pone.0230496.t001" ref-type="table">Table 1</xref>), 200 μM dNTP, 2.5
+mM MgCl<sub>2</sub>, 5 μl of GeneAmp AmpliTaq Gold DNA polymerase buffer II, and
+2.5 U of AmpliTaq Gold DNA polymerase (Thermo Fisher Scientific). To disclose
+the DNA damages expected for authentic ancient DNA, uracil-N-glycosylase was not
+present in the PCR mix used for these experiments. PCR procedures consisted in
+an enzyme activation step (95°C, 10 min), followed by a single round of 45 PCR
+cycles (95°C, 15 s; 53°C, 20 s; 70°C, 1 min) performed in a Veriti thermal
+cycler (Thermo Fisher Scientific). The full reaction volume was loaded onto an
+8% polyacrylamide gel stained with Sybr Green I (Thermo Fisher Scientific). PCR
+blanks and mock extracts always failed to yield any amplification products. PCR
+amplicons were eluted from the gel, recovered in 10 mM Tris (pH 8), and ligated
+to Illumina (San Diego, CA, USA) adapters. Libraries of DNA fragments were
+generated using the Illumina TruSeq Nano DNA LT sample kit following the
+manufacturer’s recommendations, except that 5 PCR cycles were performed after
+the ligation step. Illumina sequencing of pooled amplified libraries was
+performed on the MiSeq platform by Fasteris (Geneva, Switzerland). The sequence
+reads were quality filtered, the adapter sequences were removed using
+Fastx-Toolkit 0.0.13 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://hannonlab.cshl.edu/fastx_toolkit/download.html">http://hannonlab.cshl.edu/fastx_toolkit/download.html</ext-link>) and
+Cutadapt (version 2.7) [<xref rid="pone.0230496.ref049" ref-type="bibr">49</xref>] with a quality score of 20 and above, and minimum read length of
+50 nucleotides. Sequence reads were aligned using CodonCode Aligner v.8.0
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.codoncode.com/aligner/">http://www.codoncode.com/aligner/</ext-link>), and DNA sequence logos were
+generated using the seqLogo R package [<xref rid="pone.0230496.ref050" ref-type="bibr">50</xref>]. The DNA reads of this study have been
+deposited at Dryad (doi:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.8gtht76jz">10.5061/dryad.8gtht76jz</ext-link>). For each sample, the consensus
+sequence derived from DNA reads was used for species identification by BlastN
+alignment to the sequences recorded in the GenBank nr/nt database.</p></sec></sec><sec sec-type="results" id="sec012"><title>Results</title><sec id="sec013"><title>Mobile DNA laboratory</title><p><xref ref-type="fig" rid="pone.0230496.g002">Fig 2</xref> shows the mobile DNA
+laboratory and key steps for DNA studies. The entire process, from archeological
+samples to DNA data, can be performed within 4 hours: a 2-h incubation time (see
+below), a 1-h extraction step, and a 50-min real-time PCR run. Our device allows
+to perform DNA extraction from 12 samples (including mock extracts) at a time.
+Then, up to 4 replicates of all 12 samples can be analyzed simultaneously with
+the appropriate TaqMan probe in the 48 reaction tubes of the Mic real-time PCR
+cycler.</p><fig id="pone.0230496.g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g002</object-id><label>Fig 2</label><caption><title>Overview of the device and experimental workflow.</title><p>The left panel shows the heater-mixer used for sample incubation (1), the
+mini-centrifuge used for DNA extraction (2), and the real-time PCR
+instrument (3). The right panel summarizes the overall experimental
+procedure.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g002.jpg"/></fig><p>In this study, we analyzed Pleistocene remains of herbivore
+(<italic toggle="yes">Bovidae</italic>, <italic toggle="yes">Cervidae</italic>) and carnivore
+(<italic toggle="yes">Hyaenidae</italic>) species. Late Pleistocene Eurasian specimens of
+the cave hyena display some particular features, including different body size
+and proportions as compared to the most closely related extant species, the
+African spotted hyena (<italic toggle="yes">Crocuta crocuta</italic>) [<xref rid="pone.0230496.ref051" ref-type="bibr">51</xref>,<xref rid="pone.0230496.ref052" ref-type="bibr">52</xref>]. Consequently, the species/subspecies
+status of the cave hyena is debated and has been alternatively referred to as
+<italic toggle="yes">Crocuta crocuta</italic>, <italic toggle="yes">Crocuta spelaea</italic>, or
+<italic toggle="yes">Crocuta crocuta spelaea</italic>. However, genetic studies revealed
+that the Eurasian cave hyena and the extant spotted African hyena are so closely
+related that the cave hyena should be considered as a chronospecies rather than
+a distinct species or even subspecies [<xref rid="pone.0230496.ref011" ref-type="bibr">11</xref>,<xref rid="pone.0230496.ref053" ref-type="bibr">53</xref>]. We therefore refer below to cave hyena
+remains as <italic toggle="yes">Crocuta crocuta</italic> samples.</p></sec><sec id="sec014"><title>Validation of experimental procedures</title><p>To demonstrate the potential of our method to perform ancient DNA studies, we
+analyzed two samples previously published: a steppe bison rib (SGE2) from which
+a complete mitochondrial genome sequence for the steppe bison has been
+deciphered using shotgun DNA sequencing [<xref rid="pone.0230496.ref048" ref-type="bibr">48</xref>]; and a cave hyena coprolite (CC8) from
+which shotgun DNA sequencing yielded a complete cave hyena and a partial red
+deer (<italic toggle="yes">Cervus elaphus</italic>) mitochondrial genome sequence [<xref rid="pone.0230496.ref011" ref-type="bibr">11</xref>]. For each sample, we
+performed two experiments: one experiment aiming to compare the DNA extracts
+recovered after a 1-h, 3-h, or 16-h incubation period; and one experiment aiming
+to compare extracts recovered after a 1-h, 2-h, or 16-h incubation period. <xref ref-type="fig" rid="pone.0230496.g003">Fig 3A and 3B</xref> show that for
+the <italic toggle="yes">Bison priscus</italic> bone sample, there were no clear-cut
+differences between the amplification plots for extracts obtained after a long
+(2 h or more) or a short (1 h) incubation period. For the <italic toggle="yes">Crocuta
+crocuta</italic> coprolite, <italic toggle="yes">C</italic><sub>T</sub> values for DNA
+amplification were similar for extracts obtained after a 3- to 16-h (<xref ref-type="fig" rid="pone.0230496.g003">Fig 3C</xref>) or a 2- to 16-h (<xref ref-type="fig" rid="pone.0230496.g003">Fig 3D</xref>) incubation period, and
+slightly but systematically lower than <italic toggle="yes">C</italic><sub>T</sub> recorded
+after a 1-h incubation period. The data therefore indicate a much better yield
+of DNA from the coprolite after a long than a short (1 h) incubation period, and
+no improvement in yield for incubation times longer than 2 h. Importantly, the
+TaqMan assays carried out on the coprolite extracts made it possible to detect
+DNA originating from the defecator (<italic toggle="yes">Crocuta crocuta</italic>) and from
+its diet (<italic toggle="yes">Cervus elaphus</italic>). We also characterized the DNA
+extracts by analyzing the size of the native
+(<italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>. unamplified) DNA fragments recovered
+using our extraction procedure. As expected for ancient DNA, the bulk of the
+material recovered corresponded to DNA fragments shorter than 100-bp (<xref ref-type="fig" rid="pone.0230496.g003">Fig 3E and 3F</xref>). Overall, the
+data reported in <xref ref-type="fig" rid="pone.0230496.g003">Fig 3</xref>
+indicate that our extraction procedure and TaqMan assays are suitable for
+analyzing ancient DNA, and that a 2-h incubation time is long enough for ancient
+DNA recovery from bone and coprolite samples. Based on these data, we decided to
+perform incubation times lasting 2 to 16 h for DNA extraction.</p><fig id="pone.0230496.g003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g003</object-id><label>Fig 3</label><caption><title>Validation of experimental procedures.</title><p><bold>(a, b)</bold> Real-time PCR analysis of a steppe bison
+(<italic toggle="yes">Bison priscus</italic>) bone sample [<xref rid="pone.0230496.ref048" ref-type="bibr">48</xref>] incubated 1 h, 3 h or 16 h
+<bold>(a)</bold> and 1 h, 2 h, or 16 h <bold>(b)</bold> before being
+processed for DNA extraction. The green, purple, blue, and red
+amplification plots display results obtained using 1 μl of the steppe
+bison DNA extracts with the <italic toggle="yes">Bison priscus</italic> TaqMan assay.
+Negative controls: PCR blank, mock and cave hyena DNA extracts (1 μl)
+analyzed using the <italic toggle="yes">Bison priscus</italic> TaqMan assay.
+<bold>(c, d)</bold> Real-time PCR analysis of a cave hyena
+(<italic toggle="yes">Crocuta crocuta</italic>) coprolite [<xref rid="pone.0230496.ref011" ref-type="bibr">11</xref>] incubated 1 h, 3 h or 16 h
+<bold>(c)</bold> and 1 h, 2 h, or 16 h <bold>(d)</bold> before being
+processed for DNA extraction. The green, purple, blue, and red
+amplification plots display results obtained using 1 μl of the coprolite
+DNA extract with TaqMan assays for <italic toggle="yes">Crocuta crocuta</italic> and
+<italic toggle="yes">Cervus elaphus</italic> DNA, as indicated. Negative
+controls: PCR blank, mock and bison bone DNA extracts (1 μl) analyzed
+using the same TaqMan assays. <bold>(e, f)</bold> Electrophoregrams for
+the <italic toggle="yes">Bison priscus</italic> bone sample (<bold>e</bold>, 1-μl
+aliquot) and the <italic toggle="yes">Crocuta crocuta</italic> coprolite
+(<bold>f</bold>, 0.3-μl aliquot) DNA extracts obtained after a 2-h
+incubation period. LM: lower marker; UM; upper marker.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g003.jpg"/></fig></sec><sec id="sec015"><title>Analysis of Enlène cave samples</title><p>The first floor of the Bégouën museum (Montesquieu-Avantès, Ariège, France)
+includes a room for archiving archeological and paleontological remains
+excavated from the Volp caverns, and a laboratory in which no ancient DNA
+studies have ever been performed and where we installed our mobile laboratory.
+We analyzed 11 <italic toggle="yes">Bovinae</italic> bone samples originating from the
+Magdalenian layer of the <italic toggle="yes">Salle-du-Fond</italic>. The samples were
+studied using TaqMan assays for <italic toggle="yes">Bison priscus</italic>, <italic toggle="yes">Bison
+schoetensacki</italic>, and <italic toggle="yes">Bos primigenius</italic> mitochondrial
+DNA.</p><p><xref ref-type="fig" rid="pone.0230496.g004">Fig 4</xref> shows real-time PCR
+data for the Enlène 6178 specimen. Using the <italic toggle="yes">Bison priscus</italic>
+probe, amplification was recorded for all three replicate samples, with
+<italic toggle="yes">C</italic><sub>T</sub> values ranging between 30 and 34 cycles,
+depending on the amount (from 0.9 to 0.1 μl) of DNA extract introduced in the
+assay. These results indicate robust amplification data for the detection of
+<italic toggle="yes">Bison priscus</italic> DNA. <xref ref-type="fig" rid="pone.0230496.g004">Fig 4</xref> also shows that, using the same DNA
+extract, the <italic toggle="yes">Bison schoetensacki</italic> assay yielded either no
+amplification or a very faint signal, with a <italic toggle="yes">C</italic><sub>T</sub> of
+39 cycles for the largest amount of extract being used. The large difference
+between the <italic toggle="yes">C</italic><sub>T</sub> values (9 PCR cycles) recorded with
+the two probes for the same DNA amount indicates efficiencies that differ by
+more than two orders of magnitude to detect DNA in the extract, thus validating
+the design of the <italic toggle="yes">Bison priscus</italic> assay. As a whole, for the 11
+Enlène cave samples tested, we only obtained evidence for <italic toggle="yes">Bison
+priscus</italic> DNA, with a total of six positive samples (<xref ref-type="supplementary-material" rid="pone.0230496.s002">S2 Fig</xref>,
+<xref ref-type="supplementary-material" rid="pone.0230496.s008">S1
+Table</xref>). For one sample (E6179), two DNA extracts were prepared and
+studied on separate days, and both of them were positive for <italic toggle="yes">Bison
+priscus</italic> DNA content.</p><fig id="pone.0230496.g004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g004</object-id><label>Fig 4</label><caption><title>DNA analysis of a bone sample from the Enlène cave.</title><p>The figure shows real-time PCR data obtained from serial dilutions (from
+0.1 to 0.9 μl) of the DNA extract using the <italic toggle="yes">Bison
+priscus</italic> and the <italic toggle="yes">Bison schoetensacki</italic> TaqMan
+assays. The distinctive amplification plots obtained with the two assays
+indicate that the sample corresponds to a <italic toggle="yes">Bison priscus</italic>
+bone. Negative controls: PCR blank and mock extract.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g004.jpg"/></fig><p>To confirm that correct species identification was achieved using the TaqMan
+assay, a subset of Enlène samples were analyzed using high-throughput sequencing
+of PCR amplicons. The DNA sequencing approach also offers the opportunity to
+demonstrate that the extracts contain genuine ancient DNA. Indeed, amplicons
+obtained from ancient DNA display typical patterns of nucleotide
+misincorporations, that mostly consist in transitions, especially C/G-to-T/A
+transitions [<xref rid="pone.0230496.ref054" ref-type="bibr">54</xref>]. <xref ref-type="fig" rid="pone.0230496.g005">Fig 5</xref> shows that for each of
+the Enlène samples analyzed, the consensus sequence perfectly aligned with the
+<italic toggle="yes">Bison priscus</italic> reference sequence, and that the patterns of
+nucleotide misincorporations fit with those expected for PCR fragments obtained
+from ancient DNA. Thus, the sequence data support the conclusions derived from
+the TaqMan studies.</p><fig id="pone.0230496.g005" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g005</object-id><label>Fig 5</label><caption><title>DNA sequence data for Enlène samples.</title><p>The upper part of the figure displays sequence logos derived from 27,058
+(Enlène 6176), 19,361 (Enlène 6178), and 29,097 (Enlène 6179) DNA reads.
+Only the sequence located between the PCR primers is shown. At each
+position, the overall height of the stack indicates the sequence
+conservation, and the height of the letters the relative frequency of
+the nucleotides; the upper letter corresponds to the predominant
+nucleotide. The lower part of the figure shows the orthologous reference
+sequences of the <italic toggle="yes">Bison pricus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_027233">NC_027233</ext-link>),
+<italic toggle="yes">Bison schoetensacki</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_033873">NC_033873</ext-link>), <italic toggle="yes">Bison
+bonasus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_014044">NC_014044</ext-link>), and <italic toggle="yes">Bos primigenius</italic>
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_013996">NC_013996</ext-link>) mitochondrial genomes. For each Enlène sample, the consensus
+sequence is identical to the <italic toggle="yes">Bison priscus</italic> reference
+sequence. Dots indicate sequence identity.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g005.jpg"/></fig></sec><sec id="sec016"><title>Analysis of cave hyena coprolites from the Portel-Ouest cave</title><p>We performed the analysis of coprolites from the Portel-Ouest cave in the CERP of
+Tautavel. CERP, a building contiguous to the Musée de Préhistoire de Tautavel,
+houses a variety of devices for the analysis of archeological material, but no
+DNA studies have been performed previously in this laboratory. MIS 3 layers D
+(end of Middle Paleolithic) and B (Upper Paleolithic) of the Portel-Ouest cave
+yielded several dozens of <italic toggle="yes">Crocuta crocuta</italic> coprolites, of which
+14 (seven from each layer) were selected for our studies.</p><p>To test for DNA preservation in the cave hyena coprolites, we analyzed the DNA
+extracts using the <italic toggle="yes">Crocuta crocuta</italic> mitochondrial genome TaqMan
+assay. As shown in <xref ref-type="fig" rid="pone.0230496.g006">Fig 6A</xref>,
+we observed differential DNA yield from one coprolite to another, with
+<italic toggle="yes">C</italic><sub>T</sub> values ranging between 30.1 (T12 sample,
+layer B1) and 34.8 (T14, layer B1) PCR cycles. T13 (layer B1) and T2 (layer D)
+samples returned intermediate <italic toggle="yes">C</italic><sub>T</sub> values. Among the
+14 coprolites tested, the presence of cave hyena DNA was demonstrated in 8
+samples (<xref ref-type="supplementary-material" rid="pone.0230496.s003">S3
+Fig</xref>, <xref ref-type="supplementary-material" rid="pone.0230496.s008">S1 Table</xref>), including 7 samples from layer B1, and a single sample
+from layer D. This indicates better DNA preservation in the Upper than in the
+Middle Paleolithic layer.</p><fig id="pone.0230496.g006" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g006</object-id><label>Fig 6</label><caption><title>DNA analysis of cave hyena (<italic toggle="yes">Crocuta crocuta</italic>)
+coprolites from the Portel cave.</title><p><bold>(a)</bold> Real-time PCR data obtained with the <italic toggle="yes">Crocuta
+crocuta</italic> TaqMan assay using 2 μl of each DNA extract.
+Negative controls correspond to PCR blank and mock DNA extract.
+<bold>(b)</bold> Real-time PCR data obtained with the <italic toggle="yes">Bison
+schoetensacki</italic> TaqMan assay using 2 μl of the same DNA
+extracts. Negative controls: PCR blank and mock extract.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g006.jpg"/></fig><p>To gain some information on the cave hyena diet, we next analyzed all 8
+coprolites positive for <italic toggle="yes">Crocuta crocuta</italic> DNA with TaqMan assays
+for five <italic toggle="yes">Cetartiodactyla</italic> species, including two
+<italic toggle="yes">Cervidae</italic> and three <italic toggle="yes">Bovinae</italic> species.
+Whereas no evidence was obtained for the presence of <italic toggle="yes">Cervus
+elaphus</italic>, <italic toggle="yes">Rangifer tarandus</italic>, <italic toggle="yes">Bison
+priscus</italic> or <italic toggle="yes">Bos primigenius</italic> in these Portel cave
+coprolites, amplification of <italic toggle="yes">Bison schoetensacki</italic> DNA was
+demonstrated in two of them (<xref ref-type="fig" rid="pone.0230496.g006">Fig
+6B</xref>, <xref ref-type="supplementary-material" rid="pone.0230496.s008">S1 Table</xref>). Considering the close genetic proximity between
+<italic toggle="yes">Bison schoetensacki</italic> and <italic toggle="yes">Bison bonasus</italic>
+[<xref rid="pone.0230496.ref055" ref-type="bibr">55</xref>], additional PCR
+studies were performed to characterize by DNA sequencing the fragments amplified
+with the <italic toggle="yes">Bovinae</italic> primers. In the <italic toggle="yes">Bison
+schoetensacki</italic> mitochondrial genome sequence, the sequence located
+between the TaqMan primers displays a C residue at a position (nucleotide 15,273
+in the reference sequence) where a T residue is recorded in all extant and
+extinct specimens of the <italic toggle="yes">Bison bonasus</italic> Bb2 [<xref rid="pone.0230496.ref056" ref-type="bibr">56</xref>,<xref rid="pone.0230496.ref057" ref-type="bibr">57</xref>] lineage analyzed so far. The consensus
+sequences obtained for coprolites DNA amplified using <italic toggle="yes">Bovinae</italic>
+primers display the distinctive <italic toggle="yes">Bison schoetensaki</italic> C residue
+(<xref ref-type="fig" rid="pone.0230496.g007">Fig 7</xref>). At other
+positions, abundant C to T substitutions guarantee that amplification was
+initiated from ancient DNA. The detection of <italic toggle="yes">Bison schoetensaki</italic>
+DNA in two coprolites, one (T2) recovered from layer D, and one (T14) from layer
+B1, indicates that this <italic toggle="yes">Bovinae</italic> species was present by the end
+of the Middle Paleolithic and the beginning of the Upper Paleolithic
+(<italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>. about 40,000 years ago) in the
+vicinity of the Portel cave.</p><fig id="pone.0230496.g007" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g007</object-id><label>Fig 7</label><caption><title>DNA <italic toggle="yes">Bovinae</italic> sequence data for Le Portel
+samples.</title><p>The upper part of the figure displays sequence logos derived from 26,130
+(Le Portel T2) and 55,101 (Le Portel T14) DNA reads. Only the sequence
+located between the PCR primers is shown. At each position, the upper
+letter corresponds to the predominant nucleotide. The lower part of the
+figure shows the orthologous reference sequences of the <italic toggle="yes">Bison
+schoetensacki</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_033873">NC_033873</ext-link>), <italic toggle="yes">Bison pricus</italic>
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_027233">NC_027233</ext-link>), <italic toggle="yes">Bison bonasus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_014044">NC_014044</ext-link>), and <italic toggle="yes">Bos
+primigenius</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_013996">NC_013996</ext-link>) mitochondrial genomes. For the each
+Le Portel sample, the consensus sequence is identical to the
+<italic toggle="yes">Bison schoetensacki</italic> reference sequence. Dots
+indicate sequence identity.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g007.jpg"/></fig></sec><sec id="sec017"><title>Analysis of Roc-en-Pail samples</title><p>The fieldwork carried out at Roc-en-Pail gave us the opportunity to perform
+ancient DNA studies on freshly excavated samples. Based on paleontological
+criteria, the bulk of excavated remains are ascribed to <italic toggle="yes">Bovinae</italic>
+and <italic toggle="yes">Cervidae</italic> specimens. As usual for <italic toggle="yes">Bovinae</italic>
+remains, species identification was hardly feasible using morphometric data, so
+most samples were referred to as <italic toggle="yes">Bos</italic>/ <italic toggle="yes">Bison</italic>
+remains. These samples were systematically analyzed using the three
+<italic toggle="yes">Bovinae</italic> TaqMan assays. On the other hand, the
+<italic toggle="yes">Cervidae</italic> remains were expected to correspond to reindeer
+specimens. They were nevertheless all studied using the <italic toggle="yes">Rangifer
+tarandus</italic> and <italic toggle="yes">Cervus elaphus</italic> mitochondrial genome
+TaqMan assays.</p><p><xref ref-type="fig" rid="pone.0230496.g008">Fig 8A</xref> shows results obtained
+for two <italic toggle="yes">Bovinae</italic> samples using the <italic toggle="yes">Bison
+schoetensacki</italic> assay. <italic toggle="yes">C</italic><sub>T</sub> values with
+this assay were 32.7 (ReP529) and 33.5 (ReP32) PCR cycles. Of the 16
+<italic toggle="yes">Bovinae</italic> samples surveyed, 4 (3 bone fragments and a tooth
+sample) yielded DNA that could be amplified using the <italic toggle="yes">Bison
+schoetensacki</italic> assay (<xref ref-type="supplementary-material" rid="pone.0230496.s004">S4 Fig</xref>), but none of them provided evidence
+for the presence of <italic toggle="yes">Bison priscus</italic> or <italic toggle="yes">Bos
+primigenius</italic> DNA (<xref ref-type="supplementary-material" rid="pone.0230496.s008">S1 Table</xref>). In line with studies performed on
+Le Portel cave samples (see above), we checked by DNA sequence analysis the
+correct identification of the DNA fragments for two samples. As shown in <xref ref-type="supplementary-material" rid="pone.0230496.s005">S5A Fig</xref>,
+the consensus sequences were identical with the <italic toggle="yes">Bison
+schoetensacki</italic> reference sequence, and the patterns of nucleotide
+misincorporations demonstrated the presence of ancient DNA in the extracts.</p><fig id="pone.0230496.g008" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0230496.g008</object-id><label>Fig 8</label><caption><p>DNA analysis of Roc-en-Pail bone samples during an excavation campaign
+<bold>(a)</bold> Analysis of Roc-en-Pail 32 and 529 samples using
+the <italic toggle="yes">Bison schoetensacki</italic> TaqMan assay. <bold>(b)</bold>
+Analysis of Roc-en-Pail 10, 18, 260, and 398 samples using the
+<italic toggle="yes">Rangifer tarandus</italic> TaqMan assay. All assays were
+performed using 0.9 μl of DNA extract. Negative controls: PCR blank and
+mock extract.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="pone.0230496.g008.jpg"/></fig><p>From a paleontological point of view, Roc-en-Pail bison bone fragments 32, 337,
+and the deeply worn tooth (ReP 182) do not convey useful information. The fourth
+Roc-en-Pail sample (ReP 529) in which <italic toggle="yes">Bison schoetensacki</italic> DNA
+was found corresponds to the distal end of a metatarsal bone. It is not possible
+from this single bone fragment to obtain a clear-cut identification of the bison
+species from which it comes from. However, comparison of the metric values of
+this bone with those of bison specimens from Siréjol, where <italic toggle="yes">Bison
+schoetensacki</italic> has been recorded [<xref rid="pone.0230496.ref055" ref-type="bibr">55</xref>], indicates that the distal Roc-en-Pail
+bison metatarsal positions within the Siréjol population (<xref ref-type="supplementary-material" rid="pone.0230496.s006">S6 Fig</xref>).
+The large size of this distal metatarsal suggests it belongs to a male
+individual.</p><p>Turning to Roc-en-Pail <italic toggle="yes">Cervidae</italic> remains, <xref ref-type="fig" rid="pone.0230496.g008">Fig 8B</xref> shows examples of samples for which
+successful DNA amplification was achieved using the <italic toggle="yes">Rangifer
+tarandus</italic> assay. For the whole series of <italic toggle="yes">Cervidae</italic>
+remains tested for DNA content (14 samples), TaqMan analysis disclosed the
+presence of <italic toggle="yes">Rangifer tarandus</italic> DNA in 7 bone fragments (<xref ref-type="supplementary-material" rid="pone.0230496.s007">S7 Fig</xref>,
+<xref ref-type="supplementary-material" rid="pone.0230496.s008">S1
+Table</xref>), whereas <italic toggle="yes">Cervus elaphus</italic> DNA was never
+detected. ReP 18 specimen was studied using two DNA extracts obtained on
+separate days, and both of them indicated the presence of <italic toggle="yes">Rangifer
+tarandus</italic> DNA. Sequencing analysis confirmed the correct
+identification of <italic toggle="yes">Rangifer tarandus</italic> DNA using our TaqMan assay
+(<xref ref-type="supplementary-material" rid="pone.0230496.s005">S5B
+Fig</xref>).</p></sec></sec><sec sec-type="conclusions" id="sec018"><title>Discussion</title><p>This work evaluated the feasibility of using a mobile platform to perform ancient DNA
+analysis in museums lacking facilities for genetic studies, and as a complementary
+approach to archeological fieldwork during an excavation campaign. The samples
+surveyed originate from cave and open-air sites spanning a 60,000-year time period,
+from MIS 5 (Roc-en-Pail) to MIS 2 (Enlène). Successful real-time DNA analysis was
+achieved for several animal species using a variety of remains, including coprolite,
+bone and tooth samples.</p><p>Several lines of evidence support the notion that our method provides reliable data,
+notably that contamination and specificity issues were adequately addressed. First,
+negative controls (<italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>. PCR blanks and mock
+extracts) always failed to yield an amplification signal. Second, the species for
+which DNA amplification was obtained are either extinct or no longer present in the
+vicinity of the sites where the studies were conducted. Third, when a sample
+evaluated positive for DNA content was studied through two extracts, the second
+experiment corroborated the first one. Fourth, DNA sequencing carried out using the
+TaqMan assay primers or different primers confirmed that correct species
+identification had been achieved with the real-time PCR assays.</p><p>Our mobile platform consists of two devices for DNA extraction (heater-mixer,
+minicentrifuge) and of a compact real-time PCR machine. In order to make easily
+accessible the on-field approach, we paid special attention to set-up a platform
+that only includes commercially available devices. The full set of instruments and
+pipettes of our mobile platform amounts to 15,000 €, and the cost to perform DNA
+extraction and real-time PCR analysis (4 replicates) with one TaqMan assay is 15 €.
+The methods described here allow a single investigator to perform DNA extraction and
+analysis of 12 samples within 4 hours. The procedures for sample preparation and DNA
+extraction were designed to limit the number of instruments in the platform and the
+working time. Thus, instead of a drilling machine we used single-use surgical blades
+to scrap the bone surface and recover bone powder. This sampling procedure is
+consistent with the recommendation to retrieve material from the compact bone
+surface for best endogenous DNA yield [<xref rid="pone.0230496.ref017" ref-type="bibr">17</xref>]. To speed up the DNA extraction process and
+limit sample handling, we did not perform a bleach wash nor repeated incubation
+steps [<xref rid="pone.0230496.ref014" ref-type="bibr">14</xref>,<xref rid="pone.0230496.ref015" ref-type="bibr">15</xref>]. Instead, we used a single
+incubation step procedure and a similar extraction protocol for bone, tooth and
+coprolite samples. Thus, there is room for improving the on-field procedures for DNA
+extraction, while keeping in mind that sample handling and working time should be
+reduced as much as possible. For studying samples from animal species still present
+in the site environment, bleaching of the archeological material and implementing
+the platform with a portable clean room is recommended. For human samples, it would
+not be reasonable to perform on-field ancient DNA studies.</p><p>The samples we screened originate from sites that have not been studied previously
+for ancient DNA. In Enlène, we focused on <italic toggle="yes">Bovinae</italic> remains from the
+deep cave sector that was inhabited by Magdalenian people 18,000 years ago. We
+detected <italic toggle="yes">Bison priscus</italic> DNA in several bone samples, which provides
+a molecular support to confirm the notion that Magdalenian individuals from Enlène
+hunted the extinct steppe bison. For the Portel-Ouest cave, the analysis of cave
+hyena coprolites indicated better DNA preservation in the ~ 35,000-year-old (Upper
+Paleolithic) than in the ~ 40,000-year-old (Middle Paleolithic) layer. Moreover, we
+were able to detect <italic toggle="yes">Crocuta</italic> as well as <italic toggle="yes">Bison</italic> DNA
+in some coprolites, indicating that our approach is useful to obtain genetic data on
+a carnivore and its diet. Interestingly, the bison DNA present in coprolites points
+to a species different from the one detected in Enlène. Paleontological data argue
+for the presence of <italic toggle="yes">Bison priscus mediator</italic> remains in the
+Portel-Ouest deposits, especially in the ~ 45,000-year-old F layer [<xref rid="pone.0230496.ref035" ref-type="bibr">35</xref>]. Thus, comparison of the
+paleontological and genetic data suggests the presence of several bison species in
+the cave paleoenvironment, possibly at different time periods (see below). Finally,
+Roc-en-Pail challenged our method for the analysis of MIS 5
+(<italic toggle="yes">i</italic>.<italic toggle="yes">e</italic>. more than 71,000-year-old) samples from
+an open-air site. While the presence of reindeer remains indicates good agreement
+between the molecular and archeozoological data, the bison species disclosed at
+Roc-en-Pail by genetic studies was not fully anticipated and extends the observation
+made on the Portel cave samples.</p><p>Recent studies attempted to elucidate the descent of the European bison or wisent
+(<italic toggle="yes">Bison bonasus</italic>) by genomic analysis of remains sampled across
+Eurasia. Their complete mitochondrial genome sequences revealed two clades [<xref rid="pone.0230496.ref055" ref-type="bibr">55</xref>–<xref rid="pone.0230496.ref057" ref-type="bibr">57</xref>]. One clade, referred to as Bb2 by Massilani
+et al. [<xref rid="pone.0230496.ref056" ref-type="bibr">56</xref>], includes the
+extant wisent as well as all historical and Holocene specimens and part of the
+Pleistocene ones. The other clade only includes Pleistocene specimens. The status of
+this clade is debated. It has been named clade Bb1 or X by the two groups of
+investigators who consider it as an extinct <italic toggle="yes">Bison bonasus</italic> lineage
+[<xref rid="pone.0230496.ref056" ref-type="bibr">56</xref>,<xref rid="pone.0230496.ref057" ref-type="bibr">57</xref>]. We proposed that this clade corresponds to
+the extinct woodland bison (<italic toggle="yes">Bison schoetensacki</italic>) but failed to
+convince others who rather adhere to the notion that <italic toggle="yes">Bison
+schoetensacki</italic> became extinct during the Middle Pleistocene [<xref rid="pone.0230496.ref058" ref-type="bibr">58</xref>]. Whatever the exact status
+of the intriguing <italic toggle="yes">Bison schoetensacki</italic>/Bb1-X clade, in the present
+studies we recorded it for time periods and paleoenvironments that fit with previous
+expectations [<xref rid="pone.0230496.ref056" ref-type="bibr">56</xref>,<xref rid="pone.0230496.ref057" ref-type="bibr">57</xref>]. Thus, it was present in
+the MIS 5 Roc-en-Pail and in the MIS 3 Portel-Ouest layers. Mixed faunal record in
+these layers suggest the presence of non-continuous deciduous forest as well as a
+steppe environment that hosted “non-analogue” faunal communities as compared to
+those of present day [<xref rid="pone.0230496.ref059" ref-type="bibr">59</xref>]. By
+contrast, in the Enlène Magdalenian habitat (MIS 2 glacial period), we recorded
+<italic toggle="yes">Bison priscus</italic> specimens.</p><p>In conclusion, this work demonstrates the feasibility to perform ancient DNA analysis
+under a variety of working condition, including nearby an excavation site. The
+real-time PCR approach we used provides ancient DNA data within a few hours without
+on-site post-PCR processing of the samples, a prerequisite to avoid the
+dissemination of amplified DNA in sensitive environments. The robustness of the data
+was corroborated by subsequent DNA sequencing analysis. With the ongoing progress of
+methods for DNA analysis, including portable sequencing devices [<xref rid="pone.0230496.ref060" ref-type="bibr">60</xref>], we anticipate great
+interest in the near future for on-field ancient DNA studies.</p></sec><sec sec-type="supplementary-material" id="sec019"><title>Supporting information</title><supplementary-material content-type="local-data" id="pone.0230496.s001" position="float" orientation="portrait"><label>S1 Fig</label><caption><title>Recovery of bone and coprolite material for DNA extraction.</title><p><bold>(a, b)</bold>
+<italic toggle="yes">Rangifer tarandus</italic> bone sample (ReP49) from Roc-en-Pail.
+<bold>(a)</bold> Native bone sample; <bold>(b)</bold> the black line
+delineates the area from which the superficial cortex was scraped off before
+retrieving bone material from the red-circled zone for DNA extraction.
+<bold>(c, d)</bold>
+<italic toggle="yes">Crocuta crocuta</italic> coprolite (T7) from the Portel cave.
+<bold>(c)</bold> Native coprolite sample; <bold>(d)</bold> a cortical
+fragment has been removed to recover material from the coprolite core for
+DNA extraction. <bold>(e)</bold> Bone powder used for DNA extraction. Scale
+bars: 1 cm.</p><p>(JPG)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s001.jpg" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0230496.s002" position="float" orientation="portrait"><label>S2 Fig</label><caption><title>Enlène cave bone samples successfully analyzed for <italic toggle="yes">Bison
+priscus</italic> DNA.</title><p>Scale bars: 5 cm.</p><p>(JPG)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s002.jpg" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0230496.s003" position="float" orientation="portrait"><label>S3 Fig</label><caption><title>Portel cave coprolites successfully analyzed for cave hyena
+(<italic toggle="yes">Crocuta crocuta</italic>) DNA.</title><p>Scale bars: 1 cm.</p><p>(JPG)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s003.jpg" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0230496.s004" position="float" orientation="portrait"><label>S4 Fig</label><caption><title>Roc-en-Pail bone samples successfully analyzed for <italic toggle="yes">Bison
+schoetensacki</italic> DNA.</title><p>Scale bars: 5 cm.</p><p>(JPG)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s004.jpg" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0230496.s005" position="float" orientation="portrait"><label>S5 Fig</label><caption><title>DNA sequence data for Roc-en-Pail <italic toggle="yes">Bovinae</italic> and
+<italic toggle="yes">Cervidae</italic> samples.</title><p><bold>(a)</bold>
+<italic toggle="yes">Bovinae</italic> samples. The upper part of the figure displays
+sequence logos derived from 33,267 (Roc-en-Pail 32) and 30,091 (Roc-en-Pail
+529) DNA reads. Only the sequence located between the PCR primers is shown.
+At each position, the upper letter corresponds to the predominant
+nucleotide. The lower part of the figure shows the orthologous reference
+sequences of the <italic toggle="yes">Bison schoetensacki</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_033873">NC_033873</ext-link>),
+<italic toggle="yes">Bison pricus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_027233">NC_027233</ext-link>), <italic toggle="yes">Bison
+bonasus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_014044">NC_014044</ext-link>), and <italic toggle="yes">Bos primigenius</italic>
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_013996">NC_013996</ext-link>) mitochondrial genomes. For both Roc-en-Pail samples, the
+consensus sequence is identical to the <italic toggle="yes">Bison schoetensacki</italic>
+reference sequence. Dots indicate sequence identity. <bold>(b)</bold>
+<italic toggle="yes">Cervidae</italic> sample. The upper part of the figure displays
+sequence logos derived from 23,481 (Roc-en-Pail 18) and 2,229 (Roc-en-Pail
+398) DNA reads. The lower part of the figure shows the orthologous reference
+sequences of the <italic toggle="yes">Rangifer tarandus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_007703">NC_007703</ext-link>),
+<italic toggle="yes">Cervus elaphus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_007704">NC_007704</ext-link>), <italic toggle="yes">Capreolus
+capreolus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_020684">NC_020684</ext-link>), <italic toggle="yes">Dama dama</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="NC_020700">NC_020700</ext-link>)
+mitochondrial genomes, and the orthologous sequence of the
+<italic toggle="yes">Megaloceros giganteus</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="AM182645">AM182645</ext-link>) mitochondrial cytB
+gene. For both Roc-en-Pail samples, the consensus sequence is identical to
+the <italic toggle="yes">Rangifer tarandus</italic> reference sequence.</p><p>(JPG)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s005.jpg" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0230496.s006" position="float" orientation="portrait"><label>S6 Fig</label><caption><p>Comparative sizes of metatarsal distal ends of Roc-en-Pail 529 (orange dot)
+and Siréjol (blue dots) bison specimens.</p><p>(JPG)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s006.jpg" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0230496.s007" position="float" orientation="portrait"><label>S7 Fig</label><caption><title>Roc-en-Pail bone samples successfully analyzed for <italic toggle="yes">Rangifer
+tarandus</italic> DNA.</title><p>Scale bars: 1 cm.</p><p>(JPG)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s007.jpg" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0230496.s008" position="float" orientation="portrait"><label>S1 Table</label><caption><title>Summary of samples analyzed and TaqMan assays performed in this
+study.</title><p>(DOCX)</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pone.0230496.s008.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>All necessary permits were obtained for the described study, which complied with all
+relevant regulations. We thank the Direction Régionale des Affaires Culturelles
+Midi-Pyrénées, Service Régional de l’Archéologie (DRAC/SRA, 32 rue de la Dalbade,
+31080 Toulouse, France), the EPCC Centre Européen de Recherches Préhistoriques de
+Tautavel (avenue Léon-Jean Grégory, 66720 Tautavel, France), and the DRAC/SRA
+Pays-de-la-Loire (1 rue Stanislas Baudry, 44035 Nantes, France) for permitting us to
+analyze archeological remains from the Enlène cave, the Portel cave, and the
+Roc-en-Pail site, respectively. We also thank D. Berthet and M. Philippe for giving
+us access to the collection of bison specimens from the Musée des Confluences (Lyon,
+France) for osteometric measurements. Grants to SS were kindly hosted by the Société
+d’études scientifiques de l’Anjou and Angers Musées Vivants. SS is grateful to the
+landowners (Barault family, Luc and Aude Pignon) for their kind authorization to
+perform excavation in their fields. JME, NS, SS, and JU thank the 2018 volunteer
+excavation team in Roc-en-Pail. SS is grateful to the municipality of Roc-en-Pail
+for its support, in particular Philippe Jammes. We thank the Plateau Technique du
+MNHN, site du Musée de l’Homme (Plateforme Paléogénomique et Génétique Moléculaire,
+Musée de l’Homme, Paris) and the Service de Systématique Moléculaire (UMS 2700 OMSI
+CNRS-MNHN) for their contribution to this work. We also wish to thank P. Verdu and
+O. Giroud for extensive discussions about the goal of this study, and D. Dalet for
+the authorization to use the base map (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://d-maps.com/carte.php?num_car=2224&amp;lang=fr">http://d-maps.com/carte.php?num_car=2224&amp;lang=fr</ext-link>) displayed in
+<xref ref-type="fig" rid="pone.0230496.g001">Fig 1A</xref>.</p></ack><ref-list><title>References</title><ref id="pone.0230496.ref001"><label>1</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Miller</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Drautz</surname><given-names>DI</given-names></name>, <name name-style="western"><surname>Ratan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Pusey</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Qi</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Lesk</surname><given-names>AM</given-names></name>, <etal>et al</etal>
+<article-title>Sequencing the nuclear genome of the
+extinct wooly mammoth</article-title>. <source>Nature</source>.
+<year>2008</year>;<volume>456</volume>:
+<fpage>387</fpage>–<lpage>390</lpage>. <pub-id pub-id-type="doi">10.1038/nature07446</pub-id>
+<pub-id pub-id-type="pmid">19020620</pub-id></mixed-citation></ref><ref id="pone.0230496.ref002"><label>2</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rasmussen</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Lindgreen</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Pedersen</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Albrechtsen</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Moltke</surname><given-names>I</given-names></name>, <etal>et al</etal>
+<article-title>Ancient human genome sequence of an
+extinct Palaeo-Eskimo</article-title>. <source>Nature</source>.
+<year>2010</year>;<volume>463</volume>:
+<fpage>757</fpage>–<lpage>762</lpage>. <pub-id pub-id-type="doi">10.1038/nature08835</pub-id>
+<pub-id pub-id-type="pmid">20148029</pub-id><pub-id pub-id-type="pmcid">PMC3951495</pub-id></mixed-citation></ref><ref id="pone.0230496.ref003"><label>3</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Green</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Krause</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Briggs</surname><given-names>AW</given-names></name>, <name name-style="western"><surname>Maricic</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Stenzel</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Kircher</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>A draft sequence of the Neandertal
+genome</article-title>. <source>Science</source>.
+<year>2010</year>;<volume>328</volume>:
+<fpage>710</fpage>–<lpage>722</lpage>. <pub-id pub-id-type="doi">10.1126/science.1188021</pub-id>
+<pub-id pub-id-type="pmid">20448178</pub-id><pub-id pub-id-type="pmcid">PMC5100745</pub-id></mixed-citation></ref><ref id="pone.0230496.ref004"><label>4</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Reich</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Kircher</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Krause</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Patterson</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Durand</surname><given-names>EY</given-names></name>, <etal>et al</etal>
+<article-title>Genetic history of an archaic
+hominin group from Denisova Cave in Siberia</article-title>.
+<source>Nature</source>. <year>2010</year>;<volume>468</volume>:
+<fpage>1053</fpage>–<lpage>1060</lpage>. <pub-id pub-id-type="doi">10.1038/nature09710</pub-id>
+<pub-id pub-id-type="pmid">21179161</pub-id><pub-id pub-id-type="pmcid">PMC4306417</pub-id></mixed-citation></ref><ref id="pone.0230496.ref005"><label>5</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rawlence</surname><given-names>NJ</given-names></name>, <name name-style="western"><surname>Wood</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Armstrong</surname><given-names>KN</given-names></name>, <name name-style="western"><surname>Cooper</surname><given-names>A</given-names></name>. <article-title>DNA content and distribution in ancient feathers and
+potential to reconstruct the plumage of extinct avian taxa</article-title>.
+<source>Proc Biol Sci</source>. <year>2009</year>;<volume>276</volume>:
+<fpage>3395</fpage>–<lpage>3402</lpage>. <pub-id pub-id-type="doi">10.1098/rspb.2009.0755</pub-id>
+<pub-id pub-id-type="pmid">19570784</pub-id><pub-id pub-id-type="pmcid">PMC2817183</pub-id></mixed-citation></ref><ref id="pone.0230496.ref006"><label>6</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Oskam</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Haile</surname><given-names>J</given-names></name>, <name name-style="western"><surname>McLay</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Rigby</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Allentoft</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Olsen</surname><given-names>ME</given-names></name>, <etal>et al</etal>
+<article-title>Fossil avian eggshell preserves
+ancient DNA</article-title>. <source>Proc Biol Sci</source>.
+<year>2010</year>;<volume>277</volume>:
+<fpage>1991</fpage>–<lpage>2000</lpage>. <pub-id pub-id-type="doi">10.1098/rspb.2009.2019</pub-id>
+<pub-id pub-id-type="pmid">20219731</pub-id><pub-id pub-id-type="pmcid">PMC2880088</pub-id></mixed-citation></ref><ref id="pone.0230496.ref007"><label>7</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Warinner</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Speller</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Collins</surname><given-names>MJ</given-names></name>. <article-title>A new era in palaeomicrobiology: prospects for ancient
+dental calculus as a long-term record of the human oral
+microbiome</article-title>. <source>Philos Trans R Soc Lond B Biol
+Sci</source>. <year>2015</year>;<volume>370</volume>:
+<fpage>20130376</fpage>
+<pub-id pub-id-type="doi">10.1098/rstb.2013.0376</pub-id>
+<pub-id pub-id-type="pmid">25487328</pub-id><pub-id pub-id-type="pmcid">PMC4275884</pub-id></mixed-citation></ref><ref id="pone.0230496.ref008"><label>8</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Der Sarkissian</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Pichereau</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Dupont</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Ilsøe</surname><given-names>PC</given-names></name>, <name name-style="western"><surname>Perrigault</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Butler</surname><given-names>P</given-names></name>, <etal>et al</etal>
+<article-title>Ancient DNA analysis identifies
+marine mollusc shells as new metagenomic archives of the
+past</article-title>. <source>Mol Ecol Resour</source>.
+<year>2017</year>;<volume>17</volume>:
+<fpage>835</fpage>–<lpage>853</lpage>. <pub-id pub-id-type="doi">10.1111/1755-0998.12679</pub-id>
+<pub-id pub-id-type="pmid">28394451</pub-id></mixed-citation></ref><ref id="pone.0230496.ref009"><label>9</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Slon</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Hopfe</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Weiß</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Mafessoni</surname><given-names>F</given-names></name>, <name name-style="western"><surname>de la Rasilla</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lalueza-Fox</surname><given-names>C</given-names></name>, <etal>et al</etal>
+<article-title>Neandertal and Denisovan DNA from
+Pleistocene sediments</article-title>. <source>Science</source>.
+<year>2017</year>;<volume>356</volume>:
+<fpage>605</fpage>–<lpage>608</lpage>. <pub-id pub-id-type="doi">10.1126/science.aam9695</pub-id>
+<pub-id pub-id-type="pmid">28450384</pub-id></mixed-citation></ref><ref id="pone.0230496.ref010"><label>10</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gilbert</surname><given-names>MT</given-names></name>, <name name-style="western"><surname>Tomsho</surname><given-names>LP</given-names></name>, <name name-style="western"><surname>Rendulic</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Packard</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Drautz</surname><given-names>DI</given-names></name>, <name name-style="western"><surname>Sher</surname><given-names>A</given-names></name>, <etal>et al.</etal>
+<article-title>Whole-genome shotgun sequencing of mitochondria from ancient hair
+shafts</article-title>. <source>Science</source>.
+<year>2007</year>;<volume>317</volume>:
+<fpage>1927</fpage>–<lpage>1930</lpage>. <pub-id pub-id-type="doi">10.1126/science.1146971</pub-id>
+<pub-id pub-id-type="pmid">17901335</pub-id></mixed-citation></ref><ref id="pone.0230496.ref011"><label>11</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Bon</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Berthonaud</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Maksud</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Labadie</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Poulain</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Artiguenave</surname><given-names>F</given-names></name>, <etal>et al</etal>
+<article-title>Coprolites as a source of
+information on the genome and diet of the cave hyena</article-title>.
+<source>Proc Biol Sci</source>. <year>2012</year>;<volume>279</volume>:
+<fpage>2825</fpage>–<lpage>2830</lpage>. <pub-id pub-id-type="doi">10.1098/rspb.2012.0358</pub-id>
+<pub-id pub-id-type="pmid">22456883</pub-id><pub-id pub-id-type="pmcid">PMC3367792</pub-id></mixed-citation></ref><ref id="pone.0230496.ref012"><label>12</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gamba</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>ER</given-names></name>, <name name-style="western"><surname>Teasdale</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>McLaughlin</surname><given-names>RL</given-names></name>, <name name-style="western"><surname>Gonzalez-Fortes</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Mattiangeli</surname><given-names>V</given-names></name>, <etal>et al</etal>
+<article-title>Genome flux and stasis in a five
+millennium transect of European prehistory</article-title>. <source>Nat
+Commun</source>. <year>2014</year>;<volume>5</volume>: <fpage>5257</fpage>
+<pub-id pub-id-type="doi">10.1038/ncomms6257</pub-id>
+<pub-id pub-id-type="pmid">25334030</pub-id><pub-id pub-id-type="pmcid">PMC4218962</pub-id></mixed-citation></ref><ref id="pone.0230496.ref013"><label>13</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Dabney</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Knapp</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Glocke</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Gansauge</surname><given-names>MT</given-names></name>, <name name-style="western"><surname>Weihmann</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Nickel</surname><given-names>B</given-names></name>, <etal>et al</etal>
+<article-title>Complete mitochondrial genome
+sequence of a Middle Pleistocene cave bear reconstructed from ultrashort DNA
+fragments</article-title>. <source>Proc Natl Acad Sci U S A</source>.
+<year>2013</year>;<volume>110</volume>:
+<fpage>15758</fpage>–<lpage>15763</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1314445110</pub-id>
+<pub-id pub-id-type="pmid">24019490</pub-id><pub-id pub-id-type="pmcid">PMC3785785</pub-id></mixed-citation></ref><ref id="pone.0230496.ref014"><label>14</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gamba</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Hanghøj</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Gaunitz</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Alfarhan</surname><given-names>AH</given-names></name>, <name name-style="western"><surname>Alquraishi</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Al-Rasheid</surname><given-names>KA</given-names></name>, <etal>et al</etal>
+<article-title>Comparing the performance of three
+ancient DNA extraction methods for high-throughput
+sequencing</article-title>. <source>Mol Ecol Resour</source>.
+<year>2016</year>;<volume>16</volume>:
+<fpage>459</fpage>–<lpage>469</lpage>. <pub-id pub-id-type="doi">10.1111/1755-0998.12470</pub-id>
+<pub-id pub-id-type="pmid">26401836</pub-id></mixed-citation></ref><ref id="pone.0230496.ref015"><label>15</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Boessenkool</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Hanghøj</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Nistelberger</surname><given-names>HM</given-names></name>, <name name-style="western"><surname>Der Sarkissian</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gondek</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Orlando</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>Combining bleach and mild
+predigestion improves ancient DNA recovery from bones</article-title>.
+<source>Mol Ecol Resour</source>. <year>2017</year>;<volume>17</volume>:
+<fpage>742</fpage>–<lpage>751</lpage>. <pub-id pub-id-type="doi">10.1111/1755-0998.12623</pub-id>
+<pub-id pub-id-type="pmid">27790833</pub-id></mixed-citation></ref><ref id="pone.0230496.ref016"><label>16</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Pinhasi</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Fernandes</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Sirak</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Novak</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Connell</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Alpaslan-Roodenberg</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>Optimal Ancient DNA Yields from the
+Inner Ear Part of the Human Petrous Bone</article-title>. <source>PLoS
+One</source>. <year>2015</year>;<volume>10</volume>:
+<fpage>e0129102</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0129102</pub-id>
+<pub-id pub-id-type="pmid">26086078</pub-id><pub-id pub-id-type="pmcid">PMC4472748</pub-id></mixed-citation></ref><ref id="pone.0230496.ref017"><label>17</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Alberti</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Gonzalez</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Paijmans</surname><given-names>JLA</given-names></name>, <name name-style="western"><surname>Basler</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Preick</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Henneberger</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Optimized DNA sampling of ancient
+bones using Computed Tomography scans</article-title>. <source>Mol Ecol
+Resour</source>. <year>2018</year>;<volume>18</volume>:
+<fpage>1196</fpage>–<lpage>1208</lpage>. <pub-id pub-id-type="doi">10.1111/1755-0998.12911</pub-id>
+<pub-id pub-id-type="pmid">29877032</pub-id></mixed-citation></ref><ref id="pone.0230496.ref018"><label>18</label><mixed-citation publication-type="journal"><name name-style="western"><surname>De Sanoit</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Chambellan</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Plassard</surname><given-names>F</given-names></name>. <article-title>Caractérisation in situ du pigment noir de quelques
+œuvres pariétales de la Grotte de Rouffignac à l'aide d'un système portable
+d'analyse par fluorescence X (XRF)</article-title>.
+<source>Archéosciences</source>. <year>2005</year>;<volume>29</volume>:
+<fpage>61</fpage>–<lpage>68</lpage>. <pub-id pub-id-type="doi">10.4000/archeosciences.614</pub-id></mixed-citation></ref><ref id="pone.0230496.ref019"><label>19</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Tournié</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Prinsloo</surname><given-names>LC</given-names></name>, <name name-style="western"><surname>Paris</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Colomban</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>B</given-names></name>. <article-title>The first in situ Raman spectroscopic study of San rock
+art in South Africa: procedures and preliminary results</article-title>.
+<source>J Raman Spectrosc</source>. <year>2011</year>;<volume>42</volume>:
+<fpage>399</fpage>–<lpage>406</lpage>. <pub-id pub-id-type="doi">10.1002/jrs.2682</pub-id></mixed-citation></ref><ref id="pone.0230496.ref020"><label>20</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Beck</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Genty</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Lahlil</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Lebon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Tereygeol</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Vignaud</surname><given-names>C</given-names></name>, <etal>et al</etal>
+<article-title>Non-destructive portable analytical
+techniques for carbon in situ screening before sampling for dating
+prehistoric rock paintings</article-title>. <source>Radiocarbon</source>.
+<year>2013</year>;<volume>55</volume>:
+<fpage>436</fpage>–<lpage>444</lpage>. <pub-id pub-id-type="doi">10.1017/S003382220005757X</pub-id></mixed-citation></ref><ref id="pone.0230496.ref021"><label>21</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Almassian</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Cockrell</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Nelson</surname><given-names>WM</given-names></name>. <article-title>Portable nucleic acid thermocyclers</article-title>.
+<source>Chem Soc Rev</source>. <year>2013</year>;<volume>42</volume>:
+<fpage>8769</fpage>–<lpage>8798</lpage>. <pub-id pub-id-type="doi">10.1039/c3cs60144g</pub-id>
+<pub-id pub-id-type="pmid">24030680</pub-id></mixed-citation></ref><ref id="pone.0230496.ref022"><label>22</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Morrison</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Watts</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Hobbs</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Dawnay</surname><given-names>N</given-names></name>. <article-title>Field-based detection of biological samples for forensic
+analysis: Established techniques, novel tools, and future
+innovations</article-title>. <source>Forensic Sci Int</source>.
+<year>2018</year>;<volume>285</volume>:
+<fpage>147</fpage>–<lpage>160</lpage>. <pub-id pub-id-type="doi">10.1016/j.forsciint.2018.02.002</pub-id>
+<pub-id pub-id-type="pmid">29518713</pub-id></mixed-citation></ref><ref id="pone.0230496.ref023"><label>23</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Pruvost</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Schwarz</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Correia</surname><given-names>VB</given-names></name>, <name name-style="western"><surname>Champlot</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Braguier</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Morel</surname><given-names>N</given-names></name>, <etal>et al</etal>
+<article-title>Freshly excavated fossil bones are
+best for amplification of ancient DNA</article-title>. <source>Proc Natl
+Acad Sci USA</source>. <year>2007</year>;<volume>104</volume>:
+<fpage>739</fpage>–<lpage>744</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0610257104</pub-id>
+<pub-id pub-id-type="pmid">17210911</pub-id><pub-id pub-id-type="pmcid">PMC1783384</pub-id></mixed-citation></ref><ref id="pone.0230496.ref024"><label>24</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Pilli</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Modi</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Serpico</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Achilli</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Lancioni</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Lippi</surname><given-names>B</given-names></name>, <etal>et al</etal>
+<article-title>Monitoring DNA contamination in
+handled vs. directly excavated ancient human skeletal
+remains</article-title>. <source>PLoS One</source>.
+<year>2013</year>;<volume>8</volume>: <fpage>e52524</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0052524</pub-id>
+<pub-id pub-id-type="pmid">23372650</pub-id><pub-id pub-id-type="pmcid">PMC3556025</pub-id></mixed-citation></ref><ref id="pone.0230496.ref025"><label>25</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Kutyavin</surname><given-names>IV</given-names></name>, <name name-style="western"><surname>Afonina</surname><given-names>IA</given-names></name>, <name name-style="western"><surname>Mills</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gorn</surname><given-names>VV</given-names></name>, <name name-style="western"><surname>Lukhtanov</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Belousov</surname><given-names>ES</given-names></name>, <etal>et al</etal>
+<article-title>3'-minor groove binder-DNA probes
+increase sequence specificity at PCR extension temperatures</article-title>.
+<source>Nucleic Acids Res</source>. <year>2000</year>;<volume>28</volume>:
+<fpage>655</fpage>–<lpage>661</lpage>. <pub-id pub-id-type="doi">10.1093/nar/28.2.655</pub-id>
+<pub-id pub-id-type="pmid">10606668</pub-id><pub-id pub-id-type="pmcid">PMC102528</pub-id></mixed-citation></ref><ref id="pone.0230496.ref026"><label>26</label><mixed-citation publication-type="book"><name name-style="western"><surname>Bégouën</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Breuil</surname><given-names>H</given-names></name>. <source>Les cavernes du Volp, Trois-Frères, Tuc d’Audoubert à
+Montesquieu-Avantès (Ariège)</source>. <publisher-loc>Paris</publisher-loc>:
+<publisher-name>Travaux de l’Institut de Paléontologie Humaine, Arts et
+Métiers Graphiques</publisher-name>, <year>1958</year>.</mixed-citation></ref><ref id="pone.0230496.ref027"><label>27</label><mixed-citation publication-type="book"><name name-style="western"><surname>Bégouën</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Fritz</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Tosello</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Clottes</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Pastoors</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Faist</surname><given-names>F</given-names></name>. <chapter-title>Le sanctuaire secret des bisons; il y a 14 000 ans, dans
+la caverne du Tuc d’Audoubert</chapter-title>
+<publisher-loc>Paris</publisher-loc>: <publisher-name>Somogy éditions d’art
+et Association Louis Bégouën</publisher-name>;
+<year>2009</year>.</mixed-citation></ref><ref id="pone.0230496.ref028"><label>28</label><mixed-citation publication-type="book"><name name-style="western"><surname>Bégouën</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Clottes</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Feruglio</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Pastoors</surname><given-names>A</given-names></name>. <chapter-title>La caverne des Trois-Frères; anthologie d’un
+exceptionnel sanctuaire préhistorique</chapter-title>
+<publisher-loc>Paris</publisher-loc>: <publisher-name>Somogy éditions d’art
+et Association Louis Bégouën</publisher-name>;
+<year>2014</year>.</mixed-citation></ref><ref id="pone.0230496.ref029"><label>29</label><mixed-citation publication-type="other">Bégouën L. Notre
+campagne de fouilles dans la caverne des Trois-Frères (Ariège) en 1930–1931. In:
+XVe congrès international d’anthropologie et d’archéologie préhistorique, Ve
+session de l’Institut international d’anthropologie, Paris,
+1931.</mixed-citation></ref><ref id="pone.0230496.ref030"><label>30</label><mixed-citation publication-type="book"><name name-style="western"><surname>Bégouën</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Pastoors</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Clottes</surname><given-names>J</given-names></name>. <chapter-title>La grotte d’Enlène; immersion dans un habitat
+magdalénien</chapter-title>
+<publisher-loc>Paris</publisher-loc>:
+<publisher-name>In Fine éditions d’art et Association Louis
+Bégouën</publisher-name>; <year>2019</year>.</mixed-citation></ref><ref id="pone.0230496.ref031"><label>31</label><mixed-citation publication-type="other">Leroi-Gourhan Arl. Les
+pollens dans la caverne d’Enlène. In: Congrès Préhistorique de France, XXIe
+session, Quercy-Montauban-Cahors; 1979. vol 1: pp. 58–59,</mixed-citation></ref><ref id="pone.0230496.ref032"><label>32</label><mixed-citation publication-type="book"><name name-style="western"><surname>Breuil</surname><given-names>H.</given-names></name>
+<chapter-title>Quatre cent siècles d’art parietal: les cavernes ornées de l’âge
+du renne</chapter-title>
+<publisher-loc>Montignac</publisher-loc>:
+<publisher-name>Centre d’études et de documentation
+préhistoriques</publisher-name>; <year>1952</year>.</mixed-citation></ref><ref id="pone.0230496.ref033"><label>33</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Becam</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Chevalier</surname><given-names>T</given-names></name>. <article-title>Neandertal features of the deciduous and permanent teeth
+from Portel-Ouest Cave (Ariège, France)</article-title>. <source>Am J Phys
+Anthropol</source>. <year>2019</year>;<volume>168</volume>:
+<fpage>45</fpage>–<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1002/ajpa.23719</pub-id>
+<pub-id pub-id-type="pmid">30462354</pub-id></mixed-citation></ref><ref id="pone.0230496.ref034"><label>34</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Vézian</surname><given-names>J.</given-names></name>
+<article-title>Les fouilles à l’entrée du Portel Ouest (Loubens, Ariège):
+stratigraphie générale et passage du paléolithique moyen au paléolithique
+supérieur</article-title>. <source>Bull Soc Préhistorique Ariège</source>.
+<year>1989</year>;<volume>44</volume>:
+<fpage>225</fpage>–<lpage>261</lpage>.</mixed-citation></ref><ref id="pone.0230496.ref035"><label>35</label><mixed-citation publication-type="other">Ajaja O. Datation de
+quelques sites moustériens de Catalogne et du Languedoc par la méthode U-Th.
+Comparaisons avec la méthode ESR. Thesis, Institut de Paléontologie humaine,
+Paris, France. 1994.</mixed-citation></ref><ref id="pone.0230496.ref036"><label>36</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gardeisen</surname><given-names>A.</given-names></name>
+<article-title>Middle Palaeolithic subsistence in the West Cave of "Le Portel"
+(Pyrénées, France)</article-title>. <source>J Archaeol Sci</source>.
+<year>1999</year>;<volume>26</volume>:
+<fpage>1145</fpage>–<lpage>1158</lpage>. <pub-id pub-id-type="doi">10.1006/jasc.1999.0366</pub-id></mixed-citation></ref><ref id="pone.0230496.ref037"><label>37</label><mixed-citation publication-type="other">Testu A. Étude
+paléontologique et biostratigraphique des Felidae et Hyaenidae pléistocènes de
+l’Europe méditerranéenne. Thesis, Université de Perpignan, Perpignan, France.
+2006.</mixed-citation></ref><ref id="pone.0230496.ref038"><label>38</label><mixed-citation publication-type="other">Prince G. Contribution
+à l'étude des industries de la grotte du Portel-Ouest (commune de Loubens,
+Ariège, France): étude techno-typologique des industries moustériennes. Thesis,
+Université de Perpignan, Perpignan, France. 2000.</mixed-citation></ref><ref id="pone.0230496.ref039"><label>39</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Marquet</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Vézian</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gardeisen</surname><given-names>A</given-names></name>. <article-title>Le Portel-Ouest: associations fauniques et
+paléoenvironnements sur la frange septentrionale des Pyrénées ariègeoises au
+Würm ancien</article-title>. <source>Quaternaire</source>.
+<year>1998</year>;<volume>9</volume>:
+<fpage>303</fpage>–<lpage>314</lpage>.</mixed-citation></ref><ref id="pone.0230496.ref040"><label>40</label><mixed-citation publication-type="other">Vézian R. Étude
+paléontologique des Bovinae et des Equidae de la grotte moustérienne du
+Portel-Ouest (Ariège, France). Cadres biostatigraphique, biochronologique et
+paléo-environnemental. Thesis, Université de Perpignan Via Domitia. Perpignan,
+France. 2014. Available from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.theses.fr/2014PERP1202/document">http://www.theses.fr/2014PERP1202/document</ext-link></mixed-citation></ref><ref id="pone.0230496.ref041"><label>41</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Renault-Miskovsky</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Girard</surname><given-names>M</given-names></name>. <article-title>Palynologie des grottes de Montmaurin (Haute-Garonne) et
+du versant nord pyrénéen. Corrélations interséquentielles du Pléistocène
+moyen à l’Holocène</article-title>. <source>Quaternaire</source>.
+<year>1998</year>;<volume>9</volume>: <fpage>185</fpage>–<lpage>201</lpage>.
+<pub-id pub-id-type="doi">10.3406/quate.1998.1602</pub-id></mixed-citation></ref><ref id="pone.0230496.ref042"><label>42</label><mixed-citation publication-type="book"><name name-style="western"><surname>Farge</surname><given-names>D.</given-names></name>
+<name name-style="western"><surname>Une colonie de Myelophages</surname><given-names>en Anjou</given-names></name>. <chapter-title>Traces de l’homme à la fin de la période du Mammouth et
+de l’Ours, et au début de celle du Renne</chapter-title> In:
+<source>Congrès archéologique de France, XXXVIIIe session, Angers</source>.
+<publisher-loc>Paris</publisher-loc>: <publisher-name>Société française
+d’archéologie, Derache</publisher-name>; <year>1872</year> pp.
+<fpage>40</fpage>–<lpage>52</lpage>.</mixed-citation></ref><ref id="pone.0230496.ref043"><label>43</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gruet</surname><given-names>M.</given-names></name>
+<article-title>L’apport de deux sites angevins à la chronologie des terrasses
+fluviales: Roc-en-Pail en Chalonnes sur Loire et Port-Launay sur la
+Sarthe</article-title>. <source>Bulletin de l’Association française pour
+l’étude du Quaternaire</source>. <year>1984</year>;<volume>21</volume>:
+<fpage>13</fpage>–<lpage>18</lpage>.</mixed-citation></ref><ref id="pone.0230496.ref044"><label>44</label><mixed-citation publication-type="other">Roucoules R.
+Contribution à l’étude du Quaternaire dans le Maine-et-Loire. L’abri-sous-roche
+de Roc-en-Pail. Thesis, Faculté des sciences, Paris, France.
+1967.</mixed-citation></ref><ref id="pone.0230496.ref045"><label>45</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Visset</surname><given-names>L.</given-names></name>
+<article-title>Étude palynologique de l’abri-sous-roche de Roc-en-Pail en
+Chalonnes-sur-Loire (Maine et Loire)</article-title>. <source>Mem Soc Etudes
+Sci Anjou</source>. <year>1980</year>; <volume>4</volume>:
+<fpage>87</fpage>–<lpage>117</lpage>.</mixed-citation></ref><ref id="pone.0230496.ref046"><label>46</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Lebreton</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Soriano</surname><given-names>S</given-names></name>. <article-title>Taphonomie des micromammifères et reconstitution
+paléoenvironnementale d’un site du Pléistocène supérieur: l’étude de cas de
+Roc-en-Pail (France)</article-title>. <source>Quaternaire</source>.
+<year>2018</year>; <volume>29</volume>: <fpage>69</fpage>–<lpage>74</lpage>.
+<pub-id pub-id-type="doi">10.4000/quaternaire.8638</pub-id></mixed-citation></ref><ref id="pone.0230496.ref047"><label>47</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Antoine</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Coutard</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Guerin</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Deschodt</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Goval</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Locht</surname><given-names>JL</given-names></name>, <etal>et al</etal>
+<article-title>Upper Pleistocene loess-palaeosol
+records from Northern France in the European context: Environmental
+background and dating of the Middle Palaeolithic</article-title>.
+<source>Quaternary International</source>. <year>2016</year>;
+<volume>411</volume>: <fpage>4</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1016/j.quaint.2015.11.036</pub-id></mixed-citation></ref><ref id="pone.0230496.ref048"><label>48</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Marsolier-Kergoat</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Palacio</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Berthonaud</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Maksud</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Stafford</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Bégouën</surname><given-names>R</given-names></name>, <etal>et al</etal>
+<article-title>Hunting the extinct steppe bison
+(Bison priscus) mitochondrial genome in the Trois-Frères paleolithic painted
+cave</article-title>. <source>PLoS One</source>.
+<year>2015</year>;<volume>10</volume>: <fpage>e0128267</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0128267</pub-id>
+<pub-id pub-id-type="pmid">26083419</pub-id><pub-id pub-id-type="pmcid">PMC4471230</pub-id></mixed-citation></ref><ref id="pone.0230496.ref049"><label>49</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Martin</surname><given-names>M.</given-names></name>
+<article-title>Cutadapt removes adapter sequences from high-throughput
+sequencing reads</article-title>. <source>EMBnet</source>.
+<year>2011</year>;<volume>17</volume>: <fpage>10</fpage>–<lpage>12</lpage>.
+<pub-id pub-id-type="doi">10.14806/ej.17.1.200</pub-id></mixed-citation></ref><ref id="pone.0230496.ref050"><label>50</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Bembom</surname><given-names>O.</given-names></name>
+<article-title>seqLogo: Sequence logos for DNA sequence
+alignments</article-title>. <source>R package version 1.52.0</source>.
+<year>2019</year>.</mixed-citation></ref><ref id="pone.0230496.ref051"><label>51</label><mixed-citation publication-type="book"><name name-style="western"><surname>Kurtén</surname><given-names>B.</given-names></name>
+<source>Pleistocene Mammals of Europe</source>.
+<publisher-loc>Chicago</publisher-loc>: <publisher-name>Aldine
+Transaction</publisher-name>; <year>1968</year></mixed-citation></ref><ref id="pone.0230496.ref052"><label>52</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Werdelin</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Solounias</surname><given-names>N</given-names></name>. <article-title>The Hyaenidae: taxonomy, systematics and
+evolution</article-title>. <source>Fossils and Strata</source>.
+<year>1991</year>;<volume>30</volume>:
+<fpage>1</fpage>–<lpage>104</lpage>.</mixed-citation></ref><ref id="pone.0230496.ref053"><label>53</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Rohland</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Pollack</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Nagel</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Beauval</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Airvaux</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Pääbo</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>The population history of extant and
+extinct hyenas</article-title>. <source>Mol Biol Evol</source>.
+<year>2005</year>;<volume>22</volume>:
+<fpage>2435</fpage>–<lpage>2443</lpage>. <pub-id pub-id-type="doi">10.1093/molbev/msi244</pub-id>
+<pub-id pub-id-type="pmid">16120805</pub-id></mixed-citation></ref><ref id="pone.0230496.ref054"><label>54</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Stiller</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Ronan</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Simons</surname><given-names>JF</given-names></name>, <name name-style="western"><surname>Du</surname><given-names>L</given-names></name>, <name name-style="western"><surname>He</surname><given-names>W</given-names></name>, <etal>et al</etal>
+<article-title>Patterns of nucleotide
+misincorporations during enzymatic amplification and direct large-scale
+sequencing of ancient DNA</article-title>. <source>Proc Natl Acad Sci
+USA</source>. <year>2006</year>;<volume>103</volume>:
+<fpage>13578</fpage>–<lpage>13584</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0605327103</pub-id>
+<pub-id pub-id-type="pmid">16938852</pub-id><pub-id pub-id-type="pmcid">PMC1564221</pub-id></mixed-citation></ref><ref id="pone.0230496.ref055"><label>55</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Palacio</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Berthonaud</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Guérin</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Lambourdière</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Maksud</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Philippe</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Genome data on the extinct Bison
+schoetensacki establish it as a sister species of the extant European bison
+(Bison bonasus)</article-title>. <source>BMC Evol Biol</source>.
+<year>2017</year>;<volume>17</volume>: <fpage>48</fpage>
+<pub-id pub-id-type="doi">10.1186/s12862-017-0894-2</pub-id>
+<pub-id pub-id-type="pmid">28187706</pub-id><pub-id pub-id-type="pmcid">PMC5303235</pub-id></mixed-citation></ref><ref id="pone.0230496.ref056"><label>56</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Massilani</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Guimaraes</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Brugal</surname><given-names>J-P</given-names></name>, <name name-style="western"><surname>Bennett</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Tokarska</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Arbogast</surname><given-names>RM</given-names></name>, <etal>et al</etal>
+<article-title>Past climate changes, population
+dynamics and the origin of Bison in Europe</article-title>. <source>BMC
+Biol</source>. <year>2016</year>;<volume>14</volume>: <fpage>93</fpage>
+<pub-id pub-id-type="doi">10.1186/s12915-016-0317-7</pub-id>
+<pub-id pub-id-type="pmid">27769298</pub-id><pub-id pub-id-type="pmcid">PMC5075162</pub-id></mixed-citation></ref><ref id="pone.0230496.ref057"><label>57</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Soubrier</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Gower</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Richards</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Llamas</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Mitchell</surname><given-names>KJ</given-names></name>, <etal>et al</etal>
+<article-title>Early cave art and ancient DNA
+record the origin of European bison</article-title>. <source>Nat
+Commun</source>. <year>2016</year>;<volume>7</volume>: <fpage>13158</fpage>
+<pub-id pub-id-type="doi">10.1038/ncomms13158</pub-id>
+<pub-id pub-id-type="pmid">27754477</pub-id><pub-id pub-id-type="pmcid">PMC5071849</pub-id></mixed-citation></ref><ref id="pone.0230496.ref058"><label>58</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Grange</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Brugal</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Flori</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Gautier</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Uzunidis</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Geigl</surname><given-names>EM</given-names></name>. <article-title>The Evolution and Population Diversity of Bison in
+Pleistocene and Holocene Eurasia: Sex Matters.</article-title>
+<source>Diversity</source>. <year>2018</year>; <volume>10</volume>:
+<fpage>65</fpage>
+<pub-id pub-id-type="doi">10.3390/d10030065</pub-id></mixed-citation></ref><ref id="pone.0230496.ref059"><label>59</label><mixed-citation publication-type="book"><name name-style="western"><surname>Stewart</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>van Kolfschoten</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Markova</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Musil</surname><given-names>R</given-names></name>. <chapter-title>The mammalian faunas of Europe during Oxygen Isotope
+Stage three</chapter-title> In: <name name-style="western"><surname>van Andel</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Davies</surname><given-names>W</given-names></name>, editors. <source>Neanderthals and modern humans in the European
+landscape during the last glaciation, 60,000 to 20,000 years ago:
+archaeological results of the stage 3 project</source>.
+<publisher-name>McDonald Institute Monograph Series</publisher-name>;
+<year>2003</year> pp.
+<fpage>103</fpage>–<lpage>129</lpage>.</mixed-citation></ref><ref id="pone.0230496.ref060"><label>60</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Johnson</surname><given-names>SS</given-names></name>, <name name-style="western"><surname>Zaikova</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Goerlitz</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Bai</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Tighe</surname><given-names>SW</given-names></name>. <article-title>Real-Time DNA Sequencing in the Antarctic Dry Valleys
+Using the Oxford Nanopore Sequencer</article-title>. <source>J Biomol
+Tech</source>. <year>2017</year>;<volume>28</volume>:
+<fpage>2</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.7171/jbt.17-2801-009</pub-id>
+<pub-id pub-id-type="pmid">28337073</pub-id><pub-id pub-id-type="pmcid">PMC5362188</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

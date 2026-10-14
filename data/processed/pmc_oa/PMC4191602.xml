@@ -1,0 +1,961 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="EN" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">J Med Chem</journal-id><journal-id journal-id-type="iso-abbrev">J. Med. Chem</journal-id><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-id journal-id-type="nlm-id">9716531</journal-id><journal-id journal-id-type="publisher-id">jm</journal-id><journal-title-group><journal-title>Journal of Medicinal Chemistry</journal-title></journal-title-group><issn pub-type="ppub">0022-2623</issn><issn pub-type="epub">1520-4804</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>ACS AuthorChoice</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC4191602</article-id><article-id pub-id-type="pmcid-ver">PMC4191602.1</article-id><article-id pub-id-type="pmcaid">4191602</article-id><article-id pub-id-type="pmcaiid">4191602</article-id><article-id pub-id-type="pmid">25225968</article-id><article-id pub-id-type="doi">10.1021/jm500958x</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Phenyl Substituted 4-Hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-ones and 5-Hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones: Inhibitors of Influenza A Endonuclease</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name name-style="western"><surname>Sagong</surname><given-names initials="HY">Hye Yeon</given-names></name><xref rid="aff1" ref-type="aff">†</xref></contrib><contrib contrib-type="author" id="ath2"><name name-style="western"><surname>Bauman</surname><given-names initials="JD">Joseph
+D.</given-names></name><xref rid="aff2" ref-type="aff">‡</xref></contrib><contrib contrib-type="author" id="ath3"><name name-style="western"><surname>Patel</surname><given-names initials="D">Disha</given-names></name><xref rid="aff2" ref-type="aff">‡</xref></contrib><contrib contrib-type="author" id="ath4"><name name-style="western"><surname>Das</surname><given-names initials="K">Kalyan</given-names></name><xref rid="aff2" ref-type="aff">‡</xref></contrib><contrib contrib-type="author" id="ath5"><name name-style="western"><surname>Arnold</surname><given-names initials="E">Eddy</given-names></name><xref rid="aff2" ref-type="aff">‡</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath6"><name name-style="western"><surname>LaVoie</surname><given-names initials="EJ">Edmond J.</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">†</xref></contrib><aff id="aff1"><label>†</label>Department
+of Medicinal Chemistry, Ernest Mario School of Pharmacy, <institution>Rutgers, The State University of New Jersey</institution>, Piscataway, New Jersey 08854-8020, <country>United States</country></aff><aff id="aff2"><label>‡</label>Center
+for Advanced Biotechnology and Medicine and Department of Chemistry
+and Chemical Biology, <institution>Rutgers University</institution>, Piscataway, New Jersey 08854-5627, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Phone: <phone>+1 (848) 445 2674</phone>. Fax: <fax>+1 (732) 445 6312</fax>. Email: <email>elavoie@pharmacy.rutgers.edu</email>.</corresp></author-notes><pub-date pub-type="epub"><day>16</day><month>09</month><year>2014</year></pub-date><pub-date pub-type="ppub"><day>09</day><month>10</month><year>2014</year></pub-date><volume>57</volume><issue>19</issue><issue-id pub-id-type="pmc-issue-id">243684</issue-id><fpage>8086</fpage><lpage>8098</lpage><history><date date-type="received"><day>11</day><month>07</month><year>2014</year></date></history><pub-history><event event-type="pmc-release"><date><day>16</day><month>09</month><year>2015</year></date></event><event event-type="pmc-live"><date><day>16</day><month>09</month><year>2015</year></date></event><event event-type="pmc-released-under-embargo"><date><day>11</day><month>08</month><year>2015</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-01-06 04:10:11.333"><day>06</day><month>01</month><year>2023</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2014 American Chemical Society</copyright-statement><copyright-year>2014</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">Terms of Use</ext-link></license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="jm500958x.pdf"/><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ab-tgr1" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0010.jpg"/></p><p>Seasonal
+and pandemic influenza outbreaks remain a major human
+health problem. Inhibition of the endonuclease activity of influenza
+RNA-dependent RNA polymerase is attractive for the development of
+new agents for the treatment of influenza infection. Our earlier studies
+identified a series of 5- and 6-phenyl substituted 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones that were effective inhibitors of influenza endonuclease.
+These agents identified as bimetal chelating ligands binding to the
+active site of the enzyme. In the present study, several aza analogues
+of these phenyl substituted 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one compounds were synthesized and evaluated for their ability
+to inhibit the endonuclease activity. In contrast to the 4-aza analogue
+of 6-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one,
+the 5-aza analogue (5-hydroxy-2-(4-fluorophenyl)pyrimidin-4(3<italic toggle="yes">H</italic>)-one) did exhibit significant activity as an endonuclease
+inhibitor. The 6-aza analogue of 5-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one (6-(4-fluorophenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one) also retained modest activity as an inhibitor. Several
+varied 6-phenyl-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-ones and
+2-phenyl-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones were synthesized
+and evaluated as endonuclease inhibitors. The SAR observed for these
+aza analogues are consistent with those previously observed with various
+phenyl substituted 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones.</p></abstract><funding-group><funding-statement><funding-source>National Institutes of Health, United States</funding-source></funding-statement></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>jm500958x</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>jm-2014-00958x</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>Two classes of agents,
+those targeting the M2 ion-channel and those
+targeting neuramindase, are available to treat or prevent influenza
+infection. The emergence of resistance to the M2 ion-channel inhibiting
+drugs, amantadine and rimantadine, has limited their clinical utility.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> Resistance to neuraminidase inhibitors, including oseltamivir, has
+also been observed in several seasonal influenza A strains.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref></sup> Drug resistance mutations can emerge in almost all influenza A subtypes/strains,
+including the pandemic 2009 H1N1 virus,<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> limiting the clinical efficacy of the currently approved drugs.</p><p>Influenza A contains eight negative-stranded RNA genomic segments.
+The three largest genomic RNA segments encode the viral RNA-dependent
+RNA polymerase (RdRP) consisting of the polymerase acidic protein
+(PA) and polymerase basic proteins 1 (PB1) and 2 (PB2). The PA subunit:
+(i) has endonuclease activity, (ii) is involved in viral RNA (vRNA)/complementary
+RNA (cRNA) promoter binding, and (iii) interacts with the PB1 subunit.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> PA has two domains, PA<sub>N</sub> (a ∼25
+kDa N-terminal domain; residues 1–197) and PA<sub>C</sub> (∼55
+kDa C-terminal domain; residues 239–716). Crystal structures
+of PA<sub>C</sub> have been determined in complexes with N-terminal
+fragments of PB1.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> The structure of PA<sub>N</sub> has been solved in several crystal forms both unliganded
+and with various ligands.<sup><xref ref-type="bibr" rid="ref8">8</xref>−<xref ref-type="bibr" rid="ref13">13</xref></sup></p><p>Influenza RdRP is responsible for the replication and transcription
+of the segmented viral RNA genes. Viral mRNA transcription involves
+a cap-snatching mechanism in which the polymerase binds to the host
+cellular mRNA via the 5′-cap and cleaves the mRNA 12–13
+nucleotides downstream. This cleaved RNA fragment, which contains
+the 5′ cap, acts as a primer for viral mRNA synthesis.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> Cap-snatching is an important event in the life
+cycle of all members of the Orthomyxoviridae family of viruses, including
+influenza A, B, and C viruses. Because the host cell has no analogous
+activity, inhibitors of cap-snatching may be selective against all
+influenza subtypes and strains, including oseltamivir-resistant influenza
+A viruses, without interfering with the host cell.</p><p>Several small
+molecules have been identified as influenza endonuclease
+inhibitors. These include 2,4-dioxobutanoic acid derivatives,<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref16">16</xref></sup> 5-hydroxy-1,6-dihydropyrimidine-4-carboxylic acid derivatives,<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> and flutimide and its derivatives,<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref15">15</xref>−<xref ref-type="bibr" rid="ref18">18</xref></sup> 2-hydroxyphenyl amide derivatives,<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> as well as tetramic acid derivatives.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> Recently, in silico screening with in vitro
+and ex vivo follow up studies identified hexanetetrones and trihydroxyphenyls
+as endonuclease inhibitors with anti-influenza activity.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> As correctly hypothesized, the endonuclease
+activity of influenza polymerase belongs to the two metal ion group
+of phosphate-processing enzymes.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> From
+an X-ray crystallographic screening campaign of a fragment library
+targeting the influenza A endonuclease enzyme, we identified the 5-chloro-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one as a bimetal chelating ligand at the active site
+of the enzyme.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> Using this information,
+we have reported the structure–activity relationships for two
+new series of compounds, 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones
+and 3-hydroxyquinolin-2(1<italic toggle="yes">H</italic>)-ones, as endonuclease
+inhibitors (Figure <xref rid="fig1" ref-type="fig">1</xref>).<sup><xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup></p><fig id="fig1" position="float" orientation="portrait"><label>Figure 1</label><caption><p>Structures
+and of 5-(<italic toggle="yes">p</italic>-fluorophenyl-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one (<bold>5</bold>-<bold>FPhP</bold>), 6-(<italic toggle="yes">p</italic>-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one (<bold>6</bold>-<bold>FPhP</bold>), 6-(<italic toggle="yes">p</italic>-fluorophenyl)-3-hydroxyquinolin-2(1<italic toggle="yes">H</italic>)-one (<bold>6</bold>-<bold>FPhQ</bold>), and 7-(<italic toggle="yes">p</italic>-fluorophenyl)-3-hydroxyquinolin-2(1<italic toggle="yes">H</italic>)-one
+(<bold>7</bold>-<bold>FPhQ</bold>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr6" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0002.jpg"/></fig><p>Phenyl substituted derivatives of 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones are among the more potent inhibitors of influenza
+A endonuclease.
+While 4-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)one
+did not exhibit significant activity, both 5-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)one and 6-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)one had IC<sub>50</sub> values &lt;1.0 μM. The present
+study was undertaken to determine the relative effects of aza substitution
+at various positions of phenyl substituted 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones on their potential to inhibit influenza A endonuclease.</p></sec><sec id="sec2"><title>Chemistry</title><p>The synthesis of 5-(4-fluorophenyl)-1,4-dihydropyrazine-2,3-dione, <bold>1a</bold>, is outlined in Scheme <xref rid="sch1" ref-type="scheme">1</xref>. This dione
+can tautomerize to either 5- or 6-(4-fluorophenyl)-3-hydroxypyrazin-2(1<italic toggle="yes">H</italic>)-one (<bold>1b</bold>, <bold>1c</bold>). The 2,3-dichloropyrazine
+was treated with excess sodium methoxide to form 2,3-dimethoxypyrazine
+as previously described.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Bromination
+of 2,3-dimethoxypyrazine with <italic toggle="yes">N</italic>-bromosuccimide in
+DMF provided the 5-bromo derivative,<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> which
+under Suzuki coupling conditions with 4-fluorophenylboronic acid gave
+5-(4-fluorophenyl)-2,3-dimethoxypyrazine. Treatment of this dimethoxypyrazine
+with a (1:1) mixture of dioxane and 2 N HCl provided <bold>1</bold>.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup></p><fig id="sch1" position="float" orientation="portrait"><label>Scheme 1</label><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr1" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0004.jpg"/></fig><p>The method used to prepare 6-(4-fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one <bold>2</bold> is outlined in Scheme <xref rid="sch2" ref-type="scheme">2</xref>. 4,5-Dimethoxy-6-chloropyrimidine was prepared from 4,6-dichloro-5-methoxypyrimidine
+by treatment with sodium methoxide.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> Suzuki
+coupling of this intermediate with 4-fluorophenylboronic acid provided
+6-(<italic toggle="yes">p</italic>-fluorophenyl)-4,5-dimethoxypyrimidine, which
+in a 1:1 mixture of dioxane and 2 N HCl produced 5-methoxy-6-(4-fluorophenyl)pyrimidin-4(3<italic toggle="yes">H</italic>)-one. Treatment of this 5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one with BBr<sub>3</sub> in CH<sub>2</sub>Cl<sub>2</sub> provided <bold>2</bold>.</p><fig id="sch2" position="float" orientation="portrait"><label>Scheme 2</label><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr2" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0005.jpg"/></fig><p>The synthetic approach employed
+for the preparation of various
+substituted 2-phenyl 5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones
+is outlined in Scheme <xref rid="sch3" ref-type="scheme">3</xref>. 2-Chloro-4,5-dimethoxypyrimidine,
+prepared from 2,4-dichloro-5-methoxypyrimidine,<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> was a common intermediate for these 2-phenyl 5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones. Suzuki coupling with the appropriate phenylboronic
+acid provided the desired 2-phenyl 4,5-dimethoxypyrimidine derivative,
+which was initially hydrolyzed with 1:1 dioxane and 2 N HCl to provide
+the requisite 2-phenyl 5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one.
+Further treatment of these 5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones with BBr<sub>3</sub> in CH<sub>2</sub>Cl<sub>2</sub> provided
+the 2-(fluorophenyl) derivatives <bold>3</bold>–<bold>5</bold> as well as the various 2-biphenyl derivatives <bold>6</bold>–<bold>8</bold>. In a similar manner, the 2-(4-cyanophenyl) and 2-(3-cyanophenyl)
+5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones were prepared and treated
+with and BBr<sub>3</sub> in CH<sub>2</sub>Cl<sub>2</sub> to form the
+5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones <bold>9</bold> and <bold>10</bold>. Treatment of <bold>9</bold> or <bold>10</bold> with sodium
+azide in DMF in the presence of a catalytic amount of acetic acid
+gave the 5-tetrazoyl derivatives <bold>11</bold> and <bold>12</bold>, respectively.</p><fig id="sch3" position="float" orientation="portrait"><label>Scheme 3</label><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr3" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0006.jpg"/></fig><p>The preparation of 5-(4-fluorophenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one is summarized in Scheme <xref rid="sch4" ref-type="scheme">4</xref>.
+Formation of the 2-methoxymethyl derivative of 4,5-dichloropyridazin-3(2<italic toggle="yes">H</italic>)-one, followed by selective replacement of the 4-chloro
+substituent with a methoxyl group, provided 2-methoxymethyl-5-chloro-4-methoxypyridazin-3(2<italic toggle="yes">H</italic>)-one.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> This MOM-protected
+chloropyridazin-3(2<italic toggle="yes">H</italic>)-one was reacted with 4-fluorophenylboronic
+acid under Suzuki coupling conditions to provide 2-methoxymethyl-5-(4-fluorophenyl)-4-methoxypyridazin-3(2<italic toggle="yes">H</italic>)-one. Treatment of this 5-(4-fluorophenyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one with BBr<sub>3</sub> in CH<sub>2</sub>Cl<sub>2</sub> gave <bold>13</bold> in good yield.</p><fig id="sch4" position="float" orientation="portrait"><label>Scheme 4</label><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr4" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0007.jpg"/></fig><p>The synthesis of various 6-phenyl substituted pyridazin-3(2<italic toggle="yes">H</italic>)-ones was accomplished as outlined in Scheme <xref rid="sch5" ref-type="scheme">5</xref>. Commercially available 3,4,6-trichloropyridazine
+was converted to 6-chloro-3,4-dimethoxypyridazine,<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> which was subsequently used with either 4-fluorophenylboronic
+acid or 4-cyanophenylboronic acid under Suzuki coupling conditions
+to form the 6-phenyl-3,4-dimethoxypyridazine intermediates. Treatment
+of these dimethoxypyridazines with a 1:1 mixture of dioxane and 2
+N HCl provided the 4-methoxypyridazine-3(2<italic toggle="yes">H</italic>)-ones,
+which were subsequently treated with BBr<sub>3</sub> in CH<sub>2</sub>Cl<sub>2</sub> to provide <bold>14</bold> and <bold>15</bold>. Treatment
+of <bold>15</bold> with sodium azide in DMF in the presence of a catalytic
+amount of acetic acid provided the 6-(4-(tetrazol-5-yl)phenyl) derivative, <bold>16</bold> (Table <xref rid="tbl1" ref-type="other">1</xref>).</p><fig id="sch5" position="float" orientation="portrait"><label>Scheme 5</label><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr5" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0008.jpg"/></fig><table-wrap id="tbl1" position="float" orientation="portrait"><label>Table 1</label><caption><title>Inhibition
+Assay of Influenza A Endonuclease
+by Phenyl Substituted 3-Hydroxypyrazin-2(1<italic toggle="yes">H</italic>)-ones,
+5-Hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones, and 4-Hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-ones</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="GRAPHIC-d3357e862-autogenerated" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0009.jpg"/><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1">compd</th><th style="border:none;" align="center" char="." colspan="1" rowspan="1">IC<sub>50</sub> (μM)</th><th style="border:none;" align="center" colspan="1" rowspan="1">R<sub>1</sub></th><th style="border:none;" align="center" colspan="1" rowspan="1">R<sub>2</sub></th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>1</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 59.0</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-FC<sub>6</sub>H<sub>5</sub></td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>2</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1">&gt;193</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-FC<sub>6</sub>H<sub>5</sub></td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>3</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.58</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-FC<sub>6</sub>H<sub>4</sub></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 1.56</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">3-FC<sub>6</sub>H<sub>4</sub></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 1.67</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">2-FC<sub>6</sub>H<sub>4</sub></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>6</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 2.24</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-[1,1′]-biphenyl</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>7</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.40</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">3-[1,1′]-biphenyl</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>8</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 1.10</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">2-[1,1′]-biphenyl</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>9</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.52</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-CNC<sub>6</sub>H<sub>4</sub></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>10</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.25</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">3-CNC<sub>6</sub>H<sub>4</sub></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>11</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.15</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-(CN<sub>4</sub>H)phenyl</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>12</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.48</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">3-(CN<sub>4</sub>H)phenyl</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>13</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 177</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-FC<sub>6</sub>H<sub>4</sub></td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>14</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 6.0</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-FC<sub>6</sub>H<sub>4</sub></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>15</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 9.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-CNC<sub>6</sub>H<sub>4</sub></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>16</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 3.0</td><td style="border:none;" align="left" colspan="1" rowspan="1">H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4-(CN<sub>4</sub>H)phenyl</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5</bold>-<bold>FPhP</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.73</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>6</bold>-<bold>FPhP</bold></td><td style="border:none;" align="char" char="." colspan="1" rowspan="1"> 0.43</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr></tbody></table></table-wrap></sec><sec id="sec3"><title>Results and Discussion</title><p>The tautomeric forms of 5-(4-fluorophenyl)-1,4-dihydropyrazine-2,3-dione, <bold>1b</bold> and <bold>1c</bold> (5- and 6-(4-fluorophenyl)-3-hydroxypyrazin-2(1<italic toggle="yes">H</italic>)-one), represent the 4-aza derivatives of both 5- and
+6-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one, respectively.
+Upon the basis of its NMR spectra, however, the most dominant tautomeric
+form of <bold>1</bold> is the 1,4-dihydropyrazine-2,3-dione, <bold>1a</bold>, with only minor amounts of tautomers <bold>1b</bold> and <bold>1c</bold>. This may explain the comparatively weak activity of <bold>1</bold> as an endonuclease inhibitor. Alternatively, should <bold>1b</bold> or <bold>1c</bold> form to an appreciable extent under
+the enzyme assay conditions, the presence of a 4-aza substituent adjacent
+to the 3-hydroxyl group of either tautomer <bold>1b</bold> or <bold>1c</bold> may be associated with reduced intrinsic activity as an
+inhibitor.</p><p>Compound <bold>2</bold> is the 5-aza analogue of
+4-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one. The
+lack of activity observed for <bold>2</bold> is consistent with previous
+structure–activity relationships
+observed with various 4-substituted 3-hydroxypyridin-2-ones. The presence
+of a phenyl group or other relatively large substituents at the 4-position
+of various 3-hydroxypyridin-2-ones is associated with a dramatic loss
+in potency as an inhibitor. It is noteworthy that when the 4-fluorophenyl
+substituent is at the 2-postion of 5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones, which is comparable to the 6-position of 3-hydroxypyridin-2-ones,
+significant activity in terms of endonuclease inhibition is observed
+(IC<sub>50</sub> = 0.58 μM).<sup><xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup> This 4-fluorophenyl
+derivative is more than twice as potent as either of the 3- or 2-fluorophenyl
+isomers, <bold>4</bold> and <bold>5</bold>. A series of 2-biphenyl
+5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones <bold>6</bold>–<bold>8</bold> was also evaluated. Steric factors may be responsible for
+the decreased activity observed for the 4- and 2-biphenyl derivatives <bold>6</bold> and <bold>8</bold>, relative to <bold>7</bold>.</p><p>The
+structure–activity studies performed with 3-hydroxypyridin-2-ones
+indicated 6-[(4-tetrazoyl)phenyl]-3-hydroxypyridin-2-one had pronounced
+activity as an endonuclease inhibitor (IC<sub>50</sub> = 0.085 μM).<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> On the basis of this observation, 2-[(tetrazoyl)phenyl]
+derivatives of 5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one and their
+2-(cyanophenyl) precursors were targeted for synthesis and evaluation
+as endonuclease inhibitors. The 3-cyanophenyl derivative <bold>10</bold> is approximately twice as potent compared to the 4-cyanophenyl isomer <bold>9</bold>. However, the 4-(tetrazoly)phenyl derivative <bold>11</bold> is the most potent of 5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones
+evaluated (IC<sub>50</sub> = 0.15 μM) with 3-fold greater potency
+than the 3-(tetrazoly)phenyl derivative <bold>12</bold>.</p><p>Previously
+formed crystals of apo pandemic 2009 influenza endonuclease
+were soaked in a solution containing <bold>11</bold> as described
+previously (<xref rid="notes-1" ref-type="notes">Supporting Information, Table 1S</xref>).<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> The crystal structure revealed that <bold>11</bold> chelates to the two active site metal ions in a mode similar
+to the 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one containing compounds
+(Figure <xref rid="fig2" ref-type="fig">2</xref>). The N1 atom of the pyrimidine ring
+forms hydrogen bond interactions with a network of water molecules
+present near the active site. N3 interacts with Tyr130 through two
+bridging waters. Similar to the 5-[4-(tetrazoly)phenyl] containing
+pyridinone compounds, the 2-[4-(tetrazoly)phenyl] makes bidentate
+hydrogen bond interactions with Arg124.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> The 2-phenyl ring is rotated ∼90° relative to the 5-phenyl
+seen previously and is coplanar with the pyrimidine ring due to the
+lack of steric restraint from additional ring substitutions as seen
+previously.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup></p><fig id="fig2" position="float" orientation="portrait"><label>Figure 2</label><caption><p>Stereoview image of a
+crystal structure of <bold>11</bold> (yellow)
+bound to PA<sub>N</sub>(cyan) superposed with a previously published
+structure (PDB ID: 4M5U) of 5-(4-(1<italic toggle="yes">H</italic>-tetrazol-5-yl)phenyl)-6-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one (green). Metal-coordinating bonds are depicted as
+black dashed lines whereas hydrogen or electrostatic bonds are depicted
+in blue. Electron density calculated from an omit map is contoured
+at 4.0σ (blue mesh).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr7" position="float" orientation="portrait" xlink:href="jm-2014-00958x_0003.jpg"/></fig><p>5-(4-Fluorophenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one <bold>13</bold> is the 6-aza analogue of 4-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one. Consistent with the structure–activity relationships
+observed with 4-phenyl substituted 3-hydroxy-pyridin-2(1<italic toggle="yes">H</italic>)-ones, <bold>13</bold> did not exhibit significant activity as an
+endonuclease inhibitor. The various 6-(phenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-ones evaluated in this study are the 6-aza analogues
+of 5-(phenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones. These
+6-phenylpyridazin-3(2<italic toggle="yes">H</italic>)-ones <bold>14</bold>–<bold>16</bold> are more active than the 4-fluorophenylpyrazine derivative <bold>1</bold> but are at least an order of magnitude less active than
+analogous 2-phenyl-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones.
+The most active derivative was the 6-(4-tetrazoyl)phenyl-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one <bold>16</bold> (IC<sub>50</sub> = 3.0 μM).
+Interestingly, 5-substituted 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones and 6-substituted 4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)ones as well as variously substituted 3-hydroxyquinolin-2(1<italic toggle="yes">H</italic>)ones have been previously established as <sc>d</sc>-amino
+acid oxidase (DAAO) inhibitors.<sup><xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup> However, none of these
+similarly structured aza-analogues of 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones that were synthesized in the present study were
+evaluated for their relative activity as DAAO inhibitors.</p><p>Data
+on the relative activity of these aza 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one derivatives indicate that 2-phenyl-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones, which are the 5-aza analogues of 6-phenyl-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones, can exhibit comparable activity as inhibitors of
+endonuclease. However, 6-phenyl-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-ones, which are the 6-aza analogues of 5-phenyl-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones, are 2.3–8.2-fold less active. Although the
+tautomers of 5-(4-fluorophenyl)-1,4-dihydropyrazine-2,3-dione can
+be viewed as 4-aza-analogues either 5- or 6-(4-fluorophenyl)-3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one, they were more than 80 times less potent than either
+of these 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones. The relative
+ranking of comparable phenyl substituted pyridin-2(1<italic toggle="yes">H</italic>)-ones and their aza derivatives in terms of endonuclease inhibition
+is 3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-one ≈ 5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-ones &gt;4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-ones
+≫1,4-dihydropyrazine-2,3-dione.</p></sec><sec id="sec4"><title>Experimental
+Section</title><sec id="sec4.1"><title>Chemistry: General Methods</title><p>All reactions, unless otherwise
+stated, were done under nitrogen atmosphere. Reaction monitoring and
+follow-up were done using aluminum backed Silica G TLC plates with
+UV254 (Sorbent Technologies), visualizing with ultraviolet light.
+Flash column chromatography was done on a Combi Flash Rf Teledyne
+ISCO using hexane, ethyl acetate, dichloromethane, and methanol. The <sup>1</sup>H (400 MHz) and <sup>13</sup>C (100 MHz) NMR spectra were
+done in CDCl<sub>3</sub>, methanol-<italic toggle="yes">d</italic><sub>4</sub>,
+and DMSO-<italic toggle="yes">d</italic><sub>6</sub> and recorded on a Bruker Avance
+III (400 MHz) multinuclear NMR spectrometer. Data is expressed in
+parts per million relative to the residual nondeuterated solvent signals,
+spin multiplicities are given as s (singlet), d (doublet), dd (doublet
+of doublets), t (triplet), dt (doublet of triplets), q (quartet),
+m (multiplet), and bs (broad singlet), and coupling constants (<italic toggle="yes">J</italic>) are reported in hertz. Melting points were determined
+using Mel-temp II apparatus and are uncorrected. Analytical HPLC was
+performed on a Shimadzu LC-20AT Prominence liquid chromatograph using
+a 150 mm × 4.6 mm Princeton SPHER-100 RP C18 1000A 5 μ
+column using 0% water for 2 min and a 0–100% water/methanol
+gradient over a 5 min period and 5 min at 100% methanol at a 2.0 mL/min
+flow rate monitoring UV absorbance at 254 and 296 nm. Using this method
+of analysis, the purity of all compounds used in bioassays was determined
+to be ≥95%. HRMS experiments were conducted by Washington University
+Resource for Biomedical and Bioorganic Mass Spectrometry Department
+of Chemistry.</p><sec id="sec4.1.1"><title>5-(4-Fluorophenyl)pyrazine-2,3(1<italic toggle="yes">H</italic>,4<italic toggle="yes">H</italic>)-dione (<bold>1</bold>)</title><p>5-(4-Fluorophenyl)-2,3-dimethoxypyrazine
+(100 mg, 0.43 mmol) was dissolved in a mixture of dioxane (5 mL) and
+2 N HCl (5 mL). The reaction mixture was then refluxed for 21 h. After
+the reaction was completed, it was cooled to room temperature. Then
+solvent was removed under reduced pressure. The resulting white solid
+was dissolved in satd NaHCO<sub>3</sub>. The white suspension was
+filtered and solid was collected and dried to give 5-(4-fluorophenyl)pyrazine-2,3(1<italic toggle="yes">H</italic>,4<italic toggle="yes">H</italic>)-dione as a white solid (75 mg, 85%);
+mp 285–287 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 11.55 (s, 1H), 11.46 (s, 1H), 7.57,
+(dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 5 Hz, 2H), 7.23–7.19
+(m, 2H), 6.59 (d, <italic toggle="yes">J</italic> = 3 Hz, 1H). <sup>13</sup>C NMR
+(100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 161.8 (<italic toggle="yes">J</italic><sub>C,F</sub><italic toggle="yes">J</italic><sub>C,F</sub> = 243 Hz),
+156.9, 155.7, 128.1, 127.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz),
+121.0, 115.5 (<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz), 107.1. <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+−114.0. HRMS (ESI) calculated for C<sub>10</sub>H<sub>7</sub>FN<sub>2</sub>O<sub>2</sub>Na (M + Na)<sup>+</sup> 229.0384, found
+229.0382.</p></sec><sec id="sec4.1.2"><title>5-(4-Fluorophenyl)-2,3-dimethoxypyrazine</title><p>5-Bromo-2,3-dimethoxypyrazine
+(150 mg, 0.69 mmol), (4-fluorophenyl)boronic acid (144 mg, 1.03 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (80 mg, 0.069 mmol), and Na<sub>2</sub>CO<sub>3</sub> (218 mg, 2.06 mmol) were dissolved in a mixture of
+dioxane (6 mL) and water (2 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then, the reaction mixture was refluxed for 5
+h. Because the reaction was not completed, additional (4-fluorophenyl)boronic
+acid (48 mg, 0.34 mmol) was added. It was then again refluxed for
+16 h. It was cooled to room temperature, and it was diluted with EtOAc
+and washed with satd NH<sub>4</sub>Cl, followed by brine. The organic
+layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated
+under reduced pressure, and the resulting residue was purified by
+flash chromatography on silica gel, eluting with 0–10% EtOAc/hexane.
+This afforded 5-(4-fluorophenyl)-2,3-dimethoxypyrazine as a white
+solid (123 mg, 77%); mp 108–110 °C. <sup>1</sup>H NMR
+(400 MHz, CDCl<sub>3</sub>) δ 8.03 (s, 1H), 7.90 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 5 Hz, 2H), 7.15–7.10
+(m, 2H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 163.06
+(<italic toggle="yes">J</italic><sub>C,F</sub> = 247 Hz), 149.43, 149.41, 140.29,
+132.66 (<italic toggle="yes">J</italic><sub>C,F</sub> = 3 Hz), 127.77, 127.73,
+127.69 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 115. 68 (<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz), 54.09, 53.81. <sup>19</sup>F NMR
+(376 MHz, CDCl<sub>3</sub>) δ −113.7. HRMS (ESI) calculated
+for C<sub>12</sub>H<sub>12</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 235.0877, found 235.0880.</p></sec><sec id="sec4.1.3"><title>5-Bromo-2,3-dimethoxypyrazine</title><p>2,3-Dimethoxypyrazine
+(565 mg, 4.03 mmol) and NBS (754 mg, 4.23 mmol) were dissolved in
+DMF (5 mL). The mixture was stirred for 29 h at room temperature.
+After the reaction was completed, DMF was removed by Kugelrohr distillation.
+Then, the resulting residue was diluted with DCM, and the organic
+layer was washed with satd NaHCO<sub>3</sub>, followed by brine. The
+organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated
+under reduced pressure to provide 5-bromo-2,3-dimethoxypyrazine as
+a white solid (384 mg, 43%); mp 54–56 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 7.86 (s, 1H), 4.03 (s,
+3H), 3.88 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>)
+δ 161.2, 150.0, 141.7, 138.1, 56.6, 55.1.</p></sec><sec id="sec4.1.4"><title>2,3-Dimethoxypyrazine</title><p>2,3-Dichloropyrazine (1.04 mL,
+10 mmol) was added to MeOH (10 mL). Then the reaction mixture was
+cooled to 0 °C. It was treated with NaOMe (5.4 g, 100 mmol) and
+allowed to warm to room temperature. The reaction mixture was then
+stirred for 22 h at room temperature. After the reaction was completed,
+it was diluted with DCM. The resulting white suspension was filtered,
+and the filtrate was concentrated under reduced pressure. The residue
+was diluted with DCM and washed with water, followed by brine. The
+organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated
+under reduced pressure to reveal a colorless liquid. 2,3-Dimethoxypyrazine
+was crystallized as a white solid (1.13 g, 81%); mp 21–23 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 7.47 (s, 2H), 3.88
+(s, 6H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 150.3,
+131.7, 53.4.</p></sec><sec id="sec4.1.5"><title>6-(4-Fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one
+(<bold>2</bold>)</title><p>6-(4-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (107 mg, 0.49 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and the 1 M
+in DCM BBr<sub>3</sub> (5 mL, 5 mmol) was added. It was then allowed
+to warm to room temperature and stirred for 24 h. Then the solvent
+was removed under reduced pressure. The resulting residue was diluted
+with EtOAc, which was washed with satd NaHCO<sub>3</sub>, followed
+by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub>, followed by concentration under the vacuum. The resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–10%
+MeOH/DCM to provide 6-(4-fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (50 mg, 50%); mp 285–287
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.67 (bs, 1H), 9.83 (bs, 1H), 8.20 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 6 Hz, 2H), 7.87 (s, 1H), 7.29–7.25
+(m, 2H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 161.9 (<italic toggle="yes">J</italic><sub>C,F</sub> = 245 Hz),
+158.7, 141.1, 138.5, 136.0, 132.3, 130.7 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 114.8 (<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz). <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+−113.0. HRMS (ESI) calculated for C<sub>10</sub>H<sub>8</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 207.0564, found 207.0568.</p></sec><sec id="sec4.1.6"><title>6-(4-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one</title><p>4-(4-Fluorophenyl)-5,6-dimethoxypyrimidine (134 mg 0.57 mmol) was
+dissolved in a mixture of 2 N HCl (5 mL) and dioxane (5 mL). The reaction
+mixture was then refluxed for 12 h. It was then cooled to room temperature.
+The reaction mixture was put under the vacuum to remove the solvent,
+which gave white residue. This residue was diluted with water and
+filtered. The solid was collected and gave 6-(4-fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (109 mg, 87%); mp 204–206
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.76 (s, 1H), 8.07 (s, 1H), 8.04 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 6 Hz, 2H), 7.33–7.28 (m, 2H),
+3.34 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 162.5 (<italic toggle="yes">J</italic><sub>C,F</sub> = 246
+Hz), 158.8, 147.4, 143.7, 142.9, 131.7, 131.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 115.0 (<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz),
+58.8. <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −111.8. HRMS (ESI) calculated for C<sub>11</sub>H<sub>10</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 221.0721,
+found 221.0721.</p></sec><sec id="sec4.1.7"><title>4-(4-Fluorophenyl)-5,6-dimethoxypyrimidine</title><p>4-Chloro-4,5-dimethoxypyrimidine
+(165 mg, 0.95 mmol), (4-fluorophenyl)boronic acid (99 mg, 1.42 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (110 mg, 0.095 mmol), and Na<sub>2</sub>CO<sub>3</sub> (300 mg, 2.84 mmol) were dissolved in a mixture of
+dioxane (9 mL) and water (3 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then the reaction mixture was refluxed for 19
+h. After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–10% EtOAc/hexane. This afforded 4-(4-fluorophenyl)-5,6-dimethoxypyrimidine
+as a white solid (181 mg, 82%); mp 62–64 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.53 (s, 1H), 8.07 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 6 Hz, 2H), 7.17–7.11
+(m, 2H), 4.07 (s, 3H), 3.73 (s, 3H). <sup>13</sup>C NMR (100 MHz,
+CDCl<sub>3</sub>) δ 163.7 (<italic toggle="yes">J</italic><sub>C,F</sub> =
+249 Hz), 164.0, 154.3, 152.0,139.4, 131.4 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 131.3, 115.3 (<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz), 60.2, 54.2. <sup>19</sup>F NMR (376 MHz, CDCl<sub>3</sub>) δ −111.0. HRMS (ESI) calculated for C<sub>12</sub>H<sub>12</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 235.0877,
+found 235.0882.</p></sec><sec id="sec4.1.8"><title>4-Chloro-5,6-dimethoxypyrimidine</title><p>4,6-Dichloro-5-methoxypyrimidine
+(300 mg, 1.68 mmol) was added to MeOH (10 mL). Then the reaction mixture
+was cooled to 0 °C. It was treated with NaOMe (99 mg, 1.85 mmol)
+and allowed to warm to room temperature. The reaction mixture was
+then stirred for 19 h at room temperature. After the reaction was
+completed, it was put under the vacuum to remove MeOH. The resulting
+residue was diluted with EtOAc, which was then washed with satd NH<sub>4</sub>Cl, followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and then concentrated. The residue was purified
+by flash chromatography on silica gel, eluting with 0–10% EtOAc/hexane
+to provide 4-chloro-5,6-dimethoxypyrimidine as a white solid (168
+mg, 57%); mp 53–55 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.27 (s, 1H), 4.03 (s, 3H), 3.88 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 163.6, 151.6, 151.3, 138.2,
+60.7, 54.8.</p></sec><sec id="sec4.1.9"><title>2-(4-Fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one
+(<bold>3</bold>)</title><p>2-(4-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (58 mg, 0.26 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and the 1 M
+in DCM BBr<sub>3</sub> (3 mL, 3 mmol) was added. It was then allowed
+to warm to room temperature and stirred for 24 h. Then the solvent
+was removed under reduced pressure. The resulting residue was suspended
+in water. It was filtered, and the solid was collected and dried under
+vacuum to provide 2-(4-fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (23 mg, 42%); mp 252–254
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.88 (bs, 1H), 9.64 (bs, 1H), 8.05 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 5 Hz, 2H), 7.54 (s, 1H), 7.33–7.29
+(m, 2H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 163.4 (<italic toggle="yes">J</italic><sub>C,F</sub> = 246 Hz),
+159.0, 146.9, 143.4, 131.7, 129.4 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz), 129.1, 115.5 (<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz). <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+−110.5. HRMS (ESI) calculated for C<sub>10</sub>H<sub>8</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 207.0564, found 207.0566.</p></sec><sec id="sec4.1.10"><title>2-(4-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one</title><p>2-(4-Fluorophenyl)-4,5-dimethoxypyrimidine (187 mg, 0.799 mmol)
+was dissolved in a mixture of 2 N HCl (5 mL) and dioxane (5 mL). The
+reaction mixture was then refluxed for 12 h. It was then cooled to
+room temperature. The reaction mixture was diluted with EtOAc and
+washed with satd NaHCO<sub>3</sub>, followed by brine. The organic
+layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated.
+The resulting residue was purified by flash chromatography on silica
+gel, eluting with 50–100% EtOAc/hexane to give 2-(4-fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (41 mg, 23%); mp 229–231
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.79 (s, 1H), 7.68 (s, 1H), 8.08 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 5 Hz, 2H), 7.35–7.30 (m, 2H),
+3.79 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 163.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 247
+Hz), 158.1, 148.4, 145.4, 130.4, 129.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz), 129.1, 115.5 (<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz),
+56.0. <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −110.2. HRMS (ESI) calculated for C<sub>11</sub>H<sub>9</sub>FN<sub>2</sub>O<sub>2</sub>Na (M + Na)<sup>+</sup> 243.0540,
+found 243.0546.</p></sec><sec id="sec4.1.11"><title>2-(4-Fluorophenyl)-4,5-dimethoxypyrimidine</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(500 mg, 2.86 mmol), (4-fluorophenyl)boronic acid (601 mg, 4.30 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (330 mg, 0.29 mmol), and Na<sub>2</sub>CO<sub>3</sub> (910 mg, 8.59 mmol) were dissolved in a mixture of
+dioxane (12 mL) and water (4 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then, the reaction mixture was refluxed for 5
+h. After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–10% EtOAc/hexane. This afforded 2-(4-fluorophenyl)-4,5-dimethoxypyrimidine
+as a white solid (123 mg, 77%); mp 114–116 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.37 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 6 Hz, 2H), 8.12 (s, 1H), 7.16–7.12
+(m, 2H), 4.17 (s, 3H), 3.98 (s, 3H). <sup>13</sup>C NMR (100 MHz,
+CDCl<sub>3</sub>) δ 163.1 (<italic toggle="yes">J</italic><sub>C,F</sub> =
+248 Hz), 159.7, 155.3, 141.0, 137.2, 133.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 3 Hz), 129.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz),
+115.3 (<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz), 56.4, 54.0. <sup>19</sup>F NMR (376 MHz, CDCl<sub>3</sub>) δ −111.9.
+HRMS (ESI) calculated for C<sub>12</sub>H<sub>12</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 235.0877, found 235.0878.</p></sec><sec id="sec4.1.12"><title>2-Chloro-4,5-dimethoxypyrimidine</title><p>2,4-Dichloro-5-methoxypyrimidine
+(2.37 g, 13.2 mmol) and K<sub>2</sub>CO<sub>3</sub> (1.8 g, 13.2 mmol)
+were dissolved in MeOH (50 mL) and stirred for 19 h at room temperature.
+The solvent was removed under reduced pressure. The resulting residue
+was dissolved in EtOAc and washed with distilled water, followed by
+brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated. The resulting residue was purified by flash chromatography
+on silica gel, eluting with 0–20% EtOAc/hexane to give 2-chloro-4,5-dimethoxypyrimidine
+as a white solid (1.70 g, 73%); mp 65–67 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 7.84 (s, 1H), 4.03 (s,
+3H), 3.88 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>)
+δ 161.2, 150.0, 141.7, 138.2, 56.6, 55.0.</p></sec><sec id="sec4.1.13"><title>2-(3-Fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one
+(<bold>4</bold>)</title><p>2-(3-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (100 mg, 0.45 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and then 1 M
+in DCM BBr<sub>3</sub> (4.54 mL, 4.54 mmol) was added. It was then
+allowed to warm to room temperature and stirred for 18 h. Then the
+solvent was removed under reduced pressure. The resulting residue
+was diluted with EtOAc, which was washed with 2 N HCl, followed by
+brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub>, followed by concentration under the vacuum. The resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–10%
+MeOH/DCM to give 2-(3-fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (87 mg, 93%); mp 210–212
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 7.89 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.84 (dd, <italic toggle="yes">J</italic> = 10 Hz, <italic toggle="yes">J</italic> = 2 Hz, 1H), 7.61 (s, 1H),
+7.57–7.52 (m, 1H), 7.36 (td, <italic toggle="yes">J</italic> = 8 Hz, <italic toggle="yes">J</italic> = 2 Hz, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 162.1 (<italic toggle="yes">J</italic><sub>C,F</sub> = 243 Hz), 158.9, 146.5, 143.8, 134.7, 131.5, 130.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 123.0, 117.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 20 Hz), 113.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 24 Hz). <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+−112.5. HRMS (ESI) calculated for C<sub>10</sub>H<sub>8</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 207.0564, found 207.0565.</p></sec><sec id="sec4.1.14"><title>2-(3-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one</title><p>2-(3-Fluorophenyl)-4,5-dimethoxypyrimidine (390 mg, 1.67 mmol)
+was dissolved in a mixture of 2 N HCl (10 mL) and dioxane (10 mL).
+The reaction mixture was then refluxed for 18 h. It was then cooled
+to room temperature. The reaction mixture was diluted with EtOAc and
+washed with water, followed by brine. The organic layer was dried
+over Na<sub>2</sub>SO<sub>4</sub> and concentrated. The resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–100% EtOAc/hexane to give 2-(3-fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (237 mg, 63%); mp 122–124
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.86 (bs, 1H), 7.91 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H),
+7.87–7.83 (m, 1H), 7.71 (s, 1H), 7.58–7.53 (m, 1H),
+7.37 (td, <italic toggle="yes">J</italic> = 8 Hz, <italic toggle="yes">J</italic> = 2 Hz, 1H),
+3.81 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 162.1 (<italic toggle="yes">J</italic><sub>C,F</sub> = 242
+Hz), 157.9, 147.8, 145.5, 134.7, 130.7 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz), 130.1, 123.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz),
+117.5 (<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz), 113.8 (<italic toggle="yes">J</italic><sub>C,F</sub> = 24 Hz), 56.1. <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −112.5. HRMS (ESI) calculated
+for C<sub>11</sub>H<sub>10</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 221.0721, found 227.0722.</p></sec><sec id="sec4.1.15"><title>2-(3-Fluorophenyl)-4,5-dimethoxypyrimidine</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(300 mg, 1.72 mmol), (3-fluorophenyl)boronic acid (343 mg, 2.58 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (199 mg, 0.17 mmol), and Na<sub>2</sub>CO<sub>3</sub> (546 mg, 5.15 mmol) were dissolved in a mixture of
+dioxane (12 mL) and water (4 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then the reaction mixture was refluxed for 8 h.
+After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–10% EtOAc/hexane. This afforded 2-(3-fluorophenyl)-4,5-dimethoxypyrimidine
+as a white solid (393 mg, 98%); mp 83–85 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.09 (dt, <italic toggle="yes">J</italic> = 8 Hz, <italic toggle="yes">J</italic> = 1 Hz, 1H), 8.03 (s, 1H), 8.01–7.98
+(m, 1H), 7.38–7.33 (m, 1H), 7.07 (tdd, <italic toggle="yes">J</italic> =
+8 Hz, <italic toggle="yes">J</italic> = 3 Hz, <italic toggle="yes">J</italic> = 1 Hz, 1H), 4.09
+(s, 3H), 3.90 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 163.1 (<italic toggle="yes">J</italic><sub>C,F</sub> = 242 Hz), 159.5,
+154.6 (<italic toggle="yes">J</italic><sub>C,F</sub> =3 Hz), 141.3, 139.8 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 136.9, 129.7 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 123.1 (<italic toggle="yes">J</italic><sub>C,F</sub> =
+3 Hz), 116.4 (<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz), 114.3 (<italic toggle="yes">J</italic><sub>C,F</sub> = 23 Hz), 56.2, 53.9. <sup>19</sup>F NMR
+(376 MHz, CDCl<sub>3</sub>) δ −113.5. HRMS (ESI) calculated
+for C<sub>12</sub>H<sub>12</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 235.0877, found 235.0879.</p></sec><sec id="sec4.1.16"><title>2-(2-Fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one
+(<bold>5</bold>)</title><p>2-(2-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (100 mg, 0.45 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and then 1 M
+in DCM BBr<sub>3</sub> (4.54 mL, 4.54 mmol) was added. It was then
+allowed to warm to room temperature and stirred for 18 h. Then the
+solvent was removed under reduced pressure. The resulting residue
+was diluted with EtOAc, which was washed with 2 N HCl, followed by
+brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub>, followed by concentration under the vacuum. The resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–10%
+MeOH/DCM to give 2-(2-fluorophenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (89 mg, 96%); mp 187–189
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.80 (bs, 1H), 9.73 (bs, 1H), 7.65 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H), 7.59 (s, 1H), 7.55 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H),
+7.36–7.30 (m, 2H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 159.3 (<italic toggle="yes">J</italic><sub>C,F</sub> = 248 Hz), 158.2, 144.6, 143.9, 132.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 132.1, 130.8, 124.5 (<italic toggle="yes">J</italic><sub>C,F</sub> =
+3 Hz), 121.8 (<italic toggle="yes">J</italic><sub>C,F</sub> = 12 Hz), 116.1 (<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz). <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −115.2. HRMS (ESI) calculated
+for C<sub>10</sub>H<sub>8</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 207.0564, found 207.0565.</p></sec><sec id="sec4.1.17"><title>2-(2-Fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one</title><p>2-(2-Fluorophenyl)-4,5-dimethoxypyrimidine
+(400 mg, 1.71 mmol)
+was dissolved in a mixture of 2 N HCl (10 mL) and dioxane (10 mL).
+The reaction mixture was then refluxed for 18 h. It was then cooled
+to room temperature. The reaction mixture was diluted with EtOAc and
+washed with water, followed by brine. The organic layer was dried
+over Na<sub>2</sub>SO<sub>4</sub> and concentrated. The resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–100% EtOAc/hexane, followed by 0–10% MeOH/DCM
+to give 2-(2-fluorophenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (300 mg, 80%); mp 159–161 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+12.81 (bs, 1H), 7.70 (s, 1H), 7.66 (t, <italic toggle="yes">J</italic> = 8 Hz,
+1H), 7.60–7.55 (m, 1H), 7.37–7.31 (m, 1H), 3.80 (s,
+3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 159.3 (<italic toggle="yes">J</italic><sub>C,F</sub> = 248 Hz), 157.3,
+145.9, 132.4 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz), 130.8 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 130.2, 124.5 (<italic toggle="yes">J</italic><sub>C,F</sub> = 3 Hz), 121.8, 121.6, 116.1 (<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz), 56.0. <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −115.2. HRMS (ESI) calculated
+for C<sub>11</sub>H<sub>10</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 221.0721, found 221.0721.</p></sec><sec id="sec4.1.18"><title>2-(2-Fluorophenyl)-4,5-dimethoxypyrimidine</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(300 mg, 1.72 mmol), (2-fluorophenyl)boronic acid (343 mg, 2.58 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (199 mg, 0.17 mmol), and Na<sub>2</sub>CO<sub>3</sub> (546 mg, 5.15 mmol) were dissolved in a mixture of
+dioxane (12 mL) and water (4 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then, the reaction mixture was refluxed for 18
+h. After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–30% EtOAc/hexane. This afforded 2-(2-fluorophenyl)-4,5-dimethoxypyrimidine
+as a white solid (402 mg, 100%); mp 72–74 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.11 (s, 1H), 7.97 (td, <italic toggle="yes">J</italic> = 8 Hz, <italic toggle="yes">J</italic> = 2 Hz, 1H), 7.34–7.29
+(m, 1H), 7.15 (td, <italic toggle="yes">J</italic> = 8 Hz, <italic toggle="yes">J</italic> =
+1 Hz, 1H), 7.11–7.06 (m, 1H), 4.06 (s, 3H), 3.90 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 161.0 (<italic toggle="yes">J</italic><sub>C,F</sub> = 253 Hz), 159.5, 154.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 4 Hz), 140.9, 137.0, 131.4 (<italic toggle="yes">J</italic><sub>C,F</sub> = 2 Hz), 130.9 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz),
+126. 0 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz), 123.8 (<italic toggle="yes">J</italic><sub>C,F</sub> = 4 Hz), 116.7 (<italic toggle="yes">J</italic><sub>C,F</sub> =
+22 Hz), 56.2, 54.1. <sup>19</sup>F NMR (376 MHz, CDCl<sub>3</sub>)
+δ −114.6. HRMS (ESI) calculated for C<sub>12</sub>H<sub>12</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 235.0877,
+found 235.0877.</p></sec><sec id="sec4.1.19"><title>2-(4-Biphenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one
+(<bold>6</bold>)</title><p>2-(4-Biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (50 mg, 0.18 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and then 1 M
+in DCM BBr<sub>3</sub> (1.80 mL, 1.80 mmol) was added. It was then
+allowed to warm to room temperature and stirred for 18 h. Then the
+solvent was removed under reduced pressure. The resulting residue
+was diluted with EtOAc, which was washed with 2 N HCl, followed by
+brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub>, followed by concentration under the vacuum. The resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–10%
+MeOH/DCM to give 2-(4-biphenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (46 mg, 96%); dec 259–261 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+12.85 (bs, 1H), 9.68 (bs, 1H), 8.13 (d, <italic toggle="yes">J</italic> = 8 Hz,
+2H), 7.80 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.75 (d, <italic toggle="yes">J</italic> = 7 Hz, 2H), 7.62 (s, 1H), 7.50 (t, <italic toggle="yes">J</italic> = 8 Hz, 2H),
+7.41 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H). <sup>13</sup>C NMR (100 MHz,
+DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 159.1, 147.5, 143.5,
+141.9, 139.0, 131.7, 131.3, 129.0, 128.0, 128.5, 126.7, 126.7. HRMS
+(ESI) calculated for C<sub>16</sub>H<sub>13</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 265.0972, found 265.0973.</p></sec><sec id="sec4.1.20"><title>2-(4-Biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one</title><p>2-(4-Biphenyl)-4,5-dimethoxypyrimidine (343
+mg, 1.73 mmol) was
+dissolved in a mixture of 2 N HCl (15 mL) and dioxane (15 mL). The
+reaction mixture was then refluxed for 18 h and became a white suspension.
+It was then cooled to room temperature. The suspension was filtered
+and solid was collected to give 2-(4-biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as white solid (256 mg, 78%); mp 292–294 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+12.83 (bs, 1H), 8.14 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.81 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.77–7.72 (m, 3H), 7.50 (t, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.42 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H),
+3.81 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 158.0, 148.8, 145.6, 142.1, 139.0, 131.2, 130.4,
+129.0, 128.0, 127.7, 126.74, 126.70, 56.1. HRMS (ESI) calculated for
+C<sub>17</sub>H<sub>15</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 279.1128, found 279.1128.</p></sec><sec id="sec4.1.21"><title>2-(4-Biphenyl)-4,5-dimethoxypyrimidine</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(400 mg, 2.29 mmol), 4-biphenylboronic acid (681 mg, 3.44 mmol), Pd(PPh<sub>3</sub>)<sub>4</sub> (264 mg, 0.23 mmol), and Na<sub>2</sub>CO<sub>3</sub> (728 mg, 6.87 mmol) were dissolved in a mixture of dioxane
+(12 mL) and water (4 mL). The air was evacuated and replaced with
+N<sub>2</sub>. Then the reaction mixture was refluxed for 8 h. After
+the reaction was completed, it was cooled to room temperature and
+it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl, followed
+by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–30%
+EtOAc/hexane. This afforded 2-(4-biphenyl)-4,5-dimethoxypyrimidine
+as a white solid (670 mg, 100%); mp 115–117 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.43 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 8.15 (s, 1H), 7.70 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H),
+7.67 (<italic toggle="yes">J</italic> = 7 Hz, 2H), 7.47 (t, <italic toggle="yes">J</italic> =
+8 Hz, 2H), 7.37 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H), 4.19 (s, 3H),
+3.98 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ
+159.7, 156.0. 142.5, 141.1, 140.7, 137.3, 136.4, 128.8, 128.1, 127.5,
+126.1, 56.4, 54.0. HRMS (ESI) calculated for C<sub>18</sub>H<sub>17</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 293.1285, found 293.1286.</p></sec><sec id="sec4.1.22"><title>2-(3-Biphenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one
+(<bold>7</bold>)</title><p>2-(3-Biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (100 mg, 0.36 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and the 1 M
+in DCM BBr<sub>3</sub> (3.60 mL, 3.60 mmol) was added. It was then
+allowed to warm to room temperature and stirred for 6 h. Then the
+solvent was removed under reduced pressure. The resulting residue
+was diluted with EtOAc, which was washed with 2 N HCl, followed by
+brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub>, followed by concentration under the vacuum. The resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–10%
+MeOH/DCM to give 2-(3-biphenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (34 mg, 36%); mp 221–223 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+8.30 (s, 1H), 7.99 (d, <italic toggle="yes">J</italic> = 7 Hz, 1H), 7.88 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.81 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H),
+7.66 (s, 1H), 7.63 (t, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.52 (t, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.43 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+158.9, 147.5, 143.7, 140.4, 139.5, 133.1, 132.3, 129.2, 128.9, 128.5,
+127.7, 126.8, 126.0, 125.0. HRMS (ESI) calculated for C<sub>16</sub>H<sub>13</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 265.0972,
+found 265.0973.</p></sec><sec id="sec4.1.23"><title>2-(3-Biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one</title><p>2-(3-Biphenyl)-4,5-dimethoxypyrimidine (670
+mg, 2.29 mmol) was
+dissolved in a mixture of 2 N HCl (15 mL) and dioxane (15 mL). The
+reaction mixture was then refluxed for 18 h. It was then cooled to
+room temperature. The reaction mixture was diluted with EtOAc and
+washed with water, followed by brine. The organic layer was dried
+over Na<sub>2</sub>SO<sub>4</sub> and concentrated. The resulting
+residue was suspended in hot chloroform and was filtered. The solid
+was collected to give 2-(3-biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (493 mg, 77%); mp 209–211
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.97 (br s, 1H), 8.34 (s, 1H), 8.04 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.83–7.80 (m, 3H), 7.73 (s, 1H), 7.59 (t, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.51 (t, <italic toggle="yes">J</italic> = 8 Hz, 2H),
+7.41 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H), 3.82 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 157.9,
+148.9, 145.8, 140.4, 139.4, 132.9, 130.5, 129.3, 128.9, 128.8, 127.8,
+126.9, 126.2, 125.2, 56.1. HRMS (ESI) calculated for C<sub>17</sub>H<sub>15</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 279.1128,
+found 279.1129.</p></sec><sec id="sec4.1.24"><title>2-(3-Biphenyl)-4,5-dimethoxypyrimidine</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(400 mg, 2.29 mmol), 3-biphenylboronic acid (681 mg, 3.44 mmol), Pd(PPh<sub>3</sub>)<sub>4</sub> (264 mg, 0.23 mmol), and Na<sub>2</sub>CO<sub>3</sub> (728 mg, 6.87 mmol) were dissolved in a mixture of dioxane
+(12 mL) and water (4 mL). The air was evacuated and replaced with
+N<sub>2</sub>. Then the reaction mixture was refluxed for 8 h. After
+the reaction was completed, it was cooled to room temperature and
+it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl, followed
+by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–30%
+EtOAc/hexane. This afforded 2-(3-biphenyl)-4,5-dimethoxypyrimidine
+as a white solid (670 mg, 100%); mp 72–74 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.62 (s, 1H), 8.36 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 8.15 (s, 1H), 7.71 (d, <italic toggle="yes">J</italic> = 7 Hz, 2H), 7.67 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.54 (t, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.49–7.45 (m, 3H), 7.37 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H), 4.18 (s, 3H), 3.97 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 159.7, 156.1, 141.4, 141.17,
+141.15, 137.9, 137.2, 128.9, 128.8, 128.6, 127.4, 127.3, 126.6, 126.4,
+56.4, 54.0. HRMS (ESI) calculated for C<sub>18</sub>H<sub>17</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 293.1285, found 293.1286.</p></sec><sec id="sec4.1.25"><title>2-(2-Biphenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one
+(<bold>8</bold>)</title><p>2-(2-Biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (50 mg, 0.18 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and the 1 M
+in DCM BBr<sub>3</sub> (1.80 mL, 1.80 mmol) was added. It was then
+allowed to warm to room temperature and stirred for 18 h. Then the
+solvent was removed under reduced pressure. The resulting residue
+was diluted with EtOAc, which was washed with 2 N HCl, followed by
+brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub>, followed by concentration under the vacuum. The resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–10%
+MeOH/DCM to give 2-(2-biphenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a white solid (31 mg, 64%); mp 271–273 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+7.70–7.65 (m, 2H), 7.56 (t, <italic toggle="yes">J</italic> = 8 Hz, 2H),
+7.48 (s, 1H), 7.39 (t, <italic toggle="yes">J</italic> = 7 Hz, 2H), 7.33 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H), 7.23 (d, <italic toggle="yes">J</italic> = 7 Hz, 2H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+158.6, 156.9, 148.3, 140.8, 140.5, 139.4, 131.9, 130.4, 130.1, 129.9,
+128.6, 128.2, 127.2. HRMS (ESI) calculated for C<sub>16</sub>H<sub>13</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 265.0972,
+found 265.0974.</p></sec><sec id="sec4.1.26"><title>2-(2-Biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one</title><p>2-(2-Biphenyl)-4,5-dimethoxypyrimidine (309
+mg, 1.06 mmol) was
+dissolved in a mixture of 2 N HCl (15 mL) and dioxane (15 mL). The
+reaction mixture was then refluxed for 18 h. It was then cooled to
+room temperature. The reaction mixture was diluted with EtOAc and
+washed with water, followed by brine. The organic layer was dried
+over Na<sub>2</sub>SO<sub>4</sub> and concentrated. The resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–10% MeOH/DCM to give 2-(2-biphenyl)-5-methoxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as colorless oil (158 mg, 54%). <sup>1</sup>H NMR
+(400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.51 (bs,
+1H), 7.59 (t, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.55–7.47 (m,
+4H), 7.36 (t, <italic toggle="yes">J</italic> = 7 Hz, 2H), 7.30 (t, <italic toggle="yes">J</italic> = 7 Hz, 1H), 7.23 (d, <italic toggle="yes">J</italic> = 7 Hz, 2H), 3.72 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+157.1, 151.0, 145.4, 140.3, 139.8, 133.0, 131.5, 131.4, 130.03, 130.01,
+129.8, 128.6, 128.2, 127.2, 55.8. HRMS (ESI) calculated for C<sub>17</sub>H<sub>15</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 279.1128, found 279.1129.</p></sec><sec id="sec4.1.27"><title>2-(2-Biphenyl)-4,5-dimethoxypyrimidine</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(500 mg, 2.86 mmol), 2-biphenylboronic acid (851 mg, 4.30 mmol), Pd(PPh<sub>3</sub>)<sub>4</sub> (266 mg, 0.29 mmol), and Na<sub>2</sub>CO<sub>3</sub> (909 mg, 8.58 mmol) were dissolved in a mixture of dioxane
+(21 mL) and water (7 mL). The air was evacuated and replaced with
+N<sub>2</sub>. Then the reaction mixture was refluxed for 8 h. After
+the reaction was completed, it was cooled to room temperature and
+it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl, followed
+by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–30%
+EtOAc/hexane. This afforded 2-(2-biphenyl)-4,5-dimethoxypyrimidine
+as colorless oil (377 mg, 45%). <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 8.26 (s, 1H), 7.84 (dd, <italic toggle="yes">J</italic> = 7 Hz, <italic toggle="yes">J</italic> = 1 Hz, 1H), 7.54–7.45 (m, 2H),
+7.40 (dd, <italic toggle="yes">J</italic> = 7 Hz, <italic toggle="yes">J</italic> = 1 Hz, 1H),
+7.30–7.24 (m, 3H), 7.08 (d, <italic toggle="yes">J</italic> = 7 Hz, 2H),
+3.85 (s, 3H), 3.30 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) 158.1, 157.2, 142.2, 141.1, 140.0, 137.7,
+137.3, 130.4, 130.2, 128.9, 128.6, 127.8, 127.2, 126.2, 56.0, 52.9.
+HRMS (ESI) calculated for C<sub>18</sub>H<sub>17</sub>N<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 293.1285, found 293.1290.</p></sec><sec id="sec4.1.28"><title>4-(5-Hydroxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+(<bold>9</bold>)</title><p>4-(5-Methoxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+(50 mg, 0.22 mmol) was dissolved in anhydrous DCM (5 mL). The reaction
+mixture was cooled to 0 °C, and then 1 M in DCM BBr<sub>3</sub> (2.2 mL, 2.2 mmol) was added. It was then allowed to warm to room
+temperature and stirred for 18 h. Then the solvent was removed under
+reduced pressure. The resulting residue was suspended in water. It
+was filtered, and the solid was collected and dried under vacuum to
+provide 4-(5-hydroxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+as a white solid (15 mg, 32%); mp 324–326 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 13.05
+(bs, 1H), 9.91 (bs, 1H), 8.18 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H),
+7.95 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.64 (s, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 158.8,
+132.5, 129.4, 127.6, 127.2, 127.1, 126.7, 118.4, 112.5. HRMS (ESI)
+calculated for C<sub>11</sub>H<sub>8</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 214.0611, found 214.0618.</p></sec><sec id="sec4.1.29"><title>4-(5-Methoxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile</title><p>4-(4,5-Dimethoxypyrimidin-2-yl)benzonitrile (53 mg, 0.22 mmol)
+was dissolved in a mixture of 2 N HCl (5 mL) and dioxane (5 mL). The
+reaction mixture was then refluxed for 5 h. It was then cooled to
+room temperature. The reaction mixture was diluted with EtOAc and
+washed with satd NaHCO<sub>3</sub>, followed by brine. The organic
+layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated.
+The resulting residue was purified by flash chromatography on silica
+gel, eluting with 0–5% MeOH/DCM to give 4-(5-methoxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+as a white solid (50 mg, 100%); mp 297–299 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.99
+(bs, 1H), 8.19 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.96 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.75 (s, 1H), 3.81 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) 157.8, 147.4,
+146.2, 136.5, 132.5, 130.0, 127.8, 118.4, 112.8, 56.1. HRMS (ESI)
+calculated for C<sub>12</sub>H<sub>10</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 228.0768, found 228.0770.</p></sec><sec id="sec4.1.30"><title>4-(4,5-Dimethoxypyrimidin-2-yl)benzonitrile</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(100 mg, 0.57 mmol), (4-cyanophenyl)boronic acid (126 mg, 0.86 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (66 mg, 0.06 mmol), and Na<sub>2</sub>CO<sub>3</sub>(182 mg, 1.72 mmol) were dissolved in a mixture of
+dioxane (9 mL) and water (3 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then the reaction mixture was refluxed for 4 h.
+After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated in vacuo, and the resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–20%
+EtOAc/hexane. This afforded 4-(4,5-dimethoxypyrimidin-2-yl)benzonitrile
+as a white solid (69 mg, 74%); mp 170–172 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.49 (d, <italic toggle="yes">J</italic> = 9 Hz, 2H), 8.18 (s, 1H), 7.76 (d, <italic toggle="yes">J</italic> = 9 Hz, 2H),
+4.20 (s, 3H), 4.02 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 159.8, 154.0, 141.8, 141.5, 137.0, 132.3, 128.0,
+119.0, 113.0, 56.4, 54.2. HRMS (ESI) calculated for C<sub>13</sub>H<sub>12</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 242.0924,
+found 242.0929.</p></sec><sec id="sec4.1.31"><title>3-(5-Hydroxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+(<bold>10</bold>)</title><p>3-(5-Methoxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+(50 mg, 0.22 mmol) was dissolved in anhydrous DCM (5 mL). The reaction
+mixture was cooled to 0 °C, and then 1 M in DCM BBr<sub>3</sub> (2.2 mL, 2.2 mmol) was added. It was then allowed to warm to room
+temperature and stirred for 18 h. Then the solvent was removed under
+reduced pressure. The resulting residue was suspended in water. It
+was filtered, and the solid was collected and dried under vacuum to
+provide 3-(5-hydroxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+as a white solid (27 mg, 58%); mp 294–296 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 8.44
+(s, 1H), 8.35 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.93 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.68 (t, <italic toggle="yes">J</italic> = 8 Hz, 1H),
+7.61 (s, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 159.3, 146.4, 143.9, 134.3, 133.4, 131.9, 131.5,
+130.4, 129.8, 118.4, 111.7. HRMS (ESI) calculated for C<sub>11</sub>H<sub>8</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 214.0611,
+found 214.0613.</p></sec><sec id="sec4.1.32"><title>3-(5-Methoxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile</title><p>3-(4,5-Dimethoxypyrimidin-2-yl)benzonitrile (138 mg, 0.57 mmol)
+was dissolved in a mixture of 2 N HCl (5 mL) and dioxane (5 mL). The
+reaction mixture was then refluxed for 6 h. It was then cooled to
+room temperature. The reaction mixture was diluted with EtOAc and
+washed with satd NaHCO<sub>3</sub>, followed by brine. The organic
+layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated.
+The resulting residue was purified by flash chromatography on silica
+gel, eluting with 0–10% MeOH/DCM to give 3-(5-methoxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+as a white solid (56 mg, 43%); mp 255–257 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.93
+(bs, 1H), 8.44 (s, 1H), 8.34 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.99
+(d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.74–7.70 (m, 2H), 3.82
+(s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 157.9, 147.5, 145.9, 133.9, 133.7, 131.7, 130.7,
+130.4, 129.9, 118.3, 111.7, 56.1. HRMS (ESI) calculated for C<sub>12</sub>H<sub>10</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 228.0768, found 228.0767.</p></sec><sec id="sec4.1.33"><title>3-(4,5-Dimethoxypyrimidin-2-yl)benzonitrile</title><p>2-Chloro-4,5-dimethoxypyrimidine
+(100 mg, 0.57 mmol), (3-cyanophenyl)boronic acid (126 mg, 0.86 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (66 mg, 0.06 mmol), and Na<sub>2</sub>CO<sub>3</sub>(182 mg, 1.72 mmol) were dissolved in a mixture of
+dioxane (9 mL) and water (3 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then the reaction mixture was refluxed for 5 h.
+After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated in vacuo, and the resulting residue
+was purified by flash chromatography on silica gel, eluting with 0–20%
+EtOAc/hexane. This afforded 3-(4,5-dimethoxypyrimidin-2-yl)benzonitrile
+as a white solid (138 mg, 100%); mp 134–136 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.61 (s, 1H), 8.54 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 8.09 (s, 1H), 7.65 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.51 (t, <italic toggle="yes">J</italic> = 8 Hz, 1H), 4.13 (s, 3H),
+3.95 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ
+159.8, 153.6, 141.7, 138.5, 137.0, 132.8, 131.6, 131.3, 129.2, 118.9,
+112.6, 56.4, 54.2. HRMS (ESI) calculated for C<sub>13</sub>H<sub>12</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 242.0924, found 242.0928.</p></sec><sec id="sec4.1.34"><title>2-(4-(1<italic toggle="yes">H</italic>-Tetrazol-5-yl)phenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (<bold>11</bold>)</title><p>4-(5-Hydroxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+(68 mg, 0.32 mmol) and NaN<sub>3</sub> (79 mg, 1.21 mmol) were dissolved
+in anhydrous DMF (1 mL). The reaction mixture was treated with 2 drops
+of acetic acid. It was sealed, and then it was heated at 130 °C
+for 17 h. The reaction was cooled to room temperature and gave a brownish
+suspension. DMF was removed by Kugelrohr distillation. The resulting
+residue was suspended in water and filtered to give 2-(4-(1<italic toggle="yes">H</italic>-tetrazol-5-yl)phenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a dark-brown solid (42 mg, 51%); dec 290–292 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+8.08 (d, <italic toggle="yes">J</italic> = 9 Hz, 2H), 8.03 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.55 (s, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 161.0, 160.2, 148.9, 143.3, 133.8,
+132.4, 131.6, 126.9, 125.5. HRMS (ESI) calculated for C<sub>11</sub>H<sub>9</sub>N<sub>6</sub>O<sub>2</sub> (M + H)<sup>+</sup> 257.0781,
+found 257.0791.</p></sec><sec id="sec4.1.35"><title>2-(3-(1<italic toggle="yes">H</italic>-Tetrazol-5-yl)phenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one (<bold>12</bold>)</title><p>3-(5-Hydroxy-6-oxo-1,6-dihydropyrimidin-2-yl)benzonitrile
+(108 mg, 0.50 mmol) and NaN<sub>3</sub> (131 mg, 2.02 mmol) were dissolved
+in anhydrous DMF (1 mL). The reaction mixture was treated with 2 drops
+of acetic acid. It was sealed, and then it was heated at 130 °C
+for 18 h. The reaction was cooled to room temperature and gave a brownish
+suspension. It was filtered, and a greenish solid was obtained. The
+greenish solid was suspended in 2 N HCl, followed by second filtration
+to provide 2-(3-(1<italic toggle="yes">H</italic>-tetrazol-5-yl)phenyl)-5-hydroxypyrimidin-4(3<italic toggle="yes">H</italic>)-one as a beige solid (32 mg, 25%); dec 295–297
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 8.67 (s, 1H), 8.11 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H),
+7.97 (d, <italic toggle="yes">J</italic> = 8 Hz, 1H), 7.63 (s, 1H), 7.56 (t, <italic toggle="yes">J</italic> = 8 Hz, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ162.3, 159.1, 158.7, 148.0, 143.4,
+133.1, 130.4, 128.9, 127.9, 126.5, 125.1. HRMS (ESI) calculated for
+C<sub>11</sub>H<sub>9</sub>N<sub>6</sub>O<sub>2</sub> (M + H)<sup>+</sup> 257.0781, found 257.0785.</p></sec><sec id="sec4.1.36"><title>5-(4-Fluorophenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one
+(<bold>13</bold>)</title><p>5-(4-Fluorophenyl)-4-methoxy-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one (55 mg, 0.21 mmol) was dissolved in anhydrous DCM
+(10 mL). The reaction mixture was cooled to 0 °C, and then 1
+M in DCM BBr<sub>3</sub> (2.1 mL, 2.1 mmol) was added. It was then
+allowed to warm to room temperature and stirred for 24 h. Then the
+solvent was removed under reduced pressure. This gave 5-(4-fluorophenyl)-4-methoxypyridazin-3(2<italic toggle="yes">H</italic>)-one, which was again recharged with 1 M in DCM BBr<sub>3</sub> (2.1 mL, 2.1 mmol). The reaction mixture was stirred for
+24 h at room temperature. Then the solvent was again removed under
+reduced pressure. The resulting residue was suspended with water and
+filtered. The filtered solid was purified by flash chromatography
+on silica gel, eluting with 0–10% MeOH/DCM. This gave 5-(4-fluorophenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one as a white solid (6.2 mg, 14%); mp 274–276
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 12.70 (s, 1H), 7.76 (s, 1H), 7.58 (<italic toggle="yes">J</italic> =
+8 Hz, <italic toggle="yes">J</italic> = 5 Hz, 2H), 7.21–7.17 (m, 2H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+161.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 243 Hz), 161.9, 154.6, 132.7,
+132.4 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 127.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 4 Hz), 115.8, 114.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz). <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −114.1. HRMS (ESI) calculated for C<sub>10</sub>H<sub>8</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 207.0564,
+found 207.0575.</p></sec><sec id="sec4.1.37"><title>5-(4-Fluorophenyl)-4-methoxy-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one</title><p>5-Chloro-4-methoxy-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one (58 mg, 0.28 mmol), (4-fluorophenyl)boronic acid
+(140 mg, 0.43 mmol), Pd(PPh<sub>3</sub>)<sub>4</sub> (32 mg, 0.028
+mmol), and Na<sub>2</sub>CO<sub>3</sub> (90 mg, 0.85 mmol) were dissolved
+in a mixture of dioxane (9 mL) and water (3 mL). The air was evacuated
+and replaced with N<sub>2</sub>. Then the reaction mixture was refluxed
+for 14 h. After the reaction was completed, it was cooled to room
+temperature, and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl, followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated in vacuo, and the resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–30% EtOAc/hexane. This afforded 5-(4-fluorophenyl)-4-methoxy-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one as a white solid (56 mg, 74%); mp 123–125
+°C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 7.95
+(s, 1H), 7.53 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> =
+6 Hz, 2H), 7.11–7. 07 (m, 2H), 5.48 (s, 2H), 3.93 (s, 3H),
+3.49 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ
+162.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 247 Hz), 161.6, 154.8, 132.3
+(<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 128.5, 125.7, 120.7, 112.9
+(<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz), 81.6, 57.9, 57.3. <sup>19</sup>F NMR (376 MHz, CDCl<sub>3</sub>) δ −112.6.
+HRMS (ESI) calculated for C<sub>13</sub>H<sub>14</sub>FN<sub>2</sub>O<sub>3</sub> (M + H)<sup>+</sup> 265.0983, found 265.0992.</p></sec><sec id="sec4.1.38"><title>5-Chloro-4-methoxy-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one</title><p>4,5-Dichloro-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one (84 mg, 0.40 mmol) was added to MeOH (10 mL). Then
+the reaction mixture was cooled to 0 °C. It was treated with
+NaOMe (24 mg, 0.44 mmol) and allowed to warm to room temperature.
+The reaction mixture was then stirred for 18 h at room temperature.
+After the reaction was completed, it was put under the vacuum to remove
+MeOH. The resulting residue was diluted with EtOAc, which was then
+washed with satd NH<sub>4</sub>Cl, followed by brine. The organic
+layer was dried over Na<sub>2</sub>SO<sub>4</sub> and then concentrated.
+The residue was purified by flash chromatography on silica gel, eluting
+with 0–30% EtOAc/hexane to provide 5-chloro-4-methoxy-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one as a white solid (59 mg, 72%); mp 101–103
+°C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 7.85
+(s, 1H), 5.45 (s, 2H), 4.08 (s, 3H), 3.44 (s, 3H). <sup>13</sup>C
+NMR (100 MHz, CDCl<sub>3</sub>) δ 159.1, 155.1, 127.1, 116.9,
+81.9, 57.9, 57.8. HRMS (ESI) calculated for C<sub>7</sub>H<sub>10</sub>ClN<sub>2</sub>O<sub>3</sub> (M + H)<sup>+</sup> 205.0374, found
+205.0384.</p></sec><sec id="sec4.1.39"><title>4,5-Dichloro-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one</title><p>4,5-Dichloropyridazin-3(2<italic toggle="yes">H</italic>)-one (200
+mg, 1.21 mmol) and 4-dimethylaminopyridine (15 mg, 0.12 mmol) were
+dissolved in anhydrous DCM (20 mL). Then the reaction mixture was
+cooled to 0 °C and treated with NEt<sub>3</sub> (0.29 mL, 1.70
+mmol), followed by MOMCl (0.110 mL, 1.454 mmol). The reaction mixture
+was allowed to warm to room temperature and stirred for 17 h. It was
+then poured into DCM, and it was washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub>, which was concentrated. The resulting residue was
+purified by flash chromatography on silica gel, eluting with 0–30%
+EtOAc/hexane to provide 4,5-dichloro-2-(methoxymethyl)pyridazin-3(2<italic toggle="yes">H</italic>)-one as a white solid (84 mg, 33%); mp 65–67 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 7.78 (s, 1H), 5.41
+(s, 2H), 3.43 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 156.9, 137.0, 136.0, 134.9, 82.4, 58.1.</p></sec><sec id="sec4.1.40"><title>6-(4-Fluorophenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one
+(<bold>14</bold>)</title><p>6-(4-Fluorophenyl)-4-methoxypyridazin-3(2<italic toggle="yes">H</italic>)-one (16 mg, 0.074 mmol) was dissolved in anhydrous DCM
+(5 mL). The reaction mixture was cooled to 0 °C, and then 1 M
+in DCM BBr<sub>3</sub> (0.74 mL, 0.74 mmol) was added. It was then
+allowed to warm to room temperature and stirred for 36 h. Then the
+solvent was removed under reduced pressure. The resulting residue
+was suspended in water. It was filtered, and the solid was collected
+and dried under vacuum to provide 6-(4-fluorophenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one as a white solid (5 mg, 35%); mp 281–283 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+13.10 (bs, 1H), 11.02 (bs, 1H), 7.87 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 5 Hz, 2H), 7.30–7.26 (m,2H), 7.19 (s, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+162.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 245 Hz), 157.6, 155.4, 145.2,
+132.0 (<italic toggle="yes">J</italic><sub>C,F</sub> = 3 Hz), 128.0 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz), 115.6 (<italic toggle="yes">J</italic><sub>C,F</sub> =
+22 Hz), 106.0. <sup>19</sup>F NMR (376 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −113.0. HRMS (ESI) calculated for C<sub>10</sub>H<sub>8</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 207.0564, found 207.0567.</p></sec><sec id="sec4.1.41"><title>6-(4-Fluorophenyl)-4-methoxypyridazin-3(2<italic toggle="yes">H</italic>)-one</title><p>6-(4-Fluorophenyl)-3,4-dimethoxypyridazine
+(122 mg 0.52 mmol) was
+dissolved in a mixture of 2 N HCl (5 mL) and dioxane (5 mL). The reaction
+mixture was then refluxed for 11 h. It was then cooled to room temperature.
+The reaction mixture was diluted with EtOAc and washed with satd NaHCO<sub>3</sub>, followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated. The resulting residue was
+purified by flash chromatography on silica gel, eluting with 0–10%
+MeOH/DCM to give 6-(4-fluorophenyl)-4-methoxypyridazin-3(2<italic toggle="yes">H</italic>)-one as a white solid (41 mg, 36%); mp 211–213
+°C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 13.05 (br s, 1H), 7.96 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 6 Hz, 2H), 7.34–7.29 (m, 2H), 7.28 (s, 1H), 3.92
+(s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 162.7 (<italic toggle="yes">J</italic><sub>C,F</sub> =245 Hz),
+156.2, 155.7, 144.3, 132.0 (<italic toggle="yes">J</italic><sub>C,F</sub> = 3 Hz),
+128.2 (<italic toggle="yes">J</italic><sub>C,F</sub> = 8 Hz), 115.6 (<italic toggle="yes">J</italic><sub>C,F</sub> = 22 Hz), 104.4, 56.2. <sup>19</sup>F NMR (376 MHz,
+DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ −112.9. HRMS (ESI)
+calculated for C<sub>11</sub>H<sub>10</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 221.0721, found 221.0727.</p></sec><sec id="sec4.1.42"><title>6-(4-Fluorophenyl)-3,4-dimethoxypyridazine</title><p>6-Chloro-3,4-dimethoxypyridazine
+(101 mg, 0.58 mmol), (4-fluorophenyl)boronic acid (122 mg, 0.87 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (67 mg, 0.06 mmol), and Na<sub>2</sub>CO<sub>3</sub>(184 mg, 1.74 mmol) were dissolved in a mixture of
+dioxane (15 mL) and water (5 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then the reaction mixture was refluxed for 3 h.
+After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–20% EtOAc/hexane. This afforded 6-(4-fluorophenyl)-3,4-dimethoxypyridazine
+as a white solid (109 mg, 80%); mp 103–105 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 7.88 (dd, <italic toggle="yes">J</italic> = 9 Hz, <italic toggle="yes">J</italic> = 5 Hz, 2H), 7.10–7. 06 (m, 2H),
+7.00 (s, 1H), 4.14 (s, 3H), 3.93 (s, 3H). <sup>13</sup>C NMR (100
+MHz, CDCl<sub>3</sub>) δ 163.7 (<italic toggle="yes">J</italic><sub>C,F</sub> = 247 Hz), 156.5, 155.7, 148.9, 132.9 (<italic toggle="yes">J</italic><sub>C,F</sub> = 3 Hz), 128.5 (<italic toggle="yes">J</italic><sub>C,F</sub> = 9 Hz), 115.8
+(<italic toggle="yes">J</italic><sub>C,F</sub> = 21 Hz), 104.7, 55.7, 55.2. <sup>19</sup>F NMR (376 MHz, CDCl<sub>3</sub>) δ −112.2.
+HRMS (ESI) calculated for C<sub>12</sub>H<sub>12</sub>FN<sub>2</sub>O<sub>2</sub> (M + H)<sup>+</sup> 235.0877, found 235.0885.</p></sec><sec id="sec4.1.43"><title>6-Chloro-3,4-dimethoxypyridazine</title><p>3,4,6-Trichloropyridazine
+(200 mg, 1.09 mmol) was added to MeOH (15 mL). Then the reaction mixture
+was cooled to 0 °C. It was treated with NaOMe (117 mg, 2.17 mmol)
+and allowed to warm to room temperature. The reaction mixture was
+then stirred for 10 h at room temperature. After the reaction was
+completed, it was put under the vacuum to remove MeOH. The resulting
+residue was diluted with EtOAc, which was then washed with satd NH<sub>4</sub>Cl, followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and then concentrated. The residue was purified
+by flash chromatography on silica gel, eluting with 0–30% EtOAc/hexane
+to provide 4-chloro-5,6-dimethoxypyrimidine as a white solid (101
+mg, 53%); mp 117–119 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 6.71 (s, 1H), 4.08 (s, 3H), 3.88 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 156.9, 151.1, 149.8, 108.4,
+56.2, 55.3.</p></sec><sec id="sec4.1.44"><title>4-(5-Hydroxy-6-oxo-1,6-dihydropyridazin-3-yl)benzonitrile
+(<bold>15</bold>)</title><p>4-(5-Methoxy-6-oxo-1,6-dihydropyridazin-3-yl)benzonitrile
+(109 mg, 0.48 mmol) was dissolved in anhydrous DCM (5 mL). The reaction
+mixture was cooled to 0 °C, and then 1 M in DCM BBr<sub>3</sub> (4.8 mL, 4.8 mmol) was added. It was then allowed to warm to room
+temperature and stirred for 20 h. Then the solvent was removed under
+reduced pressure. The resulting residue was suspended in water. It
+was filtered, and the solid was collected. The solid was dry loaded
+on silica gel and was purified by flash chromatography on silica gel,
+eluting with 0–10% MeOH/DCM. This afforded 4-(5-hydroxy-6-oxo-1,6-dihydropyridazin-3-yl)benzonitrile
+as a white solid (75 mg, 73%); mp 305–307 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 13.29
+(s, 1H), 11.15 (bs, 1H), 8.03 (d, <italic toggle="yes">J</italic> = 9 Hz, 2H),
+7.92 (d, <italic toggle="yes">J</italic> = 9 Hz, 2H), 7.29 (s, 1H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 157.7,
+154.6, 144.4, 139.8, 132.7, 126.5, 118.6, 111.4, 106.0. HRMS (ESI)
+calculated for C<sub>11</sub>H<sub>8</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 214.0611, found 214.0615.</p></sec><sec id="sec4.1.45"><title>4-(5-Methoxy-6-oxo-1,6-dihydropyridazin-3-yl)benzonitrile</title><p>4-(5,6-Dimethoxypyridazin-3-yl)benzonitrile (125 mg, 0.52 mmol)
+was dissolved in a mixture of 2 N HCl (5 mL) and dioxane (5 mL). The
+reaction mixture was then refluxed for 4 h. It was then cooled to
+room temperature and then put under reduced pressure. The resulting
+residue was suspended in water and filtered. The product 4-(5-methoxy-6-oxo-1,6-dihydropyridazin-3-yl)benzonitrile
+was collected as a white solid (82 mg, 70%); mp 271–273 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+13.97 (bs, 1H), 8.02 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.94 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 6.62 (s, 1H), 3.96 (s, 3H). <sup>13</sup>C NMR (100 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 156.3,
+155.9, 143.5, 139.7, 132.7, 126.7, 118.6, 111.4, 104.3, 56.3. HRMS
+(ESI) calculated for C<sub>12</sub>H<sub>10</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 228.0768, found 228.0774.</p></sec><sec id="sec4.1.46"><title>4-(5,6-Dimethoxypyridazin-3-yl)benzonitrile</title><p>6-Chloro-3,4-dimethoxypyridazine
+(298 mg, 1.71 mmol), (4-cyanophenyl)boronic acid (376 mg, 2.56 mmol),
+Pd(PPh<sub>3</sub>)<sub>4</sub> (198 mg, 0.17 mmol), and Na<sub>2</sub>CO<sub>3</sub>(543 mg, 5.12 mmol) were dissolved in a mixture of
+dioxane (15 mL) and water (5 mL). The air was evacuated and replaced
+with N<sub>2</sub>. Then the reaction mixture was refluxed for 15
+h. After the reaction was completed, it was cooled to room temperature
+and it was diluted with EtOAc and washed with satd NH<sub>4</sub>Cl,
+followed by brine. The organic layer was dried over Na<sub>2</sub>SO<sub>4</sub> and concentrated under reduced pressure, and the resulting
+residue was purified by flash chromatography on silica gel, eluting
+with 0–30% EtOAc/hexane. This afforded 4-(5,6-dimethoxypyridazin-3-yl)benzonitrile
+as a white solid (130 mg, 31%); mp 187–189 °C. <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) δ 8.10 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.77 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.14 (s, 1H),
+4.23 (s, 3H), 4.03 (s, 3H). <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ 157.1, 154.7, 149.1, 140.9, 132.6, 127.3, 118.5,
+113.0, 104.9, 55.9, 55.3. HRMS (ESI) calculated for C<sub>13</sub>H<sub>12</sub>N<sub>3</sub>O<sub>2</sub> (M + H)<sup>+</sup> 242.0924,
+found 242.0931.</p></sec><sec id="sec4.1.47"><title>6-(4-(1<italic toggle="yes">H</italic>-Tetrazol-5-yl)phenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one (<bold>16</bold>)</title><p>4-(5-Methoxy-6-oxo-1,6-dihydropyridazin-3-yl)benzonitrile
+(56 mg, 0.26 mmol) and NaN<sub>3</sub> (69 mg, 1.06 mmol) were dissolved
+in anhydrous DMF (1 mL). The reaction mixture was treated with 2 drops
+of acetic acid. It was sealed, and then it was heated at 130 °C
+for 21 h. The reaction was cooled to room temperature and gave a brownish
+suspension. The suspension was filtered and gave a white solid, which
+was treated with 2 N HCl and filtered again. This afforded 6-(4-(1<italic toggle="yes">H</italic>-tetrazol-5-yl)phenyl)-4-hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one as a white solid (33 mg, 48%); dec 273–275 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ
+11.13 (s, 1H), 8.09 (d, <italic toggle="yes">J</italic> = 8 Hz, 2H), 7.95 (d, <italic toggle="yes">J</italic> = 7 Hz, 2H), 7.25 (s, 1H). <sup>13</sup>C NMR (100 MHz,
+DMSO-<italic toggle="yes">d</italic><sub>6</sub>) δ 158.0, 157.7, 154.9,
+145.7, 135.8, 128.9, 126.6, 126.2, 105.9. HRMS (ESI) calculated for
+C<sub>11</sub>H<sub>9</sub>N<sub>6</sub>O<sub>2</sub> (M + H)<sup>+</sup> 257.0781, found 257.0791.</p></sec></sec><sec id="sec4.2"><title>Expression, Purification,
+and Crystallization</title><p>Pandemic
+H1N1 endonuclease (residues 1–204) was expressed and purified
+as described previously.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> The BL21 (RIL)
+cells (Stratagene) were grown to an OD<sub>600</sub> of 0.8 and induced
+with 0.15 mM IPTG at 17 °C for 17 h. Cells were harvested by
+centrifugation and purified on Ni-NTA (Qiagen) according to manufacturers
+recommendations, except the final elution was completed with 500 mM
+imidazole containing buffer. The dual hexahis tag was then removed
+by HRV14 3C protease cleavage. The endonuclease was further purified
+by size exclusion chromatography using HiLoad 26/60 Superdex 75 (GE
+Healthcare). The buffer used for size exclusion and the final buffer
+for storage of the protein was 100 mM NaCl and 20 mM Tris pH 8.0.
+The protein was concentrated to 5 mg/mL using an Ultrafree 10K (Millipore),
+aliquoted, and stored at −80 °C.</p><p>Crystals are formed
+by mixing in a 1:1 ratio endonuclease (5 mg/mL) with crystallization
+buffer containing 200 mM MES pH 6.7, 27% PEG8000, 200 mM ammonium
+sulfate, 1 mM manganese chloride, 10 mM magnesium acetate, 10 mM taurine,
+and 50 mM sodium fluoride. Crystals form within a few hours and grow
+to maximum size in 1–2 weeks at 20 °C.</p></sec><sec id="sec4.3"><title>Compound Soaking,
+Data Collection, and Processing</title><p>Crystal
+structures of compounds <bold>11</bold> were determined in complex
+with endonuclease as previously described.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup><bold>11</bold> was soaked into preformed crystals by stepwise gradient
+shifting the surrounding crystallization solution to 1 mM manganese
+sulfate, 200 mM HEPES pH 7.7, 25% (w/v) PEG 8000, 50 mM ammonium sulfate,
+5 mM magnesium acetate, 80 mM <sc>l</sc>-arginine, 10% DMSO containing
+100 mM <bold>11</bold>, and 10% (v/v) ethylene glycol. Crystals were
+then soaked with the ligand for 2 h at 20 °C before being placed
+into liquid nitrogen for storage. X-ray diffraction data collection
+was performed at the Cornell High Energy Synchrotron Source (CHESS)
+F1 beamline. The diffraction data were indexed, processed, scaled,
+and merged using HKL2000.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> The structure
+was solved and refined using the software PHENIX.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup></p></sec><sec id="sec4.4"><title>Endonuclease Assay</title><p>A high throughput
+endonuclease assay
+was performed as described previously.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> The endonuclease assay used a single-stranded DNA probe with the
+sequence (6-FAM)TGGCAATATCAGCTCCACA(MGBNFQ) (Applied Biosystems).
+Reaction buffer contained 50 mM Tris pH 7.5, 50 mM sodium chloride,
+1 mM DTT, 5 mM magnesium chloride, 0.5 mM manganese sulfate, and 1
+mM CHAPS. DNA probe (50 nM), endonuclease (25 nM), and compound were
+mixed on ice and then placed in a Varioskan fluorimeter (Thermo Scientific)
+preincubated at 37 °C to detect fluorescence with an excitation
+of 488 nm and emission of 518 nm. Fluorescence is measured at various
+time points, and activity/inhibition is calculated with GraphPad Prism
+6.0b.</p></sec></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>X-ray data and refinement statistics
+for the analysis performed with <bold>11</bold>. The atomic coordinates
+and structure factors are deposited in the Protein Data Bank (PDB)
+with ID 4W9S. This material is available free of charge via the Internet at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pubs.acs.org">http://pubs.acs.org</uri>.</p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm500958x_si_001.pdf" position="float" orientation="portrait"><caption><p>jm500958x_si_001.pdf</p></caption></media></supplementary-material></sec><notes id="NOTES-d3357e4900-autogenerated" notes-type="conflict-of-interest"><p>The authors declare the
+following competing financial interest(s): Prof. LaVoie is a co-founder,
+together with Dr. Bauman, Dr. Das and Prof. Arnold, of Prodaptics
+Pharmaceuticals, Inc..</p></notes><ack><title>Acknowledgments</title><p>The Bruker Avance III 400
+MHz NMR spectrometer used for this
+study was purchased with funds from NCRR Grant no. 1S10RR23698-1A1.
+Mass spectrometry was provided by the Washington University Mass Spectrometry
+Resource with support from the NIH National Center for Research Resources
+grant no. P41RR0954. We thank the laboratories of Ann Stock and Gaetano
+Montelione for access to equipment used in this study. E.A.’s
+laboratory is grateful for support from NIH grants R37 AI027690 (MERIT
+AWARD) and P50 GM103368. X-ray data collection was conducted at the
+Cornell High Energy Synchrotron Source (CHESS). CHESS is supported
+by the NSF and NIH/NIGMS via NSF award DMR-0225180, and the MacCHESS
+resource is supported by NIH/NCRR award RR-01646.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name name-style="western"><surname>Hayden</surname><given-names>F. G.</given-names></name>; <name name-style="western"><surname>Hay</surname><given-names>A. J.</given-names></name>
+<article-title>Emergence and transmission of influenza A viruses resistant
+to amantadine and rimantadine</article-title>. <source>Curr. Top. Microbiol.
+Immunol.</source>
+<year>1992</year>, <volume>176</volume>, <fpage>119</fpage>–<lpage>130</lpage>.<pub-id pub-id-type="pmid">1600749</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-3-642-77011-1_8</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name name-style="western"><surname>Bright</surname><given-names>R. A.</given-names></name>; <name name-style="western"><surname>Medina</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Xu</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Peresz-Oronoz</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Wallis</surname><given-names>T. R.</given-names></name>; <name name-style="western"><surname>Davis</surname><given-names>X. M.</given-names></name>; <name name-style="western"><surname>Provinelli</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Cox</surname><given-names>N. J.</given-names></name>; <name name-style="western"><surname>Klimov</surname><given-names>A. I.</given-names></name>
+<article-title>Incidence of admantane resistance
+among influenza A (H3N2) viruses isolated worldwide from 1994 to 2005:
+a cause for concern</article-title>. <source>Lancet</source>
+<year>2005</year>, <volume>366</volume>, <fpage>1175</fpage>–<lpage>1181</lpage>.<pub-id pub-id-type="pmid">16198766</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(05)67338-2</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name name-style="western"><surname>Moscona</surname><given-names>A.</given-names></name>
+<article-title>Oseltamivir
+Resistance—Disabling our Influenza Defenses</article-title>. <source>N. Engl. J. Med.</source>
+<year>2005</year>, <volume>353</volume>, <fpage>2633</fpage>–<lpage>2636</lpage>.<pub-id pub-id-type="pmid">16371626</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMp058291</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name name-style="western"><surname>Bloom</surname><given-names>J. D.</given-names></name>; <name name-style="western"><surname>Gong</surname><given-names>L. I.</given-names></name>; <name name-style="western"><surname>Baltimore</surname><given-names>D.</given-names></name>
+<article-title>Permissive secondary mutations enable
+the evolution of influenza oseltamivir resistance</article-title>. <source>Science</source>
+<year>2010</year>, <volume>328</volume>, <fpage>1272</fpage>–<lpage>1275</lpage>.<pub-id pub-id-type="pmid">20522774</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1187816</pub-id><pub-id pub-id-type="pmcid">PMC2913718</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name name-style="western"><surname>Memoli</surname><given-names>M. J.</given-names></name>; <name name-style="western"><surname>Davis</surname><given-names>A. S.</given-names></name>; <name name-style="western"><surname>Proudfoot</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Chertow</surname><given-names>D. S.</given-names></name>; <name name-style="western"><surname>Hrabal</surname><given-names>R. J.</given-names></name>; <name name-style="western"><surname>Bristol</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Taubenberger</surname><given-names>J. K.</given-names></name>
+<article-title>Multidrug-resistant 2009 pandemic
+influenza A(H1N1) viruses maintain fitness and transmissibility in
+ferrets</article-title>. <source>J. Infect Dis.</source>
+<year>2011</year>, <volume>203</volume>, <fpage>348</fpage>–<lpage>357</lpage>.<pub-id pub-id-type="pmid">21208927</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/infdis/jiq067</pub-id><pub-id pub-id-type="pmcid">PMC3071106</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name name-style="western"><surname>Das</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Aramini</surname><given-names>J. M.</given-names></name>; <name name-style="western"><surname>Ma</surname><given-names>L.-C.</given-names></name>; <name name-style="western"><surname>Krug</surname><given-names>R. M.</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E.</given-names></name>
+<article-title>Structures
+of influenza A proteins and insights into antiviral drug targets</article-title>. <source>Nature Struct Mol. Biol.</source>
+<year>2010</year>, <volume>17</volume>, <fpage>530</fpage>–<lpage>538</lpage>.<pub-id pub-id-type="pmid">20383144</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nsmb.1779</pub-id><pub-id pub-id-type="pmcid">PMC2957899</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name name-style="western"><surname>He</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Zhou</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Bartlam</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Ma</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Lou</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Joachimiak</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Zeng</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Ge</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Rao</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>Y.</given-names></name>
+<article-title>Crystal structure
+of the polymerase PAC–PB1N complex from an avian influenza
+H5N1 virus</article-title>. <source>Nature</source>
+<year>2008</year>, <volume>454</volume>, <fpage>1123</fpage>–<lpage>1126</lpage>.<pub-id pub-id-type="pmid">18615018</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07120</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name name-style="western"><surname>Yan</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Bartlam</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Lou</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Zhou</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>He</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Lv</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Ge</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Deng</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Fodor</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Rao</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>Y.</given-names></name>
+<article-title>Crystal structure of
+an avian influenza polymerase PA<sub>N</sub> reveals an endonuclease
+active site</article-title>. <source>Nature</source>
+<year>2009</year>, <volume>458</volume>, <fpage>909</fpage>–<lpage>913</lpage>.<pub-id pub-id-type="pmid">19194458</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07720</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name name-style="western"><surname>Dias</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Bouvier</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Crépin</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>McCarthy</surname><given-names>A. A.</given-names></name>; <name name-style="western"><surname>Hart</surname><given-names>D. J.</given-names></name>; <name name-style="western"><surname>Baudin</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Cusack</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>R. W. H.</given-names></name>
+<article-title>The cap-snatching
+endonuclease of influenza virus polymerase resides in the PA subunit</article-title>. <source>Nature</source>
+<year>2009</year>, <volume>458</volume>, <fpage>914</fpage>–<lpage>918</lpage>.<pub-id pub-id-type="pmid">19194459</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature07745</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name name-style="western"><surname>DuBois</surname><given-names>R. M.</given-names></name>; <name name-style="western"><surname>Slavish</surname><given-names>P. J.</given-names></name>; <name name-style="western"><surname>Baughman</surname><given-names>B. M.</given-names></name>; <name name-style="western"><surname>Yun</surname><given-names>M.-K.</given-names></name>; <name name-style="western"><surname>Bao</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Webby</surname><given-names>R. J.</given-names></name>; <name name-style="western"><surname>Webb</surname><given-names>T. R.</given-names></name>; <name name-style="western"><surname>White</surname><given-names>S. W.</given-names></name>
+<article-title>Structural and biochemical
+basis for development of influenza virus inhibitors targeting the
+PA endonuclease</article-title>. <source>PLoS Pathog.</source>
+<year>2012</year>, <volume>8</volume>, <fpage>e1002830</fpage>.<pub-id pub-id-type="pmid">22876176</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1002830</pub-id><pub-id pub-id-type="pmcid">PMC3410894</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name name-style="western"><surname>Kowalinski</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Zubieta</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Wolkerstorfer</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Szolar</surname><given-names>O. H. J.</given-names></name>; <name name-style="western"><surname>Ruigrok</surname><given-names>R. W. H.</given-names></name>; <name name-style="western"><surname>Cusack</surname><given-names>S.</given-names></name>
+<article-title>Structural Analysis of Specific Metal Chelating Inhibitor
+Binding to the Endonuclease Domain of Influenza pH1N1 (2009) Polymerase</article-title>. <source>PLoS Pathogens</source>
+<year>2012</year>, <volume>8</volume><issue>8</issue><fpage>e1002831</fpage><pub-id pub-id-type="doi">10.1371/journal.ppat.1002831</pub-id>.<pub-id pub-id-type="pmid">22876177</pub-id><pub-id pub-id-type="pmcid">PMC3410856</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name name-style="western"><surname>Tefsen</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Lu</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Zhu</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Haywood</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Zhao</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Deng</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Qi</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Gao</surname><given-names>G. F.</given-names></name>
+<article-title>The N-terminal domain of PA from bat-derived influenza-like
+virus H17N10 has endonuclease activity</article-title>. <source>J. Virol.</source>
+<year>2013</year>, <volume>88</volume>, <fpage>1935</fpage>–<lpage>1941</lpage><pub-id pub-id-type="doi">10.1128/JVI.03270-13</pub-id>.<pub-id pub-id-type="pmid">24284327</pub-id><pub-id pub-id-type="pmcid">PMC3911528</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name name-style="western"><surname>Bauman</surname><given-names>J. D.</given-names></name>; <name name-style="western"><surname>Patel</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Baker</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Vijayan</surname><given-names>R. S. K.</given-names></name>; <name name-style="western"><surname>Xiang</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Parhi</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Martinez-Sobrido</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>LaVoie</surname><given-names>E. J.</given-names></name>; <name name-style="western"><surname>Das</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E.</given-names></name>
+<article-title>Crystallographic fragment screening and structure-based
+optimization yields a new class of influenza endonuclease inhibitors</article-title>. <source>ACS Chem. Biol.</source>
+<year>2013</year>, <volume>8</volume>, <fpage>2501</fpage>–<lpage>2508</lpage>.<pub-id pub-id-type="pmid">23978130</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/cb400400j</pub-id><pub-id pub-id-type="pmcid">PMC3928712</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name name-style="western"><surname>Plotch</surname><given-names>S. J.</given-names></name>; <name name-style="western"><surname>Bouloy</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Ulmanen</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Krug</surname><given-names>R. M.</given-names></name>
+<article-title>A unique Cap(m7CppXm)-dependent
+influenza virion endonuclease cleaves capped RNAs to generate the
+primers that initiate viral RNA transcription</article-title>. <source>Cell</source>
+<year>1981</year>, <volume>23</volume>, <fpage>847</fpage>–<lpage>858</lpage>.<pub-id pub-id-type="pmid">6261960</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0092-8674(81)90449-9</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name name-style="western"><surname>Tomassini</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Selnick</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Davies</surname><given-names>M. E.</given-names></name>; <name name-style="western"><surname>Armstrong</surname><given-names>M. E.</given-names></name>; <name name-style="western"><surname>Bladwin</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Bourgeois</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Hastings</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Hazuda</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Lewis</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>McClements</surname><given-names>W.</given-names></name>; <name name-style="western"><surname>Ponticello</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Radzilowski</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Smith</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Tebben</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Wolfe</surname><given-names>A.</given-names></name>
+<article-title>Inhibition
+of Cap (m<sup>7</sup>GpppXm)-dependent endonuclease of influenza virus
+by 4-substituted 2,4-dioxobutanoic acid compounds</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>1994</year>, <volume>38</volume>, <fpage>2827</fpage>–<lpage>2837</lpage>.<pub-id pub-id-type="pmid">7695269</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/aac.38.12.2827</pub-id><pub-id pub-id-type="pmcid">PMC188292</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name name-style="western"><surname>Hastings</surname><given-names>J. C.</given-names></name>; <name name-style="western"><surname>Selnick</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Wolanski</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Tomassini</surname><given-names>J. E.</given-names></name>
+<article-title>Anti-influenza
+virus activities of 4-substituted 2,4-dioxobutanoic acid inhibitors</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>1996</year>, <volume>40</volume>, <fpage>1304</fpage>–<lpage>1307</lpage>.<pub-id pub-id-type="pmid">8723491</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/aac.40.5.1304</pub-id><pub-id pub-id-type="pmcid">PMC163316</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name name-style="western"><surname>Tomassini</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Davies</surname><given-names>M. E.</given-names></name>; <name name-style="western"><surname>Hastings</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Lingham</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Mojena</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Raghoobar</surname><given-names>S. L.</given-names></name>; <name name-style="western"><surname>Singh</surname><given-names>S. B.</given-names></name>; <name name-style="western"><surname>Tkacz</surname><given-names>J. S.</given-names></name>; <name name-style="western"><surname>Goetz</surname><given-names>M. A.</given-names></name>
+<article-title>A novel
+antiviral agent which inhibits the endonuclease of influenza viruses</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>1996</year>, <volume>40</volume>, <fpage>1189</fpage>–<lpage>1193</lpage>.<pub-id pub-id-type="pmid">8723464</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/aac.40.5.1189</pub-id><pub-id pub-id-type="pmcid">PMC163289</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name name-style="western"><surname>Singh</surname><given-names>S. B.</given-names></name>
+<article-title>Total synthesis
+of flutimide, a novel endonuclease inhibitor of influenza virus</article-title>. <source>Tetrhedron Lett.</source>
+<year>1995</year>, <volume>36</volume>, <fpage>2009</fpage>–<lpage>2012</lpage>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name name-style="western"><surname>Carcelli</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Rogolino</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Bacchi</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Rispoli</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Fisicaro</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Compari</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Sechi</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Stevaert</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Naesens</surname><given-names>L.</given-names></name>
+<article-title>Metal-Chelating
+2-Hydroxyphenyl Amide Pharmacophore for Inhibition of Influenza Virus
+Endonuclease</article-title>. <source>Mol. Pharmaceutics</source>
+<year>2013</year>, <volume>11</volume>, <fpage>304</fpage>–<lpage>316</lpage><pub-id pub-id-type="doi">10.1021/mp400482a</pub-id>.<pub-id pub-id-type="pmid">24206028</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name name-style="western"><surname>Parkes</surname><given-names>K.
+E. B.</given-names></name>; <name name-style="western"><surname>Ermert</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Fässler</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Ives</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Martin</surname><given-names>J. A.</given-names></name>; <name name-style="western"><surname>Merrett</surname><given-names>J. H.</given-names></name>; <name name-style="western"><surname>Obrecht</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Williams</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Klumpp</surname><given-names>K.</given-names></name>
+<article-title>Use of a pharmacophore
+model to discover a new class of influenza endonuclease inhibitors</article-title>. <source>J. Med. Chem.</source>
+<year>2002</year>, <volume>46</volume>, <fpage>1153</fpage>–<lpage>1164</lpage>.<pub-id pub-id-type="pmid">12646026</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm020334u</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name name-style="western"><surname>Chen</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Swift</surname><given-names>R. V.</given-names></name>; <name name-style="western"><surname>Alderson</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Feher</surname><given-names>V. A.</given-names></name>; <name name-style="western"><surname>Feng</surname><given-names>G.-S.</given-names></name>; <name name-style="western"><surname>Amaro</surname><given-names>R. E.</given-names></name>
+<article-title>Computation-guided discovery of influenza endonuclease
+inhibitors</article-title>. <source>ACS Med. Chem. Lett.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>61</fpage>–<lpage>64</lpage>.<pub-id pub-id-type="pmid">24490002</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ml4003474</pub-id><pub-id pub-id-type="pmcid">PMC3904387</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name name-style="western"><surname>Sagong</surname><given-names>H. Y.</given-names></name>; <name name-style="western"><surname>Parhi</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Bauman</surname><given-names>J. D.</given-names></name>; <name name-style="western"><surname>Patel</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Das</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Vijayan</surname><given-names>R. S. K.</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>LaVoie</surname><given-names>E. J.</given-names></name>
+<article-title>3-Hydroxyquinolin(1<italic toggle="yes">H</italic>)-2-ones: potential
+inhibitors of influenza A endonuclease</article-title>. <source>ACS
+Med. Chem. Lett.</source>
+<year>2013</year>, <volume>4</volume>, <fpage>547</fpage>–<lpage>550</lpage>.<pub-id pub-id-type="pmid">24936242</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ml4001112</pub-id><pub-id pub-id-type="pmcid">PMC4056971</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name name-style="western"><surname>Parhi</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Xiang</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Bauman</surname><given-names>J. D.</given-names></name>; <name name-style="western"><surname>Patel</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Das</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Vijayan</surname><given-names>R. S. K.</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>LaVoie</surname><given-names>E. J.</given-names></name>
+<article-title>Phenyl substituted
+3-hydroxypyridin-2(1<italic toggle="yes">H</italic>)-ones: potential inhibitors
+of influenza A endonuclease</article-title>. <source>Bioorg. Med. Chem.</source>
+<year>2013</year>, <volume>21</volume>, <fpage>6435</fpage>–<lpage>6446</lpage>.<pub-id pub-id-type="pmid">24055080</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bmc.2013.08.053</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="patent" id="cit24"><person-group person-group-type="allauthors"><name name-style="western"><surname>Aronov</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Bandarage</surname><given-names>U. K.</given-names></name>; <name name-style="western"><surname>Cottrell</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Davies</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Krueger</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Ledeboer</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Ledford</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Le Tiran</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Liao</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Messersmith</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Wang</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Xu</surname><given-names>J.</given-names></name></person-group><article-title>Tetrahydrothiazolopyridine
+Inhibitors of Phosphatidylinositol
+3-kinase</article-title>. (Vertex Pharmaceuticals, Inc.) Patent <patent>WO/2010/096389</patent>, <year>2010</year>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name name-style="western"><surname>Fray</surname><given-names>M. J.</given-names></name>; <name name-style="western"><surname>Bull</surname><given-names>D. J.</given-names></name>; <name name-style="western"><surname>Carr</surname><given-names>C. L.</given-names></name>; <name name-style="western"><surname>Gautier</surname><given-names>E. C. L.</given-names></name>; <name name-style="western"><surname>Mowbray</surname><given-names>C. E.</given-names></name>; <name name-style="western"><surname>Stobie</surname><given-names>A.</given-names></name>
+<article-title>Structure–Activity
+Relationships of 1,4-dihydro-(1<italic toggle="yes">H</italic>,4<italic toggle="yes">H</italic>)-quinoxalin-2,3-diones as <italic toggle="yes">N</italic>-methyl-<sc>d</sc>-aspartate
+(glycine site) receptor antagonists.
+1. Heterocyclic substituted 5-alkyl derivatives</article-title>. <source>J. Med. Chem.</source>
+<year>2001</year>, <volume>44</volume>, <fpage>1951</fpage>–<lpage>1962</lpage>.<pub-id pub-id-type="pmid">11384240</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm001124p</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name name-style="western"><surname>Darout</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Robinson</surname><given-names>R. P.</given-names></name>; <name name-style="western"><surname>McClure</surname><given-names>K. F.</given-names></name>; <name name-style="western"><surname>Corbett</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Shavnya</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Andrews</surname><given-names>M. P.</given-names></name>; <name name-style="western"><surname>Jones</surname><given-names>C. S.</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>Q.</given-names></name>; <name name-style="western"><surname>Minich</surname><given-names>M. L.</given-names></name>; <name name-style="western"><surname>Mascitti</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Guimarães</surname><given-names>C. R. W.</given-names></name>; <name name-style="western"><surname>Munchhof</surname><given-names>M. J.</given-names></name>; <name name-style="western"><surname>Bahnck</surname><given-names>K. B.</given-names></name>; <name name-style="western"><surname>Cai</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Price</surname><given-names>D. A.</given-names></name>; <name name-style="western"><surname>Liras</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Bonin</surname><given-names>P. D.</given-names></name>; <name name-style="western"><surname>Cornelius</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Wang</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Bagdasarian</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Sobota</surname><given-names>C. P.</given-names></name>; <name name-style="western"><surname>Hornby</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Masterson</surname><given-names>V. M.</given-names></name>; <name name-style="western"><surname>Joseph</surname><given-names>R. M.</given-names></name>; <name name-style="western"><surname>Kalgutkar</surname><given-names>A. S.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>Y.</given-names></name>
+<article-title>Design and synthesis of diazatricyclodecane agonists of the G-protein-coupled
+receptor 119</article-title>. <source>J. Med. Chem.</source>
+<year>2013</year>, <volume>56</volume>, <fpage>301</fpage>–<lpage>319</lpage>.<pub-id pub-id-type="pmid">23234271</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm301626p</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="patent" id="cit27"><person-group person-group-type="allauthors"><name name-style="western"><surname>Wolkenberg</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Harrison</surname><given-names>S. T.</given-names></name>; <name name-style="western"><surname>Barrow</surname><given-names>J. C.</given-names></name>; <name name-style="western"><surname>Zhao</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Kett</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Zartman</surname><given-names>A.</given-names></name></person-group><article-title>Inhibitors of
+Catechol <italic toggle="yes">O</italic>-methyl Transferase and their Use in the
+Treatment of Psychotic disorders</article-title>. (Merck Sharp &amp;
+Dohme Corp.) Patent <patent>WO/2011/109267</patent>, <year>2011</year>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name name-style="western"><surname>Guerrero</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Urbano</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Schaeffer</surname><given-names>M.-T.</given-names></name>; <name name-style="western"><surname>Brown</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Rosen</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Roberts</surname><given-names>E.</given-names></name>
+<article-title>SAR analysis of novel
+non-peptide NPBWR1 (GPR7) antagonists</article-title>. <source>Bioorg.
+Med. Chem. Lett.</source>
+<year>2013</year>, <volume>23</volume>, <fpage>614</fpage>–<lpage>619</lpage>.<pub-id pub-id-type="pmid">23287738</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bmcl.2012.12.030</pub-id><pub-id pub-id-type="pmcid">PMC3621982</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name name-style="western"><surname>Nagashima</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Ukai</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Oda</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Masaki</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Kaji</surname><given-names>K.</given-names></name>
+<article-title>Studies on
+syntheses and reactions of methoxypyridazines. II. Methoxylation of
+3,4,6-trichloropyridazine</article-title>. <source>Chem. Pharm. Bull.</source>
+<year>1987</year>, <volume>35</volume>, <fpage>350</fpage>–<lpage>356</lpage>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name name-style="western"><surname>Hondo</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Warizaya</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Niimi</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Namatame</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Yamaguchi</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Nakanishi</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Hamajima</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Harada</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Sakashita</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Matsumoto</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Orita</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Takeuchi</surname><given-names>M.</given-names></name>
+<article-title>4-Hydroxypyridazin-3(2<italic toggle="yes">H</italic>)-one derivatives as novel <sc>d</sc>-amino acid oxidase
+inhibitors</article-title>. <source>J. Med. Chem.</source>
+<year>2013</year>, <volume>56</volume>, <fpage>3582</fpage>–<lpage>3592</lpage>.<pub-id pub-id-type="pmid">23566269</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm400095b</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name name-style="western"><surname>Duplantier</surname><given-names>A. J.</given-names></name>; <name name-style="western"><surname>Becker</surname><given-names>S. L.</given-names></name>; <name name-style="western"><surname>Bohanon</surname><given-names>M. J.</given-names></name>; <name name-style="western"><surname>Bozilleri</surname><given-names>K. A.</given-names></name>; <name name-style="western"><surname>Chrunyk</surname><given-names>B. A.</given-names></name>; <name name-style="western"><surname>Downs</surname><given-names>J. T.</given-names></name>; <name name-style="western"><surname>Hu</surname><given-names>L.-Y.</given-names></name>; <name name-style="western"><surname>El-Kattan</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>James</surname><given-names>L. C.</given-names></name>; <name name-style="western"><surname>Liou</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Lu</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Maklad</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Mansour</surname><given-names>M. N.</given-names></name>; <name name-style="western"><surname>Mente</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Piotrowski</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Sakaya</surname><given-names>S. M.</given-names></name>; <name name-style="western"><surname>Sheehan</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Steyn</surname></name>; <name name-style="western"><surname>Strick</surname><given-names>S. J.</given-names></name>; <name name-style="western"><surname>Williams</surname><given-names>V. A.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>Z.</given-names></name>
+<article-title>Discovery, SAR, and pharmacokinetics of a novel 3-hydroxyquinolin-2(1<italic toggle="yes">H</italic>)-one series of potent <sc>d</sc>-amino acid oxidase (DAAO)
+inhibitors</article-title>. <source>J. Med. Chem.</source>
+<year>2009</year>, <volume>52</volume>, <fpage>3576</fpage>–<lpage>3585</lpage>.<pub-id pub-id-type="pmid">19438227</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm900128w</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="book" id="cit32"><person-group person-group-type="allauthors"><name name-style="western"><surname>Otwinowski</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Minor</surname><given-names>W.</given-names></name></person-group><article-title>Processing of
+X-ray Diffraction Data Collected in Oscillation Mode</article-title>. In <source>Methods in Enzymology, 276</source>; <person-group person-group-type="editor"><name name-style="western"><surname>Carter</surname><given-names>C. W. J.</given-names></name>, <name name-style="western"><surname>Sweet</surname><given-names>R. M.</given-names></name></person-group>, Eds.; <publisher-name>Academic
+Press</publisher-name>: <publisher-loc>New York</publisher-loc>, <year>1997</year>; Vol. <volume>276</volume>, pp <fpage>307</fpage>–<lpage>326</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0076-6879(97)76066-X</pub-id><pub-id pub-id-type="pmid">27754618</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name name-style="western"><surname>Adams</surname><given-names>P. D.</given-names></name>; <name name-style="western"><surname>Afonine</surname><given-names>P. V.</given-names></name>; <name name-style="western"><surname>Bunkoczi</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>V. B.</given-names></name>; <name name-style="western"><surname>Davis</surname><given-names>I. W.</given-names></name>; <name name-style="western"><surname>Echols</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Headd</surname><given-names>J. J.</given-names></name>; <name name-style="western"><surname>Hung</surname><given-names>L. W.</given-names></name>; <name name-style="western"><surname>Kapral</surname><given-names>G. J.</given-names></name>; <name name-style="western"><surname>Grosse-Kunstleve</surname><given-names>R. W.</given-names></name>; <name name-style="western"><surname>McCoy</surname><given-names>A. J.</given-names></name>; <name name-style="western"><surname>Moriarty</surname><given-names>N. W.</given-names></name>; <name name-style="western"><surname>Oeffner</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Read</surname><given-names>R. J.</given-names></name>; <name name-style="western"><surname>Richardson</surname><given-names>D. C.</given-names></name>; <name name-style="western"><surname>Richardson</surname><given-names>J. S.</given-names></name>; <name name-style="western"><surname>Terwilliger</surname><given-names>T. C.</given-names></name>; <name name-style="western"><surname>Zwart</surname><given-names>P. H.</given-names></name>
+<article-title>PHENIX: a comprehensive Python-based
+system for macromolecular structure solution</article-title>. <source>Acta Crystallogr., Sect. D: Biol. Crystallogr.</source>
+<year>2010</year>, <volume>66</volume>, <fpage>213</fpage>–<lpage>221</lpage>.<pub-id pub-id-type="pmid">20124702</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1107/S0907444909052925</pub-id><pub-id pub-id-type="pmcid">PMC2815670</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

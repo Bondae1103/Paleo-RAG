@@ -1,0 +1,1132 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="letter" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Evol Lett</journal-id><journal-id journal-id-type="iso-abbrev">Evol Lett</journal-id><journal-id journal-id-type="pmc-domain-id">3504</journal-id><journal-id journal-id-type="pmc-domain">evollett</journal-id><journal-id journal-id-type="nlm-id">101715791</journal-id><journal-id journal-id-type="publisher-id">EVL3</journal-id><journal-title-group><journal-title>Evolution Letters</journal-title></journal-title-group><issn pub-type="epub">2056-3744</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC6121868</article-id><article-id pub-id-type="pmcid-ver">PMC6121868.1</article-id><article-id pub-id-type="pmcaid">6121868</article-id><article-id pub-id-type="pmcaiid">6121868</article-id><article-id pub-id-type="pmid">30283657</article-id><article-id pub-id-type="doi">10.1002/evl3.33</article-id><article-id pub-id-type="publisher-id">EVL333</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Letter</subject></subj-group><subj-group subj-group-type="heading"><subject>Letters</subject></subj-group></article-categories><title-group><article-title>Mitogenome evolution in the last surviving woolly mammoth population reveals neutral and functional consequences of small population size</article-title><alt-title alt-title-type="left-running-head">PATRÍCIA PEČNEROVÁ ET AL.</alt-title></title-group><contrib-group><contrib id="evl333-cr-0001" contrib-type="author"><name name-style="western"><surname>Pečnerová</surname><given-names initials="P">Patrícia</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9350-1987</contrib-id><address><email>pata.pecnerova@gmail.com</email></address><xref ref-type="aff" rid="evl333-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="evl333-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="evl333-cr-0002" contrib-type="author"><name name-style="western"><surname>Palkopoulou</surname><given-names initials="E">Eleftheria</given-names></name><xref ref-type="aff" rid="evl333-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="evl333-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="evl333-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="evl333-cr-0003" contrib-type="author"><name name-style="western"><surname>Wheat</surname><given-names initials="CW">Christopher W.</given-names></name><xref ref-type="aff" rid="evl333-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="evl333-cr-0004" contrib-type="author"><name name-style="western"><surname>Skoglund</surname><given-names initials="P">Pontus</given-names></name><xref ref-type="aff" rid="evl333-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="evl333-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="evl333-cr-0005" contrib-type="author"><name name-style="western"><surname>Vartanyan</surname><given-names initials="S">Sergey</given-names></name><xref ref-type="aff" rid="evl333-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="evl333-cr-0006" contrib-type="author"><name name-style="western"><surname>Tikhonov</surname><given-names initials="A">Alexei</given-names></name><xref ref-type="aff" rid="evl333-aff-0006">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="evl333-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="evl333-cr-0007" contrib-type="author"><name name-style="western"><surname>Nikolskiy</surname><given-names initials="P">Pavel</given-names></name><xref ref-type="aff" rid="evl333-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="evl333-cr-0008" contrib-type="author"><name name-style="western"><surname>van der Plicht</surname><given-names initials="J">Johannes</given-names></name><xref ref-type="aff" rid="evl333-aff-0009">
+<sup>9</sup>
+</xref><xref ref-type="aff" rid="evl333-aff-0010">
+<sup>10</sup>
+</xref></contrib><contrib id="evl333-cr-0009" contrib-type="author"><name name-style="western"><surname>Díez‐del‐Molino</surname><given-names initials="D">David</given-names></name><xref ref-type="aff" rid="evl333-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="evl333-cr-0010" contrib-type="author"><name name-style="western"><surname>Dalén</surname><given-names initials="L">Love</given-names></name><address><email>Love.Dalen@nrm.se</email></address><xref ref-type="aff" rid="evl333-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="evl333-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Bioinformatics and Genetics</named-content>
+<institution>Swedish Museum of Natural History</institution>
+<named-content content-type="city">Stockholm</named-content>
+<country country="SE">Sweden</country>
+</aff><aff id="evl333-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Zoology</named-content>
+<institution>Stockholm University</institution>
+<named-content content-type="city">Stockholm</named-content>
+<country country="SE">Sweden</country>
+</aff><aff id="evl333-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Genetics</named-content>
+<institution>Harvard Medical School</institution>
+<named-content content-type="city">Boston</named-content>
+<named-content content-type="country-part">Massachusetts 02115</named-content>
+</aff><aff id="evl333-aff-0004">
+<label><sup>4</sup></label>
+<institution>Broad Institute of Harvard and MIT</institution>
+<named-content content-type="city">Cambridge</named-content>
+<named-content content-type="country-part">Massachusetts 02142</named-content>
+</aff><aff id="evl333-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">North‐East Interdisciplinary Scientific Research Institute N.A.N.A. Shilo</named-content>
+<institution>Far East Branch, Russian Academy of Sciences (NEISRI FEB RAS)</institution>
+<named-content content-type="city">Magadan</named-content>
+<country>Russia</country>
+</aff><aff id="evl333-aff-0006">
+<label><sup>6</sup></label>
+<institution>Zoological Institute of Russian Academy of Sciences</institution>
+<named-content content-type="city">Saint‐Petersburg</named-content>
+<country>Russia</country>
+</aff><aff id="evl333-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Institute of Applied Ecology of the North</named-content>
+<institution>North‐Eastern Federal University</institution>
+<named-content content-type="city">Yakutsk</named-content>
+<country>Russia</country>
+</aff><aff id="evl333-aff-0008">
+<label><sup>8</sup></label>
+<institution>Geological Institute of the Russian Academy of Sciences</institution>
+<named-content content-type="city">Moscow</named-content>
+<country>Russia</country>
+</aff><aff id="evl333-aff-0009">
+<label><sup>9</sup></label>
+<named-content content-type="organisation-division">Centre for Isotope Research</named-content>
+<institution>Groningen University</institution>
+<named-content content-type="city">Groningen</named-content>
+<country country="NL">The Netherlands</country>
+</aff><aff id="evl333-aff-0010">
+<label><sup>10</sup></label>
+<named-content content-type="organisation-division">Faculty of Archaeology</named-content>
+<institution>Leiden University</institution>
+<named-content content-type="city">Leiden</named-content>
+<country country="NL">The Netherlands</country>
+</aff><pub-date pub-type="epub"><day>28</day><month>11</month><year>2017</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2017</year></pub-date><volume>1</volume><issue>6</issue><issue-id pub-id-type="pmc-issue-id">319981</issue-id><issue-id pub-id-type="doi">10.1002/evl3.2017.1.issue-6</issue-id><fpage>292</fpage><lpage>303</lpage><history><date date-type="received"><day>20</day><month>9</month><year>2017</year></date><date date-type="accepted"><day>06</day><month>11</month><year>2017</year></date></history><pub-history><event event-type="pmc-release"><date><day>28</day><month>11</month><year>2017</year></date></event><event event-type="pmc-live"><date><day>03</day><month>10</month><year>2018</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2018-10-05 20:06:33.250"><day>05</day><month>10</month><year>2018</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2017 The Author(s). <italic toggle="yes">Evolution Letters</italic> published by Wiley Periodicals, Inc. on behalf of Society for the Study of Evolution (SSE) and European Society for Evolutionary Biology (ESEB).</copyright-statement><license license-type="creativeCommonsBy"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EVL3-1-292.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EVL3-1-292.pdf"/><abstract><title>Abstract</title><p>The onset of the Holocene was associated with a global temperature increase, which led to a rise in sea levels and isolation of the last surviving population of woolly mammoths on Wrangel Island. Understanding what happened with the population's genetic diversity at the time of the isolation and during the ensuing 6000 years can help clarify the effects of bottlenecks and subsequent limited population sizes in species approaching extinction. Previous genetic studies have highlighted questions about how the Holocene Wrangel population was established and how the isolation event affected genetic diversity. Here, we generated high‐quality mitogenomes from 21 radiocarbon‐dated woolly mammoths to compare the ancestral large and genetically diverse Late Pleistocene Siberian population and the small Holocene Wrangel population. Our results indicate that mitogenome diversity was reduced to one single haplotype at the time of the isolation, and thus that the Holocene Wrangel Island population was established by a single maternal lineage. Moreover, we show that the ensuing small effective population size coincided with fixation of a nonsynonymous mutation, and a comparative analysis of mutation rates suggests that the evolutionary rate was accelerated in the Holocene population. These results suggest that isolation on Wrangel Island led to an increase in the frequency of deleterious genetic variation, and thus are consistent with the hypothesis that strong genetic drift in small populations leads to purifying selection being less effective in removing deleterious mutations.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="evl333-kwd-0001"><italic toggle="yes">Mammuthus primigenius</italic></kwd><kwd id="evl333-kwd-0002">mitochondrial genomes</kwd><kwd id="evl333-kwd-0003">woolly mammoth</kwd><kwd id="evl333-kwd-0004">Wrangel Island</kwd></kwd-group><funding-group><award-group><funding-source>Vetenskapsrådet</funding-source><award-id>2012‐3869</award-id><award-id>2014‐453</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="1"/><page-count count="12"/><word-count count="7639"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>evl333</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2017</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:version=5.4.7.1 mode:remove_FC converted:04.09.2018</meta-value></custom-meta></custom-meta-group></article-meta></front><body><boxed-text position="float" content-type="box" orientation="portrait"><caption><title>Impact Summary</title></caption><p>While most of the Pleistocene megafauna species became extinct at the end of the last ice age, the woolly mammoth survived in small insular populations, most notably on Wrangel Island where it survived until 4000 years before present. Genetic data suggest that compared to the large and diverse Pleistocene population, Holocene mammoths on Wrangel Island had low genetic diversity. However, it is still unclear to what extent genetic diversity was lost as a consequence of a founder effect when rising sea levels led to the formation of the island, compared to the subsequent effect of small effective population size during the ensuing 6000 years. To examine this, we sequenced mammoth mitogenomes from before and after the isolation on Wrangel Island. Our results show a severe loss in genetic diversity and fixation of a mutation with potential functional consequences at the time the population was established, supporting the hypothesis of a founder effect. However, the observation of an increase in the evolutionary rate following isolation on the island is consistent with an elevated impact of genetic drift leading to purifying selection becoming less efficient. Our findings add some details into the mosaic of complex processes that preceded the woolly mammoth's extinction and serve as a rare example of testing basic population genetic concepts in a wild population.</p></boxed-text><sec id="evl333-sec-0020"><p>The fate of taxa during periods of climate change can be simplified into three processes: adaptation, migration, or extinction (Davis and Shaw <xref rid="evl333-bib-0012" ref-type="ref">2001</xref>; Aitken et al. <xref rid="evl333-bib-0001" ref-type="ref">2008</xref>). Changes in environmental conditions can potentially lead to adaptation through selection on standing genetic variation. However, if these changes are too rapid, or the amount of genetic variation is insufficient, species may need to track geographical changes in habitat availability to persist. The woolly mammoth (<italic toggle="yes">Mammuthus primigenius</italic>) inhabited the Northern Hemisphere for ∼800 thousand years (kyr), from the late Middle Pleistocene to early Holocene (Lister and Sher <xref rid="evl333-bib-0032" ref-type="ref">2001</xref>). Mammoths thus survived a number of alternating glacials and interglacials, but went extinct during the Holocene interglacial period ∼4 thousand years before present (kyr calBP) (Vartanyan et al. <xref rid="evl333-bib-0055" ref-type="ref">1995</xref>). Even though mammoths were originally thought to have become extinct at the Pleistocene/Holocene boundary (∼11,700 yr calBP), along with other representatives of the Pleistocene megafauna in a phenomenon known as the <italic toggle="yes">Quaternary extinction event</italic> (Stuart <xref rid="evl333-bib-0050" ref-type="ref">1991</xref>), mammoth remains with radiocarbon ages as young as 4 kyr calBP have been found on Wrangel Island (Vartanyan et al. <xref rid="evl333-bib-0056" ref-type="ref">1993</xref>; Stuart et al. <xref rid="evl333-bib-0052" ref-type="ref">2002</xref>). Wrangel Island thus represents the refugium of the last surviving population of the species.</p><p>Wrangel Island became separated from continental Siberia ∼10 kyr calBP following the rise in sea levels after the Last Glacial Maximum (LGM) (Vartanyan et al. <xref rid="evl333-bib-0054" ref-type="ref">2008</xref>; Arppe et al. <xref rid="evl333-bib-0002" ref-type="ref">2009</xref>). During the Late Pleistocene, Wrangel formed a mountainous area in the otherwise flat Beringian landscape, with parts covered by an inactive rock glacier and perennial snowfields (Vartanyan et al. <xref rid="evl333-bib-0054" ref-type="ref">2008</xref>). The fossil record and strontium isotopes in bones indicate that mammoths were not permanent residents in the region during the Late Pleistocene, but rather visited (what later became) Wrangel Island during seasonal migrations (Vartanyan et al. <xref rid="evl333-bib-0054" ref-type="ref">2008</xref>; Arppe et al. <xref rid="evl333-bib-0002" ref-type="ref">2009</xref>).</p><p>After the isolation, however, mammoths were confined to and survived on Wrangel Island for an additional ∼6 kyr. The process leading up to the mammoth's extinction has been studied using both nuclear and mitochondrial DNA. Initial studies on short mitochondrial sequences (Nyström et al. <xref rid="evl333-bib-0037" ref-type="ref">2010</xref>) and microsatellite loci (Nyström et al. <xref rid="evl333-bib-0038" ref-type="ref">2012</xref>) suggested that, after an abrupt loss of genetic variation related to the isolation event, genetic diversity was retained or even slightly increased during the subsequent ∼6 kyr. More recent analyses of two complete nuclear genomes revealed that the Wrangel mammoth genome – compared to a Pleistocene mainland mammoth genome – had lower observed heterozygosity and a higher proportion of the genome allocated in runs of homozygosity (ROH), which could have been either the result of a founder effect during the isolation of the island, and/or repeated breeding between distant relatives due to the small Holocene effective population size (Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>).</p><p>To further examine the genetic changes that took place during and after the isolation of Wrangel Island, we generated high‐quality mitogenomes from 21 woolly mammoths, including 14 Holocene Wrangel individuals (Fig. <xref rid="evl333-fig-0001" ref-type="fig">1</xref>), and compared these with 21 previously published sequences. We used this data to test the hypothesis that the Wrangel Island population was established by a small number of individuals (i.e., a founder effect), as well as to characterize in situ evolution of neutral and functional mitochondrial variation in the small isolated Holocene population.</p><fig fig-type="Figure" xml:lang="en" id="evl333-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Map depicting the geographic origin of the samples, including 16 mitogenomes from Wrangel Island. Samples analyzed in this study are depicted as circles, while previously published samples are shown as triangles. Colors show the geographical classification used in this study: blue – Western Siberia, green – Central Siberia, and purple – Wrangel Island. The map was created using R (R Development Core Team 2016; available from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-1" position="float" orientation="portrait" xlink:href="EVL3-1-292-g001.jpg"/></fig></sec><sec id="evl333-sec-0030"><title>Methods</title><p>Fifty‐one woolly mammoth specimens collected on Wrangel Island (<italic toggle="yes">n</italic> = 35) and the Siberian mainland (<italic toggle="yes">n</italic> = 16) were analyzed in this study. The samples consisted of bones, tusks, and teeth, and those with unknown age were radiocarbon dated using Acceleration Mass Spectrometry (AMS) in Oxford and Groningen (Table <xref rid="evl333-tbl-0001" ref-type="table">1</xref>). The results are reported in conventional radiocarbon years (BP), which includes correction for isotopic fractionation and usage of the conventional half‐life (Mook and van der Plicht <xref rid="evl333-bib-0035" ref-type="ref">1999</xref>). The <sup>14</sup>C dates were calibrated into calendar ages using the recommended calibration curve IntCal13 (Reimer et al. <xref rid="evl333-bib-0046" ref-type="ref">2013</xref>) using the program OxCal 4.2 (Ramsey <xref rid="evl333-bib-0045" ref-type="ref">2009</xref>). Medians of the calibrated dates are reported in calBP, that is calendar years relative to 1950 AD.</p><table-wrap id="evl333-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Characteristics of mammoth samples used in this study, including the estimated haplotypes (W = Wrangel, S = Siberia)</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Lab ID</th><th align="left" rowspan="1" colspan="1">
+<sup>14</sup>C Lab no.</th><th align="left" rowspan="1" colspan="1">
+<sup>14</sup>C BP date ± error</th><th align="left" rowspan="1" colspan="1">Median CalBP</th><th align="left" rowspan="1" colspan="1">Material</th><th align="left" rowspan="1" colspan="1">Location</th><th align="left" rowspan="1" colspan="1">Endogenous DNA (%)</th><th align="left" rowspan="1" colspan="1">Average fragment length (bp)</th><th align="left" rowspan="1" colspan="1">Accession no.</th><th align="left" rowspan="1" colspan="1">Reference</th><th align="left" rowspan="1" colspan="1">Average Coverage</th><th align="left" rowspan="1" colspan="1">Haplotype</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">E469D</td><td align="left" rowspan="1" colspan="1">Ua‐13366</td><td align="left" rowspan="1" colspan="1">3685 ± 60</td><td align="left" rowspan="1" colspan="1">4024</td><td align="left" rowspan="1" colspan="1">Tooth</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">29.59</td><td align="left" rowspan="1" colspan="1">64.6</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334270">MG334270</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">9.5</td><td align="left" rowspan="1" colspan="1">W7</td></tr><tr><td align="left" rowspan="1" colspan="1">E468</td><td align="left" rowspan="1" colspan="1">LU‐2741</td><td align="left" rowspan="1" colspan="1">3730 ± 40</td><td align="left" rowspan="1" colspan="1">4079</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">16.23</td><td align="left" rowspan="1" colspan="1">101.5</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334269">MG334269</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">31.9</td><td align="left" rowspan="1" colspan="1">W1</td></tr><tr><td align="left" rowspan="1" colspan="1">E467</td><td align="left" rowspan="1" colspan="1">AA40665</td><td align="left" rowspan="1" colspan="1">3905 ± 47</td><td align="left" rowspan="1" colspan="1">4336</td><td align="left" rowspan="1" colspan="1">Tooth</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">80.35</td><td align="left" rowspan="1" colspan="1">81.9</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334268">MG334268</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">11.7</td><td align="left" rowspan="1" colspan="1">W1</td></tr><tr><td align="left" rowspan="1" colspan="1">E466</td><td align="left" rowspan="1" colspan="1">GIN‐6985</td><td align="left" rowspan="1" colspan="1">3920 ± 40</td><td align="left" rowspan="1" colspan="1">4354</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">17.68</td><td align="left" rowspan="1" colspan="1">88.9</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334267">MG334267</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">8.8</td><td align="left" rowspan="1" colspan="1">W6</td></tr><tr><td align="left" rowspan="1" colspan="1">E465</td><td align="left" rowspan="1" colspan="1">LU‐4448</td><td align="left" rowspan="1" colspan="1">4120 ± 110</td><td align="left" rowspan="1" colspan="1">4643</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">12.23</td><td align="left" rowspan="1" colspan="1">98.8</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334266">MG334266</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">38.2</td><td align="left" rowspan="1" colspan="1">W5</td></tr><tr><td align="left" rowspan="1" colspan="1">E464</td><td align="left" rowspan="1" colspan="1">Ua‐13375</td><td align="left" rowspan="1" colspan="1">4210 ± 70</td><td align="left" rowspan="1" colspan="1">4726</td><td align="left" rowspan="1" colspan="1">Tooth</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">70.55</td><td align="left" rowspan="1" colspan="1">84.2</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334265">MG334265</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">21.8</td><td align="left" rowspan="1" colspan="1">W1</td></tr><tr><td align="left" rowspan="1" colspan="1">E460</td><td align="left" rowspan="1" colspan="1">LU‐2756</td><td align="left" rowspan="1" colspan="1">4400 ± 40</td><td align="left" rowspan="1" colspan="1">4969</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">87.13</td><td align="left" rowspan="1" colspan="1">90.1</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334264">MG334264</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">39.0</td><td align="left" rowspan="1" colspan="1">W4</td></tr><tr><td align="left" rowspan="1" colspan="1">M28</td><td align="left" rowspan="1" colspan="1">GIN‐6988</td><td align="left" rowspan="1" colspan="1">5610 ± 40</td><td align="left" rowspan="1" colspan="1">6380</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">56.59</td><td align="left" rowspan="1" colspan="1">151.6</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334281">MG334281</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">276.7</td><td align="left" rowspan="1" colspan="1">W4</td></tr><tr><td align="left" rowspan="1" colspan="1">L459</td><td align="left" rowspan="1" colspan="1">OxA‐30117*</td><td align="left" rowspan="1" colspan="1">6148 ± 32</td><td align="left" rowspan="1" colspan="1">7060</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">0.47</td><td align="left" rowspan="1" colspan="1">77.8</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334276">MG334276</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">5.5</td><td align="left" rowspan="1" colspan="1">W4</td></tr><tr><td align="left" rowspan="1" colspan="1">M26</td><td align="left" rowspan="1" colspan="1">LU‐2799</td><td align="left" rowspan="1" colspan="1">6260 ± 50</td><td align="left" rowspan="1" colspan="1">7194</td><td align="left" rowspan="1" colspan="1">Tooth</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">27.69</td><td align="left" rowspan="1" colspan="1">71.2</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334280">MG334280</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">25.8</td><td align="left" rowspan="1" colspan="1">W3</td></tr><tr><td align="left" rowspan="1" colspan="1">L386</td><td align="left" rowspan="1" colspan="1">Ua‐13374</td><td align="left" rowspan="1" colspan="1">6410 ± 90</td><td align="left" rowspan="1" colspan="1">7336</td><td align="left" rowspan="1" colspan="1">Tooth</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">82.37</td><td align="left" rowspan="1" colspan="1">73.0</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334274">MG334274</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">12.0</td><td align="left" rowspan="1" colspan="1">W4</td></tr><tr><td align="left" rowspan="1" colspan="1">M23</td><td align="left" rowspan="1" colspan="1">LU‐4449</td><td align="left" rowspan="1" colspan="1">6560 ± 60</td><td align="left" rowspan="1" colspan="1">7470</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">75.85</td><td align="left" rowspan="1" colspan="1">111.5</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334279">MG334279</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">170.9</td><td align="left" rowspan="1" colspan="1">W2</td></tr><tr><td align="left" rowspan="1" colspan="1">M17</td><td align="left" rowspan="1" colspan="1">Ua‐13372</td><td align="left" rowspan="1" colspan="1">7510 ± 80</td><td align="left" rowspan="1" colspan="1">8318</td><td align="left" rowspan="1" colspan="1">Tooth</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">68.16</td><td align="left" rowspan="1" colspan="1">71.2</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334278">MG334278</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">27.2</td><td align="left" rowspan="1" colspan="1">W1</td></tr><tr><td align="left" rowspan="1" colspan="1">L468</td><td align="left" rowspan="1" colspan="1">OxA‐30122*</td><td align="left" rowspan="1" colspan="1">7711 ± 36</td><td align="left" rowspan="1" colspan="1">8491</td><td align="left" rowspan="1" colspan="1">Bone</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">15.30</td><td align="left" rowspan="1" colspan="1">70.8</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334277">MG334277</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">7.8</td><td align="left" rowspan="1" colspan="1">W1</td></tr><tr><td align="left" rowspan="1" colspan="1">P011</td><td align="left" rowspan="1" colspan="1">GrA‐ 65691*</td><td align="left" rowspan="1" colspan="1">10,240 ± 50</td><td align="left" rowspan="1" colspan="1">11972</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">Taimyr Peninsula</td><td align="left" rowspan="1" colspan="1">2.11</td><td align="left" rowspan="1" colspan="1">66.6</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334285">MG334285</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">5.5</td><td align="left" rowspan="1" colspan="1">S5</td></tr><tr><td align="left" rowspan="1" colspan="1">P005</td><td align="left" rowspan="1" colspan="1">GrA‐ 65686*</td><td align="left" rowspan="1" colspan="1">10,920 ± 50</td><td align="left" rowspan="1" colspan="1">12775</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">New Siberian Islands</td><td align="left" rowspan="1" colspan="1">91.70</td><td align="left" rowspan="1" colspan="1">75.7</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334283">MG334283</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">10.8</td><td align="left" rowspan="1" colspan="1">S3</td></tr><tr><td align="left" rowspan="1" colspan="1">Ber28</td><td align="left" rowspan="1" colspan="1">UCIAMS38670</td><td align="left" rowspan="1" colspan="1">12,125 ± 30</td><td align="left" rowspan="1" colspan="1">14011</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">Berelekh</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KX027495">KX027495</ext-link></td><td colspan="2" align="left" rowspan="1">Enk et al. <xref rid="evl333-bib-0017" ref-type="ref">2016</xref>
+</td><td align="left" rowspan="1" colspan="1">S24</td></tr><tr><td align="left" rowspan="1" colspan="1">Krause</td><td align="left" rowspan="1" colspan="1">KIA‐25289</td><td align="left" rowspan="1" colspan="1">12,170 ± 50</td><td align="left" rowspan="1" colspan="1">14056</td><td align="left" rowspan="1" colspan="1">Bone</td><td align="left" rowspan="1" colspan="1">Yakutia</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="DQ188829">DQ188829</ext-link></td><td colspan="2" align="left" rowspan="1">Krause et al. <xref rid="evl333-bib-0029" ref-type="ref">2006</xref>
+</td><td align="left" rowspan="1" colspan="1">S22</td></tr><tr><td align="left" rowspan="1" colspan="1">L410</td><td align="left" rowspan="1" colspan="1">OxA‐31180*</td><td align="left" rowspan="1" colspan="1">12,370 ± 55</td><td align="left" rowspan="1" colspan="1">14408</td><td align="left" rowspan="1" colspan="1">Tooth</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">29.31</td><td align="left" rowspan="1" colspan="1">80.0</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334275">MG334275</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">6.8</td><td align="left" rowspan="1" colspan="1">W9</td></tr><tr><td align="left" rowspan="1" colspan="1">L158</td><td align="left" rowspan="1" colspan="1">OxA‐20046</td><td align="left" rowspan="1" colspan="1">12,380 ± 45</td><td align="left" rowspan="1" colspan="1">14431</td><td align="left" rowspan="1" colspan="1">Humerus</td><td align="left" rowspan="1" colspan="1">Pioneyveem River, Chukotka</td><td align="left" rowspan="1" colspan="1">47.91</td><td align="left" rowspan="1" colspan="1">76.7</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334272">MG334272</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">17.7</td><td align="left" rowspan="1" colspan="1">S1</td></tr><tr><td align="left" rowspan="1" colspan="1">P009</td><td align="left" rowspan="1" colspan="1">GrA‐65689*</td><td align="left" rowspan="1" colspan="1">13,030 ± 60</td><td align="left" rowspan="1" colspan="1">15602</td><td align="left" rowspan="1" colspan="1">Tusk</td><td align="left" rowspan="1" colspan="1">New Siberian Islands</td><td align="left" rowspan="1" colspan="1">82.40</td><td align="left" rowspan="1" colspan="1">67</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334284">MG334284</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">6.8</td><td align="left" rowspan="1" colspan="1">S4</td></tr><tr><td align="left" rowspan="1" colspan="1">L164</td><td align="left" rowspan="1" colspan="1">OxA‐20048</td><td align="left" rowspan="1" colspan="1">13,935 ± 50</td><td align="left" rowspan="1" colspan="1">16901</td><td align="left" rowspan="1" colspan="1">tusk</td><td align="left" rowspan="1" colspan="1">Pioneyveem River, Chukotka</td><td align="left" rowspan="1" colspan="1">85.92</td><td align="left" rowspan="1" colspan="1">83.9</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334273">MG334273</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">9.8</td><td align="left" rowspan="1" colspan="1">S2</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM15</td><td align="left" rowspan="1" colspan="1">OxA‐19605</td><td align="left" rowspan="1" colspan="1">13,995 ± 55</td><td align="left" rowspan="1" colspan="1">16996</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Ayon Island, Chukotka</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153446">EU153446</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0020" ref-type="ref">2008</xref>
+</td><td align="left" rowspan="1" colspan="1">S13</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM18</td><td align="left" rowspan="1" colspan="1">OxA‐17116</td><td align="left" rowspan="1" colspan="1">17,125 ± 70</td><td align="left" rowspan="1" colspan="1">20655</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Gydan Peninsula</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153447">EU153447</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S14</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM4</td><td align="left" rowspan="1" colspan="1">OxA‐17098</td><td align="left" rowspan="1" colspan="1">18,545 ± 70</td><td align="left" rowspan="1" colspan="1">22422</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153456">EU153456</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S9</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM19</td><td align="left" rowspan="1" colspan="1">GrN‐28258</td><td align="left" rowspan="1" colspan="1">18,560 ± 50</td><td align="left" rowspan="1" colspan="1">22434</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Yakutia</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153448">EU153448</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0020" ref-type="ref">2008</xref>
+</td><td align="left" rowspan="1" colspan="1">S9</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM2</td><td align="left" rowspan="1" colspan="1">UtC‐8138</td><td align="left" rowspan="1" colspan="1">20,380 ± 140</td><td align="left" rowspan="1" colspan="1">24507</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Taimyr Peninsula</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153449">EU153449</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S7</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM3</td><td align="left" rowspan="1" colspan="1">Beta‐148647</td><td align="left" rowspan="1" colspan="1">20,620 ± 70</td><td align="left" rowspan="1" colspan="1">24833</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Taimyr Peninsula</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153455">EU153455</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S8</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM26</td><td align="left" rowspan="1" colspan="1">OxA‐17114</td><td align="left" rowspan="1" colspan="1">24,740 ± 110</td><td align="left" rowspan="1" colspan="1">28769</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Indigirka</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153454">EU153454</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S19</td></tr><tr><td align="left" rowspan="1" colspan="1">Poinar</td><td align="left" rowspan="1" colspan="1">Beta‐210777</td><td align="left" rowspan="1" colspan="1">27,740 ± 220</td><td align="left" rowspan="1" colspan="1">31501</td><td align="left" rowspan="1" colspan="1">Bone</td><td align="left" rowspan="1" colspan="1">Taimyr Peninsula</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU155210">EU155210</ext-link></td><td colspan="2" align="left" rowspan="1">Poinar et al. <xref rid="evl333-bib-0042" ref-type="ref">2006</xref>
+</td><td align="left" rowspan="1" colspan="1">S20</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM13</td><td align="left" rowspan="1" colspan="1">T‐171</td><td align="left" rowspan="1" colspan="1">35,800 ± 1200</td><td align="left" rowspan="1" colspan="1">40418</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Lena River</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153445">EU153445</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S12</td></tr><tr><td align="left" rowspan="1" colspan="1">E470</td><td align="left" rowspan="1" colspan="1">LU‐3511</td><td align="left" rowspan="1" colspan="1">37,080 ± 1650</td><td align="left" rowspan="1" colspan="1">41632</td><td align="left" rowspan="1" colspan="1">Bone</td><td align="left" rowspan="1" colspan="1">Wrangel Island</td><td align="left" rowspan="1" colspan="1">31.72</td><td align="left" rowspan="1" colspan="1">73.4</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334271">MG334271</ext-link></td><td align="left" rowspan="1" colspan="1">This study</td><td align="left" rowspan="1" colspan="1">11.5</td><td align="left" rowspan="1" colspan="1">W8</td></tr><tr><td align="left" rowspan="1" colspan="1">Oimyakon</td><td align="left" rowspan="1" colspan="1">GrA‐30727</td><td align="left" rowspan="1" colspan="1">41,300 ± 900</td><td align="left" rowspan="1" colspan="1">44828</td><td align="left" rowspan="1" colspan="1">Skin</td><td align="left" rowspan="1" colspan="1">Yakutia</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="MG334282">MG334282</ext-link></td><td colspan="2" align="left" rowspan="1">Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>
+</td><td align="left" rowspan="1" colspan="1">S23</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM8</td><td align="left" rowspan="1" colspan="1">OxA‐17102</td><td align="left" rowspan="1" colspan="1">46,900 ± 700</td><td align="left" rowspan="1" colspan="1">46962</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Magadan</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153458">EU153458</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S11</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM22</td><td align="left" rowspan="1" colspan="1">OxA‐17111</td><td align="left" rowspan="1" colspan="1">50,200 ± 900</td><td align="left" rowspan="1" colspan="1">50304</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">New Siberian Islands</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153452">EU153452</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S17</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM25</td><td align="left" rowspan="1" colspan="1">OxA‐19610</td><td align="left" rowspan="1" colspan="1">59,300 ± 2700</td><td align="left" rowspan="1" colspan="1">60495</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">Yakutia</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153453">EU153453</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0020" ref-type="ref">2008</xref>
+</td><td align="left" rowspan="1" colspan="1">S18</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM1</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153444">EU153444</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S6</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM5</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153457">EU153457</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>
+</td><td align="left" rowspan="1" colspan="1">S10</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM20</td><td align="left" rowspan="1" colspan="1">OxA‐19608</td><td align="left" rowspan="1" colspan="1">&gt;63,500</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">New Siberian Islands</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153450">EU153450</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0020" ref-type="ref">2008</xref>
+</td><td align="left" rowspan="1" colspan="1">S15</td></tr><tr><td align="left" rowspan="1" colspan="1">GilbertM21</td><td align="left" rowspan="1" colspan="1">OxA‐19609</td><td align="left" rowspan="1" colspan="1">&gt;58,000</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">Hair</td><td align="left" rowspan="1" colspan="1">New Siberian Islands</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153451">EU153451</ext-link></td><td colspan="2" align="left" rowspan="1">Gilbert et al. <xref rid="evl333-bib-0020" ref-type="ref">2008</xref>
+</td><td align="left" rowspan="1" colspan="1">S16</td></tr><tr><td align="left" rowspan="1" colspan="1">Rogaev</td><td align="left" rowspan="1" colspan="1">MAG‐1000</td><td align="left" rowspan="1" colspan="1">33,750—31,950</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">Muscle</td><td align="left" rowspan="1" colspan="1">Enmynveem River, Chukotka</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="DQ316067">DQ316067</ext-link></td><td colspan="2" align="left" rowspan="1">Rogaev et al. <xref rid="evl333-bib-0047" ref-type="ref">2006</xref>
+</td><td align="left" rowspan="1" colspan="1">S21</td></tr><tr><td align="left" rowspan="1" colspan="1">2002/472</td><td align="left" rowspan="1" colspan="1">UCIAMS38677</td><td align="left" rowspan="1" colspan="1">&gt;48,800</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">Taimyr Peninsula</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1">n.a.</td><td align="left" rowspan="1" colspan="1"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="KX027489">KX027489</ext-link></td><td colspan="2" align="left" rowspan="1">Enk et al. <xref rid="evl333-bib-0017" ref-type="ref">2016</xref>
+</td><td align="left" rowspan="1" colspan="1">S25</td></tr></tbody></table><table-wrap-foot><fn id="evl333-tbl1-note-0001"><p>Asterisks indicate new radiocarbon dates; n.a. = not available.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><sec id="evl333-sec-0040"><title>DATA PREPARATION</title><p>Sample E469D was extracted using a method optimized for highly degraded samples (Dabney et al. <xref rid="evl333-bib-0011" ref-type="ref">2013</xref>), while sequence data for samples labeled “E” come from (Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>), but with new consensus sequences generated in this study. Samples labeled “L,” “M,” and “P” were extracted according to protocol C in Yang et al. (<xref rid="evl333-bib-0057" ref-type="ref">1998</xref>) as modified in Brace et al. (<xref rid="evl333-bib-0007" ref-type="ref">2012</xref>). Double stranded Illumina libraries were prepared from 20 μL of DNA extract according to Meyer and Kircher (<xref rid="evl333-bib-0034" ref-type="ref">2010</xref>), using uracil‐treatment with the USER enzyme (New England Biolabs; Briggs et al. <xref rid="evl333-bib-0008" ref-type="ref">2010</xref>). During the blunt‐end repair, USER enzyme was added so that the final concentration was 0.15 U/μL in the reaction mix described in “Step 4” of Meyer and Kircher (<xref rid="evl333-bib-0034" ref-type="ref">2010</xref>). T4 DNA polymerase was added to the reaction mix following a three‐hour incubation at 37°C. Subsequently, blunt‐end repair incubation and all following steps were performed according to the protocol by Meyer and Kircher (<xref rid="evl333-bib-0034" ref-type="ref">2010</xref>). Indexing amplifications were prepared with AccuPrime™ Pfx DNA Polymerase (Life Technologies) using one indexing primer per library and the following amplification conditions: 95°C for 2 minutes and between 8 and 14 cycles of: 95°C for 15 seconds, 60°C for 30 seconds, 68°C for 30 seconds. Libraries were purified along with size selection using Agencourt AMPure XP beads (Beckman Coulter) targeting fragments between 100 and 500 base pairs to remove unligated adapters, primer dimers, and long contaminant sequences. Library concentrations were measured with a high‐sensitivity DNA chip on a Bioanalyzer 2100 (Agilent). Multiplexed libraries were pooled in two separate pools in equimolar concentrations and shotgun‐sequenced on two lanes of Illumina HiSeq2500 with a 2 × 125 bp setup in the HighOutput mode.</p></sec><sec id="evl333-sec-0050"><title>DATA PROCESSING</title><p>Bcl to Fastq conversion was performed using bcl2Fastq 1.8.3 from the CASAVA software suite. SeqPrep 1.1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/jstjohn/SeqPrep">https://github.com/jstjohn/SeqPrep</ext-link>) was used to trim adapters and merge paired‐end reads, using default settings and a minor modification to the source code, allowing us to choose the best quality scores of bases in the merged region instead of aggregating the scores (Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>). The modified file is available for download at the webpage <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.palaeogenetics.com/adna/data">http://www.palaeogenetics.com/adna/data</ext-link>.</p><p>Sequencing reads were processed with BWA 0.7.8 (Li and Durbin <xref rid="evl333-bib-0030" ref-type="ref">2010</xref>) and SAMtools 0.1.19 (Li et al. <xref rid="evl333-bib-0031" ref-type="ref">2009</xref>). Following Prufer et al. (<xref rid="evl333-bib-0043" ref-type="ref">2014</xref>), we modified the woolly mammoth mitochondrial genome (GenBank accession no. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="DQ188829">DQ188829</ext-link>) by copying the first 240 bp to the end of the sequence to facilitate mapping and to avoid lower coverage in the marginal parts of the sequence. This modified mitochondrial genome was merged with the African savanna elephant nuclear genome (LoxAfr4) generated by the Broad Institute, and the merged sequence was used as a reference to avoid mapping nuclear copies of mitochondrial DNA (numts) to the mitochondrial DNA reference genome (note, however, that this would not identify numts that have evolved in mammoths since their divergence from the African savanna elephant). Merged sequencing reads were mapped against the reference using the BWA aln algorithm with parameters adapted for ancient DNA reads that deactivate seeding (‐l 16500), allow more substitutions (‐n 0.01) and up to two gaps (‐o 2). BWA samse command was used to generate alignments. Reads mapping to the mitochondrial genome were extracted and processed in SAMtools 0.1.19 (Li et al. <xref rid="evl333-bib-0031" ref-type="ref">2009</xref>), including converting the alignments in SAM format to BAM format, coordinate sorting, indexing, and removing duplicates (with the single‐end option “‐s”). Reads with mapping qualities below 20 were filtered out.</p><p>BAM files generated using SAMtools were uploaded to Geneious® 7.0.3 (Kearse et al. <xref rid="evl333-bib-0027" ref-type="ref">2012</xref>) and consensus sequences were called for positions with at least 3X coverage using the majority rule, with ambiguous and low‐coverage positions called as undetermined.</p><p>To avoid incorrect consensus calling due to DNA damage characteristic for ancient samples, two steps were taken: (a) USER (Uracil‐Specific Excision Reagent) Enzyme was used to remove damaged sites, and (b) only positions covered by at least three bases, that is three individual replicates, were called.</p><p>Twenty‐one samples with consensus sequences resolved for at least 80% of positions of the mitogenome were aligned to 21 previously published mammoth mitogenomes (Table <xref rid="evl333-tbl-0001" ref-type="table">1</xref>) in MAFFT 7.245 (Katoh and Standley <xref rid="evl333-bib-0025" ref-type="ref">2013</xref>). The variable number tandem repeats (VNTR) section of the alignment was removed since it had not been assembled in the previously published data (Gilbert et al. <xref rid="evl333-bib-0021" ref-type="ref">2007</xref>; Gilbert et al. <xref rid="evl333-bib-0020" ref-type="ref">2008</xref>).</p><p>To verify that there was no bias introduced by using a clade I mammoth (Krause; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="DQ188829">DQ188829</ext-link>) as a reference, the data was also mapped against a clade II mammoth mitogenome (GilbertM25; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153453">EU153453</ext-link>). Despite only using a mitochondrial reference (rather than a merged nuclear‐mitochondrial reference as in the original processing) and omitting the “E” samples (Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>) from the analyses, the results were consistent and the haplotype network maintained the same structure, including the star‐like pattern of the Holocene haplotypes (Fig. S1).</p></sec><sec id="evl333-sec-0060"><title>DEMOGRAPHIC AND PHYLOGENETIC ANALYSES</title><p>A median‐joining haplotype network of all mitogenomes was created in PopART (available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://popart.otago.ac.nz">http://popart.otago.ac.nz</ext-link>). Sequences of mammoth mitochondrial clade I with finite radiocarbon dates were analyzed by Bayesian Inference in BEAST 1.8.0 (Drummond et al. <xref rid="evl333-bib-0015" ref-type="ref">2012</xref>) using tip‐dating and the HKY+I substitution model, which was selected according to the Bayesian Information Criterion in ModelGenerator (Keane et al. <xref rid="evl333-bib-0026" ref-type="ref">2006</xref>). A strict molecular clock was applied and mutation rate was estimated from the data, using a starting rate of 8.07 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup> (Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>). To test for the extent of temporal signal in the data, we performed a date‐randomization test (Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>; Duchene et al. <xref rid="evl333-bib-0016" ref-type="ref">2015</xref>). We used SiteSampler v1.1 (Ho and Lanfear <xref rid="evl333-bib-0022" ref-type="ref">2010</xref>) to generate 20 data sets with randomly reassigned labels (i.e., dates) and we compared the substitution rate estimated by the randomized datasets to the estimate from real data.</p><p>Three different tree models were tested: constant size, Bayesian Skyline, and Bayesian Skyride. Constant size and Bayesian Skyride analyses were performed with default settings while the number of groups in the Bayesian Skyline model was adjusted to five to avoid overparametrization of the model (Drummond et al. <xref rid="evl333-bib-0014" ref-type="ref">2005</xref>). To decide which model provides the best fit, we calculated the marginal likelihoods using path and stepping‐stone sampling as implemented in BEAST 1.8.0 (Baele et al. <xref rid="evl333-bib-0003" ref-type="ref">2012</xref>; Baele et al. <xref rid="evl333-bib-0004" ref-type="ref">2013</xref>). Bayes Factors were estimated using the marginal likelihoods, and we used the approach by Kass and Raftery (<xref rid="evl333-bib-0024" ref-type="ref">1995</xref>) to select the most appropriate model for further analyses (Table S1).</p><p>For all models, the Markov Chain Monte Carlo was set to run for 50 million generations, sampling every 5000<sup>th</sup> generation. Information from the sampled trees was summarized in TreeAnnotator. Tracer 1.6 (Rambaut et al. <xref rid="evl333-bib-0044" ref-type="ref">2014</xref>) was used to compare the tested tree models, to verify convergence of the runs and to perform Bayesian Skyride reconstruction (using the default settings) estimating the female effective population size (N<sub>ef</sub>). The output tree was visualized in FigTree 1.4.2 (available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://tree.bio.ed.ac.uk/software/figtree/">http://tree.bio.ed.ac.uk/software/figtree/</ext-link>). Both the haplotype network and the phylogenetic tree were graphically edited in Inkscape 0.91 (available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://inkscape.org/en/">https://inkscape.org/en/</ext-link>).</p></sec><sec id="evl333-sec-0070"><title>MUTATION RATE</title><p>We took advantage of the known evolutionary history and the star‐like pattern of haplotypes to estimate the mutation rate in the Wrangel Island samples. Simulations were performed using <italic toggle="yes">fastsimcoal ver. 2.5.2.2</italic> (Excoffier et al. <xref rid="evl333-bib-0018" ref-type="ref">2013</xref>) and the number of haplotypes was estimated with <italic toggle="yes">arlsumstats ver. 3.5.2</italic> (Excoffier and Lischer <xref rid="evl333-bib-0019" ref-type="ref">2010</xref>), both controlled by custom R scripts (R Development Core Team 2013). We assumed that the population on Wrangel Island can be modeled as an isolated and continuous population from the time of the bottleneck (∼12 kyr calBP) to the time of extinction (∼4 kyr calBP). We performed coalescent simulations on a 100 × 100 grid composed of values from a range of constant female effective population sizes (N<sub>ef</sub>: 1 – 10,000,000 individuals) and mutation rates (μ: 0.07 – 667 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>, corresponding to a range 0.1 – 1000 × 10<sup>−7</sup> site<sup>−1</sup> generation<sup>−1</sup>) both on an equally spaced log‐scale. For each combination of parameters we performed 1000 simulations of a DNA fragment of the same size as our alignment (16,506 bp), forcing all lineages to coalesce into one at the time of isolation so that only one haplotype would be present in the founder population of the island. In each simulation, we sampled individuals at the same time as the mean calibrated age of our samples (Table <xref rid="evl333-tbl-0001" ref-type="table">1</xref>) and the probability of observing exactly seven haplotypes (as inferred from the haplotype network; see the Results) in the simulated Wrangel samples was reported. The female generation time was set to 15 years (Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>). Coalescent simulations were run both assuming no transition bias (0.33), and a high transition bias (0.98, as in Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>) with no marked effect in the estimated mutation rates.</p></sec></sec><sec id="evl333-sec-0080"><title>Results</title><sec id="evl333-sec-0090"><title>MITOCHONDRIAL HAPLOTYPES</title><p>Across the 16,506 base pairs (bp) of the mitochondrial genome, mammoths in our study were assigned to 34 unique haplotypes. The haplotype median‐joining network (Fig. <xref rid="evl333-fig-0002" ref-type="fig">2</xref>B) clearly differentiated mammoths belonging to clades I and II, with Wrangel Island mammoths nested within clade I as shown previously (Nyström et al. <xref rid="evl333-bib-0037" ref-type="ref">2010</xref>; Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>).</p><fig fig-type="Figure" xml:lang="en" id="evl333-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>A Bayesian Phylogeny of clade I mammoths with finite radiocarbon dates (A) and median‐joining haplotype network of all 42 Pleistocene and Holocene mammoths (B; W = Wrangel, S = Siberia). In the phylogeny, nodes with posterior probabilities above 0.7 are shown and numbers in the sample names indicate age.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-3" position="float" orientation="portrait" xlink:href="EVL3-1-292-g002.jpg"/></fig><p>In the Holocene Wrangel population, we found seven mitochondrial haplotypes that formed a unique subgroup shaped in a star‐like pattern with multiple haplotypes surrounding what was presumably a single ancestral haplotype (W1, Fig. <xref rid="evl333-fig-0002" ref-type="fig">2</xref>B). These seven haplotypes were not closely related to the haplotypes observed in Wrangel mammoths radiocarbon dated to the Late Pleistocene (E470, L410), nor did they show a close affinity to the end‐Pleistocene haplotypes from Chukotka, which is the geographically closest mainland region. Instead, the Holocene Wrangel Island haplotypes were most closely related to haplotypes observed in mammoths from Central Siberia (Fig. <xref rid="evl333-fig-0002" ref-type="fig">2</xref>B; Table <xref rid="evl333-tbl-0001" ref-type="table">1</xref>). The latter were also basal to the Holocene Wrangel mammoths in the phylogeny (Fig. <xref rid="evl333-fig-0002" ref-type="fig">2</xref>A).</p><p>The Holocene Wrangel mammoths differed from all other mammoths by three unique mutations: one mutation in a region coding for transfer RNA (tRNA) valine and two mutations in protein‐coding genes, a synonymous mutation in <italic toggle="yes">ND6</italic> and a nonsynonymous mutation in <italic toggle="yes">ATP6</italic> (G457A).</p><sec id="evl333-sec-0100"><title>Bayesian phylogenies and effective population size</title><p>The phylogeny inferred using Bayesian Skyride model (Fig. <xref rid="evl333-fig-0002" ref-type="fig">2</xref>A) indicated a differentiation among Late Pleistocene and Holocene mammoths. While the Late Pleistocene mammoths generally formed long and well‐supported branches (posterior probability ≥0.95), Holocene Wrangel mammoths clustered into a monophyletic group with unresolved internal relationships and short branches, indicative of a rapid diversification.</p><p>The Bayesian Skyride plot (Fig. <xref rid="evl333-fig-0003" ref-type="fig">3</xref>) revealed a sharp decrease in effective population size starting at about 15 kyr calBP, which coincides with the beginning of the Bølling‐Allerød interstadial (14.7–12.9 kyr calBP). The steep decline continued through the Pleistocene/Holocene boundary until approximately 9 kyr calBP. Assuming an average generation time of 15 years (as in Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>), N<sub>ef</sub> dropped 15‐fold from ca 26,000 individuals (95% highest posterior density (HPD): 105,000–3500) prior to Bølling‐Allerød (14.7 kyr calBP) to ca 1700 individuals (95% HPD: 9000–160) in the early Holocene (10 kyr calBP).</p><fig fig-type="Figure" xml:lang="en" id="evl333-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Bayesian Skyride plot of the female effective population size (N<sub>ef</sub>) based on 34 clade I mammoth samples with finite radiocarbon dates. The left <italic toggle="yes">y</italic>‐axis and the solid purple line represent median values of N<sub>ef</sub> with the purple area indicating the 95% highest posterior density. The <italic toggle="yes">x</italic>‐axis is in calendar years before present. N<sub>ef</sub> is scaled by a factor of generation time assumed to be 15 years. The right <italic toggle="yes">y</italic>‐axis and the black line show the climate record from the North Greenland ice core (North Greenland Ice Core Project members 2004).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-5" position="float" orientation="portrait" xlink:href="EVL3-1-292-g003.jpg"/></fig></sec><sec id="evl333-sec-0110"><title>Mutation rate</title><p>The mutation rate of the mitogenomes estimated by tip calibration (Table S2) with a Skyride tree prior yielded a mean rate of 1.31 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup> (95% HPD: 0.79–1.84 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>), whereas using a constant size tree prior yielded a mean rate of 1.36 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup> (95% HPD: 0.83 – 1.93 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>). The rate estimated by Bayesian Skyline analyses was 1.22 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup> (95% HPD: 0.66 – 1.75 × 10<sup>−8</sup>). The extent of temporal signal in the data was validated by the date‐randomization test, which showed that the 95% HPD of the substitution rate estimated from 20 randomized datasets (2.41 × 10<sup>−14</sup> – 0.5 × 10<sup>−8</sup>) is outside the 95% HPD of the estimate from real data (0.79 – 1.84 × 10<sup>−8</sup>).</p><p>Coalescent simulations of the mutation rate of the Holocene Wrangel population suggested that prior knowledge about the population size is paramount for the estimation of the mutation rate. As depicted in Fig. <xref rid="evl333-fig-0004" ref-type="fig">4</xref>A, the mutation rate estimate is stable and a little lower than the estimates obtained from BEAST for effective population sizes over 5000 females (∼0.9 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>; Table S2), but it changes rapidly when lower effective population sizes are assumed. However, an effective size larger than 5000 females is rather unlikely for the Wrangel Island population, which was recently estimated to around 328 individuals for both sexes using genomic data (Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>). Moreover, it is unlikely that the effective population size exceed the carrying capacity of Wrangel Island, which has been estimated to between 149 and 819 individuals using Damuth's equation (Nyström et al. <xref rid="evl333-bib-0037" ref-type="ref">2010</xref>). To more precisely estimate the mutation rate, assuming more realistic Wrangel population sizes and an 1:1 sex ratio (Nyström et al. <xref rid="evl333-bib-0037" ref-type="ref">2010</xref>), we performed a second set of simulations with much narrower priors (N<sub>ef</sub>: 100–450 individuals, and μ: 0.17 – 66.7 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>, Fig. <xref rid="evl333-fig-0004" ref-type="fig">4</xref>B). The results from this second set of simulations indicated that the probability of observing seven Holocene Wrangel haplotypes was maximized when the mutation rate was 3.05 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup> (95% HPD: 1.31 – 6.69 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>; Fig. <xref rid="evl333-fig-0004" ref-type="fig">4</xref>C).</p><fig fig-type="Figure" xml:lang="en" id="evl333-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Probability of observing seven mitochondrial haplotypes in 14 Holocene Wrangel samples estimated from coalescent simulations using the mutation rate (μ) and the female effective population size (N<sub>ef</sub>) as exploratory parameters: (A) using wide priors, μ: 0.07–667 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup> and N<sub>ef</sub>: 1–10,000,000 individuals; (B) using narrower priors better fitting the scenario of low effective population size on Wrangel Island (N<sub>ef</sub>: 100–450 individuals, and μ: 0.17–66.7 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>); (C) summary of probabilities from simulations with narrower priors and incorporating all values of N<sub>ef</sub> to account for uncertainty. The green line indicates the mutation rate corresponding with the highest probability. The orange line represents the estimated mutation rate using 328 individuals as effective population size as in (Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>) and assuming a 1:1 sex ratio (Nyström et al. <xref rid="evl333-bib-0037" ref-type="ref">2010</xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-7" position="float" orientation="portrait" xlink:href="EVL3-1-292-g004.jpg"/></fig></sec></sec></sec><sec id="evl333-sec-0120"><title>Discussion</title><sec id="evl333-sec-0130"><title>THE ORIGINS AND DEMOGRAPHY OF WRANGEL MAMMOTHS</title><p>The haplotype network showed signs of a highly diverse mammoth population throughout the Pleistocene. However, our results suggest that immediately after the isolation on Wrangel Island only one haplotype was present, based on the star‐like pattern of the haplotype network where all haplotypes are only one or two mutational steps from the modal haplotype. This conclusion is further supported by the results reported by Nyström et al. (<xref rid="evl333-bib-0037" ref-type="ref">2010</xref>) where only one mitochondrial haplotype was observed during the first 1500 years following the isolation of Wrangel Island. Reduction to a single maternal lineage is in agreement with mammoths going through a bottleneck and founder effect as they became isolated on Wrangel Island. The Wrangel Island's mammoth population was thus likely founded by a very limited number of females, presumably one herd considering that similarly to present elephant species mammoths likely formed matriarchal family groups. The matriarchal social structure could also explain why we observed a more pronounced founder effect using mitogenomes compared to previous results from nuclear data (Palkopoulou et al. <xref rid="evl333-bib-0041" ref-type="ref">2015</xref>; Rogers and Slatkin <xref rid="evl333-bib-0048" ref-type="ref">2017</xref>).</p><p>Interestingly, the samples genetically most similar to the Holocene Wrangel mammoths are also the ones geographically most distant, originating from Central Siberia, specifically from the Gydan Peninsula (GilbertM18), Taimyr Peninsula (P011, GilbertM3, Poinar), and New Siberian Islands (P005). The area comprising the Taimyr and Gydan Peninsulas is possibly the only region in Siberia with a continuous fossil record throughout the warm Bølling‐Allerød Interstadial when mammoths disappeared from other parts of Eurasia (Stuart <xref rid="evl333-bib-0051" ref-type="ref">2005</xref>). During the Younger Dryas (YD; 12.9–11.7 kyr calBP), a colder period following the Bølling‐Allerød Interstadial, cold climate conditions allowed a reexpansion of the open steppe tundra habitat, which is thought to have enabled a reexpansion of the woolly mammoth from Taimyr to northwestern Siberia and northeastern Europe (Stuart <xref rid="evl333-bib-0051" ref-type="ref">2005</xref>). Although speculative, these are the first genetic results supporting the hypothesis that the Taimyr Peninsula could have served as a source population for a Younger Dryas recolonization of northeastern Siberia, including what was later to become Wrangel Island.</p><sec id="evl333-sec-0140"><title>Post‐LGM population size reduction and accelerated rate of evolution</title><p>The estimated female effective population size was rather stable during the Pleistocene and only started to decrease about 15 kyr calBP, at roughly the same time as the onset of the Bølling‐Allerød warming period and the time when mammoths disappeared from most of the Siberian mainland (Fig. <xref rid="evl333-fig-0003" ref-type="fig">3</xref>). This decline in N<sub>ef</sub> was approximately 15‐fold, which is comparable to the reduction observed in a previous study based on short mitochondrial sequences (Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>). The Bayesian Skyride analysis also indicated that the decline in effective population size continued until the final extinction, but at a considerably lower rate.</p><p>The coalescent simulations suggested a two‐ to threefold higher mutation rate in Holocene Wrangel Island samples (3.05 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>; 95% HPD: 1.31–6.69 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>), as compared to the estimates for all clade I mammoths from BEAST (1.31 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>; 95% HPD: 0.79–1.84 × 10<sup>−8</sup> site<sup>−1</sup> year<sup>−1</sup>; Table S2). Although the HPDs are wide, these substitution rate estimates are lower than previously published rates based on a short hypervariable fragment of 741 bp (Barnes et al. <xref rid="evl333-bib-0005" ref-type="ref">2007</xref>; Debruyne et al. <xref rid="evl333-bib-0013" ref-type="ref">2008</xref>; Palkopoulou et al. <xref rid="evl333-bib-0040" ref-type="ref">2013</xref>), but clearly higher than any other mutation rate published for mammoth or other proboscidean complete mitogenomes (Rohland et al. <xref rid="evl333-bib-0049" ref-type="ref">2007</xref>). One possible explanation is that the higher substitution rate in the Wrangel Island population is associated with reduced purging of deleterious or slightly deleterious variants in the mitochondrial genome due to lower efficiency of purifying selection at long‐term low effective population sizes (Kimura <xref rid="evl333-bib-0028" ref-type="ref">1957</xref>). This process potentially results in a higher than expected amount of polymorphism, and consequently an increased measurable rate of evolution. This is to our knowledge the first time that serially sampled data are used to show that the evolutionary rate changes in a species through time, as the species' population size decreases. These results consequently provide tentative support for expectations from the nearly neutral theory of molecular evolution (Ohta <xref rid="evl333-bib-0039" ref-type="ref">1992</xref>). It should, however, be noted that a somewhat higher mutation rate could also result from a reduction in generation times in Wrangel Island mammoths as a consequence of insularity, as hypothesized by Rogers and Slatkin (<xref rid="evl333-bib-0048" ref-type="ref">2017</xref>). However, we find it unlikely that shorter generations would lead to an increase in evolutionary rate as high as two‐ to threefold (Nabholz et al. <xref rid="evl333-bib-0036" ref-type="ref">2008</xref>; Bromham <xref rid="evl333-bib-0009" ref-type="ref">2009</xref>).</p></sec><sec id="evl333-sec-0150"><title>Fixed mutations in the Wrangel population</title><p>Although the Holocene Wrangel mammoths formed a separate cluster genetically differentiated from the Pleistocene specimens, the Wrangel population was defined by only three synapomorphic mutations across the whole mitochondrial genome. Interestingly, the third mutation constituted a nonsynonymous substitution in the gene <italic toggle="yes">ATP6</italic> (G457A) encoding for subunit <italic toggle="yes">a</italic> of the ATP synthase enzyme, resulting in an alanine to threonine substitution at amino acid 157 (A157T), which had a derived state in all 14 Holocene Wrangel mitogenomes (Fig. S2). Mitochondrial ATP synthase is a key enzyme of the oxidative phosphorylation pathway and is responsible for ATP production in all living beings except for archaea (Vantourout et al. <xref rid="evl333-bib-0053" ref-type="ref">2010</xref>). To assess genetic variation at the <italic toggle="yes">ATP6</italic> gene, we aligned the mammoth <italic toggle="yes">ATP6</italic> sequence with those of other taxa, randomly choosing one GenBank (Benson et al. <xref rid="evl333-bib-0006" ref-type="ref">2013</xref>) sequence per species (Fig. S3) to stochastically capture variability in the dataset. We observed that the G457A mutation was located in a conserved part of the <italic toggle="yes">ATP6</italic> sequence and that no other species had a nonsynonymous mutation at that site (Fig. S3).</p><p>Assessing the potential fitness consequences of the A157T amino acid fixation is aided by the highly conserved structure of ATP6 across taxa. First, the location of this substitution is near an active site residue at position 159. Second, in humans, two different substitutions at the neighboring site 156 give rise to disease phenotypes. Both the L156R and L156P substitutions affect ATP synthase, resulting in a decreased proton flux and thereby decreased ATP synthase (Jonckheere et al. <xref rid="evl333-bib-0023" ref-type="ref">2012</xref>). If we assume that these neighboring substitutions are a good proxy for the phenotypic effect of A157T, a reduced ATP synthase phenotype is possible (Cortes‐Hernandez et al. <xref rid="evl333-bib-0010" ref-type="ref">2007</xref>).</p><p>One of the key predictions from the mutational meltdown theory (Lynch et al. <xref rid="evl333-bib-0033" ref-type="ref">1995</xref>) is that deleterious mutations can become fixed in small populations due to strong genetic drift. Although an excess of deleterious mutations has previously been described in genome from a 4300‐year‐old Wrangel mammoth (Rogers and Slatkin <xref rid="evl333-bib-0048" ref-type="ref">2017</xref>), our results from ATP6 might represent the first identification of a deleterious mutation that appears to have become fixed as a consequence of genetic drift during the establishment of the Wrangel Island population.</p><p>Rather than being the consequence of small effective population size for hundreds of generations (Rogers and Slatkin <xref rid="evl333-bib-0048" ref-type="ref">2017</xref>), the excess of deleterious mutations in the Wrangel Island mammoth genome could be due to a severe bottleneck and founder effect at the time of the isolation, which may have also contributed to an increase in detrimental mutations immediately after the establishment of the population, as suggested by our results. Consequently, analyses of serially sampled genomic data from additional Wrangel Island mammoths are needed to resolve to what extent genetic drift during the Holocene led to a gradual accumulation of deleterious genetic variation.</p></sec></sec></sec><sec id="evl333-sec-0190"><p>Associate Editor: L. Bromham</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Fig. S1 A median‐joining haplotype network of the analyzed samples mapped against a clade II mammoth (GilbertM25; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="EU153453">EU153453</ext-link>).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVL3-1-292-s001.eps" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Fig. S2 Alignment of amino acid sequences of the ATP6 gene showing the nonsynonymous mutation fixed (purple) in all Holocene Wrangel mammoths (first 14 samples).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVL3-1-292-s002.eps" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Fig. S3 Alignment of the ATP6 amino acid sequences of the woolly mammoth (<italic toggle="yes">Mammuthus primigenius</italic>) ‐ one Holocene Wrangel Island mammoth, Pleistocene clade I, II, and III mammoths, compared to various other mammals (with accession numbers in the sequence name), showing that the non‐synonymous mutation fixed in the Holocene Wrangel population cannot be found in any other species and is located within a rather conserved region.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVL3-1-292-s003.eps" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Table S1 Support for three different tree model priors tested in the BEAST analysis – constant, Skyline, and Skyride – was estimated according to the path sampling and stepping‐stone sampling log marginal likelihoods. Bayes factors and the selected model are indicated.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVL3-1-292-s005.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" position="float" orientation="portrait"><caption><p>Table S2 Mutation rate estimates for clade I mammoths calculated in BEAST.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EVL3-1-292-s004.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="evl333-sec-0160"><title>AUTHOR CONTRIBUTIONS</title><p>L.D. and P.P. designed the study; S.V., A.T., P.N., and J.vd.P. provided samples and conducted radiocarbon dating; P.P. and E.P. performed lab work; P.P., D.D., E.P., and P.S. performed data analysis; P.P., D.D., C.W.W., and L.D. drafted the manuscript.</p></ack><ack id="evl333-sec-0170"><title>ACKNOWLEDGMENTS</title><p>The authors are grateful to Veronica Nyström Edmark for assistance with sampling and to Swapan Mallick for the modification of the SeqPrep source code. The authors would like to acknowledge support from Science for Life Laboratory, the National Genomics Infrastructure, and UPPMAX (project number: b2015028) for providing assistance in massive parallel sequencing and computational infrastructure. The authors would also like to thank Estelle Proux‐Wéra from the Science for Life Laboratory for bioinformatics advice. The genetic analyses were funded through a grant from the Swedish Research Council (VR grant 2012–3869). P.S. was supported by the Swedish Research Council (VR grant 2014–453).</p></ack><ack id="evl333-sec-0180"><title>DATA ACCESSIBILITY</title><p>GenBank accession codes: MG334264–MG334285.</p></ack><ref-list id="evl333-bibl-0001"><title>LITERATURE CITED</title><ref id="evl333-bib-0001"><mixed-citation publication-type="journal" id="evl333-cit-0001">
+<string-name name-style="western">
+<surname>Aitken</surname>, <given-names>S. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Yeaman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Holliday</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. L.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Curtis‐McLane</surname>
+</string-name>. <year>2008</year>
+<article-title>Adaptation, migration or extirpation: climate change outcomes for tree populations</article-title>. <source xml:lang="en">Evol. Appl.</source>
+<volume>1</volume>:<fpage>95</fpage>–<lpage>111</lpage>.<pub-id pub-id-type="pmid">25567494</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1752-4571.2007.00013.x</pub-id><pub-id pub-id-type="pmcid">PMC3352395</pub-id></mixed-citation></ref><ref id="evl333-bib-0002"><mixed-citation publication-type="journal" id="evl333-cit-0002">
+<string-name name-style="western">
+<surname>Arppe</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Karhu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Vartanyan</surname>
+</string-name>. <year>2009</year>
+<article-title>Bioapatite Sr‐87/Sr‐86 of the last woolly mammoths—implications for the isolation of Wrangel Island</article-title>. <source xml:lang="en">Geology</source>
+<volume>37</volume>:<fpage>347</fpage>–<lpage>350</lpage>.</mixed-citation></ref><ref id="evl333-bib-0003"><mixed-citation publication-type="journal" id="evl333-cit-0003">
+<string-name name-style="western">
+<surname>Baele</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Lemey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Bedford</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rambaut</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Suchard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. V.</given-names>
+<surname>Alekseyenko</surname>
+</string-name>. <year>2012</year>
+<article-title>Improving the accuracy of demographic and molecular clock model comparison while accommodating phylogenetic uncertainty</article-title>. <source xml:lang="en">Mol. Biol. Evol.</source>
+<volume>29</volume>:<fpage>2157</fpage>–<lpage>2167</lpage>.<pub-id pub-id-type="pmid">22403239</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/mss084</pub-id><pub-id pub-id-type="pmcid">PMC3424409</pub-id></mixed-citation></ref><ref id="evl333-bib-0004"><mixed-citation publication-type="journal" id="evl333-cit-0004">
+<string-name name-style="western">
+<surname>Baele</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. L. S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Drummond</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Suchard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Lemey</surname>
+</string-name>. <year>2013</year>
+<article-title>Accurate model selection of relaxed molecular clocks in Bayesian phylogenetics</article-title>. <source xml:lang="en">Mol. Biol. Evol.</source>
+<volume>30</volume>:<fpage>239</fpage>–<lpage>243</lpage>.<pub-id pub-id-type="pmid">23090976</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/mss243</pub-id><pub-id pub-id-type="pmcid">PMC3548314</pub-id></mixed-citation></ref><ref id="evl333-bib-0005"><mixed-citation publication-type="journal" id="evl333-cit-0005">
+<string-name name-style="western">
+<surname>Barnes</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shapiro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lister</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kuznetsova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Guthrie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Thomas</surname>
+</string-name>. <year>2007</year>
+<article-title>Genetic structure and extinction of the woolly mammoth, <italic toggle="yes">Mammuthus primigenius</italic>
+</article-title>. <source xml:lang="en">Curr. Biol.</source>
+<volume>17</volume>:<fpage>1072</fpage>–<lpage>1075</lpage>.<pub-id pub-id-type="pmid">17555965</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cub.2007.05.035</pub-id></mixed-citation></ref><ref id="evl333-bib-0006"><mixed-citation publication-type="journal" id="evl333-cit-0006">
+<string-name name-style="western">
+<surname>Benson</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Clark</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Karsch‐Mizrachi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Lipman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ostell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. W.</given-names>
+<surname>Sayers</surname>
+</string-name>. <year>2013</year>
+<article-title>GenBank</article-title>. <source xml:lang="en">Nucleic Acids Res.</source>
+<volume>41</volume>(<issue>Database issue</issue>):<fpage>D36</fpage>–<lpage>D42</lpage>.<pub-id pub-id-type="pmid">23193287</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gks1195</pub-id><pub-id pub-id-type="pmcid">PMC3531190</pub-id></mixed-citation></ref><ref id="evl333-bib-0007"><mixed-citation publication-type="journal" id="evl333-cit-0007">
+<string-name name-style="western">
+<surname>Brace</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Palkopoulou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Dalén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Lister</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Otte</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Germonpré</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. P. E.</given-names>
+<surname>Blockley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Stewart</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Barnes</surname>
+</string-name>. <year>2012</year>
+<article-title>Serial population extinctions in a small mammal indicate Late Pleistocene ecosystem instability</article-title>. <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>
+<volume>109</volume>:<fpage>20532</fpage>–<lpage>20536</lpage>.<pub-id pub-id-type="pmid">23185018</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1213322109</pub-id><pub-id pub-id-type="pmcid">PMC3528586</pub-id></mixed-citation></ref><ref id="evl333-bib-0008"><mixed-citation publication-type="journal" id="evl333-cit-0008">
+<string-name name-style="western">
+<surname>Briggs</surname>, <given-names>A. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Stenzel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Meyer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Krause</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kircher</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pääbo</surname>
+</string-name>. <year>2010</year>
+<article-title>Removal of deaminated cytosines and detection of in vivo methylation in ancient DNA</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<volume>38</volume>:<fpage>e87</fpage>.<pub-id pub-id-type="pmid">20028723</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkp1163</pub-id><pub-id pub-id-type="pmcid">PMC2847228</pub-id></mixed-citation></ref><ref id="evl333-bib-0009"><mixed-citation publication-type="journal" id="evl333-cit-0009">
+<string-name name-style="western">
+<surname>Bromham</surname>, <given-names>L.</given-names>
+</string-name>
+<year>2009</year>
+<article-title>Why do species vary in their rate of molecular evolution</article-title>? <source xml:lang="en">Biol. Lett.</source>
+<volume>5</volume>:<fpage>401</fpage>–<lpage>404</lpage>.<pub-id pub-id-type="pmid">19364710</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rsbl.2009.0136</pub-id><pub-id pub-id-type="pmcid">PMC2679939</pub-id></mixed-citation></ref><ref id="evl333-bib-0010"><mixed-citation publication-type="journal" id="evl333-cit-0010">
+<string-name name-style="western">
+<surname>Cortes‐Hernandez</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Vazquez‐Memije</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Garcia</surname>
+</string-name>. <year>2007</year>
+<article-title>ATP6 homoplasmic mutations inhibit and destabilize the human F1F0‐ATP synthase without preventing enzyme assembly and oligomerization</article-title>. <source xml:lang="en">J. Biol. Chem.</source>
+<volume>282</volume>:<fpage>1051</fpage>–<lpage>1058</lpage>.<pub-id pub-id-type="pmid">17121862</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.M606828200</pub-id></mixed-citation></ref><ref id="evl333-bib-0011"><mixed-citation publication-type="journal" id="evl333-cit-0011">
+<string-name name-style="western">
+<surname>Dabney</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Knapp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Glocke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Gansauge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Weihmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Nickel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Valdiosera</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Garcia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pääbo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Arsuaga</surname>
+</string-name>, et al. <year>2013</year>
+<article-title>Complete mitochondrial genome sequence of a Middle Pleistocene cave bear reconstructed from ultrashort DNA fragments</article-title>. <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>
+<volume>110</volume>:<fpage>15758</fpage>–<lpage>15763</lpage>.<pub-id pub-id-type="pmid">24019490</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1314445110</pub-id><pub-id pub-id-type="pmcid">PMC3785785</pub-id></mixed-citation></ref><ref id="evl333-bib-0012"><mixed-citation publication-type="journal" id="evl333-cit-0012">
+<string-name name-style="western">
+<surname>Davis</surname>, <given-names>M. B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. G.</given-names>
+<surname>Shaw</surname>
+</string-name>. <year>2001</year>
+<article-title>Range shifts and adaptive responses to Quaternary climate change</article-title>. <source xml:lang="en">Science</source>
+<volume>292</volume>:<fpage>673</fpage>–<lpage>679</lpage>.<pub-id pub-id-type="pmid">11326089</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.292.5517.673</pub-id></mixed-citation></ref><ref id="evl333-bib-0013"><mixed-citation publication-type="journal" id="evl333-cit-0013">
+<string-name name-style="western">
+<surname>Debruyne</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Chu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>King</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Bos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kuch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Szpak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Gröcke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Matheus</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Zazula</surname>
+</string-name>, et al. <year>2008</year>
+<article-title>Out of America: ancient DNA evidence for a new world origin of late quaternary woolly mammoths</article-title>. <source xml:lang="en">Curr. Biol.</source>
+<volume>18</volume>:<fpage>1320</fpage>–<lpage>1326</lpage>.<pub-id pub-id-type="pmid">18771918</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cub.2008.07.061</pub-id></mixed-citation></ref><ref id="evl333-bib-0014"><mixed-citation publication-type="journal" id="evl333-cit-0014">
+<string-name name-style="western">
+<surname>Drummond</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rambaut</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shapiro</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O. G.</given-names>
+<surname>Pybus</surname>
+</string-name>. <year>2005</year>
+<article-title>Bayesian coalescent inference of past population dynamics from molecular sequences</article-title>. <source xml:lang="en">Mol. Biol. Evol.</source>
+<volume>22</volume>:<fpage>1185</fpage>–<lpage>1192</lpage>.<pub-id pub-id-type="pmid">15703244</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msi103</pub-id></mixed-citation></ref><ref id="evl333-bib-0015"><mixed-citation publication-type="journal" id="evl333-cit-0015">
+<string-name name-style="western">
+<surname>Drummond</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Suchard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rambaut</surname>
+</string-name>. <year>2012</year>
+<article-title>Bayesian phylogenetics with BEAUti and the BEAST 1.7</article-title>. <source xml:lang="en">Mol. Biol. Evol.</source>
+<volume>29</volume>:<fpage>1969</fpage>–<lpage>1973</lpage>.<pub-id pub-id-type="pmid">22367748</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/mss075</pub-id><pub-id pub-id-type="pmcid">PMC3408070</pub-id></mixed-citation></ref><ref id="evl333-bib-0016"><mixed-citation publication-type="journal" id="evl333-cit-0016">
+<string-name name-style="western">
+<surname>Duchene</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Duchene</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>Holmes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. Y. W.</given-names>
+<surname>Ho</surname>
+</string-name>. <year>2015</year>
+<article-title>The performance of the date‐randomization test in phylogenetic analyses of time‐structured virus data</article-title>. <source xml:lang="en">Mol. Biol. Evol.</source>
+<volume>32</volume>:<fpage>1895</fpage>–<lpage>1906</lpage>.<pub-id pub-id-type="pmid">25771196</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msv056</pub-id></mixed-citation></ref><ref id="evl333-bib-0017"><mixed-citation publication-type="journal" id="evl333-cit-0017">
+<string-name name-style="western">
+<surname>Enk</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Devault</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Widga</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Saunders</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Szpak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Southon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐M.</given-names>
+<surname>Rouillard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shapiro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. B.</given-names>
+<surname>Golding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Zazula</surname>
+</string-name>, et al. <year>2016</year>
+<article-title>Mammuthus population dynamics in Late Pleistocene North America: divergence, phylogeography, and introgression (original research)</article-title>. <source xml:lang="en">Frontiers Ecol. Evol.</source>
+<volume>4</volume>:<fpage>42</fpage>.</mixed-citation></ref><ref id="evl333-bib-0018"><mixed-citation publication-type="journal" id="evl333-cit-0018">
+<string-name name-style="western">
+<surname>Excoffier</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Dupanloup</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Huerta‐Sánchez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. C.</given-names>
+<surname>Sousa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Foll</surname>
+</string-name>. <year>2013</year>
+<article-title>Robust demographic inference from genomic and SNP data</article-title>. <source xml:lang="en">PLoS Genet.</source>
+<volume>9</volume>:<fpage>e1003905</fpage>.<pub-id pub-id-type="pmid">24204310</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1003905</pub-id><pub-id pub-id-type="pmcid">PMC3812088</pub-id></mixed-citation></ref><ref id="evl333-bib-0019"><mixed-citation publication-type="journal" id="evl333-cit-0019">
+<string-name name-style="western">
+<surname>Excoffier</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H. E. L.</given-names>
+<surname>Lischer</surname>
+</string-name>. <year>2010</year>
+<article-title>Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows</article-title>. <source xml:lang="en">Mol. Ecol. Resour.</source>
+<volume>10</volume>:<fpage>564</fpage>–<lpage>567</lpage>.<pub-id pub-id-type="pmid">21565059</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1755-0998.2010.02847.x</pub-id></mixed-citation></ref><ref id="evl333-bib-0020"><mixed-citation publication-type="journal" id="evl333-cit-0020">
+<string-name name-style="western">
+<surname>Gilbert</surname>, <given-names>M. T. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. I.</given-names>
+<surname>Drautz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Lesk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. Y. W.</given-names>
+<surname>Ho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Qi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ratan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. H.</given-names>
+<surname>Hsu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Dalén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Götherström</surname>
+</string-name>, et al. <year>2008</year>
+<article-title>Intraspecific phylogenetic analysis of Siberian woolly mammoths using complete mitochondrial genomes</article-title>. <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>
+<volume>105</volume>:<fpage>8327</fpage>–<lpage>8332</lpage>.<pub-id pub-id-type="pmid">18541911</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0802315105</pub-id><pub-id pub-id-type="pmcid">PMC2423413</pub-id></mixed-citation></ref><ref id="evl333-bib-0021"><mixed-citation publication-type="journal" id="evl333-cit-0021">
+<string-name name-style="western">
+<surname>Gilbert</surname>, <given-names>M. T. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. P.</given-names>
+<surname>Tomsho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rendulic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Packard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. I.</given-names>
+<surname>Drautz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Tikhonov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Dalen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kuznetsova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kosintsev</surname>
+</string-name>, et al. <year>2007</year>
+<article-title>Whole‐genome shotgun sequencing of mitochondria from ancient hair shafts</article-title>. <source xml:lang="en">Science</source>
+<volume>317</volume>:<fpage>1927</fpage>–<lpage>1930</lpage>.<pub-id pub-id-type="pmid">17901335</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1146971</pub-id></mixed-citation></ref><ref id="evl333-bib-0022"><mixed-citation publication-type="journal" id="evl333-cit-0022">
+<string-name name-style="western">
+<surname>Ho</surname>, <given-names>S. Y. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Lanfear</surname>
+</string-name>. <year>2010</year>
+<article-title>Improved characterisation of among‐lineage rate variation in cetacean mitogenomes using codon‐partitioned relaxed clocks</article-title>. <source xml:lang="en">Mitochondr. DNA</source>
+<volume>21</volume>:<fpage>138</fpage>–<lpage>146</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/19401736.2010.494727</pub-id><pub-id pub-id-type="pmid">20795783</pub-id></mixed-citation></ref><ref id="evl333-bib-0023"><mixed-citation publication-type="journal" id="evl333-cit-0023">
+<string-name name-style="western">
+<surname>Jonckheere</surname>, <given-names>A. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A. M.</given-names>
+<surname>Smeitink</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. J. T.</given-names>
+<surname>Rodenburg</surname>
+</string-name>. <year>2012</year>
+<article-title>Mitochondrial ATP synthase: architecture, function and pathology (journal article)</article-title>. <source xml:lang="en">J. Inherited Metab. Dis.</source>
+<volume>35</volume>:<fpage>211</fpage>–<lpage>225</lpage>.<pub-id pub-id-type="pmid">21874297</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10545-011-9382-9</pub-id><pub-id pub-id-type="pmcid">PMC3278611</pub-id></mixed-citation></ref><ref id="evl333-bib-0024"><mixed-citation publication-type="journal" id="evl333-cit-0024">
+<string-name name-style="western">
+<surname>Kass</surname>, <given-names>R. E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Raftery</surname>
+</string-name>. <year>1995</year>
+<article-title>Bayes factors</article-title>. <source xml:lang="en">J. Am. Stat. Assoc.</source>
+<volume>90</volume>:<fpage>773</fpage>–<lpage>795</lpage>.</mixed-citation></ref><ref id="evl333-bib-0025"><mixed-citation publication-type="journal" id="evl333-cit-0025">
+<string-name name-style="western">
+<surname>Katoh</surname>, <given-names>K.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Standley</surname>
+</string-name>. <year>2013</year>
+<article-title>MAFFT multiple sequence alignment software version 7: improvements in performance and usability</article-title>. <source xml:lang="en">Mol Biol Evol</source>
+<volume>30</volume>:<fpage>772</fpage>–<lpage>780</lpage>.<pub-id pub-id-type="pmid">23329690</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/mst010</pub-id><pub-id pub-id-type="pmcid">PMC3603318</pub-id></mixed-citation></ref><ref id="evl333-bib-0026"><mixed-citation publication-type="journal" id="evl333-cit-0026">
+<string-name name-style="western">
+<surname>Keane</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Creevey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. M.</given-names>
+<surname>Pentony</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Naughton</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. O.</given-names>
+<surname>McInerney</surname>
+</string-name>. <year>2006</year>
+<article-title>Assessment of methods for amino acid matrix selection and their use on empirical data shows that ad hoc assumptions for choice of matrix are not justified</article-title>. <source xml:lang="en">BMC Evol. Biol.</source>
+<volume>6</volume>:<fpage>29</fpage>.<pub-id pub-id-type="pmid">16563161</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2148-6-29</pub-id><pub-id pub-id-type="pmcid">PMC1435933</pub-id></mixed-citation></ref><ref id="evl333-bib-0027"><mixed-citation publication-type="journal" id="evl333-cit-0027">
+<string-name name-style="western">
+<surname>Kearse</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Moir</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wilson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Stones‐Havas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Cheung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sturrock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Buxton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Cooper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Markowitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Duran</surname>
+</string-name>, et al. <year>2012</year>
+<article-title>Geneious basic: an integrated and extendable desktop software platform for the organization and analysis of sequence data</article-title>. <source xml:lang="en">Bioinformatics</source>
+<volume>28</volume>:<fpage>1647</fpage>–<lpage>1649</lpage>.<pub-id pub-id-type="pmid">22543367</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/bts199</pub-id><pub-id pub-id-type="pmcid">PMC3371832</pub-id></mixed-citation></ref><ref id="evl333-bib-0028"><mixed-citation publication-type="journal" id="evl333-cit-0028">
+<string-name name-style="western">
+<surname>Kimura</surname>, <given-names>M.</given-names>
+</string-name>
+<year>1957</year>
+<article-title>Some problems of stochastic‐processes in genetics</article-title>. <source xml:lang="en">Ann. Math. Stat.</source>
+<volume>28</volume>:<fpage>882</fpage>–<lpage>901</lpage>.</mixed-citation></ref><ref id="evl333-bib-0029"><mixed-citation publication-type="journal" id="evl333-cit-0029">
+<string-name name-style="western">
+<surname>Krause</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. H.</given-names>
+<surname>Dear</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Pollack</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Slatkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Spriggs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Barnes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Lister</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Ebersberger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pääbo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hofreiter</surname>
+</string-name>
+<year>2006</year>
+<article-title>Multiplex amplification of the mammoth mitochondrial genome and the evolution of Elephantidae</article-title>. <source xml:lang="en">Nature</source>
+<volume>439</volume>:<fpage>724</fpage>–<lpage>727</lpage>.<pub-id pub-id-type="pmid">16362058</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature04432</pub-id></mixed-citation></ref><ref id="evl333-bib-0030"><mixed-citation publication-type="journal" id="evl333-cit-0030">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Durbin</surname>
+</string-name>. <year>2010</year>
+<article-title>Fast and accurate long‐read alignment with Burrows‐Wheeler transform</article-title>. <source xml:lang="en">Bioinformatics</source>
+<volume>26</volume>:<fpage>589</fpage>–<lpage>595</lpage>.<pub-id pub-id-type="pmid">20080505</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp698</pub-id><pub-id pub-id-type="pmcid">PMC2828108</pub-id></mixed-citation></ref><ref id="evl333-bib-0031"><mixed-citation publication-type="journal" id="evl333-cit-0031">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Handsaker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wysoker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Fennell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ruan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Homer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Marth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Abecasis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Durbin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. P. D.</given-names>
+<surname>Proc</surname>
+</string-name>. <year>2009</year>
+<article-title>The sequence alignment/map format and SAMtools</article-title>. <source xml:lang="en">Bioinformatics</source>
+<volume>25</volume>:<fpage>2078</fpage>–<lpage>2079</lpage>.<pub-id pub-id-type="pmid">19505943</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp352</pub-id><pub-id pub-id-type="pmcid">PMC2723002</pub-id></mixed-citation></ref><ref id="evl333-bib-0032"><mixed-citation publication-type="journal" id="evl333-cit-0032">
+<string-name name-style="western">
+<surname>Lister</surname>, <given-names>A. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. V.</given-names>
+<surname>Sher</surname>
+</string-name>. <year>2001</year>
+<article-title>The origin and evolution of the woolly mammoth</article-title>. <source xml:lang="en">Science</source>
+<volume>294</volume>:<fpage>1094</fpage>–<lpage>1097</lpage>.<pub-id pub-id-type="pmid">11691991</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1056370</pub-id></mixed-citation></ref><ref id="evl333-bib-0033"><mixed-citation publication-type="journal" id="evl333-cit-0033">
+<string-name name-style="western">
+<surname>Lynch</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Conery</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Burger</surname>
+</string-name>. <year>1995</year>
+<article-title>Mutation accumulation and the extinction of small populations</article-title>. <source xml:lang="en">Am. Nat.</source>
+<volume>146</volume>:<fpage>489</fpage>–<lpage>518</lpage>.</mixed-citation></ref><ref id="evl333-bib-0034"><mixed-citation publication-type="journal" id="evl333-cit-0034">
+<string-name name-style="western">
+<surname>Meyer</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kircher</surname>
+</string-name>. <year>2010</year>
+<article-title>Illumina sequencing library preparation for highly multiplexed target capture and sequencing (Research Support, Non‐U.S. Gov't)</article-title>. <source xml:lang="en">Cold Spring Harbor Protocols</source>
+<volume>2010</volume>:<fpage>pdb prot5448</fpage>.<pub-id pub-id-type="pmid">20516186</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/pdb.prot5448</pub-id></mixed-citation></ref><ref id="evl333-bib-0035"><mixed-citation publication-type="journal" id="evl333-cit-0035">
+<string-name name-style="western">
+<surname>Mook</surname>, <given-names>W. G.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>van der Plicht</surname>
+</string-name>. <year>1999</year>
+<article-title>Reporting C‐14 activities and concentrations</article-title>. <source xml:lang="en">Radiocarbon</source>
+<volume>41</volume>:<fpage>227</fpage>–<lpage>239</lpage>.</mixed-citation></ref><ref id="evl333-bib-0036"><mixed-citation publication-type="journal" id="evl333-cit-0036">
+<string-name name-style="western">
+<surname>Nabholz</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Glemin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Galtier</surname>
+</string-name>. <year>2008</year>
+<article-title>Strong variations of mitochondrial mutation rate across mammals—the longevity hypothesis</article-title>. <source xml:lang="en">Mol. Biol. Evol.</source>
+<volume>25</volume>:<fpage>120</fpage>–<lpage>130</lpage>.<pub-id pub-id-type="pmid">17998254</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/molbev/msm248</pub-id></mixed-citation></ref><ref id="evl333-bib-0037"><mixed-citation publication-type="journal" id="evl333-cit-0037">
+<string-name name-style="western">
+<surname>Nyström</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Dalén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Vartanyan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Lidén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Ryman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Angerbjörn</surname>
+</string-name>. <year>2010</year>
+<article-title>Temporal genetic change in the last remaining population of woolly mammoth</article-title>. <source xml:lang="en">P Roy Soc. B Biol. Sci.</source>
+<volume>277</volume>:<fpage>2331</fpage>–<lpage>2337</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2010.0301</pub-id><pub-id pub-id-type="pmcid">PMC2894910</pub-id><pub-id pub-id-type="pmid">20356891</pub-id></mixed-citation></ref><ref id="evl333-bib-0038"><mixed-citation publication-type="journal" id="evl333-cit-0038">
+<string-name name-style="western">
+<surname>Nyström</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Humphrey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Skoglund</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>McKeown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Vartanyan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. W.</given-names>
+<surname>Shaw</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Lidén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jakobsson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Barnes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Angerbjörn</surname>
+</string-name>, et al. <year>2012</year>
+<article-title>Microsatellite genotyping reveals end‐Pleistocene decline in mammoth autosomal genetic variation</article-title>. <source xml:lang="en">Mol. Ecol.</source>
+<volume>21</volume>:<fpage>3391</fpage>–<lpage>3402</lpage>.<pub-id pub-id-type="pmid">22443459</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-294X.2012.05525.x</pub-id></mixed-citation></ref><ref id="evl333-bib-0039"><mixed-citation publication-type="journal" id="evl333-cit-0039">
+<string-name name-style="western">
+<surname>Ohta</surname>, <given-names>T.</given-names>
+</string-name>
+<year>1992</year>
+<article-title>The nearly neutral theory of molecular evolution</article-title>. <source xml:lang="en">Annu. Rev. Ecol. Syst.</source>
+<volume>23</volume>:<fpage>263</fpage>–<lpage>286</lpage>.</mixed-citation></ref><ref id="evl333-bib-0040"><mixed-citation publication-type="journal" id="evl333-cit-0040">
+<string-name name-style="western">
+<surname>Palkopoulou</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Dalén</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Lister</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Vartanyan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sablin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. N.</given-names>
+<surname>Edmark</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Brandstrom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Germonpre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Barnes</surname>
+</string-name>, et al. <year>2013</year>
+<article-title>Holarctic genetic structure and range dynamics in the woolly mammoth</article-title>. <source xml:lang="en">P Roy Soc. B Biol. Sci.</source>
+<volume>280</volume>:<fpage>20131910</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2013.1910</pub-id><pub-id pub-id-type="pmcid">PMC3779339</pub-id><pub-id pub-id-type="pmid">24026825</pub-id></mixed-citation></ref><ref id="evl333-bib-0041"><mixed-citation publication-type="journal" id="evl333-cit-0041">
+<string-name name-style="western">
+<surname>Palkopoulou</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mallick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Skoglund</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Enk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Rohland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Omrak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Vartanyan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Poinar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Götherstrom</surname>
+</string-name>, et al. <year>2015</year>
+<article-title>Complete genomes reveal signatures of demographic and genetic declines in the woolly mammoth</article-title>. <source xml:lang="en">Curr. Biol.</source>
+<volume>25</volume>:<fpage>1395</fpage>–<lpage>1400</lpage>.<pub-id pub-id-type="pmid">25913407</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cub.2015.04.007</pub-id><pub-id pub-id-type="pmcid">PMC4439331</pub-id></mixed-citation></ref><ref id="evl333-bib-0042"><mixed-citation publication-type="journal" id="evl333-cit-0042">
+<string-name name-style="western">
+<surname>Poinar</surname>, <given-names>H. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Qi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shapiro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. D. E.</given-names>
+<surname>MacPhee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Buigues</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Tikhonov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Huson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. P.</given-names>
+<surname>Tomsho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Auch</surname>
+</string-name>, et al. <year>2006</year>
+<article-title>Metagenomics to paleogenomics: large‐scale sequencing of mammoth DNA</article-title>. <source xml:lang="en">Science</source>
+<volume>311</volume>:<fpage>392</fpage>–<lpage>394</lpage>
+<pub-id pub-id-type="pmid">16368896</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1123360</pub-id></mixed-citation></ref><ref id="evl333-bib-0043"><mixed-citation publication-type="journal" id="evl333-cit-0043">
+<string-name name-style="western">
+<surname>Prufer</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Racimo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Patterson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sankararaman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sawyer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Heinze</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Renaud</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. H.</given-names>
+<surname>Sudmant</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>de Filippo</surname>
+</string-name>, et al. <year>2014</year>
+<article-title>The complete genome sequence of a Neanderthal from the Altai Mountains</article-title>. <source xml:lang="en">Nature</source>
+<volume>505</volume>:<fpage>43</fpage>‐+.<pub-id pub-id-type="pmid">24352235</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12886</pub-id><pub-id pub-id-type="pmcid">PMC4031459</pub-id></mixed-citation></ref><ref id="evl333-bib-0044"><mixed-citation publication-type="miscellaneous" id="evl333-cit-0044">
+<string-name name-style="western">
+<surname>Rambaut</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Suchard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Drummond</surname>
+</string-name>. <year>2014</year> ‘<article-title>Tracer’ 1.6. Available at</article-title>: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://beast.bio.ed.ac.uk/Tracer">http://beast.bio.ed.ac.uk/Tracer</ext-link>.</mixed-citation></ref><ref id="evl333-bib-0045"><mixed-citation publication-type="journal" id="evl333-cit-0045">
+<string-name name-style="western">
+<surname>Ramsey</surname>, <given-names>C. B.</given-names>
+</string-name>
+<year>2009</year>
+<article-title>Bayesian Analysis of Radiocarbon Dates</article-title>. <source xml:lang="en">Radiocarbon</source>
+<volume>51</volume>:<fpage>337</fpage>–<lpage>360</lpage>.</mixed-citation></ref><ref id="evl333-bib-0046"><mixed-citation publication-type="journal" id="evl333-cit-0046">
+<string-name name-style="western">
+<surname>Reimer</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Bard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bayliss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. W.</given-names>
+<surname>Beck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. G.</given-names>
+<surname>Blackwell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. B.</given-names>
+<surname>Ramsey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Buck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Edwards</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Friedrich</surname>
+</string-name>, et al. <year>2013</year>
+<article-title>Intcal13 and marine13 radiocarbon age calibration curves 0–50,000 years Cal Bp</article-title>. <source xml:lang="en">Radiocarbon</source>
+<volume>55</volume>:<fpage>1869</fpage>–<lpage>1887</lpage>.</mixed-citation></ref><ref id="evl333-bib-0047"><mixed-citation publication-type="journal" id="evl333-cit-0047">
+<string-name name-style="western">
+<surname>Rogaev</surname>, <given-names>E. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y. K.</given-names>
+<surname>Moliaka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Malyarchuk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. A.</given-names>
+<surname>Kondrashov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. V.</given-names>
+<surname>Derenko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Chumakov</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Grigorenko</surname>
+</string-name>. <year>2006</year>
+<article-title>Complete mitochondrial genome and phylogeny of Pleistocene mammoth <italic toggle="yes">Mammuthus primigenius</italic>
+</article-title>. <source xml:lang="en">PLoS Biol.</source>
+<volume>4</volume>:<fpage>403</fpage>–<lpage>410</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.0040073</pub-id><pub-id pub-id-type="pmcid">PMC1360101</pub-id><pub-id pub-id-type="pmid">16448217</pub-id></mixed-citation></ref><ref id="evl333-bib-0048"><mixed-citation publication-type="journal" id="evl333-cit-0048">
+<string-name name-style="western">
+<surname>Rogers</surname>, <given-names>R. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Slatkin</surname>
+</string-name>. <year>2017</year>
+<article-title>Excess of genomic defects in a woolly mammoth on Wrangel island</article-title>. <source xml:lang="en">PLoS Genet.</source>
+<volume>13</volume>:<fpage>e1006601</fpage>.<pub-id pub-id-type="pmid">28253255</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1006601</pub-id><pub-id pub-id-type="pmcid">PMC5333797</pub-id></mixed-citation></ref><ref id="evl333-bib-0049"><mixed-citation publication-type="journal" id="evl333-cit-0049">
+<string-name name-style="western">
+<surname>Rohland</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Malaspinas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Pollack</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Slatkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Matheus</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hofreiter</surname>
+</string-name>. <year>2007</year>
+<article-title>Proboscidean mitogenomics: chronology and mode of elephant evolution using mastodon as outgroup</article-title>. <source xml:lang="en">PLoS Biol.</source>
+<volume>5</volume>:<fpage>1663</fpage>–<lpage>1671</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.0050207</pub-id><pub-id pub-id-type="pmcid">PMC1925134</pub-id><pub-id pub-id-type="pmid">17676977</pub-id></mixed-citation></ref><ref id="evl333-bib-0050"><mixed-citation publication-type="journal" id="evl333-cit-0050">
+<string-name name-style="western">
+<surname>Stuart</surname>, <given-names>A. J.</given-names>
+</string-name>
+<year>1991</year>
+<article-title>Mammalian extinctions in the Late Pleistocene of Northern Eurasia and North‐America</article-title>. <source xml:lang="en">Biol. Rev. Camb. Philos. Soc.</source>
+<volume>66</volume>:<fpage>453</fpage>–<lpage>562</lpage>.<pub-id pub-id-type="pmid">1801948</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1469-185x.1991.tb01149.x</pub-id></mixed-citation></ref><ref id="evl333-bib-0051"><mixed-citation publication-type="journal" id="evl333-cit-0051">
+<string-name name-style="western">
+<surname>Stuart</surname>, <given-names>A. J.</given-names>
+</string-name>
+<year>2005</year>
+<article-title>The extinction of woolly mammoth (<italic toggle="yes">Mammuthus primigenius</italic>) and straight‐tusked elephant (<italic toggle="yes">Palaeoloxodon antiquus</italic>) in Europe</article-title>. <source xml:lang="en">Quatern. Int.</source>
+<volume>126</volume>:<fpage>171</fpage>–<lpage>177</lpage>.</mixed-citation></ref><ref id="evl333-bib-0052"><mixed-citation publication-type="journal" id="evl333-cit-0052">
+<string-name name-style="western">
+<surname>Stuart</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Sulerzhitsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Orlova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. V.</given-names>
+<surname>Kuzmin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Lister</surname>
+</string-name>. <year>2002</year>
+<article-title>The latest woolly mammoths (<italic toggle="yes">Mammuthus primigenius</italic> Blumenbach) in Europe and Asia: a review of the current evidence</article-title>. <source xml:lang="en">Quatern. Sci. Rev.</source>
+<volume>21</volume>:<fpage>1559</fpage>–<lpage>1569</lpage>.</mixed-citation></ref><ref id="evl333-bib-0053"><mixed-citation publication-type="journal" id="evl333-cit-0053">
+<string-name name-style="western">
+<surname>Vantourout</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Radojkovic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Lichtenstein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Pons</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Champagne</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. O.</given-names>
+<surname>Martinez</surname>
+</string-name>. <year>2010</year>
+<article-title>Ecto‐F‐1‐ATPase: a moonlighting protein complex and an unexpected apoA‐I receptor</article-title>. <source xml:lang="en">World J. Gastroentero.</source>
+<volume>16</volume>:<fpage>5925</fpage>–<lpage>5935</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3748/wjg.v16.i47.5925</pub-id><pub-id pub-id-type="pmcid">PMC3007107</pub-id><pub-id pub-id-type="pmid">21157968</pub-id></mixed-citation></ref><ref id="evl333-bib-0054"><mixed-citation publication-type="journal" id="evl333-cit-0054">
+<string-name name-style="western">
+<surname>Vartanyan</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Arslanov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Karhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Possnert</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>Sulerzhitsky</surname>
+</string-name>. <year>2008</year>
+<article-title>Collection of radiocarbon dates on the mammoths (<italic toggle="yes">Mammuthus primigenius</italic>) and other genera of Wrangel Island, northeast Siberia, Russia</article-title>. <source xml:lang="en">Quatern. Res.</source>
+<volume>70</volume>:<fpage>51</fpage>–<lpage>59</lpage>.</mixed-citation></ref><ref id="evl333-bib-0055"><mixed-citation publication-type="journal" id="evl333-cit-0055">
+<string-name name-style="western">
+<surname>Vartanyan</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Arslanov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. V.</given-names>
+<surname>Tertychnaya</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. B.</given-names>
+<surname>Chernov</surname>
+</string-name>. <year>1995</year>
+<article-title>Radiocarbon dating evidence for mammoths on Wrangel Island, Arctic‐Ocean, until 2000‐Bc</article-title>. <source xml:lang="en">Radiocarbon</source>
+<volume>37</volume>:<fpage>1</fpage>–<lpage>6</lpage>.</mixed-citation></ref><ref id="evl333-bib-0056"><mixed-citation publication-type="journal" id="evl333-cit-0056">
+<string-name name-style="western">
+<surname>Vartanyan</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V. E.</given-names>
+<surname>Garutt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. V.</given-names>
+<surname>Sher</surname>
+</string-name>. <year>1993</year>
+<article-title>Holocene dwarf mammoths from Wrangel‐Island in the Siberian Arctic</article-title>. <source xml:lang="en">Nature</source>
+<volume>362</volume>:<fpage>337</fpage>–<lpage>340</lpage>.<pub-id pub-id-type="pmid">29633990</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/362337a0</pub-id></mixed-citation></ref><ref id="evl333-bib-0057"><mixed-citation publication-type="journal" id="evl333-cit-0057">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>D. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Eng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Waye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Dudar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Saunders</surname>
+</string-name>. <year>1998</year>
+<article-title>Technical note: improved DNA extraction from ancient bones using silica‐based spin columns</article-title>. <source xml:lang="en">Am. J. Phys. Anthropol.</source>
+<volume>105</volume>:<fpage>539</fpage>–<lpage>543</lpage>.<pub-id pub-id-type="pmid">9584894</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/(SICI)1096-8644(199804)105:4&lt;539::AID-AJPA10&gt;3.0.CO;2-1</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

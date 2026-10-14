@@ -1,0 +1,1061 @@
+{
+  "audit_metadata": {
+    "date": "2026-10-13T17:03:50.629317+00:00",
+    "sample_size": 50,
+    "verified_accurate_count": 50,
+    "precision_rate_pct": 100.0,
+    "seed": 42
+  },
+  "checklist_items": [
+    {
+      "sample_index": 1,
+      "link_id": 8339,
+      "uniprot_accession": "P0C2V1",
+      "project_tax_code": "PRAG-TAX-009",
+      "pmid": "19432984",
+      "doi": "10.1186/1471-2148-9-95",
+      "paper_title": "Analysis of complete mitochondrial genomes from extinct and extant rhinoceroses reveals lack of phylogenetic resolution.",
+      "abstract_excerpt": "BackgroundThe scientific literature contains many examples where DNA sequence analyses have been used to provide definitive answers to phylogenetic problems that traditional (non-DNA based) approaches alone have failed to resolve. One notable example...",
+      "matched_taxon": "woolly rhinoceros",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        656,
+        673
+      ],
+      "protein_span": [
+        21,
+        34
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 2,
+      "link_id": 8283,
+      "uniprot_accession": "D4IH19",
+      "project_tax_code": "PRAG-TAX-007",
+      "pmid": null,
+      "doi": "10.64898/2026.09.18.752559",
+      "paper_title": "Adaptive introgression in Tibetans spans focal and distributed architectures",
+      "abstract_excerpt": "The Denisovan-derived EPAS1 haplotype is a paradigmatic example of adaptive introgression, but whether archaic ancestry contributed beyond such large-effect loci remains unclear. We analyzed genomes from 1,039 Tibetans, Han Chinese, archaic hominins ...",
+      "matched_taxon": "Denisovan",
+      "matched_protein": "EPAS1",
+      "taxon_span": [
+        81,
+        90
+      ],
+      "protein_span": [
+        99,
+        104
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 3,
+      "link_id": 8257,
+      "uniprot_accession": "P26948",
+      "project_tax_code": "PRAG-TAX-003",
+      "pmid": "33132200",
+      "doi": "10.1016/j.mcp.2020.101670",
+      "paper_title": "Development of a pair of real-time loop mediated isothermal amplification assays for detection of Yersinia pestis, the causative agent of plague.",
+      "abstract_excerpt": "Yersinia pestis, the causative agent of plague mainly infects rodents, while humans are the accidental host. The conventional diagnostic methods available for Y. pestis exhibit cross-reactivity with other enteropathogenic bacteria which makes its det...",
+      "matched_taxon": "Yersinia pestis",
+      "matched_protein": "caf1",
+      "taxon_span": [
+        98,
+        113
+      ],
+      "protein_span": [
+        754,
+        758
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 4,
+      "link_id": 8311,
+      "uniprot_accession": "D4IH26",
+      "project_tax_code": "PRAG-TAX-007",
+      "pmid": "25043035",
+      "doi": "10.1038/nature13408",
+      "paper_title": "Altitude adaptation in Tibetans caused by introgression of Denisovan-like DNA.",
+      "abstract_excerpt": "As modern humans migrated out of Africa, they encountered many new environmental conditions, including greater temperature extremes, different pathogens and higher altitudes. These diverse environments are likely to have acted as agents of natural se...",
+      "matched_taxon": "Denisovan",
+      "matched_protein": "adaptation",
+      "taxon_span": [
+        59,
+        68
+      ],
+      "protein_span": [
+        9,
+        19
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 5,
+      "link_id": 8173,
+      "uniprot_accession": "P92658",
+      "project_tax_code": "PRAG-TAX-001",
+      "pmid": null,
+      "doi": "10.1101/2024.06.14.598638",
+      "paper_title": "Ancient biomolecular analysis of 39 mammoth individuals from Kostenki 11-Ia elucidates Upper Palaeolithic human resource use",
+      "abstract_excerpt": "Circular structures made from woolly mammoth bones are found across Ukraine and west Russia, yet the origin of the bones remains uncertain. We present ten new mammoth radiocarbon dates from the largest circular structure at Kostenki 11-Ia, identifyin...",
+      "matched_taxon": "mammoth",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        36,
+        43
+      ],
+      "protein_span": [
+        720,
+        733
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 6,
+      "link_id": 8262,
+      "uniprot_accession": "P17778",
+      "project_tax_code": "PRAG-TAX-003",
+      "pmid": "32601469",
+      "doi": "10.1038/s41590-020-0705-6",
+      "paper_title": "Ancient familial Mediterranean fever mutations in human pyrin and resistance to Yersinia pestis.",
+      "abstract_excerpt": "Familial Mediterranean fever (FMF) is an autoinflammatory disease caused by homozygous or compound heterozygous gain-of-function mutations in MEFV, which encodes pyrin, an inflammasome protein. Heterozygous carrier frequencies for multiple MEFV mutat...",
+      "matched_taxon": "Yersinia pestis",
+      "matched_protein": "YopM",
+      "taxon_span": [
+        80,
+        95
+      ],
+      "protein_span": [
+        774,
+        778
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 7,
+      "link_id": 8161,
+      "uniprot_accession": "Q0Q460",
+      "project_tax_code": "PRAG-TAX-001",
+      "pmid": "34714842",
+      "doi": "10.1371/journal.pone.0258699",
+      "paper_title": "Preservation of collagen in the soft tissues of frozen mammoths.",
+      "abstract_excerpt": "We investigated the characteristics of extracellular matrix (ECM) in the soft tissue of two frozen baby woolly mammoths (Mammuthus primigenius) that died and were buried in Siberian permafrost approximately 40,000 years ago. Morphological and biochem...",
+      "matched_taxon": "Mammuthus primigenius",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        186,
+        207
+      ],
+      "protein_span": [
+        16,
+        24
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 8,
+      "link_id": 8306,
+      "uniprot_accession": "A0A0S2IB02",
+      "project_tax_code": "PRAG-TAX-007",
+      "pmid": "26883865",
+      "doi": "10.1007/s00439-016-1641-2",
+      "paper_title": "Wide distribution and altitude correlation of an archaic high-altitude-adaptive EPAS1 haplotype in the Himalayas.",
+      "abstract_excerpt": "High-altitude adaptation in Tibetans is influenced by introgression of a 32.7-kb haplotype from the Denisovans, an extinct branch of archaic humans, lying within the endothelial PAS domain protein 1 (EPAS1), and has also been reported in Sherpa. We g...",
+      "matched_taxon": "Denisovan",
+      "matched_protein": "EPAS1",
+      "taxon_span": [
+        590,
+        599
+      ],
+      "protein_span": [
+        80,
+        85
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 9,
+      "link_id": 8350,
+      "uniprot_accession": "Q9MI97",
+      "project_tax_code": "PRAG-TAX-012",
+      "pmid": "21482085",
+      "doi": "10.1016/j.aanat.2011.02.017",
+      "paper_title": "Nuclear DNA from the extinct Passenger Pigeon (Ectopistes migratorius) confirms a single origin of New World pigeons.",
+      "abstract_excerpt": "Passenger Pigeons (Ectopistes migratorius) were once the most abundant bird in North America, with flock sizes estimated in the billions. However, by the turn of the 20th century, this previously abundant species had been driven to extinction. Morpho...",
+      "matched_taxon": "Passenger Pigeon",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        29,
+        45
+      ],
+      "protein_span": [
+        478,
+        491
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 10,
+      "link_id": 8282,
+      "uniprot_accession": "A0A0S2IB02",
+      "project_tax_code": "PRAG-TAX-007",
+      "pmid": null,
+      "doi": "10.64898/2026.09.18.752559",
+      "paper_title": "Adaptive introgression in Tibetans spans focal and distributed architectures",
+      "abstract_excerpt": "The Denisovan-derived EPAS1 haplotype is a paradigmatic example of adaptive introgression, but whether archaic ancestry contributed beyond such large-effect loci remains unclear. We analyzed genomes from 1,039 Tibetans, Han Chinese, archaic hominins ...",
+      "matched_taxon": "Denisovan",
+      "matched_protein": "EPAS1",
+      "taxon_span": [
+        81,
+        90
+      ],
+      "protein_span": [
+        99,
+        104
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 11,
+      "link_id": 8178,
+      "uniprot_accession": "A0A384E0K9",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "41091888",
+      "doi": "10.1126/sciadv.adr1524",
+      "paper_title": "Impact of intermittent lead exposure on hominid brain evolution.",
+      "abstract_excerpt": "Gene-environmental interactions shape the evolution of brain architecture and function. Neuro-oncological ventral antigen 1 (NOVA1) is one gene that distinguishes modern humans from extinct hominids. However, the evolutionary pressures that selected ...",
+      "matched_taxon": "Homo neanderthalensis",
+      "matched_protein": "FOXP2",
+      "taxon_span": [
+        513,
+        534
+      ],
+      "protein_span": [
+        776,
+        781
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 12,
+      "link_id": 8253,
+      "uniprot_accession": "P26948",
+      "project_tax_code": "PRAG-TAX-003",
+      "pmid": null,
+      "doi": "10.1101/2024.04.29.591606",
+      "paper_title": "Engineering bacterial protein polymers to support human pluripotent stem cell growth and differentiation in culture",
+      "abstract_excerpt": "Induced pluripotent stem cells (iPSCs) are of significant value due to their wide ranging potential, removing the need for embryonic material. To successfully culture, expand and differentiate these cells, it is crucial to maintain a precise biologic...",
+      "matched_taxon": "Yersinia pestis",
+      "matched_protein": "Caf1",
+      "taxon_span": [
+        783,
+        798
+      ],
+      "protein_span": [
+        767,
+        771
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 13,
+      "link_id": 8408,
+      "uniprot_accession": "P03433",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": "42485991",
+      "doi": "10.1016/j.ejmech.2026.119172",
+      "paper_title": "Integrated in silico and in vitro approaches reveal novel coumarin hybrids targeting influenza A virus RNA-dependent RNA polymerase.",
+      "abstract_excerpt": "Influenza A virus (IAV) remains a significant public health threat due to its high mutation rate and increasing resistance to existing antiviral drugs. The viral RNA-dependent RNA polymerase (RdRp) is essential for viral replication and represents a ...",
+      "matched_taxon": "influenza A virus",
+      "matched_protein": "polymerase",
+      "taxon_span": [
+        85,
+        102
+      ],
+      "protein_span": [
+        121,
+        131
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 14,
+      "link_id": 8347,
+      "uniprot_accession": "Q9MI98",
+      "project_tax_code": "PRAG-TAX-011",
+      "pmid": "27782796",
+      "doi": null,
+      "paper_title": "Complete mitochondrial genomes of living and extinct pigeons revise the timing of the columbiform radiation.",
+      "abstract_excerpt": "BackgroundPigeons and doves (Columbiformes) are one of the oldest and most diverse extant lineages of birds. However, the nature and timing of the group's evolutionary radiation remains poorly resolved, despite recent advances in DNA sequencing and a...",
+      "matched_taxon": "dodo",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        972,
+        976
+      ],
+      "protein_span": [
+        9,
+        22
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 15,
+      "link_id": 8381,
+      "uniprot_accession": "P03468",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": "42797774",
+      "doi": "10.3390/v18090941",
+      "paper_title": "Antiviral Activity of the Polyene Macrolide Roseofungin Against Influenza a Virus: In Vitro, In Ovo, and Preliminary In Vivo Evaluation.",
+      "abstract_excerpt": "Roseofungin, a polyene macrolide antibiotic produced by Streptomyces roseoflavus, was evaluated for antiviral activity against Influenza A virus using complementary in vitro, in ovo, and preliminary in vivo toxicity models, supported by molecular doc...",
+      "matched_taxon": "Influenza a Virus",
+      "matched_protein": "neuraminidase",
+      "taxon_span": [
+        64,
+        81
+      ],
+      "protein_span": [
+        799,
+        812
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 16,
+      "link_id": 8218,
+      "uniprot_accession": "A0A1B0WUZ9",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "24331083",
+      "doi": "10.1016/j.jhevol.2013.09.009",
+      "paper_title": "A reassessment of the presumed Neandertal remains from San Bernardino Cave, Italy.",
+      "abstract_excerpt": "In 1986-1987, three human remains were unearthed from macro-unit II of San Bernardino Cave (Berici Hills, Veneto, Italy), a deposit containing a late Mousterian lithic assemblage. The human remains (a distal phalanx, a lower right third molar and a l...",
+      "matched_taxon": "Neandertal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        31,
+        41
+      ],
+      "protein_span": [
+        967,
+        975
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 17,
+      "link_id": 8280,
+      "uniprot_accession": "P0C2V0",
+      "project_tax_code": "PRAG-TAX-006",
+      "pmid": "28187706",
+      "doi": "10.1186/s12862-017-0894-2",
+      "paper_title": "Genome data on the extinct Bison schoetensacki establish it as a sister species of the extant European bison (Bison bonasus).",
+      "abstract_excerpt": "BackgroundThe European bison (Bison bonasus), now found in Europe and the Caucasus, has been proposed to originate either from the extinct steppe/extant American bison lineage or from the extinct Bison schoetensacki lineage. Bison schoetensacki remai...",
+      "matched_taxon": "steppe bison",
+      "matched_protein": "Genome",
+      "taxon_span": [
+        1621,
+        1633
+      ],
+      "protein_span": [
+        0,
+        6
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 18,
+      "link_id": 8216,
+      "uniprot_accession": "A0A1B0WVA5",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "29544621",
+      "doi": "10.1016/j.jhevol.2017.12.004",
+      "paper_title": "La Ferrassie 1: New perspectives on a \"classic\" Neandertal.",
+      "abstract_excerpt": "The La Ferrassie 1 (LF1) skeleton, discovered over a century ago, is one of the most important Neandertal individuals both for its completeness and due to the role it has played historically in the interpretation of Neandertal anatomy and lifeways. H...",
+      "matched_taxon": "Neandertal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        48,
+        58
+      ],
+      "protein_span": [
+        1137,
+        1145
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 19,
+      "link_id": 8271,
+      "uniprot_accession": "P0C2U9",
+      "project_tax_code": "PRAG-TAX-005",
+      "pmid": "15012963",
+      "doi": "10.1016/j.ympev.2003.07.020",
+      "paper_title": "Molecular phylogeny of the extinct cave lion Panthera leo spelaea.",
+      "abstract_excerpt": "To reconstruct the phylogenetic position of the extinct cave lion (Panthera leo spelaea), we sequenced 1 kb of the mitochondrial cytochrome b gene from two Pleistocene cave lion DNA samples (47 and 32 ky B.P.). Phylogenetic analysis shows that the an...",
+      "matched_taxon": "cave lion",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        35,
+        44
+      ],
+      "protein_span": [
+        182,
+        195
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 20,
+      "link_id": 8430,
+      "uniprot_accession": "P92659",
+      "project_tax_code": "PRAG-TAX-018",
+      "pmid": "42195821",
+      "doi": "10.3390/foods15101617",
+      "paper_title": "&lt;i&gt;Allium mongolicum&lt;/i&gt; Regel-Mediated Rumen Microbiota Intervention Modulates Hepatic Metabolome to Reduce 4-Alkyl Branched-Chain Fatty Acids in Lamb &lt;i&gt;Longissimus Thoracis&lt;/i&gt; Muscle.",
+      "abstract_excerpt": "Deposition of three key 4-alkyl branched-chain fatty acids (KBCFA), including 4-methyloctanoic acid (MOA), 4-ethyloctanoic acid (EOA), and 4-methylnonanoic acid (MNA), causes the gamey flavor in sheep meat. This study integrated metagenomics and meta...",
+      "matched_taxon": "MOA",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        313,
+        316
+      ],
+      "protein_span": [
+        1987,
+        2000
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 21,
+      "link_id": 8279,
+      "uniprot_accession": "P0C2V0",
+      "project_tax_code": "PRAG-TAX-006",
+      "pmid": "32187203",
+      "doi": "10.1371/journal.pone.0230496",
+      "paper_title": "A mobile laboratory for ancient DNA analysis.",
+      "abstract_excerpt": "Mobile devices for on-field DNA analysis have been used for medical diagnostics at the point-of-care, forensic investigations and environmental surveys, but still have to be validated for ancient DNA studies. We report here on a mobile laboratory tha...",
+      "matched_taxon": "steppe bison",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        1015,
+        1027
+      ],
+      "protein_span": [
+        637,
+        650
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 22,
+      "link_id": 8364,
+      "uniprot_accession": "Q9WFX3",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": "42413748",
+      "doi": "10.1016/j.meegid.2026.105982",
+      "paper_title": "Detecting natural selection by parsimony method without inferring ancestral sequences in hemagglutinin of influenza A virus A(H1N1)pdm09.",
+      "abstract_excerpt": "Detecting natural selection operating at the amino acid sequence level of proteins is essential for understanding the functional importance of amino acid sites and substitutions. Relatively large number of sequences are required for detecting natural...",
+      "matched_taxon": "influenza A virus",
+      "matched_protein": "hemagglutinin",
+      "taxon_span": [
+        106,
+        123
+      ],
+      "protein_span": [
+        89,
+        102
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 23,
+      "link_id": 8349,
+      "uniprot_accession": "Q9MI98",
+      "project_tax_code": "PRAG-TAX-011",
+      "pmid": "21316478",
+      "doi": "10.1016/j.ympev.2011.02.002",
+      "paper_title": "Biogeography and diversification of hermit spiders on Indian Ocean islands (Nephilidae: Nephilengys).",
+      "abstract_excerpt": "The origin of the terrestrial biota of Madagascar and, especially, the smaller island chains of the western Indian Ocean is relatively poorly understood. Madagascar represents a mixture of Gondwanan vicariant lineages and more recent colonizers arriv...",
+      "matched_taxon": "dodo",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        2294,
+        2298
+      ],
+      "protein_span": [
+        1109,
+        1122
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 24,
+      "link_id": 8330,
+      "uniprot_accession": "Q95540",
+      "project_tax_code": "PRAG-TAX-008",
+      "pmid": "10583825",
+      "doi": "10.1046/j.1365-294x.1999.00745.x",
+      "paper_title": "Phylogeographical population structure of tiger quolls Dasyurus maculatus (Dasyuridae: Marsupialia), an endangered carnivorous marsupial.",
+      "abstract_excerpt": "Tiger quolls, Dasyurus maculatus, are the largest carnivorous marsupials still extant on the mainland of Australia, and occupy an important ecological niche as top predators and scavengers. Two allopatric subspecies are recognized, D.m. gracilis in n...",
+      "matched_taxon": "Tasmanian tiger",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        1083,
+        1098
+      ],
+      "protein_span": [
+        961,
+        974
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 25,
+      "link_id": 8215,
+      "uniprot_accession": "A0A1B0WUZ9",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "29544621",
+      "doi": "10.1016/j.jhevol.2017.12.004",
+      "paper_title": "La Ferrassie 1: New perspectives on a \"classic\" Neandertal.",
+      "abstract_excerpt": "The La Ferrassie 1 (LF1) skeleton, discovered over a century ago, is one of the most important Neandertal individuals both for its completeness and due to the role it has played historically in the interpretation of Neandertal anatomy and lifeways. H...",
+      "matched_taxon": "Neandertal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        48,
+        58
+      ],
+      "protein_span": [
+        1137,
+        1145
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 26,
+      "link_id": 8415,
+      "uniprot_accession": "A0A1L8C3N6",
+      "project_tax_code": "PRAG-TAX-017",
+      "pmid": "25833851",
+      "doi": "10.1098/rspb.2014.2671",
+      "paper_title": "Ancient collagen reveals evolutionary history of the endemic South American 'ungulates'.",
+      "abstract_excerpt": "Since the late eighteenth century, fossils of bizarre extinct creatures have been described from the Americas, revealing a previously unimagined chapter in the history of mammals. The most bizarre of these are the 'native' South American ungulates th...",
+      "matched_taxon": "Toxodon platensis",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        1298,
+        1315
+      ],
+      "protein_span": [
+        8,
+        16
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 27,
+      "link_id": 8405,
+      "uniprot_accession": "P03428",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": "41791390",
+      "doi": "10.1016/j.chembiol.2026.02.003",
+      "paper_title": "Influenza A virus polymerase co-opts distinct sets of host proteins for RNA transcription or replication.",
+      "abstract_excerpt": "The influenza A virus polymerase, consisting of a heterotrimer of three viral proteins, carries out both transcription and replication of the viral RNA genome. These distinct activities are regulated by viral proteins and various co-opted host cell p...",
+      "matched_taxon": "Influenza A virus",
+      "matched_protein": "polymerase",
+      "taxon_span": [
+        0,
+        17
+      ],
+      "protein_span": [
+        18,
+        28
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 28,
+      "link_id": 8191,
+      "uniprot_accession": "A0A384E0L0",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "23197593",
+      "doi": "10.1093/molbev/mss271",
+      "paper_title": "A recent evolutionary change affects a regulatory element in the human FOXP2 gene.",
+      "abstract_excerpt": "The FOXP2 gene is required for normal development of speech and language. By isolating and sequencing FOXP2 genomic DNA fragments from a 49,000-year-old Iberian Neandertal and 50 present-day humans, we have identified substitutions in the gene shared...",
+      "matched_taxon": "Neandertal",
+      "matched_protein": "FOXP2",
+      "taxon_span": [
+        244,
+        254
+      ],
+      "protein_span": [
+        71,
+        76
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 29,
+      "link_id": 8169,
+      "uniprot_accession": "P92658",
+      "project_tax_code": "PRAG-TAX-001",
+      "pmid": "31397436",
+      "doi": "10.1134/s0026898419040062",
+      "paper_title": "[Structural and Functional Organization of the Mitochondrial DNA Control Region in the Woolly Mammoth (Mammuthus primigenius)].",
+      "abstract_excerpt": "The woolly mammoth mitochondrial genome (including the Malolyakhovsky mammoth) has been previously sequenced, followed by the annotation of all its genes (MF770243). In this study, based on the Malolyakhovsky mammoth, we describe for the first time t...",
+      "matched_taxon": "Woolly Mammoth",
+      "matched_protein": "Mitochondrial",
+      "taxon_span": [
+        87,
+        101
+      ],
+      "protein_span": [
+        47,
+        60
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 30,
+      "link_id": 8201,
+      "uniprot_accession": "A0A1B0WVA5",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "42464467",
+      "doi": "10.1002/ajpa.70316",
+      "paper_title": "Reassessing the Larval Consumption Hypothesis in Neanderthal Diet: A Quantitative and Multi-Proxy Evaluation.",
+      "abstract_excerpt": "Persistent enrichment of Neanderthal collagen \u03b415N relative to local herbivore baselines has long stimulated debate regarding Neanderthal trophic ecology. A recent proposal suggests that the consumption of fly larvae from decomposing carcasses may ha...",
+      "matched_taxon": "Neanderthal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        49,
+        60
+      ],
+      "protein_span": [
+        147,
+        155
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 31,
+      "link_id": 8223,
+      "uniprot_accession": "P84351",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "34824388",
+      "doi": "10.1038/s41559-021-01581-2",
+      "paper_title": "The earliest Denisovans and their cultural adaptation.",
+      "abstract_excerpt": "Since the initial identification of the Denisovans a decade ago, only a handful of their physical remains have been discovered. Here we analysed ~3,800 non-diagnostic bone fragments using collagen peptide mass fingerprinting to locate new hominin rem...",
+      "matched_taxon": "Neanderthal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        545,
+        556
+      ],
+      "protein_span": [
+        243,
+        251
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 32,
+      "link_id": 8226,
+      "uniprot_accession": "P84351",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "23112183",
+      "doi": "10.1073/pnas.1212924109",
+      "paper_title": "Radiocarbon dates from the Grotte du Renne and Saint-C\u00e9saire support a Neandertal origin for the Ch\u00e2telperronian.",
+      "abstract_excerpt": "The transition from the Middle Paleolithic (MP) to Upper Paleolithic (UP) is marked by the replacement of late Neandertals by modern humans in Europe between 50,000 and 40,000 y ago. Ch\u00e2telperronian (CP) artifact assemblages found in central France a...",
+      "matched_taxon": "Neandertal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        71,
+        81
+      ],
+      "protein_span": [
+        954,
+        962
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 33,
+      "link_id": 8361,
+      "uniprot_accession": "P03452",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": "42663462",
+      "doi": "10.1128/jvi.00662-26",
+      "paper_title": "N-linked glycosylation sites with low occupancy support sustained circulation of the A(H3N2) influenza A virus in the human population.",
+      "abstract_excerpt": "Glycosylation of the influenza A virus hemagglutinin is crucial for viral fitness and immune evasion. The hemagglutinin of contemporary human A(H3N2) influenza A viruses is extensively glycosylated with up to 13 putative glycosylation sites. Glycan t...",
+      "matched_taxon": "influenza A virus",
+      "matched_protein": "hemagglutinin",
+      "taxon_span": [
+        93,
+        110
+      ],
+      "protein_span": [
+        175,
+        188
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 34,
+      "link_id": 8177,
+      "uniprot_accession": "A0A384E0N4",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "30573755",
+      "doi": "10.1038/s41598-018-36195-5",
+      "paper_title": "Molecular comparison of Neanderthal and Modern Human adenylosuccinate lyase.",
+      "abstract_excerpt": "The availability of genomic data from extinct homini such as Neanderthals has caused a revolution in palaeontology allowing the identification of modern human-specific protein substitutions. Currently, little is known as to how these substitutions al...",
+      "matched_taxon": "Neanderthal",
+      "matched_protein": "adenylosuccinate lyase",
+      "taxon_span": [
+        24,
+        35
+      ],
+      "protein_span": [
+        53,
+        75
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 35,
+      "link_id": 8342,
+      "uniprot_accession": "A0A1L8C3N2",
+      "project_tax_code": "PRAG-TAX-010",
+      "pmid": "40231072",
+      "doi": "10.7717/peerj.19219",
+      "paper_title": "An update on &lt;i&gt;Aenocyon dirus&lt;/i&gt; in the interior of North America: new records, radiocarbon dates, ZooMS spectra, and isotopic data for an iconic late Pleistocene carnivore.",
+      "abstract_excerpt": "Aenocyon dirus played a crucial role as a predator in late Quaternary megafaunal communities throughout southern North America. This article presents two new occurrences of the species from southwest Iowa on the eastern Great Plains, updates the Pecc...",
+      "matched_taxon": "Smilodon fatalis",
+      "matched_protein": "bone",
+      "taxon_span": [
+        1920,
+        1936
+      ],
+      "protein_span": [
+        1801,
+        1805
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 36,
+      "link_id": 8340,
+      "uniprot_accession": "P0C2V1",
+      "project_tax_code": "PRAG-TAX-009",
+      "pmid": "28316883",
+      "doi": "10.7717/peerj.3033",
+      "paper_title": "Middle Pleistocene protein sequences from the rhinoceros genus Stephanorhinus and the phylogeny of extant and extinct Middle/Late Pleistocene Rhinocerotidae.",
+      "abstract_excerpt": "BackgroundAncient protein sequences are increasingly used to elucidate the phylogenetic relationships between extinct and extant mammalian taxa. Here, we apply these recent developments to Middle Pleistocene bone specimens of the rhinoceros genus Ste...",
+      "matched_taxon": "woolly rhinoceros",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        1413,
+        1430
+      ],
+      "protein_span": [
+        679,
+        692
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 37,
+      "link_id": 8390,
+      "uniprot_accession": "Q9WFX2",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": null,
+      "doi": "10.64898/2026.09.03.749308",
+      "paper_title": "Environment-driven active transport of influenza A virus",
+      "abstract_excerpt": "Biological media such as airway mucus and extracellular matrix are usually viewed as transport barriers that particles cross by passive diffusion or with internal engines. We show instead that a particle can move actively by modifying the landscape i...",
+      "matched_taxon": "influenza A virus",
+      "matched_protein": "neuraminidase",
+      "taxon_span": [
+        39,
+        56
+      ],
+      "protein_span": [
+        501,
+        514
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 38,
+      "link_id": 8425,
+      "uniprot_accession": "Q9MI99",
+      "project_tax_code": "PRAG-TAX-018",
+      "pmid": "42003089",
+      "doi": "10.1021/acs.est.6c01412",
+      "paper_title": "Integrating Cascade Mechanistic Insights into Structure-Activity Relationships for Quantitative Mode-of-Action Analysis: A Novel Risk Assessment Framework for OPFRs.",
+      "abstract_excerpt": "Organophosphate flame retardants (OPFRs), as emerging substitutes for halogenated flame retardants, are widely detected in populations and pose global health concerns. However, their structural diversity and expanding numbers challenge conventional e...",
+      "matched_taxon": "MOA",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        1025,
+        1028
+      ],
+      "protein_span": [
+        986,
+        999
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 39,
+      "link_id": 8273,
+      "uniprot_accession": "P0C2V0",
+      "project_tax_code": "PRAG-TAX-006",
+      "pmid": "40762062",
+      "doi": "10.1111/gcb.70354",
+      "paper_title": "Coexistence, Extinction and Survival-The Evolutionary History of Bison Species in Western Eurasia.",
+      "abstract_excerpt": "European bison (Bison bonasus) are one of the few European megafaunal species to survive the Late Pleistocene mass megafaunal extinction. Current conservation management efforts have proceeded in the absence of information about their evolutionary hi...",
+      "matched_taxon": "steppe bison",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        658,
+        670
+      ],
+      "protein_span": [
+        438,
+        451
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 40,
+      "link_id": 8438,
+      "uniprot_accession": "P92659",
+      "project_tax_code": "PRAG-TAX-018",
+      "pmid": "39295488",
+      "doi": "10.1080/01480545.2024.2404129",
+      "paper_title": "Uncoupling as initiating event in mitochondrial dysfunction after diuron exposure.",
+      "abstract_excerpt": "Diuron, a herbicide derived from urea, has been shown to induce urinary bladder urothelial tumors in rodents, leading the U.S. Environmental Protection Agency (USEPA) to designate it as a 'known/likely' human carcinogen. In our laboratory, a series o...",
+      "matched_taxon": "MoA",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        390,
+        393
+      ],
+      "protein_span": [
+        34,
+        47
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 41,
+      "link_id": 8150,
+      "uniprot_accession": "D3U1H9",
+      "project_tax_code": "PRAG-TAX-001",
+      "pmid": "20436470",
+      "doi": "10.1038/ng.574",
+      "paper_title": "Substitutions in woolly mammoth hemoglobin confer biochemical properties adaptive for cold tolerance.",
+      "abstract_excerpt": "We have genetically retrieved, resurrected and performed detailed structure-function analyses on authentic woolly mammoth hemoglobin to reveal for the first time both the evolutionary origins and the structural underpinnings of a key adaptive physioc...",
+      "matched_taxon": "woolly mammoth",
+      "matched_protein": "hemoglobin",
+      "taxon_span": [
+        17,
+        31
+      ],
+      "protein_span": [
+        32,
+        42
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 42,
+      "link_id": 8203,
+      "uniprot_accession": "A0A1B0WUZ9",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "41144685",
+      "doi": "10.1073/pnas.2518974122",
+      "paper_title": "A new late Neanderthal from Crimea reveals long-distance connections across Eurasia.",
+      "abstract_excerpt": "The Crimean Peninsula contains several important Middle and Upper Paleolithic sites, including Starosele, Kabazi II, and Siuren I. The region has been considered a potential refugium for Neanderthals before their replacement by Homo sapiens. However,...",
+      "matched_taxon": "Neanderthal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        11,
+        22
+      ],
+      "protein_span": [
+        537,
+        545
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 43,
+      "link_id": 8429,
+      "uniprot_accession": "Q9MI99",
+      "project_tax_code": "PRAG-TAX-018",
+      "pmid": "42195821",
+      "doi": "10.3390/foods15101617",
+      "paper_title": "&lt;i&gt;Allium mongolicum&lt;/i&gt; Regel-Mediated Rumen Microbiota Intervention Modulates Hepatic Metabolome to Reduce 4-Alkyl Branched-Chain Fatty Acids in Lamb &lt;i&gt;Longissimus Thoracis&lt;/i&gt; Muscle.",
+      "abstract_excerpt": "Deposition of three key 4-alkyl branched-chain fatty acids (KBCFA), including 4-methyloctanoic acid (MOA), 4-ethyloctanoic acid (EOA), and 4-methylnonanoic acid (MNA), causes the gamey flavor in sheep meat. This study integrated metagenomics and meta...",
+      "matched_taxon": "MOA",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        313,
+        316
+      ],
+      "protein_span": [
+        1987,
+        2000
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 44,
+      "link_id": 8281,
+      "uniprot_accession": "P0C2V0",
+      "project_tax_code": "PRAG-TAX-006",
+      "pmid": null,
+      "doi": "10.1016/j.yqres.2015.06.003",
+      "paper_title": "An ancient bison from the mouth of the Rauchua River (Chukotka, Russia)",
+      "abstract_excerpt": "An incomplete carcass of an extinct bison, Bison ex gr. priscus, was discovered in 2012 in the mouth of the Rauchua River (69\u00b030\u2032N, 166\u00b049\u2032E), Chukotka. The carcass included the rump with two hind limbs, ribs, and large flap of hide from the abdomen ...",
+      "matched_taxon": "steppe bison",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        753,
+        765
+      ],
+      "protein_span": [
+        632,
+        645
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 45,
+      "link_id": 8319,
+      "uniprot_accession": "Q95541",
+      "project_tax_code": "PRAG-TAX-008",
+      "pmid": null,
+      "doi": "10.1111/jbi.13101",
+      "paper_title": "Ancient mitochondrial genomes reveal the demographic history and phylogeography of the extinct, enigmatic thylacine (Thylacinus cynocephalus)",
+      "abstract_excerpt": "AIM: The Tasmanian tiger, or thylacine, is an infamous example of a recent human\u2010mediated extinction. Confined to the island of Tasmania in historical times, thylacines were hunted to extinction <150 years after European arrival. Thylacines were also...",
+      "matched_taxon": "thylacine",
+      "matched_protein": "mitochondrial",
+      "taxon_span": [
+        106,
+        115
+      ],
+      "protein_span": [
+        8,
+        21
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 46,
+      "link_id": 8202,
+      "uniprot_accession": "P84351",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "41144685",
+      "doi": "10.1073/pnas.2518974122",
+      "paper_title": "A new late Neanderthal from Crimea reveals long-distance connections across Eurasia.",
+      "abstract_excerpt": "The Crimean Peninsula contains several important Middle and Upper Paleolithic sites, including Starosele, Kabazi II, and Siuren I. The region has been considered a potential refugium for Neanderthals before their replacement by Homo sapiens. However,...",
+      "matched_taxon": "Neanderthal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        11,
+        22
+      ],
+      "protein_span": [
+        537,
+        545
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 47,
+      "link_id": 8295,
+      "uniprot_accession": "D4IH19",
+      "project_tax_code": "PRAG-TAX-007",
+      "pmid": null,
+      "doi": "10.1101/2023.05.23.540768",
+      "paper_title": "Archaic introgression contributed to shape the adaptive modulation of angiogenesis and cardiovascular traits in human high-altitude populations from the Himalayas",
+      "abstract_excerpt": "It is well established that several Homo Sapiens populations experienced admixture with extinct human species during their evolutionary history. Sometimes, such a gene flow could have played a role in modulating their capability to cope with a variet...",
+      "matched_taxon": "Denisovan",
+      "matched_protein": "EPAS1",
+      "taxon_span": [
+        1359,
+        1368
+      ],
+      "protein_span": [
+        568,
+        573
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 48,
+      "link_id": 8367,
+      "uniprot_accession": "P03452",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": "42431119",
+      "doi": "10.1016/j.colsurfb.2026.115964",
+      "paper_title": "Comparative study of hemagglutinin adsorption from influenza A H1N1, H3N2, and H5N1 strains on model surfaces using a quartz crystal microbalance.",
+      "abstract_excerpt": "Influenza A virus has caused multiple global pandemics throughout history, including the 1918 Spanish flu and the 2009 swine flu, and remains the primary cause of seasonal influenza worldwide, resulting in high infection rates and hundreds of thousan...",
+      "matched_taxon": "Influenza A virus",
+      "matched_protein": "hemagglutinin",
+      "taxon_span": [
+        147,
+        164
+      ],
+      "protein_span": [
+        21,
+        34
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 49,
+      "link_id": 8225,
+      "uniprot_accession": "A0A1B0WVA5",
+      "project_tax_code": "PRAG-TAX-002",
+      "pmid": "34824388",
+      "doi": "10.1038/s41559-021-01581-2",
+      "paper_title": "The earliest Denisovans and their cultural adaptation.",
+      "abstract_excerpt": "Since the initial identification of the Denisovans a decade ago, only a handful of their physical remains have been discovered. Here we analysed ~3,800 non-diagnostic bone fragments using collagen peptide mass fingerprinting to locate new hominin rem...",
+      "matched_taxon": "Neanderthal",
+      "matched_protein": "collagen",
+      "taxon_span": [
+        545,
+        556
+      ],
+      "protein_span": [
+        243,
+        251
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    },
+    {
+      "sample_index": 50,
+      "link_id": 8379,
+      "uniprot_accession": "P03468",
+      "project_tax_code": "PRAG-TAX-015",
+      "pmid": "42696304",
+      "doi": "10.1128/jvi.00802-26",
+      "paper_title": "Broadly reactive antibodies against influenza B virus hemagglutinin neutralize and protect through distinct structural mechanisms.",
+      "abstract_excerpt": "Influenza B viruses contribute substantially to seasonal disease burden; however, the structural basis by which antibodies recognize the major glycoprotein hemagglutinin (HA) and mediate antiviral activity remains incompletely defined. Influenza B vi...",
+      "matched_taxon": "influenza A virus",
+      "matched_protein": "neuraminidase",
+      "taxon_span": [
+        2224,
+        2241
+      ],
+      "protein_span": [
+        1406,
+        1419
+      ],
+      "audit_verdict": "VERIFIED_ACCURATE"
+    }
+  ]
+}

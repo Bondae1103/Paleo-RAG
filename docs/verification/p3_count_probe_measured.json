@@ -1,0 +1,182 @@
+[
+  {
+    "taxon_name": "Mammuthus primigenius",
+    "common_name": "Woolly Mammoth",
+    "ncbi_tax_id": "37349",
+    "uniprot_reviewed": 14,
+    "uniprot_unreviewed": 118,
+    "uniprot_total": 132,
+    "pdb_entries": 3,
+    "pdb_polymer_entities": 6
+  },
+  {
+    "taxon_name": "Homo sapiens neanderthalensis",
+    "common_name": "Neanderthal",
+    "ncbi_tax_id": "63221",
+    "uniprot_reviewed": 1,
+    "uniprot_unreviewed": 56,
+    "uniprot_total": 57,
+    "pdb_entries": 4,
+    "pdb_polymer_entities": 4
+  },
+  {
+    "taxon_name": "Yersinia pestis",
+    "common_name": "Ancient Yersinia pestis",
+    "ncbi_tax_id": "632",
+    "uniprot_reviewed": 3732,
+    "uniprot_unreviewed": 5981,
+    "uniprot_total": 9713,
+    "pdb_entries": 299,
+    "pdb_polymer_entities": 323
+  },
+  {
+    "taxon_name": "Aenocyon dirus",
+    "common_name": "Dire Wolf",
+    "ncbi_tax_id": "2562269",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 0,
+    "uniprot_total": 0,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Panthera spelaea",
+    "common_name": "Cave Lion",
+    "ncbi_tax_id": "2770979",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 82,
+    "uniprot_total": 82,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Bison priscus",
+    "common_name": "Steppe Bison",
+    "ncbi_tax_id": "268291",
+    "uniprot_reviewed": 1,
+    "uniprot_unreviewed": 30,
+    "uniprot_total": 31,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Homo sapiens subsp. Denisova",
+    "common_name": "Denisovan",
+    "ncbi_tax_id": "741158",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 25,
+    "uniprot_total": 25,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Thylacinus cynocephalus",
+    "common_name": "Tasmanian Tiger",
+    "ncbi_tax_id": "9275",
+    "uniprot_reviewed": 2,
+    "uniprot_unreviewed": 14,
+    "uniprot_total": 16,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Coelodonta antiquitatis",
+    "common_name": "Woolly Rhinoceros",
+    "ncbi_tax_id": "222863",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 23,
+    "uniprot_total": 23,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Smilodon fatalis",
+    "common_name": "Saber-Toothed Cat",
+    "ncbi_tax_id": "13266",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 1,
+    "uniprot_total": 1,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Raphus cucullatus",
+    "common_name": "Dodo",
+    "ncbi_tax_id": "187135",
+    "uniprot_reviewed": 1,
+    "uniprot_unreviewed": 0,
+    "uniprot_total": 1,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Ectopistes migratorius",
+    "common_name": "Passenger Pigeon",
+    "ncbi_tax_id": "187118",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 19,
+    "uniprot_total": 19,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Mylodon darwinii",
+    "common_name": "Darwin's Ground Sloth",
+    "ncbi_tax_id": "48784",
+    "uniprot_reviewed": 2,
+    "uniprot_unreviewed": 17,
+    "uniprot_total": 19,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Arctodus simus",
+    "common_name": "Giant Short-Faced Bear",
+    "ncbi_tax_id": "551196",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 0,
+    "uniprot_total": 0,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Influenza A virus",
+    "common_name": "1918 Spanish Flu Virus",
+    "ncbi_tax_id": "11320",
+    "uniprot_reviewed": 1399,
+    "uniprot_unreviewed": 31818,
+    "uniprot_total": 33217,
+    "pdb_entries": 1737,
+    "pdb_polymer_entities": 2587
+  },
+  {
+    "taxon_name": "Doedicurus clavicaudatus",
+    "common_name": "Giant Glyptodont",
+    "ncbi_tax_id": "1811495",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 0,
+    "uniprot_total": 0,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Toxodon",
+    "common_name": "Toxodon",
+    "ncbi_tax_id": "1563121",
+    "uniprot_reviewed": 2,
+    "uniprot_unreviewed": 0,
+    "uniprot_total": 2,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  },
+  {
+    "taxon_name": "Dinornis robustus",
+    "common_name": "South Island Giant Moa",
+    "ncbi_tax_id": "314500",
+    "uniprot_reviewed": 0,
+    "uniprot_unreviewed": 2,
+    "uniprot_total": 2,
+    "pdb_entries": 0,
+    "pdb_polymer_entities": 0
+  }
+]

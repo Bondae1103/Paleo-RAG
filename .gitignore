@@ -8,6 +8,10 @@ __pycache__/
 .coverage
 data/qdrant_storage/
 data/bio_cache/
+data/embedding_cache/
+data/raw_cache/
+scratch/
+archive/legacy_20261013/data/
 data/raw_pdfs/*.pdf
 data/raw_pdfs/*.xml
 data/raw_pdfs/*.json

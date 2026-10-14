@@ -685,6 +685,8 @@ export interface TaxonRegistryEntry {
     collection_regions?: string[];
   } | null;
   publications?: TaxonPublication[];
+  included_species?: string[];
+  scope_note?: string;
 }
 
 export interface AtlasListResponse {
@@ -1054,5 +1056,227 @@ export async function fetchAtlasEntry(taxId: string): Promise<TaxonRegistryEntry
   );
   return found || null;
 }
+
+export interface TaxonProteinSummary {
+  accession: string;
+  entry_name: string;
+  protein_name: string;
+  gene_symbol: string;
+  reviewed: boolean;
+  sequence_length: number;
+  organism_name: string;
+  exp_pdb_count: number;
+  sample_pdb_id?: string | null;
+  af_model_count: number;
+  paper_count: number;
+}
+
+export interface TaxonProteinsResponse {
+  tax_id: string;
+  scientific_name: string;
+  total_proteins: number;
+  returned_count: number;
+  proteins: TaxonProteinSummary[];
+}
+
+export interface ExperimentalStructureMapping {
+  pdb_id: string;
+  chain_id: string;
+  uniprot_start?: number | null;
+  uniprot_end?: number | null;
+  pdb_start?: number | null;
+  pdb_end?: number | null;
+  method: string;
+  resolution?: number | null;
+  mapping_source: string;
+  mapping_method?: string | null;
+}
+
+export interface PredictedStructureModel {
+  alphafold_id: string;
+  pdb_url: string;
+  cif_url: string;
+  bcif_url?: string;
+  plddt_score: number;
+  structure_type: string;
+  source_db: string;
+}
+
+export interface ProteinPaperEvidence {
+  paper_id: string;
+  pmid?: string | null;
+  doi?: string | null;
+  pmcid?: string | null;
+  title: string;
+  journal?: string | null;
+  year?: number | null;
+  license?: string | null;
+  is_open_access: boolean;
+  evidence_type: string;
+  matched_strings: string[];
+}
+
+export interface ExtantOrthologyData {
+  extant_species_name: string;
+  extant_common_name: string;
+  extant_gene_id?: string | null;
+  extant_gene_symbol?: string | null;
+  orthology_type: string;
+  identity_pct?: number | null;
+  extinct_coords_status: string;
+  extant_chromosomal_coord?: string | null;
+  extant_neighborhood: Array<{
+    gene_id?: string;
+    symbol?: string;
+    start?: number;
+    end?: number;
+    strand?: string;
+  }>;
+  status: string;
+  source_db: string;
+}
+
+export interface ProteinDetailsResponse {
+  accession: string;
+  entry_name: string;
+  reviewed: boolean;
+  protein_name: string;
+  gene_symbol: string;
+  sequence: string;
+  sequence_length: number;
+  organism_name: string;
+  project_tax_code: string;
+  retrieved_at: string;
+  experimental_structures: ExperimentalStructureMapping[];
+  predicted_structures: PredictedStructureModel[];
+  cross_references: Record<string, Array<{ identifier: string; url: string }>>;
+  papers: ProteinPaperEvidence[];
+  orthology?: ExtantOrthologyData | null;
+}
+
+export interface ProteinRagSummaryResponse {
+  accession: string;
+  abstention: boolean;
+  explanation: string;
+  warnings?: string[];
+  retrieved_chunks: Array<{
+    doc_id: string;
+    chunk_index: number;
+    section: string;
+    score: number;
+    text: string;
+  }>;
+}
+
+export interface DiagnosticsMetricsResponse {
+  database: {
+    taxa_count: number;
+    proteins_count: number;
+    reviewed_proteins_count: number;
+    unreviewed_trembl_count: number;
+    structures_mapped_count: number;
+    sifts_residue_coverage_pct: number;
+    cross_references_count: number;
+    predicted_structures_count: number;
+    papers_count: number;
+    open_access_papers_count: number;
+    literature_links_count: number;
+    extant_orthologs_count: number;
+    extant_orthologs_found: number;
+  };
+  rag: {
+    collection_name: string;
+    total_semantic_chunks: number;
+    embedding_model: string;
+    embedding_dimension: number;
+    generation_model: string;
+    benchmark: {
+      total_questions: number;
+      positive_questions: number;
+      negative_abstention_questions: number;
+      faithfulness_pct: number;
+      abstention_accuracy_pct: number;
+      citation_precision_pct: number;
+    };
+  };
+}
+
+/**
+ * Fetch all staged proteins for a specific prehistoric taxon from SQLite backend
+ */
+export async function fetchTaxonProteins(
+  taxId: string,
+  limit: number = 200,
+  reviewedOnly: boolean = false
+): Promise<TaxonProteinsResponse | null> {
+  const base = getApiBaseUrl();
+  const qs = `?limit=${limit}${reviewedOnly ? "&reviewed_only=true" : ""}`;
+  try {
+    const resp = await fetch(`${base}/api/bio/atlas/${encodeURIComponent(taxId)}/proteins${qs}`, {
+      headers: { ...authHeaders() },
+    });
+    if (resp.ok) {
+      return await safeJson<TaxonProteinsResponse>(resp);
+    }
+  } catch (err) {
+    console.warn("Backend fetchTaxonProteins error:", err);
+  }
+  return null;
+}
+
+/**
+ * Fetch complete relational details, SIFTS ranges, cross-references, papers, and synteny for a protein
+ */
+export async function fetchProteinDetails(accession: string): Promise<ProteinDetailsResponse | null> {
+  const base = getApiBaseUrl();
+  try {
+    const resp = await fetch(`${base}/api/bio/protein/${encodeURIComponent(accession)}/details`, {
+      headers: { ...authHeaders() },
+    });
+    if (resp.ok) {
+      return await safeJson<ProteinDetailsResponse>(resp);
+    }
+  } catch (err) {
+    console.warn("Backend fetchProteinDetails error:", err);
+  }
+  return null;
+}
+
+/**
+ * Fetch grounded RAG summary explanation with citations or exact abstention
+ */
+export async function fetchProteinRagSummary(accession: string): Promise<ProteinRagSummaryResponse | null> {
+  const base = getApiBaseUrl();
+  try {
+    const resp = await fetch(`${base}/api/bio/protein/${encodeURIComponent(accession)}/rag-summary`, {
+      headers: { ...authHeaders() },
+    });
+    if (resp.ok) {
+      return await safeJson<ProteinRagSummaryResponse>(resp);
+    }
+  } catch (err) {
+    console.warn("Backend fetchProteinRagSummary error:", err);
+  }
+  return null;
+}
+
+/**
+ * Fetch comprehensive system and database diagnostics metrics
+ */
+export async function fetchDiagnosticsMetrics(): Promise<DiagnosticsMetricsResponse | null> {
+  const base = getApiBaseUrl();
+  try {
+    const resp = await fetch(`${base}/api/bio/diagnostics/metrics`, {
+      headers: { ...authHeaders() },
+    });
+    if (resp.ok) {
+      return await safeJson<DiagnosticsMetricsResponse>(resp);
+    }
+  } catch (err) {
+    console.warn("Backend fetchDiagnosticsMetrics error:", err);
+  }
+  return null;
+}
+
 
 

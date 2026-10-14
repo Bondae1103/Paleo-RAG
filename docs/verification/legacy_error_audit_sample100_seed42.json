@@ -1,0 +1,2472 @@
+{
+  "metadata": {
+    "audit_date": "2026-10-13",
+    "seed": 42,
+    "sample_size": 100,
+    "total_population": 172,
+    "sources": [
+      "UniProt REST API (rest.uniprot.org)",
+      "RCSB PDB REST API (data.rcsb.org)"
+    ]
+  },
+  "summary": {
+    "total_sampled": 100,
+    "uniprot_null": 58,
+    "uniprot_resolved_200": 42,
+    "uniprot_not_found_404": 0,
+    "uniprot_taxon_match_exact": 40,
+    "uniprot_taxon_mismatch": 2,
+    "pdb_id_present": 50,
+    "pdb_resolved_200": 50,
+    "pdb_not_found_404": 0,
+    "pdb_taxon_match": 6,
+    "pdb_taxon_mismatch": 44,
+    "pdb_contains_target_uniprot": 2,
+    "pdb_lacks_target_uniprot": 48
+  },
+  "records": [
+    {
+      "index": 0,
+      "site_id": "PRAG-TAX-018:target_locus:extant",
+      "taxon_id": "PRAG-TAX-018",
+      "expected_organism": "Dromaius novaehollandiae",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "O03523",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Dromaius novaehollandiae",
+        "live_taxon_id": 8790,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "c7471e1def574481dd34d9f66f929002083626ca4a4de47b6cd4aaf16c221a70",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 1,
+      "site_id": "PRAG-TAX-004:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-004",
+      "expected_organism": "Aenocyon dirus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 2,
+      "site_id": "PRAG-TAX-001:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-001",
+      "expected_organism": "Mammuthus primigenius",
+      "gene_symbol": "TRPV3",
+      "uniprot_acc": null,
+      "pdb_id": "6W25",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Crystal structure of the Melanocortin-4 Receptor (MC4R) in complex with SHU9119",
+        "polymer_entity_organisms": [
+          "Homo sapiens",
+          "Pyrococcus abyssi",
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P32245",
+          "Q9V2J8"
+        ],
+        "sha256": "de110c731546512b7951429b59899e189c10a06a6a2c7624b49ed681400b7e53",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 3,
+      "site_id": "PRAG-TAX-008:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-008",
+      "expected_organism": "Thylacinus cynocephalus",
+      "gene_symbol": "COX1",
+      "uniprot_acc": "B8YB91",
+      "pdb_id": "1V54",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Thylacinus cynocephalus",
+        "live_taxon_id": 9275,
+        "live_genes": [
+          "COX1"
+        ],
+        "sha256": "11646f4b7e9eeb0b0f81b3d276b94d1f008c4d516c5aa94e71091f2e153a8e1c",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine heart cytochrome c oxidase at the fully oxidized state",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "0fd845eacee84882efc8f372caa3172879c65e86d52f3ff2a42ead2cffc8a5b9",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 4,
+      "site_id": "PRAG-TAX-007:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-007",
+      "expected_organism": "Homo sapiens denisova",
+      "gene_symbol": "FOXP2",
+      "uniprot_acc": "O15409",
+      "pdb_id": "2A07",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "FOXP2"
+        ],
+        "sha256": "061ef3ee14f57e82090a74a8015249befdd6ddfe23920ab1f6b82a30c38036fe",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Crystal Structure of Foxp2 bound Specifically to DNA.",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "d4f057d9e7c9db2115a2677c69ed9d4268f95819902e1b88a1356d8bdfd1331d",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 5,
+      "site_id": "PRAG-TAX-007:target_locus:extant",
+      "taxon_id": "PRAG-TAX-007",
+      "expected_organism": "Homo sapiens",
+      "gene_symbol": "EPAS1",
+      "uniprot_acc": "Q99814",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "EPAS1"
+        ],
+        "sha256": "6182baa09451f9a5a54e969ce473aec301e472c1f8501d58906628ce57ee3329",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 6,
+      "site_id": "PRAG-TAX-004:sample_3:extant",
+      "taxon_id": "PRAG-TAX-004",
+      "expected_organism": "Canis lupus",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 7,
+      "site_id": "PRAG-TAX-004:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-004",
+      "expected_organism": "Aenocyon dirus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 8,
+      "site_id": "PRAG-TAX-015:sample_1:extant",
+      "taxon_id": "PRAG-TAX-015",
+      "expected_organism": "Influenza A virus (A/California/04/2009)",
+      "gene_symbol": "NA",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 9,
+      "site_id": "PRAG-TAX-003:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-003",
+      "expected_organism": "Yersinia pestis (Bronze Age / Black Death)",
+      "gene_symbol": "caf1",
+      "uniprot_acc": "P26948",
+      "pdb_id": "1P5U",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Yersinia pestis",
+        "live_taxon_id": 632,
+        "live_genes": [
+          "caf1"
+        ],
+        "sha256": "547d76e48b6fdf95e033dea1e881bc3674537ef54c9df5506ed36cf4f4883332",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "X-ray structure of the ternary Caf1M:Caf1:Caf1 chaperone:subunit:subunit complex",
+        "polymer_entity_organisms": [
+          "Yersinia pestis"
+        ],
+        "polymer_entity_uniprots": [
+          "P26926"
+        ],
+        "sha256": "fd7fde2de05ee6480a144bff3dc3d5336785aa1959c9dd7afec5c493c28610ce",
+        "taxon_match": true,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 10,
+      "site_id": "PRAG-TAX-016:sample_3:extant",
+      "taxon_id": "PRAG-TAX-016",
+      "expected_organism": "Chaetophractus vellerosus",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 11,
+      "site_id": "PRAG-TAX-012:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-012",
+      "expected_organism": "Ectopistes migratorius",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 12,
+      "site_id": "PRAG-TAX-001:sample_3:extinct",
+      "taxon_id": "PRAG-TAX-001",
+      "expected_organism": "Mammuthus primigenius",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 13,
+      "site_id": "PRAG-TAX-001:sample_2:extant",
+      "taxon_id": "PRAG-TAX-001",
+      "expected_organism": "Elephas maximus",
+      "gene_symbol": "TRPV3",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 14,
+      "site_id": "PRAG-TAX-003:sample_1:extant",
+      "taxon_id": "PRAG-TAX-003",
+      "expected_organism": "Yersinia pseudotuberculosis",
+      "gene_symbol": "caf1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 15,
+      "site_id": "PRAG-TAX-006:sample_3:extant",
+      "taxon_id": "PRAG-TAX-006",
+      "expected_organism": "Bison bison",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 16,
+      "site_id": "PRAG-TAX-007:sample_0:extant",
+      "taxon_id": "PRAG-TAX-007",
+      "expected_organism": "Homo sapiens",
+      "gene_symbol": "EPAS1",
+      "uniprot_acc": "Q99814",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "EPAS1"
+        ],
+        "sha256": "6182baa09451f9a5a54e969ce473aec301e472c1f8501d58906628ce57ee3329",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 17,
+      "site_id": "PRAG-TAX-014:sample_1:extant",
+      "taxon_id": "PRAG-TAX-014",
+      "expected_organism": "Tremarctos ornatus",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 18,
+      "site_id": "PRAG-TAX-018:sample_2:extant",
+      "taxon_id": "PRAG-TAX-018",
+      "expected_organism": "Dromaius novaehollandiae",
+      "gene_symbol": "COX1",
+      "uniprot_acc": "Q9B6V5",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Dromaius novaehollandiae",
+        "live_taxon_id": 8790,
+        "live_genes": [
+          "COX1"
+        ],
+        "sha256": "a172b98ee3e6207bc4cce6fe596400d04e5be752fc370e149a6c54814467cbf3",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 19,
+      "site_id": "PRAG-TAX-016:target_locus:extant",
+      "taxon_id": "PRAG-TAX-016",
+      "expected_organism": "Chaetophractus vellerosus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 20,
+      "site_id": "PRAG-TAX-006:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-006",
+      "expected_organism": "Bison priscus",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 21,
+      "site_id": "PRAG-TAX-018:sample_3:extant",
+      "taxon_id": "PRAG-TAX-018",
+      "expected_organism": "Dromaius novaehollandiae",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 22,
+      "site_id": "PRAG-TAX-012:sample_0:extant",
+      "taxon_id": "PRAG-TAX-012",
+      "expected_organism": "Patagioenas fasciata",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 23,
+      "site_id": "PRAG-TAX-007:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-007",
+      "expected_organism": "Homo sapiens denisova",
+      "gene_symbol": "EPAS1",
+      "uniprot_acc": "Q99814",
+      "pdb_id": "4XT2",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "EPAS1"
+        ],
+        "sha256": "6182baa09451f9a5a54e969ce473aec301e472c1f8501d58906628ce57ee3329",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Crystal structure of the high affinity heterodimer of HIF2 alpha and ARNT C-terminal PAS domains in complex with a tetrazole-containing antagonist",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P27540"
+        ],
+        "sha256": "a7e39c65ec3b575a93e1a056d8efc3b1660a8c3cfeda5c9bed8530f106bdf5d2",
+        "taxon_match": true,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 24,
+      "site_id": "PRAG-TAX-013:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-013",
+      "expected_organism": "Mylodon darwinii",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "A0A343XBI4",
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Mylodon darwinii",
+        "live_taxon_id": 48784,
+        "live_genes": [
+          "CYTB"
+        ],
+        "sha256": "823435f904492266d438dde50ecaf5b6b46936d311158c33c3e8753a1810b7d4",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 25,
+      "site_id": "PRAG-TAX-008:sample_2:extant",
+      "taxon_id": "PRAG-TAX-008",
+      "expected_organism": "Sarcophilus harrisii",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 26,
+      "site_id": "PRAG-TAX-001:target_locus:extant",
+      "taxon_id": "PRAG-TAX-001",
+      "expected_organism": "Elephas maximus",
+      "gene_symbol": "HBB",
+      "uniprot_acc": "P02084",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Elephas maximus",
+        "live_taxon_id": 9783,
+        "live_genes": [
+          "HBB"
+        ],
+        "sha256": "3eb953e6c945d911aefb4b3b4c9346bfbdea8c58f3b47afe269a798cb3fa0807",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 27,
+      "site_id": "PRAG-TAX-005:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-005",
+      "expected_organism": "Panthera spelaea",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 28,
+      "site_id": "PRAG-TAX-017:sample_3:extinct",
+      "taxon_id": "PRAG-TAX-017",
+      "expected_organism": "Toxodon platensis",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": "2DN2",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "1.25A resolution crystal structure of human hemoglobin in the deoxy form",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P69905"
+        ],
+        "sha256": "3f17e61cd5c517f7c5e650e974f267a8bb1b934b86387bf177972610beba0d2c",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 29,
+      "site_id": "PRAG-TAX-010:sample_0:extant",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Neofelis nebulosa",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q072K1",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Neofelis nebulosa",
+        "live_taxon_id": 61452,
+        "live_genes": [
+          "CYTB"
+        ],
+        "sha256": "416be60bfa5b1e33d5f46fd1bc2fff799085d33834ac557bdacc9a652534e902",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 30,
+      "site_id": "PRAG-TAX-016:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-016",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 31,
+      "site_id": "PRAG-TAX-005:sample_0:extant",
+      "taxon_id": "PRAG-TAX-005",
+      "expected_organism": "Panthera leo",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q35506",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Panthera leo",
+        "live_taxon_id": 9689,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "1028fc20643605297d9a97e6c119408a9983010b46858ccff01ed12f65770f0b",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 32,
+      "site_id": "PRAG-TAX-017:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-017",
+      "expected_organism": "Toxodon platensis",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 33,
+      "site_id": "PRAG-TAX-010:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Smilodon fatalis",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 34,
+      "site_id": "PRAG-TAX-018:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-018",
+      "expected_organism": "Dinornis robustus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1OCC",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "STRUCTURE OF BOVINE HEART CYTOCHROME C OXIDASE AT THE FULLY OXIDIZED STATE",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "6cc58e9852a666a9e25001321fe7ce70813e729ea476488e53087112dd5ebd5d",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 35,
+      "site_id": "PRAG-TAX-017:sample_1:extant",
+      "taxon_id": "PRAG-TAX-017",
+      "expected_organism": "Ceratotherium simum",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 36,
+      "site_id": "PRAG-TAX-011:sample_0:extant",
+      "taxon_id": "PRAG-TAX-011",
+      "expected_organism": "Caloenas nicobarica",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q8SG74",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Caloenas nicobarica",
+        "live_taxon_id": 187106,
+        "live_genes": [
+          "cytb"
+        ],
+        "sha256": "372051c349e26c32d26197624e75863668a3be909231caf9d7f471564bbe7c4a",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 37,
+      "site_id": "PRAG-TAX-003:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-003",
+      "expected_organism": "Yersinia pestis (Bronze Age / Black Death)",
+      "gene_symbol": "yopM",
+      "uniprot_acc": "P17778",
+      "pdb_id": "1G9U",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Yersinia pestis",
+        "live_taxon_id": 632,
+        "live_genes": [
+          "yopM"
+        ],
+        "sha256": "e27cf4c116c5defbb4ba49c64d44b8ef0aaf3da8cd8bbb11386bbe949e491b76",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL STRUCTURE OF YOPM-LEUCINE RICH EFFECTOR PROTEIN FROM YERSINIA PESTIS",
+        "polymer_entity_organisms": [
+          "Yersinia pestis"
+        ],
+        "polymer_entity_uniprots": [
+          "P17778"
+        ],
+        "sha256": "7c1767838d89b38d477d07693b9b72c010956a890a3a5ceec093965125ffc939",
+        "taxon_match": true,
+        "contains_uniprot": true
+      },
+      "error_flags": []
+    },
+    {
+      "index": 38,
+      "site_id": "PRAG-TAX-010:sample_2:extant",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Neofelis nebulosa",
+      "gene_symbol": "COX1",
+      "uniprot_acc": "Q072L1",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Neofelis nebulosa",
+        "live_taxon_id": 61452,
+        "live_genes": [
+          "COX1"
+        ],
+        "sha256": "1f22b42c19e0b8b7798aff8de578c5b30bb76766a718ae65c165f110bbb0c559",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 39,
+      "site_id": "PRAG-TAX-010:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Smilodon fatalis",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 40,
+      "site_id": "PRAG-TAX-008:sample_0:extant",
+      "taxon_id": "PRAG-TAX-008",
+      "expected_organism": "Sarcophilus harrisii",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q35861",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Sarcophilus harrisii",
+        "live_taxon_id": 9305,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "2cf3f657fbd5b7d0e82c4cd8b13b76acad2502f0fc5756057679685eb268a841",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 41,
+      "site_id": "PRAG-TAX-002:target_locus:extant",
+      "taxon_id": "PRAG-TAX-002",
+      "expected_organism": "Homo sapiens",
+      "gene_symbol": "MC1R",
+      "uniprot_acc": "Q01726",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "MC1R"
+        ],
+        "sha256": "98606b56845a4f5f2c5bdf48623981dae0ebbbb3fc5958bedea4bb1a426e3250",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 42,
+      "site_id": "PRAG-TAX-013:sample_0:extant",
+      "taxon_id": "PRAG-TAX-013",
+      "expected_organism": "Choloepus didactylus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q58F69",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Choloepus didactylus",
+        "live_taxon_id": 27675,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "e7b02263c72834f6d16a1e0a4293ee106c69ff860dbba905c18f853a8210ec38",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 43,
+      "site_id": "PRAG-TAX-004:sample_1:extant",
+      "taxon_id": "PRAG-TAX-004",
+      "expected_organism": "Canis lupus",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 44,
+      "site_id": "PRAG-TAX-011:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-011",
+      "expected_organism": "Raphus cucullatus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q8SG72",
+      "pdb_id": "1OCC",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Raphus cucullatus",
+        "live_taxon_id": 187135,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "79d14bf065304f8bc83d000166c8da36fe38b50fd930fd6265a1904e9988de3c",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "STRUCTURE OF BOVINE HEART CYTOCHROME C OXIDASE AT THE FULLY OXIDIZED STATE",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "6cc58e9852a666a9e25001321fe7ce70813e729ea476488e53087112dd5ebd5d",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 45,
+      "site_id": "PRAG-TAX-002:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-002",
+      "expected_organism": "Homo neanderthalensis",
+      "gene_symbol": "MC1R",
+      "uniprot_acc": "Q01726",
+      "pdb_id": "7F53",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "MC1R"
+        ],
+        "sha256": "98606b56845a4f5f2c5bdf48623981dae0ebbbb3fc5958bedea4bb1a426e3250",
+        "taxon_match": false
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Cryo-EM structure of a-MSH-MC4R-Gs_Nb35 complex",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P63092"
+        ],
+        "sha256": "c6bdda42ca8d13afe8856072f6a05617f5cae9a30b4d2bf858c882a62df4253a",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ORGANISM_MISMATCH",
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 46,
+      "site_id": "PRAG-TAX-018:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-018",
+      "expected_organism": "Dinornis robustus",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": "1V54",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine heart cytochrome c oxidase at the fully oxidized state",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "0fd845eacee84882efc8f372caa3172879c65e86d52f3ff2a42ead2cffc8a5b9",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 47,
+      "site_id": "PRAG-TAX-005:target_locus:extant",
+      "taxon_id": "PRAG-TAX-005",
+      "expected_organism": "Panthera leo",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q35506",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Panthera leo",
+        "live_taxon_id": 9689,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "1028fc20643605297d9a97e6c119408a9983010b46858ccff01ed12f65770f0b",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 48,
+      "site_id": "PRAG-TAX-012:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-012",
+      "expected_organism": "Ectopistes migratorius",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "M4PV01",
+      "pdb_id": "1OCC",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Ectopistes migratorius",
+        "live_taxon_id": 187118,
+        "live_genes": [
+          "CYTB"
+        ],
+        "sha256": "3b180b146ba2dc02d4368d854d10597006d92918dd3367c5ad4b8ecdaf1715ab",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "STRUCTURE OF BOVINE HEART CYTOCHROME C OXIDASE AT THE FULLY OXIDIZED STATE",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "6cc58e9852a666a9e25001321fe7ce70813e729ea476488e53087112dd5ebd5d",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 49,
+      "site_id": "PRAG-TAX-009:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-009",
+      "expected_organism": "Coelodonta antiquitatis",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": "3VRF",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "The crystal structure of hemoglobin from woolly mammoth in the carbonmonoxy forms",
+        "polymer_entity_organisms": [
+          "Mammuthus primigenius"
+        ],
+        "polymer_entity_uniprots": [
+          "D3U1H8"
+        ],
+        "sha256": "2c4f6f18f1689892b7558b3cf01cbb342de9bf00c371a60bc546d629b0e2fac3",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 50,
+      "site_id": "PRAG-TAX-009:sample_1:extant",
+      "taxon_id": "PRAG-TAX-009",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 51,
+      "site_id": "PRAG-TAX-012:sample_3:extant",
+      "taxon_id": "PRAG-TAX-012",
+      "expected_organism": "Patagioenas fasciata",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 52,
+      "site_id": "PRAG-TAX-012:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-012",
+      "expected_organism": "Ectopistes migratorius",
+      "gene_symbol": "COX1",
+      "uniprot_acc": "M4PJ90",
+      "pdb_id": "1V54",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Ectopistes migratorius",
+        "live_taxon_id": 187118,
+        "live_genes": [
+          "COX1"
+        ],
+        "sha256": "db06b204850a8015914d2f0cb3655187283bd7f7428e641108bb60c6cf9b23a0",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine heart cytochrome c oxidase at the fully oxidized state",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "0fd845eacee84882efc8f372caa3172879c65e86d52f3ff2a42ead2cffc8a5b9",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 53,
+      "site_id": "PRAG-TAX-006:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-006",
+      "expected_organism": "Bison priscus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "A0A1D8GYC5",
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Bison priscus",
+        "live_taxon_id": 268291,
+        "live_genes": [
+          "CYTB"
+        ],
+        "sha256": "cdcfe3ac18b321398597098eccf3ceb129625ebe15048e18d2a186068d27d712",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 54,
+      "site_id": "PRAG-TAX-008:sample_3:extant",
+      "taxon_id": "PRAG-TAX-008",
+      "expected_organism": "Sarcophilus harrisii",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 55,
+      "site_id": "PRAG-TAX-015:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-015",
+      "expected_organism": "Influenza A virus (H1N1 1918)",
+      "gene_symbol": "HA",
+      "uniprot_acc": null,
+      "pdb_id": "1RD8",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Crystal Structure of the 1918 Human H1 Hemagglutinin Precursor (HA0)",
+        "polymer_entity_organisms": [
+          "Influenza A virus"
+        ],
+        "polymer_entity_uniprots": [
+          "Q9WFX3"
+        ],
+        "sha256": "c53ea12d7cde07012bd3946bf62b98cd7d88c1c7b30afc1d619fa16682ade782",
+        "taxon_match": true,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 56,
+      "site_id": "PRAG-TAX-010:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Smilodon fatalis",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": "1V54",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine heart cytochrome c oxidase at the fully oxidized state",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "0fd845eacee84882efc8f372caa3172879c65e86d52f3ff2a42ead2cffc8a5b9",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 57,
+      "site_id": "PRAG-TAX-017:sample_2:extant",
+      "taxon_id": "PRAG-TAX-017",
+      "expected_organism": "Ceratotherium simum",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 58,
+      "site_id": "PRAG-TAX-001:sample_1:extant",
+      "taxon_id": "PRAG-TAX-001",
+      "expected_organism": "Elephas maximus",
+      "gene_symbol": "HBA",
+      "uniprot_acc": "P01954",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Elephas maximus",
+        "live_taxon_id": 9783,
+        "live_genes": [
+          "HBA"
+        ],
+        "sha256": "4516e5e276751b30cd221f502138682767af4a8950954b981bf13b71589dd84a",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 59,
+      "site_id": "PRAG-TAX-010:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Smilodon fatalis",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 60,
+      "site_id": "PRAG-TAX-004:sample_0:extant",
+      "taxon_id": "PRAG-TAX-004",
+      "expected_organism": "Canis lupus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q6Y8J2",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Canis lupus",
+        "live_taxon_id": 9612,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "d8633d109daf4637f07fb2c537bdc8798af37ee1518757694fa6fe80bdd6f759",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 61,
+      "site_id": "PRAG-TAX-011:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-011",
+      "expected_organism": "Raphus cucullatus",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 62,
+      "site_id": "PRAG-TAX-014:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-014",
+      "expected_organism": "Arctodus simus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 63,
+      "site_id": "PRAG-TAX-014:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-014",
+      "expected_organism": "Arctodus simus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 64,
+      "site_id": "PRAG-TAX-012:sample_2:extant",
+      "taxon_id": "PRAG-TAX-012",
+      "expected_organism": "Patagioenas fasciata",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 65,
+      "site_id": "PRAG-TAX-002:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-002",
+      "expected_organism": "Homo neanderthalensis",
+      "gene_symbol": "MC1R",
+      "uniprot_acc": "Q01726",
+      "pdb_id": "7F53",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "MC1R"
+        ],
+        "sha256": "98606b56845a4f5f2c5bdf48623981dae0ebbbb3fc5958bedea4bb1a426e3250",
+        "taxon_match": false
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Cryo-EM structure of a-MSH-MC4R-Gs_Nb35 complex",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P63092"
+        ],
+        "sha256": "c6bdda42ca8d13afe8856072f6a05617f5cae9a30b4d2bf858c882a62df4253a",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ORGANISM_MISMATCH",
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 66,
+      "site_id": "PRAG-TAX-006:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-006",
+      "expected_organism": "Bison priscus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "A0A1D8GYC5",
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Bison priscus",
+        "live_taxon_id": 268291,
+        "live_genes": [
+          "CYTB"
+        ],
+        "sha256": "cdcfe3ac18b321398597098eccf3ceb129625ebe15048e18d2a186068d27d712",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 67,
+      "site_id": "PRAG-TAX-018:sample_0:extant",
+      "taxon_id": "PRAG-TAX-018",
+      "expected_organism": "Dromaius novaehollandiae",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "O03523",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Dromaius novaehollandiae",
+        "live_taxon_id": 8790,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "c7471e1def574481dd34d9f66f929002083626ca4a4de47b6cd4aaf16c221a70",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 68,
+      "site_id": "PRAG-TAX-007:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-007",
+      "expected_organism": "Homo sapiens denisova",
+      "gene_symbol": "EPAS1",
+      "uniprot_acc": "Q99814",
+      "pdb_id": "4XT2",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Homo sapiens",
+        "live_taxon_id": 9606,
+        "live_genes": [
+          "EPAS1"
+        ],
+        "sha256": "6182baa09451f9a5a54e969ce473aec301e472c1f8501d58906628ce57ee3329",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Crystal structure of the high affinity heterodimer of HIF2 alpha and ARNT C-terminal PAS domains in complex with a tetrazole-containing antagonist",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P27540"
+        ],
+        "sha256": "a7e39c65ec3b575a93e1a056d8efc3b1660a8c3cfeda5c9bed8530f106bdf5d2",
+        "taxon_match": true,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 69,
+      "site_id": "PRAG-TAX-009:sample_2:extant",
+      "taxon_id": "PRAG-TAX-009",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 70,
+      "site_id": "PRAG-TAX-013:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-013",
+      "expected_organism": "Mylodon darwinii",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": "C0HJP3",
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Mylodon darwinii",
+        "live_taxon_id": 48784,
+        "live_genes": [
+          "COL1A1"
+        ],
+        "sha256": "e20a9ae3a0a5ed1c4334a2b5881a53fe0854e5e81e0fd79945e34e4577777949",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 71,
+      "site_id": "PRAG-TAX-003:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-003",
+      "expected_organism": "Yersinia pestis (Bronze Age / Black Death)",
+      "gene_symbol": "pla",
+      "uniprot_acc": "P17811",
+      "pdb_id": "2X55",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Yersinia pestis",
+        "live_taxon_id": 632,
+        "live_genes": [
+          "pla"
+        ],
+        "sha256": "fa527e3bb701f41d116fd49721444f9e4d39121888ce137601e895bb394e8d60",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Yersinia Pestis Plasminogen Activator Pla (Native)",
+        "polymer_entity_organisms": [
+          "YERSINIA PESTIS"
+        ],
+        "polymer_entity_uniprots": [
+          "P17811"
+        ],
+        "sha256": "866fc48d6437b141102cc4d846b47fb3ebdf5dbd84faabe888b5c1ff2b326b7a",
+        "taxon_match": true,
+        "contains_uniprot": true
+      },
+      "error_flags": []
+    },
+    {
+      "index": 72,
+      "site_id": "PRAG-TAX-006:target_locus:extant",
+      "taxon_id": "PRAG-TAX-006",
+      "expected_organism": "Bison bison",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q9T9C1",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Bison bison",
+        "live_taxon_id": 9901,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "6867aa167f290c9a49f43b857579be47aaa0a43e03a146e139490727c4662805",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 73,
+      "site_id": "PRAG-TAX-005:sample_3:extant",
+      "taxon_id": "PRAG-TAX-005",
+      "expected_organism": "Panthera leo",
+      "gene_symbol": "HBB",
+      "uniprot_acc": "A0A0R8MY19",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Panthera leo",
+        "live_taxon_id": 9689,
+        "live_genes": [
+          "HBB"
+        ],
+        "sha256": "e3558b4970720166869ca30d8f7439c1201149b5895cef146763bbd78d563a24",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 74,
+      "site_id": "PRAG-TAX-015:sample_0:extant",
+      "taxon_id": "PRAG-TAX-015",
+      "expected_organism": "Influenza A virus (seasonal)",
+      "gene_symbol": "HA",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 75,
+      "site_id": "PRAG-TAX-010:target_locus:extant",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Neofelis nebulosa",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q072K1",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Neofelis nebulosa",
+        "live_taxon_id": 61452,
+        "live_genes": [
+          "CYTB"
+        ],
+        "sha256": "416be60bfa5b1e33d5f46fd1bc2fff799085d33834ac557bdacc9a652534e902",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 76,
+      "site_id": "PRAG-TAX-004:sample_3:extinct",
+      "taxon_id": "PRAG-TAX-004",
+      "expected_organism": "Aenocyon dirus",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": "2DN2",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "1.25A resolution crystal structure of human hemoglobin in the deoxy form",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P69905"
+        ],
+        "sha256": "3f17e61cd5c517f7c5e650e974f267a8bb1b934b86387bf177972610beba0d2c",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 77,
+      "site_id": "PRAG-TAX-010:sample_1:extant",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Neofelis nebulosa",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 78,
+      "site_id": "PRAG-TAX-016:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-016",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 79,
+      "site_id": "PRAG-TAX-009:sample_3:extinct",
+      "taxon_id": "PRAG-TAX-009",
+      "expected_organism": "Coelodonta antiquitatis",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "C4P9B2",
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Coelodonta antiquitatis",
+        "live_taxon_id": 222863,
+        "live_genes": [
+          "CYTB"
+        ],
+        "sha256": "cf208aa3b901388ac680be1c19eb13a93463ce7715a49c426407a3c9911e7fee",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 80,
+      "site_id": "PRAG-TAX-001:sample_3:extant",
+      "taxon_id": "PRAG-TAX-001",
+      "expected_organism": "Loxodonta africana",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": "G3UE48",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Loxodonta africana",
+        "live_taxon_id": 9785,
+        "live_genes": [
+          "COL1A1"
+        ],
+        "sha256": "0799d06975ea64fb85a08d32648dc740e1330f1b80834fa8e00e06c6da68d218",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 81,
+      "site_id": "PRAG-TAX-009:sample_0:extant",
+      "taxon_id": "PRAG-TAX-009",
+      "expected_organism": "Dicerorhinus sumatrensis",
+      "gene_symbol": "TRPV3",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 82,
+      "site_id": "PRAG-TAX-011:sample_3:extinct",
+      "taxon_id": "PRAG-TAX-011",
+      "expected_organism": "Raphus cucullatus",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": "2DN2",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "1.25A resolution crystal structure of human hemoglobin in the deoxy form",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P69905"
+        ],
+        "sha256": "3f17e61cd5c517f7c5e650e974f267a8bb1b934b86387bf177972610beba0d2c",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 83,
+      "site_id": "PRAG-TAX-003:sample_0:extant",
+      "taxon_id": "PRAG-TAX-003",
+      "expected_organism": "Yersinia pseudotuberculosis",
+      "gene_symbol": "pla",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 84,
+      "site_id": "PRAG-TAX-008:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-008",
+      "expected_organism": "Thylacinus cynocephalus",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 85,
+      "site_id": "PRAG-TAX-014:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-014",
+      "expected_organism": "Arctodus simus",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": "1CAG",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "CRYSTAL AND MOLECULAR STRUCTURE OF A COLLAGEN-LIKE PEPTIDE AT 1.9 ANGSTROM RESOLUTION",
+        "polymer_entity_organisms": [],
+        "polymer_entity_uniprots": [],
+        "sha256": "773c9c51a9bb77f3532731f40550cae7ca4cb055317677b827b71129cb52f53b",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 86,
+      "site_id": "PRAG-TAX-011:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-011",
+      "expected_organism": "Raphus cucullatus",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": "1V54",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine heart cytochrome c oxidase at the fully oxidized state",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "0fd845eacee84882efc8f372caa3172879c65e86d52f3ff2a42ead2cffc8a5b9",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 87,
+      "site_id": "PRAG-TAX-017:sample_0:extant",
+      "taxon_id": "PRAG-TAX-017",
+      "expected_organism": "Ceratotherium simum",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "O03207",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Ceratotherium simum",
+        "live_taxon_id": 9807,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "6b64e8085942531c794d340deb273f2c073b03375886764731e5d1ac596027c0",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 88,
+      "site_id": "PRAG-TAX-012:target_locus:extant",
+      "taxon_id": "PRAG-TAX-012",
+      "expected_organism": "Patagioenas fasciata",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 89,
+      "site_id": "PRAG-TAX-011:target_locus:extant",
+      "taxon_id": "PRAG-TAX-011",
+      "expected_organism": "Caloenas nicobarica",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q8SG74",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Caloenas nicobarica",
+        "live_taxon_id": 187106,
+        "live_genes": [
+          "cytb"
+        ],
+        "sha256": "372051c349e26c32d26197624e75863668a3be909231caf9d7f471564bbe7c4a",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 90,
+      "site_id": "PRAG-TAX-011:target_locus:extinct",
+      "taxon_id": "PRAG-TAX-011",
+      "expected_organism": "Raphus cucullatus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": "Q8SG72",
+      "pdb_id": "1OCC",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Raphus cucullatus",
+        "live_taxon_id": 187135,
+        "live_genes": [
+          "MT-CYB"
+        ],
+        "sha256": "79d14bf065304f8bc83d000166c8da36fe38b50fd930fd6265a1904e9988de3c",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "STRUCTURE OF BOVINE HEART CYTOCHROME C OXIDASE AT THE FULLY OXIDIZED STATE",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "6cc58e9852a666a9e25001321fe7ce70813e729ea476488e53087112dd5ebd5d",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 91,
+      "site_id": "PRAG-TAX-015:sample_2:extant",
+      "taxon_id": "PRAG-TAX-015",
+      "expected_organism": "Influenza A virus (A/goose/Guangdong/1/96)",
+      "gene_symbol": "PB2",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 92,
+      "site_id": "PRAG-TAX-018:sample_3:extinct",
+      "taxon_id": "PRAG-TAX-018",
+      "expected_organism": "Dinornis robustus",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": "2DN2",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "1.25A resolution crystal structure of human hemoglobin in the deoxy form",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P69905"
+        ],
+        "sha256": "3f17e61cd5c517f7c5e650e974f267a8bb1b934b86387bf177972610beba0d2c",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 93,
+      "site_id": "PRAG-TAX-005:sample_1:extant",
+      "taxon_id": "PRAG-TAX-005",
+      "expected_organism": "Panthera leo",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": "A0A8C8Y4U8",
+      "pdb_id": null,
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Panthera leo",
+        "live_taxon_id": 9689,
+        "live_genes": [
+          "COL1A1"
+        ],
+        "sha256": "de5ba49079d82f921bff56bb839d7dc4ef34849c1cfb468d2ccd4402a6de3673",
+        "taxon_match": true
+      },
+      "pdb_audit": {},
+      "error_flags": []
+    },
+    {
+      "index": 94,
+      "site_id": "PRAG-TAX-017:sample_2:extinct",
+      "taxon_id": "PRAG-TAX-017",
+      "expected_organism": "Toxodon platensis",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": "1V54",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine heart cytochrome c oxidase at the fully oxidized state",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P00396"
+        ],
+        "sha256": "0fd845eacee84882efc8f372caa3172879c65e86d52f3ff2a42ead2cffc8a5b9",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 95,
+      "site_id": "PRAG-TAX-016:sample_2:extant",
+      "taxon_id": "PRAG-TAX-016",
+      "expected_organism": "Chaetophractus vellerosus",
+      "gene_symbol": "COX1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 96,
+      "site_id": "PRAG-TAX-001:sample_1:extinct",
+      "taxon_id": "PRAG-TAX-001",
+      "expected_organism": "Mammuthus primigenius",
+      "gene_symbol": "HBA",
+      "uniprot_acc": "D3U1H8",
+      "pdb_id": "3V4U",
+      "uniprot_audit": {
+        "status_code": 200,
+        "live_organism": "Mammuthus primigenius",
+        "live_taxon_id": 37349,
+        "live_genes": [
+          "HBA-T2"
+        ],
+        "sha256": "b5b79d95b4f9d043f9755e0b65edca26705b8476bdb06cb34e6eb808da45427f",
+        "taxon_match": true
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Structure of a monoclonal antibody complexed with its MHC-I antigen",
+        "polymer_entity_organisms": [
+          "Mus musculus"
+        ],
+        "polymer_entity_uniprots": [],
+        "sha256": "9ae0abbfa95eef667c65ee4c6163daf0d40e2c1084f0a152da891055b73321e7",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "PDB_ORGANISM_MISMATCH",
+        "PDB_DOES_NOT_CONTAIN_CLAIMED_UNIPROT"
+      ]
+    },
+    {
+      "index": 97,
+      "site_id": "PRAG-TAX-016:sample_0:extinct",
+      "taxon_id": "PRAG-TAX-016",
+      "expected_organism": "Doedicurus clavicaudatus",
+      "gene_symbol": "CYTB",
+      "uniprot_acc": null,
+      "pdb_id": "1PP9",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "Bovine cytochrome bc1 complex with stigmatellin bound",
+        "polymer_entity_organisms": [
+          "Bos taurus"
+        ],
+        "polymer_entity_uniprots": [
+          "P31800"
+        ],
+        "sha256": "7d1c1e400b57dbe4b0d89b1f906d0805cc32dac85dc1c175a852e2b41d41d586",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    },
+    {
+      "index": 98,
+      "site_id": "PRAG-TAX-006:sample_1:extant",
+      "taxon_id": "PRAG-TAX-006",
+      "expected_organism": "Bison bison",
+      "gene_symbol": "COL1A1",
+      "uniprot_acc": null,
+      "pdb_id": null,
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {},
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL"
+      ]
+    },
+    {
+      "index": 99,
+      "site_id": "PRAG-TAX-010:sample_3:extinct",
+      "taxon_id": "PRAG-TAX-010",
+      "expected_organism": "Smilodon fatalis",
+      "gene_symbol": "HBB",
+      "uniprot_acc": null,
+      "pdb_id": "2DN2",
+      "uniprot_audit": {
+        "verdict": "NULL_ACCESSION"
+      },
+      "pdb_audit": {
+        "status_code": 200,
+        "title": "1.25A resolution crystal structure of human hemoglobin in the deoxy form",
+        "polymer_entity_organisms": [
+          "Homo sapiens"
+        ],
+        "polymer_entity_uniprots": [
+          "P69905"
+        ],
+        "sha256": "3f17e61cd5c517f7c5e650e974f267a8bb1b934b86387bf177972610beba0d2c",
+        "taxon_match": false,
+        "contains_uniprot": false
+      },
+      "error_flags": [
+        "UNIPROT_ACCESSION_NULL",
+        "PDB_ORGANISM_MISMATCH"
+      ]
+    }
+  ]
+}

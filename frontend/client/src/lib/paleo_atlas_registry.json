@@ -603,7 +603,11 @@
           "note": "Live NCBI lookup verdict=wrong_organism; original accession does not verifiably represent 'Mammuthus primigenius'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Mammuthus primigenius"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Mammuthus primigenius."
   },
   {
     "tax_id": "PRAG-TAX-002",
@@ -1079,7 +1083,11 @@
           "note": null
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Homo sapiens neanderthalensis"
+    ],
+    "scope_note": "Standard subspecies scope: exact taxon node Homo sapiens neanderthalensis."
   },
   {
     "tax_id": "PRAG-TAX-003",
@@ -1538,7 +1546,18 @@
           "note": "Live NCBI lookup verdict=not_found; original accession does not verifiably represent 'Yersinia pestis (Bronze Age / Black Death)'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Yersinia pestis",
+      "Yersinia pestis (strain D106004)",
+      "Yersinia pestis (strain D182038)",
+      "Yersinia pestis (strain Pestoides F)",
+      "Yersinia pestis (strain Z176003)",
+      "Yersinia pestis bv. Antiqua (strain Angola)",
+      "Yersinia pestis bv. Antiqua (strain Antiqua)",
+      "Yersinia pestis bv. Antiqua (strain Nepal516)"
+    ],
+    "scope_note": "Curated reference scope: high-confidence Swiss-Prot reviewed canonical proteome for Yersinia pestis."
   },
   {
     "tax_id": "PRAG-TAX-004",
@@ -2162,7 +2181,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Aenocyon dirus'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Aenocyon dirus"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Aenocyon dirus."
   },
   {
     "tax_id": "PRAG-TAX-005",
@@ -2771,7 +2794,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Panthera spelaea'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Panthera spelaea"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Panthera spelaea."
   },
   {
     "tax_id": "PRAG-TAX-006",
@@ -3375,7 +3402,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Bison priscus'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Bison priscus"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Bison priscus."
   },
   {
     "tax_id": "PRAG-TAX-007",
@@ -3855,7 +3886,11 @@
           "note": "Live NCBI lookup verdict=wrong_gene; original accession does not verifiably represent 'Homo sapiens denisova'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Homo sapiens subsp. 'Denisova'"
+    ],
+    "scope_note": "Standard subspecies scope: exact taxon node Homo sapiens subsp. 'Denisova'."
   },
   {
     "tax_id": "PRAG-TAX-008",
@@ -4459,7 +4494,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Thylacinus cynocephalus'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Thylacinus cynocephalus"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Thylacinus cynocephalus."
   },
   {
     "tax_id": "PRAG-TAX-009",
@@ -5011,7 +5050,11 @@
           "note": null
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Coelodonta antiquitatis"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Coelodonta antiquitatis."
   },
   {
     "tax_id": "PRAG-TAX-010",
@@ -5614,7 +5657,12 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Smilodon fatalis'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Smilodon fatalis",
+      "Smilodon populator"
+    ],
+    "scope_note": "Expanded clade scope: includes records across the genus Smilodon (S. fatalis and S. populator)."
   },
   {
     "tax_id": "PRAG-TAX-011",
@@ -6213,7 +6261,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Raphus cucullatus'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Raphus cucullatus"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Raphus cucullatus."
   },
   {
     "tax_id": "PRAG-TAX-012",
@@ -6795,7 +6847,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Ectopistes migratorius'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Ectopistes migratorius"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Ectopistes migratorius."
   },
   {
     "tax_id": "PRAG-TAX-013",
@@ -7372,7 +7428,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Mylodon darwinii'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Mylodon darwinii"
+    ],
+    "scope_note": "Standard genus scope: exact taxon node Mylodon (sloth genus, excluding modern fish taxa)."
   },
   {
     "tax_id": "PRAG-TAX-014",
@@ -7957,7 +8017,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Arctodus simus'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Arctodus simus"
+    ],
+    "scope_note": "Standard species scope: exact taxon node Arctodus simus."
   },
   {
     "tax_id": "PRAG-TAX-015",
@@ -8434,7 +8498,281 @@
           "note": "Live NCBI lookup verdict=wrong_organism; original accession does not verifiably represent 'Influenza A virus (H1N1 1918)'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Influenza A virus (strain A/Aichi/2/1968 H3N2)",
+      "Influenza A virus (strain A/Alaska/6/1977 H3N2)",
+      "Influenza A virus (strain A/Anas acuta/Primorje/695/1976 H2N3)",
+      "Influenza A virus (strain A/Ann Arbor/6/1960 H2N2)",
+      "Influenza A virus (strain A/Bangkok/1/1979 H3N2)",
+      "Influenza A virus (strain A/Beijing/11/1956 H1N1)",
+      "Influenza A virus (strain A/Beijing/337/1989 H3N2)",
+      "Influenza A virus (strain A/Beijing/352/1989 H3N2)",
+      "Influenza A virus (strain A/Beijing/353/1989 H3N2)",
+      "Influenza A virus (strain A/Beijing/39/1975 H3N2)",
+      "Influenza A virus (strain A/Black duck/Australia/702/1978 H3N8)",
+      "Influenza A virus (strain A/Blue-winged teal/Minnesota/993/1980 H6N6)",
+      "Influenza A virus (strain A/Brazil/11/1978 H1N1)",
+      "Influenza A virus (strain A/Brevig Mission/1/1918 H1N1)",
+      "Influenza A virus (strain A/Budgerigar/Hokkaido/1/1977 H4N6)",
+      "Influenza A virus (strain A/California/10/1978 H1N1)",
+      "Influenza A virus (strain A/Camel/Mongolia/1982 H1N1)",
+      "Influenza A virus (strain A/Chicken/Alabama/1/1975 H4N8)",
+      "Influenza A virus (strain A/Chicken/Brescia/1902 H7N7)",
+      "Influenza A virus (strain A/Chicken/Germany/n/1949 H10N7)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/220/1997 H5N1 genotype Gs/Gd)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/31.2/2002 H5N1 genotype X1)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/37.4/2002 H5N1 genotype X2)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/715.5/2001 H5N1 genotype E)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/96.1/2002 H5N1 genotype Y)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/FY150/2001 H5N1 genotype D)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/YU22/2002 H5N1 genotype Z)",
+      "Influenza A virus (strain A/Chicken/Hong Kong/YU562/2001 H5N1 genotype B)",
+      "Influenza A virus (strain A/Chicken/Japan/1924 H7N7)",
+      "Influenza A virus (strain A/Chicken/Pennsylvania/1/1983 H5N2)",
+      "Influenza A virus (strain A/Chicken/Pennsylvania/1370/1983 H5N2)",
+      "Influenza A virus (strain A/Chicken/Pennsylvania/8125/1983 H5N2)",
+      "Influenza A virus (strain A/Chicken/Scotland/1959 H5N1)",
+      "Influenza A virus (strain A/Chicken/Shantou/4231/2003 H5N1 genotype V)",
+      "Influenza A virus (strain A/Chicken/Victoria/1/1985 H7N7)",
+      "Influenza A virus (strain A/Chicken/Weybridge H7N7)",
+      "Influenza A virus (strain A/Chile/1/1983 H1N1)",
+      "Influenza A virus (strain A/China:Nanchang/11/1996 H1N1)",
+      "Influenza A virus (strain A/Duck/Alberta/28/1976 H4N6)",
+      "Influenza A virus (strain A/Duck/Alberta/35/1976 H1N1)",
+      "Influenza A virus (strain A/Duck/Alberta/60/1976 H12N5)",
+      "Influenza A virus (strain A/Duck/Alberta/78/1976 H3N8)",
+      "Influenza A virus (strain A/Duck/Australia/749/1980 H1N1)",
+      "Influenza A virus (strain A/Duck/Bavaria/2/1977 H1N1)",
+      "Influenza A virus (strain A/Duck/Beijing/1/1978 H3N6)",
+      "Influenza A virus (strain A/Duck/Burjatia/652/1988 H3N8)",
+      "Influenza A virus (strain A/Duck/Chabarovsk/1610/1972 H3N8)",
+      "Influenza A virus (strain A/Duck/Czechoslovakia/1956 H4N6)",
+      "Influenza A virus (strain A/Duck/England/1/1956 H11N6)",
+      "Influenza A virus (strain A/Duck/England/1/1962 H4N6)",
+      "Influenza A virus (strain A/Duck/Germany/1949 H10N7)",
+      "Influenza A virus (strain A/Duck/Hokkaido/10/1985 H3N8)",
+      "Influenza A virus (strain A/Duck/Hokkaido/21/1982 H3N8)",
+      "Influenza A virus (strain A/Duck/Hokkaido/33/1980 H3N8)",
+      "Influenza A virus (strain A/Duck/Hokkaido/5/1977 H3N8)",
+      "Influenza A virus (strain A/Duck/Hokkaido/7/1982 H3N8)",
+      "Influenza A virus (strain A/Duck/Hokkaido/8/1980 H3N8)",
+      "Influenza A virus (strain A/Duck/Hokkaido/9/1985 H3N8)",
+      "Influenza A virus (strain A/Duck/Hong Kong/231/1977 H3)",
+      "Influenza A virus (strain A/Duck/Hong Kong/2986.1/2000 H5N1 genotype C)",
+      "Influenza A virus (strain A/Duck/Hong Kong/64/1976 H3)",
+      "Influenza A virus (strain A/Duck/Hong Kong/7/1975 H3N2)",
+      "Influenza A virus (strain A/Duck/Ireland/113/1983 H5N8)",
+      "Influenza A virus (strain A/Duck/Manitoba/1/1953 H10N7)",
+      "Influenza A virus (strain A/Duck/Memphis/546/1976 H11N9)",
+      "Influenza A virus (strain A/Duck/Memphis/928/1974 H3N8)",
+      "Influenza A virus (strain A/Duck/New York/12/1978 H11N6)",
+      "Influenza A virus (strain A/Duck/New Zealand/31/1976 H4N6)",
+      "Influenza A virus (strain A/Duck/Pennsylvania/1/1969 H6N1)",
+      "Influenza A virus (strain A/Duck/Ukraine/1/1960 H11N9)",
+      "Influenza A virus (strain A/Duck/Ukraine/1/1963 H3N8)",
+      "Influenza A virus (strain A/Duck/Ukraine/2/1960 H11N8)",
+      "Influenza A virus (strain A/Dunedin/4/1973 H3N2)",
+      "Influenza A virus (strain A/England/19/1955 H1N1)",
+      "Influenza A virus (strain A/England/321/1977 H3N2)",
+      "Influenza A virus (strain A/England/878/1969 H3N2)",
+      "Influenza A virus (strain A/Equine/Alaska/1/1991 H3N8)",
+      "Influenza A virus (strain A/Equine/Algiers/1972 H3N8)",
+      "Influenza A virus (strain A/Equine/C.Detroit/1/1964 H7N7)",
+      "Influenza A virus (strain A/Equine/Cambridge/1/1963 H7N7)",
+      "Influenza A virus (strain A/Equine/Cambridge/1/1973 H7N7)",
+      "Influenza A virus (strain A/Equine/Cor/16/1974 H7N7)",
+      "Influenza A virus (strain A/Equine/Detroit/1/1964 H7N7)",
+      "Influenza A virus (strain A/Equine/Fontainebleau/1976 H3N8)",
+      "Influenza A virus (strain A/Equine/Jillin/1/1989 H3N8)",
+      "Influenza A virus (strain A/Equine/Kentucky/1/1981)",
+      "Influenza A virus (strain A/Equine/Kentucky/1/1987 H3N8)",
+      "Influenza A virus (strain A/Equine/Kentucky/2/1986 H3N8)",
+      "Influenza A virus (strain A/Equine/Lexington/1/1966 H7N7)",
+      "Influenza A virus (strain A/Equine/London/1416/1973 H7N7)",
+      "Influenza A virus (strain A/Equine/Miami/1/1963 H3N8)",
+      "Influenza A virus (strain A/Equine/New Market/1/1977 H7N7)",
+      "Influenza A virus (strain A/Equine/New Market/1976 H3N8)",
+      "Influenza A virus (strain A/Equine/New Market/1979 H3N8)",
+      "Influenza A virus (strain A/Equine/Prague/1/1956 H7N7)",
+      "Influenza A virus (strain A/Equine/Romania/1980 H3N8)",
+      "Influenza A virus (strain A/Equine/Santiago/1/1985 H3N8)",
+      "Influenza A virus (strain A/Equine/Sao Paulo/1/1976 H7N7)",
+      "Influenza A virus (strain A/Equine/Sao Paulo/6/1969 H3N8)",
+      "Influenza A virus (strain A/Equine/Suffolk/1989 H3N8)",
+      "Influenza A virus (strain A/Equine/Switzerland/137/1972 H7N7)",
+      "Influenza A virus (strain A/Equine/Tennessee/5/1986 H3N8)",
+      "Influenza A virus (strain A/Equine/Tokyo/1971 H3N2)",
+      "Influenza A virus (strain A/Equine/Uruguay/1/1963 H3N8)",
+      "Influenza A virus (strain A/Fort Monmouth/1/1947 H1N1)",
+      "Influenza A virus (strain A/Fort Warren/1/1950 H1N1)",
+      "Influenza A virus (strain A/Fowl plague virus/Dobson/'Dutch'/1927 H7N7)",
+      "Influenza A virus (strain A/Fowl plague virus/Rostock/8/1934 H7N1)",
+      "Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd)",
+      "Influenza A virus (strain A/Goose/Guangxi/345/2005 H5N1 genotype G)",
+      "Influenza A virus (strain A/Goose/Hong Kong/10/1976 H3)",
+      "Influenza A virus (strain A/Grey teal/Australia/2/1979 H4N4)",
+      "Influenza A virus (strain A/Guangdong/38/1977 H3N2)",
+      "Influenza A virus (strain A/Guangdong/39/1989 H3N2)",
+      "Influenza A virus (strain A/Guangdong/9/1987 H3N2)",
+      "Influenza A virus (strain A/Guinea fowl/Hong Kong/38/2002 H5N1 genotype X0)",
+      "Influenza A virus (strain A/Guinea fowl/New York/4-3587/1984 H3N8)",
+      "Influenza A virus (strain A/Gull/Astrakhan/227/1984 H13N6)",
+      "Influenza A virus (strain A/Gull/Maryland/1815/1979 H13N6)",
+      "Influenza A virus (strain A/Gull/Maryland/1824/1978 H13N6)",
+      "Influenza A virus (strain A/Gull/Maryland/5/1977 H11N9)",
+      "Influenza A virus (strain A/Gull/Maryland/704/1977 H13N6)",
+      "Influenza A virus (strain A/Gull/Massachusetts/26/1980 H13N6)",
+      "Influenza A virus (strain A/Gull/Minnesota/945/1980 H13N6)",
+      "Influenza A virus (strain A/Harbin/1/1988 H1N2)",
+      "Influenza A virus (strain A/Henry/1936 H1N1)",
+      "Influenza A virus (strain A/Herring gull/DE/677/1988 H2N8)",
+      "Influenza A virus (strain A/Hickox/1940 H1N1)",
+      "Influenza A virus (strain A/Hong Kong/1/1968 H3N2)",
+      "Influenza A virus (strain A/Hong Kong/156/1997 H5N1 genotype Gs/Gd)",
+      "Influenza A virus (strain A/Hong Kong/212/2003 H5N1 genotype Z+)",
+      "Influenza A virus (strain A/Hong Kong/5/1983 H3N2)",
+      "Influenza A virus (strain A/India/6263/1980 H1N1)",
+      "Influenza A virus (strain A/Japan/305/1957 H2N2)",
+      "Influenza A virus (strain A/Kiev/59/1979 H1N1)",
+      "Influenza A virus (strain A/Kitakyushu/159/1993 H3N2)",
+      "Influenza A virus (strain A/Korea/426/1968 H2N2)",
+      "Influenza A virus (strain A/Leningrad/1/1954 H1N1)",
+      "Influenza A virus (strain A/Leningrad/134/17/1957 H2N2)",
+      "Influenza A virus (strain A/Leningrad/134/1957 H2N2)",
+      "Influenza A virus (strain A/Leningrad/134/47/1957 H2N2)",
+      "Influenza A virus (strain A/Malaysia:Malaya/302/1954 H1N1)",
+      "Influenza A virus (strain A/Mallard/Alberta/827/1978 H8N4)",
+      "Influenza A virus (strain A/Mallard/Alberta/88/1976 H3N8)",
+      "Influenza A virus (strain A/Mallard/Astrakhan/244/1982 H14N6)",
+      "Influenza A virus (strain A/Mallard/Astrakhan/263/1982 H14N5)",
+      "Influenza A virus (strain A/Mallard/Edmonton/220/1990 H3N8)",
+      "Influenza A virus (strain A/Mallard/New York/6750/1978 H2N2)",
+      "Influenza A virus (strain A/Mallard/New York/6874/1978 H3N2)",
+      "Influenza A virus (strain A/Mallard/Ohio/556/1987 H5N9)",
+      "Influenza A virus (strain A/Memphis/1/1971 H3N2)",
+      "Influenza A virus (strain A/Memphis/1/1973 H3N2)",
+      "Influenza A virus (strain A/Memphis/101/1972 H3N2)",
+      "Influenza A virus (strain A/Memphis/102/1972 H3N2)",
+      "Influenza A virus (strain A/Memphis/110/1976 H3N2)",
+      "Influenza A virus (strain A/Memphis/14/1985 H3N2)",
+      "Influenza A virus (strain A/Memphis/18/1978 H3N2)",
+      "Influenza A virus (strain A/Memphis/2/1978 H3N2)",
+      "Influenza A virus (strain A/Memphis/3/1988 H3N2)",
+      "Influenza A virus (strain A/Memphis/4/1973 H3N2)",
+      "Influenza A virus (strain A/Memphis/4/1980 H3N2)",
+      "Influenza A virus (strain A/Memphis/5/1980 H3N2)",
+      "Influenza A virus (strain A/Memphis/6/1986 H3N2)",
+      "Influenza A virus (strain A/Memphis/8/1988 H3N2)",
+      "Influenza A virus (strain A/Mink/Sweden/1984 H10N4)",
+      "Influenza A virus (strain A/Mynah/Haneda-Thai/1976 H3N1)",
+      "Influenza A virus (strain A/New Jersey/8/1976 H1N1)",
+      "Influenza A virus (strain A/New Zealand:South Canterbury/35/2000 H1N1)",
+      "Influenza A virus (strain A/Niigata/137/1996 H3N2)",
+      "Influenza A virus (strain A/Northern Territory/60/1968 H3N2)",
+      "Influenza A virus (strain A/Ohio/4/1983 H1N1)",
+      "Influenza A virus (strain A/Parrot/Ulster/1973 H7N1)",
+      "Influenza A virus (strain A/Philippines/2/1982 H3N2)",
+      "Influenza A virus (strain A/Pintail/Alberta/119/1979 H4N6)",
+      "Influenza A virus (strain A/Pintail/Alberta/121/1979 H7N8)",
+      "Influenza A virus (strain A/Pintail/Alberta/268/1978 H6N2)",
+      "Influenza A virus (strain A/Pintail/Alberta/358/1979 H3N6)",
+      "Influenza A virus (strain A/Port Chalmers/1/1973 H3N2)",
+      "Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)",
+      "Influenza A virus (strain A/Qu/7/1970 H3N2)",
+      "Influenza A virus (strain A/Quail/Italy/1117/1965 H10N8)",
+      "Influenza A virus (strain A/RI/5-/1957 H2N2)",
+      "Influenza A virus (strain A/Ruddy Turnstone/New Jersey/47/1985 H4N6)",
+      "Influenza A virus (strain A/Ruddy Turnstone/New Jersey/60/1985 H4N9)",
+      "Influenza A virus (strain A/Russia:St.Petersburg/8/2006 H1N1)",
+      "Influenza A virus (strain A/Seal/Massachusetts/1/1980 H7N7)",
+      "Influenza A virus (strain A/Seal/Massachusetts/133/1982 H4N5)",
+      "Influenza A virus (strain A/Shanghai/11/1987 H3N2)",
+      "Influenza A virus (strain A/Shanghai/16/1989 H3N2)",
+      "Influenza A virus (strain A/Shanghai/31/1980 H3N2)",
+      "Influenza A virus (strain A/Shanghai/6/1990 H3N2)",
+      "Influenza A virus (strain A/Shearwater/Australia/1972 H6N5)",
+      "Influenza A virus (strain A/Shearwater/Australia/1975 H5N3)",
+      "Influenza A virus (strain A/Silky Chicken/Hong Kong/SF189/2001 H5N1 genotype A)",
+      "Influenza A virus (strain A/Silky Chicken/Hong Kong/YU100/2002 H5N1 genotype X3)",
+      "Influenza A virus (strain A/Singapore/1/1957 H2N2)",
+      "Influenza A virus (strain A/Starling/Victoria/5156/1985 H7N7)",
+      "Influenza A virus (strain A/Swine/29/1937 H1N1)",
+      "Influenza A virus (strain A/Swine/41/1949 H1N1)",
+      "Influenza A virus (strain A/Swine/Cambridge/1/1935 H1N1)",
+      "Influenza A virus (strain A/Swine/Colorado/1/1977 H3N2)",
+      "Influenza A virus (strain A/Swine/Dandong/9/1983 H3N2)",
+      "Influenza A virus (strain A/Swine/Germany/2/1981 H1N1)",
+      "Influenza A virus (strain A/Swine/Hong Kong/126/1982 H3N2)",
+      "Influenza A virus (strain A/Swine/Hong Kong/127/1982 H3N2)",
+      "Influenza A virus (strain A/Swine/Hong Kong/3/1976 H3N2)",
+      "Influenza A virus (strain A/Swine/Hong Kong/4/1976 H3N2)",
+      "Influenza A virus (strain A/Swine/Hong Kong/6/1976 H3N2)",
+      "Influenza A virus (strain A/Swine/Hong Kong/81/1978 H3N2)",
+      "Influenza A virus (strain A/Swine/Indiana/1726/1988 H1N1)",
+      "Influenza A virus (strain A/Swine/Iowa/15/1930 H1N1)",
+      "Influenza A virus (strain A/Swine/Iowa/17672/1988 H1N1)",
+      "Influenza A virus (strain A/Swine/Iowa/1946 H1N1)",
+      "Influenza A virus (strain A/Swine/Iowa/1976/1931 H1N1)",
+      "Influenza A virus (strain A/Swine/Italy/141/1981 H1N1)",
+      "Influenza A virus (strain A/Swine/Italy/2/1979 H1N1)",
+      "Influenza A virus (strain A/Swine/Italy/437/1976 H1N1)",
+      "Influenza A virus (strain A/Swine/Italy/839/1989 H1N1)",
+      "Influenza A virus (strain A/Swine/Jamesburg/1942 H1N1)",
+      "Influenza A virus (strain A/Swine/Kanagawa/2/1978 H1N2)",
+      "Influenza A virus (strain A/Swine/May/1954 H1N1)",
+      "Influenza A virus (strain A/Swine/Netherlands/12/1985 H1N1)",
+      "Influenza A virus (strain A/Swine/New Jersey/11/1976 H1N1)",
+      "Influenza A virus (strain A/Swine/Ohio/23/1935 H1N1)",
+      "Influenza A virus (strain A/Swine/Ontario/2/1981 H1N1)",
+      "Influenza A virus (strain A/Swine/Tennessee/24/1977 H1N1)",
+      "Influenza A virus (strain A/Swine/Tennessee/26/1977 H1N1)",
+      "Influenza A virus (strain A/Swine/Ukkel/1/1984 H3N2)",
+      "Influenza A virus (strain A/Swine/Wisconsin/1/1957 H1N1)",
+      "Influenza A virus (strain A/Swine/Wisconsin/1/1961 H1N1)",
+      "Influenza A virus (strain A/Swine/Wisconsin/1/1967 H1N1)",
+      "Influenza A virus (strain A/Taiwan/1/1986 H1N1)",
+      "Influenza A virus (strain A/Teal/China/2978.1/2002 H5N1 genotype W)",
+      "Influenza A virus (strain A/Teal/Iceland/29/1980 H7N7)",
+      "Influenza A virus (strain A/Tern/Australia/G70C/1975 H11N9)",
+      "Influenza A virus (strain A/Tern/South Africa/1961 H5N3)",
+      "Influenza A virus (strain A/Tern/Turkmenia/18/1972 H3N3)",
+      "Influenza A virus (strain A/Texas/1/1977 H3N2)",
+      "Influenza A virus (strain A/Tokyo/3/1967 H2N2)",
+      "Influenza A virus (strain A/Turkey/Bethlehem-Glilit/1492-B/1982 H1N1)",
+      "Influenza A virus (strain A/Turkey/Canada/1963 H6N8)",
+      "Influenza A virus (strain A/Turkey/Ireland/1378/1983 H5N8)",
+      "Influenza A virus (strain A/Turkey/Minnesota/1661/1981 H1N1)",
+      "Influenza A virus (strain A/Turkey/Minnesota/501/1978 H6N8)",
+      "Influenza A virus (strain A/Turkey/Minnesota/833/1980 H4N2)",
+      "Influenza A virus (strain A/Turkey/Ontario/6118/1968 H8N4)",
+      "Influenza A virus (strain A/Turkey/Ontario/7732/1966 H5N9)",
+      "Influenza A virus (strain A/Turkey/Oregon/1971 H7N3)",
+      "Influenza A virus (strain A/Turkey/Wisconsin/1/1966 H9N2)",
+      "Influenza A virus (strain A/USA:Albany/12/1951 H1N1)",
+      "Influenza A virus (strain A/USA:Huston/AA/1945 H1N1)",
+      "Influenza A virus (strain A/USA:Iowa/1943 H1N1)",
+      "Influenza A virus (strain A/USA:Memphis/10/1996 H1N1)",
+      "Influenza A virus (strain A/USA:Phila/1935 H1N1)",
+      "Influenza A virus (strain A/USA:Texas/UR06-0195/2007 H1N1)",
+      "Influenza A virus (strain A/USSR/90/1977 H1N1)",
+      "Influenza A virus (strain A/Udorn/1972 H3N2)",
+      "Influenza A virus (strain A/Udorn/307/1972 H3N2)",
+      "Influenza A virus (strain A/Victoria/3/1975 H3N2)",
+      "Influenza A virus (strain A/Victoria/5/1968 H2N2)",
+      "Influenza A virus (strain A/Vietnam/1203/2004 H5N1)",
+      "Influenza A virus (strain A/Wa-182)",
+      "Influenza A virus (strain A/Whale/Maine/1/1984 H13N9)",
+      "Influenza A virus (strain A/Whale/Maine/328/1984 H13N2)",
+      "Influenza A virus (strain A/Whale/Pacific ocean/19/1976 H1N3)",
+      "Influenza A virus (strain A/Wilson-Smith/1933 H1N1)",
+      "Influenza A virus (strain A/Wisconsin/3523/1988 H1N1)",
+      "Influenza A virus (strain A/X-31 H3N2)",
+      "Influenza A virus (strain A/Xianfeng/3/1989 H1N2)",
+      "Influenza A virus (strain A/wyoming/03/2003 H3N2)",
+      "Influenza A virus (strain swl A/California/04/2009 H1N1)"
+    ],
+    "scope_note": "Targeted historical scope: includes documented 1918 pandemic strains (A/Brevig Mission/1/1918 and A/South Carolina/1/1918) and Swiss-Prot reviewed canonical proteins."
   },
   {
     "tax_id": "PRAG-TAX-016",
@@ -9016,7 +9354,13 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Doedicurus clavicaudatus'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Doedicurus sp.",
+      "Doedicurus sp. FD-2016a",
+      "Glyptodon sp. (strain SLP-2019)"
+    ],
+    "scope_note": "Expanded clade scope: includes records across Glyptodontidae (genera Doedicurus and Glyptodon)."
   },
   {
     "tax_id": "PRAG-TAX-017",
@@ -9603,7 +9947,11 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Toxodon platensis'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Toxodon sp"
+    ],
+    "scope_note": "Standard genus scope: exact taxon node Toxodon."
   },
   {
     "tax_id": "PRAG-TAX-018",
@@ -10181,6 +10529,22 @@
           "note": "Live NCBI lookup verdict=invalid_format_not_nuccore_accession; original accession does not verifiably represent 'Dinornis robustus'. Nulled rather than left pointing at the wrong record."
         }
       }
-    ]
+    ],
+    "included_species": [
+      "Anomalopteryx didiformis",
+      "Dinornis giganteus",
+      "Dinornis novaezealandiae",
+      "Dinornis robustus",
+      "Dinornis sp",
+      "Dinornis struthoides",
+      "Emeus crassus",
+      "Euryapteryx curtus",
+      "Megalapteryx didinus",
+      "Pachyornis australis",
+      "Pachyornis elephantopus",
+      "Pachyornis geranoides",
+      "Pachyornis mappini"
+    ],
+    "scope_note": "Expanded clade scope: includes records across the order Dinornithiformes (all extinct moa genera: Dinornis, Megalapteryx, Pachyornis, Emeus, Anomalopteryx, Euryapteryx)."
   }
 ]

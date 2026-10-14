@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-10-14T09:37:15.695Z",
+  "tests": [
+    {
+      "name": "Landing View",
+      "status": "PASS"
+    },
+    {
+      "name": "Taxa Atlas Grid (18 Taxa)",
+      "status": "PASS"
+    },
+    {
+      "name": "Mammoth Overview Dossier",
+      "status": "PASS"
+    },
+    {
+      "name": "Taxon Proteome Browser (SQLite live query)",
+      "status": "PASS"
+    },
+    {
+      "name": "SIFTS Residue Ranges & AlphaFold Models",
+      "status": "PASS"
+    },
+    {
+      "name": "Ensembl Living Sister Species Synteny",
+      "status": "PASS"
+    },
+    {
+      "name": "System Telemetry Sub-Panel",
+      "status": "PASS"
+    },
+    {
+      "name": "Literature Corpus Sub-Panel (885 papers manifest)",
+      "status": "PASS"
+    },
+    {
+      "name": "Data Quality & Golden Benchmarks Sub-Panel (Live SQLite Metrics)",
+      "status": "PASS"
+    }
+  ],
+  "network_errors": [],
+  "screenshots": [
+    "p9_00_landing.png",
+    "p9_01_taxa_atlas.png",
+    "p9_02_mammoth_overview.png",
+    "p9_03_mammoth_proteome.png",
+    "p9_04_mammoth_structure.png",
+    "p9_05_mammoth_synteny.png",
+    "p9_07_diagnostics_telemetry.png",
+    "p9_08_diagnostics_literature.png",
+    "p9_09_diagnostics_quality.png"
+  ]
+}
