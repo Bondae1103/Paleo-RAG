@@ -234,6 +234,11 @@ export const MolecularViewer: React.FC<MolecularViewerProps> = ({
               {resolution.toFixed(2)} Å
             </span>
           )}
+          {title && (
+            <span className="text-[11px] text-slate-400 font-sans border-l border-white/10 pl-2 max-w-md truncate" title={title}>
+              {title}
+            </span>
+          )}
         </div>
 
         {/* View style controls */}

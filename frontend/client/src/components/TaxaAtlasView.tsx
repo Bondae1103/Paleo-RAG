@@ -22,6 +22,7 @@ import {
   Flame,
   GitBranch,
   Globe,
+  Info,
   Layers,
   MapPin,
   Microscope,
@@ -66,7 +67,9 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
   const [selectedEpoch, setSelectedEpoch] = useState<string>("All");
   const [viewingTaxon, setViewingTaxon] = useState<TaxonRegistryEntry | null>(null);
   const [selectedSampleIndex, setSelectedSampleIndex] = useState<number>(0);
-  const [activeTab, setActiveTab] = useState<"overview" | "comparative" | "structure" | "genomics" | "proteome">("overview");
+  const [activeTab, setActiveTab] = useState<"overview" | "comparative" | "structure" | "genomics">("overview");
+  const [selectedPdbId, setSelectedPdbId] = useState<string | null>(null);
+  const [proteomeViewMode, setProteomeViewMode] = useState<"cards" | "table">("cards");
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   // Staged Proteome & Relational Metadata State (Phase P9)
@@ -287,9 +290,24 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
     };
   }, [activeSample, proteinDetails]);
 
-  // Filtered proteome list
+  // Filtered proteome list (with robust fallback to curated molecular samples)
   const filteredProteome = useMemo(() => {
-    return proteomeList.filter((p) => {
+    let list: TaxonProteinSummary[] = proteomeList;
+    if (list.length === 0 && viewingTaxon?.molecular_samples) {
+      list = viewingTaxon.molecular_samples.map((s, idx) => ({
+        accession: s.extinct_uniprot_acc || `${viewingTaxon.tax_id}-LOC-${idx + 1}`,
+        entry_name: s.gene_symbol,
+        reviewed: true,
+        protein_name: s.protein_name,
+        gene_symbol: s.gene_symbol,
+        sequence_length: s.extinct_sequence_aa ? s.extinct_sequence_aa.length : 0,
+        exp_pdb_count: s.structure?.pdb_id ? 1 : 0,
+        af_model_count: 0,
+        paper_count: viewingTaxon.publications?.length || 0,
+      }));
+    }
+
+    return list.filter((p) => {
       const matchesSearch =
         proteomeFilter.trim() === "" ||
         p.accession.toLowerCase().includes(proteomeFilter.toLowerCase()) ||
@@ -300,7 +318,23 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
       const matchesReviewed = !reviewedOnlyFilter || p.reviewed;
       return matchesSearch && matchesReviewed;
     });
-  }, [proteomeList, proteomeFilter, reviewedOnlyFilter]);
+  }, [proteomeList, viewingTaxon, proteomeFilter, reviewedOnlyFilter]);
+
+  // Active 3D viewer model calculation and provenance
+  const activeViewerPdb = useMemo(() => {
+    if (selectedPdbId) return selectedPdbId;
+    if (proteinDetails?.experimental_structures && proteinDetails.experimental_structures.length > 0) {
+      return proteinDetails.experimental_structures[0].pdb_id;
+    }
+    return activeSample?.structure?.pdb_id || null;
+  }, [selectedPdbId, proteinDetails, activeSample]);
+
+  const isAuthenticPdb = useMemo(() => {
+    if (!activeViewerPdb) return false;
+    return proteinDetails?.experimental_structures?.some(
+      (s) => s.pdb_id.toUpperCase() === activeViewerPdb.toUpperCase()
+    ) || false;
+  }, [activeViewerPdb, proteinDetails]);
 
   // PBDB classic URL (Fix for 403 blocks per P9.3)
   const pbdbClassicUrl = useMemo(() => {
@@ -561,67 +595,295 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
             </div>
           </section>
 
-          {/* CURATED MOLECULAR LOCI CATALOG */}
-          {t.molecular_samples && t.molecular_samples.length > 0 && (
-            <section className="space-y-3 rounded border border-white/[0.08] bg-[#0c1214] p-4 lg:p-5">
-              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.06] pb-3">
-                <div className="flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-[#d5a65b]">
-                  <Dna size={15} />
-                  <span className="font-semibold">Curated Diagnostic Loci ({t.molecular_samples.length} Landmark Samples)</span>
-                </div>
-                <div className="font-mono text-[10px] text-slate-400">
-                  Select a curated sample to inspect 3D structure, SIFTS ranges, and extant synteny
-                </div>
+          {/* TAXON PROTEOME & DIAGNOSTIC LOCI EXPLORER */}
+          <section className="space-y-3 rounded border border-white/[0.08] bg-[#0c1214] p-4 lg:p-5">
+            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/[0.06] pb-3">
+              <div className="flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-[#d5a65b]">
+                <Dna size={15} />
+                <span className="font-semibold">Taxon Proteome &amp; Diagnostic Loci Explorer</span>
+                <span className="text-[10px] font-normal text-slate-400 border-l border-white/10 pl-2">
+                  {proteomeList.length || t.molecular_samples?.length || 0} Staged Proteins · {t.molecular_samples?.length || 0} Landmark Samples
+                </span>
               </div>
 
-              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                {t.molecular_samples.map((sample, sIdx) => {
-                  const isSelected = selectedSampleIndex === sIdx;
-                  return (
+              <div className="flex flex-wrap items-center gap-2">
+                <div className="relative">
+                  <Search className="absolute left-2.5 top-2.5 text-slate-500" size={13} />
+                  <input
+                    type="text"
+                    value={proteomeFilter}
+                    onChange={(e) => setProteomeFilter(e.target.value)}
+                    placeholder="Filter gene, accession, name..."
+                    className="h-8 w-44 sm:w-60 border border-white/10 bg-black/40 pl-8 pr-3 font-mono text-xs text-slate-200 placeholder-slate-600 outline-none focus:border-[#d5a65b]"
+                  />
+                  {proteomeFilter && (
                     <button
-                      key={sample.sample_id || sIdx}
-                      onClick={() => {
-                        setSelectedSampleIndex(sIdx);
-                        if (sample.extinct_uniprot_acc) {
-                          setSelectedProteinAcc(sample.extinct_uniprot_acc);
-                        }
-                      }}
-                      className={`group flex flex-col justify-between text-left p-3.5 border transition rounded ${
-                        isSelected
-                          ? "border-[#d5a65b] bg-[#d5a65b]/[0.12] shadow-md shadow-black/40 ring-1 ring-[#d5a65b]/40"
-                          : "border-white/[0.08] bg-black/25 hover:border-white/20 hover:bg-white/[0.03]"
-                      }`}
+                      onClick={() => setProteomeFilter("")}
+                      className="absolute right-2 top-2.5 text-slate-400 hover:text-white"
                     >
-                      <div className="space-y-1">
-                        <div className="flex items-center justify-between">
-                          <span className={`font-mono text-xs font-bold ${isSelected ? "text-[#f0c778]" : "text-white group-hover:text-[#eee9de]"}`}>
-                            {sample.gene_symbol}
-                          </span>
-                          {sample.structure?.pdb_id && (
-                            <span className="font-mono text-[9px] px-1.5 py-0.5 border rounded border-white/10 bg-black/40 text-[#8cd1c7]">
-                              PDB: {sample.structure.pdb_id}
-                            </span>
-                          )}
-                        </div>
-                        <div className="text-xs font-medium text-slate-200 line-clamp-1">
-                          {sample.protein_name}
-                        </div>
-                        <div className="font-mono text-[10px] text-slate-400 line-clamp-1">
-                          {sample.category}
-                        </div>
-                      </div>
-                      <div className="mt-3 pt-2 border-t border-white/[0.06] flex items-center justify-between font-mono text-[9px]">
-                        <span className="text-slate-500">{sample.structure?.mutations?.length || 0} diagnostic muts</span>
-                        <span className={isSelected ? "text-[#f0c778] font-semibold" : "text-slate-500"}>
-                          {isSelected ? "Active" : "Inspect →"}
-                        </span>
-                      </div>
+                      <X size={12} />
                     </button>
-                  );
-                })}
+                  )}
+                </div>
+
+                <button
+                  onClick={() => setReviewedOnlyFilter(!reviewedOnlyFilter)}
+                  className={`h-8 px-2.5 border font-mono text-[11px] transition rounded ${
+                    reviewedOnlyFilter
+                      ? "border-emerald-500/50 bg-emerald-500/10 text-emerald-300 font-semibold"
+                      : "border-white/10 bg-black/20 text-slate-400 hover:text-white"
+                  }`}
+                  title="Filter Swiss-Prot reviewed proteins"
+                >
+                  {reviewedOnlyFilter ? "Reviewed (Swiss-Prot)" : "All (Swiss-Prot + TrEMBL)"}
+                </button>
+
+                <div className="flex items-center border border-white/10 rounded overflow-hidden">
+                  <button
+                    onClick={() => setProteomeViewMode("cards")}
+                    className={`h-8 px-2.5 font-mono text-[11px] transition ${
+                      proteomeViewMode === "cards"
+                        ? "bg-[#d5a65b]/20 text-[#f0c778] font-semibold"
+                        : "bg-black/20 text-slate-400 hover:text-white"
+                    }`}
+                  >
+                    Landmark Cards
+                  </button>
+                  <button
+                    onClick={() => setProteomeViewMode("table")}
+                    className={`h-8 px-2.5 font-mono text-[11px] transition ${
+                      proteomeViewMode === "table"
+                        ? "bg-[#d5a65b]/20 text-[#f0c778] font-semibold"
+                        : "bg-black/20 text-slate-400 hover:text-white"
+                    }`}
+                  >
+                    Proteome Table ({filteredProteome.length})
+                  </button>
+                </div>
               </div>
-            </section>
-          )}
+            </div>
+
+            {/* VIEW MODE 1: LANDMARK CARDS */}
+            {proteomeViewMode === "cards" && (
+              <div className="space-y-3">
+                {t.molecular_samples && t.molecular_samples.length > 0 && (
+                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                    {t.molecular_samples.map((sample, sIdx) => {
+                      const isSelected = selectedSampleIndex === sIdx || selectedProteinAcc === sample.extinct_uniprot_acc;
+                      return (
+                        <button
+                          key={sample.sample_id || sIdx}
+                          onClick={() => {
+                            setSelectedSampleIndex(sIdx);
+                            if (sample.extinct_uniprot_acc) {
+                              setSelectedProteinAcc(sample.extinct_uniprot_acc);
+                            }
+                            setSelectedPdbId(null);
+                          }}
+                          className={`group flex flex-col justify-between text-left p-3.5 border transition rounded ${
+                            isSelected
+                              ? "border-[#d5a65b] bg-[#d5a65b]/[0.12] shadow-md shadow-black/40 ring-1 ring-[#d5a65b]/40"
+                              : "border-white/[0.08] bg-black/25 hover:border-white/20 hover:bg-white/[0.03]"
+                          }`}
+                        >
+                          <div className="space-y-1">
+                            <div className="flex items-center justify-between">
+                              <span className={`font-mono text-xs font-bold ${isSelected ? "text-[#f0c778]" : "text-white group-hover:text-[#eee9de]"}`}>
+                                {sample.gene_symbol}
+                              </span>
+                              {sample.structure?.pdb_id && (
+                                <span className="font-mono text-[9px] px-1.5 py-0.5 border rounded border-white/10 bg-black/40 text-[#8cd1c7]">
+                                  PDB: {sample.structure.pdb_id}
+                                </span>
+                              )}
+                            </div>
+                            <div className="text-xs font-medium text-slate-200 line-clamp-1">
+                              {sample.protein_name}
+                            </div>
+                            <div className="font-mono text-[10px] text-slate-400 line-clamp-1">
+                              {sample.category}
+                            </div>
+                          </div>
+                          <div className="mt-3 pt-2 border-t border-white/[0.06] flex items-center justify-between font-mono text-[9px]">
+                            <span className="text-slate-500">{sample.structure?.mutations?.length || 0} diagnostic muts</span>
+                            <span className={isSelected ? "text-[#f0c778] font-semibold" : "text-slate-500"}>
+                              {isSelected ? "Active" : "Inspect →"}
+                            </span>
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+
+                {/* QUICK ACCORDION OR STRIP FOR ALL OTHER MATCHING PROTEINS */}
+                {filteredProteome.length > 0 && (
+                  <div className="rounded border border-white/[0.06] bg-black/20 p-2.5">
+                    <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
+                      <span className="text-slate-400">
+                        {filteredProteome.length} Proteome Entries Available:
+                      </span>
+                      <button
+                        onClick={() => setProteomeViewMode("table")}
+                        className="text-[#8cd1c7] hover:underline flex items-center gap-1 text-[11px]"
+                      >
+                        <span>Open Full Searchable Table</span>
+                        <ChevronRight size={12} />
+                      </button>
+                    </div>
+                    <div className="mt-2 flex flex-wrap gap-1.5 max-h-24 overflow-y-auto pr-1">
+                      {filteredProteome.slice(0, 40).map((p) => {
+                        const isSelected = selectedProteinAcc === p.accession;
+                        return (
+                          <button
+                            key={p.accession}
+                            onClick={() => {
+                              setSelectedProteinAcc(p.accession);
+                              const sampleIdx = t.molecular_samples?.findIndex(
+                                (s) => s.extinct_uniprot_acc === p.accession || s.gene_symbol === p.gene_symbol
+                              );
+                              if (sampleIdx !== undefined && sampleIdx >= 0) {
+                                setSelectedSampleIndex(sampleIdx);
+                              }
+                              setSelectedPdbId(null);
+                            }}
+                            className={`font-mono text-[10px] px-2 py-1 rounded border transition flex items-center gap-1.5 ${
+                              isSelected
+                                ? "border-[#d5a65b] bg-[#d5a65b]/20 text-[#f0c778] font-bold"
+                                : "border-white/10 bg-black/40 text-slate-300 hover:border-white/30 hover:text-white"
+                            }`}
+                          >
+                            <span className="font-semibold">{p.gene_symbol}</span>
+                            <span className="text-slate-500">({p.accession})</span>
+                            {p.exp_pdb_count > 0 && <span className="text-teal-400 text-[9px]">PDB</span>}
+                          </button>
+                        );
+                      })}
+                      {filteredProteome.length > 40 && (
+                        <button
+                          onClick={() => setProteomeViewMode("table")}
+                          className="font-mono text-[10px] px-2 py-1 rounded border border-[#d5a65b]/30 bg-[#d5a65b]/10 text-[#f0c778] hover:bg-[#d5a65b]/20"
+                        >
+                          +{filteredProteome.length - 40} more...
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* VIEW MODE 2: FULL SEARCHABLE PROTEOME TABLE */}
+            {proteomeViewMode === "table" && (
+              <div className="space-y-2">
+                {proteomeLoading ? (
+                  <div className="flex items-center gap-3 py-6 text-xs text-slate-400 font-mono">
+                    <RotateCw className="animate-spin text-[#d5a65b]" size={16} />
+                    <span>Loading proteome records from SQLite staging database...</span>
+                  </div>
+                ) : (
+                  <div className="overflow-x-auto max-h-80 overflow-y-auto border border-white/[0.06] rounded">
+                    <table className="w-full text-left font-mono text-xs">
+                      <thead className="sticky top-0 bg-[#0f1516] text-slate-400 border-b border-white/[0.08] z-10">
+                        <tr>
+                          <th className="p-2.5">UniProt Accession</th>
+                          <th className="p-2.5">Gene Symbol</th>
+                          <th className="p-2.5">Protein Name</th>
+                          <th className="p-2.5">Status</th>
+                          <th className="p-2.5">Length</th>
+                          <th className="p-2.5">3D Structures</th>
+                          <th className="p-2.5">Literature</th>
+                          <th className="p-2.5 text-right">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-white/[0.04] bg-black/20">
+                        {filteredProteome.map((p) => {
+                          const isSelected = selectedProteinAcc === p.accession;
+                          const isLandmark = t.molecular_samples?.some(
+                            (s) => s.extinct_uniprot_acc === p.accession || s.gene_symbol === p.gene_symbol
+                          );
+                          return (
+                            <tr
+                              key={p.accession}
+                              onClick={() => {
+                                setSelectedProteinAcc(p.accession);
+                                const sampleIdx = t.molecular_samples?.findIndex(
+                                  (s) => s.extinct_uniprot_acc === p.accession || s.gene_symbol === p.gene_symbol
+                                );
+                                if (sampleIdx !== undefined && sampleIdx >= 0) {
+                                  setSelectedSampleIndex(sampleIdx);
+                                }
+                                setSelectedPdbId(null);
+                              }}
+                              className={`cursor-pointer transition ${
+                                isSelected
+                                  ? "bg-[#d5a65b]/15 border-l-2 border-[#d5a65b]"
+                                  : "hover:bg-white/[0.03]"
+                              }`}
+                            >
+                              <td className="p-2.5 font-bold">
+                                <span className={isSelected ? "text-[#f0c778]" : "text-[#8cd1c7]"}>
+                                  {p.accession}
+                                </span>
+                              </td>
+                              <td className="p-2.5 font-semibold text-white">
+                                <div className="flex items-center gap-1.5">
+                                  <span>{p.gene_symbol}</span>
+                                  {isLandmark && (
+                                    <span className="font-mono text-[9px] px-1 py-0.2 rounded border border-[#d5a65b]/40 bg-[#d5a65b]/10 text-[#f0c778]">
+                                      Landmark
+                                    </span>
+                                  )}
+                                </div>
+                              </td>
+                              <td className="p-2.5 text-slate-300 max-w-xs truncate" title={p.protein_name}>
+                                {p.protein_name}
+                              </td>
+                              <td className="p-2.5">
+                                <span className={`text-[10px] px-1.5 py-0.5 rounded border ${
+                                  p.reviewed
+                                    ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-300"
+                                    : "border-amber-500/30 bg-amber-500/10 text-amber-300"
+                                }`}>
+                                  {p.reviewed ? "Reviewed" : "TrEMBL"}
+                                </span>
+                              </td>
+                              <td className="p-2.5 text-slate-400">{p.sequence_length} aa</td>
+                              <td className="p-2.5">
+                                {p.exp_pdb_count > 0 ? (
+                                  <span className="text-teal-300 font-bold">{p.exp_pdb_count} PDB</span>
+                                ) : p.af_model_count > 0 ? (
+                                  <span className="text-[#d5a65b]">AlphaFold</span>
+                                ) : (
+                                  <span className="text-slate-600">—</span>
+                                )}
+                              </td>
+                              <td className="p-2.5">
+                                {p.paper_count > 0 ? (
+                                  <span className="text-[#8cd1c7]">{p.paper_count} papers</span>
+                                ) : (
+                                  <span className="text-slate-600">0</span>
+                                )}
+                              </td>
+                              <td className="p-2.5 text-right">
+                                <span className={`px-2 py-0.5 border rounded text-[10px] ${
+                                  isSelected
+                                    ? "border-[#d5a65b] bg-[#d5a65b]/20 text-[#f0c778] font-bold"
+                                    : "border-white/10 text-slate-400 hover:text-white"
+                                }`}>
+                                  {isSelected ? "Active" : "Select"}
+                                </span>
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
+            )}
+          </section>
 
           {/* ACTIVE PROTEIN INSPECTOR BANNER */}
           {selectedProteinAcc && (
@@ -708,18 +970,6 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
               >
                 <Network size={14} />
                 <span>Federated Biological DBs</span>
-              </button>
-
-              <button
-                onClick={() => setActiveTab("proteome")}
-                className={`flex items-center gap-2 border-b-2 px-4 py-2.5 transition ${
-                  activeTab === "proteome"
-                    ? "border-[#d5a65b] font-semibold text-[#f0c778]"
-                    : "border-transparent text-slate-500 hover:text-slate-300"
-                }`}
-              >
-                <Database size={14} />
-                <span>Taxon Proteome ({proteomeList.length || t.target_locus?.extinct_uniprot_acc ? `${proteomeList.length} Staged` : "Catalog"})</span>
               </button>
             </div>
 
@@ -1055,39 +1305,60 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-white/[0.04]">
-                          {proteinDetails.experimental_structures.map((s, idx) => (
-                            <tr key={idx} className="hover:bg-white/[0.02]">
-                              <td className="p-2.5 font-bold text-[#f0c778]">
-                                <a
-                                  href={`https://www.rcsb.org/structure/${s.pdb_id}`}
-                                  target="_blank"
-                                  rel="noreferrer"
-                                  className="hover:underline flex items-center gap-1"
-                                >
-                                  <span>{s.pdb_id}</span>
-                                  <ExternalLink size={10} />
-                                </a>
-                              </td>
-                              <td className="p-2.5 text-slate-300">{s.chain_id}</td>
-                              <td className="p-2.5 text-emerald-400">
-                                {s.uniprot_start != null ? `${s.uniprot_start}–${s.uniprot_end}` : "N/A"}
-                              </td>
-                              <td className="p-2.5 text-teal-400">
-                                {s.pdb_start != null ? `${s.pdb_start}–${s.pdb_end}` : "N/A"}
-                              </td>
-                              <td className="p-2.5 text-slate-400">{s.method}</td>
-                              <td className="p-2.5 text-[#8cd1c7]">
-                                {s.resolution ? `${s.resolution} Å` : "N/A"}
-                              </td>
-                              <td className="p-2.5 text-slate-500">{s.mapping_source}</td>
-                            </tr>
-                          ))}
+                          {proteinDetails.experimental_structures.map((s, idx) => {
+                            const isCurrent = activeViewerPdb?.toUpperCase() === s.pdb_id.toUpperCase();
+                            return (
+                              <tr
+                                key={idx}
+                                onClick={() => setSelectedPdbId(s.pdb_id)}
+                                className={`cursor-pointer transition ${isCurrent ? "bg-[#d5a65b]/10 border-l-2 border-[#d5a65b]" : "hover:bg-white/[0.02]"}`}
+                              >
+                                <td className="p-2.5 font-bold text-[#f0c778]">
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="underline decoration-dotted">{s.pdb_id}</span>
+                                    {isCurrent && (
+                                      <span className="font-mono text-[9px] px-1 bg-[#d5a65b] text-black font-bold rounded">
+                                        Active
+                                      </span>
+                                    )}
+                                    <a
+                                      href={`https://www.rcsb.org/structure/${s.pdb_id}`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      onClick={(e) => e.stopPropagation()}
+                                      className="text-slate-400 hover:text-white"
+                                    >
+                                      <ExternalLink size={10} />
+                                    </a>
+                                  </div>
+                                </td>
+                                <td className="p-2.5 text-slate-300">{s.chain_id}</td>
+                                <td className="p-2.5 text-emerald-400">
+                                  {s.uniprot_start != null ? `${s.uniprot_start}–${s.uniprot_end}` : "N/A"}
+                                </td>
+                                <td className="p-2.5 text-teal-400">
+                                  {s.pdb_start != null ? `${s.pdb_start}–${s.pdb_end}` : "N/A"}
+                                </td>
+                                <td className="p-2.5 text-slate-400">{s.method}</td>
+                                <td className="p-2.5 text-[#8cd1c7]">
+                                  {s.resolution ? `${s.resolution} Å` : "N/A"}
+                                </td>
+                                <td className="p-2.5 text-slate-500">{s.mapping_source}</td>
+                              </tr>
+                            );
+                          })}
                         </tbody>
                       </table>
                     </div>
                   ) : (
-                    <div className="text-xs text-slate-400 font-mono p-3 bg-black/20 rounded border border-white/[0.06]">
-                      No experimental crystal structure currently available for this locus in RCSB PDB. (Adhering to strict empirical registration).
+                    <div className="space-y-1.5 text-xs text-slate-300 font-mono p-3.5 bg-black/30 rounded border border-white/[0.08]">
+                      <div className="flex items-center gap-2 text-amber-400 font-semibold">
+                        <AlertTriangle size={14} />
+                        <span>No Direct Extinct Organism Crystal Structure in RCSB PDB</span>
+                      </div>
+                      <p className="text-[11px] text-slate-400 font-sans leading-relaxed">
+                        Authentic prehistoric soft tissues typically cannot be crystallized directly. Per strict empirical standards, no direct crystal entries are attributed to this extinct organism. Below, the validated homologous modern reference structure ({activeSample?.structure?.pdb_id || "scaffold"}) is rendered as an empirical structural scaffold to project ancient substitutions.
+                      </p>
                     </div>
                   )}
 
@@ -1132,22 +1403,52 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                   )}
 
                   {/* 3D MOLECULAR VIEWER */}
-                  {activeSample.structure?.pdb_id && (
-                    <div className="space-y-2 pt-2">
-                      <div className="flex items-center justify-between font-mono text-xs">
-                        <span className="text-slate-300">Active Viewer Model: <strong>{activeSample.structure.pdb_id}</strong></span>
-                        <span className="text-slate-500">Rotate · Zoom · Inspect Mutated Active Sites</span>
+                  {activeViewerPdb && (
+                    <div className="space-y-3 pt-2">
+                      <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-xs">
+                        <div className="flex items-center gap-2">
+                          <span className="text-slate-300">
+                            Active 3D Model: <strong className="text-white text-sm">{activeViewerPdb}</strong>
+                          </span>
+                          {isAuthenticPdb ? (
+                            <span className="font-mono text-[10px] px-2 py-0.5 rounded border border-emerald-500/40 bg-emerald-500/10 text-emerald-300 font-semibold">
+                              Authentic Extinct Crystal Structure
+                            </span>
+                          ) : (
+                            <span className="font-mono text-[10px] px-2 py-0.5 rounded border border-amber-500/40 bg-amber-500/10 text-amber-300 font-semibold">
+                              Homologous Reference Scaffold
+                            </span>
+                          )}
+                        </div>
+                        <div className="font-mono text-[11px] text-slate-400">
+                          {activeSample?.structure?.mutations?.length || 0} ancient diagnostic mutations mapped
+                        </div>
                       </div>
+
+                      {!isAuthenticPdb && activeSample?.structure?.title && (
+                        <div className="rounded border border-amber-500/20 bg-amber-500/[0.04] p-2.5 text-xs text-slate-300 font-sans flex items-start gap-2">
+                          <Info size={14} className="text-amber-400 shrink-0 mt-0.5" />
+                          <div className="space-y-0.5">
+                            <span className="font-semibold text-amber-300">Homologous Modern Reference Scaffold: </span>
+                            <span className="text-slate-200">{activeSample.structure.title}</span>
+                            <span className="text-slate-400"> ({activeSample.structure.resolution_angstrom ? `${activeSample.structure.resolution_angstrom} Å` : "Cryo-EM / X-ray"}).</span>
+                            <span className="text-slate-400 block text-[11px]">
+                              Prehistoric biological tissues cannot typically be crystallized directly. Extinct-specific amino acid substitutions are projected onto this high-resolution extant homolog fold to visualize functional divergence.
+                            </span>
+                          </div>
+                        </div>
+                      )}
+
                       <div className="border border-white/10 bg-black/40 overflow-hidden rounded">
                         <MolecularViewer
-                          pdbId={activeSample.structure.pdb_id}
-                          title={activeSample.structure.title}
-                          resolution={activeSample.structure.resolution_angstrom}
-                          mutations={activeSample.structure.mutations?.map((m) => ({
+                          pdbId={activeViewerPdb}
+                          title={isAuthenticPdb ? `Authentic Experimental Structure PDB ${activeViewerPdb}` : activeSample?.structure?.title}
+                          resolution={isAuthenticPdb ? proteinDetails?.experimental_structures?.find(s => s.pdb_id.toUpperCase() === activeViewerPdb.toUpperCase())?.resolution : activeSample?.structure?.resolution_angstrom}
+                          mutations={activeSample?.structure?.mutations?.map((m) => ({
                             position: m.position,
                             ancestral: m.ancestral_aa,
                             derived: m.derived_aa,
-                            chain: activeSample.structure.chain || "A",
+                            chain: activeSample?.structure?.chain || "A",
                             functional_impact: m.functional_impact,
                           }))}
                         />
@@ -1161,23 +1462,218 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
             {/* TAB CONTENT 4: FEDERATED BIOLOGICAL DBS */}
             {activeTab === "genomics" && (
               <div className="space-y-6">
-                <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-4">
-                  <div className="flex items-center justify-between border-b border-white/[0.08] pb-3">
+                {/* 6 PRIMARY FEDERATED REPOSITORIES */}
+                <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-4 rounded">
+                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.08] pb-3">
                     <div>
-                      <div className="font-mono text-xs uppercase tracking-wider text-[#d5a65b]">
-                        Federated Cross-Database Provenance (SQLite Verified)
+                      <div className="font-mono text-xs uppercase tracking-wider text-[#70c4b5] font-semibold">
+                        Federated Cross-Database Accession Matrix // {proteinDetails?.gene_symbol || activeSample?.gene_symbol || t.target_locus.gene_symbol}
                       </div>
                       <h3 className="font-display text-base text-[#eee9de]">
-                        10 Federated Molecular Databases Linked to {proteinDetails?.gene_symbol || activeSample?.gene_symbol || t.target_locus.gene_symbol}
+                        6 Core Empirical Repositories Linked to {t.common_name} ({t.scientific_name})
                       </h3>
                     </div>
                     <span className="font-mono text-xs text-[#8cd1c7]">
-                      {Object.keys(proteinDetails?.cross_references || {}).length} Cross-Referenced Databases
+                      6 Live Federated DBs
                     </span>
                   </div>
 
-                  {proteinDetails?.cross_references && Object.keys(proteinDetails.cross_references).length > 0 ? (
-                    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                    {/* NCBI Entrez */}
+                    <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2 rounded">
+                      <div className="flex items-center justify-between">
+                        <span className="font-mono text-[11px] uppercase tracking-wider text-[#f0c778] font-semibold">
+                          NCBI Entrez
+                        </span>
+                        {activeSample?.extinct_nucleotide_acc && (
+                          <a
+                            href={`https://www.ncbi.nlm.nih.gov/nuccore/${activeSample.extinct_nucleotide_acc}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
+                      </div>
+                      <div className={`font-mono text-xs ${activeSample?.extinct_nucleotide_acc ? "text-white font-bold" : "text-amber-500/80 italic"}`}>
+                        {activeSample?.extinct_nucleotide_acc ?? "Unverified"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {activeSample?.extinct_nucleotide_acc
+                          ? "Official nucleotide sequence accession in GenBank."
+                          : activeSample?.extinct_nucleotide_validation?.note ?? "No live NCBI Nucleotide record verifiably represents this organism/gene."}
+                      </p>
+                    </div>
+
+                    {/* UniProtKB */}
+                    <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2 rounded">
+                      <div className="flex items-center justify-between">
+                        <span className="font-mono text-[11px] uppercase tracking-wider text-[#70c4b5] font-semibold">
+                          UniProtKB
+                        </span>
+                        {(proteinDetails?.accession || activeSample?.extinct_uniprot_acc) && (
+                          <a
+                            href={`https://www.uniprot.org/uniprotkb/${proteinDetails?.accession || activeSample?.extinct_uniprot_acc}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
+                      </div>
+                      <div className={`font-mono text-xs ${proteinDetails?.accession || activeSample?.extinct_uniprot_acc ? "text-white font-bold" : "text-amber-500/80 italic"}`}>
+                        {(proteinDetails?.accession || activeSample?.extinct_uniprot_acc) ?? "Unverified"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {proteinDetails?.reviewed
+                          ? "Curated Swiss-Prot protein sequence with experimental functional annotation."
+                          : activeSample?.extinct_uniprot_acc
+                          ? "Curated protein sequence and functional annotation entry."
+                          : activeSample?.extinct_uniprot_validation?.note ?? "No defensible UniProt match found for this organism/gene during live audit."}
+                      </p>
+                    </div>
+
+                    {/* RCSB PDB */}
+                    <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2 rounded">
+                      <div className="flex items-center justify-between">
+                        <span className="font-mono text-[11px] uppercase tracking-wider text-[#8cd1c7] font-semibold">
+                          RCSB PDB
+                        </span>
+                        {activeViewerPdb && (
+                          <a
+                            href={`https://www.rcsb.org/structure/${activeViewerPdb}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
+                      </div>
+                      <div className="font-mono text-xs text-white font-bold">
+                        {activeViewerPdb || "None mapped"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {isAuthenticPdb
+                          ? "Experimentally determined crystal structure of extinct organism."
+                          : activeViewerPdb
+                          ? `Validated homologous reference scaffold (${activeSample?.structure?.title || "extant relative"}).`
+                          : "No empirical 3D coordinates registered."}
+                      </p>
+                    </div>
+
+                    {/* KEGG Pathway */}
+                    <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2 rounded">
+                      <div className="flex items-center justify-between">
+                        <span className="font-mono text-[11px] uppercase tracking-wider text-slate-300 font-semibold">
+                          KEGG Pathway
+                        </span>
+                        {activeSample?.pathway?.kegg_id && (
+                          <a
+                            href={`https://www.kegg.jp/entry/${activeSample.pathway.kegg_id}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
+                      </div>
+                      <div className={`font-mono text-xs ${activeSample?.pathway?.kegg_id ? "text-white font-bold" : "text-amber-500/80 italic"}`}>
+                        {activeSample?.pathway?.kegg_id ?? "Unverified"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {activeSample?.pathway?.kegg_id
+                          ? activeSample.pathway.pathway_name
+                          : activeSample?.pathway?.kegg_validation?.note ?? "No live-confirmed KEGG pathway membership exists for this gene."}
+                      </p>
+                    </div>
+
+                    {/* Ensembl Coordinates */}
+                    <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2 rounded">
+                      <div className="flex items-center justify-between">
+                        <span className="font-mono text-[11px] uppercase tracking-wider text-slate-300 font-semibold">
+                          Ensembl Coordinates
+                        </span>
+                        {activeSample?.genomics?.ensembl_species && activeSample?.genomics?.chromosome && (
+                          <a
+                            href={`https://www.ensembl.org/${activeSample.genomics.ensembl_species}/Location/View?r=${activeSample.genomics.chromosome.replace(/^chr/, "")}:${activeSample.genomics.start}-${activeSample.genomics.end}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
+                      </div>
+                      {activeSample?.genomics?.chromosome ? (
+                        <>
+                          <div className="font-mono text-xs text-white font-bold">
+                            {activeSample.genomics.chromosome}:{activeSample.genomics.start}..{activeSample.genomics.end}
+                          </div>
+                          <p className="text-[11px] text-slate-500">
+                            Assembly: {activeSample.genomics.assembly} ({activeSample.genomics.ensembl_species})
+                          </p>
+                        </>
+                      ) : (
+                        <>
+                          <div className="font-mono text-xs text-amber-500/80 italic">Unverified</div>
+                          <p className="text-[11px] text-slate-500">
+                            {activeSample?.genomics?.ensembl_validation?.note ?? "No live-verified Ensembl gene record exists for this organism."}
+                          </p>
+                        </>
+                      )}
+                    </div>
+
+                    {/* Paleobiology Database */}
+                    <div className="border border-white/[0.06] bg-black/25 p-3.5 space-y-2 rounded">
+                      <div className="flex items-center justify-between">
+                        <span className="font-mono text-[11px] uppercase tracking-wider text-[#d5a65b] font-semibold">
+                          PaleoBioDB
+                        </span>
+                        {pbdbClassicUrl && (
+                          <a
+                            href={pbdbClassicUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
+                      </div>
+                      <div className="font-mono text-xs text-white font-bold">
+                        {t.fossil_record?.pbdb_taxon_id ?? "Unverified"}
+                      </div>
+                      <p className="text-[11px] text-slate-500">
+                        {t.fossil_record?.pbdb_taxon_id
+                          ? `${t.fossil_record.fossil_occurrences_count ?? 0} fossil occurrences in Paleobiology Database.`
+                          : "No live PBDB taxon identifier registered."}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* EXTENDED CROSS-REFERENCE REGISTRY (SQLITE & UNIPROT) */}
+                {proteinDetails?.cross_references && Object.keys(proteinDetails.cross_references).length > 0 && (
+                  <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-4 rounded">
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/[0.08] pb-3">
+                      <div>
+                        <div className="font-mono text-xs uppercase tracking-wider text-[#d5a65b]">
+                          Extended Molecular Cross-References (SQLite Registered)
+                        </div>
+                        <h4 className="font-display text-sm text-[#eee9de]">
+                          Secondary Genomic, Structural &amp; Functional Databases for {proteinDetails.gene_symbol} ({proteinDetails.accession})
+                        </h4>
+                      </div>
+                      <span className="font-mono text-xs text-[#8cd1c7]">
+                        {Object.keys(proteinDetails.cross_references).length} Secondary Databases
+                      </span>
+                    </div>
+
+                    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                       {Object.entries(proteinDetails.cross_references).map(([dbName, xrefs]) => (
                         <div key={dbName} className="border border-white/[0.06] bg-black/30 p-3.5 rounded space-y-2">
                           <div className="flex items-center justify-between font-mono text-xs border-b border-white/[0.06] pb-1.5">
@@ -1205,148 +1701,8 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                         </div>
                       ))}
                     </div>
-                  ) : (
-                    <div className="text-xs text-slate-500 font-mono">
-                      No external cross-references registered for this locus.
-                    </div>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* TAB CONTENT 5: TAXON STAGED PROTEOME */}
-            {activeTab === "proteome" && (
-              <div className="space-y-4">
-                <div className="border border-white/[0.08] bg-[#0f1516] p-5 space-y-4">
-                  <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/[0.08] pb-3">
-                    <div>
-                      <div className="font-mono text-xs uppercase tracking-wider text-[#d5a65b]">
-                        Complete Prehistoric Proteome (Staging Database)
-                      </div>
-                      <h3 className="font-display text-base text-[#eee9de]">
-                        All {proteomeList.length} Proteins Extracted for {t.common_name} ({t.scientific_name})
-                      </h3>
-                    </div>
-
-                    <div className="flex flex-wrap items-center gap-2">
-                      <div className="relative">
-                        <Search className="absolute left-2.5 top-2.5 text-slate-500" size={13} />
-                        <input
-                          type="text"
-                          value={proteomeFilter}
-                          onChange={(e) => setProteomeFilter(e.target.value)}
-                          placeholder="Filter by gene, accession, name..."
-                          className="h-8 border border-white/10 bg-black/40 pl-8 pr-3 font-mono text-xs text-slate-200 placeholder-slate-600 outline-none focus:border-[#d5a65b]"
-                        />
-                      </div>
-
-                      <button
-                        onClick={() => setReviewedOnlyFilter(!reviewedOnlyFilter)}
-                        className={`h-8 px-3 border font-mono text-xs transition ${
-                          reviewedOnlyFilter
-                            ? "border-emerald-500/50 bg-emerald-500/10 text-emerald-300 font-semibold"
-                            : "border-white/10 bg-black/20 text-slate-400 hover:text-white"
-                        }`}
-                      >
-                        {reviewedOnlyFilter ? "Reviewed (Swiss-Prot) Only" : "All (Swiss-Prot + TrEMBL)"}
-                      </button>
-                    </div>
                   </div>
-
-                  {proteomeLoading ? (
-                    <div className="flex items-center gap-3 py-8 text-xs text-slate-400 font-mono">
-                      <RotateCw className="animate-spin text-[#d5a65b]" size={16} />
-                      <span>Loading staged proteome records from SQLite...</span>
-                    </div>
-                  ) : (
-                    <div className="overflow-x-auto">
-                      <table className="w-full text-left font-mono text-xs border border-white/[0.06]">
-                        <thead className="bg-black/40 text-slate-400 border-b border-white/[0.08]">
-                          <tr>
-                            <th className="p-2.5">UniProt Accession</th>
-                            <th className="p-2.5">Gene Symbol</th>
-                            <th className="p-2.5">Protein Name</th>
-                            <th className="p-2.5">Status</th>
-                            <th className="p-2.5">Length</th>
-                            <th className="p-2.5">3D Structures</th>
-                            <th className="p-2.5">Literature</th>
-                            <th className="p-2.5 text-right">Action</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-white/[0.04]">
-                          {filteredProteome.slice(0, 100).map((p) => {
-                            const isSelected = selectedProteinAcc === p.accession;
-                            return (
-                              <tr
-                                key={p.accession}
-                                className={`transition ${
-                                  isSelected
-                                    ? "bg-[#d5a65b]/10 border-l-2 border-[#d5a65b]"
-                                    : "hover:bg-white/[0.02]"
-                                }`}
-                              >
-                                <td className="p-2.5 font-bold">
-                                  <button
-                                    onClick={() => setSelectedProteinAcc(p.accession)}
-                                    className={`hover:underline ${isSelected ? "text-[#f0c778]" : "text-[#8cd1c7]"}`}
-                                  >
-                                    {p.accession}
-                                  </button>
-                                </td>
-                                <td className="p-2.5 font-semibold text-white">{p.gene_symbol}</td>
-                                <td className="p-2.5 text-slate-300 max-w-xs truncate" title={p.protein_name}>
-                                  {p.protein_name}
-                                </td>
-                                <td className="p-2.5">
-                                  <span className={`text-[10px] px-1.5 py-0.5 rounded border ${
-                                    p.reviewed
-                                      ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-300"
-                                      : "border-amber-500/30 bg-amber-500/10 text-amber-300"
-                                  }`}>
-                                    {p.reviewed ? "Reviewed" : "TrEMBL"}
-                                  </span>
-                                </td>
-                                <td className="p-2.5 text-slate-400">{p.sequence_length} aa</td>
-                                <td className="p-2.5">
-                                  {p.exp_pdb_count > 0 ? (
-                                    <span className="text-teal-300 font-bold">{p.exp_pdb_count} PDB</span>
-                                  ) : p.af_model_count > 0 ? (
-                                    <span className="text-[#d5a65b]">AlphaFold</span>
-                                  ) : (
-                                    <span className="text-slate-600">—</span>
-                                  )}
-                                </td>
-                                <td className="p-2.5">
-                                  {p.paper_count > 0 ? (
-                                    <span className="text-[#8cd1c7]">{p.paper_count} papers</span>
-                                  ) : (
-                                    <span className="text-slate-600">0</span>
-                                  )}
-                                </td>
-                                <td className="p-2.5 text-right">
-                                  <button
-                                    onClick={() => {
-                                      setSelectedProteinAcc(p.accession);
-                                      setActiveTab("overview");
-                                    }}
-                                    className="px-2 py-0.5 border border-white/10 rounded text-[10px] text-slate-300 hover:border-[#d5a65b] hover:text-[#f0c778]"
-                                  >
-                                    Inspect
-                                  </button>
-                                </td>
-                              </tr>
-                            );
-                          })}
-                        </tbody>
-                      </table>
-                      {filteredProteome.length > 100 && (
-                        <div className="p-2.5 text-center font-mono text-[11px] text-slate-500 bg-black/20 border-t border-white/[0.04]">
-                          Showing first 100 of {filteredProteome.length} matching proteins. Use filter above to refine.
-                        </div>
-                      )}
-                    </div>
-                  )}
-                </div>
+                )}
               </div>
             )}
           </section>
