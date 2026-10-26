@@ -1,6 +1,6 @@
 """
 ENA (European Nucleotide Archive) and DDBJ (DNA Data Bank of Japan) integration client.
-Documents and leverages INSDC cross-mirroring across GenBank, ENA, and DDBJ.
+Documents and queries INSDC cross-mirroring across GenBank, ENA, and DDBJ.
 """
 from __future__ import annotations
 

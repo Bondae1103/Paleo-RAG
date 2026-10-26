@@ -128,7 +128,7 @@ TAXON_QUERY_CONFIG = {
     },
 }
 
-def robust_get(url: str, params: dict | None = None, headers: dict | None = None, timeout: int = 20, max_retries: int = 4) -> requests.Response | None:
+def fetch_with_retry(url: str, params: dict | None = None, headers: dict | None = None, timeout: int = 20, max_retries: int = 4) -> requests.Response | None:
     for attempt in range(1, max_retries + 1):
         try:
             resp = requests.get(url, params=params, headers=headers or HEADERS, timeout=timeout)
@@ -242,7 +242,7 @@ def pull_uniprot_for_taxon(tax_code: str, query: str) -> tuple[int, list[dict], 
 
     while url:
         time.sleep(0.15)  # polite rate-limiting
-        resp = robust_get(url, params=params, timeout=25)
+        resp = fetch_with_retry(url, params=params, timeout=25)
         if resp is None or resp.status_code != 200:
             err_msg = resp.text[:200] if resp else "Connection failed"
             raise RuntimeError(f"UniProt error for {tax_code} page {page_num}: {err_msg}")
@@ -357,7 +357,7 @@ def pull_pdb_for_taxon(tax_code: str, tax_id: int, search_term: str | None = Non
         else:
             # Fetch polymer entity
             pe_url = f"https://data.rcsb.org/rest/v1/core/polymer_entity/{pdb_id}/{entity_id}"
-            pe_resp = robust_get(pe_url, timeout=15)
+            pe_resp = fetch_with_retry(pe_url, timeout=15)
             if pe_resp is None or pe_resp.status_code != 200:
                 continue
             pe_bytes = pe_resp.content
@@ -375,7 +375,7 @@ def pull_pdb_for_taxon(tax_code: str, tax_id: int, search_term: str | None = Non
                 e_json = {}
         else:
             e_url = f"https://data.rcsb.org/rest/v1/core/entry/{pdb_id}"
-            e_resp = robust_get(e_url, timeout=15)
+            e_resp = fetch_with_retry(e_url, timeout=15)
             if e_resp and e_resp.status_code == 200:
                 entry_file.write_bytes(e_resp.content)
                 e_json = e_resp.json()

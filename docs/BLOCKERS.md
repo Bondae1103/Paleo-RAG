@@ -6,7 +6,7 @@ This document records API key requirements, network access constraints, and rate
 
 ## 1. BioGRID Access Key
 * **Constraint**: BioGRID REST API requires an `accesskey` parameter obtained via free academic registration.
-* **Resolution**: BioGRID is made optional. When `BIOGRID_API_KEY` is not present in `.env`, the system gracefully bypasses BioGRID and relies on **STRING DB** (which is open, keyless, and provides extensive confidence scores and evidence channels).
+* **Resolution**: BioGRID is made optional. When `BIOGRID_API_KEY` is not present in `.env`, the system gracefully bypasses BioGRID and relies on **STRING DB**, an open database requiring no API key that supplies confidence scores across multiple evidence channels.
 
 ## 2. NCBI E-utilities Rate Limiting
 * **Constraint**: NCBI enforces a rate limit of 3 requests/second without an API key (10 requests/second with `NCBI_API_KEY`). Requests must include `email` and `tool` parameters per NCBI etiquette.

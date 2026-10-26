@@ -191,7 +191,7 @@ export function AboutPlatformView({
                 <ul className="space-y-1.5 text-xs text-slate-400">
                   <li className="flex items-center gap-2">
                     <CheckCircle2 size={12} className="text-[#70c4b5] shrink-0" />
-                    <span><strong>NCBI &amp; UniProt:</strong> Fetch nucleotide accessions, annotations, and curated protein entries</span>
+                    <span><strong>NCBI &amp; UniProt:</strong> Fetch nucleotide accessions, annotations, and reviewed protein entries</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 size={12} className="text-[#70c4b5] shrink-0" />
@@ -297,7 +297,7 @@ export function AboutPlatformView({
                   }}
                   className="mt-4 flex items-center justify-between border border-white/10 bg-black/20 px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.14em] text-slate-300 transition hover:border-[#d5a65b] hover:text-[#f0c778]"
                 >
-                  <span>Launch Journey</span>
+                  <span>View Workflow</span>
                   <ArrowRight size={12} />
                 </button>
               </div>

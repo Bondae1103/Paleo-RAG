@@ -59,7 +59,7 @@ The repository currently uses file-based storage across multiple directories:
 
 ---
 
-## 3. How Taxa, Proteins, and Mappings are Currently Stored
+## 3. Storage Architecture for Taxa, Protein Records, and Structure Mappings
 
 In the legacy architecture:
 1. **Taxon Level (`backend/data/paleo_atlas_registry.json`)**:
@@ -98,7 +98,7 @@ In the legacy architecture:
 2. Document is saved to `data/raw_pdfs/` and queued in `data/processed/manifest.jsonl`.
 3. Celery task chain executes:
    - `extract_document_metadata`: Reads title, doi, PMC ID, license from file.
-   - `parse_document`: `backend/utils/pdf_parser.py` extracts text blocks, tables, and captions.
+   - `parse_document`: `backend/utils/pdf_parser.py` extracts text blocks, structured tables, and figure captions.
    - `chunk_document`: `backend/core/chunking.py` splits text into section-aware chunks (~512 tokens, 50 overlap, 1024 hard cap) with SHA-256 content hashes.
    - `embed_chunks`: `backend/core/embeddings.py` computes 768-d PubMedBERT dense vectors in batches of 32.
    - `upsert_chunks`: `backend/core/vector_store.py` inserts chunks into Qdrant using deterministic UUID5 point IDs: `_to_qdrant_point_id("{doc_id}::{chunk_index}")`.

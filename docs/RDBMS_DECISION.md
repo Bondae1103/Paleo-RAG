@@ -13,7 +13,7 @@ In response to the question: **"Is an RDBMS necessary? What would be the reason 
 ### The Short Answer:
 - A **client/server RDBMS** (e.g. PostgreSQL, MySQL) is **NOT necessary** and would be harmful overengineering for this project (introduces external daemon dependencies, credential management, container bloat, and deployment friction for a local-first system).
 - However, continuing to use **loosely coupled nested JSON files** is the direct technical cause of the data corruption revealed in Phase P0 (where 88% of PDB structures were mismatched and 58% of proteins were unanchored).
-- The optimal, robust solution that satisfies all Prime Directives with zero operational overhead is **Embedded SQLite (`data/paleo_metadata.db`)** (Option B).
+- The solution that satisfies the project requirements with zero operational overhead is **Embedded SQLite (`data/paleo_metadata.db`)** (Option B).
 - SQLite is built into Python standard library (`import sqlite3`), runs in-process inside a single portable file, enforces foreign keys and uniqueness at the disk layer, handles multi-entity joins cleanly in sub-milliseconds, and exports directly to JSON for frontend consumption.
 
 ---

@@ -51,7 +51,7 @@ Before invoking any external database service, official documentation is verifie
   - Summary: `GET /esummary.fcgi?db=taxonomy&id={tax_id}&retmode=json`
 - **ID Format (Regex)**: `^[0-9]+$` (positive integer)
 - **License / Terms**: US Government Public Domain / Open Data
-- **Rate Limit Policy**: Max 3 requests/sec without API key; up to 10/sec with key. Polite User-Agent and email required.
+- **Rate Limit Policy**: Max 3 requests/sec without API key, or up to 10/sec with key. Polite User-Agent and email required.
 - **Link Template**: `https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id={tax_id}`
 - **Empirical Test Call**:
   - Request: `GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=37349&retmode=json`
@@ -69,7 +69,7 @@ Before invoking any external database service, official documentation is verifie
   - Occurrences by Base Name: `GET /occs/list.json?base_name={name}`
 - **ID Format (Regex)**: `^(txn:)?[0-9]+$`
 - **License / Terms**: Creative Commons CC-BY 4.0
-- **Rate Limit Policy**: Standard academic courtesy; backoff on 429/5xx, disk cache on client.
+- **Rate Limit Policy**: Standard academic courtesy. Backoff on 429/5xx, disk cache on client.
 - **Link Template**: `https://paleobiodb.org/classic/checkTaxonInfo?taxon_no={taxon_no}`
 - **Empirical Test Call**:
   - Request: `GET https://paleobiodb.org/data1.2/taxa/single.json?name=Mammuthus%20primigenius&show=attr`
@@ -88,7 +88,7 @@ Before invoking any external database service, official documentation is verifie
   - UniProt Segments by PDB: `GET /mappings/uniprot_segments/{pdb_id}`
 - **ID Format (Regex)**: UniProt Accession regex (`^[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}$`)
 - **License / Terms**: EMBL-EBI Terms of Use (Open Access for research)
-- **Rate Limit Policy**: Max 15 requests/second; polite client etiquette with descriptive User-Agent.
+- **Rate Limit Policy**: Max 15 requests/second with polite client etiquette and descriptive User-Agent.
 - **Link Template**: `https://www.ebi.ac.uk/pdbe/entry/pdb/{pdb_id}`
 - **Empirical Test Call**:
   - Request: `GET https://www.ebi.ac.uk/pdbe/api/mappings/all_isoforms/D3U1H8`
@@ -105,8 +105,8 @@ Before invoking any external database service, official documentation is verifie
   - Entry Retrieval: `GET /get/{dbentry}`
   - Link Mapping: `GET /link/{target_db}/{source_db}`
 - **ID Format (Regex)**: `^(map|ko|ec)?[0-9]{5}$|^[a-z]{3,4}:[0-9A-Za-z_-]+$`
-- **License / Terms**: Freely accessible for academic, non-commercial research; commercial licensing required for commercial redistribution of bulk database files.
-- **Rate Limit Policy**: Max 3 requests/sec; polite backoff on 429.
+- **License / Terms**: Freely accessible for academic, non-commercial research. Commercial licensing required for commercial redistribution of bulk database files.
+- **Rate Limit Policy**: Max 3 requests/sec with polite backoff on 429.
 - **Link Template**: `https://www.kegg.jp/entry/{identifier}`
 - **Empirical Test Call**:
   - Request: `GET https://rest.kegg.jp/info/pathway`
@@ -122,7 +122,7 @@ Before invoking any external database service, official documentation is verifie
   - Protein Annotations: `GET /protein/uniprot/{accession}`
   - InterPro Entry: `GET /entry/interpro/{entry_acc}`
   - Pfam Entry: `GET /entry/pfam/{pfam_acc}`
-- **ID Format (Regex)**: InterPro: `^IPR[0-9]{6}$`; Pfam: `^PF[0-9]{5}$`
+- **ID Format (Regex)**: InterPro: `^IPR[0-9]{6}$` | Pfam: `^PF[0-9]{5}$`
 - **License / Terms**: CC0 1.0 Universal (Open Data)
 - **Rate Limit Policy**: Up to 15 requests/sec with polite User-Agent.
 - **Link Templates**:
@@ -141,7 +141,7 @@ Before invoking any external database service, official documentation is verifie
 - **Key Endpoints**:
   - Gene Summary: `GET /esummary.fcgi?db=gene&id={gene_id}&retmode=json`
   - Nuccore Fetch: `GET /efetch.fcgi?db=nuccore&id={acc}&retmode=text&rettype=fasta`
-- **ID Format (Regex)**: GeneID: `^[0-9]+$`; RefSeq: `^[A-Z]{2}_[0-9]+(\.[0-9]+)?$`
+- **ID Format (Regex)**: GeneID: `^[0-9]+$` | RefSeq: `^[A-Z]{2}_[0-9]+(\.[0-9]+)?$`
 - **License / Terms**: US Government Public Domain
 - **Rate Limit Policy**: 3 requests/sec without API key.
 - **Link Templates**:
@@ -206,8 +206,8 @@ Before invoking any external database service, official documentation is verifie
 - **Key Endpoints**:
   - Search: `GET /search?query={query}&format=json&resultType=core`
   - Article XML: `GET /article/PMC/{pmcid}/fullTextXML`
-- **ID Format (Regex)**: PMID: `^[0-9]{1,9}$`; PMCID: `^PMC[0-9]{4,9}$`
-- **License / Terms**: CC0 / Open Access for core API; article texts subject to respective publisher/OA licenses (CC-BY, CC-BY-NC, CC0).
+- **ID Format (Regex)**: PMID: `^[0-9]{1,9}$` | PMCID: `^PMC[0-9]{4,9}$`
+- **License / Terms**: CC0 / Open Access for core API, with article texts subject to respective publisher/OA licenses (CC-BY, CC-BY-NC, CC0).
 - **Rate Limit Policy**: Max 10 requests/sec with polite User-Agent.
 - **Link Template**: `https://europepmc.org/article/MED/{identifier}`
 - **Empirical Test Call**:

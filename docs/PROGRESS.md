@@ -17,7 +17,7 @@
   - Configured centralized bio database endpoints, rate limiting, and cache settings in `backend/config.py` and `.env.example`.
   - Created error hierarchy in `backend/utils/error_types.py`.
   - Built `BioHttpClient` in `backend/utils/http_client.py` with disk caching, per-host throttling (NCBI, UniProt, RCSB PDB, STRING), exponential backoff retries, and NCBI etiquette headers.
-  - Defined normalized Pydantic schemas in `backend/api/bio_schemas.py` for sequences, protein records, structures, domains, pathways, and interactions.
+  - Defined normalized Pydantic schemas in `backend/api/bio_schemas.py` for sequence entities, protein records, structural models, functional domains, metabolic pathways, and interaction networks.
   - Implemented `/api/bio/health` endpoint and mounted `bio_router` into FastAPI `app`.
 
 ## Phase 2: Sequence Workbench (Module 1)
@@ -36,7 +36,7 @@
 - **Tests Passing**: 77 / 77 (100% passing across all 14 test modules)
 - **Delivered**:
   - **NCBI Client (`backend/utils/ncbi_client.py`)**: ESearch, ESummary, EFetch for nucleotide accessions, GenBank flatfiles, and mitochondrial genomes with normalized `SequenceRecord` schema.
-  - **UniProt Client (`backend/utils/uniprot_client.py`)**: Swiss-Prot & TrEMBL parser extracting active sites, binding sites, disulfide bonds, PTMs, and legacy PIR cross-references.
+  - **UniProt Client (`backend/utils/uniprot_client.py`)**: Swiss-Prot & TrEMBL parser extracting active sites, binding residues, disulfide bonds, post-translational modifications, and legacy PIR cross-references.
   - **ENA & DDBJ Client (`backend/utils/ena_ddbj_client.py`)**: ENA Browser & Portal API integration with INSDC cross-mirroring.
   - **Taxonomic Expansion Flag (`backend/core/rag_pipeline.py`)**: Added `query_expansion_enabled` and `enable_query_expansion` flag for A/B testing; updated `TaxonResolution` with lineage and confidence.
   - **PDB & CATH/SCOP Client (`backend/utils/pdb_client.py`)**: RCSB PDB metadata and coordinate fetcher, PDBe SIFTS fold lookups (CATH & SCOP), and residue mutation mapping engine for 3D viewer.

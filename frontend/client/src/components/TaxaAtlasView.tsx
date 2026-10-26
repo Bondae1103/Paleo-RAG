@@ -290,7 +290,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
     };
   }, [activeSample, proteinDetails]);
 
-  // Filtered proteome list (with robust fallback to curated molecular samples)
+  // Filtered proteome list (falling back to molecular samples if empty)
   const filteredProteome = useMemo(() => {
     let list: TaxonProteinSummary[] = proteomeList;
     if (list.length === 0 && viewingTaxon?.molecular_samples) {
@@ -1528,9 +1528,9 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                       </div>
                       <p className="text-[11px] text-slate-500">
                         {proteinDetails?.reviewed
-                          ? "Curated Swiss-Prot protein sequence with experimental functional annotation."
+                          ? "Reviewed Swiss-Prot sequence with experimental functional annotation."
                           : activeSample?.extinct_uniprot_acc
-                          ? "Curated protein sequence and functional annotation entry."
+                          ? "Sequence record with functional annotations."
                           : activeSample?.extinct_uniprot_validation?.note ?? "No defensible UniProt match found for this organism/gene during live audit."}
                       </p>
                     </div>
@@ -1823,7 +1823,7 @@ export const TaxaAtlasView: React.FC<TaxaAtlasViewProps> = ({
                 <div className="p-4 pt-0">
                   <div className="flex items-center justify-between border-t border-white/[0.06] pt-3 font-mono text-[10px]">
                     <span className="text-[#8cd1c7]">
-                      {t.molecular_samples?.length || 1} Curated Loci
+                      {t.molecular_samples?.length || 1} Target Loci
                     </span>
                     <span className="text-[#d5a65b] group-hover:translate-x-0.5 transition flex items-center gap-1 font-semibold">
                       Inspect Dossier →

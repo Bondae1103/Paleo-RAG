@@ -1,8 +1,8 @@
 # PaleoDB: Prehistoric Biomolecular Database & Phylogenetic Platform
 
-PaleoDB is a unified prehistoric biomolecular database, phylogenetic atlas, and citation-grounded Retrieval-Augmented Generation (RAG) platform tailored for paleogenomics, evolutionary biology, and molecular database mining. It integrates an 18-taxa Codified Prehistoric Registry with pairwise extant sister-taxon alignments, primary sequence repositories (NCBI GenBank, EMBL-EBI ENA, DDBJ), protein annotation resources (UniProtKB, PIR), macromolecular structural databases (RCSB PDB, CATH, SCOP), functional domain profiles (Pfam, PROSITE), metabolic pathways (KEGG), protein-protein interaction networks (STRING), fossil occurrences (Paleobiology Database PBDB), and comparative genome browsers (Ensembl, UCSC) into an interactive research environment.
+PaleoDB is a bioinformatics platform and citation-grounded retrieval-augmented generation (RAG) system for paleogenomics and evolutionary biology. It combines an 18-taxa prehistoric registry with extant sister-taxon alignments, sequence databases (NCBI GenBank, EMBL-EBI ENA, DDBJ), protein annotations (UniProtKB, PIR), macromolecular structures (RCSB PDB, CATH, SCOP), functional domains (Pfam, PROSITE), metabolic pathways (KEGG), protein interaction networks (STRING), fossil records (Paleobiology Database), and comparative genomics tracks (Ensembl, UCSC).
 
-The platform directly implements and validates all 7 modules of the **Biological Databases Coursework Syllabus (CO1–CO6)**.
+The platform implements all seven modules of the Biological Databases Coursework Syllabus (CO1–CO6).
 
 ---
 
@@ -68,7 +68,7 @@ PaleoRAG provides full, verifiable implementation of the 7-module coursework syl
 
 ## Verified Paleogenomic Case Studies
 
-PaleoRAG includes pre-configured, peer-reviewed case studies linking literature, sequences, structures, pathways, and mutations:
+PaleoRAG includes pre-configured case studies drawn from peer-reviewed literature that connect genomic sequences, structural models, metabolic pathways, and observed mutations:
 
 ### 1. Woolly Mammoth Cold-Adapted Hemoglobin (*Mammuthus primigenius*)
 - **Primary Nucleotide**: GenBank `HQ184444.1` (1060 bp)

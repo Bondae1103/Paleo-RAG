@@ -352,7 +352,7 @@ def run():
                     "cath_code": "1.25.10.10",
                     "scop_fold": "Leucine-rich repeat horseshoe",
                     "mutations": [
-                        {"position": 35, "ancestral_aa": "Q", "derived_aa": "E", "label": "Q35E", "grantham_distance": 29, "functional_impact": "Elevates affinity toward host serine/threonine protein kinase 1"}
+                        {"position": 35, "ancestral_aa": "Q", "derived_aa": "E", "label": "Q35E", "grantham_distance": 29, "functional_impact": "Increases affinity toward host serine/threonine protein kinase 1"}
                     ]
                 },
                 "genomics": {

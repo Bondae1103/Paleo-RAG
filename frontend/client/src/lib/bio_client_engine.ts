@@ -183,7 +183,7 @@ export function convertSequenceClient(
     molecular_weight_kda: Number(((seq.length * 330) / 1000).toFixed(2)),
     ambiguity_index: 0,
     features: [],
-    annotations: { organism: "Curated Organism", molecule_type: "DNA" },
+    annotations: { organism: "Reference Organism", molecule_type: "DNA" },
   };
 
   let outText = "";
@@ -202,10 +202,10 @@ export function convertSequenceClient(
       `DEFINITION  ${desc}`,
       `ACCESSION   ${id}`,
       `VERSION     ${id}.1`,
-      `SOURCE      PaleoRAG Synthetic / Curated`,
+      `SOURCE      PaleoRAG Synthetic / Reference`,
       `FEATURES             Location/Qualifiers`,
       `     source          1..${seq.length}`,
-      `                     /organism="Curated Sample"`,
+      `                     /organism="Reference Sample"`,
       `ORIGIN`,
       ...wrappedLines,
       `//`,
@@ -426,7 +426,7 @@ export function lookupBioClient(query: string, organism?: string): BioLookupResp
     nucleotide_record: {
       id: `${cleanQ}_GENE`,
       name: cleanQ,
-      description: `${cleanQ} curated biological sequence entity`,
+      description: `${cleanQ} biological sequence record`,
       sequence: "ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGGCTGCTGGTCGTCTAC",
       length: 110,
       seq_type: "dna",

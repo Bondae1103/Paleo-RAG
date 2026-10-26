@@ -60,7 +60,7 @@ This document tracks all required decisions, architectural questions, and blocki
   - *Doedicurus clavicaudatus* $\rightarrow$ *Priodontes maximus* / *Dasypus novemcinctus* (Armadillo)
   - *Toxodon platensis* $\rightarrow$ *Ceratotherium simum* / *Equus caballus*
   - *Dinornis robustus* $\rightarrow$ *Apteryx mantelli* (North Island Brown Kiwi)
-- **Action**: Phase P8 will query Ensembl Compara, OrthoDB, and UniProt/NCBI for orthology and chromosomal coordinates.
+- **Action**: Phase P8 will query Ensembl Compara, OrthoDB, along with UniProt and NCBI resources to retrieve orthology mappings and chromosomal coordinates.
 
 ---
 

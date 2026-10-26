@@ -133,7 +133,7 @@ paleo_rag/
 
 ## 5. Prioritized Gap List
 
-1. **Foundations & Shared HTTP Client**: Centralized HTTP client with rate limiting, retries, exponential backoff, caching, and unified Pydantic schemas.
+1. **Foundations & Shared HTTP Client**: Centralized HTTP client featuring rate limiting, retries with exponential backoff, disk caching, and Pydantic validation schemas.
 2. **Sequence Workbench Backend & Tests**: Biopython `SeqIO` format converter, Central Dogma engine, 6-frame translation, ORF detection, and IUPAC validation.
 3. **Biological Database Clients & Tests**:
    - NCBI GenBank / E-utilities, ENA, DDBJ.

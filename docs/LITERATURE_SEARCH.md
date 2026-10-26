@@ -10,9 +10,9 @@ Every paper linked to a protein record carries an explicit `evidence_type`:
 
 | Evidence Tier | Code | Source / Trigger | Precision Profile | Validation Required? |
 |---|---|---|---|---|
-| **Tier A** | `uniprot_citation` | Citations explicitly listed in the protein's UniProtKB record (`references[].citation`). | Ultra-high (manually curated or author-deposited). | Verified PMID/DOI fetch; no text co-occurrence filtering needed. |
+| **Tier A** | `uniprot_citation` | Citations explicitly listed in the protein's UniProtKB record (`references[].citation`). | Ultra-high (manually reviewed or author-deposited). | Verified PMID/DOI fetch; no text co-occurrence filtering needed. |
 | **Tier A** | `pdb_primary_citation` | Primary publication listed for the mapped PDB structure (`rcsb_primary_citation`). | Ultra-high (structural deposition paper). | Verified PMID/DOI fetch; no text co-occurrence filtering needed. |
-| **Tier A** | `xref_link` | Citations directly linked to cross-referenced records (e.g. NCBI Gene PMID cross-references). | High (curated cross-reference). | Verified PMID/DOI fetch. |
+| **Tier A** | `xref_link` | Citations directly linked to cross-referenced records (e.g. NCBI Gene PMID cross-references). | High (verified database cross-reference). | Verified PMID/DOI fetch. |
 | **Tier B** | `keyword_search_validated` | Literature search hits from PubMed and Europe PMC REST APIs using structured boolean queries. | Medium-High (automated query hit). | **Mandatory code validation**: matched taxon name/synonym AND matched gene/protein cue with offsets. |
 
 ---
@@ -72,7 +72,7 @@ Every candidate paper retrieved via Tier B must pass automated text verification
 
 ## 4. Integrity & Licensing Rules (§P6.3 & H8)
 
-1. **Authoritative Retrieval Only**: Every paper must be fetched from NCBI E-utilities or Europe PMC REST API. Title, journal, year, and abstract are stored **as retrieved**.
+1. **Authoritative Retrieval Only**: Every paper must be fetched from NCBI E-utilities or Europe PMC REST API. Title, journal, publication year, and abstract are stored **as retrieved**.
 2. **Deduplication**: Deduplicated across sources by unique primary key: `pmid` (preferred) or canonical lowercase `doi`.
 3. **Retraction Detection**:
    - Source metadata is inspected for publication types: `Retracted Publication`, `retraction-notice`, or Europe PMC `isRetracted == "Y"`.

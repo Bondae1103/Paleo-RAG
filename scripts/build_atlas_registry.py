@@ -113,7 +113,7 @@ ATLAS_ENTRIES = [
         "epoch": "Bronze Age to Medieval (5,000–650 BP)",
         "extinction_date": "Historical ancestral lineage",
         "key_trait": "Pneumonic Virulence Switch",
-        "description": "Plasminogen activator protease on the pPCP1 virulence plasmid where the Bronze Age substitution T259I unlocked acute pneumonic invasiveness.",
+        "description": "Plasminogen activator protease on the pPCP1 virulence plasmid where the Bronze Age substitution T259I enabled acute pneumonic invasiveness.",
         "target_locus": {
             "gene_symbol": "pla",
             "protein_name": "Plasminogen activator protease",

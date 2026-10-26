@@ -1,8 +1,8 @@
 """
 PDF parsing with layout awareness, using PyMuPDF (fitz).
 
-Detects section headers via font size/boldness heuristics (not just regex
-matching on common header strings, since journal templates vary widely),
+Detects section headers using font size and boldness heuristics alongside
+regex pattern matching (since journal templates vary widely),
 and separately flags table-like blocks and figure captions so chunking.py
 can keep them atomic.
 
@@ -59,8 +59,7 @@ def _extract_spans(doc) -> list[_Span]:
 
 def _body_font_size(values: list[float]) -> float:
     """Estimate the body-text font size as the most frequent size (mode),
-    weighted by how many spans use it — this is far more robust than a
-    median/mean when a document has only a couple of large-font headers
+    weighted by span count, which avoids median or mean distortions when a document has only a couple of large-font headers
     among many body-text spans (or, as in small synthetic test fixtures,
     only a handful of spans total where a median gets skewed by headers)."""
     if not values:
